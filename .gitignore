@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs & runtime
+*.log
+logs/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets (defense-in-depth — never commit real keys)
+.env
+.env.*
+*.pem
+*.key
+
+# Local test artifacts
+.cache/
+.pytest_cache/
+htmlcov/
+.coverage

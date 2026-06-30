@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Market News Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Crypto Market News Analyzer</h1>
+    <p class="subtitle">Sentiment &amp; topic trends from live crypto news feeds</p>
+    <p class="updated" id="updated">Loading...</p>
+  </header>
+
+  <main>
+    <section class="cards">
+      <div class="card gauge-card">
+        <h2>Market Sentiment</h2>
+        <div class="gauge-wrap">
+          <canvas id="sentimentGauge"></canvas>
+          <div class="gauge-label" id="sentimentLabel">—</div>
+        </div>
+        <p class="gauge-score" id="sentimentScore">score: —</p>
+      </div>
+
+      <div class="card">
+        <h2>Articles Analyzed</h2>
+        <p class="big-num" id="articleCount">—</p>
+        <p class="muted">last 50 retained</p>
+      </div>
+
+      <div class="card">
+        <h2>Sentiment Mix</h2>
+        <canvas id="mixChart" height="180"></canvas>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Top Coins (mentions)</h2>
+        <canvas id="coinsChart" height="220"></canvas>
+      </div>
+
+      <div class="card">
+        <h2>Top Topics</h2>
+        <canvas id="topicsChart" height="220"></canvas>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Latest Headlines</h2>
+      <div id="headlines" class="headlines">Loading...</div>
+    </section>
+
+    <section class="card">
+      <h2>Method</h2>
+      <p>
+        News scraped from CryptoPanic public API + RSS feeds (CoinDesk,
+        Cointelegraph, The Block, Decrypt, Bitcoin Magazine). Each headline
+        is scored against a curated crypto lexicon (positive/negative terms
+        with weights), then aggregated into a market-level sentiment score
+        in <code>[-1, +1]</code>.
+      </p>
+      <p class="muted">
+        Refresh schedule: every 4 hours via GitHub Actions. Source:
+        <a href="https://github.com/zeus666-s/market-news-analyzer">github.com/zeus666-s/market-news-analyzer</a>.
+      </p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
