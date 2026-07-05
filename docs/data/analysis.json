@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-07-04T20:15:39.505505+00:00",
+  "generated_at": "2026-07-05T09:48:03.183251+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.007,
+    "market_sentiment_score": -0.011,
     "label_distribution": {
-      "neutral": 36,
+      "neutral": 37,
       "bearish": 22,
-      "bullish": 12
+      "bullish": 11
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 33
+        "mentions": 30
       },
       {
         "coin": "OP",
-        "mentions": 16
-      },
-      {
-        "coin": "BTC",
-        "mentions": 8
+        "mentions": 14
       },
       {
         "coin": "ETH",
-        "mentions": 7
+        "mentions": 9
+      },
+      {
+        "coin": "BTC",
+        "mentions": 6
+      },
+      {
+        "coin": "Near",
+        "mentions": 3
       },
       {
         "coin": "FIL",
         "mentions": 3
       },
       {
+        "coin": "Ethereum",
+        "mentions": 2
+      },
+      {
         "coin": "MATIC",
         "mentions": 2
       },
       {
-        "coin": "LINK",
-        "mentions": 2
-      },
-      {
-        "coin": "Near",
-        "mentions": 2
-      },
-      {
-        "coin": "XRP",
+        "coin": "Binance",
         "mentions": 1
       },
       {
-        "coin": "Solana",
+        "coin": "Polkadot",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "topic": "pos",
@@ -62,14 +62,14 @@
       },
       {
         "topic": "etf",
-        "mentions": 7
-      },
-      {
-        "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "exchange",
+        "mentions": 6
+      },
+      {
+        "topic": "sec",
         "mentions": 6
       },
       {
@@ -81,20 +81,174 @@
         "mentions": 4
       },
       {
-        "topic": "onchain",
-        "mentions": 4
+        "topic": "memecoin",
+        "mentions": 3
       },
       {
         "topic": "stablecoin",
         "mentions": 3
       },
       {
-        "topic": "tokenization",
-        "mentions": 2
+        "topic": "onchain",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Binance outflows triple to $1.2B as ETH withdrawals hit 3-year high",
+      "url": "https://cointelegraph.com/news/binance-outflows-1-23-billion-eth-withdrawals-3-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-05T08:33:39+00:00",
+      "summary": "Binance recorded $1.23 billion in weekly net outflows, up 207% from the previous week, as Ethereum withdrawals surged to a three-year high.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
+      "url": "https://www.coindesk.com/markets/2026/07/05/barstool-s-portnoy-plans-to-hold-bitcoin-down-to-zero-after-timing-it-wrong-every-time",
+      "published_at": "2026-07-05T06:00:22+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-05T03:51:24+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Vitalik Buterin shares top priorities for new 'Lean Ethereum' strawmap",
+      "url": "https://cointelegraph.com/news/vitalik-buterin-shares-top-priorities-for-new-lean-ethereum-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-05T03:50:36+00:00",
+      "summary": "Part of the Ethereum Foundation’s plan to make Ethereum more private and scalable is to introduce a new virtual machine, with leanISA and RISC-V among the top candidates.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Moonbeam to pivot from Polkadot to Base, unveils AI agent framework",
+      "url": "https://cointelegraph.com/news/moonbeam-pivots-from-polkadot-to-base-unveils-ai-agent-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-05T00:50:30+00:00",
+      "summary": "Moonbeam didn’t provide a timeline for when it would launch the AI agent platform but told GLMR holders to bridge their tokens from the Polkadot parachain to Base before July 31.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Polkadot",
+        "DOT"
+      ],
+      "topics": [
+        "ai",
+        "bridge"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin ETFs log record eighth straight negative week despite large Thursday inflow",
+      "url": "https://www.theblock.co/post/407173/bitcoin-etfs-log-record-eighth-straight-negative-week-despite-large-thursday-inflow?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-04T23:56:20+00:00",
+      "summary": "Hyperliquid ETFs took in $4.3 million, their smallest week since launching in May, down from a record $111 million the week before.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "negative"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Nearly 1 million wallets are down $3.81 billion on Trump’s memecoin: report",
+      "url": "https://www.theblock.co/post/407170/nearly-1-million-wallets-are-down-3-81-billion-on-trumps-memecoin-report?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-04T20:44:18+00:00",
+      "summary": "Trump's annual financial disclosure showed a $636 million payout tied to the token and more than $1.4 billion in total crypto-related income for 2025.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "memecoin",
+        "wallet"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Tokenization's next use case is personalized portfolios, NYLIM executive says",
@@ -169,6 +323,26 @@
       },
       "coins": [
         "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
+      "url": "https://www.coindesk.com/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk",
+      "published_at": "2026-07-04T18:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "ETH"
       ],
       "topics": []
     },
@@ -378,29 +552,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-04T12:04:07+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout",
       "url": "https://www.coindesk.com/policy/2026/07/04/uk-s-bold-new-crypto-rules-promise-to-unlock-global-trading-but-huge-compliance-hurdles-still-threaten-the-rollout",
@@ -444,10 +595,10 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Tim Draper denies moving Bitcoin, reiterates $250,000 BTC prediction",
+      "title": "Tim Draper says Arkham got Bitcoin wallet attribution ‘wrong’",
       "url": "https://cointelegraph.com/news/tim-draper-denies-moving-bitcoin-250k-btc-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-04T08:31:02+00:00",
-      "summary": "Tim Draper denies moving Bitcoin after blockchain analysts linked him to a wallet that transferred 1,000 BTC to Coinbase Prime.",
+      "summary": "Tim Draper disputes Arkham's Bitcoin wallet attribution, saying: “I haven’t touched it. Arkham has it wrong.”",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -456,12 +607,9 @@
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin",
-        "BTC",
-        "LINK"
+        "Bitcoin"
       ],
       "topics": [
-        "ai",
         "wallet"
       ]
     },
@@ -783,52 +931,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "ESMA warns many prediction market event contracts already face EU retail ban",
-      "url": "https://cointelegraph.com/news/esma-warns-many-prediction-market-contracts-may-be-prohibited-eu-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-03T16:54:20+00:00",
-      "summary": "The European regulator said companies cannot circumvent EU financial rules by marketing binary-style products as event contracts rather than derivatives.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban",
-          "warns"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto Biz: Bitcoin maximalism meets the realities of capital markets",
-      "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-maximalism-meets-capital-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-03T16:03:41+00:00",
-      "summary": "Strategy authorizes Bitcoin sales, Open USD takes on USDT and USDC, Fidelity defends Bitcoin security and crypto ramps up political spending for 2026.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "sec",
-        "usdc",
-        "usdt"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "What Is Q-Day? The Quantum Threat to Bitcoin Explained",
       "url": "https://decrypt.co/resources/what-q-day-quantum-threat-bitcoin-explained",
@@ -847,26 +949,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price tags $62.3K nine-day high after global stocks hit historic record",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-tags-623k-nine-day-high-after-global-stocks-hit-historic-record?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-03T15:11:30+00:00",
-      "summary": "Bitcoin set new highs for July after the Dow Jones and global stocks market cap set new all-time highs before the US Independence Day holiday.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "all-time high"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     },
     {
       "source": "Decrypt",
@@ -1056,28 +1138,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin, ether traders aren't fully buying the bounce, options markets show",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/03/bitcoin-ether-traders-aren-t-fully-buying-the-bounce-options-markets-show",
-      "published_at": "2026-07-03T11:27:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buying"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "‘Markets find their footing’: Bitcoin holds $61,000 rebound ahead of US Independence Day as soft jobs data eases rate fears",
       "url": "https://www.theblock.co/post/407131/markets-find-their-footing-bitcoin-holds-61000-rebound-ahead-of-us-independence-day-as-soft-jobs-data-eases-rate-fears?utm_source=rss&utm_medium=rss",
@@ -1100,64 +1160,6 @@
         "etf",
         "fed",
         "spot etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto bulls on firmer footing as U.S. rate-hike risk recedes",
-      "url": "https://www.coindesk.com/markets/2026/07/03/crypto-bulls-on-firmer-footing-as-u-s-rate-hike-risk-recedes",
-      "published_at": "2026-07-03T11:11:39+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bank of Russia governor says ‘everything is ready’ for widespread use of digital ruble ahead of September rollout",
-      "url": "https://www.theblock.co/post/407124/russia-digital-ruble?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-03T09:16:52+00:00",
-      "summary": "The central bank is also actively discussing the use of stablecoins for international settlements, but only to complement the digital ruble.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "US bitcoin ETFs break 10-day negative streak with $222 million worth of inflows",
-      "url": "https://www.theblock.co/post/407110/us-bitcoin-etfs-222-million-inflows?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-03T07:14:57+00:00",
-      "summary": "BlackRock's IBIT was the only fund to see net outflows on Thursday, shedding $40.4 million and continuing its negative streak.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
       ]
     }
   ]
