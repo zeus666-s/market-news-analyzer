@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-07T07:44:20.276835+00:00",
+  "generated_at": "2026-07-07T11:12:53.877883+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.023,
+    "market_sentiment_score": -0.039,
     "label_distribution": {
-      "neutral": 32,
       "bearish": 21,
-      "bullish": 17
+      "bullish": 13,
+      "neutral": 36
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 34
+        "mentions": 36
       },
       {
         "coin": "OP",
-        "mentions": 22
+        "mentions": 23
       },
       {
         "coin": "ETH",
@@ -28,7 +28,7 @@
       },
       {
         "coin": "Ethereum",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "SOL",
@@ -39,15 +39,15 @@
         "mentions": 4
       },
       {
-        "coin": "MATIC",
+        "coin": "FIL",
         "mentions": 2
       },
       {
-        "coin": "XRP",
-        "mentions": 1
+        "coin": "Sui",
+        "mentions": 2
       },
       {
-        "coin": "Solana",
+        "coin": "Binance",
         "mentions": 1
       }
     ],
@@ -58,7 +58,11 @@
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 17
+      },
+      {
+        "topic": "sec",
+        "mentions": 5
       },
       {
         "topic": "wallet",
@@ -66,18 +70,14 @@
       },
       {
         "topic": "yield",
+        "mentions": 5
+      },
+      {
+        "topic": "pow",
         "mentions": 4
       },
       {
-        "topic": "sec",
-        "mentions": 3
-      },
-      {
-        "topic": "dao",
-        "mentions": 3
-      },
-      {
-        "topic": "governance",
+        "topic": "stablecoin",
         "mentions": 3
       },
       {
@@ -85,16 +85,280 @@
         "mentions": 3
       },
       {
-        "topic": "pow",
-        "mentions": 3
+        "topic": "etf",
+        "mentions": 2
       },
       {
-        "topic": "etf",
+        "topic": "defi",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Ctrl Wallet to shut weeks after security exploit",
+      "url": "https://cointelegraph.com/news/ctrl-wallet-shutdown-security-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-07T10:46:24+00:00",
+      "summary": "The move follows a June 23 exploit that has now resulted in closing down the wallet, with users urged to withdraw their assets before all functions are disabled on Aug. 3, 2026.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin stalls as open interest decline raises questions about rally's staying power",
+      "url": "https://www.coindesk.com/markets/2026/07/07/bitcoin-stalls-as-open-interest-decline-raises-questions-about-rally-s-staying-power",
+      "published_at": "2026-07-07T10:44:09+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "decline"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Vitalik Buterin confirms AI identified his anonymous Ethereum proposal contribution",
+      "url": "https://cointelegraph.com/news/vitalik-buterin-confirms-ai-identified-his-anonymous-ethereum-proposal-contribution?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-07T10:27:04+00:00",
+      "summary": "The Ethereum co-founder said AI recognized his intellectual habits, ending a two-week public challenge to identify an anonymous contribution he made.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin can fall below $58K if one of its 'cleanest' metrics copies history: Analysis",
+      "url": "https://cointelegraph.com/markets/bitcoin-can-fall-below-58k-if-one-of-its-cleanest-metrics-copies-history-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-07T10:14:40+00:00",
+      "summary": "Bitcoin NUPL metric data suggested that BTC price action should make new cycle lows in order to preserve historical patterns.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Galaxy delivers 133 MW of critical IT load to CoreWeave as Helios bitcoin mine turns AI hub",
+      "url": "https://www.theblock.co/post/407396/galaxy-delivers-133-mw-of-critical-it-load-to-coreweave-as-helios-bitcoin-mine-turns-ai-hub?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-07T09:45:09+00:00",
+      "summary": "Galaxy delivered 133 MW of critical IT load to CoreWeave at its Helios campus, completing Phase I of the West Texas site's AI conversion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Digital Chamber amicus brief urges dismissal of NY lawsuit over 39,069 Bitcoin wallets",
+      "url": "https://cointelegraph.com/news/digital-chamber-files-ny-lawsuit-39069-bitcoin-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-07T09:23:39+00:00",
+      "summary": "The Digital Chamber filed an amicus brief urging the dismissal of the New York lawsuit seeking ownership of 39,069 dormant Bitcoin wallets, arguing it would set a dangerous precedent for self-custodial wallets.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "FIL",
+        "Sui"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Tether’s former CIO seeks buyers for part of his stake in the firm: Bloomberg",
+      "url": "https://www.theblock.co/post/407394/tethers-former-cio-seeks-buyers-for-part-of-his-stake-in-the-firm-bloomberg?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-07T09:22:26+00:00",
+      "summary": "Former Tether CIO Richard Heathcote is seeking buyers for part of his 1.26% stake in the firm, according to Bloomberg.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Upbit, Naver stock-swap deal faces second delay amid proposed crypto law debate",
+      "url": "https://www.theblock.co/post/407389/upbit-naver-stock-swap-deal-delay?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-07T09:10:51+00:00",
+      "summary": "The companies said that the development of the country's landmark crypto legislation could affect the deal's progress or outcome.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MiCA-compliant euro stablecoins grew 128% before MiCA transition ended, says Decta",
+      "url": "https://cointelegraph.com/news/mica-euro-stablecoins-growth-casp-deadline-decta-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-07T09:08:45+00:00",
+      "summary": "Decta's report said the market cap of eight MiCA-compliant euro stablecoins rose to $673.9 million in the year before Europe’s CASP transition period ended.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Two traders sue Polymarket over disputed resolution of Strategy bitcoin sale market",
+      "url": "https://www.theblock.co/post/407368/two-traders-sue-polymarket-strategy-bitcoin-sale?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-07T08:34:34+00:00",
+      "summary": "Plaintiffs allege Polymarket wrongly resolved the market as \"No\" despite Strategy's SEC filing disclosing it sold 32 BTC between May 26 and May 31.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "SOL",
+        "FIL"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Binance taps into Bitcoin holders’ hunger for yield with new covered call yield play",
+      "url": "https://www.coindesk.com/markets/2026/07/07/binance-taps-into-bitcoin-holders-hunger-for-yield-with-new-covered-call-yield-play",
+      "published_at": "2026-07-07T08:20:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance"
+      ],
+      "topics": [
+        "yield"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin's recent macro relief faces a challenge from Japanese interest rates",
+      "url": "https://www.coindesk.com/markets/2026/07/07/btc-s-recent-macro-relief-faces-a-challenge-from-japanese-interest-rates",
+      "published_at": "2026-07-07T07:50:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "interest rate",
+        "macro"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Live markets: Bitcoin and ether ETFs drew inflows on Monday",
@@ -481,31 +745,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin recovers from Strategy's BTC sale, funding rates hit 9%: Are bulls back?",
-      "url": "https://cointelegraph.com/markets/bitcoin-recovers-from-strategy-btc-sale-funding-rates-hit-9-are-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-06T21:06:00+00:00",
-      "summary": "Bitcoin sold off as news of Strategy selling BTC shook investors’ nerve but the quick rebound suggests bulls remain ambitiously positioned.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "UK Foreign Secretary Warns of 'AI Hiroshima' if Policymakers Don’t Act",
       "url": "https://decrypt.co/372855/uk-foreign-secretary-warns-ai-hiroshima",
@@ -552,34 +791,6 @@
         "dao",
         "governance",
         "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BonkDAO reports $20M theft from ‘malicious governance proposal’",
-      "url": "https://cointelegraph.com/news/bonk-dao-malicious-governance-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-06T20:55:11+00:00",
-      "summary": "The developers behind the memecoin project said they had informed law enforcement after the attack and were working to “recover funds and identify those responsible.”",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "recover"
-        ],
-        "negative_hits": [
-          "theft"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dao",
-        "governance",
-        "memecoin",
-        "pos"
       ]
     },
     {
@@ -661,29 +872,6 @@
       "topics": [
         "ai",
         "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ripple secures full MiCA license for crypto services across Europe",
-      "url": "https://cointelegraph.com/news/ripple-secures-full-mica-license-for-crypto-services-across-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-06T19:29:13+00:00",
-      "summary": "The Luxembourg approval completes the company's MiCA licensing process, enabling it to provide regulated crypto-asset services across the European Economic Area.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "OP"
-      ],
-      "topics": [
-        "sec"
       ]
     },
     {
@@ -823,32 +1011,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitmine announces $74M Ether buys as chair says ‘greater chances of Clarity Act passage’",
-      "url": "https://cointelegraph.com/news/bitmine-ether-treasury-chances-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-06T17:27:21+00:00",
-      "summary": "Bitmine's big buy contrasts with crypto treasury peer Strategy, which reported selling millions of dollars worth of its Bitcoin holdings on Monday.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy",
-          "buys"
-        ],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "USDT Returns to Bitcoin: RGB and UTEXO Enable Private Lightning Settlements",
       "url": "https://bitcoinmagazine.com/business/usdt-returns-to-bitcoin-rgb-and-utexo-enable-private-lightning-settlements",
@@ -872,27 +1034,6 @@
         "ai",
         "pos",
         "usdt"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "UN agency moves Stellar blockchain payment initiative beyond pilot stage",
-      "url": "https://cointelegraph.com/news/undp-moves-stellar-blockchain-payment-initiative-beyond-pilot-stage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-06T17:08:57+00:00",
-      "summary": "The UN Development Programme said blockchain payment pilots in five countries cut costs, improved resilience and will now inform wider use across its humanitarian and development programs.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Stellar",
-        "OP"
-      ],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -1051,162 +1192,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Mining Stocks Jump After TeraWulf Signs $19 Billion Lease With Anthropic",
-      "url": "https://decrypt.co/372810/bitcoin-mining-stocks-jump-terawulf-19-billion-lease-anthropic",
-      "published_at": "2026-07-06T15:15:36+00:00",
-      "summary": "TeraWulf's 20-year lease deal with Anthropic is expected to generate $19 billion in revenue—and major Bitcoin mining stocks are surging.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Keel jumps 10% after former bitcoin miner hires data center veteran as president",
-      "url": "https://www.theblock.co/post/407300/keel-jumps-10-former-bitcoin-miner-hires-data-center-veteran-president?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-06T15:01:59+00:00",
-      "summary": "Former Digital Realty executive Ganesh Aiyer will lead Keel's commercial growth and power pipeline expansion.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "pow"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Tom Lee’s BitMine Adds $73 Million in Ethereum While Strategy Dumps Bitcoin",
-      "url": "https://decrypt.co/372805/tom-lee-bitmine-73-million-ethereum-strategy-dumps-bitcoin",
-      "published_at": "2026-07-06T14:41:45+00:00",
-      "summary": "BitMine continued its relentless accumulation of Ethereum while Bitcoin's biggest treasury firm parted ways with more of its holdings.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "accumulation"
-        ],
-        "negative_hits": [
-          "dumps"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Russian-Sberbank Plans Crypto Wallet and Digital Depository by December",
-      "url": "https://bitcoinmagazine.com/news/russian-sberbank-plans-crypto-wallet",
-      "published_at": "2026-07-06T14:40:59+00:00",
-      "summary": "Bitcoin Magazine\n\nRussian-Sberbank Plans Crypto Wallet and Digital Depository by December\nRussia's biggest bank, Sberbank, plans to launch a Bitcoin and crypto wallet plus digital asset custody by December as the country rolls out its new crypto framework.\nThis post Russian-Sberbank Plans Crypto Wallet and Digital Depository by December first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Securitize eyes acquisitions with $400 million war chest after going public, CEO says",
-      "url": "https://www.coindesk.com/business/2026/07/06/securitize-eyes-acquisitions-with-usd400-million-war-chest-after-going-public-ceo-says",
-      "published_at": "2026-07-06T14:25:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitmine’s Tom Lee ties ether strength to Clarity Act odds as treasury nears 5% of Ethereum’s total supply",
-      "url": "https://www.theblock.co/post/407283/bitmines-tom-lee-ties-ether-strength-to-clarity-act-odds-as-treasury-nears-5-of-ethereums-total-supply?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-06T14:15:48+00:00",
-      "summary": "Bitmine acquired 42,197 ether worth an estimated $74 million last week, lifting its treasury to over 5.7 million ETH.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "strength"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin miner TeraWulf soars on a $19 billion AI data-center lease with Anthropic",
-      "url": "https://www.coindesk.com/markets/2026/07/06/bitcoin-miner-terawulf-soars-on-a-usd19-billion-ai-data-center-lease-with-anthropic",
-      "published_at": "2026-07-06T14:12:15+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "soars"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "miner"
-      ]
     }
   ]
 }
