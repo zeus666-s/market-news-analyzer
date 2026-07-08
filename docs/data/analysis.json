@@ -1,45 +1,41 @@
 {
-  "generated_at": "2026-07-07T21:27:42.943599+00:00",
+  "generated_at": "2026-07-08T03:18:46.344130+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.023,
+    "market_sentiment_score": 0.025,
     "label_distribution": {
-      "bullish": 19,
       "bearish": 15,
-      "neutral": 36
+      "neutral": 37,
+      "bullish": 18
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 31
+        "mentions": 32
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 21
       },
       {
         "coin": "ETH",
         "mentions": 8
       },
       {
+        "coin": "ARB",
+        "mentions": 5
+      },
+      {
         "coin": "BTC",
         "mentions": 5
       },
       {
-        "coin": "UNI",
-        "mentions": 2
-      },
-      {
-        "coin": "ARB",
-        "mentions": 2
-      },
-      {
         "coin": "Near",
-        "mentions": 2
+        "mentions": 3
       },
       {
-        "coin": "SOL",
+        "coin": "UNI",
         "mentions": 2
       },
       {
@@ -48,6 +44,10 @@
       },
       {
         "coin": "FIL",
+        "mentions": 1
+      },
+      {
+        "coin": "ADA",
         "mentions": 1
       }
     ],
@@ -58,30 +58,30 @@
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 9
       },
       {
         "topic": "exchange",
-        "mentions": 6
+        "mentions": 8
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 5
       },
       {
         "topic": "pow",
         "mentions": 5
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
-      },
-      {
         "topic": "tokenization",
         "mentions": 4
       },
       {
-        "topic": "defi",
+        "topic": "usdt",
         "mentions": 3
       },
       {
@@ -95,6 +95,148 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Strike launches ‘volatility-proof’ Bitcoin loans amid bear market, but at a cost",
+      "url": "https://cointelegraph.com/news/strike-launches-volatility-proof-bitcoin-loans-amid-bear-market-but-at-what-cost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T02:40:13+00:00",
+      "summary": "The cost of eliminating margin calls and forced liquidations is an interest rate as high as 14.2% and an obligation to pay on time, Strike CEO Jack Mallers said.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": [
+          "bear",
+          "liquidations"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "interest rate"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anthropic Removes Hidden Claude Code Tracker After Researchers Raise Privacy Concerns",
+      "url": "https://decrypt.co/372977/anthropic-removes-hidden-claude-code-tracker-privacy",
+      "published_at": "2026-07-07T22:31:03+00:00",
+      "summary": "The company says the tool was designed to stop abuse and AI model extraction, but critics questioned the use of undisclosed monitoring.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "SEC's Long-Promised Crypto Safe Harbor to Be Introduced as Soon as This Month",
+      "url": "https://decrypt.co/372980/sec-crypto-safe-harbor-introduced-soon-this-month",
+      "published_at": "2026-07-07T22:01:32+00:00",
+      "summary": "The SEC updated its agenda to indicate that a key crypto rulemaking is slated to be released for public comment in July.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ARB"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC crypto rule changes are high on its 2026 agenda",
+      "url": "https://cointelegraph.com/news/sec-crypto-rule-changes-2026-agenda?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-07T21:39:48+00:00",
+      "summary": "The financial regulator’s agenda included proposed rule changes related to crypto broker-dealers, digital assets on national securities exchanges and potential safe harbors.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tether Invests $20 Million in Mercado Bitcoin to Fuel Expansion Across Latin America",
+      "url": "https://decrypt.co/372946/tether-invests-20-million-mercado-bitcoin-fuel-expansion-latin-america",
+      "published_at": "2026-07-07T21:31:09+00:00",
+      "summary": "Brazilian crypto exchange Mercado Bitcoin has raised $20 million in fresh investment from USDT stablecoin issuer Tether.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "stablecoin",
+        "usdt"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kraken wins $22 million arbitration against auditor Mazars for ditching the firm during Operation Choke Point 2.0",
+      "url": "https://www.theblock.co/post/407524/kraken-wins-22-million-arbitration-auditor-mazars-for-ditching-during-operation-choke-point-2-0?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-07T21:30:10+00:00",
+      "summary": "Payward sued its former auditor, Mazars, for abandoning a nearly complete audit during Operation Choke Point 2.0.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "wins"
+        ],
+        "negative_hits": [
+          "sued"
+        ]
+      },
+      "coins": [
+        "Near",
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Ether climbs toward $2K as Bitmine buys ETH, Robinhood L2 boost",
@@ -660,7 +802,7 @@
       "title": "Nigel Farage to resign from UK Parliament amid crypto “gift” scandal, will stand in by-election",
       "url": "https://cointelegraph.com/news/nigel-farage-resigns-crypto-donation-scandal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-07T16:27:19+00:00",
-      "summary": "The Reform party leader and Brexit champion confirmed that he was the subject of probes by UK authorities following reports of what he called “gifts” from figures tied to cry pto ventures.",
+      "summary": "The Reform party leader and Brexit champion confirmed that he was the subject of probes by UK authorities following reports of what he called “gifts” from figures tied to crypto ventures.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -1032,152 +1174,6 @@
       ],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Suisse Wins Abu Dhabi License, Extends Digital Asset Push into the UAE",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-suisse-wins-abu-dhabi-license",
-      "published_at": "2026-07-07T13:40:25+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Suisse Wins Abu Dhabi License, Extends Digital Asset Push into the UAE\nBitcoin Suisse won regulatory approval in Abu Dhabi, allowing it to offer institutional crypto services across the UAE.\nThis post Bitcoin Suisse Wins Abu Dhabi License, Extends Digital Asset Push into the UAE first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "institutional",
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Sui"
-      ],
-      "topics": [
-        "pos",
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Has Bitcoin bottomed for this cycle? Analysts say 'not yet'",
-      "url": "https://cointelegraph.com/features/how-much-longer-until-bitcoin-finds-cycle-bottom-analysts-disagree?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-07T13:30:00+00:00",
-      "summary": "Some Bitcoin analysts point to a deeper downside risk, while others believes they can see the early signs of a recovery.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin nears cycle bottom as over half of supply is held at a loss, says K33",
-      "url": "https://cointelegraph.com/news/half-bitcoins-supply-at-loss-cycle-bottom-k33?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-07T13:29:49+00:00",
-      "summary": "K33 said Bitcoin has historically bottomed within weeks of more than half of its circulating supply being held at a loss, with strong one-year returns following in most previous cycles.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "strong"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Tron",
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin, XRP draw Japanese firms as weak yen drives treasury diversification",
-      "url": "https://www.coindesk.com/markets/2026/07/07/bitcoin-xrp-draw-japanese-firms-as-weak-yen-drives-treasury-diversification",
-      "published_at": "2026-07-07T13:26:59+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "weak"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "XRP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bernstein maintains $36 TeraWulf target after $19 billion, 20-year Anthropic lease",
-      "url": "https://www.theblock.co/post/407429/bernstein-maintains-36-terawulf-target-after-19-billion-20-year-anthropic-lease?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-07T13:12:34+00:00",
-      "summary": "Bernstein held its $36 TeraWulf price target after the miner's $19 billion Anthropic lease and $530 million sale of its Abernathy JV stake.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "miner"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin’s early July bounce rides thin summer liquidity as half of supply still sits underwater: analysts",
-      "url": "https://www.theblock.co/post/407414/bitcoins-early-july-bounce-rides-thin-summer-liquidity-as-half-of-supply-still-sits-underwater-analysts?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-07T12:43:32+00:00",
-      "summary": "BTC traded around $63,500 after a six-day rally as Wintermute and Bitfinex flagged weak ETF demand, while K33 said 50% of supply is at a loss.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "rally"
-        ],
-        "negative_hits": [
-          "loss",
-          "weak"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "liquidity",
-        "rwa"
       ]
     }
   ]
