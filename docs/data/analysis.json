@@ -1,37 +1,41 @@
 {
-  "generated_at": "2026-07-08T06:32:27.813383+00:00",
+  "generated_at": "2026-07-08T10:23:15.932583+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.018,
+    "market_sentiment_score": -0.002,
     "label_distribution": {
-      "neutral": 35,
-      "bearish": 16,
-      "bullish": 19
+      "neutral": 38,
+      "bullish": 15,
+      "bearish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 25
       },
       {
         "coin": "OP",
-        "mentions": 22
+        "mentions": 24
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 10
       },
       {
         "coin": "ARB",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "BTC",
-        "mentions": 4
+        "mentions": 3
       },
       {
         "coin": "XRP",
+        "mentions": 2
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
@@ -43,11 +47,7 @@
         "mentions": 2
       },
       {
-        "coin": "Arbitrum",
-        "mentions": 1
-      },
-      {
-        "coin": "FIL",
+        "coin": "LINK",
         "mentions": 1
       }
     ],
@@ -61,24 +61,28 @@
         "mentions": 15
       },
       {
-        "topic": "sec",
-        "mentions": 11
+        "topic": "exchange",
+        "mentions": 9
       },
       {
-        "topic": "exchange",
-        "mentions": 10
+        "topic": "sec",
+        "mentions": 9
       },
       {
         "topic": "stablecoin",
-        "mentions": 5
-      },
-      {
-        "topic": "pow",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "tokenization",
         "mentions": 4
+      },
+      {
+        "topic": "pow",
+        "mentions": 4
+      },
+      {
+        "topic": "onchain",
+        "mentions": 3
       },
       {
         "topic": "usdt",
@@ -87,14 +91,133 @@
       {
         "topic": "regulatory",
         "mentions": 3
-      },
-      {
-        "topic": "cex",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Reserve Bank of India still favors crypto prohibition to curtail tax evasion: Reuters",
+      "url": "https://www.coindesk.com/policy/2026/07/08/reserve-bank-of-india-still-favors-crypto-prohibition-to-curtail-tax-evasion-reuters",
+      "published_at": "2026-07-08T09:45:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Nigel Farage to quit UK Parliament, seek new mandate amid probes into crypto-linked gifts",
+      "url": "https://www.theblock.co/post/407542/nigel-farage-to-quit-uk-parliament-seek-new-mandate-amid-probes-into-crypto-linked-gifts?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-08T09:04:59+00:00",
+      "summary": "Nigel Farage resigned as an MP amid two probes over gifts from Tether investor Christopher Harborne and convicted fraudster George Cottrell.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "LINK",
+        "ARB",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Base to activate B20 standard for stablecoins, RWAs and other tokens",
+      "url": "https://cointelegraph.com/news/base-to-activate-b20-standard-for-stablecoins-rwas-and-other-tokens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T08:46:02+00:00",
+      "summary": "Base is scheduled to activate its B20 token standard on Wednesday at 6 pm UTC, allowing developers to begin creating native tokens on the network.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "rwa",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Validators embrace XRP Ledger's recent upgrade. But not everyone’s on board yet",
+      "url": "https://www.coindesk.com/tech/2026/07/08/xrp-ledger-s-new-upgrade-is-here-but-not-everyone-s-on-board-yet",
+      "published_at": "2026-07-08T08:40:22+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": [
+        "validator",
+        "validators"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Tom Lee’s Bitmine adds $70 million worth of ETH to treasury: onchain analyst",
+      "url": "https://www.theblock.co/post/407536/tom-lee-bitmine-reportedly-adds-70-million?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-08T07:31:47+00:00",
+      "summary": "Bitmine's most recent disclosure shows that it holds 5.74 million ETH, roughly 4.8% of Ethereum's circulating supply.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "EU to again vote to extend ‘chat control’ rules",
+      "url": "https://cointelegraph.com/news/eu-to-again-vote-to-extend-chat-control-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T06:33:46+00:00",
+      "summary": "So-called “chat control” rules could be revived in the EU, with lawmakers again set to vote on the legislation Thursday.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Federal judge denies Kalshi’s bid to block New York gambling law enforcement",
@@ -183,26 +306,29 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live markets: Japan's collapsing yen is pushing companies into bitcoin and XRP",
+      "title": "Live markets: Bitcoin drops as yen, Iran ceasefire collapse",
       "url": "https://www.coindesk.com/tech/2026/07/08/live-markets-japan-s-collapsing-yen-is-pushing-companies-into-bitcoin-and-xrp",
       "published_at": "2026-07-08T05:29:16+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
         "positive_hits": [],
-        "negative_hits": []
+        "negative_hits": [
+          "collapse",
+          "drops"
+        ]
       },
       "coins": [
         "Bitcoin",
-        "XRP"
+        "OP"
       ],
       "topics": []
     },
     {
       "source": "CoinDesk",
-      "title": "Bitcoin under pressure as U.S.-Iran escalation lifts oil",
+      "title": "Bitcoin under pressure as Trump says Iran ceasefire is over",
       "url": "https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil",
       "published_at": "2026-07-08T04:30:24+00:00",
       "summary": "",
@@ -951,22 +1077,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Nigel Farage to resign from UK Parliament amid crypto “gift” scandal, will stand in by-election",
-      "url": "https://cointelegraph.com/news/nigel-farage-resigns-crypto-donation-scandal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-07T16:27:19+00:00",
-      "summary": "The Reform party leader and Brexit champion confirmed that he was the subject of probes by UK authorities following reports of what he called “gifts” from figures tied to crypto ventures.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "CoinDesk",
       "title": "SpaceX IPO powers record $3.86 billion in tokenized equities trading in June",
       "url": "https://www.coindesk.com/markets/2026/07/07/spacex-ipo-powers-record-usd3-86-billion-in-tokenized-equities-trading-in-june",
@@ -983,27 +1093,6 @@
       "topics": [
         "cex",
         "pow"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Institutional crypto exchange EDX lands $76M from SBI Holdings",
-      "url": "https://cointelegraph.com/news/institutional-crypto-exchange-edx-lands-76m-from-sbi-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-07T16:16:35+00:00",
-      "summary": "The funding round comes as institutional investors continue backing crypto market infrastructure despite slower venture investment across the digital asset sector.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "sec"
       ]
     },
     {
@@ -1109,83 +1198,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Tether Invests $20 Million in Brazil’s Mercado Bitcoin",
-      "url": "https://bitcoinmagazine.com/news/tether-invests-20-million-mercado-bitcoin",
-      "published_at": "2026-07-07T15:01:57+00:00",
-      "summary": "Bitcoin Magazine\n\nTether Invests $20 Million in Brazil&#8217;s Mercado Bitcoin\nTether invested $20 million in Brazil's Mercado Bitcoin to expand regulated blockchain finance, tokenization and stablecoin infrastructure across Latin America.\nThis post Tether Invests $20 Million in Brazil&#8217;s Mercado Bitcoin first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "stablecoin",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Analysts see more upside for SpaceX as post-IPO research begins",
-      "url": "https://www.coindesk.com/markets/2026/07/07/analysts-see-more-upside-for-spacex-as-post-ipo-research-begins",
-      "published_at": "2026-07-07T14:39:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cex",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Multi-trillion-dollar asset manager Vanguard hiring crypto exec to help influence market",
-      "url": "https://www.theblock.co/post/407441/vanguard-hiring-crypto-exec-to-help-influence-market?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-07T14:36:12+00:00",
-      "summary": "The firm's head of digital assets will lead Vanguard's crypto-related strategy for personal wealth clients and interact with regulators.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Vanguard opens search for digital assets leader in sign of evolving crypto strategy",
-      "url": "https://www.coindesk.com/markets/2026/07/07/vanguard-opens-search-for-digital-assets-leader-in-sign-of-evolving-crypto-strategy",
-      "published_at": "2026-07-07T14:28:37+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
