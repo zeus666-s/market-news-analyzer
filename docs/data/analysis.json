@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-08T03:18:46.344130+00:00",
+  "generated_at": "2026-07-08T06:32:27.813383+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.025,
+    "market_sentiment_score": 0.018,
     "label_distribution": {
-      "bearish": 15,
-      "neutral": 37,
-      "bullish": 18
+      "neutral": 35,
+      "bearish": 16,
+      "bullish": 19
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 32
+        "mentions": 28
       },
       {
         "coin": "OP",
-        "mentions": 21
+        "mentions": 22
       },
       {
         "coin": "ETH",
@@ -24,49 +24,49 @@
       },
       {
         "coin": "ARB",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "BTC",
-        "mentions": 5
+        "mentions": 4
+      },
+      {
+        "coin": "XRP",
+        "mentions": 2
       },
       {
         "coin": "Near",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "coin": "UNI",
         "mentions": 2
       },
       {
-        "coin": "Tron",
-        "mentions": 2
-      },
-      {
-        "coin": "FIL",
+        "coin": "Arbitrum",
         "mentions": 1
       },
       {
-        "coin": "ADA",
+        "coin": "FIL",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 38
+        "mentions": 39
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 15
       },
       {
         "topic": "sec",
-        "mentions": 9
+        "mentions": 11
       },
       {
         "topic": "exchange",
-        "mentions": 8
+        "mentions": 10
       },
       {
         "topic": "stablecoin",
@@ -95,6 +95,182 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Federal judge denies Kalshi’s bid to block New York gambling law enforcement",
+      "url": "https://www.theblock.co/post/407529/judge-denies-kalshi-motion-new-york?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-08T06:31:22+00:00",
+      "summary": "The judge said New York gambling laws, as applied to Kalshi's sports-event contracts, are not preempted by the federal Commodity Exchange Act.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "fed"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T06:05:32+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap",
+      "url": "https://cointelegraph.com/news/starkware-ceo-suggests-4-annual-bitcoin-inflation-to-replace-21m-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T05:48:42+00:00",
+      "summary": "StarkWare CEO Eli Ben-Sasson argued that Bitcoin private keys get lost over time, meaning the amount of usable Bitcoin will diminish. Many disagree.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Swyftx eyes crypto payments after securing Australian license",
+      "url": "https://cointelegraph.com/news/swyftx-eyes-crypto-payments-space-after-securing-australian-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T05:30:03+00:00",
+      "summary": "Swyftx interim co-CEO Andrea Yuen says the company \"won’t be a pure crypto spot exchange in future,” after it secured a license allowing it to offer payment services.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "secured"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live markets: Japan's collapsing yen is pushing companies into bitcoin and XRP",
+      "url": "https://www.coindesk.com/tech/2026/07/08/live-markets-japan-s-collapsing-yen-is-pushing-companies-into-bitcoin-and-xrp",
+      "published_at": "2026-07-08T05:29:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin under pressure as U.S.-Iran escalation lifts oil",
+      "url": "https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil",
+      "published_at": "2026-07-08T04:30:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Secret Network cites AI exploit risks in proposed Arbitrum move",
+      "url": "https://cointelegraph.com/news/secret-network-cites-ai-exploit-risks-in-proposed-arbitrum-move?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T03:54:27+00:00",
+      "summary": "“The security risk is the part we take most seriously,” the team said, citing old code and AI exploit risks.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "risk",
+          "risks"
+        ]
+      },
+      "coins": [
+        "Arbitrum",
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC charges commodity, crypto pool operator with $14M fraud",
+      "url": "https://cointelegraph.com/news/cftc-charges-commodity-crypto-pool-operator-with-14m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T03:25:30+00:00",
+      "summary": "The CFTC has launched a rare crypto-related enforcement action against a commodity pool operator that allegedly defrauded investors of more than $14 million.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Strike launches ‘volatility-proof’ Bitcoin loans amid bear market, but at a cost",
@@ -441,29 +617,6 @@
       "topics": [
         "pos",
         "pow"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-07T19:39:15+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -938,29 +1091,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off",
-      "url": "https://cointelegraph.com/markets/bitcoin-bulls-battle-for-63k-as-micron-stock-eyes-10-drop-in-us-chip-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-07T15:13:25+00:00",
-      "summary": "Bitcoin came off two-week highs while US stocks dipped and John Bollinger described BTC price action as \"at a critical point.\"",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop",
-          "sell-off"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Gemini offers 0% stock trading in US as it looks to become ‘all-in-one financial super app’",
       "url": "https://www.theblock.co/post/407449/gemini-offers-0-stock-trading-in-us-become-all-in-one-financial-super-app?utm_source=rss&utm_medium=rss",
@@ -1003,24 +1133,6 @@
         "stablecoin",
         "tokenization"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin Covenants part 3: SIGHASH_ANYPREVOUT",
-      "url": "https://cointelegraph.com/research/bitcoin-covenants-part-3-sighash-anyprevout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-07T15:00:00+00:00",
-      "summary": "APO lets a Bitcoin signature authorize any compatible UTXO rather than one fixed outpoint. It allows for rebindable pre-signed transactions for Lightning, vaults, and layer-2 protocols without new key management overhead.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     },
     {
       "source": "CoinDesk",
@@ -1074,107 +1186,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "AI trade loses steam as infrastructure boom faces reality check",
-      "url": "https://www.coindesk.com/markets/2026/07/07/ai-trade-loses-steam-as-infrastructure-boom-faces-reality-check",
-      "published_at": "2026-07-07T14:17:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loses"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "EDX Markets raises $76 million in funding round led by SBI Holdings",
-      "url": "https://www.coindesk.com/business/2026/07/07/edx-markets-raises-usd76-million-in-funding-round-led-by-sbi-holdings",
-      "published_at": "2026-07-07T14:07:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "U.S. Bitcoin Reserve Stalls as Treasury and Commerce Vie for Control: Report",
-      "url": "https://bitcoinmagazine.com/news/u-s-bitcoin-reserve-stalls-control-report",
-      "published_at": "2026-07-07T14:04:14+00:00",
-      "summary": "Bitcoin Magazine\n\nU.S. Bitcoin Reserve Stalls as Treasury and Commerce Vie for Control: Report\nA dispute between the Treasury and Commerce departments over who should oversee the proposed U.S. Strategic Bitcoin Reserve has delayed its rollout more than a year after President Trump ordered its creation, according to a Bloomberg report.\nThis post U.S. Bitcoin Reserve Stalls as Treasury and Commerce Vie for Control: Report first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Coinbase Wins UK License to Offer Stocks and Derivatives Alongside Crypto",
-      "url": "https://decrypt.co/372912/coinbase-wins-uk-license-to-offer-stocks-and-derivatives-alongside-crypto",
-      "published_at": "2026-07-07T13:48:44+00:00",
-      "summary": "The FCA authorization lets the exchange offer equities and derivatives to UK users, a step toward its \"everything exchange\" ambitions.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Former Tether investment chief is looking to sell part of his stake in the stablecoin giant: Bloomberg",
-      "url": "https://www.coindesk.com/business/2026/07/07/former-tether-investment-chief-is-looking-to-sell-part-of-his-stake-in-the-stablecoin-giant-bloomberg",
-      "published_at": "2026-07-07T13:46:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
     }
   ]
 }
