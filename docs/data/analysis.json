@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-07-08T17:42:07.684745+00:00",
+  "generated_at": "2026-07-08T21:12:40.532642+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.032,
+    "market_sentiment_score": -0.02,
     "label_distribution": {
-      "neutral": 39,
-      "bearish": 19,
+      "neutral": 41,
+      "bearish": 17,
       "bullish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 19
+        "mentions": 17
+      },
+      {
+        "coin": "ETH",
+        "mentions": 7
       },
       {
         "coin": "BTC",
-        "mentions": 6
+        "mentions": 7
       },
       {
-        "coin": "ADA",
-        "mentions": 5
-      },
-      {
-        "coin": "FIL",
+        "coin": "Near",
         "mentions": 5
       },
       {
@@ -35,16 +35,16 @@
         "mentions": 5
       },
       {
-        "coin": "ETH",
-        "mentions": 5
+        "coin": "ADA",
+        "mentions": 4
+      },
+      {
+        "coin": "FIL",
+        "mentions": 4
       },
       {
         "coin": "SOL",
-        "mentions": 4
-      },
-      {
-        "coin": "Near",
-        "mentions": 4
+        "mentions": 3
       },
       {
         "coin": "BNB",
@@ -54,47 +54,285 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 33
       },
       {
         "topic": "pos",
-        "mentions": 11
+        "mentions": 12
       },
       {
         "topic": "stablecoin",
-        "mentions": 6
-      },
-      {
-        "topic": "pow",
-        "mentions": 5
+        "mentions": 8
       },
       {
         "topic": "sec",
-        "mentions": 5
+        "mentions": 4
+      },
+      {
+        "topic": "pow",
+        "mentions": 4
       },
       {
         "topic": "exchange",
         "mentions": 4
       },
       {
+        "topic": "wallet",
+        "mentions": 3
+      },
+      {
         "topic": "tokenization",
         "mentions": 3
       },
       {
-        "topic": "regulation",
+        "topic": "yield",
         "mentions": 2
       },
       {
-        "topic": "mining",
-        "mentions": 2
-      },
-      {
-        "topic": "wallet",
+        "topic": "defi",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Binance Wallet adds Plume’s yield vault offering access to Invesco and Bitwise funds",
+      "url": "https://www.theblock.co/post/407632/binance-wallet-plume-yield-vault-invesco-bitwise-funds?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-08T21:00:02+00:00",
+      "summary": "Binance Wallet has added Plume's yield vault, giving users access to tokenized funds managed by Invesco and Bitwise.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "wallet",
+        "yield"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘Best course of action:’ DeFi dashboard Zapper to shut down after 7 years",
+      "url": "https://www.theblock.co/post/407634/defi-dashboard-zapper-shut-down-after-7-years?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-08T20:57:05+00:00",
+      "summary": "Zapper, which started as a portfolio tracker, raised a $15 million Series A led by Framework Ventures in May 2021.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "defi"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Paradigm Raises $1.2 Billion Fund as Crypto VC Pushes Further Into AI",
+      "url": "https://decrypt.co/373088/paradigm-billion-fund-crypto-vc-ai",
+      "published_at": "2026-07-08T20:40:38+00:00",
+      "summary": "The investment firm said its fourth fund will back AI, robotics, and crypto startups as it broadens beyond digital assets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tokenized stock transfers surge 105% in a month to $8.4B",
+      "url": "https://cointelegraph.com/news/tokenized-stock-transfers-surge-105-in-a-month-to-84b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T20:29:10+00:00",
+      "summary": "Industry data shows trading activity and market value accelerating as crypto companies and traditional financial institutions expand tokenized equity initiatives.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Stalls as Ethereum Flashes Worst Weekly Signal in Years: Analysis",
+      "url": "https://decrypt.co/373060/bitcoin-price-stalls-ethereum-flashes-worst-weekly-signal-years",
+      "published_at": "2026-07-08T19:23:13+00:00",
+      "summary": "Bitcoin is looking slightly more optimistic but failed the breakout everyone was watching. Meanwhile, ETH just printed a weekly death cross for the first time in years.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "optimistic"
+        ],
+        "negative_hits": [
+          "failed"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T19:22:58+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Officials set to revise MiCA to cover non-EU stablecoin issuers: Report",
+      "url": "https://cointelegraph.com/news/officials-revise-mica-non-eu-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T19:14:15+00:00",
+      "summary": "EU officials reportedly plan to consider changes to the Markets in Crypto-Assets framework, dubbed by some as “MiCA 2.0,” in response to a US stablecoin law and rules on tokenized payments and deposits.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Cash App owner Block to pay $45 million after states say it made false security promises",
+      "url": "https://www.theblock.co/post/407623/cash-app-owner-block-pay-45-million-states-say-it-made-false-security-promises?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-08T19:00:29+00:00",
+      "summary": "Block Inc. has agreed to pay $45 million to settle allegations brought by regulators in nearly every U.S. state.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin peels back to $62K as Fed-wary futures traders cut risk: Is the BTC rally over?",
+      "url": "https://cointelegraph.com/markets/bitcoin-peels-back-to-62k-as-fed-wary-futures-traders-cut-risk-is-the-btc-rally-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-08T18:41:25+00:00",
+      "summary": "Bitcoin hovered around the $62,000 mark following a spike in oil prices, escalating hot war in Iran and traders’ move to cut risk ahead of a Federal Reserve policy statement.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "fed",
+        "futures"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin ETFs 'Turning a Corner' After Record Bleed Hits $8 Billion",
+      "url": "https://decrypt.co/373029/bitcoin-etfs-turning-corner-after-record-bleed",
+      "published_at": "2026-07-08T18:24:56+00:00",
+      "summary": "Investors had backed away from Bitcoin since mid-May.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "CFTC Chair Says Clarity Act Is ‘So Close’ As August Deadline Nears",
+      "url": "https://bitcoinmagazine.com/news/cftc-chair-says-clarity-act-is-so-close",
+      "published_at": "2026-07-08T17:55:34+00:00",
+      "summary": "Bitcoin Magazine\n\nCFTC Chair Says Clarity Act Is ‘So Close’ As August Deadline Nears\nCFTC Chairman Michael Selig urged Congress to pass the Clarity Act before the August recess, saying the crypto market-structure bill is \"so close\" despite ongoing disputes over ethics and stablecoin provisions.\nThis post CFTC Chair Says Clarity Act Is ‘So Close’ As August Deadline Nears first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "pos",
+        "stablecoin"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Adam Back’s Bitcoin treasury company seeks new terms with Cantor for SPAC merger",
@@ -496,7 +734,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Adam Back's BSTR scraps SPAC merger, seeks new deal",
+      "title": "Adam Back's bitcoin treasury firm scraps SPAC merger, seeks new deal",
       "url": "https://www.coindesk.com/markets/2026/07/08/adam-back-s-bstr-scraps-original-spac-terms-seeks-new-deal",
       "published_at": "2026-07-08T14:17:26+00:00",
       "summary": "",
@@ -508,6 +746,7 @@
         "negative_hits": []
       },
       "coins": [
+        "Bitcoin",
         "ADA"
       ],
       "topics": []
@@ -756,29 +995,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-08T12:43:17+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Bankers Filed Suspicious Activity Report Over Farage's £5M Gift From Tether Billionaire",
       "url": "https://decrypt.co/372994/bankers-filed-suspicious-activity-report-over-farages-5m-gift-from-tether-billionaire",
@@ -895,48 +1111,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "ESMA turns spotlight on crypto custody risks after MiCA transition",
-      "url": "https://cointelegraph.com/news/esma-crypto-custody-scrutiny-mica-transition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-08T10:49:21+00:00",
-      "summary": "The EU securities regulator will assess custody providers’ key management, incident response and reliance on third-party technology providers.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risks"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Kalshi files same-day appeal of NY court's rejection of bid to block state gambling law enforcement",
-      "url": "https://cointelegraph.com/news/kalshi-appeals-new-york-sports-event-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-08T10:37:52+00:00",
-      "summary": "Kalshi appealed to the Second Circuit after a New York federal judge denied its request to block state gambling officials from enforcing local laws against its sports event contracts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "sec"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Crypto and stocks tumble after Trump declares ceasefire 'over' following Iran strikes",
       "url": "https://www.coindesk.com/markets/2026/07/08/crypto-and-stocks-tumble-after-trump-declares-ceasefire-over-following-iran-strikes",
@@ -973,27 +1147,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Berachain hard fork to replace dual-token model with WBERA rewards",
-      "url": "https://cointelegraph.com/news/berachain-hard-fork-single-token-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-08T10:21:12+00:00",
-      "summary": "Berachain launched the first stage of its PoL Next upgrade, which will phase out the BGT token and shift the network's reward system to WBERA.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launched",
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Reserve Bank of India still favors crypto prohibition to curtail tax evasion: Reuters",
       "url": "https://www.coindesk.com/policy/2026/07/08/reserve-bank-of-india-still-favors-crypto-prohibition-to-curtail-tax-evasion-reuters",
@@ -1007,156 +1160,6 @@
         "negative_hits": []
       },
       "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Nigel Farage to quit UK Parliament, seek new mandate amid probes into crypto-linked gifts",
-      "url": "https://www.theblock.co/post/407542/nigel-farage-to-quit-uk-parliament-seek-new-mandate-amid-probes-into-crypto-linked-gifts?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-08T09:04:59+00:00",
-      "summary": "Nigel Farage resigned as an MP amid two probes over gifts from Tether investor Christopher Harborne and convicted fraudster George Cottrell.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "LINK",
-        "ARB",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Validators embrace XRP Ledger's recent upgrade. But not everyone’s on board yet",
-      "url": "https://www.coindesk.com/tech/2026/07/08/xrp-ledger-s-new-upgrade-is-here-but-not-everyone-s-on-board-yet",
-      "published_at": "2026-07-08T08:40:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP"
-      ],
-      "topics": [
-        "validator",
-        "validators"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tom Lee’s Bitmine adds $70 million worth of ETH to treasury: onchain analyst",
-      "url": "https://www.theblock.co/post/407536/tom-lee-bitmine-reportedly-adds-70-million?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-08T07:31:47+00:00",
-      "summary": "Bitmine's most recent disclosure shows that it holds 5.74 million ETH, roughly 4.8% of Ethereum's circulating supply.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Federal judge denies Kalshi’s bid to block New York gambling law enforcement",
-      "url": "https://www.theblock.co/post/407529/judge-denies-kalshi-motion-new-york?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-08T06:31:22+00:00",
-      "summary": "The judge said New York gambling laws, as applied to Kalshi's sports-event contracts, are not preempted by the federal Commodity Exchange Act.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live markets: Bitcoin drops to $62,000, stocks slide, oil soars as Iran ceasefire collapses",
-      "url": "https://www.coindesk.com/tech/2026/07/08/live-markets-japan-s-collapsing-yen-is-pushing-companies-into-bitcoin-and-xrp",
-      "published_at": "2026-07-08T05:29:16+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "soars"
-        ],
-        "negative_hits": [
-          "collapses",
-          "drops"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin under pressure as Trump says Iran ceasefire is over",
-      "url": "https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil",
-      "published_at": "2026-07-08T04:30:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Anthropic Removes Hidden Claude Code Tracker After Researchers Raise Privacy Concerns",
-      "url": "https://decrypt.co/372977/anthropic-removes-hidden-claude-code-tracker-privacy",
-      "published_at": "2026-07-07T22:31:03+00:00",
-      "summary": "The company says the tool was designed to stop abuse and AI model extraction, but critics questioned the use of undisclosed monitoring.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
       "topics": [
         "ai"
       ]
