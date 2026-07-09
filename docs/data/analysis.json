@@ -1,100 +1,470 @@
 {
-  "generated_at": "2026-07-09T18:00:20.912161+00:00",
+  "generated_at": "2026-07-09T21:26:20.831013+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.007,
+    "market_sentiment_score": -0.02,
     "label_distribution": {
-      "bearish": 16,
+      "bearish": 18,
       "neutral": 38,
-      "bullish": 16
+      "bullish": 14
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 19
-      },
-      {
-        "coin": "SOL",
-        "mentions": 6
+        "mentions": 23
       },
       {
         "coin": "ETH",
-        "mentions": 4
+        "mentions": 5
+      },
+      {
+        "coin": "SOL",
+        "mentions": 5
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 3
       },
       {
         "coin": "Near",
         "mentions": 3
       },
       {
+        "coin": "Avalanche",
+        "mentions": 2
+      },
+      {
+        "coin": "ADA",
+        "mentions": 2
+      },
+      {
+        "coin": "FIL",
+        "mentions": 2
+      },
+      {
         "coin": "LINK",
-        "mentions": 2
-      },
-      {
-        "coin": "BTC",
-        "mentions": 2
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "Solana",
-        "mentions": 2
-      },
-      {
-        "coin": "BNB",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 41
+        "mentions": 42
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 17
       },
       {
         "topic": "stablecoin",
-        "mentions": 10
+        "mentions": 8
+      },
+      {
+        "topic": "sec",
+        "mentions": 6
       },
       {
         "topic": "cftc",
-        "mentions": 5
-      },
-      {
-        "topic": "wallet",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "miner",
-        "mentions": 4
+        "mentions": 5
       },
       {
-        "topic": "pow",
+        "topic": "onchain",
         "mentions": 4
       },
       {
         "topic": "mining",
-        "mentions": 3
+        "mentions": 4
       },
       {
-        "topic": "yield",
-        "mentions": 3
+        "topic": "defi",
+        "mentions": 4
       },
       {
-        "topic": "exchange",
-        "mentions": 3
+        "topic": "wallet",
+        "mentions": 4
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Coinbase Chief Legal Officer Paul Grewal steps down, remains in advisory role",
+      "url": "https://www.theblock.co/post/407809/coinbase-chief-legal-officer-paul-grewal-steps-down?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-09T21:13:44+00:00",
+      "summary": "Coinbase Chief Legal Officer Paul Grewal joined the firm in mid-2020 to lead its legal, compliance and government relations operations.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Avalanche Treasury Firm AVAX One Reclaims Nasdaq Compliance After Reverse Stock Split",
+      "url": "https://decrypt.co/373193/avalanche-treasury-firm-avax-one-reclaims-nasdaq-compliance",
+      "published_at": "2026-07-09T20:57:49+00:00",
+      "summary": "AVAX One, which stockpiles the native token of the Avalanche crypto network, is back in Nasdaq's good graces after a reverse stock split.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Avalanche",
+        "AVAX"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Grayscale's CFO exits after 7 years with crypto asset manager",
+      "url": "https://www.coindesk.com/business/2026/07/09/grayscale-s-cfo-exits-after-7-years-with-crypto-asset-manager",
+      "published_at": "2026-07-09T20:42:49+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Perplexity Fine-Tuned a Chinese AI Model to Match Claude Opus 4.8 at One-Third the Cost",
+      "url": "https://decrypt.co/373184/perplexity-fine-tuned-chinese-ai-model-claude-opus-4-8",
+      "published_at": "2026-07-09T20:40:28+00:00",
+      "summary": "The company's post-trained GLM 5.2 preview pairs a cheaper open-source base with a frontier advisor—and it's already live in production.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "JPMorgan Says the Real Threat to Bitcoin Isn’t Strategy (MSTR) — It’s Private Blockchains",
+      "url": "https://bitcoinmagazine.com/news/jpmorgan-says-the-real-threat-to-bitcoin",
+      "published_at": "2026-07-09T20:33:56+00:00",
+      "summary": "Bitcoin Magazine\n\nJPMorgan Says the Real Threat to Bitcoin Isn&#8217;t Strategy (MSTR) — It&#8217;s Private Blockchains\nJPMorgan says Strategy's Bitcoin sales are a short-term concern, but the bigger long-term risk is that banks and institutions adopt private blockchains over public networks, reducing activity and capital flows across the broader crypto ecosystem.\nThis post JPMorgan Says the Real Threat to Bitcoin Isn&#8217;t Strategy (MSTR) — It&#8217;s Private Blockchains first appeared on ...",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concern",
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
+      "url": "https://www.coindesk.com/policy/2026/07/09/with-sec-fight-over-coinbase-s-top-legal-exec-grewal-moves-on-and-others-reassigned",
+      "published_at": "2026-07-09T20:31:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Arbitrum jumps 19% benefitting from Robinhood's $568 million onchain trading frenzy",
+      "url": "https://www.coindesk.com/markets/2026/07/09/arbitrum-jumps-19-benefitting-from-robinhood-s-usd568-million-onchain-trading-frenzy",
+      "published_at": "2026-07-09T20:28:51+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Arbitrum",
+        "ARB"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anthropic AI Oversight Board Adds Ben Bernanke, Who Oversaw 2008 Financial Crisis at Fed",
+      "url": "https://decrypt.co/373181/anthropic-ai-oversight-board-ben-bernanke-2008-federal-crisis-fed",
+      "published_at": "2026-07-09T20:22:29+00:00",
+      "summary": "Former Fed Chair Ben Bernanke will have the power to appoint Anthropic board members as part of company's Long-Term Benefit Trust.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitdeer stock jumps 14% as company expands US mining hardware production",
+      "url": "https://cointelegraph.com/news/bitdeer-stock-jumps-14-bitcoin-mining-hardware-maker-expands-us-manufacturing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-09T20:19:15+00:00",
+      "summary": "Bitdeer shares rallied after the company announced a $36 million Nevada manufacturing facility that will produce its SEALMINER Bitcoin mining machines and expand its hardware business.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ADA"
+      ],
+      "topics": [
+        "miner",
+        "mining"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-09T20:17:33+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ethereum Foundation says AI agents find real bugs, but most are false positives",
+      "url": "https://www.theblock.co/post/407793/ethereum-foundation-says-ai-agents-find-real-bugs-but-most-are-false-positives?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-09T19:51:23+00:00",
+      "summary": "The Ethereum Foundation's Protocol Security team has been using coordinated AI agents to test critical network infrastructure.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "White House says it received no Democratic response related to SEC, CFTC vacancies",
+      "url": "https://cointelegraph.com/news/white-house-request-cftc-sec-nominations-democrats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-09T19:48:37+00:00",
+      "summary": "Both US financial regulators are understaffed at the leadership level and lacking Democratic commissioners, with no announcement from President Donald Trump on filling the roles.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "cftc",
+        "fed",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CryptoQuant says bitcoin rebound remains a bear-market recovery, not a trend reversal",
+      "url": "https://www.theblock.co/post/407796/cryptoquant-bitcoin-rebound-bear-market-recovery-not-trend-reversal?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-09T19:45:15+00:00",
+      "summary": "CryptoQuant said bitcoin's recent rebound should be viewed as a bear-market recovery rather than a trend reversal.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Phantom, Hyperliquid ask CFTC to modernize rules for onchain derivatives",
+      "url": "https://cointelegraph.com/news/phantom-hyperliquid-ask-cftc-to-modernize-rules-for-onchain-derivatives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-09T19:36:52+00:00",
+      "summary": "The companies urged the regulator to exempt blockchain developers and non-custodial wallet providers from rules designed for traditional financial intermediaries.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "onchain",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Newest version of crypto Clarity Act may drop as soon as next week, sources say",
+      "url": "https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say",
+      "published_at": "2026-07-09T19:34:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "drop"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ethereum Foundation Turns AI Loose on ETH Network to Find Bugs Before Hackers Do",
+      "url": "https://decrypt.co/373169/ethereum-foundation-turns-ai-loose-find-bugs-before-hackers",
+      "published_at": "2026-07-09T18:27:47+00:00",
+      "summary": "Ethereum researchers are using AI agents to hunt for vulnerabilities, shifting security work from finding bugs to proving which ones are real.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks",
+      "url": "https://www.coindesk.com/markets/2026/07/09/billions-flowing-out-of-bitcoin-etfs-and-private-credit-funds-suggest-rising-market-risks",
+      "published_at": "2026-07-09T18:13:04+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
     {
       "source": "The Block",
       "title": "White House defends Trump’s regulatory appointments as CFTC vacancies complicate crypto bill push",
@@ -799,29 +1169,6 @@
       "topics": []
     },
     {
-      "source": "The Block",
-      "title": "Stripe-owned Privy and Jito co-develop Solana transaction inclusion tool FullSend",
-      "url": "https://www.theblock.co/post/407628/stripe-privy-jito-develop-solana-transaction-inclusion-tool-fullsend?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-09T12:30:02+00:00",
-      "summary": "FullSend works by automatically routing every transaction signed in a Privy wallet directly to the current Solana block-building leader.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL",
-        "MATIC",
-        "OP"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Morning Minute: Paradigm Raises $1.2B Fund as Crypto’s Top VC Pushes Into AI",
       "url": "https://decrypt.co/373112/morning-minute-paradigm-raises-1-2b-fund-as-cryptos-top-vc-pushes-into-ai",
@@ -844,351 +1191,6 @@
       "topics": [
         "ai",
         "etf"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "EU Set to Revise MiCA in 2027 to Cover Foreign Stablecoin Issuers",
-      "url": "https://decrypt.co/373113/eu-set-to-revise-mica-in-2027-to-cover-foreign-stablecoin-issuers",
-      "published_at": "2026-07-09T12:18:24+00:00",
-      "summary": "Trump's embrace of stablecoins is pushing Brussels to expand its crypto law to non-EU issuers and tokenized payments, EU diplomats say.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Over $7.2 billion have migrated from LayerZero to Chainlink CCIP as Mantle joins exodus",
-      "url": "https://www.coindesk.com/business/2026/07/09/over-usd7-2-billion-have-migrated-from-layerzero-to-chainlink-ccip-as-mantle-joins-exodus",
-      "published_at": "2026-07-09T12:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Chainlink",
-        "LINK"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "CFTC Chair Selig warns regulators will end up ‘writing all the rules’ for crypto if Clarity Act stalls",
-      "url": "https://www.theblock.co/post/407703/cftc-chair-selig-warns-regulators-will-end-up-writing-all-the-rules-for-crypto-if-clarity-act-stalls?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-09T11:42:34+00:00",
-      "summary": "CFTC Chair Michael Selig warned regulators may end up writing crypto rules if Congress fails to pass the Clarity Act.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fails",
-          "warned",
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Pricing houses in bitcoin exposes dollar's loss of value",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/09/pricing-houses-in-bitcoin-exposes-dollar-s-loss-of-value",
-      "published_at": "2026-07-09T11:27:10+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Sony Bank gets US regulator nod to issue stablecoins",
-      "url": "https://cointelegraph.com/news/sony-bank-preliminary-approval-us-stablecoin-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T11:18:41+00:00",
-      "summary": "Sony Bank received preliminary approval from the Office of the Comptroller of the Currency to establish a US stablecoin issuance business, with $40 million in starting capital.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Interpol operation exposes $122M crypto wallet tied to romance scam laundering",
-      "url": "https://cointelegraph.com/news/interpol-122m-crypto-flows-romance-scam-laundering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T11:18:21+00:00",
-      "summary": "Interpol said a suspect's crypto wallet processed over $122.5 million in 10 months as authorities uncovered the scheme during a global anti-fraud operation that led to 5,811 arrests.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "scam"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants",
-      "url": "https://www.coindesk.com/business/2026/07/09/swift-rolls-out-24-7-blockchain-payment-systems-with-17-global-banks-across-six-continents",
-      "published_at": "2026-07-09T11:08:37+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "BitGo introduces quantum protection for institutional Bitcoin wallets",
-      "url": "https://www.theblock.co/post/407661/bitgo-quantum-protection-institutional-bitcoin-wallets?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-09T11:05:02+00:00",
-      "summary": "Some experts have argued the greater risks posed by quantum computing revolve around a failure to implement new technology.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": [
-          "failure",
-          "risks"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Sony Bank Clears OCC Hurdle for Dollar Stablecoin",
-      "url": "https://decrypt.co/373109/sony-bank-clears-occ-hurdle-for-dollar-stablecoin",
-      "published_at": "2026-07-09T11:03:08+00:00",
-      "summary": "The lender's new US subsidiary, Connectia Trust, would issue a dollar-pegged stablecoin once it clears the regulator's final conditions.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Latin America’s biggest stock exchange now offers options on bitcoin, ether and solana futures",
-      "url": "https://www.coindesk.com/business/2026/07/09/brazil-s-b3-exchange-introduces-options-on-bitcoin-ether-and-solana-futures",
-      "published_at": "2026-07-09T10:55:37+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Solana",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "exchange",
-        "futures"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto for Advisors: Q2 2026 Digital Asset Review",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/09/q2-2026-digital-asset-review",
-      "published_at": "2026-07-09T10:40:45+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto remains resilient in face of renewed Middle East tensions",
-      "url": "https://www.coindesk.com/markets/2026/07/09/crypto-remains-resilient-in-face-of-renewed-middle-east-tensions",
-      "published_at": "2026-07-09T10:36:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Revolut says USDT delisting is limited to EEA, Switzerland",
-      "url": "https://cointelegraph.com/news/revolut-usdt-delisting-limited-eea-switzerland?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T10:23:24+00:00",
-      "summary": "Revolut said USDT support remains unchanged outside EEA and Switzerland as it winds down the stablecoin offering in selected European markets.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": [
-          "delisting",
-          "down"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin",
-        "usdt"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Singapore's Temasek investment fund says crypto is off the table, will focus on AI",
-      "url": "https://www.coindesk.com/business/2026/07/09/singapore-s-temasek-investment-fund-says-crypto-is-off-the-table-will-focus-on-ai",
-      "published_at": "2026-07-09T10:22:35+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Hyperliquid shows how onchain perps could challenge Wall Street: Pantera",
-      "url": "https://cointelegraph.com/news/hyperliquid-onchain-perps-absorbing-tradfi-markets-pantera-capital?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T10:02:32+00:00",
-      "summary": "Perpetual futures and Hyperliquid’s blockchain infrastructure are expanding into traditional asset classes with around-the-clock trading, according to Pantera Capital.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "futures",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs end 'most overwhelming' $2.7B sell-off amid new $85M net outflow",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-end-most-overwhelming-sell-off-amid-new-85m-net-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T09:58:07+00:00",
-      "summary": "Bitcoin spot ETFs posted a fresh net outflow on Wednesday as analysis said that their \"most overwhelming\" outflow streak had ended without a clear demand recovery.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "recovery"
-        ],
-        "negative_hits": [
-          "sell-off"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "pos",
-        "spot etf"
       ]
     }
   ]
