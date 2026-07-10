@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-07-10T07:40:38.317307+00:00",
+  "generated_at": "2026-07-10T11:09:10.759304+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.023,
+    "market_sentiment_score": 0.0,
     "label_distribution": {
-      "neutral": 40,
-      "bearish": 13,
-      "bullish": 17
+      "bearish": 19,
+      "bullish": 17,
+      "neutral": 34
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 30
       },
       {
         "coin": "OP",
-        "mentions": 19
+        "mentions": 23
       },
       {
         "coin": "ETH",
-        "mentions": 7
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "coin": "SOL",
         "mentions": 4
       },
       {
-        "coin": "Near",
-        "mentions": 4
+        "coin": "Ethereum",
+        "mentions": 3
       },
       {
         "coin": "FIL",
         "mentions": 3
       },
       {
-        "coin": "Avalanche",
+        "coin": "Near",
+        "mentions": 3
+      },
+      {
+        "coin": "UNI",
         "mentions": 2
       },
       {
-        "coin": "ADA",
+        "coin": "LINK",
         "mentions": 2
       },
       {
@@ -54,11 +54,11 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 44
+        "mentions": 38
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 17
       },
       {
         "topic": "cftc",
@@ -66,35 +66,337 @@
       },
       {
         "topic": "sec",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "topic": "miner",
-        "mentions": 5
+        "mentions": 4
       },
       {
-        "topic": "stablecoin",
-        "mentions": 5
+        "topic": "fed",
+        "mentions": 4
+      },
+      {
+        "topic": "regulatory",
+        "mentions": 4
       },
       {
         "topic": "wallet",
         "mentions": 4
       },
       {
-        "topic": "mining",
-        "mentions": 4
-      },
-      {
-        "topic": "etf",
+        "topic": "defi",
         "mentions": 3
       },
       {
-        "topic": "regulatory",
+        "topic": "onchain",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Ledger researchers disclose Tangem card flaw; Tangem says risk to everyday users is ‘virtually non-existent’",
+      "url": "https://www.theblock.co/post/407871/ledger-researchers-disclose-tangem-card-flaw-tangem-says-risk-to-everyday-users-is-virtually-non-existent?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-10T11:08:31+00:00",
+      "summary": "Ledger researchers disclosed a laser attack that resets Tangem card passwords by bypassing a recovery-state check in the firmware.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto defies equity weakness as altcoin optimism builds into the weekend",
+      "url": "https://www.coindesk.com/markets/2026/07/10/crypto-defies-equity-weakness-as-altcoin-optimism-builds-into-the-weekend",
+      "published_at": "2026-07-10T10:37:44+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "optimism"
+        ],
+        "negative_hits": [
+          "weakness"
+        ]
+      },
+      "coins": [
+        "LTC",
+        "Optimism",
+        "OP"
+      ],
+      "topics": [
+        "defi"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "New Hampshire’s $100 million bitcoin bond proposal fails to pass final vote",
+      "url": "https://www.theblock.co/post/407867/new-hampshire-bitcoin-backed-bond-fails?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-10T10:29:07+00:00",
+      "summary": "Governor Ayotte had expressed support for the proposal, touting it as an innovative way to bring more investment opportunities to the state.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": [
+          "fails"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "UNI",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "TeraWulf eyes $3.5B debt raise for Anthropic-linked data center: Report",
+      "url": "https://cointelegraph.com/news/terawulf-3-5-billion-debt-raise-anthropic-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-10T10:14:51+00:00",
+      "summary": "Bitcoin miner TeraWulf is reportedly seeking $3.5 billion in debt financing led by Morgan Stanley for its Kentucky data center campus leased by AI company Anthropic.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "LINK",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "miner"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Revolut integrates its crypto exchange with AI assistants as agentic trading spreads",
+      "url": "https://www.theblock.co/post/407865/revolut-integrates-its-crypto-exchange-with-ai-assistants-as-agentic-trading-spreads?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-10T10:04:08+00:00",
+      "summary": "Revolut X now connects to Claude, Gemini, OpenClaw, and Cursor, letting crypto users analyze, backtest, and execute trades via AI prompts.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "North Carolina Bill Recognizes CFTC's ‘Federal Regulatory Authority’ Over Prediction Markets",
+      "url": "https://decrypt.co/373209/north-carolina-bill-recognizes-cftcs-federal-regulatory-authority-over-prediction-markets",
+      "published_at": "2026-07-10T10:01:08+00:00",
+      "summary": "The state's budget law leaves oversight of Kalshi and Polymarket to the CFTC and taxes them at 6%, far below what other states are pursuing.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "cftc",
+        "fed",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Metaplanet explores Bitcoin-backed digital credit with JPYC in Japan",
+      "url": "https://cointelegraph.com/news/metaplanet-studies-bitcoin-digital-bonds-japan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-10T09:58:10+00:00",
+      "summary": "Metaplanet said it is studying Bitcoin-backed digital credit products in Japan with JPYC and Progmat, but no product has been launched.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Polymarket seeks approval to bring margin trading to U.S. customers",
+      "url": "https://www.coindesk.com/markets/2026/07/10/polymarket-seeks-approval-to-bring-margin-trading-to-u-s-customers",
+      "published_at": "2026-07-10T09:35:21+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approval"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin returns to $64.3K with new three-week BTC price highs imminent",
+      "url": "https://cointelegraph.com/markets/bitcoin-returns-to-64k-with-three-week-btc-price-highs-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-10T09:32:23+00:00",
+      "summary": "Bitcoin bulls faced \"crucial resistance\" at $65,000 next as BTC price action diverged from oil and US dollar strength.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "strength"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin's $60,000-$70,000 range becomes third longest consolidation in history",
+      "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-s-usd60k-to-usd70k-range-becomes-third-longest-consolidation-in-history",
+      "published_at": "2026-07-10T09:16:52+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "DOJ charges federal inmate over alleged theft of $290,000 in crypto forfeited to US government",
+      "url": "https://www.theblock.co/post/407854/doj-charges-federal-inmate-over-alleged-theft-of-290000-in-crypto-forfeited-to-us-government?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-10T09:13:08+00:00",
+      "summary": "Federal inmate Rossen Iossifov faces new charges for allegedly taking $290,000 in government-forfeited cryptocurrency.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "theft"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Cathie Wood’s Ark Invest buys $14 million worth of Circle, offloads Robinhood shares",
+      "url": "https://www.theblock.co/post/407853/ark-invest-buys-14-million-worth-circle?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-10T09:09:24+00:00",
+      "summary": "Circle Internet Group's stock dropped 1.65% during Thursday's trading session, extending its one-month decline to 20.2%.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": [
+          "decline",
+          "dropped"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Metaplanet explores bringing bitcoin-backed digital credit to Japan",
+      "url": "https://www.coindesk.com/markets/2026/07/10/metaplanet-explores-bringing-bitcoin-backed-digital-credit-to-japan",
+      "published_at": "2026-07-10T09:08:20+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "UK Labour MPs push to permanently ban crypto political donations",
+      "url": "https://www.theblock.co/post/407842/uk-labour-mps-crypto-ban?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-10T08:44:30+00:00",
+      "summary": "Labour MPs are gathering support for proposed amendments to a key bill that would permanently ban crypto political donations.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
@@ -115,25 +417,24 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live markets: Bitcoin ETFs bleed again while ether funds snap a five-day inflow streak",
+      "title": "Live markets: Bitcoin tops $64,000 as selling pressure on Coinbase eases",
       "url": "https://www.coindesk.com/tech/2026/07/10/live-markets-bitcoin-etfs-bleed-again-while-ether-funds-snap-a-five-day-inflow-streak",
       "published_at": "2026-07-10T06:21:34+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
         "positive_hits": [],
-        "negative_hits": []
+        "negative_hits": [
+          "selling"
+        ]
       },
       "coins": [
         "Bitcoin",
-        "ETH"
+        "OP"
       ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
+      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -866,325 +1167,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin miners’ AI pivot faces investor scrutiny over insider sales",
-      "url": "https://cointelegraph.com/news/bitcoin-miners-ai-pivot-faces-investor-scrutiny-over-insider-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T17:09:01+00:00",
-      "summary": "As AI-driven mining stocks retreat, investors are examining executive stock sales, governance and shareholder alignment across leading Bitcoin miners, according to Blocksbridge Consulting.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "leading"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "bridge",
-        "governance",
-        "miner",
-        "miners",
-        "mining"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "UK politicians mull permanent crypto donation ban in wake of Nigel Farage scandal",
-      "url": "https://cointelegraph.com/news/uk-politicians-crypto-donation-ban-nigel-farage-scandal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T16:42:18+00:00",
-      "summary": "Labour lawmakers proposed a full moratorium on crypto donations in March, which some have sought be made permanent after millions of dollars in contributions were linked to Reform leader Nigel Farage.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [
-        "LINK",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Can Bitcoin hold $62K ahead of Friday’s $1.4 billion options expiry?",
-      "url": "https://cointelegraph.com/markets/can-bitcoin-hold-62k-ahead-of-fridays-14-billion-options-expiry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T16:31:10+00:00",
-      "summary": "US 10-year Treasury yields nears dangerous level while major Deribit Bitcoin options expiry approaches.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MARA shares surge after 2 GW Texas infrastructure deal expands AI ambitions",
-      "url": "https://cointelegraph.com/news/mara-shares-jump-10-after-2-gw-texas-infrastructure-deal-expands-ai-ambitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T16:26:33+00:00",
-      "summary": "The Bitcoin miner's shares climbed about 15% after announcing it's acquiring a Texas site with up to 2 GW of power capacity to expand its AI and digital infrastructure strategy.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "pow"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Swift Readies Ledger for 24/7 Token Transfers—Though True Settlement Is Stuck on Old Rails",
-      "url": "https://decrypt.co/373147/swift-readies-ledger-f24-7-token-transfers-settlement-old-rails",
-      "published_at": "2026-07-09T16:23:00+00:00",
-      "summary": "Swift’s pilot allows 17 global banks to transfer tokenized deposits on weekends, but ultimate settlement still relies on legacy systems.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Hyperliquid Policy Center, Phantom urge CFTC to stop treating onchain protocols like traditional brokers and exchanges",
-      "url": "https://www.theblock.co/post/407780/hyperliquid-policy-center-phantom-urge-cftc-to-stop-treating-onchain-protocols-like-traditional-brokers-and-exchanges?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-09T16:00:23+00:00",
-      "summary": "The CFTC and Securities and Exchange Commission issued a Request for Information in mid-June on financial innovation.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "innovation"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "cftc",
-        "exchange",
-        "exchanges",
-        "onchain",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin traders reveal key levels as BTC price passes $63K after Trump Iran 'deal' comments",
-      "url": "https://cointelegraph.com/markets/bitcoin-traders-reveal-key-levels-as-btc-price-passes-63k-after-trump-iran-deal-comments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-09T15:56:59+00:00",
-      "summary": "Bitcoin gained new upside targets for the daily close and beyond after US president Donald Trump said that Iran \"wants to make a deal.\"",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "dai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "AI contracts, not bitcoin, now drive miner valuations, and Cipher and TeraWulf look cheap, says analyst",
-      "url": "https://www.coindesk.com/markets/2026/07/09/cipher-terawulf-among-ai-infrastructure-stocks-trading-below-contract-value-compass-point-argues",
-      "published_at": "2026-07-09T15:53:42+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "MARA Stock Pops as Bitcoin Miner Agrees to Acquire Massive Powered Texas Land Plot",
-      "url": "https://decrypt.co/373144/mara-stock-pops-bitcoin-miner-agrees-acquire-texas-land-plot",
-      "published_at": "2026-07-09T15:44:31+00:00",
-      "summary": "MARA Holdings has agreed to purchase a sizable plot of land in Texas to power its Bitcoin mining and growing AI compute ambitions.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "mining",
-        "pow"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "JPMorgan says bitcoin’s main risk isn’t Strategy, but blockchain adoption that doesn’t benefit public chains and tokens",
-      "url": "https://www.theblock.co/post/407776/jpmorgan-bitcoin-risk-strategy-blockchain-tokens-crypto?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-09T15:44:13+00:00",
-      "summary": "JPMorgan says Strategy isn't bitcoin's main structural risk, but blockchain adoption that fails to benefit public blockchains and tokens.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "adoption"
-        ],
-        "negative_hits": [
-          "fails",
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "New Hampshire Council Rejects $100 Million Bitcoin-Backed Bond",
-      "url": "https://bitcoinmagazine.com/news/new-hampshire-council-rejects-100-million",
-      "published_at": "2026-07-09T15:28:30+00:00",
-      "summary": "Bitcoin Magazine\n\nNew Hampshire Council Rejects $100 Million Bitcoin-Backed Bond\nNew Hampshire's Executive Council voted 3-2 to reject a proposed $100 million Bitcoin-backed municipal bond, shelving what supporters said would have been the world's first such issuance despite arguments that it posed no risk to taxpayers.\nThis post New Hampshire Council Rejects $100 Million Bitcoin-Backed Bond first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Labour MPs Push to Make UK Crypto Donation Ban Permanent",
-      "url": "https://decrypt.co/373130/labour-mps-push-to-make-uk-crypto-donation-ban-permanent",
-      "published_at": "2026-07-09T15:26:59+00:00",
-      "summary": "The lawmakers have tabled amendments to make the current moratorium permanent, as the fallout over Reform UK's funding widens.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Why this Wall Street veteran is betting on Avalanche",
-      "url": "https://www.theblock.co/post/407752/why-this-wall-street-veteran-is-betting-on-avalanche?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-09T15:03:40+00:00",
-      "summary": "Avalanche Treasury Company CEO Bart Smith explains his beliefs on the functions of treasury companies and his bull thesis for Avalanche.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Avalanche"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum's newest nonprofit wants to become Wall Street's guide to crypto",
-      "url": "https://www.coindesk.com/tech/2026/07/09/ethereum-s-newest-nonprofit-wants-to-become-wall-street-s-guide-to-crypto",
-      "published_at": "2026-07-09T14:58:55+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
     }
   ]
 }
