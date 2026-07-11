@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-11T13:37:09.829111+00:00",
+  "generated_at": "2026-07-11T17:02:26.841485+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.016,
+    "market_sentiment_score": 0.02,
     "label_distribution": {
-      "bearish": 21,
+      "neutral": 31,
       "bullish": 19,
-      "neutral": 30
+      "bearish": 20
     },
     "top_coins": [
       {
@@ -16,7 +16,11 @@
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 15
+      },
+      {
+        "coin": "ETH",
+        "mentions": 6
       },
       {
         "coin": "UNI",
@@ -31,7 +35,7 @@
         "mentions": 5
       },
       {
-        "coin": "ETH",
+        "coin": "Ethereum",
         "mentions": 4
       },
       {
@@ -39,22 +43,18 @@
         "mentions": 3
       },
       {
-        "coin": "Ethereum",
-        "mentions": 3
-      },
-      {
         "coin": "Sui",
         "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "Arbitrum",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 35
       },
       {
         "topic": "pos",
@@ -62,7 +62,7 @@
       },
       {
         "topic": "fed",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "topic": "stablecoin",
@@ -81,20 +81,84 @@
         "mentions": 3
       },
       {
+        "topic": "on-chain",
+        "mentions": 2
+      },
+      {
         "topic": "tokenization",
         "mentions": 2
       },
       {
         "topic": "dai",
         "mentions": 2
-      },
-      {
-        "topic": "defi",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
+      "url": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
+      "published_at": "2026-07-11T16:21:34+00:00",
+      "summary": "Robinhood Chain is an Ethereum layer-2 network built with Arbitrum technology for tokenized assets, crypto apps, and on-chain financial products.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Arbitrum",
+        "ARB"
+      ],
+      "topics": [
+        "ai",
+        "on-chain"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin, ether ETFs snap eight-week outflow streaks with $282 million combined inflow",
+      "url": "https://www.theblock.co/post/407957/bitcoin-ether-etfs-snap-eight-week-outflow-streaks-with-282-million-combined-inflow?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-11T15:19:15+00:00",
+      "summary": "The preceding eight weeks drained a combined $9.46 billion from the two groups, meaning this week’s rebound recovered only about 3% of those outflows.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "recovered"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "The UK has finally shown it’s serious about crypto",
+      "url": "https://www.coindesk.com/opinion/2026/07/11/the-uk-has-finally-shown-it-s-serious-about-crypto",
+      "published_at": "2026-07-11T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "Cointelegraph",
       "title": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
@@ -1100,75 +1164,6 @@
       "coins": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Stablecoin firm Circle wins final OCC approval to open national trust bank",
-      "url": "https://www.theblock.co/post/407876/stablecoin-firm-circle-wins-final-occ-approval-to-open-national-trust-bank?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T11:25:14+00:00",
-      "summary": "Circle wins final OCC approval for First National Digital Currency Bank, with USDC reserve management planned for a later phase.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "trust",
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "stablecoin",
-        "usdc"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ledger researchers disclose Tangem card flaw; Tangem says risk to everyday users is ‘virtually non-existent’",
-      "url": "https://www.theblock.co/post/407871/ledger-researchers-disclose-tangem-card-flaw-tangem-says-risk-to-everyday-users-is-virtually-non-existent?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T11:08:31+00:00",
-      "summary": "Ledger researchers disclosed a laser attack that resets Tangem card passwords by bypassing a recovery-state check in the firmware.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto defies equity weakness as altcoin optimism builds into the weekend",
-      "url": "https://www.coindesk.com/markets/2026/07/10/crypto-defies-equity-weakness-as-altcoin-optimism-builds-into-the-weekend",
-      "published_at": "2026-07-10T10:37:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "optimism"
-        ],
-        "negative_hits": [
-          "weakness"
-        ]
-      },
-      "coins": [
-        "LTC",
-        "Optimism",
-        "OP"
-      ],
-      "topics": [
-        "defi"
       ]
     }
   ]
