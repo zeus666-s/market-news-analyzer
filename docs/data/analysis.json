@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-11T09:42:13.603663+00:00",
+  "generated_at": "2026-07-11T13:37:09.829111+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.018,
+    "market_sentiment_score": 0.016,
     "label_distribution": {
-      "neutral": 33,
-      "bullish": 18,
-      "bearish": 19
+      "bearish": 21,
+      "bullish": 19,
+      "neutral": 30
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 28
       },
       {
         "coin": "OP",
@@ -23,15 +23,23 @@
         "mentions": 6
       },
       {
+        "coin": "BTC",
+        "mentions": 5
+      },
+      {
+        "coin": "SOL",
+        "mentions": 5
+      },
+      {
         "coin": "ETH",
         "mentions": 4
       },
       {
-        "coin": "SOL",
-        "mentions": 4
+        "coin": "Near",
+        "mentions": 3
       },
       {
-        "coin": "BTC",
+        "coin": "Ethereum",
         "mentions": 3
       },
       {
@@ -39,22 +47,14 @@
         "mentions": 2
       },
       {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "FIL",
-        "mentions": 1
-      },
-      {
-        "coin": "LINK",
+        "coin": "Tron",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 34
       },
       {
         "topic": "pos",
@@ -62,15 +62,15 @@
       },
       {
         "topic": "fed",
-        "mentions": 9
-      },
-      {
-        "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "stablecoin",
         "mentions": 5
+      },
+      {
+        "topic": "sec",
+        "mentions": 4
       },
       {
         "topic": "exchange",
@@ -81,20 +81,185 @@
         "mentions": 3
       },
       {
+        "topic": "tokenization",
+        "mentions": 2
+      },
+      {
         "topic": "dai",
         "mentions": 2
       },
       {
         "topic": "defi",
         "mentions": 2
-      },
-      {
-        "topic": "usdc",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
+      "url": "https://cointelegraph.com/features/bitcoin-is-approaching-the-second-half-of-the-bear-market-jamie-coutts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-11T13:30:00+00:00",
+      "summary": "Real Vision chief crypto analyst Jamie Coutts said it's far too early to call $1 million by 2030, but he's confident Bitcoin could climb up to $250,000 over the next couple of years.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bear"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Nano Banana 2 Lite vs. Nano Banana 2: When to Save Your Money and When to Upgrade",
+      "url": "https://decrypt.co/373002/google-nano-banana-2-lite-vs-nano-banana-2-comparison-review",
+      "published_at": "2026-07-11T13:01:02+00:00",
+      "summary": "Google's cheapest, fastest image model is a genuinely capable tool—until you need it to be great.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?",
+      "url": "https://cointelegraph.com/markets/ethereum-climbs-3-on-tokenization-boom-can-bulls-push-eth-price-past-1800?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-11T12:55:18+00:00",
+      "summary": "Despite strong tokenization gains and institutional accumulation, weak onchain and derivatives data leaves ETH vulnerable to a $1,700 retest.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "accumulation",
+          "gains",
+          "institutional",
+          "strong"
+        ],
+        "negative_hits": [
+          "weak"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "onchain",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
+      "url": "https://www.coindesk.com/markets/2026/07/11/bitcoin-treasury-company-empery-digital-sold-about-half-of-btc-stack",
+      "published_at": "2026-07-11T12:25:05+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "AI found an Ethereum bug that could take validators offline, but humans had to prove it",
+      "url": "https://www.coindesk.com/tech/2026/07/10/ai-found-an-ethereum-bug-that-could-take-validators-offline-but-humans-had-to-prove-it",
+      "published_at": "2026-07-11T12:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "validator",
+        "validators"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bonzo Lend loses $9M in oracle exploit on Hedera",
+      "url": "https://cointelegraph.com/news/bonzo-lend-9m-oracle-exploit-hedera?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-11T11:56:54+00:00",
+      "summary": "An attacker inflated the value of SAUCE collateral and borrowed $9 million from Bonzo Lend through a flaw in Supra’s on-chain oracle verifier.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "loses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "on-chain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-gains-nearly-10-in-july-but-traders-still-see-btc-copying-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-11T11:21:07+00:00",
+      "summary": "Bitcoin price gains approached 10% for the first two weeks of the month, but analysis warned of the bear market returning from August onward.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": [
+          "bear",
+          "warned"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Dollar stablecoins could improve FX access but amplify currency runs: IMF paper",
@@ -748,46 +913,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "A16z’s Andreessen lands Federal Reserve role as AI reshapes policy debate",
-      "url": "https://cointelegraph.com/news/federal-reserve-a16z-co-founder-monetary-policy-task-force?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T14:12:53+00:00",
-      "summary": "The Fed named a16z co-founder Marc Andreessen to co-lead an AI productivity and jobs task force under Chair Kevin Warsh’s policy review.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MiCA licensing only the beginning as crypto custodians face scrutiny",
-      "url": "https://cointelegraph.com/news/mica-only-beginning-crypto-custodians-scrutiny?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T13:54:50+00:00",
-      "summary": "A MiCA license allows crypto firms to operate in the EU, but the ESMA’s review will test whether custodians can meet the required security and resilience standards.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Strategy Bitcoin Sales 'Mostly Noise,' Standard Chartered Says, Holding $100K BTC Call",
       "url": "https://decrypt.co/373224/strategy-bitcoin-sales-mostly-noise-standard-chartered-says-holding-100k-btc-call",
@@ -829,26 +954,6 @@
       ],
       "topics": [
         "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Will the crypto lobby's $189M campaign get CLARITY over the line?",
-      "url": "https://cointelegraph.com/features/how-crypto-built-political-influence-in-washington?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T13:30:00+00:00",
-      "summary": "As the CLARITY Act advances, crypto's growing political influence in Washington is under scrutiny. But the crypto lobby's massive campaign spend is only part of the story.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -913,24 +1018,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US charges prisoner over alleged laundering of seized Kraken crypto",
-      "url": "https://cointelegraph.com/news/us-prisoner-290k-crypto-restrained-kraken-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T12:27:40+00:00",
-      "summary": "US prosecutors charged Rossen Iossifov over the alleged laundering of $290,000 in forfeited crypto from a Kraken account.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
       ]
     },
     {
@@ -1082,76 +1169,6 @@
       ],
       "topics": [
         "defi"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "New Hampshire’s $100 million bitcoin bond proposal fails to pass final vote",
-      "url": "https://www.theblock.co/post/407867/new-hampshire-bitcoin-backed-bond-fails?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T10:29:07+00:00",
-      "summary": "Governor Ayotte had expressed support for the proposal, touting it as an innovative way to bring more investment opportunities to the state.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": [
-          "fails"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Revolut integrates its crypto exchange with AI assistants as agentic trading spreads",
-      "url": "https://www.theblock.co/post/407865/revolut-integrates-its-crypto-exchange-with-ai-assistants-as-agentic-trading-spreads?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T10:04:08+00:00",
-      "summary": "Revolut X now connects to Claude, Gemini, OpenClaw, and Cursor, letting crypto users analyze, backtest, and execute trades via AI prompts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "North Carolina Bill Recognizes CFTC's ‘Federal Regulatory Authority’ Over Prediction Markets",
-      "url": "https://decrypt.co/373209/north-carolina-bill-recognizes-cftcs-federal-regulatory-authority-over-prediction-markets",
-      "published_at": "2026-07-10T10:01:08+00:00",
-      "summary": "The state's budget law leaves oversight of Kalshi and Polymarket to the CFTC and taxes them at 6%, far below what other states are pursuing.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Sui"
-      ],
-      "topics": [
-        "cftc",
-        "fed",
-        "regulatory"
       ]
     }
   ]
