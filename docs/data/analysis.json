@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-11T17:02:26.841485+00:00",
+  "generated_at": "2026-07-11T20:55:58.775074+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.02,
+    "market_sentiment_score": 0.018,
     "label_distribution": {
       "neutral": 31,
-      "bullish": 19,
-      "bearish": 20
+      "bearish": 20,
+      "bullish": 19
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 26
       },
       {
         "coin": "OP",
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 37
       },
       {
         "topic": "pos",
@@ -62,15 +62,15 @@
       },
       {
         "topic": "fed",
-        "mentions": 7
+        "mentions": 6
+      },
+      {
+        "topic": "sec",
+        "mentions": 5
       },
       {
         "topic": "stablecoin",
         "mentions": 5
-      },
-      {
-        "topic": "sec",
-        "mentions": 4
       },
       {
         "topic": "exchange",
@@ -81,20 +81,81 @@
         "mentions": 3
       },
       {
-        "topic": "on-chain",
+        "topic": "lending",
         "mentions": 2
       },
       {
-        "topic": "tokenization",
+        "topic": "wallet",
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "onchain",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Hedera lending protocol Bonzo Lend hit for $9 million after Supra verifier accepts manipulated price update",
+      "url": "https://www.theblock.co/post/407960/hedera-lending-protocol-bonzo-lend-hit-for-9-million-after-supra-verifier-accepts-manipulated-price-update?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-11T19:19:32+00:00",
+      "summary": "A second wallet borrowed another roughly $1 million but identified itself as a white hat hacker and said the funds would be returned.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "lending",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Lending protocol Bonzo loses 77% of value locked as $9 million oracle exploit rattles Hedera",
+      "url": "https://www.coindesk.com/web3/2026/07/11/lending-protocol-bonzo-loses-77-of-value-locked-as-usd9-million-oracle-exploit-rattles-hedera",
+      "published_at": "2026-07-11T18:06:58+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "loses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "lending"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs",
+      "url": "https://www.coindesk.com/business/2026/07/08/crypto-ipo-market-stalls-as-capital-rotates-to-ai-and-macro-uncertainty-weighs",
+      "published_at": "2026-07-11T17:07:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "macro"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
@@ -279,7 +340,7 @@
       "title": "Bonzo Lend loses $9M in oracle exploit on Hedera",
       "url": "https://cointelegraph.com/news/bonzo-lend-9m-oracle-exploit-hedera?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-11T11:56:54+00:00",
-      "summary": "An attacker inflated the value of SAUCE collateral and borrowed $9 million from Bonzo Lend through a flaw in Supra’s on-chain oracle verifier.",
+      "summary": "An attacker inflated the value of SAUCE collateral and borrowed $9 million from Bonzo Lend through a flaw in Supra’s onchain oracle verifier.",
       "sentiment": {
         "score": -4,
         "normalized": -0.5,
@@ -293,7 +354,7 @@
       "coins": [],
       "topics": [
         "ai",
-        "on-chain"
+        "onchain"
       ]
     },
     {
@@ -1102,66 +1163,6 @@
       "coins": [
         "OP"
       ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Circle soars after securing U.S. trust bank approval in crypto expansion",
-      "url": "https://www.coindesk.com/business/2026/07/10/circle-secures-u-s-trust-bank-approval-in-crypto-expansion",
-      "published_at": "2026-07-10T11:41:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "soars",
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold",
-      "published_at": "2026-07-10T11:37:31+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Jailed Fraudster Charged With Moving $290K in Forfeited Crypto From Prison",
-      "url": "https://decrypt.co/373212/jailed-fraudster-charged-with-moving-290k-in-forfeited-crypto-from-prison",
-      "published_at": "2026-07-10T11:30:57+00:00",
-      "summary": "A convicted launderer serving time for a $5 million scheme allegedly moved crypto that a court had ordered him to forfeit.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
       "topics": [
         "ai"
       ]
