@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-12T09:54:39.282840+00:00",
+  "generated_at": "2026-07-12T13:36:56.249419+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.009,
+    "market_sentiment_score": -0.005,
     "label_distribution": {
-      "neutral": 31,
-      "bullish": 17,
-      "bearish": 22
+      "bearish": 22,
+      "neutral": 32,
+      "bullish": 16
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "coin": "OP",
@@ -23,15 +23,15 @@
         "mentions": 8
       },
       {
+        "coin": "Near",
+        "mentions": 6
+      },
+      {
         "coin": "UNI",
         "mentions": 6
       },
       {
         "coin": "Ethereum",
-        "mentions": 5
-      },
-      {
-        "coin": "Near",
         "mentions": 5
       },
       {
@@ -61,16 +61,16 @@
         "mentions": 14
       },
       {
-        "topic": "sec",
-        "mentions": 6
-      },
-      {
         "topic": "fed",
         "mentions": 6
       },
       {
         "topic": "stablecoin",
-        "mentions": 4
+        "mentions": 5
+      },
+      {
+        "topic": "sec",
+        "mentions": 5
       },
       {
         "topic": "bridge",
@@ -95,6 +95,67 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
+      "url": "https://www.coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
+      "published_at": "2026-07-12T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "panic"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Pakistan crypto chief seeks dialogue after scholar rules against crypto payments",
+      "url": "https://cointelegraph.com/news/pakistan-crypto-chief-dialogue-islamic-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-12T12:26:09+00:00",
+      "summary": "Pakistan’s virtual-assets regulator called for continued dialogue on the treatment of digital assets after meeting an Islamic scholar who backed a ruling against purchases made with crypto.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin is nearing a power law support line Fidelity has tracked since 2015",
+      "url": "https://www.coindesk.com/markets/2026/07/12/bitcoin-is-nearing-a-power-law-support-line-fidelity-has-tracked-since-2015",
+      "published_at": "2026-07-12T11:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "pow"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Cambridge study puts Ethereum near the lower end of PoS energy intensity",
@@ -807,7 +868,7 @@
       "source": "Cointelegraph",
       "title": "US CBDC ban to go into effect without Trump signoff on housing bill",
       "url": "https://cointelegraph.com/news/us-cbdc-ban-donald-trump-housing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T19:33:03+00:00",
+      "published_at": "2026-07-10T19:41:00+00:00",
       "summary": "Donald Trump confirmed on social media that he would not sign the 21st Century ROAD to Housing Act, which includes a ban on a US CBDC until the end of 2030, setting the stage for the bill to become law on Saturday.",
       "sentiment": {
         "score": -2,
@@ -884,28 +945,6 @@
       "topics": [
         "ai",
         "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "New Hampshire council votes down $100M Bitcoin bonds",
-      "url": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T17:23:10+00:00",
-      "summary": "State representative Keith Ammon said the New Hampshire executive council's vote against Bitcoin-backed bonds was “short-sighted,” urging the body to reconsider the measure.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -1121,51 +1160,6 @@
         "BTC"
       ],
       "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin is “A Screaming Buy”: Standard Chartered Backs $100,000 Target, Shrugs Off Strategy (MSTR) Sell-Off",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-screaming-buy-standard-chartered",
-      "published_at": "2026-07-10T13:49:38+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin is &#8220;A Screaming Buy&#8221;: Standard Chartered Backs $100,000 Target, Shrugs Off Strategy (MSTR) Sell-Off\nStandard Chartered reaffirmed its $100,000 end-2026 Bitcoin price target, calling Bitcoin \"a screaming buy\" and arguing that Strategy's recent sell-off reflects a communication issue around its new monetization strategy rather than a weakening Bitcoin outlook.\nThis post Bitcoin is &#8220;A Screaming Buy&#8221;: Standard Chartered Backs $100,000 Target, Shru...",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": [
-          "sell-off"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "UNI"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Binance co-CEO says 70% of EU withdrawals went to self-custody after MiCA deadline, with just 30% going to licensed platforms",
-      "url": "https://www.theblock.co/post/407888/binance-co-ceo-says-70-of-eu-withdrawals-went-to-self-custody-after-mica-deadline-with-just-30-going-to-licensed-platforms?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T13:17:52+00:00",
-      "summary": "Richard Teng said 70% of EU user withdrawals following its service suspension moved to self-custody rather than MiCA-regulated platforms.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai"
-      ]
     }
   ]
 }
