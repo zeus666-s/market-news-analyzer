@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-13T17:58:19.946809+00:00",
+  "generated_at": "2026-07-13T21:01:06.448156+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.055,
+    "market_sentiment_score": 0.062,
     "label_distribution": {
-      "bearish": 15,
-      "neutral": 29,
-      "bullish": 26
+      "neutral": 31,
+      "bullish": 26,
+      "bearish": 13
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "OP",
@@ -20,22 +20,18 @@
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 10
       },
       {
         "coin": "BTC",
-        "mentions": 9
+        "mentions": 7
       },
       {
         "coin": "SOL",
-        "mentions": 6
-      },
-      {
-        "coin": "Near",
         "mentions": 5
       },
       {
-        "coin": "UNI",
+        "coin": "Near",
         "mentions": 4
       },
       {
@@ -47,41 +43,45 @@
         "mentions": 3
       },
       {
-        "coin": "FIL",
+        "coin": "Binance",
+        "mentions": 2
+      },
+      {
+        "coin": "UNI",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 15
       },
       {
         "topic": "stablecoin",
         "mentions": 12
       },
       {
-        "topic": "sec",
-        "mentions": 8
-      },
-      {
         "topic": "usdt",
-        "mentions": 6
+        "mentions": 7
       },
       {
-        "topic": "tokenization",
-        "mentions": 4
-      },
-      {
-        "topic": "dex",
-        "mentions": 3
+        "topic": "sec",
+        "mentions": 7
       },
       {
         "topic": "onchain",
+        "mentions": 3
+      },
+      {
+        "topic": "exchange",
+        "mentions": 3
+      },
+      {
+        "topic": "dex",
         "mentions": 3
       },
       {
@@ -89,12 +89,265 @@
         "mentions": 3
       },
       {
-        "topic": "dai",
-        "mentions": 2
+        "topic": "tokenization",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "New Hampshire Follows Bitcoin Reserve With 'Blockchain Basic Laws' Signing",
+      "url": "https://decrypt.co/373424/new-hampshire-bitcoin-reserve-blockchain-basic-laws-signing",
+      "published_at": "2026-07-13T20:57:09+00:00",
+      "summary": "New Hampshire's newly-signed crypto law introduces protections for users, miners, and stakers within its boundaries.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "miners"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Claude's Personality Changes Depending on the Model—And the Language You Speak",
+      "url": "https://decrypt.co/373422/anthropic-claude-personality-changes-model-language",
+      "published_at": "2026-07-13T20:39:53+00:00",
+      "summary": "According to new Anthropic research, Claude consistently expresses different values across models and languages.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Hyperliquid’s HIP-3 markets surge to nearly 50% of perp volume as onchain stock trading grows",
+      "url": "https://www.theblock.co/post/408064/hyperliquid-hip-3-markets-surge-50-perp-volume-onchain-stock-trading-grows?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T20:33:47+00:00",
+      "summary": "HIP-3's share of total Hyperliquid perp volume has climbed from roughly 2% at the start of the year to around 50% now.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Binance.US CEO says exchange is rebuilding, eyes return to 20% U.S. market share",
+      "url": "https://www.coindesk.com/coindesk-news/2026/07/13/binance-us-ceo-says-exchange-is-rebuilding-eyes-return-to-20-u-s-market-share",
+      "published_at": "2026-07-13T20:27:47+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Franklin Crypto CIO says crypto prices are disconnected from fundamentals",
+      "url": "https://www.coindesk.com/markets/2026/07/13/franklin-crypto-cio-says-crypto-prices-are-disconnected-from-fundamentals",
+      "published_at": "2026-07-13T20:15:29+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Democratic Opposition to Clarity Act Grows in Crypto Bill's Do-or-Die Final Weeks",
+      "url": "https://decrypt.co/373419/democratic-opposition-clarity-act-grows-crypto-bill-final-weeks",
+      "published_at": "2026-07-13T20:15:24+00:00",
+      "summary": "Democrats are mounting a final case against the Clarity Act centered on its lack of language restricting Trump's sprawling crypto fortune.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "TeraWulf CEO: 'Not All Megawatts Are Created Equally' in AI Race",
+      "url": "https://www.coindesk.com/coindesk-news/2026/07/13/terawulf-ceo-not-all-megawatts-are-created-equally-in-ai-race",
+      "published_at": "2026-07-13T19:43:03+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Gondor v1 to let users borrow against their entire Polymarket portfolio",
+      "url": "https://www.theblock.co/post/408129/gondor-v1-let-users-borrow-against-entire-polymarket-portfolio?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T19:37:49+00:00",
+      "summary": "Expected to launch in September, v1 will enable users to margin their entire Polymarket portfolios to place additional leveraged bets.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitwise Sees a Bottom in Bitcoin’s Worst Vibes Yet: ‘Darkest Before the Dawn’",
+      "url": "https://bitcoinmagazine.com/markets/bitwise-sees-a-bottom-in-bitcoin",
+      "published_at": "2026-07-13T19:08:34+00:00",
+      "summary": "Bitcoin Magazine\n\nBitwise Sees a Bottom in Bitcoin&#8217;s Worst Vibes Yet: &#8216;Darkest Before the Dawn&#8217; \nBitwise says Bitcoin's brutal nine-month downturn masks a stronger-than-ever foundation, arguing institutional adoption, corporate buying, and improving market infrastructure position the industry for a rebound despite record ETF outflows and weak sentiment.\nThis post Bitwise Sees a Bottom in Bitcoin&#8217;s Worst Vibes Yet: &#8216;Darkest Before the Dawn&#8217;  first appeared o...",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption",
+          "buying",
+          "institutional"
+        ],
+        "negative_hits": [
+          "weak"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron",
+        "OP"
+      ],
+      "topics": [
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bolivia Is Considering Adding Tether's USDT Stablecoin to National Payments System: Report",
+      "url": "https://decrypt.co/373410/bolivia-considering-tether-usdt-stablecoin-national-payments-system",
+      "published_at": "2026-07-13T18:57:19+00:00",
+      "summary": "South American nation Bolivia is considering the use of the largest dollar-backed stablecoin, USDT, per a local report.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "stablecoin",
+        "usdt"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Strategy’s no-bitcoin-buy week shows ‘greater balance-sheet discipline,’ analysts say",
+      "url": "https://www.theblock.co/post/408069/strategy-no-bitcoin-buy-week-shows-balance-sheet-discipline-analysts-say?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T18:50:23+00:00",
+      "summary": "Analysts from Benchmark and TD Cowen maintained Buy ratings and price targets of $570 and $260, respectively.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T18:37:34+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials",
@@ -537,29 +790,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T14:07:00+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "UK Treasury report on tokenization cites Ripple as convergence model",
       "url": "https://www.coindesk.com/policy/2026/07/13/ripple-lands-inside-uk-plan-for-tokenized-repo-bonds-and-funds",
@@ -928,249 +1158,6 @@
         "ai",
         "stablecoin",
         "tokenization"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BlackRock, Goldman Sachs, JPMorgan, Morgan Stanley join UK government's tokenization taskforce",
-      "url": "https://www.coindesk.com/business/2026/07/13/uk-government-unveils-tokenization-taskforce-with-blackrock-goldman-jpmorgan-morgan-stanley",
-      "published_at": "2026-07-13T11:40:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin whale moves $188M for first time in 7 years",
-      "url": "https://cointelegraph.com/news/bitcoin-whale-moves-188m-first-7-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T11:36:00+00:00",
-      "summary": "A dormant whale transferred BTC worth $188 million after seven years of holding, adding to the growing ratio of whale transfers to cryptocurrency exchanges.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Resurgent U.S.-Iran hostilities send bitcoin lower even as ETF flows show demand",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/13/resurgent-u-s-iran-hostilities-send-bitcoin-lower-even-as-etf-flows-show-demand",
-      "published_at": "2026-07-13T11:20:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance June futures volume at $1.6T defies crypto spot trading slump",
-      "url": "https://cointelegraph.com/news/binance-futures-volume-2026-high-crypto-spot-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T11:20:00+00:00",
-      "summary": "Binance futures volume jumped 80% in June, to $1.61 trillion, outpacing rivals while broader crypto trading activity remained weak.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "weak"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "futures"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BTC price bull market to begin in September? Five things to know in Bitcoin this week",
-      "url": "https://cointelegraph.com/markets/btc-price-bull-market-to-begin-in-september-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T10:45:22+00:00",
-      "summary": "Bitcoin price analysis called for the end of the bear market within three months as the US-Iran war sent BTC lower from strengthening $64,000 resistance.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bear"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Chinese Prosecutors Float Treating Crypto Mixer, Privacy Coin Use as Sign of Money Laundering",
-      "url": "https://decrypt.co/373374/chinese-prosecutors-float-treating-crypto-mixer-privacy-coin-use-as-sign-of-money-laundering",
-      "published_at": "2026-07-13T10:43:13+00:00",
-      "summary": "An article in the top prosecutors' paper urges new blockchain evidence rules, presumptions of intent, and a state platform to sell seized coins.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "SBI Holdings, Solana Foundation partner to build Japan-based onchain financial market",
-      "url": "https://www.theblock.co/post/408010/sbi-holdings-solana-foundation-partner-to-build-japan-based-onchain-financial-market?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T10:39:44+00:00",
-      "summary": "SBI and the Solana Foundation are collaborating to build an onchain financial market with SBI R3 rebranding to SBI Solana Global.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Profit-taking, MidEast hostilities drag crypto lower after bullish week",
-      "url": "https://www.coindesk.com/markets/2026/07/13/profit-taking-mideast-hostilities-drag-crypto-lower-after-bullish-week",
-      "published_at": "2026-07-13T10:30:39+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Japan’s SBI to launch yen stablecoin lending with 3% yield",
-      "url": "https://cointelegraph.com/news/sbi-stablecoin-lending-service-3-yield-japan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T10:27:50+00:00",
-      "summary": "SBI VC Trade will open JPYSC lending applications on July 16, offering an initial 3% annual rate for a 12-week term without deposit insurance.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "lending",
-        "pos",
-        "stablecoin",
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Japan stablecoin payments advance with Lawson trial, Netstars launch",
-      "url": "https://cointelegraph.com/news/japan-lawson-netstars-stablecoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T08:58:51+00:00",
-      "summary": "Lawson will test yen stablecoin payments in Tokyo as Netstars launches a merchant service supporting USDC, USDT and JPYC.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin",
-        "usdc",
-        "usdt"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bank of Thailand audits high-volume stablecoin trades to crack down on illicit finance: report",
-      "url": "https://www.theblock.co/post/407998/bank-of-thailand-audits-stablecoin?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T08:19:26+00:00",
-      "summary": "The central bank and the SEC have reportedly begun using data analytics tools to examine abnormal stablecoin trades, with a focus on USDT.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec",
-        "stablecoin",
-        "usdt"
       ]
     }
   ]
