@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-07-13T14:44:57.345539+00:00",
+  "generated_at": "2026-07-13T17:58:19.946809+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": 0.055,
     "label_distribution": {
-      "neutral": 31,
-      "bullish": 23,
-      "bearish": 16
+      "bearish": 15,
+      "neutral": 29,
+      "bullish": 26
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 24
       },
       {
         "coin": "OP",
-        "mentions": 14
-      },
-      {
-        "coin": "BTC",
-        "mentions": 12
-      },
-      {
-        "coin": "Near",
-        "mentions": 7
+        "mentions": 13
       },
       {
         "coin": "ETH",
-        "mentions": 7
+        "mentions": 9
+      },
+      {
+        "coin": "BTC",
+        "mentions": 9
+      },
+      {
+        "coin": "SOL",
+        "mentions": 6
+      },
+      {
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "UNI",
-        "mentions": 6
+        "mentions": 4
+      },
+      {
+        "coin": "Solana",
+        "mentions": 3
       },
       {
         "coin": "Ethereum",
         "mentions": 3
-      },
-      {
-        "coin": "SOL",
-        "mentions": 3
-      },
-      {
-        "coin": "Solana",
-        "mentions": 2
       },
       {
         "coin": "FIL",
@@ -54,47 +54,444 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 33
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 14
       },
       {
         "topic": "stablecoin",
-        "mentions": 11
+        "mentions": 12
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 8
+      },
+      {
+        "topic": "usdt",
+        "mentions": 6
       },
       {
         "topic": "tokenization",
         "mentions": 4
       },
       {
-        "topic": "etf",
-        "mentions": 4
-      },
-      {
-        "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "lending",
+        "topic": "dex",
         "mentions": 3
       },
       {
-        "topic": "usdt",
+        "topic": "onchain",
         "mentions": 3
       },
       {
-        "topic": "wallet",
+        "topic": "usdc",
         "mentions": 3
+      },
+      {
+        "topic": "dai",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials",
+      "url": "https://www.coindesk.com/policy/2026/07/13/trump-s-crypto-riches-loom-over-clarity-act-talks-to-ban-conflicts-for-u-s-officials",
+      "published_at": "2026-07-13T17:49:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bolivia mulls recognizing USDT as payment currency amid dollar shortage",
+      "url": "https://cointelegraph.com/news/bolivia-weighs-usdt-payment-currency-amid-dollar-shortage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T17:20:51+00:00",
+      "summary": "As foreign currency reserves remain under pressure, Bolivia is considering a framework to let the world’s largest stablecoin be used for payments, savings and trade.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin",
+        "usdt"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "'The Odyssey' Director Chris Nolan: Young Audiences are Rejecting 'AI Slop'",
+      "url": "https://decrypt.co/373401/the-odyssey-director-chris-nolan-ai-slop",
+      "published_at": "2026-07-13T17:16:44+00:00",
+      "summary": "The younger generation's judgment of AI has been “immediate and harsh,” according to the Oscar-winning director.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Robinhood Chain's Early Momentum Is Being Driven By Meme Coins, Not Tokenized Stocks",
+      "url": "https://decrypt.co/373398/robinhood-chain-momentum-meme-coins-not-tokenized-stocks",
+      "published_at": "2026-07-13T16:59:36+00:00",
+      "summary": "Robinhood Chain traders are reaching for Tendies over Apple.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Onchain Pokémon cards come to Solana-based DEX Jupiter",
+      "url": "https://www.theblock.co/post/408059/onchain-pokemon-cards-come-to-solana-based-dex-jupiter?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T16:56:34+00:00",
+      "summary": "While tokenized Pokémon cards aren’t new, having Jupiter enter the space could give the whole category a legitimacy boost.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boost"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "dex",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Hyundai completes USDT treasury settlement pilot between US and Mexico",
+      "url": "https://cointelegraph.com/news/hyundai-completes-usdt-treasury-settlement-pilot-between-us-and-mexico?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T16:45:16+00:00",
+      "summary": "Hyundai completed a proof-of-concept using Tether's USDT to settle a cross-border treasury transfer between its US and Mexican subsidiaries, highlighting growing enterprise interest in stablecoin-based payments.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growing"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "stablecoin",
+        "usdt"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "UK lays out tokenized finance roadmap with projected £33 billion annual boost",
+      "url": "https://www.theblock.co/post/408046/uk-lays-out-tokenized-finance-roadmap-projected-33-billion-annual-boost?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T16:42:36+00:00",
+      "summary": "Industry leaders say payment infrastructure must evolve alongside tokenized assets to enable real-time settlement.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boost"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "This Is How Much Your Boyfriend Is Spending on AI Girlfriends",
+      "url": "https://decrypt.co/373395/how-much-your-boyfriend-spending-ai-girlfriends",
+      "published_at": "2026-07-13T16:40:36+00:00",
+      "summary": "Romantic AI companion apps have brought in nearly half a billion dollars as users pay for virtual partners, flirting, and digital intimacy.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Mizuho says Circle bank approval doesn't solve USDC growth, stablecoin competition risks",
+      "url": "https://www.coindesk.com/business/2026/07/13/mizuho-says-circle-bank-approval-doesn-t-solve-usdc-growth-stablecoin-competition-risks",
+      "published_at": "2026-07-13T16:34:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "approval",
+          "growth"
+        ],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "stablecoin",
+        "usdc"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Donald Trump invokes US senator’s death to push crypto bill",
+      "url": "https://cointelegraph.com/news/us-senate-session-plans-clarity-act-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T16:27:43+00:00",
+      "summary": "With the death of Senator Lindsey Graham and another senator hospitalized, Republicans’ current majority in the chamber has been reduced to 51-47, likely requiring more Democratic support to pass crypto market structure.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "President Trump, White House press Senate to advance the Clarity Act while ethics fight looms",
+      "url": "https://www.theblock.co/post/408054/trump-white-house-press-senate-advance-clarity-act-ethics-fight-looms?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T15:51:09+00:00",
+      "summary": "President Trump and other key administration officials and lawmakers are making a renewed push to pass cryptocurrency legislation into law.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin panic-selling may be ending as sellers' profit margins disappear",
+      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-panic-selling-may-be-ending-as-sellers-profit-margins-disappear",
+      "published_at": "2026-07-13T15:49:41+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion",
+      "url": "https://www.coindesk.com/markets/2026/07/13/strategy-pauses-its-bitcoin-buying-spree-to-hoard-a-massive-usd3-billion-cash-cushion",
+      "published_at": "2026-07-13T15:27:36+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "BitMine Buys $49 Million in Ethereum as Tom Lee Hails Early Robinhood Chain Demand",
+      "url": "https://decrypt.co/373392/bitmine-buys-49-million-ethereum-tom-lee-hails-robinhood-chain-demand",
+      "published_at": "2026-07-13T15:22:10+00:00",
+      "summary": "According to BitMine Chairman Tom Lee, Ethereum is benefiting from the early success of the Robinhood Chain layer-2 network.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "buys",
+          "demand",
+          "success"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Robinhood built a blockchain for tokenized stocks. Memecoins took over",
+      "url": "https://www.coindesk.com/tech/2026/07/13/robinhood-built-a-blockchain-for-tokenized-stocks-memecoins-took-over",
+      "published_at": "2026-07-13T15:17:05+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "memecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin threatens $62K in risk-asset rout as Donald Trump says US will 'run' closed Hormuz Strait",
+      "url": "https://cointelegraph.com/markets/bitcoin-threatens-62k-in-risk-asset-out-as-donald-trump-says-us-will-run-closed-hormuz-strait?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T15:05:45+00:00",
+      "summary": "Bitcoin bulls faced an uphill struggle to preserve $62,000 as stocks opened down on Strait of Hormuz rhetoric between the US and Iran.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "struggle"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Chinese prosecutors call for more proactive approach to investigating crypto money laundering",
+      "url": "https://www.theblock.co/post/408035/chinese-prosecutors-call-for-more-proactive-approach-to-investigating-crypto-money-laundering?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T14:58:33+00:00",
+      "summary": "For the most part, China prohibits crypto trading and services while authorities actively investigate and prosecute crimes.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "investigate"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "‘Don’t Let China Win’: President Trump Presses Senate on Clarity Act in Final Stretch",
+      "url": "https://bitcoinmagazine.com/news/trump-presses-senate-on-clarity-act",
+      "published_at": "2026-07-13T14:50:20+00:00",
+      "summary": "Bitcoin Magazine\n\n&#8216;Don&#8217;t Let China Win&#8217;: President Trump Presses Senate on Clarity Act in Final Stretch\nPresident Trump urged the Senate to pass the CLARITY Act before the August recess as lawmakers face a narrowing window and unresolved political hurdles.\nThis post &#8216;Don&#8217;t Let China Win&#8217;: President Trump Presses Senate on Clarity Act in Final Stretch first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "win"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bolivia weighs adding Tether's USDT to its national payments system",
+      "url": "https://www.coindesk.com/business/2026/07/13/bolivia-weighs-adding-tether-s-usdt-to-its-national-payments-system",
+      "published_at": "2026-07-13T14:47:52+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "usdt"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Japan’s largest security token platform moves nearly $3 billion to Avalanche blockchain",
@@ -731,27 +1128,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Paradigm shifts vs bubbles: AI chips and bitcoin show powerful trends can still produce severe corrections",
-      "url": "https://www.coindesk.com/markets/2026/07/13/paradigm-shifts-vs-bubbles-ai-chips-and-bitcoin-show-powerful-trends-can-still-produce-severe-corrections",
-      "published_at": "2026-07-13T09:32:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pow"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Japan stablecoin payments advance with Lawson trial, Netstars launch",
       "url": "https://cointelegraph.com/news/japan-lawson-netstars-stablecoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -775,25 +1151,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "U.S. inflation, second-quarter earnings reports: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/07/13/u-s-inflation-second-quarter-earnings-reports-crypto-week-ahead",
-      "published_at": "2026-07-13T08:55:50+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "inflation",
-        "sec"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Bank of Thailand audits high-volume stablecoin trades to crack down on illicit finance: report",
       "url": "https://www.theblock.co/post/407998/bank-of-thailand-audits-stablecoin?utm_source=rss&utm_medium=rss",
@@ -814,361 +1171,6 @@
         "sec",
         "stablecoin",
         "usdt"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Japan’s SBI Group to launch JPYSC stablecoin lending service this month",
-      "url": "https://www.theblock.co/post/407988/sbi-jpysc-stablecoin-lending?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T07:22:28+00:00",
-      "summary": "The SBI's service would offer users a 3% annual yield for deposited JPYSC stablecoins, according to Nikkei.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "lending",
-        "pos",
-        "stablecoin",
-        "yield"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live markets: Bitcoin slips below $63,000 as Korea's Kospi plunges 9% overnight",
-      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-slips-below-usd63-000-in-an-asian-session-leverage-flush",
-      "published_at": "2026-07-13T06:52:28+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "plunges"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "AI microbusinesses could drive $262B in stablecoin volume by 2033: Swyftx",
-      "url": "https://cointelegraph.com/news/ai-enabled-businesses-freelancers-could-add-262b-in-stablecoin-volumes-swyftx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T05:24:22+00:00",
-      "summary": "The AI-native cohort of the expanding gig economy could increasingly use stablecoins to avoid slow and expensive traditional payment rails, Australian crypto exchange Swyftx said.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
-      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-holds-near-usd63-800-as-war-driven-selloff-hits-everything-but-crypto",
-      "published_at": "2026-07-13T04:48:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bank of Thailand targets USDT and cash flows in gray money crackdown",
-      "url": "https://cointelegraph.com/news/thailand-targets-stablecoins-in-latest-laundering-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T04:43:50+00:00",
-      "summary": "Thailand has been plagued by Chinese-affiliated scam centers, with illicit gains flowing through a “gray money” economy.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "scam"
-        ]
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "usdt"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Japan’s Lawson convenience store pilots stablecoin payments with JPYC: report",
-      "url": "https://www.theblock.co/post/407982/lawson-pilots-jpyc-stablecoin?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T03:59:28+00:00",
-      "summary": "This is part of a proof-of-concept involving telecommunications giant KDDI and crypto wallet firm HashPort.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": [
-        "stablecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "The Funding: Why Japan’s SBI Holdings is investing big in crypto",
-      "url": "https://www.theblock.co/post/407977/the-funding-why-japan-sbi-holdings-is-investing-big-in-crypto?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T02:12:42+00:00",
-      "summary": "The Japanese financial giant's recent crypto deals offer insights into how traditional finance is approaching digital assets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin whale moves $188 million in BTC after seven-year dormancy: onchain data",
-      "url": "https://www.theblock.co/post/407973/bitcoin-whale-moves-188-million-worth-btc?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T02:12:25+00:00",
-      "summary": "The whale last moved bitcoin in 2018, when the cryptocurrency traded at roughly $6,475, reflecting nearly a tenfold gain since then.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs draw $197M, snap 8-week outflow streak",
-      "url": "https://cointelegraph.com/news/bitcoin-etfs-draw-197m-snap-8-week-outflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-13T01:49:17+00:00",
-      "summary": "Analysts are not yet ready to call it a recovery in institutional demand for Bitcoin.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "institutional",
-          "recovery"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Robinhood L2 sparks ETH optimism, Saylor 'muddies waters.' Hodler's Digest, July 5-12, 2026",
-      "url": "https://cointelegraph.com/features/ethereum-climbs-as-robinhood-l2-takes-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-12T23:24:26+00:00",
-      "summary": "Even Ethereum's critics say Robinhood Chain is bullish for ETH. Nigel Farage and US President Donald Trump become embroiled in crypto related scandals, and more.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "optimism"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Optimism",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "l2"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Crypto fatwa sparks debate over Pakistan’s digital asset framework",
-      "url": "https://www.theblock.co/post/407969/crypto-fatwa-sparks-debate-over-pakistans-digital-asset-framework?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-12T21:23:57+00:00",
-      "summary": "Pakistan’s crypto regulator held talks with prominent Islamic scholar Mufti Taqi Usmani after a fatwa declared crypto purchases impermissible under Islam.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Michael Saylor posts cryptic Strategy chart after $216 million bitcoin sale: ‘Orange dots tell only part of the story’",
-      "url": "https://www.theblock.co/post/407965/michael-saylor-posts-cryptic-strategy-chart-after-216-million-bitcoin-sale-orange-dots-tell-only-part-of-the-story?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-12T18:43:15+00:00",
-      "summary": "Strategy holds 843,775 BTC at an average cost of $75,476, leaving the position roughly $9.7 billion underwater with bitcoin trading near $64,000.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "DOT",
-        "Near"
-      ],
-      "topics": [
-        "pos",
-        "rwa"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Signs of life?: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/07/12/signs-of-life-state-of-crypto",
-      "published_at": "2026-07-12T18:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
-      "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-12T18:16:45+00:00",
-      "summary": "Standard Chartered sees communication challenges facing the biggest digital asset treasury company as \"muddying the waters\" for Bitcoin in the near term.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Near",
-        "UNI"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "How to Make Product Ads With AI for TikTok and YouTube—For (Almost) Free",
-      "url": "https://decrypt.co/373290/how-to-make-ai-ads-tiktok-youtube-free",
-      "published_at": "2026-07-12T14:01:03+00:00",
-      "summary": "One product photo, three AI tools, and about 20 minutes: Here's the full workflow for generating a sales video without a camera, a model, or a studio.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
-      "url": "https://www.coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
-      "published_at": "2026-07-12T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "panic"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Pakistan crypto chief seeks dialogue after scholar rules against crypto payments",
-      "url": "https://cointelegraph.com/news/pakistan-crypto-chief-dialogue-islamic-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-12T12:26:09+00:00",
-      "summary": "Pakistan’s virtual-assets regulator called for continued dialogue on the treatment of digital assets after meeting an Islamic scholar who backed a ruling against purchases made with crypto.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
       ]
     }
   ]
