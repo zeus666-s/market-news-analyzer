@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-12T20:55:54.590335+00:00",
+  "generated_at": "2026-07-13T03:27:37.235532+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.002,
+    "market_sentiment_score": 0.016,
     "label_distribution": {
-      "neutral": 33,
-      "bearish": 21,
-      "bullish": 16
+      "neutral": 34,
+      "bullish": 18,
+      "bearish": 18
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 29
       },
       {
         "coin": "OP",
-        "mentions": 12
+        "mentions": 11
       },
       {
         "coin": "Near",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "BTC",
-        "mentions": 7
-      },
-      {
-        "coin": "UNI",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "Ethereum",
+        "mentions": 6
+      },
+      {
+        "coin": "UNI",
         "mentions": 5
       },
       {
@@ -47,7 +47,7 @@
         "mentions": 2
       },
       {
-        "coin": "DOT",
+        "coin": "Optimism",
         "mentions": 1
       }
     ],
@@ -58,19 +58,27 @@
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 13
       },
       {
         "topic": "fed",
         "mentions": 6
       },
       {
-        "topic": "stablecoin",
+        "topic": "sec",
         "mentions": 5
       },
       {
-        "topic": "sec",
-        "mentions": 5
+        "topic": "stablecoin",
+        "mentions": 4
+      },
+      {
+        "topic": "onchain",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
+        "mentions": 2
       },
       {
         "topic": "bridge",
@@ -83,18 +91,118 @@
       {
         "topic": "regulation",
         "mentions": 2
-      },
-      {
-        "topic": "lending",
-        "mentions": 2
-      },
-      {
-        "topic": "wallet",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "The Funding: Why Japan’s SBI Holdings is investing big in crypto",
+      "url": "https://www.theblock.co/post/407977/the-funding-why-japan-sbi-holdings-is-investing-big-in-crypto?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T02:12:42+00:00",
+      "summary": "The Japanese financial giant's recent crypto deals offer insights into how traditional finance is approaching digital assets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin whale moves $188 million in BTC after seven-year dormancy: onchain data",
+      "url": "https://www.theblock.co/post/407973/bitcoin-whale-moves-188-million-worth-btc?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T02:12:25+00:00",
+      "summary": "The whale last moved bitcoin in 2018, when the cryptocurrency traded at roughly $6,475, reflecting nearly a tenfold gain since then.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs draw $197M, snap 8-week outflow streak",
+      "url": "https://cointelegraph.com/news/bitcoin-etfs-draw-197m-snap-8-week-outflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T01:49:17+00:00",
+      "summary": "Analysts are not yet ready to call it a recovery in institutional demand for Bitcoin.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "demand",
+          "institutional",
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Robinhood L2 sparks ETH optimism, Saylor 'muddies waters.' Hodler's Digest, July 5-12, 2026",
+      "url": "https://cointelegraph.com/features/ethereum-climbs-as-robinhood-l2-takes-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-12T23:24:26+00:00",
+      "summary": "Even Ethereum's critics believe Robinhood Chain is bullish for ETH. Nigel Farage and Donald Trump become embroiled in crypto related scandals, and more.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish",
+          "optimism"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Optimism",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "l2"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Crypto fatwa sparks debate over Pakistan’s digital asset framework",
+      "url": "https://www.theblock.co/post/407969/crypto-fatwa-sparks-debate-over-pakistans-digital-asset-framework?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-12T21:23:57+00:00",
+      "summary": "Pakistan’s crypto regulator held talks with prominent Islamic scholar Mufti Taqi Usmani after a fatwa declared crypto purchases impermissible under Islam.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "Michael Saylor posts cryptic Strategy chart after $216 million bitcoin sale: ‘Orange dots tell only part of the story’",
@@ -825,45 +933,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Kraken to overhaul app with AI investing assistant",
-      "url": "https://cointelegraph.com/news/kraken-to-rebuild-app-around-ai-powered-trading-agents-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T21:07:39+00:00",
-      "summary": "The redesigned app will use AI to recommend trades and tailor investing tools around users' financial goals as Kraken expands into broader financial services.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Senate Democrats call for hearings into Trump’s ties to crypto amid CLARITY Act discussions",
-      "url": "https://cointelegraph.com/news/senate-democrats-hearings-donald-trump-crypto-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-10T21:03:57+00:00",
-      "summary": "Five senators called for committee hearings to investigate US President Donald Trump’s policies potentially being influenced by crypto funding from United Arab Emirates-linked and other entities.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "investigate"
-        ]
-      },
-      "coins": [
-        "LINK",
-        "UNI"
-      ],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "Democrats Call for Senate Hearings on Trump's Massive Crypto Profits",
       "url": "https://decrypt.co/373289/democrats-senate-hearings-trump-massive-crypto-profits",
@@ -1093,66 +1162,6 @@
       "topics": [
         "ai",
         "bridge"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. government digital dollar set to be banned tonight under housing law's CBDC limit",
-      "url": "https://www.coindesk.com/policy/2026/07/10/u-s-government-digital-dollar-set-to-be-banned-tonight-under-housing-law-s-cbdc-limit",
-      "published_at": "2026-07-10T16:02:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "banned"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
-      "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
-      "published_at": "2026-07-10T15:26:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "dai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Metaplanet Announces Joint Study to Bring Bitcoin-Backed Digital Credit to Japan",
-      "url": "https://bitcoinmagazine.com/news/metaplanet-announces-joint-study-bitcoin",
-      "published_at": "2026-07-10T15:14:13+00:00",
-      "summary": "Bitcoin Magazine\n\nMetaplanet Announces Joint Study to Bring Bitcoin-Backed Digital Credit to Japan\nMetaplanet is taking its Bitcoin strategy beyond treasury accumulation, launching a study to explore tokenized, Bitcoin-backed credit products that could reshape Japan's debt market.\nThis post Metaplanet Announces Joint Study to Bring Bitcoin-Backed Digital Credit to Japan first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "accumulation"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
