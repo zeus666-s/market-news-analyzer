@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-13T03:27:37.235532+00:00",
+  "generated_at": "2026-07-13T07:26:00.469081+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.016,
+    "market_sentiment_score": 0.023,
     "label_distribution": {
-      "neutral": 34,
       "bullish": 18,
-      "bearish": 18
+      "neutral": 35,
+      "bearish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
-      },
-      {
-        "coin": "OP",
-        "mentions": 11
+        "mentions": 30
       },
       {
         "coin": "Near",
-        "mentions": 9
+        "mentions": 10
+      },
+      {
+        "coin": "OP",
+        "mentions": 10
       },
       {
         "coin": "ETH",
@@ -40,25 +40,29 @@
       },
       {
         "coin": "SOL",
-        "mentions": 4
+        "mentions": 3
+      },
+      {
+        "coin": "FIL",
+        "mentions": 2
       },
       {
         "coin": "Sui",
         "mentions": 2
-      },
-      {
-        "coin": "Optimism",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 6
       },
       {
         "topic": "fed",
@@ -66,35 +70,182 @@
       },
       {
         "topic": "sec",
-        "mentions": 5
+        "mentions": 4
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
+        "topic": "lending",
+        "mentions": 3
+      },
+      {
+        "topic": "wallet",
+        "mentions": 3
       },
       {
         "topic": "onchain",
         "mentions": 3
       },
       {
-        "topic": "etf",
-        "mentions": 2
-      },
-      {
-        "topic": "bridge",
-        "mentions": 2
-      },
-      {
-        "topic": "dai",
-        "mentions": 2
-      },
-      {
         "topic": "regulation",
+        "mentions": 2
+      },
+      {
+        "topic": "exchange",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Japan’s SBI Group to launch JPYSC stablecoin lending service as early as this month: report",
+      "url": "https://www.theblock.co/post/407988/sbi-jpysc-stablecoin-lending?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T07:22:28+00:00",
+      "summary": "The SBI's service would offer users a 3% annual yield for deposited JPYSC stablecoins, according to Nikkei.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "lending",
+        "pos",
+        "stablecoin",
+        "yield"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live markets: Bitcoin slips below $63,000 in an Asian-session leverage flush",
+      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-slips-below-usd63-000-in-an-asian-session-leverage-flush",
+      "published_at": "2026-07-13T06:52:28+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T05:29:39+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "AI microbusinesses could drive $262B in stablecoin volume by 2033: Swyftx",
+      "url": "https://cointelegraph.com/news/ai-enabled-businesses-freelancers-could-add-262b-in-stablecoin-volumes-swyftx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T05:24:22+00:00",
+      "summary": "The AI-native cohort of the expanding gig economy could increasingly use stablecoins to avoid slow and expensive traditional payment rails, Australian crypto exchange Swyftx said.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
+      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-holds-near-usd63-800-as-war-driven-selloff-hits-everything-but-crypto",
+      "published_at": "2026-07-13T04:48:11+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bank of Thailand targets USDT and cash flows in gray money crackdown",
+      "url": "https://cointelegraph.com/news/thailand-targets-stablecoins-in-latest-laundering-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-13T04:43:50+00:00",
+      "summary": "Thailand has been plagued by Chinese-affiliated scam centers, with illicit gains flowing through a “gray money” economy.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": [
+          "scam"
+        ]
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "ai",
+        "usdt"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Japan’s Lawson convenience store pilots stablecoin payments with JPYC: report",
+      "url": "https://www.theblock.co/post/407982/lawson-pilots-jpyc-stablecoin?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-13T03:59:28+00:00",
+      "summary": "This is part of a proof-of-concept involving telecommunications giant KDDI and crypto wallet firm HashPort.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "stablecoin",
+        "wallet"
+      ]
+    },
     {
       "source": "The Block",
       "title": "The Funding: Why Japan’s SBI Holdings is investing big in crypto",
@@ -165,7 +316,7 @@
       "title": "Robinhood L2 sparks ETH optimism, Saylor 'muddies waters.' Hodler's Digest, July 5-12, 2026",
       "url": "https://cointelegraph.com/features/ethereum-climbs-as-robinhood-l2-takes-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-12T23:24:26+00:00",
-      "summary": "Even Ethereum's critics believe Robinhood Chain is bullish for ETH. Nigel Farage and Donald Trump become embroiled in crypto related scandals, and more.",
+      "summary": "Even Ethereum's critics say Robinhood Chain is bullish for ETH. Nigel Farage and US President Donald Trump become embroiled in crypto related scandals, and more.",
       "sentiment": {
         "score": 5,
         "normalized": 0.625,
@@ -345,7 +496,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Cambridge study puts Ethereum near the lower end of PoS energy intensity",
+      "title": "Cambridge study puts Ethereum near lower end of PoS energy intensity",
       "url": "https://cointelegraph.com/news/ethereum-pos-energy-intensity-cambridge-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-12T09:29:00+00:00",
       "summary": "Cambridge estimated that Ethereum consumes 7.87 GWh annually and has the second-lowest market-value-adjusted energy intensity among the proof-of-stake networks studied.",
@@ -452,29 +603,6 @@
       ],
       "topics": [
         "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-12T04:24:58+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -810,28 +938,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Robinhood says its AI agent feature will ‘soon’ be assisting crypto traders",
-      "url": "https://cointelegraph.com/news/robinhood-says-ai-agents-will-be-trading-for-crypto-users-soon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-11T04:12:30+00:00",
-      "summary": "More than 70,000 agentic accounts have already been created by Robinhood equities and options traders since late May, when Robinhood launched a beta version of the product.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Housing bill that includes a CBDC ban passed into law without Trump’s signature",
       "url": "https://www.theblock.co/post/406548/housing-bill-cbdc-ban-passed-into-law-without-trump-signature?utm_source=rss&utm_medium=rss",
@@ -871,28 +977,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "DOJ moves to dismiss charges against alleged $722M BitClub fraudster: Report",
-      "url": "https://cointelegraph.com/news/doj-to-dismiss-charges-against-alleged-722m-bitclub-crypto-fraudster-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-11T01:30:31+00:00",
-      "summary": "Matthew Goettsche was set to face trial in October for conspiracy to commit wire fraud and selling unregistered securities.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud",
-          "selling"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
     },
     {
       "source": "Decrypt",
@@ -1076,92 +1160,6 @@
       "topics": [
         "ai",
         "fed"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Circle (CRCL) Wins Final OCC Approval for National Trust Bank",
-      "url": "https://bitcoinmagazine.com/news/circle-crcl-wins-final-occ-approval",
-      "published_at": "2026-07-10T16:43:52+00:00",
-      "summary": "Bitcoin Magazine\n\nCircle (CRCL) Wins Final OCC Approval for National Trust Bank\nCircle won final OCC approval to establish a national trust bank, allowing it to place USDC reserves under federal oversight and expanding its regulated digital asset custody business.\nThis post Circle (CRCL) Wins Final OCC Approval for National Trust Bank first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "trust",
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "pos",
-        "usdc"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Empery Digital offloads 1,400 bitcoins to help fund AI pivot, pay debt",
-      "url": "https://www.theblock.co/post/407900/empery-digital-offloads-1400-bitcoins-help-fund-ai-pivot-pay-debt?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T16:39:45+00:00",
-      "summary": "Empery Digital used part of the proceeds for a 25% stake in an AI data center campus project.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Kraken to relaunch its mobile app with agentic trading and advice at the center",
-      "url": "https://www.theblock.co/post/407899/kraken-to-relaunch-its-mobile-app-with-agentic-trading-and-advise-at-the-center?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T16:27:23+00:00",
-      "summary": "Kraken is adding autonomous AI agents capable of monitoring markets and suggesting trades for users.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Cambridge research puts 31% of Ethereum node activity in the US, where a third offline can stall finalization",
-      "url": "https://www.theblock.co/post/407909/cambridge-research-puts-ethereum-node-activity-in-us-where-third-offline-can-stall-finalization?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-10T16:07:20+00:00",
-      "summary": "Cambridge finds 31% of Ethereum node activity in the U.S., clustered on AWS, Hetzner and OVH, raising jurisdictional/counterparty questions.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "bridge"
       ]
     }
   ]
