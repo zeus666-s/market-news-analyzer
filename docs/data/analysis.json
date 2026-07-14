@@ -1,83 +1,87 @@
 {
-  "generated_at": "2026-07-14T06:15:31.101508+00:00",
+  "generated_at": "2026-07-14T10:02:38.169786+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.077,
+    "market_sentiment_score": 0.073,
     "label_distribution": {
-      "bullish": 26,
-      "neutral": 33,
-      "bearish": 11
+      "neutral": 37,
+      "bearish": 9,
+      "bullish": 24
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 15
       },
       {
         "coin": "ETH",
         "mentions": 11
       },
       {
-        "coin": "BTC",
-        "mentions": 6
-      },
-      {
         "coin": "SOL",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "coin": "Near",
         "mentions": 4
       },
       {
-        "coin": "Ethereum",
+        "coin": "BTC",
+        "mentions": 4
+      },
+      {
+        "coin": "UNI",
         "mentions": 3
       },
       {
+        "coin": "LINK",
+        "mentions": 2
+      },
+      {
+        "coin": "Ripple",
+        "mentions": 2
+      },
+      {
         "coin": "Avalanche",
-        "mentions": 2
-      },
-      {
-        "coin": "Binance",
-        "mentions": 2
-      },
-      {
-        "coin": "Solana",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 17
       },
       {
         "topic": "stablecoin",
-        "mentions": 7
+        "mentions": 9
       },
       {
         "topic": "sec",
         "mentions": 7
       },
       {
-        "topic": "usdt",
+        "topic": "fed",
         "mentions": 4
       },
       {
         "topic": "etf",
-        "mentions": 3
+        "mentions": 4
       },
       {
-        "topic": "exchange",
+        "topic": "usdt",
+        "mentions": 4
+      },
+      {
+        "topic": "tokenization",
         "mentions": 3
       },
       {
@@ -85,16 +89,182 @@
         "mentions": 3
       },
       {
-        "topic": "defi",
-        "mentions": 3
-      },
-      {
-        "topic": "fed",
-        "mentions": 3
+        "topic": "exchange",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Former LASD deputy jailed for obstructing crypto ‘mogul’ Adam Iza extortion probe",
+      "url": "https://www.theblock.co/post/408193/former-lasd-deputy-jailed-for-obstructing-crypto-mogul-adam-iza-extortion-probe?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T09:55:02+00:00",
+      "summary": "A former LASD deputy was sentenced to 18 months in federal prison for lying about an Adam Iza extortion incident.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "South Korea maintains blockchain economy push as AI takes center stage",
+      "url": "https://www.theblock.co/post/408180/south-korea-blockchain-economy-h2-2026?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T08:51:22+00:00",
+      "summary": "Plans include the enactment of the Digital Asset Basic Act and advancement of a CBDC project linked to the tokenization of government bonds.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korea to test tokenized government bonds with CBDC in 2027",
+      "url": "https://cointelegraph.com/news/south-korea-tokenized-government-bonds-cbdc-pilot-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-14T08:44:06+00:00",
+      "summary": "South Korea will test tokenized government bonds linked to the Bank of Korea’s wholesale CBDC system in 2027 as token securities rules take effect.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "US banking groups urge Senate to strengthen stablecoin provisions in Clarity Act",
+      "url": "https://www.theblock.co/post/408144/us-banking-groups-urge-stablecoin-provisions-clarity-act?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T08:32:49+00:00",
+      "summary": "The groups warned that the current bill could allow stablecoins to substitute for bank deposits and increase the risk of deposit flight from community banks.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk",
+          "warned"
+        ]
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US spot Bitcoin ETFs post $425M outflow after brief rebound",
+      "url": "https://cointelegraph.com/news/bitcoin-etf-425-million-daily-outflow-inflows-reverse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-14T08:24:31+00:00",
+      "summary": "US spot Bitcoin ETFs saw their largest single-day outflows in July, with $424.66 million leaving the funds, reversing a brief return to positive weekly flows.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "positive"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin holds $62,600 as the Iran conflict reignites and CPI looms",
+      "url": "https://www.coindesk.com/business/2026/07/14/live-updates-bitcoin-holds-usd62-600-as-the-iran-conflict-reignites-and-cpi-looms",
+      "published_at": "2026-07-14T06:55:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "What Is RLUSD? Ripple’s XRP-Native Stablecoin Explained",
+      "url": "https://www.theblock.co/learn/408170/what-is-rlusd?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T06:53:47+00:00",
+      "summary": "RLUSD is a regulated stablecoin issued by Ripple Labs — the firm behind the XRP blockchain — designed to maintain a steady value of one U.S. dollar per token. Each RLUSD is backed one-to-one by a reserve of cash, short-term U.S. Treasury bills, and other cash equivalents, and is redeemable for U.S. dollars by approved [&hellip;]",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approved"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple",
+        "XRP"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. government moves $288 million in seized bitcoin, ether to Coinbase Prime",
+      "url": "https://www.coindesk.com/markets/2026/07/14/u-s-government-moves-usd288-million-in-seized-bitcoin-ether-to-coinbase-prime",
+      "published_at": "2026-07-14T06:28:43+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "How Bitcoin ETFs Changed Institutional Adoption",
@@ -798,7 +968,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Donald Trump invokes US senator’s death to push crypto bill",
+      "title": "President Trump invokes US senator’s death to push crypto bill",
       "url": "https://cointelegraph.com/news/us-senate-session-plans-clarity-act-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-13T16:27:43+00:00",
       "summary": "With the death of Senator Lindsey Graham and another senator hospitalized, Republicans’ current majority in the chamber has been reduced to 51-47, likely requiring more Democratic support to pass crypto market structure.",
@@ -918,7 +1088,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Bitcoin threatens $62K in risk-asset rout as Donald Trump says US will 'run' closed Hormuz Strait",
+      "title": "Bitcoin threatens $62K in risk-asset rout as President Trump says US will 'run' closed Hormuz Strait",
       "url": "https://cointelegraph.com/markets/bitcoin-threatens-62k-in-risk-asset-out-as-donald-trump-says-us-will-run-closed-hormuz-strait?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-13T15:05:45+00:00",
       "summary": "Bitcoin bulls faced an uphill struggle to preserve $62,000 as stocks opened down on Strait of Hormuz rhetoric between the US and Iran.",
@@ -1001,170 +1171,6 @@
       ],
       "topics": [
         "usdt"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Japan’s largest security token platform moves nearly $3 billion to Avalanche blockchain",
-      "url": "https://www.theblock.co/post/408036/japans-largest-security-token-platform-moves-nearly-3-billion-to-avalanche-blockchain?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T14:29:57+00:00",
-      "summary": "Progmat develops security token infrastructure that accounts for 64.6% of Japan’s security token market total issuance value.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Avalanche",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Strategy Pads Cash Reserves to $3 Billion, Skipping Bitcoin Buy for Third Week",
-      "url": "https://decrypt.co/373381/strategy-pads-cash-reserves-3-billion-skipping-bitcoin-buy-third-week",
-      "published_at": "2026-07-13T14:09:38+00:00",
-      "summary": "Strategy went another week without buying Bitcoin, focusing instead on lifting its cash reserves to $3 billion via common stock proceeds.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "buy",
-          "buying"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "UK Treasury report on tokenization cites Ripple as convergence model",
-      "url": "https://www.coindesk.com/policy/2026/07/13/ripple-lands-inside-uk-plan-for-tokenized-repo-bonds-and-funds",
-      "published_at": "2026-07-13T14:06:53+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tom Lee's BitMine ether holdings rise to 5.77 million tokens, or 4.8% of total supply",
-      "url": "https://www.coindesk.com/markets/2026/07/13/tom-lee-s-bitmine-raises-ether-holdings-to-usd5-77-million-or-4-8-of-supply",
-      "published_at": "2026-07-13T14:04:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Stablecoin FX priced below interbank rates in Q2, with routing now the biggest cost lever: Borderless",
-      "url": "https://www.theblock.co/post/408006/stablecoin-fx-priced-below-interbank-rates-in-q2-with-routing-now-the-biggest-cost-lever-borderless?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T14:01:02+00:00",
-      "summary": "Stablecoin payments were priced 3.2 bps below interbank FX rates across 260 corridors in Q2, per Borderless.xyz's benchmark.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bank of Thailand Flags Abnormal Stablecoin Trades in 'Grey Economy' Crackdown",
-      "url": "https://decrypt.co/373380/bank-of-thailand-flags-abnormal-stablecoin-trades-in-grey-economy-crackdown",
-      "published_at": "2026-07-13T13:56:36+00:00",
-      "summary": "Data analytics flagged stablecoin transfers meant to evade scrutiny, the central bank says, handing the findings to the securities regulator.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Wall Street transfer agents lobby SEC, warning that third-party tokens pose risks to market integrity",
-      "url": "https://www.coindesk.com/policy/2026/07/13/wall-street-transfer-agents-lobby-sec-warning-that-third-party-tokens-pose-risks-to-market-integrity",
-      "published_at": "2026-07-13T13:45:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risks",
-          "warning"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Strive (ASST) Adds 18 Bitcoin, Pushing Treasury to 19,900 BTC",
-      "url": "https://bitcoinmagazine.com/news/strive-asst-adds-18-treasury-to-19900-btc",
-      "published_at": "2026-07-13T13:32:07+00:00",
-      "summary": "Bitcoin Magazine\n\nStrive (ASST) Adds 18 Bitcoin, Pushing Treasury to 19,900 BTC\nStrive (ASST) purchased 18 bitcoin for about $1.2 million last week, increasing its treasury to 19,900 BTC while maintaining $154.1 million in cash as it continues integrating its bitcoin-focused treasury strategy.\nThis post Strive (ASST) Adds 18 Bitcoin, Pushing Treasury to 19,900 BTC first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "pos"
       ]
     }
   ]
