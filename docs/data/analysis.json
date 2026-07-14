@@ -1,37 +1,33 @@
 {
-  "generated_at": "2026-07-14T13:54:47.508393+00:00",
+  "generated_at": "2026-07-14T17:19:02.532958+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.034,
+    "market_sentiment_score": 0.025,
     "label_distribution": {
-      "neutral": 40,
       "bearish": 12,
-      "bullish": 18
+      "bullish": 16,
+      "neutral": 42
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 34
+        "mentions": 28
       },
       {
         "coin": "OP",
-        "mentions": 18
-      },
-      {
-        "coin": "ETH",
-        "mentions": 10
+        "mentions": 21
       },
       {
         "coin": "BTC",
+        "mentions": 8
+      },
+      {
+        "coin": "ETH",
         "mentions": 7
       },
       {
         "coin": "SOL",
-        "mentions": 5
-      },
-      {
-        "coin": "Near",
         "mentions": 4
       },
       {
@@ -39,62 +35,572 @@
         "mentions": 3
       },
       {
-        "coin": "UNI",
-        "mentions": 3
-      },
-      {
-        "coin": "Solana",
+        "coin": "Tron",
         "mentions": 2
       },
       {
-        "coin": "XRP",
+        "coin": "Near",
         "mentions": 2
+      },
+      {
+        "coin": "LINK",
+        "mentions": 2
+      },
+      {
+        "coin": "TRX",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 13
       },
       {
         "topic": "stablecoin",
-        "mentions": 7
+        "mentions": 6
       },
       {
-        "topic": "sec",
+        "topic": "defi",
         "mentions": 5
+      },
+      {
+        "topic": "usdc",
+        "mentions": 4
+      },
+      {
+        "topic": "miner",
+        "mentions": 4
+      },
+      {
+        "topic": "lending",
+        "mentions": 4
       },
       {
         "topic": "fed",
         "mentions": 4
       },
       {
-        "topic": "etf",
+        "topic": "sec",
         "mentions": 4
       },
       {
-        "topic": "onchain",
+        "topic": "mining",
         "mentions": 3
-      },
-      {
-        "topic": "defi",
-        "mentions": 3
-      },
-      {
-        "topic": "miner",
-        "mentions": 3
-      },
-      {
-        "topic": "yield",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Wall Street turns cautious on Circle as analysts warn USDC economics face mounting pressure",
+      "url": "https://www.theblock.co/post/408280/wall-street-cautious-circle-warn-usdc-economics?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T17:14:47+00:00",
+      "summary": "Mizuho downgraded the stock and JPMorgan lowered earnings estimates, citing concerns that USDC is coming under pressure.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "usdc"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "JCB signs Circle MOU to test stablecoin payments in Japan",
+      "url": "https://cointelegraph.com/news/japans-jcb-signs-mou-with-circle-to-explore-usdc-payments-and-cross-border-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-14T17:05:00+00:00",
+      "summary": "The companies will explore using USDC for JCB’s cross-border treasury operations and merchant payments in Japan as regulated stablecoin adoption gains momentum.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption",
+          "gains"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin",
+        "usdc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat",
+      "url": "https://www.coindesk.com/business/2026/07/14/mizuho-downgrades-circle-to-underperform-cuts-price-target-to-usd50-on-open-usd-threat",
+      "published_at": "2026-07-14T16:59:44+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "underperform"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto",
+      "url": "https://www.coindesk.com/policy/2026/07/14/wikipedia-blackout-could-hurt-how-ai-engines-like-chatgpt-understand-crypto",
+      "published_at": "2026-07-14T16:39:26+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S., UK move to align rules for tokenized finance across world's largest financial markets",
+      "url": "https://www.coindesk.com/policy/2026/07/14/u-s-uk-move-to-align-rules-for-tokenized-finance-across-world-s-largest-financial-markets",
+      "published_at": "2026-07-14T16:29:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CleanSpark shares jump 22% after $6.6B Georgia data center lease",
+      "url": "https://cointelegraph.com/news/cleanspark-shares-jump-after-georgia-data-center-lease?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-14T16:24:45+00:00",
+      "summary": "The Bitcoin miner’s Georgia agreement with an undisclosed investment-grade technology company expands its footprint in AI and high-performance computing infrastructure.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "CleanSpark Signs $6.6 Billion Data Center Lease as Bitcoin Miner Pivots to Compute",
+      "url": "https://bitcoinmagazine.com/news/cleanspark-signs-6-billion-center-lease",
+      "published_at": "2026-07-14T16:04:07+00:00",
+      "summary": "Bitcoin Magazine\n\nCleanSpark Signs $6.6 Billion Data Center Lease as Bitcoin Miner Pivots to Compute\nCleanSpark, the Nasdaq-listed bitcoin miner, said on July 14 that it has signed a 20-year infrastructure lease with an unnamed high-investment-grade global technology company at its campus in Sandersville, Georgia.&#160; The deal marks the firm&#8217;s largest step from pure bitcoin mining toward high-performance computing for hyperscale clients. The lease covers data center infrastructure tha...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "mining"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin mining production slips in June for CleanSpark, BitFuFu and Canaan",
+      "url": "https://www.theblock.co/post/408260/bitcoin-mining-production-slips-june-cleanspark-bitfufu-canaan?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T15:46:24+00:00",
+      "summary": "CleanSpark, BitFuFu and Canaan reported lower bitcoin production in June despite mining difficulty dropping more than 10%.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "mining"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Galaxy blends Aave, Morpho and other DeFi rates in new GOFR crypto borrowing product",
+      "url": "https://www.theblock.co/post/408267/galaxy-blends-aave-morpho-other-defi-rates-new-gofr-crypto-borrowing-product?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T15:33:49+00:00",
+      "summary": "Galaxy will act as the sole intermediary between the accredited borrowers and the blockchain-based lending protocols.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "defi",
+        "lending"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘Soft print, hard regime’: Bitcoin climbs toward $64,000 as June CPI falls 0.4% in largest monthly drop since 2020",
+      "url": "https://www.theblock.co/post/408263/soft-print-hard-regime-bitcoin-climbs-64000-june-cpi-falls-largest-monthly-drop-since-2020?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T15:27:07+00:00",
+      "summary": "June CPI fell 0.4% and core held at 2.6% annually, lifting BTC toward $64,000 as analysts flip from fears to a summer recovery case.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "drop",
+          "falls",
+          "fears",
+          "fell"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Ticks Up to $64K Following Largest Inflation Slowdown in Six Years",
+      "url": "https://decrypt.co/373488/bitcoin-ticks-up-to-64k-following-largest-inflation-slowdown-in-six-years",
+      "published_at": "2026-07-14T15:24:27+00:00",
+      "summary": "Consumer prices cooled more than expected in June, yet geopolitical tensions continue to cast a shadow over crypto prices",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Benchmark sees ‘long pathway for growth’ in Hut 8, raises target to $165 on $16.8 billion AI data center deals",
+      "url": "https://www.theblock.co/post/408264/benchmark-sees-long-pathway-growth-hut-8-raises-target-to-165-on-ai-data-center-deals?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T15:10:13+00:00",
+      "summary": "Benchmark raised Hut 8's target to $165, citing $16.8 billion in AI data center contracts and Beacon Point commercialization.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "UK to Defer Capital Gains Tax on DeFi Lending, Liquidity Pool Deposits",
+      "url": "https://decrypt.co/373481/uk-to-defer-capital-gains-tax-on-defi-lending-liquidity-pool-deposits",
+      "published_at": "2026-07-14T15:00:26+00:00",
+      "summary": "Moving crypto into a lending protocol or liquidity pool won’t count as a taxable disposal, deferring the charge until a real cash-out.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "defi",
+        "lending",
+        "liquidity",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Anchorage Digital expands Tron support with institutional TRX staking",
+      "url": "https://cointelegraph.com/news/anchorage-digital-expands-tron-support-with-institutional-trx-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-14T15:00:00+00:00",
+      "summary": "Institutions can now stake Tron's native token directly from Anchorage's custody platform as the company expands support for one of the largest USDT settlement networks.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional",
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron",
+        "TRX"
+      ],
+      "topics": [
+        "staking",
+        "usdt"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "JPMorgan says Hyperliquid's rise threatens Circle's USDC economics",
+      "url": "https://www.coindesk.com/business/2026/07/14/jpmorgan-says-hyperliquid-s-rise-threatens-circle-s-usdc-economics",
+      "published_at": "2026-07-14T14:57:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "usdc"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "UK Adopts ‘No Gain, No Loss’ Tax Treatment for Crypto Lending and Liquidity Pools",
+      "url": "https://bitcoinmagazine.com/news/uk-adopts-no-gain-no-loss-tax-crypto",
+      "published_at": "2026-07-14T14:54:26+00:00",
+      "summary": "Bitcoin Magazine\n\nUK Adopts &#8216;No Gain, No Loss&#8217; Tax Treatment for Crypto Lending and Liquidity Pools\nThe UK will introduce a \"no gain, no loss\" tax treatment for qualifying crypto lending and DeFi liquidity pool transactions from April 6, 2027, deferring Capital Gains Tax until users make an economic disposal of their cryptocurrency.\nThis post UK Adopts &#8216;No Gain, No Loss&#8217; Tax Treatment for Crypto Lending and Liquidity Pools first appeared on Bitcoin Magazine and is writ...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "gain",
+          "gains"
+        ],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "defi",
+        "lending",
+        "liquidity",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure",
+      "url": "https://cointelegraph.com/markets/bitcoin-jumps-on-lowest-us-cpi-since-2020-as-traders-stay-wary-of-64k-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-14T14:53:13+00:00",
+      "summary": "BTC price action returned to $64,000 on low US CPI inflation but traders stayed wary of rejection at key resistance.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "failure"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "inflation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Tether leads $7 million round in Pact Labs to boost USAT stablecoin adoption",
+      "url": "https://www.theblock.co/post/408239/tether-leads-7-million-round-in-pact-labs-to-boost-usat-stablecoin-adoption?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T14:37:15+00:00",
+      "summary": "“Pact Labs gives us the rails to make digital dollars designed to be compliant with U.S. regulations,\" says Tether USAT.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption",
+          "boost",
+          "leads"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "regulation",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ethereum Foundation spinout EthSystems targets banks with blockchain privacy technology",
+      "url": "https://www.coindesk.com/tech/2026/07/14/ethereum-foundation-spinout-ethsystems-targets-banks-with-blockchain-privacy-technology",
+      "published_at": "2026-07-14T14:31:44+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Dragonfly, FirstMark lead $38 million Series A for stablecoin startup Velocity with support from Coinbase, Ripple and more",
+      "url": "https://www.theblock.co/post/408242/dragonfly-firstmark-series-a-stablecoin-velocity-coinbase-ripple-capital-one-ventures?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T14:30:43+00:00",
+      "summary": "The startup enables corporate users to use stablecoins while connecting to traditional banking rails and compliance systems.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Decentralized AI project Nous Research in talks to raise $75M at $1.5B valuation: report",
+      "url": "https://www.theblock.co/post/408237/decentralized-ai-project-nous-research-in-talks-to-raise-75m-at-1-5b-valuation-report?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-14T14:24:13+00:00",
+      "summary": "Nous Research is raising at least $75 million led by Robot Ventures at a $1.5 billion valuation, per TechCrunch.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Price Jumps Above $64,000 as Cooler-Than-Expected Inflation Strengthens the Case for Rate Cuts",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-jumps-above-64000",
+      "published_at": "2026-07-14T14:21:25+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Price Jumps Above $64,000 as Cooler-Than-Expected Inflation Strengthens the Case for Rate Cuts\nBitcoin price climbed above $64,000 after cooler-than-expected June inflation boosted expectations for Federal Reserve rate cuts, though sticky core inflation and rising oil prices continue to cloud the outlook.\nThis post Bitcoin Price Jumps Above $64,000 as Cooler-Than-Expected Inflation Strengthens the Case for Rate Cuts first appeared on Bitcoin Magazine and is written b...",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boosted"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed",
+        "inflation",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "For pension funds, tokenization’s real play is balance-sheet management, Fidelity’s Lai says",
+      "url": "https://www.coindesk.com/markets/2026/07/14/for-pension-funds-tokenization-s-real-play-is-balance-sheet-management-fidelity-s-lai-says",
+      "published_at": "2026-07-14T14:05:18+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "tokenization"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "OpenAI quietly adds Kalshi World Cup odds to ChatGPT: Report",
@@ -549,27 +1055,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "XRP and ether bulls are getting louder as prices fall, signaling more trouble ahead",
-      "url": "https://www.coindesk.com/markets/2026/07/14/xrp-ether-bulls-get-loud-as-prices-fade-raising-downside-risk",
-      "published_at": "2026-07-14T10:27:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "XRP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "US government moves over $288 million in seized bitcoin, ether to Coinbase Prime: Arkham",
       "url": "https://www.theblock.co/post/408202/us-government-moves-288-million-bitcoin-ether?utm_source=rss&utm_medium=rss",
@@ -662,493 +1147,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "South Korea maintains blockchain economy push as AI takes center stage",
-      "url": "https://www.theblock.co/post/408180/south-korea-blockchain-economy-h2-2026?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T08:51:22+00:00",
-      "summary": "Plans include the enactment of the Digital Asset Basic Act and advancement of a CBDC project linked to the tokenization of government bonds.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "ai",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korea to test tokenized government bonds with CBDC in 2027",
-      "url": "https://cointelegraph.com/news/south-korea-tokenized-government-bonds-cbdc-pilot-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T08:44:06+00:00",
-      "summary": "South Korea will test tokenized government bonds linked to the Bank of Korea’s wholesale CBDC system in 2027 as token securities rules take effect.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "US banking groups urge Senate to strengthen stablecoin provisions in Clarity Act",
-      "url": "https://www.theblock.co/post/408144/us-banking-groups-urge-stablecoin-provisions-clarity-act?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T08:32:49+00:00",
-      "summary": "The groups warned that the current bill could allow stablecoins to substitute for bank deposits and increase the risk of deposit flight from community banks.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk",
-          "warned"
-        ]
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": [
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US spot Bitcoin ETFs post $425M outflow after brief rebound",
-      "url": "https://cointelegraph.com/news/bitcoin-etf-425-million-daily-outflow-inflows-reverse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T08:24:31+00:00",
-      "summary": "US spot Bitcoin ETFs saw their largest single-day outflows in July, with $424.66 million leaving the funds, reversing a brief return to positive weekly flows.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "positive"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin rises past $63,000 after inflation softened in June",
-      "url": "https://www.coindesk.com/business/2026/07/14/live-updates-bitcoin-holds-usd62-600-as-the-iran-conflict-reignites-and-cpi-looms",
-      "published_at": "2026-07-14T06:55:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "What Is RLUSD? Ripple’s XRP-Native Stablecoin Explained",
-      "url": "https://www.theblock.co/learn/408170/what-is-rlusd?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T06:53:47+00:00",
-      "summary": "RLUSD is a regulated stablecoin issued by Ripple Labs — the firm behind the XRP blockchain — designed to maintain a steady value of one U.S. dollar per token. Each RLUSD is backed one-to-one by a reserve of cash, short-term U.S. Treasury bills, and other cash equivalents, and is redeemable for U.S. dollars by approved [&hellip;]",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approved"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "XRP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. government moves $288 million in seized bitcoin, ether to Coinbase Prime",
-      "url": "https://www.coindesk.com/markets/2026/07/14/u-s-government-moves-usd288-million-in-seized-bitcoin-ether-to-coinbase-prime",
-      "published_at": "2026-07-14T06:28:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "How Bitcoin ETFs Changed Institutional Adoption",
-      "url": "https://www.theblock.co/learn/408156/how-bitcoin-etfs-changed-institutional-adoption?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T05:20:31+00:00",
-      "summary": "A spot bitcoin ETF is a fund that holds actual bitcoin and trades on a stock exchange, so an investor gains exposure to bitcoin&#8217;s price through an ordinary brokerage account. When the first U.S. spot bitcoin ETFs began trading in January 2024, they removed the custody, compliance, and operational barriers that had kept many asset [&hellip;]",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "gains",
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T05:09:29+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Solo bitcoin miner makes $200,000 using $150 equipment",
-      "url": "https://www.coindesk.com/markets/2026/07/14/solo-btc-miner-makes-usd200-000-using-usd150-equipment",
-      "published_at": "2026-07-14T04:43:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL"
-      ],
-      "topics": [
-        "miner"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "White House crypto adviser Patrick Witt to take military leave: Report",
-      "url": "https://cointelegraph.com/news/white-house-crypto-adviser-patrick-witt-to-report-for-military-training-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T04:35:20+00:00",
-      "summary": "Witt’s departure comes during a critical moment for the CLARITY Act, with deputy director Harry Jung expected to assume his responsibilities.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US government moves $297M in seized Bitcoin, Ether to Coinbase Prime",
-      "url": "https://cointelegraph.com/news/us-government-moves-297m-in-seized-bitcoin-ether-to-coinbase-prime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T03:35:51+00:00",
-      "summary": "The transfers have raised questions over Trump’s Bitcoin reserve pledge, though deposits to Coinbase Prime do not confirm an impending sale.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin slips as traders lift July Fed rate hike bets ahead of Inflation report",
-      "url": "https://www.coindesk.com/markets/2026/07/14/bitcoin-slips-as-traders-lift-july-fed-rate-hike-bets-ahead-of-inflation-report",
-      "published_at": "2026-07-14T02:58:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Thai scammer's $122M wallet, Japan embraces crypto credit: Asia Express",
-      "url": "https://cointelegraph.com/features/thai-scammer-japan-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T01:39:02+00:00",
-      "summary": "Bitcoin backed mortgages and stablecoin yield are hot topics in Japan right now, as Hyundai experiments with Avalanche for global stablecoin transfers. Asia Express",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Avalanche",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "stablecoin",
-        "wallet",
-        "yield"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Stop Over-Prompting: OpenAI’s New GPT-5.6 Guidelines Change Everything",
-      "url": "https://decrypt.co/373439/openai-new-gpt-5-6-prompt-guide-chatgpt",
-      "published_at": "2026-07-13T22:46:04+00:00",
-      "summary": "Forget the XML blocks and persistence scripts. OpenAI’s new prompting guide says define the destination, set the stopping conditions, and get out of the way.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "defi"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Protesters March on OpenAI, Anthropic, and Google DeepMind Demanding AI Development Pause",
-      "url": "https://decrypt.co/373433/stop-ai-protest-openai-anthropic-google-deepmind",
-      "published_at": "2026-07-13T22:11:05+00:00",
-      "summary": "About 200 protesters marched through San Francisco on Saturday, calling on leading AI companies to halt development of more powerful models over concerns about AI safety, jobs, and the environment.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "leading"
-        ],
-        "negative_hits": [
-          "concerns",
-          "halt"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pow"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin and Ethereum tweet volume falls to 12-month lows despite institutional crypto boom",
-      "url": "https://www.theblock.co/post/408061/bitcoin-ethereum-tweet-volume-falls-12-month-lows-despite-institutional-crypto-boom?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T22:06:02+00:00",
-      "summary": "Retail attention via social chatter is back to 2020 levels even as institutional involvement has moved in the opposite direction.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "New Hampshire Follows Bitcoin Reserve With 'Blockchain Basic Laws' Signing",
-      "url": "https://decrypt.co/373424/new-hampshire-bitcoin-reserve-blockchain-basic-laws-signing",
-      "published_at": "2026-07-13T20:57:09+00:00",
-      "summary": "New Hampshire's newly-signed crypto law introduces protections for users, miners, and stakers within its boundaries.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "miners"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Claude's Personality Changes Depending on the Model—And the Language You Speak",
-      "url": "https://decrypt.co/373422/anthropic-claude-personality-changes-model-language",
-      "published_at": "2026-07-13T20:39:53+00:00",
-      "summary": "According to new Anthropic research, Claude consistently expresses different values across models and languages.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Hyperliquid’s HIP-3 markets surge to nearly 50% of perp volume as onchain stock trading grows",
-      "url": "https://www.theblock.co/post/408064/hyperliquid-hip-3-markets-surge-50-perp-volume-onchain-stock-trading-grows?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-13T20:33:47+00:00",
-      "summary": "HIP-3's share of total Hyperliquid perp volume has climbed from roughly 2% at the start of the year to around 50% now.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance.US CEO says exchange is rebuilding, eyes return to 20% U.S. market share",
-      "url": "https://www.coindesk.com/coindesk-news/2026/07/13/binance-us-ceo-says-exchange-is-rebuilding-eyes-return-to-20-u-s-market-share",
-      "published_at": "2026-07-13T20:27:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Democratic Opposition to Clarity Act Grows in Crypto Bill's Do-or-Die Final Weeks",
-      "url": "https://decrypt.co/373419/democratic-opposition-clarity-act-grows-crypto-bill-final-weeks",
-      "published_at": "2026-07-13T20:15:24+00:00",
-      "summary": "Democrats are mounting a final case against the Clarity Act centered on its lack of language restricting Trump's sprawling crypto fortune.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
       ]
     }
   ]
