@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-07-15T17:21:32.455381+00:00",
+  "generated_at": "2026-07-15T21:04:12.802881+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.005,
+    "market_sentiment_score": -0.002,
     "label_distribution": {
-      "bearish": 14,
-      "bullish": 16,
-      "neutral": 40
+      "neutral": 42,
+      "bearish": 13,
+      "bullish": 15
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 21
+        "mentions": 22
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "coin": "ETH",
-        "mentions": 11
-      },
-      {
-        "coin": "BTC",
-        "mentions": 6
+        "mentions": 12
       },
       {
         "coin": "Ethereum",
         "mentions": 5
       },
       {
-        "coin": "ARB",
-        "mentions": 2
+        "coin": "BTC",
+        "mentions": 5
       },
       {
-        "coin": "LINK",
-        "mentions": 2
-      },
-      {
-        "coin": "Avalanche",
+        "coin": "UNI",
         "mentions": 2
       },
       {
         "coin": "Near",
+        "mentions": 2
+      },
+      {
+        "coin": "Binance",
+        "mentions": 2
+      },
+      {
+        "coin": "Avalanche",
         "mentions": 2
       },
       {
@@ -54,11 +54,11 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 18
       },
       {
         "topic": "sec",
@@ -66,35 +66,357 @@
       },
       {
         "topic": "defi",
-        "mentions": 6
-      },
-      {
-        "topic": "inflation",
-        "mentions": 6
-      },
-      {
-        "topic": "liquidity",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "topic": "exchange",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "topic": "stablecoin",
+        "mentions": 4
+      },
+      {
+        "topic": "inflation",
+        "mentions": 4
+      },
+      {
+        "topic": "miner",
         "mentions": 3
       },
       {
-        "topic": "lending",
-        "mentions": 3
+        "topic": "miners",
+        "mentions": 2
       },
       {
-        "topic": "wallet",
+        "topic": "regulatory",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Uses AI Red Team to Strengthen GPT-5.6 Against Prompt Injection Attacks",
+      "url": "https://decrypt.co/373613/openai-ai-red-team-strengthen-gpt-5-6-prompt-injection-attacks",
+      "published_at": "2026-07-15T20:50:11+00:00",
+      "summary": "OpenAI said its new automated red-teaming model, GPT-Red, uncovered vulnerabilities that were used to make GPT-5.6 more resistant to prompt injection attacks.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase's Jesse Pollak steps back from Base app leadership after admitting his crypto social strategy failed",
+      "url": "https://www.coindesk.com/business/2026/07/15/coinbase-s-jesse-pollak-steps-back-from-base-app-leadership-after-admitting-his-crypto-social-strategy-failed",
+      "published_at": "2026-07-15T20:18:02+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "failed"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T20:13:29+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Stanford study says 5-minute Bitcoin prediction markets enable settlement manipulation",
+      "url": "https://cointelegraph.com/news/stanford-study-5-minute-bitcoin-prediction-markets-enable-settlement-manipulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T20:05:08+00:00",
+      "summary": "Researchers found that Polymarket’s five-minute Bitcoin prediction markets create incentives to manipulate spot prices around contract settlement, proposing longer settlement windows as a potential fix.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘Hugely positive’ meeting on Thursday with Trump to discuss ethics raises hopes for passage of sweeping crypto legislation",
+      "url": "https://www.theblock.co/post/408517/hugely-positive-meeting-thursday-trump-ethics-raises-hopes-passage-crypto-legislation?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T20:03:29+00:00",
+      "summary": "Ethics will be front and center Thursday at a meeting with President Donald Trump, a small group of lawmakers and White House staff.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "positive"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Meet Bonsai: The First 27B AI Model That Fits on Your Phone",
+      "url": "https://decrypt.co/373578/meet-bonsai-first-27b-ai-model-fits-phone",
+      "published_at": "2026-07-15T19:55:41+00:00",
+      "summary": "PrismML's Bonsai 27B runs full reasoning AI on an iPhone for free. We tested it, and it's as impressive as it sounds.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Benchmark says Securitize investors should ‘strip out the noise’ after post-SPAC selloff",
+      "url": "https://www.theblock.co/post/408511/benchmark-says-securitize-investors-strip-out-noise-after-post-spac-selloff?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T19:49:50+00:00",
+      "summary": "Separately, Securitize announced a partnership with Cantor Fitzgerald to support blockchain-based IPOs and secondary offerings.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "partnership",
+          "support"
+        ],
+        "negative_hits": [
+          "selloff"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "What Is BIP-110 and Why Is It Dividing the Bitcoin Community?",
+      "url": "https://decrypt.co/373577/what-is-bip-110-why-dividing-bitcoin-community",
+      "published_at": "2026-07-15T19:43:10+00:00",
+      "summary": "A proposal to restrict non-financial data on Bitcoin has split prominent developers, miners, and industry leaders ahead of a key activation deadline, reopening one of the network's biggest governance debates since the Blocksize Wars.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "UNI",
+        "OP"
+      ],
+      "topics": [
+        "governance",
+        "miner",
+        "miners",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Revolut receives in-principle approval from UAE authorities for crypto services",
+      "url": "https://cointelegraph.com/news/revolut-approval-uae-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T19:34:39+00:00",
+      "summary": "Dubai’s Virtual Assets Regulatory Authority approved the London-headquartered fintech company for broker-dealer, management and investment, and exchange services in the UAE.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "approval",
+          "approved"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Base Creator Jesse Pollak Steps Back From App Leadership After Admitting Social Bet 'Was Wrong'",
+      "url": "https://decrypt.co/373574/base-jesse-pollak-steps-back-social-bet-wrong",
+      "published_at": "2026-07-15T18:50:55+00:00",
+      "summary": "Pollak said he is handing the Base App back to Coinbase to focus on building Base into \"the blockchain for global finance\" after conceding the network's push into on-chain social missed the mark.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "on-chain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "BlackRock, Goldman, and JP Morgan Will Give Tokenized Stocks a Try",
+      "url": "https://decrypt.co/373571/blackrock-goldman-sachs-jp-morgan-dtcc-tokenized-stocks",
+      "published_at": "2026-07-15T18:02:06+00:00",
+      "summary": "The Depository Trust &#038; Clearing Corporation is working with nearly 40 financial firms in a pilot to test tokenized stocks and U.S. treasuries.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase’s Jesse Pollak hands Base app leadership to Cobie after admitting social bets fell short",
+      "url": "https://www.theblock.co/post/408504/coinbases-jesse-pollak-hands-base-app-leadership-cobie-social-bets-fell-short?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T17:58:49+00:00",
+      "summary": "Coinbase executive Jesse Pollak will focus on Base blockchain's infrastructure, prioritizing trading, stablecoin payments, and AI agents.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US Senator blasts AG pick for ‘dismantling’ crypto unit, Trump’s CZ pardon",
+      "url": "https://cointelegraph.com/news/todd-blanche-hearing-dismantling-justice-crypto-unit-donald-trumps-pardon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T17:56:00+00:00",
+      "summary": "President Donald Trump’s pick for US Attorney General faced criticism from members of the Senate Judiciary Committee on his approach to crypto enforcement and the pardon of former Binance CEO Changpeng Zhao.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance",
+        "UNI"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "President Trump To Meet Senators On Clarity Act’s Ethics Fight: Report",
+      "url": "https://bitcoinmagazine.com/news/president-trump-to-meet-senators",
+      "published_at": "2026-07-15T17:47:38+00:00",
+      "summary": "Bitcoin Magazine\n\nPresident Trump To Meet Senators On Clarity Act&#8217;s Ethics Fight: Report\nPresident Trump will meet senators as negotiations over the CLARITY Act's ethics provisions threaten the bill's chances of passing before the August recess.\nThis post President Trump To Meet Senators On Clarity Act&#8217;s Ethics Fight: Report first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Traders Took $8.2 Million From Polymarket’s Five-Minute Bitcoin Bets, Study Found",
+      "url": "https://bitcoinmagazine.com/news/traders-took-8-2-million-from-polymarkets",
+      "published_at": "2026-07-15T17:33:41+00:00",
+      "summary": "Bitcoin Magazine\n\nTraders Took $8.2 Million From Polymarket&#8217;s Five-Minute Bitcoin Bets, Study Found\nA new study found that Polymarket's five-minute Bitcoin contract functioned as a wealth transfer mechanism, funneling money from retail traders to a small group of manipulators while distorting Bitcoin's spot price.\nThis post Traders Took $8.2 Million From Polymarket&#8217;s Five-Minute Bitcoin Bets, Study Found first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Ostium pauses trading as security firms report multimillion-dollar oracle exploit",
@@ -728,29 +1050,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-15T13:22:37+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "A timeline of the Ethereum Foundation's ongoing shakeup",
       "url": "https://www.coindesk.com/tech/2026/07/15/a-timeline-of-the-ethereum-foundation-s-ongoing-shakeup",
@@ -877,281 +1176,6 @@
         "mining",
         "pos"
       ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Crypto Rips on Cool CPI",
-      "url": "https://decrypt.co/373535/morning-minute-crypto-rips-on-cool-cpi",
-      "published_at": "2026-07-15T12:26:45+00:00",
-      "summary": "Circle has a rough day. Pump.fun pumps on first major unlock. And Robinhood Chain sees its first big rotation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Circle suspended Tether-backed fund over market manipulation concerns, arbitration filings show",
-      "url": "https://www.theblock.co/post/408377/circle-suspended-tether-backed-fund-over-market-manipulation-concerns-arbitration-filings-show?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-15T12:23:46+00:00",
-      "summary": "Circle suspended Heka Funds over suspected market manipulation after learning Tether had invested $800 million in the arbitrage fund.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "FIL",
-        "ARB"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "UK Fraud Review Calls for Judge Training on Crypto Laundering, AI Scams",
-      "url": "https://decrypt.co/373528/uk-fraud-review-calls-for-judge-training-on-crypto-laundering-ai-scams",
-      "published_at": "2026-07-15T12:15:31+00:00",
-      "summary": "A government-backed review says magistrates and judges aren't ready for a coming surge in crypto money laundering and AI-enabled fraud cases.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BlackRock's crypto assets fall 39% despite $15 billion of net inflows",
-      "url": "https://www.coindesk.com/markets/2026/07/15/blackrock-s-crypto-assets-fall-39-despite-usd15-billion-of-net-inflows",
-      "published_at": "2026-07-15T12:12:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The launchpad that fueled Robinhood Chain's memecoin boom just gave away all its revenue",
-      "url": "https://www.coindesk.com/business/2026/07/15/the-launchpad-that-fueled-robinhood-chain-s-memecoin-boom-just-gave-away-all-its-revenue",
-      "published_at": "2026-07-15T12:11:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "memecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Japan reclassifies crypto as a financial asset, paves way for tax cuts",
-      "url": "https://www.coindesk.com/policy/2026/07/15/japan-reclassifies-crypto-as-a-financial-asset-paves-way-for-tax-cuts",
-      "published_at": "2026-07-15T12:05:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Strategy feels 'very secure' until bitcoin reaches $8,000-$10,000, says CEO",
-      "url": "https://www.coindesk.com/markets/2026/07/15/strategy-feels-very-secure-until-bitcoin-reaches-usd8-000-usd10-000-says-ceo",
-      "published_at": "2026-07-15T12:00:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "secure"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin rally cools as investors digest inflation data, oil clouds outlook",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/15/bitcoin-rally-cools-as-investors-digest-inflation-data-oil-clouds-outlook",
-      "published_at": "2026-07-15T11:46:06+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Team Behind Ethereum's Institutional Privacy Push Spins Out For-Profit Firm EthSystems",
-      "url": "https://decrypt.co/373523/team-behind-ethereums-institutional-privacy-push-spins-out-for-profit-firm-ethsystems",
-      "published_at": "2026-07-15T11:12:45+00:00",
-      "summary": "The startup's backers, including Bitmine and Joe Lubin, are betting institutions need a privacy layer before running money on a public chain.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto steadies as Middle East tensions counter U.S. inflation report boost",
-      "url": "https://www.coindesk.com/markets/2026/07/15/crypto-steadies-as-middle-east-tensions-counter-u-s-inflation-report-boost",
-      "published_at": "2026-07-15T11:05:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "boost"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Japan passes crypto overhaul to bring digital assets under financial rules",
-      "url": "https://cointelegraph.com/news/japan-crypto-amendment-digital-assets-financial-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-15T11:05:46+00:00",
-      "summary": "Japan’s revised Financial Instruments and Exchange Act introduces crypto insider trading rules, tougher penalties and new oversight requirements for crypto businesses.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korea to bring digital assets under new state asset management system",
-      "url": "https://cointelegraph.com/news/south-korea-digital-assets-state-asset-management?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-15T10:53:34+00:00",
-      "summary": "South Korea’s Economy Ministry plans to include digital assets and intellectual property under the country’s new state-asset management framework.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Czech Republic moves to block Polymarket over unlicensed gambling",
-      "url": "https://www.theblock.co/post/408371/czech-republic-moves-to-block-polymarket-over-unlicensed-gambling?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-15T10:45:44+00:00",
-      "summary": "The Czech Republic moved to block Polymarket, joining other European jurisdictions targeting prediction markets over unlicensed gambling.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin gets new $80K August target: Watch these BTC price levels next",
-      "url": "https://cointelegraph.com/markets/bitcoin-gets-new-80k-august-target-watch-these-btc-price-levels-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-15T10:22:06+00:00",
-      "summary": "BTC price upside predictions include $68,000 within two weeks and up to $80,000 next month, contrasting with warnings of a 2022 bear-market rerun for the rest of 2026.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
     }
   ]
 }
