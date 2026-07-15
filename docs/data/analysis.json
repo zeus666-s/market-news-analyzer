@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-15T06:19:26.561838+00:00",
+  "generated_at": "2026-07-15T10:07:13.730698+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.039,
+    "market_sentiment_score": 0.02,
     "label_distribution": {
-      "neutral": 44,
       "bearish": 9,
-      "bullish": 17
+      "neutral": 47,
+      "bullish": 14
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 25
+        "mentions": 23
       },
       {
         "coin": "Bitcoin",
@@ -20,18 +20,18 @@
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "BTC",
         "mentions": 5
       },
       {
-        "coin": "Ethereum",
-        "mentions": 4
+        "coin": "Near",
+        "mentions": 3
       },
       {
-        "coin": "Near",
+        "coin": "Ethereum",
         "mentions": 3
       },
       {
@@ -39,7 +39,7 @@
         "mentions": 3
       },
       {
-        "coin": "Ripple",
+        "coin": "LINK",
         "mentions": 2
       },
       {
@@ -47,14 +47,14 @@
         "mentions": 2
       },
       {
-        "coin": "LINK",
+        "coin": "Ripple",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 39
+        "mentions": 36
       },
       {
         "topic": "pos",
@@ -62,11 +62,15 @@
       },
       {
         "topic": "stablecoin",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "topic": "defi",
         "mentions": 5
+      },
+      {
+        "topic": "sec",
+        "mentions": 4
       },
       {
         "topic": "inflation",
@@ -81,23 +85,172 @@
         "mentions": 4
       },
       {
-        "topic": "cftc",
+        "topic": "tokenization",
         "mentions": 3
       },
       {
-        "topic": "fed",
-        "mentions": 3
-      },
-      {
-        "topic": "sec",
+        "topic": "etf",
         "mentions": 3
       }
     ]
   },
   "articles": [
     {
+      "source": "The Block",
+      "title": "Japan passes key bill recognizing crypto as financial product, lowering tax rate",
+      "url": "https://www.theblock.co/post/408361/japan-passes-key-bill?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T09:47:33+00:00",
+      "summary": "The amendments establish the basis for separate crypto taxation at a rate of approximately 20%, down from the current maximum 55% rate.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "US, UK Outline Recommendations to Align Stablecoin and Tokenization Rules",
+      "url": "https://decrypt.co/373520/us-uk-outline-recommendations-to-align-stablecoin-and-tokenization-rules",
+      "published_at": "2026-07-15T09:08:39+00:00",
+      "summary": "The joint recommendations back cross-border stablecoins and tokenized markets, setting a shared direction while avoiding binding rules.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Cathie Wood’s ARK buys another 220K Circle shares despite sell-off",
+      "url": "https://cointelegraph.com/news/cathie-woods-ark-buy-220k-circle-stock-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T08:55:11+00:00",
+      "summary": "Cathie Wood’s ARK Invest added $13.9 million worth of Circle shares on Tuesday, extending its July buying spree to 725,517 shares amid a steep stock decline.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "buying",
+          "buys"
+        ],
+        "negative_hits": [
+          "decline",
+          "sell-off"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "US Treasury freezes over $130 million tied to Iran-linked crypto wallets",
+      "url": "https://www.theblock.co/post/408357/us-treasury-freezes-130-million-iran-linked-wallets?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T08:44:27+00:00",
+      "summary": "Treasury Secretary Scott Bessent says OFAC sanctioned multiple Iran-linked crypto wallets, freezing over $130 million.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "sec",
+        "wallet"
+      ]
+    },
+    {
       "source": "CoinDesk",
-      "title": "Visa, Mastercard and Ripple back x402 as agent payments average 32 cents",
+      "title": "Live markets: Bitcoin, ether ETFs draw inflows as majors rise as much as 5%",
+      "url": "https://www.coindesk.com/tech/2026/07/15/live-markets-bitcoin-ether-etfs-draw-inflows-as-majors-rise-as-much-as-5",
+      "published_at": "2026-07-15T08:29:18+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Stripe, Advent offer $53B to acquire PayPal: Report",
+      "url": "https://cointelegraph.com/news/stripe-advent-53b-acquire-paypal-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T08:23:15+00:00",
+      "summary": "Stripe and Advent reportedly offered to buy PayPal for $53 billion, at a 28% premium compared to the company’s Tuesday closing price.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "UK plans first G7 digital sovereign bond by early 2027",
+      "url": "https://www.coindesk.com/business/2026/07/15/uk-plans-first-g7-digital-sovereign-bond-by-early-2027",
+      "published_at": "2026-07-15T08:16:34+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "South Korea to bring crypto under new state asset management law",
+      "url": "https://www.theblock.co/post/408350/south-korea-crypto-asset-management-law?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T07:19:45+00:00",
+      "summary": "The Ministry of Finance and Economy said it will establish the 'National Asset Basic Act' to update the government's asset management system.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "AI agentic payments enter mainstream as Visa, Mastercard, Ripple back x402 standard",
       "url": "https://www.coindesk.com/tech/2026/07/15/visa-mastercard-and-ripple-join-the-standard-letting-ai-agents-pay-in-stablecoins",
       "published_at": "2026-07-15T06:05:24+00:00",
       "summary": "",
@@ -111,7 +264,9 @@
       "coins": [
         "Ripple"
       ],
-      "topics": []
+      "topics": [
+        "ai"
+      ]
     },
     {
       "source": "Cointelegraph",
@@ -877,26 +1032,6 @@
       ]
     },
     {
-      "source": "The Block",
-      "title": "Benchmark sees ‘long pathway for growth’ in Hut 8, raises target to $165 on $16.8 billion AI data center deals",
-      "url": "https://www.theblock.co/post/408264/benchmark-sees-long-pathway-growth-hut-8-raises-target-to-165-on-ai-data-center-deals?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T15:10:13+00:00",
-      "summary": "Benchmark raised Hut 8's target to $165, citing $16.8 billion in AI data center contracts and Beacon Point commercialization.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "UK to Defer Capital Gains Tax on DeFi Lending, Liquidity Pool Deposits",
       "url": "https://decrypt.co/373481/uk-to-defer-capital-gains-tax-on-defi-lending-liquidity-pool-deposits",
@@ -1016,161 +1151,6 @@
         "ai",
         "inflation"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tether leads $7 million round in Pact Labs to boost USAT stablecoin adoption",
-      "url": "https://www.theblock.co/post/408239/tether-leads-7-million-round-in-pact-labs-to-boost-usat-stablecoin-adoption?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T14:37:15+00:00",
-      "summary": "“Pact Labs gives us the rails to make digital dollars designed to be compliant with U.S. regulations,\" says Tether USAT.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "boost",
-          "leads"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "regulation",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum Foundation spinout EthSystems targets banks with blockchain privacy technology",
-      "url": "https://www.coindesk.com/tech/2026/07/14/ethereum-foundation-spinout-ethsystems-targets-banks-with-blockchain-privacy-technology",
-      "published_at": "2026-07-14T14:31:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Dragonfly, FirstMark lead $38 million Series A for stablecoin startup Velocity with support from Coinbase, Ripple and more",
-      "url": "https://www.theblock.co/post/408242/dragonfly-firstmark-series-a-stablecoin-velocity-coinbase-ripple-capital-one-ventures?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T14:30:43+00:00",
-      "summary": "The startup enables corporate users to use stablecoins while connecting to traditional banking rails and compliance systems.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Jumps Above $64,000 as Cooler-Than-Expected Inflation Strengthens the Case for Rate Cuts",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-jumps-above-64000",
-      "published_at": "2026-07-14T14:21:25+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Jumps Above $64,000 as Cooler-Than-Expected Inflation Strengthens the Case for Rate Cuts\nBitcoin price climbed above $64,000 after cooler-than-expected June inflation boosted expectations for Federal Reserve rate cuts, though sticky core inflation and rising oil prices continue to cloud the outlook.\nThis post Bitcoin Price Jumps Above $64,000 as Cooler-Than-Expected Inflation Strengthens the Case for Rate Cuts first appeared on Bitcoin Magazine and is written b...",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "boosted"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "inflation",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "For pension funds, tokenization’s real play is balance-sheet management, Fidelity’s Lai says",
-      "url": "https://www.coindesk.com/markets/2026/07/14/for-pension-funds-tokenization-s-real-play-is-balance-sheet-management-fidelity-s-lai-says",
-      "published_at": "2026-07-14T14:05:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "OpenAI quietly adds Kalshi World Cup odds to ChatGPT: Report",
-      "url": "https://cointelegraph.com/news/openai-kalshi-prediction-markets-world-cup-chatgpt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T13:30:06+00:00",
-      "summary": "OpenAI’s ChatGPT now displays Kalshi’s World Cup prediction market odds in search results, marking the AI firm’s first reported deal with a prediction market platform.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy became a symbol of the dot-com crash: Could history repeat?",
-      "url": "https://cointelegraph.com/features/from-dot-com-bust-to-bitcoin-king-has-michael-saylor-rewritten-his-legacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T13:30:00+00:00",
-      "summary": "MicroStrategy blew up during the dot-com era, before Michael Saylor transformed it into the world's largest corporate Bitcoin holder. Did he learn his lesson?",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crash"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "DOT"
-      ],
-      "topics": []
     }
   ]
 }
