@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-15T02:48:45.836387+00:00",
+  "generated_at": "2026-07-15T06:19:26.561838+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.036,
+    "market_sentiment_score": 0.039,
     "label_distribution": {
       "neutral": 44,
       "bearish": 9,
@@ -31,23 +31,23 @@
         "mentions": 4
       },
       {
+        "coin": "Near",
+        "mentions": 3
+      },
+      {
         "coin": "SOL",
         "mentions": 3
+      },
+      {
+        "coin": "Ripple",
+        "mentions": 2
       },
       {
         "coin": "Tron",
         "mentions": 2
       },
       {
-        "coin": "Near",
-        "mentions": 2
-      },
-      {
-        "coin": "FIL",
-        "mentions": 1
-      },
-      {
-        "coin": "Binance",
+        "coin": "LINK",
         "mentions": 1
       }
     ],
@@ -58,15 +58,19 @@
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "topic": "stablecoin",
-        "mentions": 11
+        "mentions": 9
       },
       {
         "topic": "defi",
         "mentions": 5
+      },
+      {
+        "topic": "inflation",
+        "mentions": 4
       },
       {
         "topic": "liquidity",
@@ -77,24 +81,146 @@
         "mentions": 4
       },
       {
-        "topic": "mining",
+        "topic": "cftc",
+        "mentions": 3
+      },
+      {
+        "topic": "fed",
         "mentions": 3
       },
       {
         "topic": "sec",
         "mentions": 3
-      },
-      {
-        "topic": "usdc",
-        "mentions": 3
-      },
-      {
-        "topic": "miner",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Visa, Mastercard and Ripple back x402 as agent payments average 32 cents",
+      "url": "https://www.coindesk.com/tech/2026/07/15/visa-mastercard-and-ripple-join-the-standard-letting-ai-agents-pay-in-stablecoins",
+      "published_at": "2026-07-15T06:05:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T05:44:31+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kalshi says CFTC, Michigan orders leave it in ‘impossible position’",
+      "url": "https://cointelegraph.com/news/kalshi-says-cftc-michigan-orders-leave-it-in-impossible-position?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T05:38:10+00:00",
+      "summary": "“We are disappointed by this decision and believe it is unfair to Kalshi,” the company’s legal counsel said on X.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin nears $65,000 as cooling U.S. inflation guts the Fed rate-hike trade",
+      "url": "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade",
+      "published_at": "2026-07-15T05:19:14+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "fed",
+        "inflation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "TeraWulf falls 7% after New York orders one-year pause on new data center permits",
+      "url": "https://www.theblock.co/post/408344/new-york-pause-new-data-center-permits-terawulf-falls?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T05:10:00+00:00",
+      "summary": "TeraWulf said that its data centers in New York remain operational and that its ongoing development plans are unaffected.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "falls"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US freezes $131M in Iran-linked crypto as Middle East tensions rise",
+      "url": "https://cointelegraph.com/news/us-freezes-131m-in-iran-linked-crypto-as-middle-east-tensions-rise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T03:17:59+00:00",
+      "summary": "“US Treasury is committed to disrupting and degrading Iran’s illicit financial activities, including its abuse of digital assets,” US Treasury Secretary Scott Bessent said Tuesday.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
     {
       "source": "The Block",
       "title": "How Asset Managers Are Investing in Crypto",
@@ -311,29 +437,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T19:52:11+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "China’s Prosecutors Move to Treat Crypto Mixers as Evidence of Money Laundering",
       "url": "https://bitcoinmagazine.com/news/chinas-prosecutors-treat-crypto-mixers",
@@ -517,7 +620,7 @@
       "title": "UK government defers capital gains on certain crypto with ‘no gain, no loss’ approach",
       "url": "https://cointelegraph.com/news/uk-government-capital-gains-lending-liquidity-no-gain-no-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-14T17:24:00+00:00",
-      "summary": "The change in tax policy, expected to effect about 700,000 people in the UK, is tied to the disposal of crypto in lending and liquidity pools.",
+      "summary": "The change in tax policy, expected to affect about 700,000 people in the UK, is tied to the disposal of crypto in lending and liquidity pools.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -895,7 +998,7 @@
       "title": "Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure",
       "url": "https://cointelegraph.com/markets/bitcoin-jumps-on-lowest-us-cpi-since-2020-as-traders-stay-wary-of-64k-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-14T14:53:13+00:00",
-      "summary": "BTC price action returned to $64,000 on low US CPI inflation but traders stayed wary of rejection at key resistance.",
+      "summary": "BTC price action returned to $64,000 on low US CPI inflation, but traders remained wary of rejection at key resistance.",
       "sentiment": {
         "score": -2,
         "normalized": -0.25,
@@ -986,24 +1089,6 @@
       ]
     },
     {
-      "source": "The Block",
-      "title": "Decentralized AI project Nous Research in talks to raise $75M at $1.5B valuation: report",
-      "url": "https://www.theblock.co/post/408237/decentralized-ai-project-nous-research-in-talks-to-raise-75m-at-1-5b-valuation-report?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T14:24:13+00:00",
-      "summary": "Nous Research is raising at least $75 million led by Robot Ventures at a $1.5 billion valuation, per TechCrunch.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Bitcoin Price Jumps Above $64,000 as Cooler-Than-Expected Inflation Strengthens the Case for Rate Cuts",
       "url": "https://bitcoinmagazine.com/markets/bitcoin-price-jumps-above-64000",
@@ -1086,89 +1171,6 @@
         "DOT"
       ],
       "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "White House Crypto Chief Patrick Witt to Begin Military Leave as Clarity Act Nears Senate Deadline",
-      "url": "https://bitcoinmagazine.com/news/white-house-crypto-chief-patrick-witt",
-      "published_at": "2026-07-14T13:13:43+00:00",
-      "summary": "Bitcoin Magazine\n\nWhite House Crypto Chief Patrick Witt to Begin Military Leave as Clarity Act Nears Senate Deadline\nWhite House crypto adviser Patrick Witt will begin military leave later this month as the Senate enters a critical final stretch to pass the Clarity Act before the August recess.\nThis post White House Crypto Chief Patrick Witt to Begin Military Leave as Clarity Act Nears Senate Deadline first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Humanity Protocol to prioritize operational security following $36M hack",
-      "url": "https://cointelegraph.com/news/humanity-protocol-operational-security-36m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T13:08:00+00:00",
-      "summary": "Humanity Protocol’s founder said they will refocus on operational security, as malicious actors are switching from smart contract vulnerabilities to exploiting human behavior.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "smart contract"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Hut 8 price target hiked to $165 at Benchmark as AI pivot reshapes valuation",
-      "url": "https://www.coindesk.com/business/2026/07/14/hut-8-price-target-hiked-to-usd165-at-benchmark-as-ai-pivot-reshapes-valuation",
-      "published_at": "2026-07-14T12:53:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
-      "url": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
-      "published_at": "2026-07-14T12:33:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "fed"
-      ]
     }
   ]
 }
