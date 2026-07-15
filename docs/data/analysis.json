@@ -1,100 +1,632 @@
 {
-  "generated_at": "2026-07-15T10:07:13.730698+00:00",
+  "generated_at": "2026-07-15T13:52:06.880488+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.02,
+    "market_sentiment_score": 0.039,
     "label_distribution": {
-      "bearish": 9,
-      "neutral": 47,
-      "bullish": 14
+      "neutral": 44,
+      "bullish": 18,
+      "bearish": 8
     },
     "top_coins": [
-      {
-        "coin": "OP",
-        "mentions": 23
-      },
       {
         "coin": "Bitcoin",
         "mentions": 22
       },
       {
+        "coin": "OP",
+        "mentions": 21
+      },
+      {
         "coin": "ETH",
-        "mentions": 7
-      },
-      {
-        "coin": "BTC",
-        "mentions": 5
-      },
-      {
-        "coin": "Near",
-        "mentions": 3
+        "mentions": 10
       },
       {
         "coin": "Ethereum",
-        "mentions": 3
+        "mentions": 6
+      },
+      {
+        "coin": "Binance",
+        "mentions": 2
       },
       {
         "coin": "SOL",
-        "mentions": 3
+        "mentions": 2
+      },
+      {
+        "coin": "FIL",
+        "mentions": 2
+      },
+      {
+        "coin": "BTC",
+        "mentions": 2
       },
       {
         "coin": "LINK",
         "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "Near",
         "mentions": 2
-      },
-      {
-        "coin": "Ripple",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 31
       },
       {
         "topic": "pos",
         "mentions": 16
       },
       {
-        "topic": "stablecoin",
-        "mentions": 8
+        "topic": "inflation",
+        "mentions": 6
       },
       {
         "topic": "defi",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "topic": "sec",
         "mentions": 4
       },
       {
-        "topic": "inflation",
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
-        "topic": "liquidity",
-        "mentions": 4
-      },
-      {
-        "topic": "lending",
-        "mentions": 4
-      },
-      {
-        "topic": "tokenization",
+        "topic": "miner",
         "mentions": 3
       },
       {
-        "topic": "etf",
+        "topic": "mining",
+        "mentions": 3
+      },
+      {
+        "topic": "cftc",
+        "mentions": 3
+      },
+      {
+        "topic": "liquidity",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Core Scientific’s 75% return on AI deal isn’t the template for bitcoin miners, Bernstein says",
+      "url": "https://www.theblock.co/post/408412/core-scientific-return-on-ai-deal-isnt-template-for-bitcoin-miners-bernstein-says?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T13:38:56+00:00",
+      "summary": "Bernstein pegs TeraWulf at 5% and Cipher at 4% stabilized ROA, calling Core Scientific's 75% figure a capex-advantaged outlier.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "miners"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Tokenization startup Tradable plans to bring $1 billion worth of private credit assets to Stellar",
+      "url": "https://www.theblock.co/post/408399/tokenization-startup-tradable-plans-bring-1-billion-private-credit-assets-stellar?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T13:35:07+00:00",
+      "summary": "Stellar has become a top choice for institutional tokenization, including from the likes of Franklin Templeton and WisdomTree.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA",
+        "Stellar",
+        "OP"
+      ],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Is Robinhood Chain’s success bullish or bearish for ETH the asset?",
+      "url": "https://cointelegraph.com/features/has-robinhoods-layer-2-given-eth-a-new-bull-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T13:30:00+00:00",
+      "summary": "Surging volumes on Robinhood Chain could be very good for Ethereum, but only if the “ETH is money” crowd turn out to be right.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish",
+          "success"
+        ],
+        "negative_hits": [
+          "bearish"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T13:22:37+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "A timeline of the Ethereum Foundation's ongoing shakeup",
+      "url": "https://www.coindesk.com/tech/2026/07/15/a-timeline-of-the-ethereum-foundation-s-ongoing-shakeup",
+      "published_at": "2026-07-15T13:19:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto firms face AML risks during post-MiCA migration, says AMLA chair",
+      "url": "https://cointelegraph.com/news/amla-customer-migration-strain-mica-licensed-casps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T13:08:43+00:00",
+      "summary": "AMLA is expanding its crypto oversight as firms complete the transition to the EU’s MiCA licensing regime.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Japan’s Landmark Vote Reclassifies Bitcoin And Crypto As Financial Assets",
+      "url": "https://bitcoinmagazine.com/news/japan-reclassifies-bitcoin-and-crypto",
+      "published_at": "2026-07-15T13:04:55+00:00",
+      "summary": "Bitcoin Magazine\n\nJapan&#8217;s Landmark Vote Reclassifies Bitcoin And Crypto As Financial Assets\nJapan's parliament approved legislation reclassifying bitcoin and other cryptocurrencies as financial assets, marking a major regulatory shift that aligns digital assets more closely with traditional financial markets.\nThis post Japan&#8217;s Landmark Vote Reclassifies Bitcoin And Crypto As Financial Assets first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approved"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitmine says ETH staking generated $45.7 million, accounting for 98% of quarterly revenue",
+      "url": "https://www.theblock.co/post/408400/bitmine-eth-staking-generated-45-7-million-accounting-98-of-quarterly-revenue?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T13:04:46+00:00",
+      "summary": "Bitmine generated $45.7 million from Ethereum staking, which accounted for 98% of quarterly revenue as the company expanded MAVAN.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "staking"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "How Crypto Venues Are Building Financial Operating Systems: Binance as a Super App",
+      "url": "https://www.theblock.co/post/408308/how-crypto-venues-are-building-financial-operating-systems-binance-as-a-super-app?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T12:56:18+00:00",
+      "summary": "From Trading Venue to Financial Operating System Across crypto&#8217;s largest venues, the fundamentals of execution, including pricing, depth, latency, and fees, are converging. These remain critical to the business and a precondition for competing at scale, but as they standardize across the top platforms, they become harder to differentiate on. Alongside them, ecosystem breadth is [&hellip;]",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Keel Infrastructure to Consolidate Three Bitcoin Sites Into One AI Campus",
+      "url": "https://bitcoinmagazine.com/news/keel-infrastructure-to-consolidate",
+      "published_at": "2026-07-15T12:48:09+00:00",
+      "summary": "Bitcoin Magazine\n\nKeel Infrastructure to Consolidate Three Bitcoin Sites Into One AI Campus\nKeel Infrastructure won key approvals to consolidate three Québec Bitcoin mining sites into a single 96 MW AI and high-performance computing campus in Sherbrooke.\nThis post Keel Infrastructure to Consolidate Three Bitcoin Sites Into One AI Campus first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "mining",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Crypto Rips on Cool CPI",
+      "url": "https://decrypt.co/373535/morning-minute-crypto-rips-on-cool-cpi",
+      "published_at": "2026-07-15T12:26:45+00:00",
+      "summary": "Circle has a rough day. Pump.fun pumps on first major unlock. And Robinhood Chain sees its first big rotation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Circle suspended Tether-backed fund over market manipulation concerns, arbitration filings show",
+      "url": "https://www.theblock.co/post/408377/circle-suspended-tether-backed-fund-over-market-manipulation-concerns-arbitration-filings-show?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T12:23:46+00:00",
+      "summary": "Circle suspended Heka Funds over suspected market manipulation after learning Tether had invested $800 million in the arbitrage fund.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "FIL",
+        "ARB"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "UK Fraud Review Calls for Judge Training on Crypto Laundering, AI Scams",
+      "url": "https://decrypt.co/373528/uk-fraud-review-calls-for-judge-training-on-crypto-laundering-ai-scams",
+      "published_at": "2026-07-15T12:15:31+00:00",
+      "summary": "A government-backed review says magistrates and judges aren't ready for a coming surge in crypto money laundering and AI-enabled fraud cases.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BlackRock's crypto assets fall 39% despite $15 billion of net inflows",
+      "url": "https://www.coindesk.com/markets/2026/07/15/blackrock-s-crypto-assets-fall-39-despite-usd15-billion-of-net-inflows",
+      "published_at": "2026-07-15T12:12:01+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "The launchpad that fueled Robinhood Chain's memecoin boom just gave away all its revenue",
+      "url": "https://www.coindesk.com/business/2026/07/15/the-launchpad-that-fueled-robinhood-chain-s-memecoin-boom-just-gave-away-all-its-revenue",
+      "published_at": "2026-07-15T12:11:58+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "memecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Japan reclassifies crypto as a financial asset, paves way for tax cuts",
+      "url": "https://www.coindesk.com/policy/2026/07/15/japan-reclassifies-crypto-as-a-financial-asset-paves-way-for-tax-cuts",
+      "published_at": "2026-07-15T12:05:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Strategy feels 'very secure' until bitcoin reaches $8,000-$10,000, says CEO",
+      "url": "https://www.coindesk.com/markets/2026/07/15/strategy-feels-very-secure-until-bitcoin-reaches-usd8-000-usd10-000-says-ceo",
+      "published_at": "2026-07-15T12:00:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "secure"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin rally cools as investors digest inflation data, oil clouds outlook",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/15/bitcoin-rally-cools-as-investors-digest-inflation-data-oil-clouds-outlook",
+      "published_at": "2026-07-15T11:46:06+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Team Behind Ethereum's Institutional Privacy Push Spins Out For-Profit Firm EthSystems",
+      "url": "https://decrypt.co/373523/team-behind-ethereums-institutional-privacy-push-spins-out-for-profit-firm-ethsystems",
+      "published_at": "2026-07-15T11:12:45+00:00",
+      "summary": "The startup's backers, including Bitmine and Joe Lubin, are betting institutions need a privacy layer before running money on a public chain.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto steadies as Middle East tensions counter U.S. inflation report boost",
+      "url": "https://www.coindesk.com/markets/2026/07/15/crypto-steadies-as-middle-east-tensions-counter-u-s-inflation-report-boost",
+      "published_at": "2026-07-15T11:05:49+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boost"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Japan passes crypto overhaul to bring digital assets under financial rules",
+      "url": "https://cointelegraph.com/news/japan-crypto-amendment-digital-assets-financial-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T11:05:46+00:00",
+      "summary": "Japan’s revised Financial Instruments and Exchange Act introduces crypto insider trading rules, tougher penalties and new oversight requirements for crypto businesses.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korea to bring digital assets under new state asset management system",
+      "url": "https://cointelegraph.com/news/south-korea-digital-assets-state-asset-management?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T10:53:34+00:00",
+      "summary": "South Korea’s Economy Ministry plans to include digital assets and intellectual property under the country’s new state-asset management framework.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Czech Republic moves to block Polymarket over unlicensed gambling",
+      "url": "https://www.theblock.co/post/408371/czech-republic-moves-to-block-polymarket-over-unlicensed-gambling?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-15T10:45:44+00:00",
+      "summary": "The Czech Republic moved to block Polymarket, joining other European jurisdictions targeting prediction markets over unlicensed gambling.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Stripe mounts blockbuster $53 billion bid to buy PayPal",
+      "url": "https://www.coindesk.com/business/2026/07/15/stripe-mounts-blockbuster-usd53-billion-bid-to-buy-paypal",
+      "published_at": "2026-07-15T10:41:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin gets new $80K August target: Watch these BTC price levels next",
+      "url": "https://cointelegraph.com/markets/bitcoin-gets-new-80k-august-target-watch-these-btc-price-levels-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T10:22:06+00:00",
+      "summary": "BTC price upside predictions include $68,000 within two weeks and up to $80,000 next month, contrasting with warnings of a 2022 bear-market rerun for the rest of 2026.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Czech Republic tells ISPs to block Polymarket after gambling blacklisting",
+      "url": "https://cointelegraph.com/news/czech-republic-adds-polymarket-to-unauthorized-gambling-blacklist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-15T10:19:09+00:00",
+      "summary": "The Czech Finance Ministry added Polymarket to its blacklist of unauthorized online gambling websites, requiring internet providers to block access within 15 days.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "Japan passes key bill recognizing crypto as financial product, lowering tax rate",
@@ -177,7 +709,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live markets: Bitcoin, ether ETFs draw inflows as majors rise as much as 5%",
+      "title": "Live markets: Bitcoin tops $65,000 as markets get more good inflation news",
       "url": "https://www.coindesk.com/tech/2026/07/15/live-markets-bitcoin-ether-etfs-draw-inflows-as-majors-rise-as-much-as-5",
       "published_at": "2026-07-15T08:29:18+00:00",
       "summary": "",
@@ -190,10 +722,10 @@
       },
       "coins": [
         "Bitcoin",
-        "ETH"
+        "OP"
       ],
       "topics": [
-        "etf"
+        "inflation"
       ]
     },
     {
@@ -266,29 +798,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-15T05:44:31+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -611,545 +1120,6 @@
       "topics": [
         "pos",
         "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US, UK treasuries to align transatlantic rules on tokenization and stablecoins",
-      "url": "https://cointelegraph.com/news/us-uk-treasuries-rules-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T19:45:20+00:00",
-      "summary": "The two governments issued recommendations on the treatment of digital assets as the US prepares to implement a 2025 law on payment stablecoins.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "CFTC orders Kalshi to honor Michigan trades, escalating clash with state regulators",
-      "url": "https://www.theblock.co/post/408323/cftc-orders-kalshi-honor-michigan-trades-escalating-clash-state-regulators?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T19:08:00+00:00",
-      "summary": "Jurisdiction over prediction market platforms is an ongoing dispute between the CFTC and multiple state regulators.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cftc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill",
-      "url": "https://www.coindesk.com/policy/2026/07/14/some-u-s-senate-democrats-come-out-against-clarity-act-calling-it-a-corrupt-bill",
-      "published_at": "2026-07-14T18:57:15+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "US-UK transatlantic taskforce unveils digital asset roadmap promoting stablecoin innovation",
-      "url": "https://www.theblock.co/post/408305/us-uk-transatlantic-taskforce-unveils-digital-asset-roadmap-promoting-stablecoin-innovation?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T17:59:25+00:00",
-      "summary": "The U.S. and UK are deepening cooperation on digital assets, particularly for stablecoins and tokenized assets.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "innovation"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "The Bitcoin Softfork That Tried to Police “Junk Data” — And Why It’s Already Failing",
-      "url": "https://bitcoinmagazine.com/technical/the-bitcoin-softfork-that-tried-to-police-junk-data-and-why-its-already-failing",
-      "published_at": "2026-07-14T17:47:31+00:00",
-      "summary": "Bitcoin Magazine\n\nThe Bitcoin Softfork That Tried to Police “Junk Data” — And Why It’s Already Failing\nBitcoin’s real power is that anyone willing to pay fees can write to the ledger. BIP-110’s backers want to change that for data-heavy transactions. The backlash reveals what’s truly at stake.\nThis post The Bitcoin Softfork That Tried to Police “Junk Data” — And Why It’s Already Failing first appeared on Bitcoin Magazine and is written by Brandon Black.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "pow"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth",
-      "url": "https://www.coindesk.com/business/2026/07/14/binance-bets-on-becoming-a-crypto-super-app-as-stablecoins-reshape-growth",
-      "published_at": "2026-07-14T17:33:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "CoinFund’s David Pakman says crypto hasn’t solved tokenomics",
-      "url": "https://www.theblock.co/post/408285/coinfunds-david-pakman-says-crypto-hasnt-solved-tokenomics?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T17:32:08+00:00",
-      "summary": "During an interview on The Starting Block David Pakman suggested projects could pay contributors in stablecoins.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
-      "url": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
-      "published_at": "2026-07-14T17:27:48+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "UK government defers capital gains on certain crypto with ‘no gain, no loss’ approach",
-      "url": "https://cointelegraph.com/news/uk-government-capital-gains-lending-liquidity-no-gain-no-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T17:24:00+00:00",
-      "summary": "The change in tax policy, expected to affect about 700,000 people in the UK, is tied to the disposal of crypto in lending and liquidity pools.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "gain",
-          "gains"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "lending",
-        "liquidity",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Wall Street turns cautious on Circle as analysts warn USDC economics face mounting pressure",
-      "url": "https://www.theblock.co/post/408280/wall-street-cautious-circle-warn-usdc-economics?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T17:14:47+00:00",
-      "summary": "Mizuho downgraded the stock and JPMorgan lowered earnings estimates, citing concerns that USDC is coming under pressure.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "usdc"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "JCB signs Circle MOU to test stablecoin payments in Japan",
-      "url": "https://cointelegraph.com/news/japans-jcb-signs-mou-with-circle-to-explore-usdc-payments-and-cross-border-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T17:05:00+00:00",
-      "summary": "The companies will explore using USDC for JCB’s cross-border treasury operations and merchant payments in Japan as regulated stablecoin adoption gains momentum.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin",
-        "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat",
-      "url": "https://www.coindesk.com/business/2026/07/14/mizuho-downgrades-circle-to-underperform-cuts-price-target-to-usd50-on-open-usd-threat",
-      "published_at": "2026-07-14T16:59:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "underperform"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto",
-      "url": "https://www.coindesk.com/policy/2026/07/14/wikipedia-blackout-could-hurt-how-ai-engines-like-chatgpt-understand-crypto",
-      "published_at": "2026-07-14T16:39:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S., UK move to align rules for tokenized finance across world's largest financial markets",
-      "url": "https://www.coindesk.com/policy/2026/07/14/u-s-uk-move-to-align-rules-for-tokenized-finance-across-world-s-largest-financial-markets",
-      "published_at": "2026-07-14T16:29:48+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "CleanSpark shares jump 22% after $6.6B Georgia data center lease",
-      "url": "https://cointelegraph.com/news/cleanspark-shares-jump-after-georgia-data-center-lease?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T16:24:45+00:00",
-      "summary": "The Bitcoin miner’s Georgia agreement with an undisclosed investment-grade technology company expands its footprint in AI and high-performance computing infrastructure.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "CleanSpark Signs $6.6 Billion Data Center Lease as Bitcoin Miner Pivots to Compute",
-      "url": "https://bitcoinmagazine.com/news/cleanspark-signs-6-billion-center-lease",
-      "published_at": "2026-07-14T16:04:07+00:00",
-      "summary": "Bitcoin Magazine\n\nCleanSpark Signs $6.6 Billion Data Center Lease as Bitcoin Miner Pivots to Compute\nCleanSpark, the Nasdaq-listed bitcoin miner, said on July 14 that it has signed a 20-year infrastructure lease with an unnamed high-investment-grade global technology company at its campus in Sandersville, Georgia.&#160; The deal marks the firm&#8217;s largest step from pure bitcoin mining toward high-performance computing for hyperscale clients. The lease covers data center infrastructure tha...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "mining"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin mining production slips in June for CleanSpark, BitFuFu and Canaan",
-      "url": "https://www.theblock.co/post/408260/bitcoin-mining-production-slips-june-cleanspark-bitfufu-canaan?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T15:46:24+00:00",
-      "summary": "CleanSpark, BitFuFu and Canaan reported lower bitcoin production in June despite mining difficulty dropping more than 10%.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Galaxy blends Aave, Morpho and other DeFi rates in new GOFR crypto borrowing product",
-      "url": "https://www.theblock.co/post/408267/galaxy-blends-aave-morpho-other-defi-rates-new-gofr-crypto-borrowing-product?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T15:33:49+00:00",
-      "summary": "Galaxy will act as the sole intermediary between the accredited borrowers and the blockchain-based lending protocols.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "lending"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘Soft print, hard regime’: Bitcoin climbs toward $64,000 as June CPI falls 0.4% in largest monthly drop since 2020",
-      "url": "https://www.theblock.co/post/408263/soft-print-hard-regime-bitcoin-climbs-64000-june-cpi-falls-largest-monthly-drop-since-2020?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-14T15:27:07+00:00",
-      "summary": "June CPI fell 0.4% and core held at 2.6% annually, lifting BTC toward $64,000 as analysts flip from fears to a summer recovery case.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": [
-          "drop",
-          "falls",
-          "fears",
-          "fell"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Ticks Up to $64K Following Largest Inflation Slowdown in Six Years",
-      "url": "https://decrypt.co/373488/bitcoin-ticks-up-to-64k-following-largest-inflation-slowdown-in-six-years",
-      "published_at": "2026-07-14T15:24:27+00:00",
-      "summary": "Consumer prices cooled more than expected in June, yet geopolitical tensions continue to cast a shadow over crypto prices",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "UK to Defer Capital Gains Tax on DeFi Lending, Liquidity Pool Deposits",
-      "url": "https://decrypt.co/373481/uk-to-defer-capital-gains-tax-on-defi-lending-liquidity-pool-deposits",
-      "published_at": "2026-07-14T15:00:26+00:00",
-      "summary": "Moving crypto into a lending protocol or liquidity pool won’t count as a taxable disposal, deferring the charge until a real cash-out.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "defi",
-        "lending",
-        "liquidity",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Anchorage Digital expands Tron support with institutional TRX staking",
-      "url": "https://cointelegraph.com/news/anchorage-digital-expands-tron-support-with-institutional-trx-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T15:00:00+00:00",
-      "summary": "Institutions can now stake Tron's native token directly from Anchorage's custody platform as the company expands support for one of the largest USDT settlement networks.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron",
-        "TRX"
-      ],
-      "topics": [
-        "staking",
-        "usdt"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "JPMorgan says Hyperliquid's rise threatens Circle's USDC economics",
-      "url": "https://www.coindesk.com/business/2026/07/14/jpmorgan-says-hyperliquid-s-rise-threatens-circle-s-usdc-economics",
-      "published_at": "2026-07-14T14:57:16+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "usdc"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "UK Adopts ‘No Gain, No Loss’ Tax Treatment for Crypto Lending and Liquidity Pools",
-      "url": "https://bitcoinmagazine.com/news/uk-adopts-no-gain-no-loss-tax-crypto",
-      "published_at": "2026-07-14T14:54:26+00:00",
-      "summary": "Bitcoin Magazine\n\nUK Adopts &#8216;No Gain, No Loss&#8217; Tax Treatment for Crypto Lending and Liquidity Pools\nThe UK will introduce a \"no gain, no loss\" tax treatment for qualifying crypto lending and DeFi liquidity pool transactions from April 6, 2027, deferring Capital Gains Tax until users make an economic disposal of their cryptocurrency.\nThis post UK Adopts &#8216;No Gain, No Loss&#8217; Tax Treatment for Crypto Lending and Liquidity Pools first appeared on Bitcoin Magazine and is writ...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "gain",
-          "gains"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "lending",
-        "liquidity",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin jumps on lowest US CPI since 2020 as traders stay wary of $64K failure",
-      "url": "https://cointelegraph.com/markets/bitcoin-jumps-on-lowest-us-cpi-since-2020-as-traders-stay-wary-of-64k-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-14T14:53:13+00:00",
-      "summary": "BTC price action returned to $64,000 on low US CPI inflation, but traders remained wary of rejection at key resistance.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "failure"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "inflation"
       ]
     }
   ]
