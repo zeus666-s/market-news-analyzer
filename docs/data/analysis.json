@@ -1,37 +1,45 @@
 {
-  "generated_at": "2026-07-16T14:03:36.464627+00:00",
+  "generated_at": "2026-07-16T17:23:15.642147+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.023,
+    "market_sentiment_score": 0.05,
     "label_distribution": {
-      "bullish": 15,
-      "neutral": 45,
-      "bearish": 10
+      "bearish": 12,
+      "bullish": 23,
+      "neutral": 35
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 24
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 21
       },
       {
         "coin": "ETH",
-        "mentions": 7
-      },
-      {
-        "coin": "BTC",
-        "mentions": 6
+        "mentions": 8
       },
       {
         "coin": "SOL",
         "mentions": 5
       },
       {
-        "coin": "Polygon",
+        "coin": "BTC",
+        "mentions": 5
+      },
+      {
+        "coin": "FIL",
+        "mentions": 4
+      },
+      {
+        "coin": "Near",
+        "mentions": 2
+      },
+      {
+        "coin": "Tron",
         "mentions": 2
       },
       {
@@ -39,29 +47,21 @@
         "mentions": 2
       },
       {
-        "coin": "Near",
-        "mentions": 1
-      },
-      {
-        "coin": "Arbitrum",
-        "mentions": 1
-      },
-      {
-        "coin": "ARB",
+        "coin": "XRP",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 41
+        "mentions": 37
       },
       {
         "topic": "pos",
         "mentions": 19
       },
       {
-        "topic": "defi",
+        "topic": "stablecoin",
         "mentions": 8
       },
       {
@@ -69,32 +69,486 @@
         "mentions": 6
       },
       {
-        "topic": "sec",
-        "mentions": 5
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 5
-      },
-      {
-        "topic": "exchange",
-        "mentions": 4
+        "topic": "defi",
+        "mentions": 6
       },
       {
         "topic": "onchain",
         "mentions": 3
       },
       {
-        "topic": "pow",
+        "topic": "inflation",
         "mentions": 2
       },
       {
-        "topic": "cex",
+        "topic": "sec",
+        "mentions": 2
+      },
+      {
+        "topic": "exchange",
+        "mentions": 2
+      },
+      {
+        "topic": "cftc",
         "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price dips on US stocks sell-off as Micron losses pass 30%",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-dips-with-us-stocks-as-tech-sell-off-as-micron-losses-pass-30?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-16T16:58:02+00:00",
+      "summary": "Bitcoin fell 1.5% from local highs amid a reversal in US stocks as markets moved from bullish US inflation cues to retail profit-taking.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "bullish"
+        ],
+        "negative_hits": [
+          "fell",
+          "losses",
+          "sell-off"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "inflation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "XRP Can't Keep Up as Bitcoin Takes a Breather: Analysis",
+      "url": "https://decrypt.co/373649/xrp-price-cant-keep-up-bitcoin-takes-breather",
+      "published_at": "2026-07-16T16:56:54+00:00",
+      "summary": "The post-CPI rally gave XRP a nudge. The coin barely moved. Now the chart is filling in the picture.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "XRP",
+        "FIL"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin VC Veterans Launch $40 Million Holding Company Targeting Small Business Acquisitions",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-vcs-launch-holding-company",
+      "published_at": "2026-07-16T16:56:07+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin VC Veterans Launch $40 Million Holding Company Targeting Small Business Acquisitions\nLyn Alden is helping debut a permanent capital company to buys profitable small businesses and put them on a Bitcoin standard.\nThis post Bitcoin VC Veterans Launch $40 Million Holding Company Targeting Small Business Acquisitions first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "buys",
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ethics in crypto market structure ‘really not our concern,’ says Blockchain Association CEO",
+      "url": "https://cointelegraph.com/news/ethics-crypto-market-structure-concerns-blockchain-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-16T16:47:09+00:00",
+      "summary": "A former CFTC commissioner urged lawmakers not to “kill all the hard work that we put in the rest of the bill” by making ethics a make-or-break issue on crypto market structure.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concern"
+        ]
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Stripe’s $53 billion PayPal bid is a high-stakes play to own the future of digital payments",
+      "url": "https://www.coindesk.com/business/2026/07/16/stripe-s-usd53-billion-paypal-bid-is-a-high-stakes-play-to-own-the-future-of-digital-payments",
+      "published_at": "2026-07-16T16:37:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Morgan Stanley’s E*TRADE launches spot crypto trading through Zero Hash",
+      "url": "https://cointelegraph.com/news/morgan-stanleys-etrade-rolls-out-spot-crypto-trading-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-16T16:32:01+00:00",
+      "summary": "Eligible E*TRADE retail clients can now buy, sell and hold Bitcoin, Ether and Solana through a partnership with crypto infrastructure provider Zero Hash.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "launches",
+          "partnership"
+        ],
+        "negative_hits": [
+          "sell"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tradable’s $1B Stellar deal adds to institutional tokenization boom",
+      "url": "https://cointelegraph.com/news/tradables-1b-stellar-deal-adds-to-institutional-tokenization-boom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-16T16:19:16+00:00",
+      "summary": "Tradable will bring up to $1 billion in private credit assets to Stellar, extending the blockchain’s push into institutional finance and tokenized real-world assets.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA",
+        "Stellar"
+      ],
+      "topics": [
+        "ai",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Visa backs Open USD with new stablecoin platform as Circle faces fresh competition",
+      "url": "https://www.coindesk.com/business/2026/07/16/visa-backs-open-usd-with-new-stablecoin-platform-as-circle-faces-fresh-competition",
+      "published_at": "2026-07-16T16:14:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "$1.9 trillion asset manager T. Rowe Price launches first actively managed multi-token crypto ETF",
+      "url": "https://www.theblock.co/post/408667/t-rowe-price-launches-first-actively-managed-multi-token-crypto-etf?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-16T16:09:15+00:00",
+      "summary": "T. Rowe Price's TKNZ Active Crypto ETF began trading Thursday after the firm filed for the product in October.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Multicoin Capital makes first Hyperliquid ecosystem investment in Trasia, an Asia-focused trading platform",
+      "url": "https://www.theblock.co/post/408670/multicoin-capital-hyperliquid-ecosystem-investment-trasia?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-16T16:00:02+00:00",
+      "summary": "Built on Hyperliquid, Trasia was co-founded by former Multicoin Capital partner Mable Jiang and aims to serve Asian traders.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Dormant Bitcoin Whale Moves $383 Million After More Than 8 Years",
+      "url": "https://decrypt.co/373646/bitcoin-whale-moves-383-million-after-eight-years",
+      "published_at": "2026-07-16T15:43:43+00:00",
+      "summary": "The wallet holding nearly 5,908 BTC since 2017 transferred its entire balance to a new address.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Near"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Breez Partners With Turnkey to Bring Non-Custodial Bitcoin to Backend-Run Apps",
+      "url": "https://bitcoinmagazine.com/news/breez-partners-with-turnkey-non",
+      "published_at": "2026-07-16T15:32:00+00:00",
+      "summary": "Bitcoin Magazine\n\nBreez Partners With Turnkey to Bring Non-Custodial Bitcoin to Backend-Run Apps\nBreez has partnered with Turnkey to let backend-run apps integrate non-custodial bitcoin wallets at scale, allowing users to retain control of their funds without requiring companies to hold private keys or redesign their existing infrastructure.\nThis post Breez Partners With Turnkey to Bring Non-Custodial Bitcoin to Backend-Run Apps first appeared on Bitcoin Magazine and is written by Micah Zimme...",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "integrate"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Keyrock acquires BlockFills trading assets to expand institutional crypto business",
+      "url": "https://www.coindesk.com/business/2026/07/16/keyrock-acquires-blockfills-trading-assets-to-expand-institutional-crypto-business",
+      "published_at": "2026-07-16T15:26:15+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Visa launching internal stablecoin platform for clients that provides access to OUSD: report",
+      "url": "https://www.theblock.co/post/408645/visa-launching-internal-stablecoin-platform-provides-access-ousd-fortune?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-16T15:15:28+00:00",
+      "summary": "Open Standard's stablecoin is expected to become a major competitor to Circle's USDC, the dominant stablecoin in the U.S.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "stablecoin",
+        "usdc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "The Clarity Act is the most important consumer protection effort in years",
+      "url": "https://www.coindesk.com/opinion/2026/07/16/the-clarity-act-is-the-most-important-consumer-protection-effort-in-years",
+      "published_at": "2026-07-16T15:07:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "US jury indicts South Dakota crypto investor on 29 counts over alleged $20 million investor fraud",
+      "url": "https://www.theblock.co/post/408654/us-jury-indicts-south-dakota-crypto-investor-29-counts-alleged-20m-investor-fraud?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-16T15:06:14+00:00",
+      "summary": "DOJ indicted Sioux Falls crypto investor Benjamin Paul Wiener on 29 counts over an alleged $20 million fraud, with a trial set for Sept. 15.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "falls",
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "SBI extends onchain finance push with Ondo deal to tokenize Japanese stocks",
+      "url": "https://www.theblock.co/post/408633/sbi-extends-onchain-finance-push-with-ondo-deal-tokenize-japanese-stocks?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-16T14:59:02+00:00",
+      "summary": "Japan's SBI Holdings will use JPYSC for settlement and collateral while distributing Ondo products through its network.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto for Advisors: Strengthening defenses against AI fraud",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/16/crypto-for-advisors-strengthening-defenses-against-ai-fraud",
+      "published_at": "2026-07-16T14:54:11+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Keyrock closes deal for BlockFills’ institutional trading and brokerage assets",
+      "url": "https://www.theblock.co/post/408639/keyrock-closes-deal-blockfill-institutional-trading-brokerage-assets?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-16T14:42:26+00:00",
+      "summary": "The Brussels-based firm was earlier selected as the buyer for $3.25 million in BlockFills’ Chapter 11 bankruptcy process.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL",
+        "APT"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Cloudflare x402 Integration Opens Door for Bitcoin in AI Agent Micropayments",
+      "url": "https://bitcoinmagazine.com/business/cloudflare-x402-integration-opens-door-for-bitcoin-in-ai-agent-micropayments",
+      "published_at": "2026-07-16T14:42:00+00:00",
+      "summary": "Bitcoin Magazine\n\nCloudflare x402 Integration Opens Door for Bitcoin in AI Agent Micropayments\nCloudflare's adoption of the x402 protocol enables websites to monetize data for AI agents via direct crypto payments, with Bitcoin and Lightning Network positioned as strong options alongside stablecoins for privacy and speed.\nThis post Cloudflare x402 Integration Opens Door for Bitcoin in AI Agent Micropayments first appeared on Bitcoin Magazine and is written by Juan Galt.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption",
+          "integration",
+          "strong"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto brokerage firm Alpaca raises $135 million for tokenized stock infrastructure",
+      "url": "https://www.coindesk.com/business/2026/07/16/crypto-brokerage-firm-alpaca-raises-usd135-million-for-tokenized-stock-infrastructure",
+      "published_at": "2026-07-16T14:19:32+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Senate Unanimously Votes That Sam Bankman-Fried Should Never Get a Pardon",
@@ -707,439 +1161,6 @@
         "ai",
         "pow",
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tether invests $20M into Argentine neobank Ualá",
-      "url": "https://cointelegraph.com/news/tether-invests-20m-argentine-neobank-uala?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T08:27:31+00:00",
-      "summary": "Tether reportedly invested $20 million into Ualá, as part of the Argentine neobank’s $197 million funding round announced earlier in March.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin $107K buyers providing ‘early signals’ of 2026 bear-market bottom: Glassnode",
-      "url": "https://cointelegraph.com/markets/bitcoin-107-buyers-providing-early-signals-of-2026-bear-market-bottom-glassnode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T08:11:25+00:00",
-      "summary": "Bitcoin realized losses appeared to be copying a reversal structure that marked previous bear-market bottoms, with $69,000 a new BTC price battleground.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Robinhood Chain memecoin launchpad Vlad.fun halts after ‘internal integrity’ issue",
-      "url": "https://cointelegraph.com/news/robinhood-chain-memecoin-vladfun-halts-integrity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T07:43:45+00:00",
-      "summary": "Vlad.fun suspended its platform after discovering a “serious internal integrity issue” involving members of its team, without disclosing the nature of the alleged misconduct.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "memecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin whale moves $383 million in BTC after 8 years of dormancy: onchain data",
-      "url": "https://www.theblock.co/post/408570/bitcoin-whale-moves-8-years?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T06:54:08+00:00",
-      "summary": "A bitcoin OG wallet transferred 5,908 BTC to a new address on Wednesday, according to Lookonchain, citing Arkham data.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Hyperion DeFi to deploy 500K HYPE for Hyperliquid HIP-3 markets",
-      "url": "https://cointelegraph.com/news/hyperion-defi-to-deploy-500k-hype-for-hyperliquid-hip-3-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T06:41:14+00:00",
-      "summary": "The deal gives Hyperion an equity stake in Skew and a share of listing-service revenue as it expands the utility of its HYPE treasury assets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "defi"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin holding $64,000 as AI momentum stocks continue to tumble",
-      "url": "https://www.coindesk.com/markets/2026/07/16/live-updates-zachxbt-calls-hardware-wallets-complete-garbage-btc-steady-near-usd65-000",
-      "published_at": "2026-07-16T06:20:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Senate unanimously opposes clemency for FTX founder Sam Bankman-Fried",
-      "url": "https://www.coindesk.com/policy/2026/07/16/u-s-senate-unanimously-opposes-clemency-for-ftx-founder-sam-bankman-fried",
-      "published_at": "2026-07-16T06:00:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T05:55:48+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "A bitcoin wallet dormant since the 2017 peak just moved $383 million",
-      "url": "https://www.coindesk.com/markets/2026/07/16/a-bitcoin-wallet-dormant-since-the-2017-peak-just-moved-usd383-million",
-      "published_at": "2026-07-16T05:12:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ether outruns bitcoin as ETF money returns, almost all of from BlackRock's fund",
-      "url": "https://www.coindesk.com/markets/2026/07/16/ether-outruns-bitcoin-as-etf-money-returns-almost-all-of-from-blackrock-s-fund",
-      "published_at": "2026-07-16T04:56:15+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trump to meet with senators over CLARITY Act on Thursday: Politico",
-      "url": "https://cointelegraph.com/news/trump-to-meet-with-senators-over-clarity-act-on-thursday-politico?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T04:18:29+00:00",
-      "summary": "US President Donald Trump is set to meet with several senators on Thursday as negotiators race to get the CLARITY Act across the line before the Senate’s August recess.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Two groups of crypto investors are selling bitcoin to cap its latest price recovery",
-      "url": "https://www.coindesk.com/markets/2026/07/16/two-groups-of-bitcoin-investors-sell-on-the-rise-as-inflation-lifts-prices-to-nearly-usd65-000",
-      "published_at": "2026-07-16T04:09:10+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "California pair charged with laundering crypto proceeds from darknet fentanyl sales",
-      "url": "https://www.theblock.co/post/408560/california-duo-darknet-drug-crypto-money-laundering?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T02:23:34+00:00",
-      "summary": "The pair allegedly shipped over 500 drug parcels over a seven-month period and laundered hundreds of thousands of dollars through crypto.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "From Perpetual Swaps to Perpetual CFDs: The Regulated Evolution",
-      "url": "https://www.theblock.co/post/408553/from-perpetual-swaps-to-perpetual-cfds-the-regulated-evolution?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-15T23:19:00+00:00",
-      "summary": "The 24/7 Trading Imperative Fixed exchange sessions are a structural mismatch with the global retail base. The NYSE opens at 9:30 a.m. Eastern and closes at 4:00 p.m., a window designed for an era when the participant base was concentrated in a single geography and order flow was physically intermediated. That assumption has shifted as [&hellip;]",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Stripe-PayPal deal could accelerate shift to blockchain-based money, Polygon exec says",
-      "url": "https://www.theblock.co/post/408525/stripe-paypal-deal-accelerate-stablecoins-blockchain?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-15T21:41:07+00:00",
-      "summary": "\"Within the next few years the majority of money will live and move on blockchain in one form or another,\" according to Polygon Labs.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Polygon"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Why Analysts Aren’t Worried About Coinbase’s 30% Drop",
-      "url": "https://decrypt.co/373615/analysts-arent-worried-coinbase-drop",
-      "published_at": "2026-07-15T21:38:43+00:00",
-      "summary": "William Blair slashed earnings estimates by 34% and held its Outperform call. But analysts think Bitcoin's chart may already be answering the bigger question.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "outperform"
-        ],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Public Hyperliquid treasury firm Hyperion enters into new 500k HYPE bond agreement with Skew",
-      "url": "https://www.theblock.co/post/408538/hyperliquid-treasury-firm-hyperion-new-500k-hype-bond-skew?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-15T21:33:12+00:00",
-      "summary": "Hyperion will deploy 500,000 tokens to Skew through a HYPE Asset Use Service (HAUS) agreement in exchange for equity and revenue share.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Strategy CEO says company isn’t going anywhere as bitcoin buyer, sees debt concerns only below $10,000 BTC",
-      "url": "https://www.theblock.co/post/408532/strategy-ceo-bitcoin-debt-concerns-btc-interview?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-15T21:08:05+00:00",
-      "summary": "Strategy would begin considering risks associated with its debt only if bitcoin falls to around $8,000-$10,000, CEO Phong Le said.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns",
-          "falls",
-          "risks"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin to $40,000? If History’s Anything to Go By, It’s Possible, Says Report",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-to-40000-its-possible-report",
-      "published_at": "2026-07-15T21:04:16+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin to $40,000? If History&#8217;s Anything to Go By, It&#8217;s Possible, Says Report\nBitcoin could drop as low as $38,000 this year, a new report claims.\nThis post Bitcoin to $40,000? If History&#8217;s Anything to Go By, It&#8217;s Possible, Says Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "OpenAI Uses AI Red Team to Strengthen GPT-5.6 Against Prompt Injection Attacks",
-      "url": "https://decrypt.co/373613/openai-ai-red-team-strengthen-gpt-5-6-prompt-injection-attacks",
-      "published_at": "2026-07-15T20:50:11+00:00",
-      "summary": "OpenAI said its new automated red-teaming model, GPT-Red, uncovered vulnerabilities that were used to make GPT-5.6 more resistant to prompt injection attacks.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coinbase's Jesse Pollak steps back from Base app leadership after admitting his crypto social strategy failed",
-      "url": "https://www.coindesk.com/business/2026/07/15/coinbase-s-jesse-pollak-steps-back-from-base-app-leadership-after-admitting-his-crypto-social-strategy-failed",
-      "published_at": "2026-07-15T20:18:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "failed"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
       ]
     }
   ]
