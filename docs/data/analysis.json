@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-07-17T13:47:44.932660+00:00",
+  "generated_at": "2026-07-17T17:16:28.599400+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.016,
+    "market_sentiment_score": 0.021,
     "label_distribution": {
+      "neutral": 29,
       "bearish": 17,
-      "bullish": 25,
-      "neutral": 28
+      "bullish": 24
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 29
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 18
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "SOL",
-        "mentions": 4
+        "mentions": 5
       },
       {
-        "coin": "FIL",
+        "coin": "Near",
         "mentions": 3
       },
       {
@@ -35,8 +35,12 @@
         "mentions": 2
       },
       {
-        "coin": "Near",
+        "coin": "FIL",
         "mentions": 2
+      },
+      {
+        "coin": "Cardano",
+        "mentions": 1
       },
       {
         "coin": "LINK",
@@ -45,36 +49,32 @@
       {
         "coin": "Ripple",
         "mentions": 1
-      },
-      {
-        "coin": "BNB",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 20
-      },
-      {
-        "topic": "exchange",
-        "mentions": 9
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 9
+        "mentions": 11
       },
       {
-        "topic": "stablecoin",
+        "topic": "exchange",
         "mentions": 8
       },
       {
+        "topic": "stablecoin",
+        "mentions": 7
+      },
+      {
         "topic": "etf",
-        "mentions": 5
+        "mentions": 7
       },
       {
         "topic": "wallet",
@@ -97,6 +97,236 @@
   "articles": [
     {
       "source": "Decrypt",
+      "title": "Galaxy Puts Its Name on Texas Tech's Stadium in a 15-Year, Crypto-Native Deal",
+      "url": "https://decrypt.co/373710/galaxy-texas-tech-stadium-15-year-crypto-native-deal",
+      "published_at": "2026-07-17T17:09:33+00:00",
+      "summary": "The Nasdaq-listed digital-asset firm will rebrand the Red Raiders' home as \"Galaxy Stadium.\" The bigger bet is on the cheap power and open land of West Texas.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "OKX Europe lets users convert USDT to MiCA-compliant USDC",
+      "url": "https://cointelegraph.com/news/okx-europe-lets-users-convert-usdt-to-mica-compliant-usdc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T16:54:37+00:00",
+      "summary": "The feature offers European customers a voluntary path away from Tether’s USDT as MiCA rules reshape the region’s stablecoin market.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "stablecoin",
+        "usdc",
+        "usdt"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Senator Warren requests 2026 reporting for Trump’s crypto earnings after $1.4B disclosure",
+      "url": "https://cointelegraph.com/news/senator-warren-2026-reporting-donald-trump-crypto-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T16:48:22+00:00",
+      "summary": "With the Senate likely voting on a crypto bill within days, Elizabeth Warren asked for information on Donald Trump’s earnings between January and July ahead of a 2027 deadline.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin slides toward $63,000 as Coinbase premium stays negative for a record 60 days",
+      "url": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-17T16:38:50+00:00",
+      "summary": "Bitcoin fell near $63,000 as chip stocks sold off, the Coinbase premium stayed negative a record 60 days, and ETF flows remain thin.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell",
+          "negative"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cardano hands core development to outside teams in decentralization push",
+      "url": "https://www.coindesk.com/tech/2026/07/17/cardano-hands-core-development-to-outside-teams-in-decentralization-push",
+      "published_at": "2026-07-17T16:23:26+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Cardano",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Mining Giant Foundry Asks Miners To Vote on BIP-110 Soft Fork",
+      "url": "https://bitcoinmagazine.com/news/foundry-asks-bitcoin-miners-vote-bip-110",
+      "published_at": "2026-07-17T15:58:36+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Mining Giant Foundry Asks Miners To Vote on BIP-110 Soft Fork\nFoundry Digital said it will allow clients who use its Bitcoin mining pool to vote on BIP-110. \nThis post Bitcoin Mining Giant Foundry Asks Miners To Vote on BIP-110 Soft Fork first appeared on Bitcoin Magazine and is written by Mathew Di Salvo&nbsp;and&nbsp;Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "miners",
+        "mining",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin ETFs could mirror gold’s history of ‘spectacular gains’ and ‘painful drawdowns,’ analyst says",
+      "url": "https://www.theblock.co/post/408782/bitcoin-etfs-ibit-mirror-golds-history-spectacular-gains-painful-drawdowns-analyst?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-17T15:40:50+00:00",
+      "summary": "Bloomberg ETF analyst Eric Balchunas compared IBIT’s short time above $100 billion with GLD’s precipitous rise in 2011.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Inside Robinhood’s high-stakes bet to onboard 10 million casual users onto decentralized finance",
+      "url": "https://www.coindesk.com/business/2026/07/17/inside-robinhood-s-high-stakes-bet-to-onboard-10-million-casual-investors-onto-decentralized-finance",
+      "published_at": "2026-07-17T15:36:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-sags-under-625k-as-iran-strikes-add-to-us-stocks-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T14:37:39+00:00",
+      "summary": "Bitcoin saw a key rejection at local highs before reversing lower, moving with stocks for a second day as US-Iran war downside took its toll.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Galaxy Digital puts its name on Texas Tech football stadium in 15-year partnership",
+      "url": "https://www.theblock.co/post/408772/galaxy-digital-puts-name-texas-tech-football-stadium-15-year-partnership?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-17T14:33:42+00:00",
+      "summary": "The deal's financial terms were not disclosed, but Yahoo Sports reported the agreement is worth more than $70 million.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "partnership"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "HSBC wins Bank of England approval to enter Digital Securities Sandbox",
+      "url": "https://cointelegraph.com/news/hsbc-bank-of-england-approval-digital-securities-sandbox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T13:54:27+00:00",
+      "summary": "The Bank of England approved HSBC Orion to go live in its Digital Securities Sandbox, with the first Digital Gilt Instrument transaction expected in the first quarter of 2027.",
+      "sentiment": {
+        "score": 6,
+        "normalized": 0.75,
+        "label": "bullish",
+        "positive_hits": [
+          "approval",
+          "approved",
+          "wins"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
       "title": "Three Men Jailed for Posing as Police in $5.3M UK Crypto Fraud",
       "url": "https://decrypt.co/373702/three-men-jailed-for-posing-as-police-in-5-3m-uk-crypto-fraud",
       "published_at": "2026-07-17T13:46:58+00:00",
@@ -116,6 +346,22 @@
         "ai",
         "pos"
       ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Japan's SBI Group is building Asia's first cross-border digital asset empire",
+      "url": "https://www.coindesk.com/business/2026/07/17/japan-s-sbi-group-is-building-asia-s-first-cross-border-digital-asset-empire",
+      "published_at": "2026-07-17T13:46:46+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
     },
     {
       "source": "Bitcoin Magazine",
@@ -171,7 +417,7 @@
     {
       "source": "Cointelegraph",
       "title": "The British Virgin Islands are a top crypto hub no one ever talks about: Here’s why",
-      "url": "https://cointelegraph.com/features/why-is-the-british-virgin-islands-becoming-a-legal-home-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/magazine/why-is-the-british-virgin-islands-becoming-a-legal-home-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-17T13:30:00+00:00",
       "summary": "Kraken, Bitstamp, 1inch and Bitfinex have all set up shop in the British Virgin Islands — but you might find it tricky to book an on-site meeting with one of their executives.",
       "sentiment": {
@@ -403,16 +649,18 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live markets: Bitcoin slips to $63,000 as the chip rout goes global",
+      "title": "Live markets: Bitcoin returns to $63,000 as Nasdaq trims large early loss",
       "url": "https://www.coindesk.com/markets/2026/07/17/live-markets-bitcoin-slips-to-usd63-000-as-the-chip-rout-goes-global",
       "published_at": "2026-07-17T10:43:57+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
         "positive_hits": [],
-        "negative_hits": []
+        "negative_hits": [
+          "loss"
+        ]
       },
       "coins": [
         "Bitcoin"
@@ -684,30 +932,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Ordinals advocate Leonidas proposes new Bitcoin client: ‘$DOG Mode’",
-      "url": "https://cointelegraph.com/news/ordinals-dev-leonidas-proposes-new-bitcoin-client-dog-mode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T05:54:04+00:00",
-      "summary": "“Over time the economic incentives will drive $DOG Mode’s adoption and force Bitcoin Core to stop gatekeeping and allow these completely valid transactions,” said Leonidas.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "DOG Mode vs. BIP-110: Inside the Bitcoin client built to bypass data restrictions",
       "url": "https://www.coindesk.com/tech/2026/07/17/bitcoin-s-anti-spam-fight-gets-a-dog-mode-reply",
@@ -753,29 +977,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Crypto exchange Bybit launches in Indonesia after NOBI acquisition",
-      "url": "https://cointelegraph.com/news/crypto-exchange-bybit-launches-in-indonesia-after-nobi-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T04:16:32+00:00",
-      "summary": "The launch gives Bybit a locally operated platform in one of Asia’s largest crypto markets, home to more than 21 million crypto exchange users.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Bitcoin under $63,000 after new U.S. strike on Iran. Trump's China comment adds to uncertainty",
       "url": "https://www.coindesk.com/markets/2026/07/17/bitcoin-under-usd64-000-after-u-s-strike-on-iran-trump-s-china-comment-adds-to-uncertainty",
@@ -815,45 +1016,6 @@
         "exchange",
         "futures",
         "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trump Media sells Wall Street low-latency access to Trump posts",
-      "url": "https://cointelegraph.com/news/trump-media-sells-wall-street-low-latency-access-to-trump-posts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T02:23:40+00:00",
-      "summary": "The paid Truth API is aimed at high-frequency trading firms seeking “the fastest” access to market-moving Truth Social posts, including those from US President Donald Trump.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Balaji seeks Malaysia deal, threatens exit after Network School probe",
-      "url": "https://cointelegraph.com/news/balaji-seeks-malaysia-deal-threatens-exit-after-network-school-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T01:54:00+00:00",
-      "summary": "“If we are not welcome, there are many other countries that would welcome us,” said Network School founder Balaji Srinivasan in a message to the Malaysian prime minister.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -1017,178 +1179,6 @@
         "pos",
         "wallet"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘We’re going to get it done’: Crypto bill faces what could be final test over Trump conflicts of interest",
-      "url": "https://www.theblock.co/post/408706/were-going-get-it-done-crypto-bill-faces-could-be-final-test-trump-conflicts-interest?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T18:51:17+00:00",
-      "summary": "Optimism is brewing to get a crypto bill passed, with some variations on timing as onlookers wait to see how ethics will shake out.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "optimism"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "Optimism",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "$1.9 trillion asset manager T. Rowe Price bets on active management with first multi-token crypto ETF",
-      "url": "https://www.coindesk.com/markets/2026/07/16/usd1-9-trillion-asset-manager-t-rowe-price-bets-on-active-management-with-first-multi-token-crypto-etf",
-      "published_at": "2026-07-16T18:38:13+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Fed Chair Warsh: No Bailout for Crypto Industry in Crisis",
-      "url": "https://bitcoinmagazine.com/news/fed-chair-warsh-no-bailout-for-crypto",
-      "published_at": "2026-07-16T18:30:06+00:00",
-      "summary": "Bitcoin Magazine\n\nFed Chair Warsh: No Bailout for Crypto Industry in Crisis\nFederal Reserve Chair Kevin Warsh said the Fed will not bail out failing crypto firms, insisting the industry must bear its own risks while regulators finalize rules under the GENIUS Act.\nThis post Fed Chair Warsh: No Bailout for Crypto Industry in Crisis first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bear",
-          "risks"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Mira Murati Drops Her First AI Model After Leaving OpenAI—And It's Fully Open Source",
-      "url": "https://decrypt.co/373671/mira-murati-inkling-ai-model-openai-open-source",
-      "published_at": "2026-07-16T18:27:11+00:00",
-      "summary": "Mira Murati's Inkling won't dethrone the best Chinese open-weights models, but it gives Western developers something they haven't yet had.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Citadel Securities invests $400 million in Crypto.com, valuing exchange at $20 billion",
-      "url": "https://www.coindesk.com/business/2026/07/16/citadel-securities-invests-usd400-million-in-crypto-com-valuing-exchange-at-usd20-billion",
-      "published_at": "2026-07-16T18:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Citadel Securities invests $400 million in Crypto.com at $20 billion valuation",
-      "url": "https://www.theblock.co/post/408688/citadel-securities-invests-400-million-crypto-com-20-billion-valuation?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T18:00:00+00:00",
-      "summary": "Crypto.com plans to use proceeds from its “first institutional funding round\" to expand its tokenization and derivatives operations.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "sec",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Visa Unveils Stablecoin Platform for Banks and Fintech Companies",
-      "url": "https://decrypt.co/373668/visa-stablecoin-platform-banks-fintech-open-usd",
-      "published_at": "2026-07-16T17:57:57+00:00",
-      "summary": "The Visa Stablecoin Platform will let financial institutions integrate stablecoin payments and treasury operations into Visa's existing network.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "integrate"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Trump’s longtime teleprompter operator accused of using insider knowledge to place bets on Kalshi: ABC News",
-      "url": "https://www.theblock.co/post/408692/trump-longtime-teleprompter-operator-accused-insider-knowledge-place-bets-kalshi-abc-news?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T17:24:49+00:00",
-      "summary": "President Trump's teleprompter is under scrutiny following a report alleging that he used insider knowledge to place bets on Kalshi.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
