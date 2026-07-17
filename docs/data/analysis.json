@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-17T06:21:04.558824+00:00",
+  "generated_at": "2026-07-17T10:02:38.520243+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.048,
+    "market_sentiment_score": 0.032,
     "label_distribution": {
-      "neutral": 37,
-      "bullish": 22,
-      "bearish": 11
+      "bearish": 14,
+      "bullish": 24,
+      "neutral": 32
     },
     "top_coins": [
       {
@@ -16,60 +16,72 @@
       },
       {
         "coin": "OP",
-        "mentions": 24
+        "mentions": 25
       },
       {
         "coin": "ETH",
-        "mentions": 8
-      },
-      {
-        "coin": "FIL",
-        "mentions": 5
+        "mentions": 9
       },
       {
         "coin": "BTC",
-        "mentions": 3
+        "mentions": 4
+      },
+      {
+        "coin": "FIL",
+        "mentions": 4
       },
       {
         "coin": "SOL",
         "mentions": 3
       },
       {
-        "coin": "Polygon",
+        "coin": "Near",
         "mentions": 2
       },
       {
+        "coin": "BNB",
+        "mentions": 1
+      },
+      {
+        "coin": "Polygon",
+        "mentions": 1
+      },
+      {
         "coin": "Ethereum",
-        "mentions": 1
-      },
-      {
-        "coin": "Solana",
-        "mentions": 1
-      },
-      {
-        "coin": "Optimism",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 35
       },
       {
         "topic": "pos",
-        "mentions": 18
-      },
-      {
-        "topic": "sec",
-        "mentions": 9
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 8
+        "mentions": 21
       },
       {
         "topic": "exchange",
+        "mentions": 7
+      },
+      {
+        "topic": "sec",
+        "mentions": 7
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 7
+      },
+      {
+        "topic": "fed",
+        "mentions": 5
+      },
+      {
+        "topic": "wallet",
+        "mentions": 5
+      },
+      {
+        "topic": "etf",
         "mentions": 5
       },
       {
@@ -77,24 +89,215 @@
         "mentions": 4
       },
       {
-        "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "etf",
-        "mentions": 4
-      },
-      {
-        "topic": "wallet",
-        "mentions": 4
-      },
-      {
-        "topic": "defi",
+        "topic": "exchanges",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin bottom countdown nears 50 days after BTC supply in loss passed 50%",
+      "url": "https://cointelegraph.com/markets/bitcoin-bottom-countdown-nears-50-days-after-btc-supply-in-loss-passed-50?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T09:51:33+00:00",
+      "summary": "Bitcoin supply in loss hit 50% nearly 50 days ago, mimicking the countdown to BTC price bear-market bottoms.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US indicts crypto investor over alleged $20M fraud scheme",
+      "url": "https://cointelegraph.com/news/us-indicts-crypto-investor-over-alleged-20m-fraud-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T09:25:33+00:00",
+      "summary": "Federal prosecutors allege the South Dakota investor used false promises to raise money, repaid earlier investors with new funds and laundered proceeds through crypto exchanges.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges",
+        "fed",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization",
+      "url": "https://www.coindesk.com/web3/2026/07/17/airbnb-ceo-says-x-account-was-hacked-attacker-posted-ai-slop-thread-on-tokenization",
+      "published_at": "2026-07-17T08:50:22+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hacked"
+        ]
+      },
+      "coins": [
+        "BNB",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MacOS malware hijacks Telegram sessions, targets crypto wallets: SlowMist",
+      "url": "https://cointelegraph.com/news/macos-malware-crypto-investors-slowmist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T08:48:20+00:00",
+      "summary": "A macOS malware steals credentials to hijack Telegram sessions, decrypt cryptocurrency wallets or trick users into entering their wallet recovery phrases through fake applications.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Taiwan sentences BitShine crypto exchange ringleader to 22 years in $39 million fraud case: reports",
+      "url": "https://www.theblock.co/post/408748/taiwan-sentences-bitshine-crypto-exchange-ringleader-22-years?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-17T08:48:10+00:00",
+      "summary": "The defendant reportedly led a criminal group that operated under the guise of BitShine, which was once registered with the FSC.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "UK gang jailed over $5.4 million crypto scam posing as police",
+      "url": "https://www.theblock.co/post/408745/uk-gang-jailed-crypto-scam?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-17T08:28:00+00:00",
+      "summary": "The gang impersonated police officers and used convincing fake police websites to steal more than £4M in cryptocurrency from eight victims.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ether falls twice as hard as bitcoin and HYPE drops 10% as the chip trade unwinds",
+      "url": "https://www.coindesk.com/markets/2026/07/17/ether-falls-twice-as-hard-as-bitcoin-and-hype-drops-10-as-the-chip-trade-unwinds",
+      "published_at": "2026-07-17T07:29:41+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "drops",
+          "falls"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "This $28 million ether market bet aims to profit from pure market chaos",
+      "url": "https://www.coindesk.com/markets/2026/07/17/this-usd28-million-ether-market-bet-aims-to-profit-from-pure-market-chaos",
+      "published_at": "2026-07-17T07:28:52+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs add $368M in three-day buying streak",
+      "url": "https://cointelegraph.com/news/bitcoin-etfs-368-million-three-day-buying-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T07:23:02+00:00",
+      "summary": "US spot Bitcoin ETFs attracted $79.2 million on Thursday, lifting their three-day inflow total to about $368 million as Bitcoin attempted a price recovery.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "buying",
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
@@ -144,7 +347,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Bitcoin’s anti-spam fight gets a 'DOG Mode' reply",
+      "title": "Bitcoin Ordinals leader proposes a way to bypass data restriction efforts",
       "url": "https://www.coindesk.com/tech/2026/07/17/bitcoin-s-anti-spam-fight-gets-a-dog-mode-reply",
       "published_at": "2026-07-17T05:32:00+00:00",
       "summary": "",
@@ -156,9 +359,12 @@
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin"
+        "Bitcoin",
+        "OP"
       ],
-      "topics": []
+      "topics": [
+        "pos"
+      ]
     },
     {
       "source": "The Block",
@@ -451,7 +657,7 @@
       "title": "1inch co-founder says he was fired, announces new venture",
       "url": "https://cointelegraph.com/news/1inch-co-founder-not-involved-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-16T20:05:45+00:00",
-      "summary": "Anton Bukov said that he no longer took an active role at 1inch and had been “fired” in 2025 after pushing for changes to the company’s management and operations.",
+      "summary": "Anton Bukov said that he no longer takes an active role at 1inch and was “fired” in 2025 after pushing for changes to the company’s management and operations.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -514,28 +720,6 @@
       "topics": [
         "governance",
         "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Injective files for SEC transfer agent registration to bring securities ownership records onchain",
-      "url": "https://cointelegraph.com/news/injective-files-sec-transfer-agent-registration-bring-securities-ownership-records-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T19:27:53+00:00",
-      "summary": "The company said the filing would create a regulated pathway for maintaining ownership records for tokenized securities onchain.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "sec"
       ]
     },
     {
@@ -632,27 +816,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitPay secures Dutch licensing under MiCA, plans to expand stablecoin payments",
-      "url": "https://cointelegraph.com/news/bitpay-licensing-mica-stablecoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T18:45:25+00:00",
-      "summary": "The Dutch Authority for the Financial Markets approved BitPay’s application as a crypto-asset service provider under the Markets in Crypto-Assets requirements.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approved"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec",
-        "stablecoin"
       ]
     },
     {
@@ -804,33 +967,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price dips on US stocks sell-off as Micron losses pass 30%",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-dips-with-us-stocks-as-tech-sell-off-as-micron-losses-pass-30?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T16:58:02+00:00",
-      "summary": "Bitcoin fell 1.5% from local highs amid a reversal in US stocks as markets moved from bullish US inflation cues to retail profit-taking.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": [
-          "fell",
-          "losses",
-          "sell-off"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "inflation"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "XRP Can't Keep Up as Bitcoin Takes a Breather: Analysis",
       "url": "https://decrypt.co/373649/xrp-price-cant-keep-up-bitcoin-takes-breather",
@@ -875,29 +1011,6 @@
       ],
       "topics": [
         "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ethics in crypto market structure ‘really not our concern,’ says Blockchain Association CEO",
-      "url": "https://cointelegraph.com/news/ethics-crypto-market-structure-concerns-blockchain-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T16:47:09+00:00",
-      "summary": "A former CFTC commissioner urged lawmakers not to “kill all the hard work that we put in the rest of the bill” by making ethics a make-or-break issue on crypto market structure.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concern"
-        ]
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "cftc"
       ]
     },
     {
@@ -1078,113 +1191,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "US jury indicts South Dakota crypto investor on 29 counts over alleged $20 million investor fraud",
-      "url": "https://www.theblock.co/post/408654/us-jury-indicts-south-dakota-crypto-investor-29-counts-alleged-20m-investor-fraud?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T15:06:14+00:00",
-      "summary": "DOJ indicted Sioux Falls crypto investor Benjamin Paul Wiener on 29 counts over an alleged $20 million fraud, with a trial set for Sept. 15.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "falls",
-          "fraud"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "SBI extends onchain finance push with Ondo deal to tokenize Japanese stocks",
-      "url": "https://www.theblock.co/post/408633/sbi-extends-onchain-finance-push-with-ondo-deal-tokenize-japanese-stocks?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T14:59:02+00:00",
-      "summary": "Japan's SBI Holdings will use JPYSC for settlement and collateral while distributing Ondo products through its network.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto for Advisors: Strengthening defenses against AI fraud",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/16/crypto-for-advisors-strengthening-defenses-against-ai-fraud",
-      "published_at": "2026-07-16T14:54:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Keyrock closes deal for BlockFills’ institutional trading and brokerage assets",
-      "url": "https://www.theblock.co/post/408639/keyrock-closes-deal-blockfill-institutional-trading-brokerage-assets?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T14:42:26+00:00",
-      "summary": "The Brussels-based firm was earlier selected as the buyer for $3.25 million in BlockFills’ Chapter 11 bankruptcy process.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL",
-        "APT"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Cloudflare x402 Integration Opens Door for Bitcoin in AI Agent Micropayments",
-      "url": "https://bitcoinmagazine.com/business/cloudflare-x402-integration-opens-door-for-bitcoin-in-ai-agent-micropayments",
-      "published_at": "2026-07-16T14:42:00+00:00",
-      "summary": "Bitcoin Magazine\n\nCloudflare x402 Integration Opens Door for Bitcoin in AI Agent Micropayments\nCloudflare's adoption of the x402 protocol enables websites to monetize data for AI agents via direct crypto payments, with Bitcoin and Lightning Network positioned as strong options alongside stablecoins for privacy and speed.\nThis post Cloudflare x402 Integration Opens Door for Bitcoin in AI Agent Micropayments first appeared on Bitcoin Magazine and is written by Juan Galt.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "integration",
-          "strong"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Tron",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "stablecoin"
-      ]
     }
   ]
 }
