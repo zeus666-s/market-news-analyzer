@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-16T21:05:55.577449+00:00",
+  "generated_at": "2026-07-17T03:12:26.344743+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.066,
+    "market_sentiment_score": 0.05,
     "label_distribution": {
-      "neutral": 35,
-      "bullish": 25,
-      "bearish": 10
+      "bearish": 11,
+      "neutral": 37,
+      "bullish": 22
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 21
+        "mentions": 22
       },
       {
         "coin": "ETH",
@@ -32,6 +32,10 @@
       },
       {
         "coin": "BTC",
+        "mentions": 3
+      },
+      {
+        "coin": "Polygon",
         "mentions": 2
       },
       {
@@ -45,35 +49,27 @@
       {
         "coin": "Ethereum",
         "mentions": 1
-      },
-      {
-        "coin": "Optimism",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 35
       },
       {
         "topic": "pos",
         "mentions": 18
       },
       {
+        "topic": "sec",
+        "mentions": 7
+      },
+      {
         "topic": "stablecoin",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "topic": "wallet",
-        "mentions": 6
-      },
-      {
-        "topic": "sec",
-        "mentions": 5
-      },
-      {
-        "topic": "defi",
         "mentions": 5
       },
       {
@@ -85,16 +81,146 @@
         "mentions": 4
       },
       {
-        "topic": "onchain",
+        "topic": "defi",
         "mentions": 4
       },
       {
         "topic": "futures",
+        "mentions": 3
+      },
+      {
+        "topic": "liquidity",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Trump Media sells Wall Street low-latency access to Trump posts",
+      "url": "https://cointelegraph.com/news/trump-media-sells-wall-street-low-latency-access-to-trump-posts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T02:23:40+00:00",
+      "summary": "The paid Truth API is aimed at high-frequency trading firms seeking “the fastest” access to market-moving Truth Social posts, including those from US President Donald Trump.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sells"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Balaji seeks Malaysia deal, threatens exit after Network School probe",
+      "url": "https://cointelegraph.com/news/balaji-seeks-malaysia-deal-threatens-exit-after-network-school-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T01:54:00+00:00",
+      "summary": "“If we are not welcome, there are many other countries that would welcome us,” said Network School founder Balaji Srinivasan in a message to the Malaysian prime minister.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin liquidity clusters determine BTC’s price direction as futures flow fuels price",
+      "url": "https://cointelegraph.com/markets/bitcoin-liquidity-clusters-determine-btcs-price-direction-as-futures-flow-fuels-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T00:12:40+00:00",
+      "summary": "Bitcoin futures traders are propping up the current market move, while liquidation heatmap data provides hints on where BTC price may go next.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "liquidation"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "futures",
+        "liquidity"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Citadel Securities invests $400M in Crypto.com at $20B valuation",
+      "url": "https://cointelegraph.com/news/citadel-securities-invests-400m-in-cryptocom-at-20b-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-16T23:47:12+00:00",
+      "summary": "Crypto exchanges have increasingly positioned themselves as bridges between digital asset markets and traditional finance.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "bridge",
+        "exchange",
+        "exchanges",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Polygon CEO announces job cuts amid Coinme acquisition",
+      "url": "https://cointelegraph.com/news/polygon-ceo-job-cuts-coinme-transition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-16T22:05:06+00:00",
+      "summary": "The round of layoffs was part of Polygon transitioning operations to payments following a $250 million deal to acquire Coinme and Sequence in January.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Polygon",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Crypto.com Secures $400M Investment From Citadel Securities at $20B Valuation",
+      "url": "https://bitcoinmagazine.com/news/crypto-com-400m-investment-citadel",
+      "published_at": "2026-07-16T21:09:28+00:00",
+      "summary": "Bitcoin Magazine\n\nCrypto.com Secures $400M Investment From Citadel Securities at $20B Valuation\nCrypto.com receives $400 million investment from Citadel Securities \nThis post Crypto.com Secures $400M Investment From Citadel Securities at $20B Valuation first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Leaks Reveal Suno Fed Thousands of Hours of Deezer, YouTube and Pond5 Data Into Its AI",
@@ -1042,71 +1168,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Alpaca raises $135M to fund tokenized agent-first infrastructure",
-      "url": "https://cointelegraph.com/news/alpaca-raises-135m-to-fund-tokenized-agent-first-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T13:34:19+00:00",
-      "summary": "The BNP-backed brokerage infrastructure provider is expanding into tokenized markets and AI-native financial services as both DeFi and TradFi companies pursue onchain business.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "defi",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Gambling on random Pokémon cards: Onchain gagcha hits record high as crypto sinks",
-      "url": "https://cointelegraph.com/features/pokemon-cards-as-rwas-gacha-spending-hits-records-as-crypto-sinks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T13:30:00+00:00",
-      "summary": "Users spent a record $324 million on onchain gacha in June, even as Bitcoin hit a 21-month low. The thrill of scoring a top Pokemon card from a random pack is becoming big business",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "record high"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Prediction markets defy crypto downturn with record Q2 volume: CoinGecko",
-      "url": "https://cointelegraph.com/news/crypto-cool-q2-prediction-markets-hit-records-coingecko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T13:05:09+00:00",
-      "summary": "Prediction markets reached a record $113.8 billion in notional volume in Q2 as spot CEX trading, derivatives volume and stablecoin market cap declined.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "declined"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "cex",
-        "stablecoin"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Ledger wants AI agents to manage crypto without holding your keys",
       "url": "https://www.coindesk.com/tech/2026/07/15/ledger-wants-ai-agents-to-manage-crypto-without-holding-your-keys",
@@ -1122,69 +1183,6 @@
       "coins": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MoonPay buys Glide to bolster crypto deposits infrastructure",
-      "url": "https://cointelegraph.com/news/moonpay-acquires-glide-strengthen-crypto-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-16T13:00:00+00:00",
-      "summary": "MoonPay acquired Glide, a crypto infrastructure startup founded by former Robinhood Wallet engineers, to expand cross-chain crypto deposit infrastructure.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cross-chain",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ledger unveils hardware-backed Agent Stack to prevent rogue AI transactions",
-      "url": "https://www.theblock.co/post/408549/ledger-unveils-hardware-backed-agent-stack?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T13:00:00+00:00",
-      "summary": "With Ledger Agent Stack, users can deploy bots to read balances, suggest transactions, prepare swaps and draft operations.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "MoonPay acquires Y Combinator-backed crypto deposits startup Glide in all-equity deal",
-      "url": "https://www.theblock.co/post/408603/moonpay-acquires-y-combinator-crypto-glide-all-equity-deal?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-16T13:00:00+00:00",
-      "summary": "Crypto unicorn MoonPay has acquired Glide, a Y Combinator-backed crypto deposits startup, in an all-equity deal.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
