@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-18T17:01:42.106168+00:00",
+  "generated_at": "2026-07-18T20:55:46.059271+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.002,
+    "market_sentiment_score": 0.005,
     "label_distribution": {
-      "neutral": 34,
-      "bearish": 16,
-      "bullish": 20
+      "bullish": 20,
+      "neutral": 35,
+      "bearish": 15
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 17
-      },
-      {
-        "coin": "ETH",
-        "mentions": 6
+        "mentions": 16
       },
       {
         "coin": "SOL",
+        "mentions": 5
+      },
+      {
+        "coin": "ETH",
         "mentions": 5
       },
       {
@@ -58,7 +58,7 @@
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 16
       },
       {
         "topic": "stablecoin",
@@ -77,10 +77,6 @@
         "mentions": 4
       },
       {
-        "topic": "governance",
-        "mentions": 3
-      },
-      {
         "topic": "fed",
         "mentions": 3
       },
@@ -91,10 +87,53 @@
       {
         "topic": "usdt",
         "mentions": 3
+      },
+      {
+        "topic": "wallet",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Bitcoin Japan, which holds no bitcoin, taps EVO Fund in planned $60 million raise to finally buy some",
+      "url": "https://www.theblock.co/post/408838/bitcoin-japan-which-holds-no-bitcoin-taps-evo-fund-in-planned-60-million-raise-to-finally-buy-some?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-18T18:47:49+00:00",
+      "summary": "A prior December raise instead funded stakes tied to SpaceX and Figure AI, which the company says are its two AI infrastructure investments to date.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "cex"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto executives say digital native generations may never need a bank account",
+      "url": "https://www.coindesk.com/business/2026/07/17/crypto-executives-say-digital-native-generations-may-never-need-a-bank-account",
+      "published_at": "2026-07-18T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "CoinDesk",
       "title": "DOG Mode explains Bitcoin's next governance fight",
@@ -1093,53 +1132,6 @@
       "topics": [
         "ai",
         "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Stablecoin growth will erode bank deposits, says ECB’s Cipollone",
-      "url": "https://cointelegraph.com/news/stablecoin-growth-bank-deposits-ecbs-cipollone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T12:03:51+00:00",
-      "summary": "ECB’s Piero Cipollone said stablecoin adoption could erode bank deposits, but the digital euro will keep banks at the center of payments.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "AI frenzy losing steam leaves bitcoin less volatile than South Korean stocks",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/17/ai-frenzy-losing-steam-leaves-bitcoin-less-volatile-than-south-korean-stocks",
-      "published_at": "2026-07-17T11:48:20+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losing"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
