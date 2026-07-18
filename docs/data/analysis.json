@@ -1,37 +1,41 @@
 {
-  "generated_at": "2026-07-17T21:00:34.961712+00:00",
+  "generated_at": "2026-07-18T02:50:13.756923+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.016,
+    "market_sentiment_score": 0.02,
     "label_distribution": {
-      "bearish": 17,
       "bullish": 23,
-      "neutral": 30
+      "neutral": 31,
+      "bearish": 16
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 28
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "coin": "SOL",
         "mentions": 4
       },
       {
-        "coin": "Near",
-        "mentions": 3
+        "coin": "FIL",
+        "mentions": 2
       },
       {
         "coin": "Cardano",
+        "mentions": 2
+      },
+      {
+        "coin": "Near",
         "mentions": 2
       },
       {
@@ -44,10 +48,6 @@
       },
       {
         "coin": "LINK",
-        "mentions": 1
-      },
-      {
-        "coin": "Ripple",
         "mentions": 1
       }
     ],
@@ -65,12 +65,12 @@
         "mentions": 8
       },
       {
-        "topic": "stablecoin",
+        "topic": "exchange",
         "mentions": 7
       },
       {
-        "topic": "exchange",
-        "mentions": 6
+        "topic": "stablecoin",
+        "mentions": 7
       },
       {
         "topic": "etf",
@@ -95,6 +95,48 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "FTX to distribute $900M to creditors in fifth payment round",
+      "url": "https://cointelegraph.com/news/ftx-distribute-millions-creditors-fifth-payment-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-17T21:40:18+00:00",
+      "summary": "The FTX Recovery Trust and company have distributed about $10 billion since the exchange filed for bankruptcy in November 2022, leaving users cut off from their funds.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "recovery",
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bank of America taps new leaders to bridge crypto, AI and traditional finance",
+      "url": "https://www.theblock.co/post/408830/bank-america-taps-new-leaders-bridge-crypto-ai-traditional-finance?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-17T21:08:02+00:00",
+      "summary": "Sonali Theisen was named head of BofA's global digital assets platform, while Kevin Milsom was tapped to serve as head of AI transformation",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "bridge"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "ECB Warns Stablecoins May Drain Bank Deposits—Here's What That Means",
@@ -1052,28 +1094,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin bottom countdown nears 50 days after BTC supply in loss passed 50%",
-      "url": "https://cointelegraph.com/markets/bitcoin-bottom-countdown-nears-50-days-after-btc-supply-in-loss-passed-50?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T09:51:33+00:00",
-      "summary": "Bitcoin supply in loss hit 50% nearly 50 days ago, mimicking the countdown to BTC price bear-market bottoms.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
       "source": "CoinDesk",
       "title": "Airbnb CEO says X account was hacked, attacker posted AI-slop on tokenization",
       "url": "https://www.coindesk.com/web3/2026/07/17/airbnb-ceo-says-x-account-was-hacked-attacker-posted-ai-slop-thread-on-tokenization",
@@ -1141,29 +1161,6 @@
         "ai",
         "pos"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ether falls twice as hard as bitcoin and HYPE drops 10% as the chip trade unwinds",
-      "url": "https://www.coindesk.com/markets/2026/07/17/ether-falls-twice-as-hard-as-bitcoin-and-hype-drops-10-as-the-chip-trade-unwinds",
-      "published_at": "2026-07-17T07:29:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops",
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
