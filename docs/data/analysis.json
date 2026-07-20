@@ -1,80 +1,88 @@
 {
-  "generated_at": "2026-07-19T20:56:08.173744+00:00",
+  "generated_at": "2026-07-20T03:34:48.430011+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.005,
+    "market_sentiment_score": -0.023,
     "label_distribution": {
-      "bearish": 13,
-      "neutral": 37,
-      "bullish": 20
+      "bearish": 14,
+      "neutral": 39,
+      "bullish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "SOL",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Near",
         "mentions": 3
       },
       {
+        "coin": "Ethereum",
+        "mentions": 2
+      },
+      {
+        "coin": "Solana",
+        "mentions": 2
+      },
+      {
         "coin": "Sui",
+        "mentions": 2
+      },
+      {
+        "coin": "APT",
         "mentions": 1
       },
       {
         "coin": "Uniswap",
-        "mentions": 1
-      },
-      {
-        "coin": "UNI",
-        "mentions": 1
-      },
-      {
-        "coin": "FIL",
-        "mentions": 1
-      },
-      {
-        "coin": "Cardano",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 37
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 21
       },
       {
         "topic": "stablecoin",
-        "mentions": 8
+        "mentions": 10
       },
       {
         "topic": "sec",
         "mentions": 7
       },
       {
-        "topic": "exchange",
-        "mentions": 5
-      },
-      {
         "topic": "etf",
         "mentions": 4
+      },
+      {
+        "topic": "bridge",
+        "mentions": 3
+      },
+      {
+        "topic": "onchain",
+        "mentions": 3
+      },
+      {
+        "topic": "exchange",
+        "mentions": 3
       },
       {
         "topic": "usdt",
@@ -83,18 +91,164 @@
       {
         "topic": "fed",
         "mentions": 3
-      },
-      {
-        "topic": "miner",
-        "mentions": 3
-      },
-      {
-        "topic": "wallet",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Allbridge Core pauses protocol after $1.65 million flash loan exploit: onchain analysts",
+      "url": "https://www.theblock.co/post/408855/allbridge-core-exploit?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-20T03:33:56+00:00",
+      "summary": "Security firms PeckShield and CertiK flagged that the attacker has bridged the stolen funds from Solana to Ethereum.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "onchain",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Stablecoins vs Traditional Banking",
+      "url": "https://www.theblock.co/learn/408854/stablecoins-vs-traditional-banking?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-20T03:29:46+00:00",
+      "summary": "A stablecoin is a cryptocurrency pegged to a reference asset, such as the U.S. dollar or Euro. Like a bank, stablecoin issuers hold onto vast amounts of deposits, as they take cash in return for issuing their coin onchain. This makes them similar in some ways to a traditional bank, but the two differ in [&hellip;]",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "onchain",
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Allbridge pauses cross-chain bridge after $1.65M exploit",
+      "url": "https://cointelegraph.com/news/allbridge-core-pauses-cross-chain-bridge-after-165m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T02:23:36+00:00",
+      "summary": "The attacker allegedly used a flash loan and rapid swaps to manipulate the bridge’s stablecoin exchange rate.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "bridge",
+        "cross-chain",
+        "exchange",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Japanese logistics company eyes JPYC stablecoin to pay drivers",
+      "url": "https://cointelegraph.com/news/japanese-logistics-company-eyes-jpyc-stablecoin-to-pay-drivers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T01:27:42+00:00",
+      "summary": "The planned rollout would let thousands of transportation contractors receive digital yen payments more frequently and quickly.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korea probed 40 cases of crypto manipulation over 2 years",
+      "url": "https://cointelegraph.com/news/south-korea-probed-40-cases-of-crypto-manipulation-over-2-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T00:33:12+00:00",
+      "summary": "Financial Services Commission Chair Lee Eog-won posted the figures on the second anniversary of the enactment of the Virtual Asset User Protection Act.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Will the US get CLARITY this week? Bitcoin’s new $80K target: Hodler’s Digest, July 19",
+      "url": "https://cointelegraph.com/magazine/will-the-us-get-finally-clarity-this-week-bitcoin-80k-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T00:12:06+00:00",
+      "summary": "The fate of the CLARITY Act hinges on Trump’s ethics, so the odds aren’t looking great. Prediction market volumes hit new highs, and more news.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Saylor urges Bitcoin to reject BIP-110 in 110-point essay as soft fork’s August showdown approaches",
+      "url": "https://www.theblock.co/post/408850/saylor-urges-bitcoin-to-reject-bip-110-in-110-point-essay-as-soft-forks-august-showdown-approaches?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-19T21:51:32+00:00",
+      "summary": "Saylor followed up Sunday with a cryptic tracker-chart post captioned \"What's next?\" ahead of Strategy's expected Monday disclosure.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "APT"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Upbit parent Dunamu faces sanction process nearly eight months after $30 million hack: report",
@@ -975,158 +1129,6 @@
         "ai",
         "pow"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "OKX Europe lets users convert USDT to MiCA-compliant USDC",
-      "url": "https://cointelegraph.com/news/okx-europe-lets-users-convert-usdt-to-mica-compliant-usdc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T16:54:37+00:00",
-      "summary": "The feature offers European customers a voluntary path away from Tether’s USDT as MiCA rules reshape the region’s stablecoin market.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "stablecoin",
-        "usdc",
-        "usdt"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Senator Warren requests 2026 reporting for Trump’s crypto earnings after $1.4B disclosure",
-      "url": "https://cointelegraph.com/news/senator-warren-2026-reporting-donald-trump-crypto-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T16:48:22+00:00",
-      "summary": "With the Senate likely voting on a crypto bill within days, Elizabeth Warren asked for information on Donald Trump’s earnings between January and July ahead of a 2027 deadline.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin slides toward $63,000 as Coinbase premium stays negative for a record 60 days",
-      "url": "https://www.theblock.co/post/408793/bitcoin-slides-63000-coinbase-premium-stays-negative-record-60-days?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-17T16:38:50+00:00",
-      "summary": "Bitcoin fell near $63,000 as chip stocks sold off, the Coinbase premium stayed negative a record 60 days, and ETF flows remain thin.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell",
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Mining Giant Foundry Asks Miners To Vote on BIP-110 Soft Fork",
-      "url": "https://bitcoinmagazine.com/news/foundry-asks-bitcoin-miners-vote-bip-110",
-      "published_at": "2026-07-17T15:58:36+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Mining Giant Foundry Asks Miners To Vote on BIP-110 Soft Fork\nFoundry Digital said it will allow clients who use its Bitcoin mining pool to vote on BIP-110. \nThis post Bitcoin Mining Giant Foundry Asks Miners To Vote on BIP-110 Soft Fork first appeared on Bitcoin Magazine and is written by Mathew Di Salvo&nbsp;and&nbsp;Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "miners",
-        "mining",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin ETFs could mirror gold’s history of ‘spectacular gains’ and ‘painful drawdowns,’ analyst says",
-      "url": "https://www.theblock.co/post/408782/bitcoin-etfs-ibit-mirror-golds-history-spectacular-gains-painful-drawdowns-analyst?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-17T15:40:50+00:00",
-      "summary": "Bloomberg ETF analyst Eric Balchunas compared IBIT’s short time above $100 billion with GLD’s precipitous rise in 2011.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-sags-under-625k-as-iran-strikes-add-to-us-stocks-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-17T14:37:39+00:00",
-      "summary": "Bitcoin saw a key rejection at local highs before reversing lower, moving with stocks for a second day as US-Iran war downside took its toll.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Galaxy Digital puts its name on Texas Tech football stadium in 15-year partnership",
-      "url": "https://www.theblock.co/post/408772/galaxy-digital-puts-name-texas-tech-football-stadium-15-year-partnership?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-17T14:33:42+00:00",
-      "summary": "The deal's financial terms were not disclosed, but Yahoo Sports reported the agreement is worth more than $70 million.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "partnership"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
