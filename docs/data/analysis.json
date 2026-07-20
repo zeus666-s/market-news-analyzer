@@ -1,34 +1,38 @@
 {
-  "generated_at": "2026-07-20T03:34:48.430011+00:00",
+  "generated_at": "2026-07-20T06:51:35.484463+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.023,
+    "market_sentiment_score": -0.029,
     "label_distribution": {
-      "bearish": 14,
-      "neutral": 39,
-      "bullish": 17
+      "neutral": 38,
+      "bullish": 17,
+      "bearish": 15
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "coin": "OP",
-        "mentions": 17
-      },
-      {
-        "coin": "ETH",
-        "mentions": 6
+        "mentions": 16
       },
       {
         "coin": "SOL",
         "mentions": 6
       },
       {
+        "coin": "ETH",
+        "mentions": 5
+      },
+      {
         "coin": "Near",
-        "mentions": 3
+        "mentions": 4
+      },
+      {
+        "coin": "Cardano",
+        "mentions": 2
       },
       {
         "coin": "Ethereum",
@@ -45,16 +49,12 @@
       {
         "coin": "APT",
         "mentions": 1
-      },
-      {
-        "coin": "Uniswap",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 38
       },
       {
         "topic": "pos",
@@ -85,16 +85,143 @@
         "mentions": 3
       },
       {
-        "topic": "usdt",
+        "topic": "fed",
         "mentions": 3
       },
       {
-        "topic": "fed",
+        "topic": "miner",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin ETFs see new money again, but inflows remain ‘peanuts’ relative to the recent exodus",
+      "url": "https://www.coindesk.com/markets/2026/07/20/bitcoin-etfs-see-new-money-again-but-inflows-remain-peanuts-relative-to-the-recent-exodus",
+      "published_at": "2026-07-20T05:46:36+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Hyperliquid’s HIP-4 to support permissionless deployment for outcome markets",
+      "url": "https://www.theblock.co/post/408875/hyperliquid-hip-4-permissionless-deployment?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-20T05:34:45+00:00",
+      "summary": "HIP-4 deployers must stake 500,000 HYPE tokens and can take up to 50% fees on their validator-aligned markets.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "validator"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin flat near $64,000 as oil hits a one-month high and Kimi AI selloff lingers",
+      "url": "https://www.coindesk.com/markets/2026/07/20/bitcoin-flat-near-usd64-000-as-oil-hits-a-one-month-high-and-kimi-ai-selloff-lingers",
+      "published_at": "2026-07-20T05:31:43+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T04:56:55+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Cardano activates van Rossem hard fork",
+      "url": "https://cointelegraph.com/news/cardano-activates-van-rossem-hard-fork-paving-way-for-leios?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T04:26:17+00:00",
+      "summary": "The upgrade reduces smart contract execution costs while laying the groundwork for Ouroboros Leios, a major scalability upgrade expected later this year.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Cardano"
+      ],
+      "topics": [
+        "smart contract"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Japanese logistics firm turns to JPYC stablecoin to fight labor shortages: report",
+      "url": "https://www.theblock.co/post/408862/japanese-logistics-firm-jpyc?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-20T03:48:32+00:00",
+      "summary": "By offering contractors faster payments with stablecoins, the firm seeks to attract more business partners, according to Nikkei.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Allbridge Core pauses protocol after $1.65 million flash loan exploit: onchain analysts",
@@ -286,29 +413,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-19T18:23:00+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
     },
     {
       "source": "The Block",
@@ -706,24 +810,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Tokenization has become a strategic priority for 84% of financial firms",
-      "url": "https://www.coindesk.com/business/2026/07/16/tokenization-has-become-a-strategic-priority-for-84-of-financial-firms",
-      "published_at": "2026-07-18T14:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Kaspersky identifies malware framework targeting crypto investors",
       "url": "https://cointelegraph.com/news/kaspersky-malware-framework-crypto-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1001,22 +1087,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Polymarket traders cut Clarity Act passage odds to record low as Senate delay drags on",
-      "url": "https://www.coindesk.com/markets/2026/07/17/polymarket-traders-cut-clarity-act-passage-odds-to-record-low-as-senate-delay-drags-on",
-      "published_at": "2026-07-17T18:00:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "Kimi K3 Just Triggered DeepSeek Flashbacks for the Stock Market",
       "url": "https://decrypt.co/373736/kimi-k3-triggered-deepseek-flashbacks-stock-market",
@@ -1062,72 +1132,6 @@
         "miner",
         "mining",
         "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "SBI Holdings Takes Majority Stake in Singapore’s Coinhako After MAS Approval",
-      "url": "https://bitcoinmagazine.com/news/sbi-holdings-takes-majority-stake-coinhako",
-      "published_at": "2026-07-17T17:38:02+00:00",
-      "summary": "Bitcoin Magazine\n\nSBI Holdings Takes Majority Stake in Singapore&#8217;s Coinhako After MAS Approval\nSBI Holdings has acquired a majority stake in Singapore's Coinhako after MAS approval, strengthening its push to build a cross-border digital asset network across Japan and Southeast Asia.\nThis post SBI Holdings Takes Majority Stake in Singapore&#8217;s Coinhako After MAS Approval first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "China’s Kimi K3 Is Out—And Beats Claude Fable and GPT 5.6 Sol on Key Benchmarks",
-      "url": "https://decrypt.co/373716/china-kimi-k3-largest-open-source-ai-model-ever-beats-claude-fable-gpt-5-6-sol",
-      "published_at": "2026-07-17T17:36:42+00:00",
-      "summary": "Moonshot AI's 2.8-trillion-parameter model tops Fable 5 on a creative writing benchmark and leads Arena AI's frontend code leaderboard—at Claude Sonnet pricing.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "leads"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Galaxy Puts Its Name on Texas Tech's Stadium in a 15-Year, Crypto-Native Deal",
-      "url": "https://decrypt.co/373710/galaxy-texas-tech-stadium-15-year-crypto-native-deal",
-      "published_at": "2026-07-17T17:09:33+00:00",
-      "summary": "The Nasdaq-listed digital-asset firm will rebrand the Red Raiders' home as \"Galaxy Stadium.\" The bigger bet is on the cheap power and open land of West Texas.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pow"
       ]
     }
   ]
