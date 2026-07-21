@@ -1,100 +1,319 @@
 {
-  "generated_at": "2026-07-20T21:15:24.628547+00:00",
+  "generated_at": "2026-07-21T03:15:25.681740+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.011,
+    "market_sentiment_score": 0.016,
     "label_distribution": {
       "bearish": 8,
-      "neutral": 43,
-      "bullish": 19
+      "bullish": 16,
+      "neutral": 46
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 18
       },
       {
         "coin": "ETH",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "SOL",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "coin": "BTC",
         "mentions": 5
       },
       {
-        "coin": "Ethereum",
-        "mentions": 4
-      },
-      {
         "coin": "Cardano",
         "mentions": 3
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 3
+      },
+      {
+        "coin": "FIL",
+        "mentions": 2
       },
       {
         "coin": "Tron",
         "mentions": 2
       },
       {
-        "coin": "Solana",
-        "mentions": 2
-      },
-      {
-        "coin": "MATIC",
+        "coin": "Binance",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 40
-      },
-      {
-        "topic": "pos",
-        "mentions": 13
+        "mentions": 42
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 12
       },
       {
-        "topic": "stablecoin",
-        "mentions": 5
-      },
-      {
-        "topic": "wallet",
-        "mentions": 3
-      },
-      {
-        "topic": "mining",
-        "mentions": 3
-      },
-      {
-        "topic": "miner",
-        "mentions": 3
-      },
-      {
-        "topic": "regulation",
-        "mentions": 3
-      },
-      {
-        "topic": "bridge",
-        "mentions": 3
+        "topic": "pos",
+        "mentions": 12
       },
       {
         "topic": "exchange",
+        "mentions": 4
+      },
+      {
+        "topic": "mining",
+        "mentions": 4
+      },
+      {
+        "topic": "miner",
+        "mentions": 4
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 4
+      },
+      {
+        "topic": "exchanges",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
+        "mentions": 2
+      },
+      {
+        "topic": "defi",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Binance & OKX users face $1900 fines in Vietnam, Coinbase in China? Asia Express",
+      "url": "https://cointelegraph.com/magazine/binance-users-face-1900-fines-in-vietnam-coinbase-in-china-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-21T02:42:14+00:00",
+      "summary": "Retail users in Vietnam who trade on offshore crypto exchanges like Binance or OKX face heavy penalties. Network School controversy in Malaysia over Israeli citizen ban.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "SEC charges Florida man and company in alleged $22 million crypto mining fraud scheme",
+      "url": "https://www.theblock.co/post/409007/sec-charges-florida-man-mining-scheme?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-21T02:37:30+00:00",
+      "summary": "The defendants allegedly raised $22 million from more than 380 investors through a fraudulent crypto asset mining scheme.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud",
+          "sec charges"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "mining",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "London Stock Exchange eyes overnight trading launch in 2027: FT",
+      "url": "https://cointelegraph.com/news/london-stock-exchange-plans-round-the-clock-trading-in-2027-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-21T01:16:50+00:00",
+      "summary": "The move comes as traditional exchanges face growing competition from crypto markets and tokenized equity platforms that offer around-the-clock trading.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "growing",
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "exchanges"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Trump agrees to ethics provision as crypto bill inches closer to Senate vote",
+      "url": "https://www.theblock.co/post/409000/trump-agrees-to-ethics-provision-crypto-bill?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-21T00:58:26+00:00",
+      "summary": "President Trump has agreed to ethics language — potentially moving the ball forward to getting crypto legislation passed into law.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "rwa"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Patrick Witt defers military training as CLARITY heads to Senate",
+      "url": "https://cointelegraph.com/news/patrick-witt-defers-military-training-as-clarity-heads-to-senate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-21T00:02:04+00:00",
+      "summary": "The decision keeps the administration’s chief crypto policy negotiator in place during what could be a decisive few weeks for the CLARITY Act.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Miner Hut 8 Shares Jump on $9.8 Billion AI Data Center Deal",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-miner-hut-8-shares-jump-on-ai-deal",
+      "published_at": "2026-07-20T22:16:30+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Miner Hut 8 Shares Jump on $9.8 Billion AI Data Center Deal\nBitcoin miner Hut 8 has said it signed a second 15-year lease ​worth $9.8 billion for its AI data center. \nThis post Bitcoin Miner Hut 8 Shares Jump on $9.8 Billion AI Data Center Deal first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Democrats added certain consumer protection rules to CLARITY: Coinbase exec",
+      "url": "https://cointelegraph.com/news/democrats-consumer-protections-clarity-act-ethics-debate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T21:41:23+00:00",
+      "summary": "Coinbase vice chair Ryan VanGrack said that Democratic lawmakers had added provisions on customer protection to a digital asset market structure bill under consideration in the US Senate.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Grayscale could take Worldcoin to Wall Street after ETF filing with the SEC",
+      "url": "https://www.theblock.co/post/408995/grayscale-worldcoin-etf-filing-sec?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-20T21:25:00+00:00",
+      "summary": "The first exchange-traded fund tied to Worldcoin could soon be headed to U.S. markets, as Grayscale files for a Worldcoin ETF.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "etf",
+        "exchange",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether Gold recognized as Accepted Spot Commodity in Abu Dhabi financial center",
+      "url": "https://cointelegraph.com/news/tether-gold-recognized-as-accepted-spot-commodity-in-abu-dhabi-financial-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T21:21:54+00:00",
+      "summary": "The recognition allows regulated firms in Abu Dhabi Global Market to offer services involving Tether Gold as tokenized commodities gain broader adoption.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption",
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin defies recent tech stocks sell-off. Are bulls eyeing a $70K rally?",
+      "url": "https://cointelegraph.com/markets/bitcoin-defies-recent-tech-stocks-sell-off-are-bulls-eyeing-70k-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T21:20:09+00:00",
+      "summary": "Despite muted derivatives sentiment, Bitcoin’s decoupling and Strategy’s cash raise set the stage for a potential rally to $70,000.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "sell-off"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "defi"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Kalshi, Polymarket open interest falls 20% as World Cup frenzy winds down",
@@ -134,6 +353,29 @@
       ],
       "topics": [
         "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-20T21:07:27+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
       ]
     },
     {
@@ -772,29 +1014,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-20T13:07:28+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock",
       "url": "https://www.coindesk.com/business/2026/07/20/tom-lee-s-bitmine-slowed-ether-purchases-as-it-bought-back-usd86-million-in-stock",
@@ -826,30 +1045,6 @@
         "negative_hits": []
       },
       "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy raises $263.5M through MSTR sales, holds 843,775 Bitcoin",
-      "url": "https://cointelegraph.com/news/strategy-263-5-million-mstr-raise-holds-843775-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-20T12:39:49+00:00",
-      "summary": "Strategy boosted its cash reserve to $3.225 billion after selling MSTR shares, while investors weighed the value of its STRC preferred stock.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "boosted"
-        ],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
       "topics": [
         "ai"
       ]
@@ -904,24 +1099,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Hyperliquid sets 500,000 HYPE stake for permissionless prediction market deployers",
-      "url": "https://cointelegraph.com/news/hyperliquid-hype-stake-permissionless-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-20T12:20:23+00:00",
-      "summary": "Hyperliquid plans to require developers to stake 500,000 HYPE, worth about $30.4 million, to deploy permissionless prediction markets under HIP-4.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Strategy sells $263.5 million in MSTR shares, buys no bitcoin as USD reserve tops $3.2 billion",
       "url": "https://www.theblock.co/post/408892/strategy-sells-263-5-million-in-mstr-shares-buys-no-bitcoin-as-usd-reserve-tops-3-2-billion?utm_source=rss&utm_medium=rss",
@@ -943,51 +1120,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Vietnam sets fines for unlicensed crypto trading ahead of regulation rollout",
-      "url": "https://cointelegraph.com/news/vietnam-crypto-traders-unlicensed-platforms-fines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-20T12:04:06+00:00",
-      "summary": "The new rules establish penalties as much as $1,900 for crypto violations, including unlicensed trading and AML breaches, ahead of Vietnam’s regulated crypto market launch.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Zilliqa asks exchanges to pause ZIL transfers after suspected cold wallet theft",
-      "url": "https://cointelegraph.com/news/zilliqa-zil-deposit-halt-exchange-partner-wallet-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-20T12:03:35+00:00",
-      "summary": "Zilliqa said exchanges paused ZIL deposits and withdrawals after an exchange partner’s cold wallet was compromised, with the amount stolen still undisclosed.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "stolen",
-          "theft"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "exchanges",
-        "pos",
-        "wallet"
-      ]
     },
     {
       "source": "CoinDesk",
@@ -1033,134 +1165,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Ethereum co-founder Vitalik Buterin ‘vibe-codes’ anonymous billboard demo with onchain moderation on Aztec",
-      "url": "https://www.theblock.co/post/408888/ethereum-co-founder-vitalik-buterin-vibe-codes-anonymous-billboard-demo-with-onchain-moderation-on-aztec?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-20T11:24:22+00:00",
-      "summary": "Vitalik Buterin \"vibe-coded\" an anonymous billboard demo on Aztec with onchain moderation, a censor role, and a local LLM flagging daemon.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "A bitcoin 'volmageddon' may be brewing, key indicator suggests",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/20/a-bitcoin-volmageddon-may-be-brewing-key-indicator-suggests",
-      "published_at": "2026-07-20T11:15:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Strategy's Michael Saylor Makes 110-Point Case Against Bitcoin's BIP-110",
-      "url": "https://decrypt.co/373819/strategys-michael-saylor-makes-110-point-case-against-bitcoins-bip-110",
-      "published_at": "2026-07-20T11:12:57+00:00",
-      "summary": "The Strategy chairman argued that the soft fork is a 'bad idea,' warning that it would cause more harm than the problem it aims to solve.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bank of Korea prepares for live CBDC transactions with 9 banks in September",
-      "url": "https://www.coindesk.com/business/2026/07/20/bank-of-korea-prepares-for-live-cbdc-transactions-with-nine-banks-in-september",
-      "published_at": "2026-07-20T11:10:07+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto institutions look beyond audits as trust signals falter: Hacken",
-      "url": "https://cointelegraph.com/news/institutions-crypto-security-beyond-audits-hacken-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-20T11:00:00+00:00",
-      "summary": "Institutional due diligence is shifting toward continuous monitoring, signer controls and incident readiness after operational failures accounted for most crypto losses.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "trust"
-        ],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Capital B approves 10-for-1 reverse stock split to broaden investor base",
-      "url": "https://cointelegraph.com/news/capital-b-reverse-stock-split-investor-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-20T10:54:00+00:00",
-      "summary": "Europe’s second-biggest Bitcoin treasury company said the September reverse stock split should attract more institutional investors to the French company.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
     }
   ]
 }
