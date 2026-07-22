@@ -1,26 +1,30 @@
 {
-  "generated_at": "2026-07-22T03:13:26.051153+00:00",
+  "generated_at": "2026-07-22T06:33:12.994419+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.011,
+    "market_sentiment_score": 0.005,
     "label_distribution": {
-      "bearish": 12,
       "neutral": 42,
-      "bullish": 16
+      "bullish": 16,
+      "bearish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 28
       },
       {
         "coin": "OP",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "coin": "ETH",
         "mentions": 10
+      },
+      {
+        "coin": "Near",
+        "mentions": 4
       },
       {
         "coin": "UNI",
@@ -29,14 +33,6 @@
       {
         "coin": "FIL",
         "mentions": 4
-      },
-      {
-        "coin": "XRP",
-        "mentions": 3
-      },
-      {
-        "coin": "Near",
-        "mentions": 3
       },
       {
         "coin": "BTC",
@@ -49,31 +45,35 @@
       {
         "coin": "ADA",
         "mentions": 2
+      },
+      {
+        "coin": "Ripple",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
+        "mentions": 27
       },
       {
         "topic": "pos",
         "mentions": 12
       },
       {
+        "topic": "exchange",
+        "mentions": 8
+      },
+      {
         "topic": "sec",
         "mentions": 7
       },
       {
-        "topic": "exchange",
-        "mentions": 7
+        "topic": "wallet",
+        "mentions": 5
       },
       {
         "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "wallet",
         "mentions": 4
       },
       {
@@ -89,12 +89,118 @@
         "mentions": 4
       },
       {
-        "topic": "onchain",
+        "topic": "staking",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "AI models escaped OpenAI’s sandbox and hit Hugging Face. Crypto is where that gets dangerous",
+      "url": "https://www.coindesk.com/markets/2026/07/22/ai-models-escaped-openai-s-sandbox-and-hit-hugging-face-crypto-is-where-that-gets-dangerous",
+      "published_at": "2026-07-22T06:01:56+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T05:43:51+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low",
+      "url": "https://www.coindesk.com/markets/2026/07/22/bitcoin-holds-near-usd66-300-as-chips-extend-their-rally-and-the-yen-hits-a-40-year-low",
+      "published_at": "2026-07-22T05:03:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "HTX keeps rotating wallets to evade UK sanctions screening: TRM Labs",
+      "url": "https://www.theblock.co/post/409187/htx-rotates-wallets-uk-sanctions-screening?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-22T04:23:08+00:00",
+      "summary": "UK authorities sanctioned the crypto exchange in May for its alleged role in facilitating Russian sanctions evasion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Balance Coin crashes 99% after reported $915K exploit",
+      "url": "https://cointelegraph.com/news/algorithmic-stablecoin-balance-coin-plummets-99-after-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T03:12:48+00:00",
+      "summary": "The attack allowed the exploiter to liquidate multiple Bitcoin-backed vaults before swapping the assets for profit.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": [
+          "crashes",
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "Pakistan launches crypto investigation unit to crack down on digital asset crimes: report",
@@ -352,7 +458,7 @@
       "title": "Movement Labs files for Chapter 11 bankruptcy after months of MOVE token turmoil",
       "url": "https://cointelegraph.com/news/movement-labs-files-chapter-11-bankruptcy-move-token-turmoil?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-21T20:59:32+00:00",
-      "summary": "The blockchain developer will continue operating under court supervision as it restructures following a market-making scandal, a co-founder’s suspension, and exchange delistings that rocked the project.",
+      "summary": "The blockchain developer will continue operating under court supervision as it restructures following a market-making scandal, a co-founder’s suspension and exchange delistings that rocked the project.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -414,7 +520,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+      "title": "Ether breaks the $1.9K resistance: Is $2.1K the next target for ETH bulls?",
       "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-21T20:26:13+00:00",
       "summary": "Ether’s rally faces onchain headwinds, but rising staking demand and Google earnings could spark the push toward $2,100.",
@@ -453,29 +559,6 @@
       "coins": [],
       "topics": [
         "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-21T20:12:18+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -1062,87 +1145,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MEXC adds Bittensor TAO staking for its global user base",
-      "url": "https://cointelegraph.com/news/mexc-adds-bittensor-tao-staking-for-its-global-user-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-21T15:53:08+00:00",
-      "summary": "The integration with validator Yuma gives millions of MEXC users access to Bittensor, an AI-focused blockchain whose ecosystem now spans 128 specialized subnets.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "integration"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "staking",
-        "validator"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Coinbase says ‘low-risk’ config change behind 50-minute July 14 outage impacting trading, card transactions",
-      "url": "https://www.theblock.co/post/409105/coinbase-says-low-risk-config-change-behind-50-minute-july-14-outage-impacting-trading-card-transactions?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-21T15:35:21+00:00",
-      "summary": "Coinbase said user funds were never at risk, and user transactions that were stuck “in-flight” were completed once service was restored.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Russia’s parliament passes crypto market law with $3,800 annual cap for retail investors",
-      "url": "https://www.coindesk.com/policy/2026/07/21/russia-s-parliament-passes-crypto-market-law-rules-to-take-effect-sept-1",
-      "published_at": "2026-07-21T15:19:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Closes in on $67,000, Lifting Strategy and Other Crypto Stocks",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-price-67000-lifting-crypto-stocks",
-      "published_at": "2026-07-21T15:19:31+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Closes in on $67,000, Lifting Strategy and Other Crypto Stocks\nBitcoin's price jumped Tuesday to nearly $67,000 per coin, bringing crypto stocks with it. \nThis post Bitcoin Price Closes in on $67,000, Lifting Strategy and Other Crypto Stocks first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "pos"
-      ]
     }
   ]
 }
