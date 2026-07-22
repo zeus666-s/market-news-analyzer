@@ -1,100 +1,520 @@
 {
-  "generated_at": "2026-07-22T17:24:32.221092+00:00",
+  "generated_at": "2026-07-22T21:13:48.319017+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.082,
+    "market_sentiment_score": -0.073,
     "label_distribution": {
-      "neutral": 35,
-      "bearish": 23,
-      "bullish": 12
+      "bullish": 12,
+      "neutral": 33,
+      "bearish": 25
     },
     "top_coins": [
       {
-        "coin": "Bitcoin",
-        "mentions": 23
+        "coin": "OP",
+        "mentions": 26
       },
       {
-        "coin": "OP",
+        "coin": "Bitcoin",
         "mentions": 20
       },
       {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 4
+      },
+      {
+        "coin": "Sui",
+        "mentions": 4
       },
       {
         "coin": "Near",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "coin": "BTC",
         "mentions": 4
       },
       {
-        "coin": "LINK",
-        "mentions": 3
-      },
-      {
         "coin": "ADA",
-        "mentions": 3
-      },
-      {
-        "coin": "Sui",
         "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "SOL",
         "mentions": 1
       },
       {
-        "coin": "FIL",
+        "coin": "LINK",
+        "mentions": 1
+      },
+      {
+        "coin": "Tron",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 17
       },
       {
         "topic": "sec",
-        "mentions": 15
-      },
-      {
-        "topic": "exchange",
-        "mentions": 6
+        "mentions": 14
       },
       {
         "topic": "onchain",
-        "mentions": 5
-      },
-      {
-        "topic": "wallet",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "etf",
         "mentions": 4
       },
       {
+        "topic": "exchange",
+        "mentions": 3
+      },
+      {
         "topic": "defi",
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
+        "topic": "lending",
         "mentions": 3
       },
       {
-        "topic": "lending",
+        "topic": "wallet",
+        "mentions": 3
+      },
+      {
+        "topic": "miner",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Coinbase Wants to Be Canada's One-Stop Shop for Stocks, Crypto and Prediction Markets",
+      "url": "https://decrypt.co/374110/coinbase-canada-stocks-crypto-prediction-markets",
+      "published_at": "2026-07-22T21:13:04+00:00",
+      "summary": "The company's \"Everything Exchange\" is heading north. No launch date set yet, but the Coinbase Canada CEO says phase two for the company is in motion.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA",
+        "OP"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Crypto’s US Workforce Is Tiny, But Industry Punches Above Its Weight: Report",
+      "url": "https://bitcoinmagazine.com/news/us-crypto-workforce-is-small-but-fruitful",
+      "published_at": "2026-07-22T20:45:39+00:00",
+      "summary": "Bitcoin Magazine\n\nCrypto&#8217;s US Workforce Is Tiny, But Industry Punches Above Its Weight: Report\nThere aren't that many crypto jobs in the US but the industry contributes a lot, a new report says. \nThis post Crypto&#8217;s US Workforce Is Tiny, But Industry Punches Above Its Weight: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Tesla holds bitcoin treasury steady, reports $112M impairment loss",
+      "url": "https://www.coindesk.com/markets/2026/07/22/tesla-holds-bitcoin-steady-reports-usd112m-impairment-loss",
+      "published_at": "2026-07-22T20:40:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto PAC pours $1M into Michigan Democratic primary race",
+      "url": "https://cointelegraph.com/news/crypto-pac-michigan-democratic-primary-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T20:38:08+00:00",
+      "summary": "Donavan McKinney, running against Michigan incumbent Shri Thanedar, said that “the crypto lobby is paying my opponent back for helping Trump“ with the PAC-funded ads.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Kraken Parent Company Makes Moves to Offer xStocks From Global Markets",
+      "url": "https://decrypt.co/374106/kraken-parent-xstocks-beyond-us-equities",
+      "published_at": "2026-07-22T20:07:34+00:00",
+      "summary": "Payward and fintech GTN are teaming up to bring xStocks—blockchain-based copies of real company shares—to Hong Kong, the UK, Europe, and South Korea.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Benchmark Raises Hut 8 Price Target After Bitcoin Miner Signs $9.8 Billion AI Data Center Deal",
+      "url": "https://bitcoinmagazine.com/markets/benchmark-ups-bitcoin-miner-hut8-price",
+      "published_at": "2026-07-22T20:02:28+00:00",
+      "summary": "Bitcoin Magazine\n\nBenchmark Raises Hut 8 Price Target After Bitcoin Miner Signs $9.8 Billion AI Data Center Deal\nBitcoin miner Hut 8's stock will soar due to its AI ambitions, according to investment bank Benchmark. \nThis post Benchmark Raises Hut 8 Price Target After Bitcoin Miner Signs $9.8 Billion AI Data Center Deal first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "soar"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Lightning Labs Launches Wavelength: “Bitcoin on Easy Mode” for Developers and Autonomous Agents",
+      "url": "https://bitcoinmagazine.com/technical/lightning-labs-launches-wavelength-bitcoin-on-easy-mode-for-developers-and-autonomous-agents",
+      "published_at": "2026-07-22T20:01:48+00:00",
+      "summary": "Bitcoin Magazine\n\nLightning Labs Launches Wavelength: “Bitcoin on Easy Mode” for Developers and Autonomous Agents\nAvailable immediately on Signet and testnet (mainnet invitation-only), Wavelength exposes the same API to AI agents through the Model Context Protocol so machines can pay machines in fractions of a cent while users retain full key control.\nThis post Lightning Labs Launches Wavelength: “Bitcoin on Easy Mode” for Developers and Autonomous Agents first appeared on Bitcoin Magazine an...",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "mainnet",
+        "pos",
+        "testnet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Alibaba's New Qwen Image 3 AI Wants to Be Useful, Not Just Pretty",
+      "url": "https://decrypt.co/374084/alibaba-qwen-image-3-ai-useful-not-just-pretty",
+      "published_at": "2026-07-22T19:46:59+00:00",
+      "summary": "Qwen Image 3.0 generates dense newspapers and infographic grids in one shot and renders text down to 10 pixels. The catch: no benchmarks, no open weights.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T19:24:18+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Franklin Templeton Says Agentic AI Is Crypto's 'Killer Use Case'",
+      "url": "https://decrypt.co/374055/franklin-templeton-agentic-ai-crypto-killer-use-case",
+      "published_at": "2026-07-22T19:04:05+00:00",
+      "summary": "The asset manager argues that AI software capable of paying for things autonomously will need blockchain rails to work—and that most investors aren't positioned for it.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Is Bouncing: Here’s the Bull and Bear Case for Its Next Move",
+      "url": "https://decrypt.co/374059/bitcoin-price-bounce-bull-bear-case",
+      "published_at": "2026-07-22T18:48:45+00:00",
+      "summary": "The good news: Bitcoin is holding onto key support, and rising. The bad news: a \"death cross\" is still active, and prediction markets are still overwhelmingly bearish.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": [
+          "bear",
+          "bearish"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US officials barred until 2029 from issuing or sponsoring tokens under CLARITY’s proposed ethics rules",
+      "url": "https://cointelegraph.com/news/clarity-act-ethics-public-officials-president-barred-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T18:41:30+00:00",
+      "summary": "According to Senator Cynthia Lummis, one of the bill’s advocates, the ethics language would apply to US presidents’ crypto ventures, including Donald Trump’s.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Clarity Act’s impact on Circle could be negative over the long term, Mizuho says",
+      "url": "https://www.theblock.co/post/409453/clarity-act-impact-on-circle-could-be-negative-over-long-term-mizuho?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-22T18:02:44+00:00",
+      "summary": "On Wednesday, the Clarity Act took one step closer to becoming law as Republicans released the latest text for the legislation.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "negative"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Anthropic joins UK FCA’s AI regulatory sandbox as second cohort launches",
+      "url": "https://cointelegraph.com/news/anthropic-joins-uk-fcas-ai-regulatory-sandbox-as-second-cohort-launches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T17:57:11+00:00",
+      "summary": "Anthropic will provide Claude AI models to companies participating in the UK Financial Conduct Authority’s next Supercharged Sandbox cohort, as the regulator pushes to test AI applications in financial services.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "regulatory",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Clarity Act Latest Draft Bars Trump From Crypto Ventures—But Only Until 2029",
+      "url": "https://decrypt.co/374056/clarity-act-draft-trump-crypto-ventures",
+      "published_at": "2026-07-22T17:51:54+00:00",
+      "summary": "The long-awaited market-structure bill would block officials and their spouses from issuing digital assets and shield non-custodial developers, but the ethics ban expires in 2029 and enforcement rests solely with the DOJ.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "SOL",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Benchmark sees Hut 8 becoming a ‘power-first data center REIT,’ raises target another 18%",
+      "url": "https://www.theblock.co/post/409439/benchmark-hut-8-becoming-power-first-data-center-reit-raises-target-18?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-22T17:46:18+00:00",
+      "summary": "Benchmark’s new price target implies roughly 75% upside, with Hut 8 shares already up nearly 120% year to date.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC’s Peirce says crypto vaults and onchain lending may fall under securities laws",
+      "url": "https://cointelegraph.com/news/secs-hester-peirce-says-crypto-vaults-and-onchain-lending-may-fall-under-securities-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T17:39:57+00:00",
+      "summary": "The SEC commissioner said crypto vaults, onchain lending products and other asset management tools may trigger US securities laws depending on how they are structured and operated.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "lending",
+        "onchain",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kraken parent Payward partners with GTN to scale xStocks internationally, beyond US equities",
+      "url": "https://www.theblock.co/post/409448/kraken-parent-payward-partners-gtn-scale-xstocks-internationally-beyond-us-equities?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-22T17:31:33+00:00",
+      "summary": "xStocks is tokenizing equities from Hong Kong before expanding to the UK, Europe, South Korea, and other international markets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "New Clarity Act Draft Would Bar Trump and Officials From Issuing Crypto, With a 2029 Sunset",
+      "url": "https://bitcoinmagazine.com/news/new-clarity-act-draft-bar-trump",
+      "published_at": "2026-07-22T17:28:56+00:00",
+      "summary": "Bitcoin Magazine\n\nNew Clarity Act Draft Would Bar Trump and Officials From Issuing Crypto, With a 2029 Sunset\nSenate Republicans unveiled a revised Clarity Act that adds a temporary ban on top federal officials issuing or sponsoring digital assets while preserving key pro-crypto provisions.\nThis post New Clarity Act Draft Would Bar Trump and Officials From Issuing Crypto, With a 2029 Sunset first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "fed",
+        "pos"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Winklevoss Twins Donated $10 Million From Bitcoin Sale to Trump Super PAC",
@@ -198,7 +618,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "New Clarity Act emerges that's a start on the final draft, makes ethics rule temporary",
+      "title": "New draft of Clarity Act is out, and it would impose limits on Trump's crypto empire",
       "url": "https://www.coindesk.com/policy/2026/07/22/new-clarity-act-emerges-that-s-a-start-on-the-final-draft-makes-ethics-rule-temporary",
       "published_at": "2026-07-22T16:15:55+00:00",
       "summary": "",
@@ -209,10 +629,10 @@
         "positive_hits": [],
         "negative_hits": []
       },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
     },
     {
       "source": "Cointelegraph",
@@ -664,29 +1084,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T12:54:29+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Justin Sun's HTX 'Rotating' On-Chain Wallets Amid UK Sanctions: TRM Labs",
       "url": "https://decrypt.co/374030/justin-suns-htx-rotating-on-chain-wallets-amid-uk-sanctions-trm-labs",
@@ -754,408 +1151,6 @@
         "ai",
         "onchain",
         "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Kalshi rolls out Midterm Hubs ahead of the November elections in the U.S.",
-      "url": "https://www.coindesk.com/markets/2026/07/22/kalshi-rolls-out-midterm-hubs-ahead-of-the-november-elections-in-the-u-s",
-      "published_at": "2026-07-22T12:12:10+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin analysis eyes ‘serious volume’ after Binance sees 9K BTC daily outflow",
-      "url": "https://cointelegraph.com/markets/bitcoin-analysis-eyes-serious-volume-after-binance-sees-9k-btc-daily-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T11:55:21+00:00",
-      "summary": "Binance set multimonth records for net BTC outflows on Tuesday, adding to an emerging trend of positive inflows to the US spot Bitcoin ETFs.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "positive"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Binance"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: OpenAI Model Escapes Containment, Hacks Hugging Face",
-      "url": "https://decrypt.co/374029/morning-minute-openai-model-escapes-containment-hacks-hugging-face",
-      "published_at": "2026-07-22T11:50:29+00:00",
-      "summary": "Plus, the BTC ETFs stay green. The Clarity Act hits a wall over who enforces the ethics rules. And Jack Mallers walks away from XXI Capital.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "BTC",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Zilliqa Ledger app vulnerability lets attackers recover signer’s private keys",
-      "url": "https://cointelegraph.com/news/zilliqa-ledger-vulnerability-attackers-recover-private-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T11:49:53+00:00",
-      "summary": "A security vulnerability in the Zilliqa Ledger app is enabling attackers to reconstruct private keys using publicly available onchain data.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "recover"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Midnight token rebounds 19% after Wanchain bridge hack, Hoskinson calls for ZK revamp",
-      "url": "https://www.coindesk.com/business/2026/07/22/midnight-token-rebounds-after-wanchain-bridge-hack-hoskinson-calls-for-industry-overhaul",
-      "published_at": "2026-07-22T11:45:42+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "bridge",
-        "zk"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US seeks forfeiture of $25M in crypto tied to romance, investment scams",
-      "url": "https://cointelegraph.com/news/doj-25m-crypto-forfeiture-romance-investment-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T11:32:40+00:00",
-      "summary": "US prosecutors are seeking more than $25 million in cryptocurrency allegedly connected to international fraud and laundering networks.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Here's why bitcoin bulls should take a closer look at interest rates",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/22/here-s-why-bitcoin-bulls-should-take-a-closer-look-at-interest-rates",
-      "published_at": "2026-07-22T11:23:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "interest rate"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "SecondFi to shut down after $2.4 million ADA wallet theft",
-      "url": "https://www.coindesk.com/web3/2026/07/22/secondfi-to-shut-down-after-usd2-4-million-ada-wallet-theft",
-      "published_at": "2026-07-22T11:10:27+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "theft"
-        ]
-      },
-      "coins": [
-        "ADA"
-      ],
-      "topics": [
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Jack Dorsey's Block Launches Buzz, a Nostr-Based Slack and GitHub Rival for AI Agents",
-      "url": "https://decrypt.co/374026/jack-dorseys-block-launches-buzz-a-nostr-based-slack-and-github-rival-for-ai-agents",
-      "published_at": "2026-07-22T11:03:43+00:00",
-      "summary": "The free, open source workspace runs on Nostr, gives AI agents their own cryptographic identities, and challenges Slack and GitHub.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Talos brings institutional trading tools to Kalshi prediction markets",
-      "url": "https://cointelegraph.com/news/talos-brings-institutional-trading-tools-to-kalshi-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T11:00:00+00:00",
-      "summary": "The integration provides institutional clients with access to Kalshi’s event contracts and crypto perpetuals via Talos’ existing trading infrastructure.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "integration"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto institutions look beyond audits as trust signals falter: Hacken",
-      "url": "https://cointelegraph.com/news/institutions-crypto-security-beyond-audits-hacken-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T11:00:00+00:00",
-      "summary": "Institutional due diligence is shifting toward continuous monitoring, signer controls and incident readiness after operational failures accounted for most crypto losses.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "trust"
-        ],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korea crypto volumes shrink as retail investors shift to stocks",
-      "url": "https://cointelegraph.com/news/south-korea-crypto-volume-decline-kospi-retail-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T10:47:09+00:00",
-      "summary": "Trading activity on South Korea’s five major crypto exchanges fell sharply as the KOSPI surged, signaling a shift in retail investors toward equities.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin retreats from one-month high as oil tops $85, inflation concerns resurface",
-      "url": "https://www.coindesk.com/markets/2026/07/22/bitcoin-retreats-from-one-month-high-as-oil-tops-usd85-inflation-concerns-resurface",
-      "published_at": "2026-07-22T10:33:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Kraken parent expands tokenized stocks to Hong Kong, UK and South Korea equities",
-      "url": "https://www.coindesk.com/business/2026/07/22/kraken-parent-expands-tokenized-stocks-to-hong-kong-uk-and-south-korea-equities",
-      "published_at": "2026-07-22T10:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Foundry asks Bitcoin miners to vote on BIP-110 support",
-      "url": "https://cointelegraph.com/news/foundry-bitcoin-miners-vote-bip-110?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T10:29:42+00:00",
-      "summary": "Foundry USA asked its mining customers to signal their support for BIP-110, an actively debated proposal seeking to shrink the amount of data that can be stored in a Bitcoin transaction.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "miner",
-        "miners",
-        "mining",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "SecondFi to wind down after $2.6M ADA theft linked to wallet flaw",
-      "url": "https://cointelegraph.com/news/secondfi-shutdown-ada-theft-wallet-flaw?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T09:42:00+00:00",
-      "summary": "SecondFi will wind down after a $2.6 million ADA theft, while users still await recovery tools that were initially expected within weeks of the exploit.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": [
-          "down",
-          "exploit",
-          "theft"
-        ]
-      },
-      "coins": [
-        "ADA",
-        "LINK"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Galaxy pledges $5M for developers quantum-proofing Bitcoin",
-      "url": "https://cointelegraph.com/news/galaxy-pledges-5m-developers-quantum-proofing-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T09:30:05+00:00",
-      "summary": "Galaxy pledged up to $5 million in grants for developers working on Bitcoin’s quantum security and elected a council of quantum-advisory experts to research quantum-resistant migration solutions.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
-      "url": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
-      "published_at": "2026-07-22T09:01:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapses",
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
       ]
     }
   ]
