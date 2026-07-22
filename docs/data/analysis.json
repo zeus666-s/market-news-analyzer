@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-22T06:33:12.994419+00:00",
+  "generated_at": "2026-07-22T10:29:29.208702+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.005,
+    "market_sentiment_score": -0.037,
     "label_distribution": {
-      "neutral": 42,
-      "bullish": 16,
-      "bearish": 12
+      "bearish": 17,
+      "neutral": 41,
+      "bullish": 12
     },
     "top_coins": [
       {
@@ -16,15 +16,11 @@
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "coin": "ETH",
-        "mentions": 10
-      },
-      {
-        "coin": "Near",
-        "mentions": 4
+        "mentions": 9
       },
       {
         "coin": "UNI",
@@ -35,53 +31,53 @@
         "mentions": 4
       },
       {
-        "coin": "BTC",
-        "mentions": 2
+        "coin": "ADA",
+        "mentions": 3
+      },
+      {
+        "coin": "LINK",
+        "mentions": 3
+      },
+      {
+        "coin": "SOL",
+        "mentions": 3
+      },
+      {
+        "coin": "Near",
+        "mentions": 3
       },
       {
         "coin": "APT",
-        "mentions": 2
-      },
-      {
-        "coin": "ADA",
-        "mentions": 2
-      },
-      {
-        "coin": "Ripple",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 12
-      },
-      {
-        "topic": "exchange",
-        "mentions": 8
+        "mentions": 13
       },
       {
         "topic": "sec",
+        "mentions": 10
+      },
+      {
+        "topic": "exchange",
         "mentions": 7
       },
       {
         "topic": "wallet",
-        "mentions": 5
-      },
-      {
-        "topic": "fed",
-        "mentions": 4
+        "mentions": 6
       },
       {
         "topic": "stablecoin",
-        "mentions": 4
+        "mentions": 6
       },
       {
-        "topic": "etf",
+        "topic": "fed",
         "mentions": 4
       },
       {
@@ -89,12 +85,179 @@
         "mentions": 4
       },
       {
-        "topic": "staking",
+        "topic": "etf",
+        "mentions": 3
+      },
+      {
+        "topic": "regulation",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "SecondFi to wind down after $2.6M ADA theft linked to wallet flaw",
+      "url": "https://cointelegraph.com/news/secondfi-shutdown-ada-theft-wallet-flaw?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T09:42:00+00:00",
+      "summary": "SecondFi will wind down after a $2.6 million ADA theft, while users still await recovery tools that were initially expected within weeks of the exploit.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "down",
+          "exploit",
+          "theft"
+        ]
+      },
+      "coins": [
+        "ADA",
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Galaxy pledges $5M for developers quantum-proofing Bitcoin",
+      "url": "https://cointelegraph.com/news/galaxy-pledges-5m-developers-quantum-proofing-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T09:30:05+00:00",
+      "summary": "Galaxy pledged up to $5 million in grants for developers working on Bitcoin’s quantum security and elected a council of quantum-advisory experts to research quantum-resistant migration solutions.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
+      "url": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
+      "published_at": "2026-07-22T09:01:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "collapses",
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin under $66,000 as traders await Alphabet earnings to gauge AI trade",
+      "url": "https://www.coindesk.com/tech/2026/07/22/live-updates-bitcoin-under-usd66-000-as-traders-await-alphabet-earnings-to-gauge-ai-trade",
+      "published_at": "2026-07-22T08:13:28+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs extend inflow streak to 6 days with $203M added",
+      "url": "https://cointelegraph.com/news/bitcoin-etfs-203-million-inflow-streak-six-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T07:57:03+00:00",
+      "summary": "US spot Bitcoin ETFs extended their inflow streak to six sessions, bringing in about $930 million while remaining down $4.84 billion on a net basis year to date.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BIS warns USD stablecoins can evade capital controls, challenging traditional market regulations",
+      "url": "https://www.theblock.co/post/409193/bis-warns-stablecoins-capital-controls?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-22T07:47:26+00:00",
+      "summary": "BIS says that FX restrictions and capital controls are less effective against stablecoins than against foreign currency bank deposits.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "regulation",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "US seeks forfeiture of $25 million in crypto tied to global fraud investigations",
+      "url": "https://www.theblock.co/post/409194/us-seeks-forfeiture-25-million-crypto?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-22T07:41:49+00:00",
+      "summary": "US prosecutors seek forfeiture of $25 million in crypto recovered from five investigations into international fraud and laundering networks.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "recovered"
+        ],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "AI models escaped OpenAI’s sandbox and hit Hugging Face. Crypto is where that gets dangerous",
@@ -989,162 +1152,6 @@
         "pos",
         "sec"
       ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "XRP Breaks Out on Clarity Act Hopes. The Charts Are Still Cautious",
-      "url": "https://decrypt.co/373951/xrp-price-clarity-act-hopes-charts-cautious",
-      "published_at": "2026-07-21T16:20:29+00:00",
-      "summary": "The Ripple-linked token just had its best day in weeks, as Washington may finally be delivering what the XRP Army has been waiting for.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "XRP",
-        "LINK",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Claude's Fable 5 just solved an 87-year-old math problem, and it matters for bitcoin",
-      "url": "https://www.coindesk.com/tech/2026/07/21/claude-s-fable-5-just-solved-an-87-year-old-math-problem-and-it-matters-for-bitcoin",
-      "published_at": "2026-07-21T16:19:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Galaxy sets up $5 million fund to help shield Bitcoin against quantum computing threats",
-      "url": "https://www.coindesk.com/tech/2026/07/21/galaxy-sets-up-usd5-million-fund-to-help-shield-bitcoin-against-quantum-computing-threats",
-      "published_at": "2026-07-21T16:16:14+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BIS warns stablecoins could weaken capital controls in emerging markets",
-      "url": "https://cointelegraph.com/news/bis-study-says-stablecoins-bypass-capital-controls-more-easily-than-bank-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-21T16:11:54+00:00",
-      "summary": "Researchers found dollar-backed stablecoins are less affected by capital controls than traditional bank deposits, raising new questions about monetary sovereignty in emerging markets.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitget plans US expansion ‘with or without’ Clarity Act, CEO says",
-      "url": "https://www.theblock.co/post/409100/bitget-plans-us-expansion-with-without-clarity-act-ceo-says?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-21T16:11:41+00:00",
-      "summary": "Bitget CEO Gracy Chen is leading the crypto exchange's push into the U.S. after initially shelving expansion plans in 2022.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "leading"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Uphold launches fractional share trading in US for more than 4,000 stocks and ETFs",
-      "url": "https://www.theblock.co/post/409087/uphold-launches-fractional-share-trading-4000-stocks-and-etfs?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-21T16:08:50+00:00",
-      "summary": "“Uphold customers can now sell Bitcoin to buy Berkshire Hathaway shares in a single step on the app,\" the company's U.S. president said.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy",
-          "launches"
-        ],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Jack Mallers Quits Twenty One Capital as Tether's Bitcoin Merger Collapses",
-      "url": "https://decrypt.co/373940/jack-mallers-quits-twenty-one-capital-as-tethers-bitcoin-merger-collapses",
-      "published_at": "2026-07-21T16:06:20+00:00",
-      "summary": "XXI stock dropped nearly 18% after the company's co-founder stepped down and Tether's plan to combine three Bitcoin firms officially fell apart.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapses",
-          "down",
-          "dropped",
-          "fell"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Near",
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
