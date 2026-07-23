@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-22T21:13:48.319017+00:00",
+  "generated_at": "2026-07-23T03:20:22.263643+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.073,
+    "market_sentiment_score": -0.08,
     "label_distribution": {
-      "bullish": 12,
+      "bearish": 25,
       "neutral": 33,
-      "bearish": 25
+      "bullish": 12
     },
     "top_coins": [
       {
@@ -16,53 +16,53 @@
       },
       {
         "coin": "Bitcoin",
-        "mentions": 20
+        "mentions": 19
       },
       {
         "coin": "ETH",
-        "mentions": 4
-      },
-      {
-        "coin": "Sui",
-        "mentions": 4
+        "mentions": 8
       },
       {
         "coin": "Near",
-        "mentions": 4
+        "mentions": 5
+      },
+      {
+        "coin": "Sui",
+        "mentions": 5
       },
       {
         "coin": "BTC",
         "mentions": 4
       },
       {
+        "coin": "Arbitrum",
+        "mentions": 2
+      },
+      {
+        "coin": "ARB",
+        "mentions": 2
+      },
+      {
         "coin": "ADA",
         "mentions": 2
       },
       {
-        "coin": "SOL",
-        "mentions": 1
-      },
-      {
-        "coin": "LINK",
-        "mentions": 1
-      },
-      {
-        "coin": "Tron",
+        "coin": "Ethereum",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 35
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 16
       },
       {
         "topic": "sec",
-        "mentions": 14
+        "mentions": 13
       },
       {
         "topic": "onchain",
@@ -71,6 +71,10 @@
       {
         "topic": "etf",
         "mentions": 4
+      },
+      {
+        "topic": "bridge",
+        "mentions": 3
       },
       {
         "topic": "exchange",
@@ -87,14 +91,167 @@
       {
         "topic": "wallet",
         "mentions": 3
-      },
-      {
-        "topic": "miner",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "SEC settles Coinbase suit over ‘text messages that disappeared’",
+      "url": "https://cointelegraph.com/news/sec-settles-coinbase-suit-over-text-messages-that-disappeared?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T02:57:10+00:00",
+      "summary": "The settlement follows a watchdog report last year that blamed “avoidable errors” for the loss of nearly a year’s worth of Gary Gensler’s text messages.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Near",
+        "Sui"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "AFX protocol reportedly loses $24M in bridge exploit",
+      "url": "https://cointelegraph.com/news/afx-protocol-reportedly-loses-24m-in-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T01:47:20+00:00",
+      "summary": "Offchain Labs said the incident involved a third-party protocol and did not affect Arbitrum’s native bridge infrastructure.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "loses"
+        ]
+      },
+      "coins": [
+        "Arbitrum",
+        "ARB"
+      ],
+      "topics": [
+        "ai",
+        "bridge"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Arbitrum protocol AFX Trade hit by $24 million bridge exploit: Blockaid",
+      "url": "https://www.theblock.co/post/409482/arbitrum-protocol-afx-trade-exploit?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-23T01:39:41+00:00",
+      "summary": "PeckShield flagged that the attacker bridged the stolen funds from Arbitrum to Ethereum and swapped them for 12,467 ETH.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Arbitrum",
+        "ARB"
+      ],
+      "topics": [
+        "ai",
+        "bridge"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Senator Lummis: Ethics, other provisions in crypto Clarity Act to be further discussed",
+      "url": "https://www.coindesk.com/policy/2026/07/22/senator-lummis-ethics-other-provisions-in-crypto-clarity-act-to-be-further-discussed",
+      "published_at": "2026-07-22T23:19:41+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Key Democratic lawmakers say crypto Clarity Act 'falls short' on ethics, other issues",
+      "url": "https://www.coindesk.com/policy/2026/07/22/key-democratic-lawmakers-say-crypto-clarity-act-falls-short-on-ethics-other-issues",
+      "published_at": "2026-07-22T22:22:25+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "falls"
+        ]
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Bipartisan support ‘critical’ as Democrats push back on GOP crypto bill on ethics grounds",
+      "url": "https://www.theblock.co/post/409470/bipartisan-support-critical-as-democrats-push-back-on-gop-crypto-bill-on-ethics-grounds?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-22T21:57:28+00:00",
+      "summary": "Latest Clarity Act draft is drawing praise from the crypto industry and criticism from Democrats and bankers, highlighting deep divisions.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Nasdaq-listed Zhibao Technology to Take 3,500 Bitcoin in Proposed PIPE Financing",
+      "url": "https://bitcoinmagazine.com/news/zhibao-technology-to-take-3500-bitcoin",
+      "published_at": "2026-07-22T21:15:49+00:00",
+      "summary": "Bitcoin Magazine\n\nNasdaq-listed Zhibao Technology to Take 3,500 Bitcoin in Proposed PIPE Financing\nNasdaq-listed Zhibao Technology plans to accept 3,500 bitcoin in a proposed $220 million PIPE deal, a move that would transform the Chinese insurance-tech firm into the latest public company building a bitcoin treasury.\nThis post Nasdaq-listed Zhibao Technology to Take 3,500 Bitcoin in Proposed PIPE Financing first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Coinbase Wants to Be Canada's One-Stop Shop for Stocks, Crypto and Prediction Markets",
@@ -116,6 +273,27 @@
       ],
       "topics": [
         "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "S&P launches blockchain fundamentals index for digital assets",
+      "url": "https://cointelegraph.com/news/sp-launches-blockchain-fundamentals-index-digital-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-22T21:09:59+00:00",
+      "summary": "The benchmark tracks blockchain networks using protocol revenue, offering an alternative to traditional market capitalization-weighted crypto indexes.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "dex"
       ]
     },
     {
@@ -984,172 +1162,6 @@
       ],
       "topics": [
         "miner",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tokenized equity perps drive RWA trading boom to $470 billion monthly volume",
-      "url": "https://www.theblock.co/post/408961/tokenized-equity-perps-drive-rwa-trading-boom-to-470-billion-monthly-volume?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T14:08:01+00:00",
-      "summary": "Within the broader RWA category, tokenized equities have been the more popular asset class to trade over tokenized commodities.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "rwa"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. seeks forfeiture of $25 million in crypto tied to romance and investment scams",
-      "url": "https://www.coindesk.com/policy/2026/07/22/u-s-seeks-forfeiture-of-usd25-million-in-crypto-tied-to-romance-and-investment-scams",
-      "published_at": "2026-07-22T13:45:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Forget Nvidia: The next big AI trade could be crypto and blockchain",
-      "url": "https://www.coindesk.com/markets/2026/07/21/forget-nvidia-the-next-big-ai-trade-could-be-crypto-and-blockchain",
-      "published_at": "2026-07-22T13:32:40+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "The digital euro: Surveillance money, or a better alternative to cash?",
-      "url": "https://cointelegraph.com/magazine/what-is-the-digital-euro-all-you-need-to-know-about-europes-cbdc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T13:30:00+00:00",
-      "summary": "Proponents of the digital euro say its a better alternative to cash that’s fully backed by the ECB. But critics argue it could provide the EU with too much power over its citizens.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pow"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Franklin Templeton calls agentic AI next ‘killer’ use case for blockchain",
-      "url": "https://cointelegraph.com/news/agentic-ai-killer-use-case-blockchain-franklin-templeton?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T13:18:50+00:00",
-      "summary": "Franklin Templeton’s digital assets lead said that the autonomous AI agent economy will increase demand for blockchain protocols hosting machine-to-machine micropayments.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Justin Sun's HTX 'Rotating' On-Chain Wallets Amid UK Sanctions: TRM Labs",
-      "url": "https://decrypt.co/374030/justin-suns-htx-rotating-on-chain-wallets-amid-uk-sanctions-trm-labs",
-      "published_at": "2026-07-22T12:44:48+00:00",
-      "summary": "TRM Labs says the UK-sanctioned exchange has rotated hot wallets across blockchains, leaving address-list screening struggling to keep pace.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "on-chain",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Satsuma Shareholders Approve Bitcoin Liquidation, London Delisting",
-      "url": "https://bitcoinmagazine.com/news/satsuma-shareholders-bitcoin-liquidation",
-      "published_at": "2026-07-22T12:40:55+00:00",
-      "summary": "Bitcoin Magazine\n\nSatsuma Shareholders Approve Bitcoin Liquidation, London Delisting\nSatsuma shareholders voted to sell the company's bitcoin, return the cash to investors, and delist from the London Stock Exchange, ending its run as a bitcoin treasury company after heavy losses.\nThis post Satsuma Shareholders Approve Bitcoin Liquidation, London Delisting first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -9,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "delist",
-          "delisting",
-          "liquidation",
-          "losses",
-          "sell"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Zilliqa halts native transactions over bug in its Ledger app dating to 2019",
-      "url": "https://www.theblock.co/post/409383/zilliqa-halts-native-transactions-over-bug-in-its-ledger-app-dating-to-2019?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T12:39:11+00:00",
-      "summary": "Zilliqa halted native transactions after revealing a bug in its Ledger app dating to 2019 that exposed private keys via onchain signatures.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "halted"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain",
         "pos"
       ]
     }
