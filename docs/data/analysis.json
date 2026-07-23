@@ -1,29 +1,33 @@
 {
-  "generated_at": "2026-07-23T06:33:42.271413+00:00",
+  "generated_at": "2026-07-23T10:27:30.750726+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.048,
+    "market_sentiment_score": -0.071,
     "label_distribution": {
-      "neutral": 36,
-      "bullish": 13,
-      "bearish": 21
+      "bearish": 24,
+      "neutral": 37,
+      "bullish": 9
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 27
+        "mentions": 21
       },
       {
         "coin": "Bitcoin",
-        "mentions": 18
+        "mentions": 20
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 12
       },
       {
         "coin": "Near",
+        "mentions": 6
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 5
       },
       {
@@ -32,69 +36,409 @@
       },
       {
         "coin": "Arbitrum",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "ARB",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "BTC",
-        "mentions": 3
-      },
-      {
-        "coin": "Ethereum",
         "mentions": 2
       },
       {
-        "coin": "XRP",
+        "coin": "LINK",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "topic": "pos",
         "mentions": 14
       },
       {
-        "topic": "sec",
-        "mentions": 11
+        "topic": "exchange",
+        "mentions": 9
       },
       {
-        "topic": "exchange",
-        "mentions": 4
+        "topic": "sec",
+        "mentions": 8
       },
       {
         "topic": "bridge",
-        "mentions": 4
+        "mentions": 5
       },
       {
-        "topic": "onchain",
-        "mentions": 4
+        "topic": "etf",
+        "mentions": 3
       },
       {
         "topic": "defi",
         "mentions": 3
       },
       {
-        "topic": "pow",
+        "topic": "onchain",
         "mentions": 3
       },
       {
-        "topic": "lending",
-        "mentions": 3
+        "topic": "dex",
+        "mentions": 2
       },
       {
-        "topic": "etf",
-        "mentions": 3
+        "topic": "stablecoin",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Arbitrum Perp DEX AFX Trade Drained of $24M, Offers Hacker 30% to Return It",
+      "url": "https://decrypt.co/374133/arbitrum-perp-dex-afx-trade-drained-of-24m-offers-hacker-30-to-return-it",
+      "published_at": "2026-07-23T10:24:09+00:00",
+      "summary": "The exploit hit a custody bridge AFX operates rather than the Arbitrum network itself, with the stolen funds quickly moved to Ethereum.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Arbitrum",
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "dex"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinbase to expand Singapore office headcount by 25%: report",
+      "url": "https://cointelegraph.com/news/coinbase-expand-singapore-headcount-25?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T09:42:53+00:00",
+      "summary": "Coinbase plans to expand its Singapore office from 150 to about 200 employees by the end of 2026 as it grows its presence in the Lion City.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Circle partners with Kakao, Toss Bank to explore stablecoin payment rails in South Korea",
+      "url": "https://www.theblock.co/post/409497/circle-partners-with-kakao-toss?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-23T09:09:42+00:00",
+      "summary": "Circle plans to explore blockchain-based payment infrastructure in South Korea through partnerships with Kakao and Toss.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live markets: Bitcoin trades above $65,000 as Alphabet's bigger AI bill props up the chip trade",
+      "url": "https://www.coindesk.com/tech/2026/07/23/live-markets-bitcoin-trades-above-usd65-000-as-alphabet-s-bigger-ai-bill-props-up-the-chip-trade",
+      "published_at": "2026-07-23T09:03:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin may have bottomed before its traditional cycle low: Grayscale’s Pandl",
+      "url": "https://cointelegraph.com/markets/grayscale-bitcoins-price-bottomed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T09:03:20+00:00",
+      "summary": "Grayscale’s head of research said that Bitcoin may have bottomed, arguing that macro factors, such as interest rate decisions as increasingly driving the price action of this maturing asset class.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "interest rate",
+        "macro"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BitMEX to shut down permanently 11 years after Arthur Hayes co-founded crypto exchange",
+      "url": "https://www.theblock.co/post/409495/bitmex-to-shut-down-permanently?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-23T09:00:36+00:00",
+      "summary": "BitMEX, co-founded by Arthur Hayes, will shut down on Sept. 23, 2026, at 04:00 UTC after owner HDR Global Trading's strategic review.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "BitMEX to Close on September 23, Halts New Sign-Ups",
+      "url": "https://decrypt.co/374125/bitmex-to-close-on-september-23-halts-new-sign-ups",
+      "published_at": "2026-07-23T08:46:51+00:00",
+      "summary": "The crypto derivatives pioneer told users to close positions and withdraw funds before it goes dark on September 23.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BitMEX, the exchange that invented perps, is shutting down",
+      "url": "https://www.coindesk.com/markets/2026/07/23/bitmex-s-11-year-run-comes-to-an-end-notifies-users-it-is-ending-operations-in-by-sept-23",
+      "published_at": "2026-07-23T08:42:26+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "24/7 financial rails: How BNY plans to eliminate the weekend lag in U.S. Treasuries",
+      "url": "https://www.coindesk.com/business/2026/07/23/24-7-financial-rails-how-bny-plans-to-eliminate-the-weekend-lag-in-u-s-treasuries",
+      "published_at": "2026-07-23T08:42:21+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "New Verus-Ethereum bridge attack drains $7.5 million through flaw used in May: Blockaid",
+      "url": "https://www.theblock.co/post/409489/new-verus-ethereum-bridge-attack?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-23T08:37:38+00:00",
+      "summary": "A second Verus-Ethereum bridge exploit in two months drained $7.54 million through the same vulnerability class used in May, per Blockaid.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Home invasions became most common crypto wrench attack in H1 2026: CertiK",
+      "url": "https://cointelegraph.com/news/crypto-home-invasions-wrench-attacks-certik-h1-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T08:29:24+00:00",
+      "summary": "Crypto home invasions rose to 20 in H1 2026 from one a year earlier, while France accounted for 33 of 52 verified wrench attacks, according to CertiK.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BitMEX to shut down after 11 years in crypto derivatives",
+      "url": "https://cointelegraph.com/news/bitmex-crypto-derivatives-exchange-shut-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T08:14:32+00:00",
+      "summary": "BitMEX announced it will shut down operations on Sept. 23, 2026, after owner HDR Global Trading Limited decided to close the crypto exchange.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Mirae Asset completes Korbit acquisition, becomes largest shareholder",
+      "url": "https://cointelegraph.com/news/mirae-asset-korbit-acquisition-largest-shareholder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T07:53:05+00:00",
+      "summary": "Mirae Asset Consulting has become Korbit’s largest shareholder after completing its acquisition, with the exchange saying trading and customer asset protections are unchanged.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs approach $1B in 7-session inflow run",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-1-billion-7-session-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T07:08:25+00:00",
+      "summary": "US spot Bitcoin ETFs recorded $69 million in inflows on Wednesday, extending their inflow streak to seven sessions and bringing total inflows during the period to nearly $1 billion",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "South Korea's oldest crypto exchange is now part of the $1 trillion Mirae Group family",
+      "url": "https://www.coindesk.com/markets/2026/07/23/south-korea-s-oldest-crypto-exchange-is-now-part-of-the-usd800-billion-mirae-group-family",
+      "published_at": "2026-07-23T07:05:42+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kakao taps Circle to explore won stablecoin payment infrastructure",
+      "url": "https://cointelegraph.com/news/kakao-circle-won-stablecoin-payment-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T06:46:58+00:00",
+      "summary": "Kakao Group and Circle signed an MOU to explore won stablecoin payments, remittances, merchant settlement and tokenized financial services.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin, Ethereum-linked protocols lose $35 million in multiple attacks hours apart",
+      "url": "https://www.coindesk.com/tech/2026/07/23/bitcoin-ethereum-linked-protocols-lose-usd35-million-in-multiple-attacks-hours-apart",
+      "published_at": "2026-07-23T06:38:18+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lose"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "LINK"
+      ],
+      "topics": []
+    },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
@@ -700,30 +1044,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Anthropic joins UK FCA’s AI regulatory sandbox as second cohort launches",
-      "url": "https://cointelegraph.com/news/anthropic-joins-uk-fcas-ai-regulatory-sandbox-as-second-cohort-launches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T17:57:11+00:00",
-      "summary": "Anthropic will provide Claude AI models to companies participating in the UK Financial Conduct Authority’s next Supercharged Sandbox cohort, as the regulator pushes to test AI applications in financial services.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "regulatory",
-        "sec"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Clarity Act Latest Draft Bars Trump From Crypto Ventures—But Only Until 2029",
       "url": "https://decrypt.co/374056/clarity-act-draft-trump-crypto-ventures",
@@ -767,31 +1087,6 @@
       "topics": [
         "ai",
         "pow"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "SEC’s Peirce says crypto vaults and onchain lending may fall under securities laws",
-      "url": "https://cointelegraph.com/news/secs-hester-peirce-says-crypto-vaults-and-onchain-lending-may-fall-under-securities-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T17:39:57+00:00",
-      "summary": "The SEC commissioner said crypto vaults, onchain lending products and other asset management tools may trigger US securities laws, depending on how they are structured and operated.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "lending",
-        "onchain",
-        "sec"
       ]
     },
     {
@@ -856,312 +1151,6 @@
       "topics": [
         "ai",
         "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "SEC reaches settlement with Coinbase over records requests from Gensler era",
-      "url": "https://www.theblock.co/post/409437/sec-reaches-settlement-coinbase-over-records-requests-gensler-era?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T16:55:08+00:00",
-      "summary": "The SEC reached a settlement with Coinbase on Wednesday, ending a years-long legal dispute over the agency's handling of records requests.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Senate releases latest version of Clarity Act including software developer protections and ethics provision with ‘sunset’ date in 2029",
-      "url": "https://www.theblock.co/post/409442/senate-releases-latest-clarity-act-software-developer-protections-ethics-provision-sunset-date-2029?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T16:46:22+00:00",
-      "summary": "After months of deliberations, Republicans released the latest text for broader cryptocurrency legislation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Digital Chamber sues Illinois officials over new state 0.2% crypto tax",
-      "url": "https://cointelegraph.com/news/digital-chamber-lawsuit-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T16:28:10+00:00",
-      "summary": "The group alleged that the tax signed into law in June “discriminates against people who transact in digital assets“ and should be blocked from implementation and enforcement.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Hugging Face CEO Thanks Chinese AI for Saving the Day After OpenAI Hack",
-      "url": "https://decrypt.co/374052/hugging-face-ceo-thanks-chinese-ai-saving-day-after-openai-hack",
-      "published_at": "2026-07-22T16:23:16+00:00",
-      "summary": "When American commercial AI refused to help investigate the breach, Hugging Face ran Chinese model GLM 5.2 locally. Its CEO now says there's an important lesson in this.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "investigate"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "New draft of Clarity Act is out, and it would impose limits on Trump's crypto empire",
-      "url": "https://www.coindesk.com/policy/2026/07/22/new-clarity-act-emerges-that-s-a-start-on-the-final-draft-makes-ethics-rule-temporary",
-      "published_at": "2026-07-22T16:15:55+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitGo, OTC Markets plan tokenized securities access for broker-dealers",
-      "url": "https://cointelegraph.com/news/bitgo-otc-markets-tokenized-securities-broker-dealers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T16:10:22+00:00",
-      "summary": "The proposed alliance would enable more than 150 broker-dealers to trade and settle digital asset securities through OTC Link ATS using BitGo’s custody infrastructure.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK",
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Crypto directly employs 34,000 in the US and contributes $55 billion to the economy: NCA report",
-      "url": "https://www.theblock.co/post/409417/crypto-directly-employs-34000-in-the-us-and-contributes-55-billion-to-the-economy-nca-report?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T16:00:00+00:00",
-      "summary": "Crypto directly employs 34,000 in the U.S. and contributes $55 billion to the economy in 2026, according to an NCA-funded report.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price avoids major Iran jitters as S&P 500 ‘short squeeze’ on horizon",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-avoids-major-iran-jitters-as-sp-500-short-squeeze-on-horizon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-22T15:55:20+00:00",
-      "summary": "Bitcoin and US stocks stayed strong in the face of US-Iran escalation as analysis predicted BTC price action outperforming equities later.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "strong"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Tron"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Revolut hits $115 billion valuation in employee share sale: WSJ",
-      "url": "https://www.coindesk.com/business/2026/07/22/revolut-hits-usd115-billion-valuation-in-employee-share-sale-wsj",
-      "published_at": "2026-07-22T15:53:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Crypto ‘wrench attacks’ persist as total climbs to 52 and value targeted jumps more than tenfold, CertiK says",
-      "url": "https://www.theblock.co/post/409418/crypto-wrench-attacks-persist-total-climbs-52-value-targeted-jumps-tenfold-certik?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T15:48:35+00:00",
-      "summary": "CertiK recommends limiting public information that connects a person’s identity, location or routine to their crypto holdings.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
-      "url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
-      "published_at": "2026-07-22T15:37:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall",
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "defi",
-        "lending",
-        "onchain",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "UK digital bond plans hinge on one missing piece: onchain cash",
-      "url": "https://www.coindesk.com/business/2026/07/22/uk-digital-bond-plans-hinge-on-one-missing-piece-onchain-cash",
-      "published_at": "2026-07-22T15:36:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin ETFs Take in Nearly $1B in New Money — But What Will the Price Do?",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-etfs-take-in-nearly-1b",
-      "published_at": "2026-07-22T15:28:00+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin ETFs Take in Nearly $1B in New Money — But What Will the Price Do?\nBitcoin ETFs have taken in new cash from US investors after weeks of sloppy action. \nThis post Bitcoin ETFs Take in Nearly $1B in New Money — But What Will the Price Do? first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Coinbase Settles FOIA Fight With the SEC Over Gensler’s Vanished Texts",
-      "url": "https://bitcoinmagazine.com/news/coinbase-settles-foia-fight-with-the-sec",
-      "published_at": "2026-07-22T15:16:06+00:00",
-      "summary": "Bitcoin Magazine\n\nCoinbase Settles FOIA Fight With the SEC Over Gensler&#8217;s Vanished Texts\nCoinbase settled its FOIA lawsuit against the SEC after the agency admitted it destroyed former Chair Gary Gensler's text messages, securing a $150,000 payment and reforms to the SEC's record-retention policies.\nThis post Coinbase Settles FOIA Fight With the SEC Over Gensler&#8217;s Vanished Texts first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lawsuit"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Sui"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘You will have a painful fall’: SEC’s Peirce warns crypto vault builders against twisting securities law",
-      "url": "https://www.theblock.co/post/409409/you-will-have-a-painful-fall-secs-peirce-warns-crypto-vault-builders-against-twisting-securities-law?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T15:11:57+00:00",
-      "summary": "Hester Peirce, aka \"Crypto Mom\", issued a statement clarifying that onchain vaults and lending may fall under the SEC's remit.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall",
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "lending",
-        "onchain",
-        "sec"
       ]
     }
   ]
