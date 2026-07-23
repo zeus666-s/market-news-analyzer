@@ -1,45 +1,41 @@
 {
-  "generated_at": "2026-07-23T14:13:14.467116+00:00",
+  "generated_at": "2026-07-23T17:27:04.611210+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.055,
+    "market_sentiment_score": -0.046,
     "label_distribution": {
-      "bullish": 12,
-      "neutral": 35,
-      "bearish": 23
+      "neutral": 34,
+      "bullish": 14,
+      "bearish": 22
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 14
+        "mentions": 13
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 11
+      },
+      {
+        "coin": "SOL",
+        "mentions": 6
       },
       {
         "coin": "Ethereum",
         "mentions": 5
       },
       {
-        "coin": "SOL",
-        "mentions": 4
-      },
-      {
         "coin": "Near",
         "mentions": 4
       },
       {
-        "coin": "Arbitrum",
-        "mentions": 3
-      },
-      {
-        "coin": "ARB",
+        "coin": "BTC",
         "mentions": 3
       },
       {
@@ -47,7 +43,11 @@
         "mentions": 2
       },
       {
-        "coin": "BTC",
+        "coin": "ADA",
+        "mentions": 2
+      },
+      {
+        "coin": "Arbitrum",
         "mentions": 2
       }
     ],
@@ -61,20 +61,28 @@
         "mentions": 15
       },
       {
-        "topic": "exchange",
-        "mentions": 12
+        "topic": "sec",
+        "mentions": 10
       },
       {
-        "topic": "sec",
+        "topic": "exchange",
         "mentions": 9
       },
       {
         "topic": "defi",
+        "mentions": 6
+      },
+      {
+        "topic": "stablecoin",
         "mentions": 5
       },
       {
-        "topic": "bridge",
+        "topic": "onchain",
         "mentions": 4
+      },
+      {
+        "topic": "pow",
+        "mentions": 3
       },
       {
         "topic": "miner",
@@ -83,18 +91,304 @@
       {
         "topic": "mining",
         "mentions": 3
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 3
-      },
-      {
-        "topic": "onchain",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "MoonPay now accepts Discover Network cards for crypto purchases and sales in US",
+      "url": "https://www.theblock.co/post/409536/moonpay-discover-network-card-payments-crypto?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-23T17:05:36+00:00",
+      "summary": "The addition makes Discover the third major U.S. card network supported by MoonPay, alongside Visa and Mastercard.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Goldman Sachs CEO backs ‘not perfect’ CLARITY Act as vote expected soon",
+      "url": "https://cointelegraph.com/news/goldman-sachs-ceo-clarity-act-stablecoin-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T16:57:11+00:00",
+      "summary": "Goldman chief David Solomon will support the crypto market structure bill now in Congress, even as financial companies and banks are hesitant over provisions on stablecoins.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase's corporate customers can now accept payments from AI agents",
+      "url": "https://www.coindesk.com/business/2026/07/23/coinbase-closes-the-gaps-in-ai-agent-economy-for-businesses-users-and-developers",
+      "published_at": "2026-07-23T16:54:12+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "BlackRock Says Crypto Can Outrun the Quantum Threat — If It Moves Fast Enough",
+      "url": "https://bitcoinmagazine.com/news/blackrock-says-bitcoin-can-outrun-quantum",
+      "published_at": "2026-07-23T16:50:23+00:00",
+      "summary": "Bitcoin Magazine\n\nBlackRock Says Crypto Can Outrun the Quantum Threat — If It Moves Fast Enough\nBlackRock thinks Bitcoin and other crypto networks have the upper hand when facing the threat of quantum computers. \nThis post BlackRock Says Crypto Can Outrun the Quantum Threat — If It Moves Fast Enough first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s why the CLARITY Act’s ethics deal may be so hard to reach",
+      "url": "https://cointelegraph.com/magazine/heres-why-the-clarity-acts-ethics-deal-may-be-so-hard-to-reach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T16:44:42+00:00",
+      "summary": "Both parties say they want US crypto market structure legislation, but a dispute over ethics rules and who enforces them is becoming the bill’s biggest obstacle.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BTC treasury firm Empery Digital invests $20M in AI data center developer Cardinal Data Power",
+      "url": "https://cointelegraph.com/news/bitcoin-treasury-firm-empery-digital-invests-20m-in-ai-data-center-developer-cardinal-data-power?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T16:42:52+00:00",
+      "summary": "The investment marks Empery’s latest push into AI infrastructure as the company shifts capital away from its Bitcoin treasury strategy.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Swan CEO claims Twenty One serves Tether’s US political interests, calls Mallers’ role ‘ceremonial’",
+      "url": "https://www.theblock.co/post/409538/swan-ceo-twenty-one-serves-tethers-us-political-interests-mallers-role-ceremonial?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-23T16:31:59+00:00",
+      "summary": "Twenty One Capital is Tether's \"U.S. entity for them to ... line pockets where needed for political reasons,\" says Cory Klippsten.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ethereum nears market bottom against Bitcoin, though key signals remain unconfirmed: CryptoQuant",
+      "url": "https://cointelegraph.com/news/ethereum-nears-market-bottom-against-bitcoin-key-signals-remain-unconfirmed-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T16:26:43+00:00",
+      "summary": "Ether trades below its realized price while onchain indicators point to easing selling pressure and recovering demand, though a definitive cycle bottom has yet to emerge.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "defi",
+        "onchain"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase calls AI payments its ‘most high-conviction bet’ as businesses begin accepting agent payments",
+      "url": "https://www.theblock.co/post/409539/coinbase-ai-payments-most-high-conviction-bet-businesses-accepting-agent-payments?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-23T16:00:00+00:00",
+      "summary": "Coinbase will enable businesses to accept payments from AI bots, powered by Coinbase Payments and the x402 standard.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "The SEC settles with Coinbase over its missing Gary Gensler texts",
+      "url": "https://www.coindesk.com/policy/2026/07/23/sec-agrees-to-end-lawsuit-over-missing-ethereum-records-will-pay-usd150-000-in-fees",
+      "published_at": "2026-07-23T15:36:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Goldman Sachs Backs the Clarity Act, Splitting Wall Street Over Crypto Rules",
+      "url": "https://bitcoinmagazine.com/news/goldman-sachs-backs-the-clarity-act",
+      "published_at": "2026-07-23T15:34:05+00:00",
+      "summary": "Bitcoin Magazine\n\nGoldman Sachs Backs the Clarity Act, Splitting Wall Street Over Crypto Rules\nGoldman Sachs CEO David Solomon endorsed the Clarity Act, breaking with much of the banking industry as Senate Republicans push the crypto market-structure bill despite mounting opposition over stablecoin yield provisions and ethics concerns.\nThis post Goldman Sachs Backs the Clarity Act, Splitting Wall Street Over Crypto Rules first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "stablecoin",
+        "yield"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "BlackRock, Coinbase and Strategy Pledge $15M to Quantum-Proof Bitcoin",
+      "url": "https://decrypt.co/374145/blackrock-coinbase-strategy-15m-quantum-proof-bitcoin",
+      "published_at": "2026-07-23T15:17:38+00:00",
+      "summary": "Nine of the biggest institutional names in Bitcoin formed a consortium to fund the developers working to keep the network secure—including from future quantum computers.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional",
+          "secure"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto for Advisors: It’s time for tokenization to get to work",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/23/crypto-for-advisors-it-s-time-for-tokenization-to-get-to-work",
+      "published_at": "2026-07-23T14:53:34+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Coinbase Builds Post-Quantum Custody System, Funds Bitcoin’s Crypto Upgrade",
+      "url": "https://bitcoinmagazine.com/news/coinbase-building-post-quantum-solutions",
+      "published_at": "2026-07-23T14:47:10+00:00",
+      "summary": "Bitcoin Magazine\n\nCoinbase Builds Post-Quantum Custody System, Funds Bitcoin&#8217;s Crypto Upgrade\nCoinbase says that while the threat isn't imminent, quantum may one day be able to break Bitcoin's cryptography. \nThis post Coinbase Builds Post-Quantum Custody System, Funds Bitcoin&#8217;s Crypto Upgrade first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Kazakhstan Moves to Build a National Crypto Reserve Funded by Bitcoin Miners",
@@ -306,6 +600,29 @@
     },
     {
       "source": "Cointelegraph",
+      "title": "Binance joins STOP THE TRAFFIK in anti-human trafficking effort",
+      "url": "https://cointelegraph.com/news/binance-stop-the-traffik-anti-human-trafficking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T13:22:00+00:00",
+      "summary": "The partnership expands Binance’s compliance efforts by providing intelligence and training to help detect cryptocurrency activity tied to human trafficking and child exploitation.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "partnership"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
       "title": "Strategy-led group pledges $15M to quantum-proof Bitcoin network",
       "url": "https://cointelegraph.com/news/strategy-consortium-15m-quantum-proof-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-23T13:03:18+00:00",
@@ -342,29 +659,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance joins STOP THE TRAFFIK in anti-human trafficking effort",
-      "url": "https://cointelegraph.com/news/binance-stop-the-traffik-anti-human-trafficking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T13:00:00+00:00",
-      "summary": "The partnership expands Binance’s compliance efforts by providing intelligence and training to help detect cryptocurrency activity tied to human trafficking and child exploitation.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "partnership"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
     },
     {
       "source": "The Block",
@@ -430,31 +724,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "BitMEX token crashes 90% as exchange announces shutdown",
-      "url": "https://cointelegraph.com/markets/bitmex-token-crashes-90-as-exchange-announces-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T12:47:27+00:00",
-      "summary": "BitMEX’s BMEX token plunged about 90% after the exchange announced plans to shut down, ending nearly 12 years in business as its Bitcoin futures market share shrank.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crashes",
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "exchange",
-        "futures"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Southeast Asian Scam Networks Cost Victims Up to $114B in a Year: UN",
       "url": "https://decrypt.co/374140/southeast-asian-scam-networks-cost-victims-up-to-114b-in-a-year-un",
@@ -514,6 +783,31 @@
         "defi",
         "onchain",
         "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BitMEX token crashes 90% as exchange announces shutdown",
+      "url": "https://cointelegraph.com/markets/bitmex-token-crashes-90-as-exchange-announces-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T12:02:00+00:00",
+      "summary": "BitMEX’s BMEX token plunged about 90% after the exchange announced plans to shut down, ending nearly 12 years in business as its Bitcoin futures market share shrank.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crashes",
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "exchange",
+        "futures"
       ]
     },
     {
@@ -781,42 +1075,24 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live markets: Bitcoin slips back as Iran war expansion sends oil surging above $90 per barrel",
+      "title": "Live markets: Bitcoin slides as stocks slump on Iran war expansion, AI spending concern",
       "url": "https://www.coindesk.com/tech/2026/07/23/live-markets-bitcoin-trades-above-usd65-000-as-alphabet-s-bigger-ai-bill-props-up-the-chip-trade",
       "published_at": "2026-07-23T09:03:33+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
         "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin may have bottomed before its traditional cycle low: Grayscale’s Pandl",
-      "url": "https://cointelegraph.com/markets/grayscale-bitcoins-price-bottomed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T09:03:20+00:00",
-      "summary": "Grayscale’s head of research said that Bitcoin may have bottomed, arguing that macro factors, such as interest rate decisions as increasingly driving the price action of this maturing asset class.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
+        "negative_hits": [
+          "concern"
+        ]
       },
       "coins": [
         "Bitcoin"
       ],
       "topics": [
-        "ai",
-        "interest rate",
-        "macro"
+        "ai"
       ]
     },
     {
@@ -875,278 +1151,6 @@
       "coins": [],
       "topics": [
         "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "24/7 financial rails: How BNY plans to eliminate the weekend lag in U.S. Treasuries",
-      "url": "https://www.coindesk.com/business/2026/07/23/24-7-financial-rails-how-bny-plans-to-eliminate-the-weekend-lag-in-u-s-treasuries",
-      "published_at": "2026-07-23T08:42:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "New Verus-Ethereum bridge attack drains $7.5 million through flaw used in May: Blockaid",
-      "url": "https://www.theblock.co/post/409489/new-verus-ethereum-bridge-attack?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-23T08:37:38+00:00",
-      "summary": "A second Verus-Ethereum bridge exploit in two months drained $7.54 million through the same vulnerability class used in May, per Blockaid.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "bridge",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Home invasions became most common crypto wrench attack in H1 2026: CertiK",
-      "url": "https://cointelegraph.com/news/crypto-home-invasions-wrench-attacks-certik-h1-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T08:29:24+00:00",
-      "summary": "Crypto home invasions rose to 20 in H1 2026 from one a year earlier, while France accounted for 33 of 52 verified wrench attacks, according to CertiK.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitMEX to shut down after 11 years in crypto derivatives",
-      "url": "https://cointelegraph.com/news/bitmex-crypto-derivatives-exchange-shut-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T08:14:32+00:00",
-      "summary": "BitMEX announced it will shut down operations on Sept. 23, 2026, after owner HDR Global Trading Limited decided to close the crypto exchange.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Mirae Asset completes Korbit acquisition, becomes largest shareholder",
-      "url": "https://cointelegraph.com/news/mirae-asset-korbit-acquisition-largest-shareholder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T07:53:05+00:00",
-      "summary": "Mirae Asset Consulting has become Korbit’s largest shareholder after completing its acquisition, with the exchange saying trading and customer asset protections are unchanged.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "South Korea's oldest crypto exchange is now part of the $1 trillion Mirae Group family",
-      "url": "https://www.coindesk.com/markets/2026/07/23/south-korea-s-oldest-crypto-exchange-is-now-part-of-the-usd800-billion-mirae-group-family",
-      "published_at": "2026-07-23T07:05:42+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin, Ethereum-linked protocols lose $35 million in multiple attacks hours apart",
-      "url": "https://www.coindesk.com/tech/2026/07/23/bitcoin-ethereum-linked-protocols-lose-usd35-million-in-multiple-attacks-hours-apart",
-      "published_at": "2026-07-23T06:38:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lose"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH",
-        "LINK"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Swiss Bank BancaStato Launches Bitcoin Trading Through Sygnum and Avaloq",
-      "url": "https://bitcoinmagazine.com/news/swiss-bank-bancastato-launches-bitcoin",
-      "published_at": "2026-07-23T06:00:00+00:00",
-      "summary": "Bitcoin Magazine\n\nSwiss Bank BancaStato Launches Bitcoin Trading Through Sygnum and Avaloq\nBancaStato has become the latest Swiss bank to offer regulated bitcoin trading through its existing banking apps via Sygnum's infrastructure.\nThis post Swiss Bank BancaStato Launches Bitcoin Trading Through Sygnum and Avaloq first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "South Korea’s Mirae Asset completes acquisition of Korbit crypto exchange",
-      "url": "https://www.theblock.co/post/409485/mirae-asset-completes-acquisition-korbit?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-23T05:01:21+00:00",
-      "summary": "Mirae Asset also plans to increase its stake from 92.06% to 97.15% through an additional deal later this week, local media reported.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Arbitrum-based AFX Trade drained of $24 million after bridge keys compromised",
-      "url": "https://www.coindesk.com/tech/2026/07/23/arbitrum-based-afx-trade-drained-of-usd24-million-after-bridge-keys-compromised",
-      "published_at": "2026-07-23T05:01:06+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Arbitrum",
-        "ARB"
-      ],
-      "topics": [
-        "ai",
-        "bridge"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "XRP whales accumulate as small holders capitulate",
-      "url": "https://www.coindesk.com/markets/2026/07/23/xrp-whales-accumulate-as-small-holders-capitulate",
-      "published_at": "2026-07-23T04:11:13+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "accumulate"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Arbitrum protocol AFX Trade hit by $24 million bridge exploit: Blockaid",
-      "url": "https://www.theblock.co/post/409482/arbitrum-protocol-afx-trade-exploit?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-23T01:39:41+00:00",
-      "summary": "PeckShield flagged that the attacker bridged the stolen funds from Arbitrum to Ethereum and swapped them for 12,467 ETH.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Arbitrum",
-        "ARB"
-      ],
-      "topics": [
-        "ai",
-        "bridge"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bipartisan support ‘critical’ as Democrats push back on GOP crypto bill on ethics grounds",
-      "url": "https://www.theblock.co/post/409470/bipartisan-support-critical-as-democrats-push-back-on-gop-crypto-bill-on-ethics-grounds?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-22T21:57:28+00:00",
-      "summary": "Latest Clarity Act draft is drawing praise from the crypto industry and criticism from Democrats and bankers, highlighting deep divisions.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
