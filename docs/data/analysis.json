@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-23T21:08:55.500729+00:00",
+  "generated_at": "2026-07-24T03:14:05.687280+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.068,
     "label_distribution": {
-      "neutral": 35,
-      "bullish": 13,
-      "bearish": 22
+      "neutral": 37,
+      "bullish": 12,
+      "bearish": 21
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 25
       },
       {
         "coin": "OP",
@@ -20,7 +20,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 10
+        "mentions": 11
       },
       {
         "coin": "SOL",
@@ -36,7 +36,7 @@
       },
       {
         "coin": "Near",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "coin": "ADA",
@@ -58,7 +58,7 @@
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "topic": "exchange",
@@ -66,7 +66,7 @@
       },
       {
         "topic": "sec",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "topic": "stablecoin",
@@ -81,20 +81,123 @@
         "mentions": 4
       },
       {
+        "topic": "mining",
+        "mentions": 3
+      },
+      {
+        "topic": "pow",
+        "mentions": 3
+      },
+      {
         "topic": "yield",
-        "mentions": 3
-      },
-      {
-        "topic": "fed",
-        "mentions": 3
-      },
-      {
-        "topic": "memecoin",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "BitMEX delists 65 trading pairs, derivatives in July amid exchange shutdown",
+      "url": "https://cointelegraph.com/news/bitmex-delists-65-crypto-markets-in-july-amid-exchange-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T02:50:23+00:00",
+      "summary": "BitMEX will have removed 65 derivative contracts and trading pairs in July, compared with just 19 across the first six months of the year.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC sets September talks on move toward 24-hour stock trading",
+      "url": "https://cointelegraph.com/news/sec-to-host-roundtable-on-24-hour-trading-in-us-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T01:18:16+00:00",
+      "summary": "Nasdaq, Cboe and the London Stock Exchange are among major exchanges moving toward longer trading hours.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Black Forest Labs Unveils FLUX 3 AI: Ditches Stills for Video—And Robot Hands",
+      "url": "https://decrypt.co/374189/black-forest-labs-flux-3-image-video-robot-hands",
+      "published_at": "2026-07-23T22:02:41+00:00",
+      "summary": "FLUX 3 is the German AI lab’s first video model, and the same system is already teaching robots to work an Audi assembly line.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Gemini sent $10M in Bitcoin to Trump PAC after joint motion with CFTC",
+      "url": "https://cointelegraph.com/news/gemini-winklevoss-bitcoin-donald-trump-pac-cftc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-23T21:47:39+00:00",
+      "summary": "The Bitcoin donation can be used to support Donald Trump as a New York court considers whether to reverse a $5 million settlement between the CFTC and Gemini.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoinist.App Brings Private Mining Pools to iOS",
+      "url": "https://bitcoinmagazine.com/press-releases/bitcoinist-app-brings-private-mining-pools-to-ios",
+      "published_at": "2026-07-23T21:28:11+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoinist.App Brings Private Mining Pools to iOS\nThe only Bitcoin mining app on the Apple App Store that lets users create private pools, invite friends and family to combine hashpower, and compete with the global Bitcoin hashrate, while payouts go directly to wallets they control.\nThis post Bitcoinist.App Brings Private Mining Pools to iOS first appeared on Bitcoin Magazine and is written by Bitcoin Magazine.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "mining",
+        "pos",
+        "pow",
+        "wallet"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Coinbase lets businesses accept USDC payments from AI agents",
@@ -990,29 +1093,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Strategy-led group pledges $15M to quantum-proof Bitcoin network",
-      "url": "https://cointelegraph.com/news/strategy-consortium-15m-quantum-proof-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T13:03:18+00:00",
-      "summary": "A consortium led by Strategy and BlackRock has pledged $15 million to secure the Bitcoin network from the threat of a quantum computing breakthrough.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "breakthrough",
-          "secure"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "The KIDS Act is way worse than digital carding — it is a mass surveillance system",
       "url": "https://www.coindesk.com/opinion/2026/07/23/the-kids-act-is-way-worse-than-digital-carding-it-is-a-mass-surveillance-system",
@@ -1090,93 +1170,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Southeast Asian Scam Networks Cost Victims Up to $114B in a Year: UN",
-      "url": "https://decrypt.co/374140/southeast-asian-scam-networks-cost-victims-up-to-114b-in-a-year-un",
-      "published_at": "2026-07-23T12:34:20+00:00",
-      "summary": "Once-fragmented syndicates have fused into a single, tech-driven criminal economy that increasingly runs on crypto, the UNODC warns.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "scam",
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitget secures license for New Zealand expansion",
-      "url": "https://cointelegraph.com/news/bitget-secures-license-new-zealand-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T12:33:07+00:00",
-      "summary": "Crypto exchange Bitget said it was registered as a financial service provider with New Zealand’s financial regulator, enabling it to expand its services in the country.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Wall Street Moving Onchain Will Drive the Next Bull Market",
-      "url": "https://decrypt.co/374139/morning-minute-wall-street-moving-onchain-will-drive-the-next-bull-market",
-      "published_at": "2026-07-23T12:02:52+00:00",
-      "summary": "At least that's what Bitwise's CIO believes. Plus Republicans publish new Clarity Act draft, and the SEC Commissioner has a warning for DeFi.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "defi",
-        "onchain",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitMEX token crashes 90% as exchange announces shutdown",
-      "url": "https://cointelegraph.com/markets/bitmex-token-crashes-90-as-exchange-announces-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-23T12:02:00+00:00",
-      "summary": "BitMEX’s BMEX token plunged about 90% after the exchange announced plans to shut down, ending nearly 12 years in business as its Bitcoin futures market share shrank.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crashes",
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "exchange",
-        "futures"
-      ]
     }
   ]
 }
