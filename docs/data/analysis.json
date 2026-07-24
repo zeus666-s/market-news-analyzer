@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T17:41:13.282462+00:00",
+  "generated_at": "2026-07-24T21:08:09.377663+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.025,
     "label_distribution": {
-      "bullish": 15,
-      "bearish": 18,
-      "neutral": 37
+      "bearish": 19,
+      "neutral": 37,
+      "bullish": 14
     },
     "top_coins": [
       {
@@ -16,23 +16,23 @@
       },
       {
         "coin": "OP",
-        "mentions": 12
+        "mentions": 13
       },
       {
         "coin": "ETH",
-        "mentions": 7
+        "mentions": 8
+      },
+      {
+        "coin": "FIL",
+        "mentions": 6
       },
       {
         "coin": "SOL",
         "mentions": 5
       },
       {
-        "coin": "FIL",
-        "mentions": 5
-      },
-      {
         "coin": "BTC",
-        "mentions": 4
+        "mentions": 3
       },
       {
         "coin": "Tron",
@@ -43,11 +43,11 @@
         "mentions": 2
       },
       {
-        "coin": "Binance",
+        "coin": "Cardano",
         "mentions": 1
       },
       {
-        "coin": "Near",
+        "coin": "Binance",
         "mentions": 1
       }
     ],
@@ -58,26 +58,26 @@
       },
       {
         "topic": "pos",
-        "mentions": 20
+        "mentions": 19
       },
       {
         "topic": "stablecoin",
-        "mentions": 10
-      },
-      {
-        "topic": "exchange",
         "mentions": 7
       },
       {
-        "topic": "sec",
-        "mentions": 6
+        "topic": "mining",
+        "mentions": 5
       },
       {
-        "topic": "mining",
+        "topic": "exchange",
+        "mentions": 5
+      },
+      {
+        "topic": "sec",
         "mentions": 4
       },
       {
-        "topic": "yield",
+        "topic": "wallet",
         "mentions": 3
       },
       {
@@ -85,16 +85,233 @@
         "mentions": 3
       },
       {
-        "topic": "etf",
+        "topic": "defi",
         "mentions": 2
       },
       {
-        "topic": "rwa",
+        "topic": "etf",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Strive’s SATA recovers most of June decline, trades within 3% of par",
+      "url": "https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T21:02:22+00:00",
+      "summary": "Jan3 CEO Samson Mow says the recovery could signal renewed confidence in preferred-share products used by Bitcoin treasury companies.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "decline"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "$7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/fidelity-backs-crypto-clarity-act",
+      "published_at": "2026-07-24T20:36:04+00:00",
+      "summary": "Bitcoin Magazine\n\n$7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act\nThe investment giant is the latest big player to back the bill. \nThis post $7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners",
+      "url": "https://bitcoinmagazine.com/news/state-department-tech-program-with-bitcoin",
+      "published_at": "2026-07-24T20:20:05+00:00",
+      "summary": "Bitcoin Magazine\n\nState Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners\nThe initiative wants to protect free expression online.\nThis post State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "House passes bill on lawmakers using insider information for stock trading",
+      "url": "https://cointelegraph.com/news/house-bill-lawmakers-insider-information-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T20:05:50+00:00",
+      "summary": "According to Senator Elizabeth Warren, the House bill “won’t solve the problem“ of insider trading in Congress as lawmakers will still be allowed to own and sell stocks.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sell"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Samsung Wallet Will Add Stablecoin Support, Including USDC",
+      "url": "https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc",
+      "published_at": "2026-07-24T19:30:01+00:00",
+      "summary": "Samsung showed a wallet mockup holding Circle's USDC at Galaxy Unpacked. But details are scarce.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin",
+        "usdc",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T19:03:45+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Cardano co-founder Hoskinson says Bitcoin could lose top spot if governance fails quantum test",
+      "url": "https://www.theblock.co/post/409627/cardano-co-founder-hoskinson-bitcoin-lose-top-spot-governance-fails-quantum-test?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-24T19:01:53+00:00",
+      "summary": "Cardano’s governance and ability to enact upgrades make it better equipped to respond to existential technical threats, said Hoskinson.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "upgrades"
+        ],
+        "negative_hits": [
+          "fails",
+          "lose"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Cardano",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Claude Opus 5 Outscores Fable 5 on Most Benchmarks—At Half the Price",
+      "url": "https://decrypt.co/374305/claude-opus-5-outscores-fable-5-most-benchmarks-half-price",
+      "published_at": "2026-07-24T18:28:43+00:00",
+      "summary": "Anthropic's new everyday model undercuts its own frontier product on cost and beats it almost everywhere that counts.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Clarity Act on the Ropes as Ethics Fight and Shrinking Calendar Threaten Passage",
+      "url": "https://decrypt.co/374300/clarity-act-ethics-fight-shrinking-calendar-threaten-passage",
+      "published_at": "2026-07-24T17:50:26+00:00",
+      "summary": "Senate Majority Leader John Thune signals the crypto market-structure bill likely won't clear the chamber before the August recess, as Democrats reject the GOP's ethics language and analysts slash the odds of passage.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Poolin, Once One of Bitcoin's Biggest Mining Pools, Files for Bankruptcy",
+      "url": "https://decrypt.co/374289/poolin-bitcoin-biggest-mining-pools-files-bankruptcy",
+      "published_at": "2026-07-24T17:44:48+00:00",
+      "summary": "The Singapore-based pool never recovered from freezing withdrawals in 2022. Now it's auctioning off its last Texas mining sites to pay back 11,700 users still holding IOUs.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "recovered"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "FIL"
+      ],
+      "topics": [
+        "mining"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Wise plans to resubmit national trust bank application under GENIUS Act framework",
@@ -913,229 +1130,6 @@
       ],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BitMEX faces proposed class-action suit for theft, insider trading as crypto exchange shuts down",
-      "url": "https://www.coindesk.com/business/2026/07/24/bitmex-faces-proposed-class-action-suit-for-theft-insider-trading-as-crypto-exchange-shuts-down",
-      "published_at": "2026-07-24T09:54:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "theft"
-        ]
-      },
-      "coins": [
-        "Sui",
-        "OP"
-      ],
-      "topics": [
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Former bitcoin miner Poolin files Chapter 11, sets $52 million floor bid for Texas operations",
-      "url": "https://www.theblock.co/post/409587/former-bitcoin-miner-poolin-files-chapter-11-sets-52-million-floor-bid-for-texas-operations?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-24T09:52:26+00:00",
-      "summary": "Poolin Technology filed for Chapter 11 with $173 million in claims, lining up a $52 million stalking-horse bid for its Texas mining assets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "FIL",
-        "APT",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "mining"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BTC supply in profit eyes 60%, but analysis hints recovery may ‘roll back over’",
-      "url": "https://cointelegraph.com/markets/btc-supply-profit-analysis-hints-recovery-roll-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T09:43:07+00:00",
-      "summary": "Bitcoin supply profitability improved versus its 2026 low, but analysis warned that a fake recovery had already broken down at the start of June.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "profit",
-          "recovery"
-        ],
-        "negative_hits": [
-          "down",
-          "warned"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Polymarket Account in Farage Backer's Name Took $9M in Crypto From Unknown Sources: FT",
-      "url": "https://decrypt.co/374212/polymarket-account-in-farage-backers-name-took-9m-in-crypto-from-unknown-sources-ft",
-      "published_at": "2026-07-24T09:40:50+00:00",
-      "summary": "The \"GCottrell93\" account bet the funds on Trump's election win and cashed out the profit, though who paid in and who collected is unclear.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "profit",
-          "win"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korea’s Korbit to rebrand as Digital X under Mirae: Report",
-      "url": "https://cointelegraph.com/news/korbit-rebrand-digital-x-mirae-asset?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T08:51:13+00:00",
-      "summary": "Mirae Asset reportedly plans to use the South Korean crypto exchange as a hub for tokenized assets, stablecoins and digital finance.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ripple launches Mint to expand institutional access to RLUSD",
-      "url": "https://cointelegraph.com/news/ripple-mint-expand-institutional-access-rlusd?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T08:47:01+00:00",
-      "summary": "Ripple launches Mint to expand RLUSD access for institutions as the stablecoin’s market cap approaches $1.6 billion.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin gives up gains, falls below $64,000 as stocks retreat",
-      "url": "https://www.coindesk.com/tech/2026/07/24/live-updates-dogecoin-and-ether-lead-pullback-as-investors-digest-tech-earnings",
-      "published_at": "2026-07-24T07:22:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "The Largest Stablecoins Ranked",
-      "url": "https://www.theblock.co/learn/409203/largest-stablecoins-ranked?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-24T06:18:31+00:00",
-      "summary": "In recent years, stablecoins have emerged as crypto’s breakout use case. Assets that were created to streamline cryptocurrency trading are now being recognized as a more efficient, flexible, transparent medium of exchange for the world financial system. The total stablecoin market cap has surged on the back of this newfound attention, growing to $300 billion [&hellip;]",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "How Do Stablecoins Maintain Their Peg?",
-      "url": "https://www.theblock.co/learn/409577/how-do-stablecoins-maintain-their-peg?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-24T06:01:11+00:00",
-      "summary": "A stablecoin peg is the target price a stablecoin is designed to hold. For the vast majority of stablecoins, this target is one U.S. dollar. Stablecoins maintain that price through two mechanisms. The first is reserves or collateral that give each token its underlying value; the second is an arbitrage process that returns the market [&hellip;]",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ARB"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Black Forest Labs Unveils FLUX 3 AI: Ditches Stills for Video—And Robot Hands",
-      "url": "https://decrypt.co/374189/black-forest-labs-flux-3-image-video-robot-hands",
-      "published_at": "2026-07-23T22:02:41+00:00",
-      "summary": "FLUX 3 is the German AI lab’s first video model, and the same system is already teaching robots to work an Audi assembly line.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
       ]
     }
   ]
