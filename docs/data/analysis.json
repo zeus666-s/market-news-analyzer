@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T13:53:54.664864+00:00",
+  "generated_at": "2026-07-24T17:41:13.282462+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.059,
+    "market_sentiment_score": -0.025,
     "label_distribution": {
-      "neutral": 33,
-      "bullish": 13,
-      "bearish": 24
+      "bullish": 15,
+      "bearish": 18,
+      "neutral": 37
     },
     "top_coins": [
       {
@@ -20,53 +20,53 @@
       },
       {
         "coin": "ETH",
-        "mentions": 8
-      },
-      {
-        "coin": "FIL",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "SOL",
-        "mentions": 6
-      },
-      {
-        "coin": "BTC",
         "mentions": 5
       },
       {
-        "coin": "Near",
-        "mentions": 3
+        "coin": "FIL",
+        "mentions": 5
+      },
+      {
+        "coin": "BTC",
+        "mentions": 4
+      },
+      {
+        "coin": "Tron",
+        "mentions": 2
       },
       {
         "coin": "LINK",
         "mentions": 2
       },
       {
-        "coin": "Sui",
-        "mentions": 2
+        "coin": "Binance",
+        "mentions": 1
       },
       {
-        "coin": "APT",
-        "mentions": 2
+        "coin": "Near",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "topic": "pos",
-        "mentions": 21
-      },
-      {
-        "topic": "exchange",
-        "mentions": 11
+        "mentions": 20
       },
       {
         "topic": "stablecoin",
         "mentions": 10
+      },
+      {
+        "topic": "exchange",
+        "mentions": 7
       },
       {
         "topic": "sec",
@@ -74,27 +74,415 @@
       },
       {
         "topic": "mining",
-        "mentions": 6
+        "mentions": 4
+      },
+      {
+        "topic": "yield",
+        "mentions": 3
       },
       {
         "topic": "dai",
-        "mentions": 5
-      },
-      {
-        "topic": "miner",
         "mentions": 3
       },
       {
-        "topic": "defi",
-        "mentions": 3
+        "topic": "etf",
+        "mentions": 2
       },
       {
-        "topic": "memecoin",
+        "topic": "rwa",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Wise plans to resubmit national trust bank application under GENIUS Act framework",
+      "url": "https://www.theblock.co/post/409631/wise-plans-resubmit-national-trust-bank-application-under-genius-act-framework?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-24T17:37:34+00:00",
+      "summary": "The OCC has granted conditional approval to several stablecoin-focused entities since December.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "approval",
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "National Fraternal Order of Police Gives Green Light to Clarity Act in Latest Support for Crypto Bill",
+      "url": "https://bitcoinmagazine.com/news/fraternal-order-police-support-clarity-act",
+      "published_at": "2026-07-24T17:07:18+00:00",
+      "summary": "Bitcoin Magazine\n\nNational Fraternal Order of Police Gives Green Light to Clarity Act in Latest Support for Crypto Bill\nA number of organizations have thrown support behind the bill this week. \nThis post National Fraternal Order of Police Gives Green Light to Clarity Act in Latest Support for Crypto Bill first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto advocacy groups support CLARITY passage as ethics rules face pushback",
+      "url": "https://cointelegraph.com/news/crypto-advocacy-groups-support-clarity-act-pushback-ethics-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T16:55:14+00:00",
+      "summary": "The window for US lawmakers to address a comprehensive crypto market structure bill before the 2026 elections is closing, and industry organizations are calling for action.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Nvidia, Meta, and Microsoft Tell Washington: Don't Kill Open-Source AI",
+      "url": "https://decrypt.co/374282/nvidia-meta-microsoft-washington-dont-kill-open-source-ai",
+      "published_at": "2026-07-24T16:34:25+00:00",
+      "summary": "Twenty-five companies signed a letter defending open-weight models days after a Chinese AI helped Hugging Face survive a hack triggered by OpenAI's own systems.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Strategy Overhauls Bitcoin Metrics, Debuting 'Net Bitcoin Per Share'",
+      "url": "https://decrypt.co/374281/strategy-overhauls-bitcoin-metrics-debuting-net-bitcoin-per-share",
+      "published_at": "2026-07-24T16:21:52+00:00",
+      "summary": "The firm says its \"digital credit\" shift needs new yardsticks that strip out debt and preferred claims to show what common shareholders own.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Sealed in Foil: BMAG’s New Focus on Trading Cards",
+      "url": "https://bitcoinmagazine.com/culture/sealed-in-foil-bmags-new-focus-on-trading-cards",
+      "published_at": "2026-07-24T16:20:25+00:00",
+      "summary": "Bitcoin Magazine\n\nSealed in Foil: BMAG&#8217;s New Focus on Trading Cards\nFrom rare pulls to provable ownership, BMAG explores why trading cards and Bitcoin share the same foundations of authenticity, scarcity, and value.\nThis post Sealed in Foil: BMAG&#8217;s New Focus on Trading Cards first appeared on Bitcoin Magazine and is written by Dennis Koch.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin ETFs Shed $225M, Snapping Seven-Day Inflow Streak as Iran Tensions Spook Markets",
+      "url": "https://decrypt.co/374260/bitcoin-etfs-shed-225m-snapping-inflow-streak-iran-tensions",
+      "published_at": "2026-07-24T16:17:37+00:00",
+      "summary": "BlackRock's IBIT led the exit as Bitcoin briefly dipped under $65,000 and stocks fell on renewed US-Iran hostilities—though the week still closed in the green.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Top Crypto Industry Groups Pen Letter to Senate Leaders Urging Them To Support the Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/crypto-industry-groups-support-the-clarity",
+      "published_at": "2026-07-24T16:05:35+00:00",
+      "summary": "Bitcoin Magazine\n\nTop Crypto Industry Groups Pen Letter to Senate Leaders Urging Them To Support the Clarity Act\nThree advocacy groups are the latest to throw their support behind the crypto market structure bill. \nThis post Top Crypto Industry Groups Pen Letter to Senate Leaders Urging Them To Support the Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Internet Freedom Foundation calls India’s BitChat GitHub takedown order ‘unconstitutional’",
+      "url": "https://cointelegraph.com/news/internet-freedom-foundation-calls-indias-bitchat-github-takedown-order-unconstitutional?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T16:04:30+00:00",
+      "summary": "The digital rights group says India’s order to remove Jack Dorsey’s BitChat repositories from GitHub exceeds the government’s legal authority and threatens free speech.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto Biz: Is the AI-to-crypto rotation underway?",
+      "url": "https://cointelegraph.com/news/crypto-biz-ai-to-crypto-rotation-bitcoin-etf-inflows-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T15:15:57+00:00",
+      "summary": "Bitcoin ETF inflows, cooling AI momentum and potential regulatory progress under the CLARITY Act are fueling speculation that capital is rotating back into crypto.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "regulatory",
+        "rwa"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Galaxy cuts Clarity Act passage odds to 30%, says bill needs ‘last-ditch effort’",
+      "url": "https://www.theblock.co/post/409608/galaxy-says-clarity-act-now-needs-last-ditch-effort-cuts-passage-odds-30?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-24T15:11:17+00:00",
+      "summary": "Seven Democratic negotiators say the latest Clarity Act draft needs stronger ethics and consumer protections.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "Tron"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "World Foundation raises $52.5M in Pantera-led funding to expand World ID infrastructure",
+      "url": "https://cointelegraph.com/news/world-foundation-funding-led-by-pantera-world-id-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T15:09:33+00:00",
+      "summary": "The organization sold locked WLD tokens to strategic investors as it seeks to grow its biometric identity network amid rising demand for human verification online.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
+      "url": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
+      "published_at": "2026-07-24T15:01:46+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
+      "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
+      "published_at": "2026-07-24T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "World Foundation Raises $52.5M to Scale Sam Altman’s ‘Proof of Human’ ID",
+      "url": "https://decrypt.co/374216/world-foundation-raises-52-5m-to-scale-sam-altmans-proof-of-human-id",
+      "published_at": "2026-07-24T14:57:56+00:00",
+      "summary": "Pantera Capital led the one-year locked token sale, joined by Bain Capital Crypto, as World scales its ID network for AI agents.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "World Foundation raises $52.5 million in WLD token sale with one-year lockup",
+      "url": "https://www.theblock.co/post/409610/world-foundation-wld-token-sale-funding?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-24T14:50:40+00:00",
+      "summary": "The \"first close\" of the WLD token sale was led by Pantera and included Bain Capital Crypto, Eightco Holdings, Selini, Susquehanna other investors.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Institutional crypto trading platform LMAX is exploring sale, IPO",
+      "url": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo",
+      "published_at": "2026-07-24T14:36:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin falls under $64K as surging US bond yields boost Fed rate-hike odds",
+      "url": "https://cointelegraph.com/markets/bitcoin-falls-under-64k-us-bond-yields-fed-rate-hike-odds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-24T14:28:03+00:00",
+      "summary": "Bitcoin saw several dips under the $64,000 mark as a Binance “plunge protection team” reemerged with bid liquidity to avoid a deeper BTC price rout.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "boost"
+        ],
+        "negative_hits": [
+          "falls",
+          "plunge"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Binance"
+      ],
+      "topics": [
+        "fed",
+        "liquidity",
+        "yield"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "EU Names Justin Sun's HTX in Russia Sanctions, Two Months After UK",
+      "url": "https://decrypt.co/374245/eu-names-justin-suns-htx-in-russia-sanctions-two-months-after-uk",
+      "published_at": "2026-07-24T14:21:37+00:00",
+      "summary": "The 21st package stops short of a full asset freeze for HTX, which it accused of \"significantly frustrating\" its Russia measures.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Democrats Push Back on GOP Ethics Text as Thune Doubts a Pre-Recess Clarity Vote",
@@ -666,54 +1054,8 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin mining pool Poolin files for Chapter 11 bankruptcy",
-      "url": "https://cointelegraph.com/news/bitcoin-mining-poolin-chapter-11-bankruptcy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T08:38:49+00:00",
-      "summary": "Bitcoin miner Poolin filed for Chapter 11 bankruptcy and initiated a $52 million sale of its two West Texas mining sites as part of its future creditor recovery program.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "FIL",
-        "APT"
-      ],
-      "topics": [
-        "miner",
-        "mining"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "EU widens Belarus ownership ban to all crypto service providers",
-      "url": "https://cointelegraph.com/news/eu-belarus-crypto-ownership-ban-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T08:06:15+00:00",
-      "summary": "The EU will bar Belarusian nationals and residents from owning, controlling or managing exchanges and other MiCA-regulated crypto firms from Aug. 25.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
       "source": "CoinDesk",
-      "title": "Live updates: Dogecoin and ether lead pullback as investors digest tech earnings",
+      "title": "Live updates: Bitcoin gives up gains, falls below $64,000 as stocks retreat",
       "url": "https://www.coindesk.com/tech/2026/07/24/live-updates-dogecoin-and-ether-lead-pullback-as-investors-digest-tech-earnings",
       "published_at": "2026-07-24T07:22:26+00:00",
       "summary": "",
@@ -721,83 +1063,18 @@
         "score": 0,
         "normalized": 0.0,
         "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "Dogecoin",
-        "DOGE"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs snap 7-day inflow streak with $225M in outflows",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-225-million-outflow-end-7-day-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T07:17:57+00:00",
-      "summary": "After attracting nearly $1 billion over seven trading sessions, US-listed spot Bitcoin ETFs recorded their first daily net outflow since July 13.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ripple’s RLUSD gets two boosts as transfer volume drops 25%",
-      "url": "https://www.coindesk.com/business/2026/07/24/ripple-s-rlusd-gets-two-boosts-as-transfer-volume-drops-25",
-      "published_at": "2026-07-24T06:33:37+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
         "positive_hits": [
-          "boosts"
+          "gains"
         ],
         "negative_hits": [
-          "drops"
+          "falls"
         ]
-      },
-      "coins": [
-        "Ripple",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T06:24:36+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
       },
       "coins": [
         "Bitcoin"
       ],
       "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
+        "ai"
       ]
     },
     {
@@ -819,26 +1096,6 @@
       "topics": [
         "exchange",
         "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before",
-      "url": "https://www.coindesk.com/markets/2026/07/24/mirae-asset-has-a-name-for-what-it-s-building-with-korbit-an-intelligent-platform",
-      "published_at": "2026-07-24T06:10:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "exchange"
       ]
     },
     {
@@ -864,56 +1121,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "BitMEX hit with 623 BTC lawsuit on day it announces shutdown",
-      "url": "https://cointelegraph.com/news/bitmex-liquidation-fraud-lawsuit-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T05:20:11+00:00",
-      "summary": "The proposed class action alleges BitMEX used privileged trading access and server freezes to profit from forced liquidations.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": [
-          "lawsuit",
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "BTC",
-        "Sui",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched",
-      "url": "https://www.coindesk.com/markets/2026/07/24/bitcoin-holds-near-usd65-000-as-usd800-billion-ai-selloff-leaves-crypto-largely-untouched",
-      "published_at": "2026-07-24T04:43:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Black Forest Labs Unveils FLUX 3 AI: Ditches Stills for Video—And Robot Hands",
       "url": "https://decrypt.co/374189/black-forest-labs-flux-3-image-video-robot-hands",
@@ -930,251 +1137,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoinist.App Brings Private Mining Pools to iOS",
-      "url": "https://bitcoinmagazine.com/press-releases/bitcoinist-app-brings-private-mining-pools-to-ios",
-      "published_at": "2026-07-23T21:28:11+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoinist.App Brings Private Mining Pools to iOS\nThe only Bitcoin mining app on the Apple App Store that lets users create private pools, invite friends and family to combine hashpower, and compete with the global Bitcoin hashrate, while payouts go directly to wallets they control.\nThis post Bitcoinist.App Brings Private Mining Pools to iOS first appeared on Bitcoin Magazine and is written by Bitcoin Magazine.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "mining",
-        "pos",
-        "pow",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Goldman Sachs CEO Breaks With Wall Street to Back Crypto Clarity Act",
-      "url": "https://decrypt.co/374186/goldman-sachs-ceo-breaks-wall-street-crypto-clarity-act",
-      "published_at": "2026-07-23T20:44:09+00:00",
-      "summary": "Solomon's endorsement splits with JP Morgan's Jamie Dimon and banking trade groups, who warn the bill's stablecoin-yield provisions could pull deposits away from traditional lenders.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "pos",
-        "stablecoin",
-        "yield"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Elizabeth Warren Claims Clarity Act Would Help Trump — And ‘Criminals and Cartels’",
-      "url": "https://bitcoinmagazine.com/news/elizabeth-warren-slams-clarity-act",
-      "published_at": "2026-07-23T20:44:09+00:00",
-      "summary": "Bitcoin Magazine\n\nElizabeth Warren Claims Clarity Act Would Help Trump — And &#8216;Criminals and Cartels&#8217;\nThe anti-crypto senator claims the latest Clarity bill draft would allow the president to cash in. \nThis post Elizabeth Warren Claims Clarity Act Would Help Trump — And &#8216;Criminals and Cartels&#8217; first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Nasdaq-Listed Zhibao Wants a Bitcoin Treasury, Plans to Sell $220M in Stock for BTC",
-      "url": "https://decrypt.co/374178/nasdaq-listed-zhibao-bitcoin-treasury-220-million-stock-sale",
-      "published_at": "2026-07-23T20:12:19+00:00",
-      "summary": "A Shanghai-based insurance-tech company trading below $1 wants to build a bitcoin treasury by taking BTC directly as payment for new shares.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Smarter Web Company Sells Bitcoin to Clear $11.7 Million Debt Facility",
-      "url": "https://bitcoinmagazine.com/news/smarter-web-company-sells-bitcoin",
-      "published_at": "2026-07-23T19:50:36+00:00",
-      "summary": "Bitcoin Magazine\n\nSmarter Web Company Sells Bitcoin to Clear $11.7 Million Debt Facility\nThe Smarter Web Company sold 177.89 BTC for $11.7 million to repay a convertible debt facility early, avoiding shareholder dilution while retaining a treasury of 2,700 BTC.\nThis post Smarter Web Company Sells Bitcoin to Clear $11.7 Million Debt Facility first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Robinhood CEO Vlad Tenev's X Account Hacked to Shill Fake 'Vladhood' Token",
-      "url": "https://decrypt.co/374175/robinhood-ceo-vlad-tenevs-x-account-hacked-to-shill-fake-vladhood-token",
-      "published_at": "2026-07-23T19:27:57+00:00",
-      "summary": "The deleted post touted a bogus \"Vladhood\" token as the mascot of Robinhood Chain—the latest fraud to exploit a network currently dominated by memes.",
-      "sentiment": {
-        "score": -9,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "fraud",
-          "hacked"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Slumps But These Mining Stocks Are Up Thanks to AI Deals",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-is-down-but-mining-stocks-are-up",
-      "published_at": "2026-07-23T19:05:36+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Slumps But These Mining Stocks Are Up Thanks to AI Deals\nBitcoin is selling off and so is the stock market — but mining stocks are on a tear. \nThis post Bitcoin Slumps But These Mining Stocks Are Up Thanks to AI Deals first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "mining",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin May Have Already Bottomed—If the Fed Helps, Says Grayscale",
-      "url": "https://decrypt.co/374156/bitcoin-price-already-bottomed-fed-helps-grayscale",
-      "published_at": "2026-07-23T18:53:17+00:00",
-      "summary": "The crypto asset manager thinks the four-year cycle is dead, suggesting Bitcoin's price will follow macro forces and the Fed's next move.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "macro"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Robinhood CEO’s X account hacked to promote Vladhood memecoin flagged as ‘scam’",
-      "url": "https://www.theblock.co/post/409560/robinhood-ceo-x-account-apparently-hacked-promote-vladhood-memecoin-flagged-scam?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-23T17:55:02+00:00",
-      "summary": "Robinhood Chain has seen cumulative DEX volume of about $9 billion, primarily driven by higher-risk memecoins, per Entropy Advisors.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hacked",
-          "scam"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dex",
-        "memecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Brazilian Farmers Are Tokenizing Cows to Get Farm Loans—And It's Working",
-      "url": "https://decrypt.co/374148/brazilian-farmers-cows-blockchain-loans",
-      "published_at": "2026-07-23T17:31:17+00:00",
-      "summary": "The first tokenized livestock deal on Brazil's stock exchange offers dairy farmers a lifeline as the sector's credit crisis deepens.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "dai",
-        "exchange",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "MoonPay now accepts Discover Network cards for crypto purchases and sales in US",
-      "url": "https://www.theblock.co/post/409536/moonpay-discover-network-card-payments-crypto?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-23T17:05:36+00:00",
-      "summary": "The addition makes Discover the third major U.S. card network supported by MoonPay, alongside Visa and Mastercard.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
