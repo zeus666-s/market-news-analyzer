@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-26T17:07:13.508271+00:00",
+  "generated_at": "2026-07-26T21:02:37.428628+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.023,
     "label_distribution": {
-      "bullish": 12,
-      "bearish": 19,
-      "neutral": 39
+      "bullish": 13,
+      "neutral": 37,
+      "bearish": 20
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 17
       },
       {
         "coin": "ETH",
@@ -24,15 +24,19 @@
       },
       {
         "coin": "Near",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "BTC",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "coin": "FIL",
         "mentions": 2
+      },
+      {
+        "coin": "Sui",
+        "mentions": 1
       },
       {
         "coin": "Binance",
@@ -45,10 +49,6 @@
       {
         "coin": "Cardano",
         "mentions": 1
-      },
-      {
-        "coin": "Tron",
-        "mentions": 1
       }
     ],
     "top_topics": [
@@ -58,15 +58,15 @@
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
+      },
+      {
+        "topic": "sec",
+        "mentions": 6
       },
       {
         "topic": "exchange",
         "mentions": 6
-      },
-      {
-        "topic": "sec",
-        "mentions": 5
       },
       {
         "topic": "etf",
@@ -77,24 +77,90 @@
         "mentions": 4
       },
       {
-        "topic": "dai",
-        "mentions": 3
-      },
-      {
         "topic": "mining",
         "mentions": 3
       },
       {
-        "topic": "defi",
+        "topic": "dai",
         "mentions": 2
       },
       {
         "topic": "dex",
         "mentions": 2
+      },
+      {
+        "topic": "wallet",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Michael Saylor teases ‘another color’ after four straight weeks without a Strategy bitcoin buy",
+      "url": "https://www.theblock.co/post/409675/michael-saylor-teases-another-color-after-four-straight-weeks-without-a-strategy-bitcoin-buy?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-26T20:49:10+00:00",
+      "summary": "Strategy holds 843,775 BTC at an average cost of $75,476, leaving the position roughly $9.3 billion underwater with bitcoin near $64,600.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "rwa"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "2 weeks left for Clarity: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/07/26/2-weeks-left-for-clarity-state-of-crypto",
+      "published_at": "2026-07-26T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC issues second warning to prediction markets on cookie-cutter self-certifications",
+      "url": "https://cointelegraph.com/news/cftc-issues-second-warning-to-prediction-markets-on-cookie-cutter-self-certifications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-26T17:45:05+00:00",
+      "summary": "For the second time this year, the regulator told prediction markets to stop issuing overly broad, template-style certifications of events contracts.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "cftc",
+        "sec"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Russia’s Sberbank to launch crypto trading infrastructure this year",
@@ -195,29 +261,6 @@
       "coins": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T12:04:52+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -1067,43 +1110,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
-      "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
-      "published_at": "2026-07-24T15:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "World Foundation Raises $52.5M to Scale Sam Altman’s ‘Proof of Human’ ID",
-      "url": "https://decrypt.co/374216/world-foundation-raises-52-5m-to-scale-sam-altmans-proof-of-human-id",
-      "published_at": "2026-07-24T14:57:56+00:00",
-      "summary": "Pantera Capital led the one-year locked token sale, joined by Bain Capital Crypto, as World scales its ID network for AI agents.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
     }
   ]
 }
