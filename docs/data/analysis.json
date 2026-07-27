@@ -1,100 +1,254 @@
 {
-  "generated_at": "2026-07-26T21:02:37.428628+00:00",
+  "generated_at": "2026-07-27T03:34:57.111051+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.023,
     "label_distribution": {
-      "bullish": 13,
+      "bearish": 21,
       "neutral": 37,
-      "bearish": 20
+      "bullish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 18
       },
       {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 5
       },
       {
-        "coin": "Near",
-        "mentions": 4
+        "coin": "SOL",
+        "mentions": 3
+      },
+      {
+        "coin": "FIL",
+        "mentions": 3
       },
       {
         "coin": "BTC",
         "mentions": 3
       },
       {
-        "coin": "FIL",
+        "coin": "Near",
+        "mentions": 3
+      },
+      {
+        "coin": "APT",
         "mentions": 2
       },
       {
         "coin": "Sui",
-        "mentions": 1
+        "mentions": 2
       },
       {
-        "coin": "Binance",
-        "mentions": 1
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 1
-      },
-      {
-        "coin": "Cardano",
+        "coin": "LINK",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 29
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 15
       },
       {
         "topic": "sec",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "topic": "exchange",
-        "mentions": 6
-      },
-      {
-        "topic": "etf",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "topic": "stablecoin",
         "mentions": 4
       },
       {
-        "topic": "mining",
+        "topic": "wallet",
         "mentions": 3
       },
       {
         "topic": "dai",
-        "mentions": 2
+        "mentions": 3
       },
       {
-        "topic": "dex",
-        "mentions": 2
+        "topic": "etf",
+        "mentions": 3
       },
       {
-        "topic": "wallet",
+        "topic": "mining",
+        "mentions": 3
+      },
+      {
+        "topic": "tokenization",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Garden Finance disables app as Blockaid reports $450,000 exploit",
+      "url": "https://cointelegraph.com/news/garden-finance-app-offline-450k-htlc-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T01:58:54+00:00",
+      "summary": "Garden Finance said no user funds or smart contracts were affected after an attacker compromised an independent solver’s off-chain database and inserted fraudulent swap records.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "smart contract"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Storj files for bankruptcy, explores equity path for tokenholders",
+      "url": "https://cointelegraph.com/news/storj-chapter-11-bankruptcy-tokenholder-equity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T01:01:43+00:00",
+      "summary": "The decentralized storage provider says its network will continue operating during Chapter 11 as it explores a court-approved ownership mechanism for STORJ holders.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL",
+        "APT",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CLARITY hopes fade, BitMEX shuts as lawsuit looms: Hodler’s Digest, July 26",
+      "url": "https://cointelegraph.com/magazine/clarity-hopes-fade-bitmex-shuts-as-lawsuit-looms-hodlers-digest-july-27?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T00:03:44+00:00",
+      "summary": "Despite support from Goldman Sachs, Fidelity and law enforcement bodies, the Clarity Act’s chances dim. BitMEX to close as crypto consolidates into five big players.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "SOL",
+        "Sui",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "South Korea trading giant puts receivables onchain in tokenization test with LG CNS",
+      "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns",
+      "published_at": "2026-07-27T00:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "WEMIX says attacker moved about $724,000 after contract breach",
+      "url": "https://cointelegraph.com/news/wemix-attacker-moves-724k-contract-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-26T22:53:55+00:00",
+      "summary": "WEMIX suspended bridges, liquidity-pool trading and several services after an attacker compromised a WEMIX$-linked contract and moved 724,198 USDC.e.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "bridge",
+        "liquidity",
+        "usdc"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Triple-A hot wallet losses climb to $11.8 million as new deposits keep being swept: report",
+      "url": "https://www.theblock.co/post/409678/triple-a-hot-wallet-losses-climb-to-11-8-million-as-new-deposits-keep-being-swept-report?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-26T22:38:54+00:00",
+      "summary": "Triple-A said it is investigating and that customer funds are not affected, though it has not fully addressed the incident publicly.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-26T21:30:00+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Michael Saylor teases ‘another color’ after four straight weeks without a Strategy bitcoin buy",
@@ -595,44 +749,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Fidelity joins push for Senate passage of CLARITY Act",
-      "url": "https://cointelegraph.com/news/fidelity-push-senate-passage-of-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-25T11:32:00+00:00",
-      "summary": "Fidelity called on the US Senate to pass the CLARITY Act, joining industry groups and crypto firms pushing for market structure legislation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Dango’s perp DEX taps out nearly 4 months after launch",
-      "url": "https://cointelegraph.com/news/dangos-perp-dex-taps-nearly-months-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-25T10:05:00+00:00",
-      "summary": "Dango will close its network on Aug. 13, joining BitMEX, Odos and Satori Finance in a wave of recent crypto shutdowns.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "dex"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
       "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
@@ -648,29 +764,6 @@
       "coins": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ethereum ETFs close week in red, end 5-day inflow streak",
-      "url": "https://cointelegraph.com/markets/ethereum-etfs-week-red-end-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-25T07:43:00+00:00",
-      "summary": "Ethereum ETFs snapped a five-day inflow streak and Bitcoin ETFs logged a second day of outflows, though both funds extended their weekly inflow streaks to three.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "etf",
-        "sec"
       ]
     },
     {
@@ -732,48 +825,6 @@
       "topics": [
         "exchange"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "EU authorities include HTX exchange in Russian sanctions",
-      "url": "https://cointelegraph.com/news/htx-exchange-european-union-russia-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T21:53:05+00:00",
-      "summary": "The exchange, already sanctioned by the UK, is now on a list of 18 entities “providing crypto-assets services or payment services“ in defiance of the EU’s measures against Russia.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "defi",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strive’s SATA recovers most of June decline, trades within 3% of par",
-      "url": "https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-24T21:02:22+00:00",
-      "summary": "Jan3 CEO Samson Mow says the recovery could signal renewed confidence in preferred-share products used by Bitcoin treasury companies.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": [
-          "decline"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     },
     {
       "source": "Bitcoin Magazine",
@@ -1075,41 +1126,6 @@
       "topics": [
         "pos"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Galaxy cuts Clarity Act passage odds to 30%, says bill needs ‘last-ditch effort’",
-      "url": "https://www.theblock.co/post/409608/galaxy-says-clarity-act-now-needs-last-ditch-effort-cuts-passage-odds-30?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-24T15:11:17+00:00",
-      "summary": "Seven Democratic negotiators say the latest Clarity Act draft needs stronger ethics and consumer protections.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "Tron"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
-      "url": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
-      "published_at": "2026-07-24T15:01:46+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
