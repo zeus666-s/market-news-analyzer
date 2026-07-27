@@ -1,100 +1,638 @@
 {
-  "generated_at": "2026-07-27T11:29:40.756262+00:00",
+  "generated_at": "2026-07-27T14:46:18.890240+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.043,
+    "market_sentiment_score": -0.041,
     "label_distribution": {
-      "bearish": 24,
-      "neutral": 34,
-      "bullish": 12
+      "neutral": 37,
+      "bullish": 14,
+      "bearish": 19
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 14
       },
       {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 8
       },
       {
-        "coin": "FIL",
-        "mentions": 5
+        "coin": "Near",
+        "mentions": 7
+      },
+      {
+        "coin": "BTC",
+        "mentions": 4
       },
       {
         "coin": "Tron",
-        "mentions": 3
+        "mentions": 4
       },
       {
-        "coin": "APT",
-        "mentions": 3
+        "coin": "FIL",
+        "mentions": 4
       },
       {
         "coin": "SOL",
         "mentions": 3
       },
       {
-        "coin": "BTC",
-        "mentions": 3
+        "coin": "UNI",
+        "mentions": 2
       },
       {
-        "coin": "Near",
-        "mentions": 3
-      },
-      {
-        "coin": "LINK",
+        "coin": "APT",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 33
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 14
+      },
+      {
+        "topic": "wallet",
+        "mentions": 7
+      },
+      {
+        "topic": "sec",
+        "mentions": 6
       },
       {
         "topic": "exchange",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "topic": "etf",
         "mentions": 5
       },
       {
-        "topic": "wallet",
-        "mentions": 5
-      },
-      {
-        "topic": "sec",
+        "topic": "usdc",
         "mentions": 4
       },
       {
-        "topic": "usdc",
-        "mentions": 3
+        "topic": "fed",
+        "mentions": 2
       },
       {
         "topic": "stablecoin",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "topic": "mining",
-        "mentions": 3
-      },
-      {
-        "topic": "fed",
-        "mentions": 1
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Cantor is advising crypto bank AMINA on path to potential public listing",
+      "url": "https://www.coindesk.com/business/2026/07/27/cantor-is-advising-crypto-bank-amina-on-path-to-potential-public-listing",
+      "published_at": "2026-07-27T14:36:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Strategy Skips Bitcoin Again, Buys Back $25M of STRC Stock",
+      "url": "https://bitcoinmagazine.com/news/strategy-skips-bitcoin-buy-again",
+      "published_at": "2026-07-27T14:36:24+00:00",
+      "summary": "Bitcoin Magazine\n\nStrategy Skips Bitcoin Again, Buys Back $25M of STRC Stock\nThe company has not bought Bitcoin now for five weeks. \nThis post Strategy Skips Bitcoin Again, Buys Back $25M of STRC Stock first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitmine adds nearly 10,000 ETH while repurchasing 6.1 million common shares",
+      "url": "https://www.theblock.co/post/409749/bitmine-adds-nearly-10000-eth-repurchasing-6-1-million-common-shares?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T14:22:36+00:00",
+      "summary": "The company has repurchased 11.6 million shares of common stock as part of its $4 billion share repurchase program.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "IBM portfolio acquisition makes Circle the largest US blockchain patent holder",
+      "url": "https://www.theblock.co/post/409750/circle-acquires-ibm-blockchain-patent-portfolio-becomes-largest-us-patent-holder?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T14:19:44+00:00",
+      "summary": "Circle acquired IBM's blockchain patent portfolio of 680+ patent families and nearly 1,000 issued patents.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Lido begins moving $16.5 billion in staked ether to cut validator count by a third",
+      "url": "https://www.coindesk.com/tech/2026/07/27/lido-begins-moving-usd16-5-billion-in-staked-ether-to-cut-validator-count-by-a-third",
+      "published_at": "2026-07-27T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "validator"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Hong Kong crypto giant HashKey merges regional exchange into one",
+      "url": "https://cointelegraph.com/news/hong-kong-crypto-giant-hashkey-merges-its-exchanges-into-one?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T13:41:44+00:00",
+      "summary": "Hong Kong’s HashKey will unify its crypto exchange branches, with users from its Hong Kong, Global, Singapore and Middle East regions using the same platform.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Benchmark reiterates $570 Strategy target, says cash reserve strengthens bitcoin acquisition plan",
+      "url": "https://www.theblock.co/post/409743/benchmark-reiterates-570-strategy-target-says-cash-reserve-strengthens-bitcoin-acquisition-plan?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T13:37:59+00:00",
+      "summary": "Benchmark reiterated its $570 Strategy target, citing disciplined capital allocation, growing cash reserves and continued long-term BTC plan.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growing"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Thailand's SEC alleges Bitkub concealed cyberattack that led to $50 million hack",
+      "url": "https://www.coindesk.com/policy/2026/07/27/thailand-s-sec-alleges-bitkub-concealed-cyberattack-that-led-to-usd50-million-hack",
+      "published_at": "2026-07-27T13:32:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Rate path still divides investors: Five things to know in Bitcoin this week",
+      "url": "https://cointelegraph.com/markets/rate-path-still-divides-investors-five-things-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T13:31:07+00:00",
+      "summary": "Bitcoin traders prepared to navigate a slew of volatility catalysts as US inflation data and US-Iran war triggers keep risk-assets in an unpredictable state.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google",
+      "url": "https://www.coindesk.com/tech/2026/07/27/nvidia-forms-37-member-ai-security-alliance-without-openai-anthropic-or-google",
+      "published_at": "2026-07-27T13:25:58+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance disappears from Google Play in certain EU countries",
+      "url": "https://cointelegraph.com/news/binance-disappears-android-google-play-certain-eu-countries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T13:24:17+00:00",
+      "summary": "Binance’s Android app is unavailable on Google Play in some EU markets amid scrutiny over MiCA compliance.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "USDC issuer Circle to acquire nearly 1,000 IBM blockchain patents",
+      "url": "https://cointelegraph.com/news/circle-to-acquire-nearly-1000-ibm-blockchain-patents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T13:08:55+00:00",
+      "summary": "IBM’s blockchain portfolio includes more than 680 patent families and nearly 1,000 issued patents worldwide, with a particular focus in supply chain applications.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "usdc"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Strategy Adds $525M to Cash Reserve, Skips Bitcoin Buy for Fifth Week",
+      "url": "https://decrypt.co/374369/strategy-adds-525m-to-cash-reserve-skips-bitcoin-buy-for-fifth-week",
+      "published_at": "2026-07-27T13:00:29+00:00",
+      "summary": "The Bitcoin treasury firm also tapped its $1 billion preferred buyback for the first time, spending $25 million on STRC.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
+      "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands",
+      "published_at": "2026-07-27T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto is rewriting how Wall Street traders spend their weekends",
+      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-is-rewriting-how-wall-street-traders-spend-their-weekends",
+      "published_at": "2026-07-27T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitmine buys more ether as Tom Lee says rising ETH/BTC ratio points to stronger crypto prices",
+      "url": "https://www.coindesk.com/business/2026/07/27/bitmine-buys-more-ether-as-tom-lee-says-rising-eth-btc-ratio-points-to-stronger-crypto-prices",
+      "published_at": "2026-07-27T12:55:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "BTC",
+        "ETH",
+        "Tron"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Circle buys nearly 1,000 blockchain patents from IBM",
+      "url": "https://www.coindesk.com/business/2026/07/27/circle-buys-nearly-1-000-blockchain-patents-from-ibm",
+      "published_at": "2026-07-27T12:47:04+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Strategy sells MSTR shares, buys back $25M in STRC preferred stock",
+      "url": "https://cointelegraph.com/news/strategy-sells-mstr-buys-back-25-milllion-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T12:34:36+00:00",
+      "summary": "Strategy raised $544.5 million through MSTR stock sales as it repurchased $25 million of STRC shares and expanded its US dollar reserve to $3.75 billion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": [
+          "sells"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto Firms Pivoting to AI Is 'Zero-Sum' Thinking: Coinbase CEO",
+      "url": "https://decrypt.co/374366/crypto-firms-pivoting-to-ai-is-zero-sum-thinking-coinbase-ceo",
+      "published_at": "2026-07-27T12:27:47+00:00",
+      "summary": "Brian Armstrong says crypto is infrastructure that underpins AI, and that AI agents will need it to transact on their own.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Strategy extends bitcoin pause to five weeks, sells $544.5 million in MSTR as USD reserve hits $3.75 billion",
+      "url": "https://www.theblock.co/post/409721/strategy-extends-bitcoin-pause-to-five-weeks-sells-544-5-million-in-mstr-as-usd-reserve-hits-3-75-billion?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T12:23:19+00:00",
+      "summary": "Strategy bought no bitcoin for a fifth straight week, while raising its USD reserve to $3.75 billion and selling $544.5M in MSTR.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling",
+          "sells"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kraken parent Payward acquires Magic Labs’ embedded wallet business",
+      "url": "https://www.theblock.co/post/409705/kraken-parent-payward-acquires-magic-labs-embedded-wallet-business?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T12:15:00+00:00",
+      "summary": "Magic Labs is selling its wallet business to Payward and rebranding as Newton Labs to focus on onchain finance infrastructure.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Michael Saylor's Strategy boosted cash reserve to $3.75 billion, repurchased $25 million of STRC",
+      "url": "https://www.coindesk.com/markets/2026/07/27/michael-saylor-s-strategy-boosted-cash-reserve-to-usd3-75-billion",
+      "published_at": "2026-07-27T12:12:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boosted"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Tokenized Stocks Jump 5x on Robinhood Chain",
+      "url": "https://decrypt.co/374357/morning-minute-tokenized-stocks-jump-5x-on-robinhood-chain",
+      "published_at": "2026-07-27T12:00:49+00:00",
+      "summary": "Plus markets are green after oil fell 8%; ETH is greatly outpacing BTC in ETF inflows; and another major crypto exchange has shut down",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "fell"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin options traders are dropping their hedges going into the Fed meeting",
+      "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-options-traders-are-dropping-their-hedges-going-into-the-fed-meeting",
+      "published_at": "2026-07-27T11:53:18+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "STORJ token falls 20% as decentralized storage firm files for Chapter 11 bankruptcy amid crypto shutdown wave",
+      "url": "https://www.theblock.co/post/409712/storj-token-falls-20-as-decentralized-storage-firm-files-for-chapter-11-bankruptcy-amid-crypto-shutdown-wave?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T11:31:27+00:00",
+      "summary": "STORJ dropped 19% to $0.06 after Storj Labs filed voluntary Chapter 11 on July 26 to resolve legacy liabilities.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "dropped",
+          "falls"
+        ]
+      },
+      "coins": [
+        "SOL",
+        "FIL",
+        "APT",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "SparkKitty malware hidden in mobile apps scans photos for crypto wallet seed phrases",
+      "url": "https://www.theblock.co/post/409716/sparkkitty-malware-hidden-in-mobile-apps-scans-photos-for-crypto-wallet-seed-phrases?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T11:30:05+00:00",
+      "summary": "Check Point detailed SparkKitty, malware hidden in mobile apps that scans photos to steal cryptocurrency wallet recovery phrases.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Bitcoin ETFs Shed $465M Over Two Days, Led by BlackRock's IBIT",
@@ -304,27 +842,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Cloud data firm Storj files for Chapter 11, extending a week of crypto failures. Token slides 16%",
-      "url": "https://www.coindesk.com/business/2026/07/27/cloud-data-firm-storj-files-for-chapter-11-extending-a-week-of-crypto-failures-token-slides-16",
-      "published_at": "2026-07-27T09:15:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL",
-        "APT"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Coinbase CEO touts agentic finance as Base tops 100M AI payments",
       "url": "https://cointelegraph.com/news/coinbase-ceo-agentic-finance-base-100-million-aifi-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -349,27 +866,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Live updates: Ether leads crypto higher. China's gold imports surge",
-      "url": "https://www.coindesk.com/markets/2026/07/27/live-updates-ether-leads-crypto-higher-as-bitcoin-trades-around-usd65-500",
-      "published_at": "2026-07-27T06:43:34+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "leads",
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "South Korea’s KB Kookmin Bank to launch cross-border payment service on JPMorgan’s Kinexys: report",
       "url": "https://www.theblock.co/post/409702/kb-kookmin-bank-payment-jpmorgans-kinexys?utm_source=rss&utm_medium=rss",
@@ -388,22 +884,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto is the canary in the coal mine for the quantum computing threat, experts say",
-      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-is-the-canary-in-the-coal-mine-for-the-quantum-computing-threat-experts-say",
-      "published_at": "2026-07-27T06:37:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -465,27 +945,6 @@
       "topics": [
         "wallet"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin is back above $65,000 as U.S. and Iran hold fire. Oil drops 5%",
-      "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-is-back-above-usd65-000-as-u-s-iran-hold-fire-oil-drops-5",
-      "published_at": "2026-07-27T04:21:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -555,26 +1014,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "South Korea trading giant puts receivables onchain in tokenization test with LG CNS",
-      "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns",
-      "published_at": "2026-07-27T00:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain",
-        "tokenization"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "WEMIX says attacker moved about $724,000 after contract breach",
       "url": "https://cointelegraph.com/news/wemix-attacker-moves-724k-contract-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -622,7 +1061,7 @@
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T21:30:00+00:00",
+      "published_at": "2026-07-26T21:40:00+00:00",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "sentiment": {
         "score": 0,
@@ -668,66 +1107,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "2 weeks left for Clarity: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/07/26/2-weeks-left-for-clarity-state-of-crypto",
-      "published_at": "2026-07-26T18:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "CFTC issues second warning to prediction markets on cookie-cutter self-certifications",
-      "url": "https://cointelegraph.com/news/cftc-issues-second-warning-to-prediction-markets-on-cookie-cutter-self-certifications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T17:45:05+00:00",
-      "summary": "For the second time this year, the regulator told prediction markets to stop issuing overly broad, template-style certifications of events contracts.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [
-        "Sui",
-        "OP"
-      ],
-      "topics": [
-        "cftc",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Russia’s Sberbank to launch crypto trading infrastructure this year",
-      "url": "https://cointelegraph.com/news/russias-sberbank-to-launch-crypto-trading-infrastructure-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T16:07:11+00:00",
-      "summary": "Russia’s biggest bank plans to create cryptocurrency trading infrastructure by Dec. 1 as the country is set to establish rules for market participants while allowing crypto assets to be used in foreign trade operations.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "BitMart to wind down trading platform as global CEO says he was not consulted",
       "url": "https://www.theblock.co/post/409670/bitmart-to-wind-down-trading-platform-as-global-ceo-says-he-was-not-consulted?utm_source=rss&utm_medium=rss",
@@ -765,383 +1144,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin OG selling eases as dormant BTC movement hits 4-year low: Galaxy",
-      "url": "https://cointelegraph.com/markets/bitcoin-og-dormant-btc-movement-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T13:06:00+00:00",
-      "summary": "Dormant BTC activity fell to its lowest level since Q3 2022, suggesting long-term holders have slowed distribution after heavy profit-taking.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell",
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. regulator warns prediction markets against cutting corners in event contracts",
-      "url": "https://www.coindesk.com/policy/2026/07/24/u-s-regulator-warns-prediction-markets-against-cutting-corners-in-event-contracts",
-      "published_at": "2026-07-26T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korea’s largest bank to launch payment service on JPMorgan’s Kinexys",
-      "url": "https://cointelegraph.com/news/south-korea-bank-payment-jpmorgans-kinexys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T10:23:00+00:00",
-      "summary": "KB Kookmin Bank will use JPMorgan’s blockchain platform to support US dollar cross-border payments for import and export businesses across 10 countries.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Europe's high regulatory bar could spark new crypto industry M&A wave",
-      "url": "https://www.coindesk.com/policy/2026/07/26/europe-s-high-regulatory-bar-could-spark-new-crypto-industry-m-and-a-wave",
-      "published_at": "2026-07-26T10:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Shiba Inu surges 36% as South Korean traders fuel mystery rally",
-      "url": "https://www.coindesk.com/markets/2026/07/26/shiba-inu-surges-36-as-south-korean-traders-fuel-mystery-rally",
-      "published_at": "2026-07-26T07:29:45+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "rally",
-          "surges"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitMart to wind down exchange, end trading by Aug. 26",
-      "url": "https://cointelegraph.com/news/bitmart-wind-down-exchange-end-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T07:13:00+00:00",
-      "summary": "Crypto exchange BitMart said it will wind down operations after its BMX token plunged and users reported withdrawal delays, with platform operations set to end in January.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
-      "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58",
-      "published_at": "2026-07-26T06:59:51+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crashes",
-          "down"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "EU adds HTX to Russia sanctions list, barring transactions starting Aug. 23",
-      "url": "https://www.theblock.co/post/409668/eu-adds-htx-to-russia-sanctions-list-barring-transactions-starting-aug-23?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-25T21:23:27+00:00",
-      "summary": "Other crypto platforms listed alongside HTX include EXMO, Rapira, BitPapa, Aifory Pro, WhiteBird, NoOnecrypto and Exnode.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Robinhood in talks to add Crypto.com prediction markets as Kalshi rivalry grows: WSJ",
-      "url": "https://www.theblock.co/post/409665/robinhood-in-talks-to-add-crypto-com-prediction-markets-as-kalshi-rivalry-grows-wsj?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-25T17:27:20+00:00",
-      "summary": "A deal would let Robinhood customers trade yes-or-no contracts offered through Crypto.com’s derivatives business, though no deal has yet been reached.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "What Is an AI Kill Switch and Why Do US Lawmakers Want One?",
-      "url": "https://decrypt.co/374332/what-is-ai-kill-switch-openai-hack-hugging-face",
-      "published_at": "2026-07-25T14:01:03+00:00",
-      "summary": "The AI Kill Switch Act would let Homeland Security order frontier AI throttled or shut down, with fines up to $20 million a day for defying it.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin ETF weekly trading volume falls to lowest since October 2024 as ether funds lead inflows again",
-      "url": "https://www.theblock.co/post/409660/bitcoin-etf-weekly-trading-volume-falls-to-lowest-since-october-2024-as-ether-funds-lead-inflows-again?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-25T13:59:06+00:00",
-      "summary": "Ether funds have drawn nearly as much capital as bitcoin ETFs over the past three weeks despite holding about one-eighth as much in net assets.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin Policy Institute, Palantir and Anduril join US State Department’s Freedom Tech Excellence Program",
-      "url": "https://www.theblock.co/post/409652/bitcoin-policy-institute-palantir-anduril-us-state-departments-freedom-tech-excellence-program?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-24T22:21:01+00:00",
-      "summary": "The Bitcoin Policy Institute, Palantir and Anduril are partners in the U.S. State Department's Freedom Tech Excellence Program.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets",
-      "url": "https://bitcoinmagazine.com/news/morgan-stanley-bitcoin-etf-400-million",
-      "published_at": "2026-07-24T22:16:22+00:00",
-      "summary": "Bitcoin Magazine\n\nMorgan Stanley Bitcoin ETF Nearly Notches $400M in Assets\nInvestors were cashing out of Bitcoin ETFs this week — but Morgan Stanley's product received fresh cash.\nThis post Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Stocks Just Topped Crypto on Hyperliquid. ARK Says That Changes Everything",
-      "url": "https://decrypt.co/374334/stocks-crypto-hyperliquid-ark-invest",
-      "published_at": "2026-07-24T22:03:16+00:00",
-      "summary": "For the first time, real-world assets—stocks, commodities, and market indices—outpaced crypto on the world's biggest decentralized derivatives exchange.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "$7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act",
-      "url": "https://bitcoinmagazine.com/news/fidelity-backs-crypto-clarity-act",
-      "published_at": "2026-07-24T20:36:04+00:00",
-      "summary": "Bitcoin Magazine\n\n$7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act\nThe investment giant is the latest big player to back the bill. \nThis post $7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners",
-      "url": "https://bitcoinmagazine.com/news/state-department-tech-program-with-bitcoin",
-      "published_at": "2026-07-24T20:20:05+00:00",
-      "summary": "Bitcoin Magazine\n\nState Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners\nThe initiative wants to protect free expression online.\nThis post State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Samsung Wallet Will Add Stablecoin Support, Including USDC",
-      "url": "https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc",
-      "published_at": "2026-07-24T19:30:01+00:00",
-      "summary": "Samsung showed a wallet mockup holding Circle's USDC at Galaxy Unpacked. But details are scarce.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin",
-        "usdc",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Cardano co-founder Hoskinson says Bitcoin could lose top spot if governance fails quantum test",
-      "url": "https://www.theblock.co/post/409627/cardano-co-founder-hoskinson-bitcoin-lose-top-spot-governance-fails-quantum-test?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-24T19:01:53+00:00",
-      "summary": "Cardano’s governance and ability to enact upgrades make it better equipped to respond to existential technical threats, said Hoskinson.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "upgrades"
-        ],
-        "negative_hits": [
-          "fails",
-          "lose"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Cardano",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "governance"
       ]
     }
   ]
