@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-27T03:34:57.111051+00:00",
+  "generated_at": "2026-07-27T07:37:20.099760+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.023,
+    "market_sentiment_score": -0.029,
     "label_distribution": {
-      "bearish": 21,
-      "neutral": 37,
-      "bullish": 12
+      "bullish": 12,
+      "neutral": 36,
+      "bearish": 22
     },
     "top_coins": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "SOL",
@@ -54,11 +54,15 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 29
+        "mentions": 28
       },
       {
         "topic": "pos",
         "mentions": 15
+      },
+      {
+        "topic": "wallet",
+        "mentions": 5
       },
       {
         "topic": "sec",
@@ -66,18 +70,10 @@
       },
       {
         "topic": "exchange",
-        "mentions": 5
-      },
-      {
-        "topic": "stablecoin",
         "mentions": 4
       },
       {
-        "topic": "wallet",
-        "mentions": 3
-      },
-      {
-        "topic": "dai",
+        "topic": "stablecoin",
         "mentions": 3
       },
       {
@@ -91,10 +87,153 @@
       {
         "topic": "tokenization",
         "mentions": 2
+      },
+      {
+        "topic": "usdc",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Ether leads crypto higher. China's gold imports surge",
+      "url": "https://www.coindesk.com/markets/2026/07/27/live-updates-ether-leads-crypto-higher-as-bitcoin-trades-around-usd65-500",
+      "published_at": "2026-07-27T06:43:34+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "leads",
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "South Korea’s KB Kookmin Bank to launch cross-border payment service on JPMorgan’s Kinexys: report",
+      "url": "https://www.theblock.co/post/409702/kb-kookmin-bank-payment-jpmorgans-kinexys?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T06:38:09+00:00",
+      "summary": "The largest bank in South Korea plans to launch a blockchain-based cross-border corporate payments service next month, according to Yonhap.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto is the canary in the coal mine for the quantum computing threat, experts say",
+      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-is-the-canary-in-the-coal-mine-for-the-quantum-computing-threat-experts-say",
+      "published_at": "2026-07-27T06:37:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Triple-A confirms treasury-wallet breach after losses reach $11.8M",
+      "url": "https://cointelegraph.com/news/triple-a-treasury-wallet-breach-11-8-million-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T05:15:54+00:00",
+      "summary": "The stablecoin payments company said client funds were unaffected and that the financial impact would be absorbed through its treasury reserves.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "The Funding: Are crypto vaults funds and curators fund managers?",
+      "url": "https://www.theblock.co/post/409690/are-crypto-vaults-funds-curators-fund-managers?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T04:39:17+00:00",
+      "summary": "The SEC's Hester Peirce says some of them may be — which could mean registration. Here's what that means, and what comes next.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BitMart withdrawals appear to slow following wind-down announcement",
+      "url": "https://cointelegraph.com/news/bitmart-withdrawals-slow-exchange-wind-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T04:34:44+00:00",
+      "summary": "Users reported withdrawal delays and freeze notices as wallets attributed to BitMart fell to about $69 million and its BMX token extended an 81.5% weekly decline.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "decline",
+          "fell"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin is back above $65,000 as U.S. and Iran hold fire. Oil drops 5%",
+      "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-is-back-above-usd65-000-as-u-s-iran-hold-fire-oil-drops-5",
+      "published_at": "2026-07-27T04:21:26+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "drops"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
     {
       "source": "Cointelegraph",
       "title": "Garden Finance disables app as Blockaid reports $450,000 exploit",
@@ -628,24 +767,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Wise to resubmit US bank charter application under GENIUS Act",
-      "url": "https://cointelegraph.com/news/wise-resubmit-occ-charter-application-genius-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-25T16:10:00+00:00",
-      "summary": "The OCC denied the UK company’s application this week citing AML/CFT risks, despite approving similar charters for digital asset companies in the last year.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risks"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "CoinDesk",
       "title": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
       "url": "https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto",
@@ -707,27 +828,6 @@
       "topics": [
         "ai",
         "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "North Korea arrests bank hacking ring tied to crypto laundering: Report",
-      "url": "https://cointelegraph.com/news/north-korea-bank-hacking-ring-crypto-laundering-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-25T13:16:00+00:00",
-      "summary": "South Korean Daily NK reported that North Korea arrested former state cyber operators accused of hacking two state banks and laundering funds through crypto.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dai"
       ]
     },
     {
@@ -1015,113 +1115,6 @@
       },
       "coins": [
         "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Nvidia, Meta, and Microsoft Tell Washington: Don't Kill Open-Source AI",
-      "url": "https://decrypt.co/374282/nvidia-meta-microsoft-washington-dont-kill-open-source-ai",
-      "published_at": "2026-07-24T16:34:25+00:00",
-      "summary": "Twenty-five companies signed a letter defending open-weight models days after a Chinese AI helped Hugging Face survive a hack triggered by OpenAI's own systems.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Strategy Overhauls Bitcoin Metrics, Debuting 'Net Bitcoin Per Share'",
-      "url": "https://decrypt.co/374281/strategy-overhauls-bitcoin-metrics-debuting-net-bitcoin-per-share",
-      "published_at": "2026-07-24T16:21:52+00:00",
-      "summary": "The firm says its \"digital credit\" shift needs new yardsticks that strip out debt and preferred claims to show what common shareholders own.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Sealed in Foil: BMAG’s New Focus on Trading Cards",
-      "url": "https://bitcoinmagazine.com/culture/sealed-in-foil-bmags-new-focus-on-trading-cards",
-      "published_at": "2026-07-24T16:20:25+00:00",
-      "summary": "Bitcoin Magazine\n\nSealed in Foil: BMAG&#8217;s New Focus on Trading Cards\nFrom rare pulls to provable ownership, BMAG explores why trading cards and Bitcoin share the same foundations of authenticity, scarcity, and value.\nThis post Sealed in Foil: BMAG&#8217;s New Focus on Trading Cards first appeared on Bitcoin Magazine and is written by Dennis Koch.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin ETFs Shed $225M, Snapping Seven-Day Inflow Streak as Iran Tensions Spook Markets",
-      "url": "https://decrypt.co/374260/bitcoin-etfs-shed-225m-snapping-inflow-streak-iran-tensions",
-      "published_at": "2026-07-24T16:17:37+00:00",
-      "summary": "BlackRock's IBIT led the exit as Bitcoin briefly dipped under $65,000 and stocks fell on renewed US-Iran hostilities—though the week still closed in the green.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Top Crypto Industry Groups Pen Letter to Senate Leaders Urging Them To Support the Clarity Act",
-      "url": "https://bitcoinmagazine.com/news/crypto-industry-groups-support-the-clarity",
-      "published_at": "2026-07-24T16:05:35+00:00",
-      "summary": "Bitcoin Magazine\n\nTop Crypto Industry Groups Pen Letter to Senate Leaders Urging Them To Support the Clarity Act\nThree advocacy groups are the latest to throw their support behind the crypto market structure bill. \nThis post Top Crypto Industry Groups Pen Letter to Senate Leaders Urging Them To Support the Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
       ],
       "topics": [
         "pos"
