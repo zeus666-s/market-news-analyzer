@@ -1,76 +1,76 @@
 {
-  "generated_at": "2026-07-27T14:46:18.890240+00:00",
+  "generated_at": "2026-07-27T17:45:58.987605+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.041,
+    "market_sentiment_score": -0.027,
     "label_distribution": {
       "neutral": 37,
-      "bullish": 14,
-      "bearish": 19
+      "bearish": 16,
+      "bullish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 23
+        "mentions": 22
       },
       {
         "coin": "OP",
-        "mentions": 14
+        "mentions": 15
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "Near",
-        "mentions": 7
+        "mentions": 9
       },
       {
         "coin": "BTC",
-        "mentions": 4
+        "mentions": 5
       },
       {
-        "coin": "Tron",
-        "mentions": 4
-      },
-      {
-        "coin": "FIL",
-        "mentions": 4
+        "coin": "UNI",
+        "mentions": 3
       },
       {
         "coin": "SOL",
         "mentions": 3
       },
       {
-        "coin": "UNI",
-        "mentions": 2
+        "coin": "Tron",
+        "mentions": 3
       },
       {
-        "coin": "APT",
+        "coin": "FIL",
+        "mentions": 3
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 15
       },
       {
         "topic": "wallet",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "sec",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "topic": "exchange",
-        "mentions": 5
+        "mentions": 7
       },
       {
         "topic": "etf",
@@ -82,19 +82,339 @@
       },
       {
         "topic": "fed",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "topic": "stablecoin",
-        "mentions": 2
+        "mentions": 3
       },
       {
-        "topic": "mining",
+        "topic": "staking",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "A Man Gave Border Agents His Phone Passcode. It Wiped Everything. Now He's Facing Federal Charges",
+      "url": "https://decrypt.co/374394/border-agents-phone-duress-passcode-grapheneos",
+      "published_at": "2026-07-27T17:40:36+00:00",
+      "summary": "Samuel Tunick allegedly triggered a GrapheneOS duress password during a warrantless airport search. Federal prosecutors call it destruction of property. His lawyers call it a digital right.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "TD Cowen cuts David Bailey’s Nakamoto target 58% after bitcoin outlook reset",
+      "url": "https://www.theblock.co/post/409797/td-cowen-cuts-david-bailey-nakamoto-target-58-bitcoin-outlook-reset?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T17:10:25+00:00",
+      "summary": "The firm updated its valuation for David Bailey-led Nakamoto, citing pressure from BTC's decline on the company's capital structure.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "decline"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Digital asset trading platform Uphold cuts 17% of global headcount as crypto winter bites",
+      "url": "https://www.coindesk.com/business/2026/07/27/digital-asset-trading-platform-uphold-cuts-17-of-global-headcount-as-crypto-winter-bites",
+      "published_at": "2026-07-27T16:47:06+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether’s XAUt gold token receives Shariah certification to expand Islamic finance access",
+      "url": "https://cointelegraph.com/news/tether-xaut-gold-token-receives-shariah-certification-islamic-finance-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T16:44:03+00:00",
+      "summary": "The certification could expand access to Tether’s gold-backed token among Islamic financial institutions and investors seeking Shariah-compliant exposure to physical gold.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kraken parent Payward acquires Magic Labs’ wallet business",
+      "url": "https://cointelegraph.com/news/kraken-parent-payward-acquires-magic-labs-wallet-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T16:40:39+00:00",
+      "summary": "The deal brings wallet technology to Payward’s enterprise platform, potentially reducing the number of infrastructure providers businesses need to integrate with.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "integrate"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin ETFs Bled Nearly Half a Billion Dollars End of Last Week, Reversing Sentiment",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-etfs-see-investor-reversal",
+      "published_at": "2026-07-27T16:24:09+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin ETFs Bled Nearly Half a Billion Dollars End of Last Week, Reversing Sentiment\nInvestors cashed out of American Bitcoin exchange-traded funds at the end of last week, ending a seven days winning streak.&#160; Data from Farside Investors shows that over $475 million was redeemed from the investment products during trading hours on Thursday and Friday, with BlackRock&#8217;s iShares Bitcoin Trust handling most of the trading action.&#160; Risk appetite [&#8230;]\nThis po...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "etf",
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ondo launches new execution network, calling it ‘evolution’ of Ondo Chain",
+      "url": "https://www.theblock.co/post/409792/ondo-launches-new-execution-network-calling-it-evolution-of-ondo-chain?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T16:00:03+00:00",
+      "summary": "CEO Ian De Bode said the Ondo Network is the \"evolution\" of the company's earlier Ondo Chain initiative and now underpins Ondo Perps.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitmine Nears Goal of Controlling 5% of Ethereum Supply With $11.8 Billion Treasury",
+      "url": "https://decrypt.co/374389/bitmine-nears-5-percent-ethereum-supply-with-11-8-billion-treasury",
+      "published_at": "2026-07-27T15:42:54+00:00",
+      "summary": "The company says it now holds 5.79 million ETH, equal to 4.8% of the cryptocurrency's circulating supply, while expanding its staking operations and share buyback program.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "staking"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Russia’s Sberbank Sets December Deadline for Crypto Buildout: Report",
+      "url": "https://bitcoinmagazine.com/news/russia-to-build-out-crypto-infrastructure",
+      "published_at": "2026-07-27T15:39:39+00:00",
+      "summary": "Bitcoin Magazine\n\nRussia&#8217;s Sberbank Sets December Deadline for Crypto Buildout: Report\nRussia&#8217;s largest bank, Sberbank, will build crypto infrastructure by December, according to a report by Russian news agency Interfax.&#160; A key piece will be a digital depository that tracks clients&#8217; crypto rights and records off-blockchain transactions, while also handling wallet transfers to execute client orders, Interfax reported Monday.&#160; Sberbank this month revealed plans to de...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Circle Buys IBM Blockchain Patent Estate—And Becomes America's Biggest Holder",
+      "url": "https://decrypt.co/374388/circle-ibm-blockchain-patent-estate",
+      "published_at": "2026-07-27T15:35:25+00:00",
+      "summary": "The USDC issuer acquired nearly 1,000 patents from IBM in a single deal, but IBM is still backing USDC's most dangerous rival.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "usdc"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Metaplanet’s brokerage deal ‘badly undersells’ plans for bitcoin-backed ‘Bitbonds,’ Benchmark says",
+      "url": "https://www.theblock.co/post/409752/benchmark-metaplanet-brokerage-deal-badly-undersells-plans-bitcoin-backed-bitbonds?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T15:06:52+00:00",
+      "summary": "Metaplanet envisions launching 4% to 6% bitcoin-backed bonds before eventually moving them on-chain with stablecoin settlement.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "on-chain",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Lido begins consolidating $16 billion worth of staked ETH as Curated Module v2 rolls out",
+      "url": "https://www.theblock.co/post/409780/lido-begins-consolidating-16-billion-worth-of-staked-eth-as-curated-module-v2-rolls-out?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-27T15:03:20+00:00",
+      "summary": "Ethereum staking protocol Lido has begun consolidating more than 8 million ETH onto Ethereum’s larger post-Pectra 0x02 validators.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "SOL"
+      ],
+      "topics": [
+        "pos",
+        "staking",
+        "validator",
+        "validators"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "What are perps, anyway? Everything you need to know about crypto’s hottest trading instrument",
+      "url": "https://www.coindesk.com/business/2026/07/27/what-are-perps-anyway-everything-you-need-to-know-about-crypto-s-hottest-trading-instrument",
+      "published_at": "2026-07-27T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price eyes $66K as US stocks rise on Iran-strike pause",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-66k-as-us-stocks-rise-on-iran-strike-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T14:51:26+00:00",
+      "summary": "Bitcoin copied US stocks as relief over end of US-Iran strikes spread to risk assets at the start of the US trading session.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Fanatics buys regulated exchange in bid to grow prediction markets business",
+      "url": "https://www.coindesk.com/markets/2026/07/27/fanatics-buys-regulated-exchange-in-bid-to-grow-prediction-markets-business",
+      "published_at": "2026-07-27T14:46:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Cantor is advising crypto bank AMINA on path to potential public listing",
@@ -700,26 +1020,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Coinbase CEO Brian Armstrong criticizes crypto startups that rebrand to AI",
-      "url": "https://www.coindesk.com/business/2026/07/27/coinbase-ceo-brian-armstrong-criticizes-crypto-startups-that-rebrand-to-ai",
-      "published_at": "2026-07-27T10:39:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "BNY Mellon unit joins MiCA register as ESMA adds 15 providers",
       "url": "https://cointelegraph.com/news/mica-register-expands-third-post-deadline-update?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -741,24 +1041,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Crypto steadies as Iran-U.S. pause sends oil tumbling, lifts risk assets",
-      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
-      "published_at": "2026-07-27T10:35:04+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "BitMart Becomes Latest Crypto Exchange to Shut Down",
       "url": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down",
@@ -776,24 +1058,6 @@
       "coins": [],
       "topics": [
         "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Interest rates in U.S., U.K., Japan and Coinbase, Strategy earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/07/27/interest-rates-in-u-s-u-k-japan-and-coinbase-strategy-earnings-crypto-week-ahead",
-      "published_at": "2026-07-27T09:43:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "interest rate"
       ]
     },
     {
@@ -881,267 +1145,6 @@
         "negative_hits": []
       },
       "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Triple-A confirms treasury-wallet breach after losses reach $11.8M",
-      "url": "https://cointelegraph.com/news/triple-a-treasury-wallet-breach-11-8-million-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-27T05:15:54+00:00",
-      "summary": "The stablecoin payments company said client funds were unaffected and that the financial impact would be absorbed through its treasury reserves.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "The Funding: Are crypto vaults funds and curators fund managers?",
-      "url": "https://www.theblock.co/post/409690/are-crypto-vaults-funds-curators-fund-managers?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-27T04:39:17+00:00",
-      "summary": "The SEC's Hester Peirce says some of them may be — which could mean registration. Here's what that means, and what comes next.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitMart withdrawals appear to slow following wind-down announcement",
-      "url": "https://cointelegraph.com/news/bitmart-withdrawals-slow-exchange-wind-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-27T04:34:44+00:00",
-      "summary": "Users reported withdrawal delays and freeze notices as wallets attributed to BitMart fell to about $69 million and its BMX token extended an 81.5% weekly decline.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "decline",
-          "fell"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Garden Finance disables app as Blockaid reports $450,000 exploit",
-      "url": "https://cointelegraph.com/news/garden-finance-app-offline-450k-htlc-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-27T01:58:54+00:00",
-      "summary": "Garden Finance said no user funds or smart contracts were affected after an attacker compromised an independent solver’s off-chain database and inserted fraudulent swap records.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "smart contract"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Storj files for bankruptcy, explores equity path for tokenholders",
-      "url": "https://cointelegraph.com/news/storj-chapter-11-bankruptcy-tokenholder-equity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-27T01:01:43+00:00",
-      "summary": "The decentralized storage provider says its network will continue operating during Chapter 11 as it explores a court-approved ownership mechanism for STORJ holders.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL",
-        "APT",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "CLARITY hopes fade, BitMEX shuts as lawsuit looms: Hodler’s Digest, July 26",
-      "url": "https://cointelegraph.com/magazine/clarity-hopes-fade-bitmex-shuts-as-lawsuit-looms-hodlers-digest-july-27?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-27T00:03:44+00:00",
-      "summary": "Despite support from Goldman Sachs, Fidelity and law enforcement bodies, the Clarity Act’s chances dim. BitMEX to close as crypto consolidates into five big players.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": [
-          "lawsuit"
-        ]
-      },
-      "coins": [
-        "SOL",
-        "Sui",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "WEMIX says attacker moved about $724,000 after contract breach",
-      "url": "https://cointelegraph.com/news/wemix-attacker-moves-724k-contract-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T22:53:55+00:00",
-      "summary": "WEMIX suspended bridges, liquidity-pool trading and several services after an attacker compromised a WEMIX$-linked contract and moved 724,198 USDC.e.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "bridge",
-        "liquidity",
-        "usdc"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Triple-A hot wallet losses climb to $11.8 million as new deposits keep being swept: report",
-      "url": "https://www.theblock.co/post/409678/triple-a-hot-wallet-losses-climb-to-11-8-million-as-new-deposits-keep-being-swept-report?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-26T22:38:54+00:00",
-      "summary": "Triple-A said it is investigating and that customer funds are not affected, though it has not fully addressed the incident publicly.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T21:40:00+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Michael Saylor teases ‘another color’ after four straight weeks without a Strategy bitcoin buy",
-      "url": "https://www.theblock.co/post/409675/michael-saylor-teases-another-color-after-four-straight-weeks-without-a-strategy-bitcoin-buy?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-26T20:49:10+00:00",
-      "summary": "Strategy holds 843,775 BTC at an average cost of $75,476, leaving the position roughly $9.3 billion underwater with bitcoin near $64,600.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "rwa"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "BitMart to wind down trading platform as global CEO says he was not consulted",
-      "url": "https://www.theblock.co/post/409670/bitmart-to-wind-down-trading-platform-as-global-ceo-says-he-was-not-consulted?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-26T14:55:55+00:00",
-      "summary": "BitMart's global CEO said the firm told him on July 24 that his employment was ending and that he learned of the closure when it went public.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Mira Murati’s Inkling AI Model Review: Best Open-Source Model in the West",
-      "url": "https://decrypt.co/373884/review-inkling-mira-murati-first-open-source-ai",
-      "published_at": "2026-07-26T14:01:03+00:00",
-      "summary": "After two years of silence from Thinking Machines Lab, Murati's debut model is out and on OpenRouter. The MCP score is genuinely impressive. The price-to-performance math is more complicated.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
       "topics": [
         "ai"
       ]
