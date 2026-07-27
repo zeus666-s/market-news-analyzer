@@ -1,33 +1,41 @@
 {
-  "generated_at": "2026-07-27T07:37:20.099760+00:00",
+  "generated_at": "2026-07-27T11:29:40.756262+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.029,
+    "market_sentiment_score": -0.043,
     "label_distribution": {
-      "bullish": 12,
-      "neutral": 36,
-      "bearish": 22
+      "bearish": 24,
+      "neutral": 34,
+      "bullish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 20
       },
       {
         "coin": "ETH",
         "mentions": 6
       },
       {
-        "coin": "SOL",
+        "coin": "FIL",
+        "mentions": 5
+      },
+      {
+        "coin": "Tron",
         "mentions": 3
       },
       {
-        "coin": "FIL",
+        "coin": "APT",
+        "mentions": 3
+      },
+      {
+        "coin": "SOL",
         "mentions": 3
       },
       {
@@ -39,26 +47,26 @@
         "mentions": 3
       },
       {
-        "coin": "APT",
-        "mentions": 2
-      },
-      {
-        "coin": "Sui",
-        "mentions": 2
-      },
-      {
         "coin": "LINK",
-        "mentions": 1
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
+        "mentions": 31
       },
       {
         "topic": "pos",
         "mentions": 15
+      },
+      {
+        "topic": "exchange",
+        "mentions": 6
+      },
+      {
+        "topic": "etf",
+        "mentions": 5
       },
       {
         "topic": "wallet",
@@ -66,18 +74,14 @@
       },
       {
         "topic": "sec",
-        "mentions": 5
-      },
-      {
-        "topic": "exchange",
         "mentions": 4
       },
       {
-        "topic": "stablecoin",
+        "topic": "usdc",
         "mentions": 3
       },
       {
-        "topic": "etf",
+        "topic": "stablecoin",
         "mentions": 3
       },
       {
@@ -85,16 +89,265 @@
         "mentions": 3
       },
       {
-        "topic": "tokenization",
-        "mentions": 2
-      },
-      {
-        "topic": "usdc",
-        "mentions": 2
+        "topic": "fed",
+        "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin ETFs Shed $465M Over Two Days, Led by BlackRock's IBIT",
+      "url": "https://decrypt.co/374354/bitcoin-etfs-shed-465m-over-two-days-led-by-blackrocks-ibit",
+      "published_at": "2026-07-27T11:23:01+00:00",
+      "summary": "The selling reversed a seven-day, $1 billion inflow streak, with analysts blaming renewed U.S.-Iran tensions and Fed rate-hike fears.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fears",
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "fed"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ballooning U.S. debt sends investors to bitcoin, gold to shelter from dollar devaluation",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/27/ballooning-u-s-debt-sends-investors-to-bitcoin-gold-to-shelter-from-dollar-devaluation",
+      "published_at": "2026-07-27T11:15:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin ETFs post third straight weekly inflows despite $465 million in late-week losses",
+      "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-etfs-record-third-consecutive-weekly-inflows-despite-losses-of-usd465-million-to-end-week",
+      "published_at": "2026-07-27T11:04:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase CEO Brian Armstrong criticizes crypto startups that rebrand to AI",
+      "url": "https://www.coindesk.com/business/2026/07/27/coinbase-ceo-brian-armstrong-criticizes-crypto-startups-that-rebrand-to-ai",
+      "published_at": "2026-07-27T10:39:22+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BNY Mellon unit joins MiCA register as ESMA adds 15 providers",
+      "url": "https://cointelegraph.com/news/mica-register-expands-third-post-deadline-update?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T10:38:09+00:00",
+      "summary": "BNY Mellon’s European subsidiary joined the MiCA register as ESMA added 15 CASPs, including banks and crypto platforms, in the third post-deadline update.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto steadies as Iran-U.S. pause sends oil tumbling, lifts risk assets",
+      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
+      "published_at": "2026-07-27T10:35:04+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "BitMart Becomes Latest Crypto Exchange to Shut Down",
+      "url": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down",
+      "published_at": "2026-07-27T09:57:20+00:00",
+      "summary": "BitMart’s closure, citing the market environment and “future strategic direction,” comes days after crypto perps exchange BitMEX shut down.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Interest rates in U.S., U.K., Japan and Coinbase, Strategy earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/07/27/interest-rates-in-u-s-u-k-japan-and-coinbase-strategy-earnings-crypto-week-ahead",
+      "published_at": "2026-07-27T09:43:58+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "interest rate"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Brazilian police bust cocaine traffickers in crypto-linked transnational probe",
+      "url": "https://cointelegraph.com/news/brazilian-police-cracks-down-on-crypto-fueled-international-drug-traffickers-suspected-of-moving-billions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T09:29:49+00:00",
+      "summary": "Brazilian police suspect the group of shipping around 6.5 metric tons of cocaine and laundering billions in Brazilian reals through crypto-enabled illicit money brokers.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Thailand's SEC Files Criminal Complaint Against Bitkub Over Undisclosed $47M Hack",
+      "url": "https://decrypt.co/374343/thailands-sec-files-criminal-complaint-against-bitkub-over-undisclosed-47m-hack",
+      "published_at": "2026-07-27T09:16:14+00:00",
+      "summary": "The regulator says the exchange and two former directors left a $47 million theft out of its filings in 2021.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "theft"
+        ]
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cloud data firm Storj files for Chapter 11, extending a week of crypto failures. Token slides 16%",
+      "url": "https://www.coindesk.com/business/2026/07/27/cloud-data-firm-storj-files-for-chapter-11-extending-a-week-of-crypto-failures-token-slides-16",
+      "published_at": "2026-07-27T09:15:43+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL",
+        "APT"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinbase CEO touts agentic finance as Base tops 100M AI payments",
+      "url": "https://cointelegraph.com/news/coinbase-ceo-agentic-finance-base-100-million-aifi-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-27T09:01:05+00:00",
+      "summary": "Coinbase CEO Brian Armstrong says AI agents will expand crypto adoption, pointing to Base, USDC and x402 as key pieces of agentic finance.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "usdc"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Live updates: Ether leads crypto higher. China's gold imports surge",
@@ -661,26 +914,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Binance ‘red teams’ its own staff every month to keep hackers out",
-      "url": "https://cointelegraph.com/news/binance-red-teams-own-staff-every-month-to-keep-hackers-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-26T02:01:00+00:00",
-      "summary": "Binance regularly tests its employees for security hygiene, as social engineering is becoming a major source of industry breaches.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "EU adds HTX to Russia sanctions list, barring transactions starting Aug. 23",
       "url": "https://www.theblock.co/post/409668/eu-adds-htx-to-russia-sanctions-list-barring-transactions-starting-aug-23?utm_source=rss&utm_medium=rss",
@@ -699,42 +932,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Robinhood in talks with Crypto.com over prediction markets: WSJ",
-      "url": "https://cointelegraph.com/news/robinhood-cryptocom-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-25T21:05:00+00:00",
-      "summary": "While prediction market companies in the US continue to face legal battles between state and federal authorities, Robinhood is reportedly considering expanding its services.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin advocacy group to join US State Department’s ‘digital freedom’ program",
-      "url": "https://cointelegraph.com/news/bitcoin-policy-institute-state-department-program?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-25T18:19:00+00:00",
-      "summary": "The Bitcoin Policy Institute and three partner organizations will be able to send employees to work alongside State Department officials to address issues including digital freedom.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Robinhood in talks to add Crypto.com prediction markets as Kalshi rivalry grows: WSJ",
       "url": "https://www.theblock.co/post/409665/robinhood-in-talks-to-add-crypto-com-prediction-markets-as-kalshi-rivalry-grows-wsj?utm_source=rss&utm_medium=rss",
@@ -746,40 +943,6 @@
         "label": "neutral",
         "positive_hits": [],
         "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
-      "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
-      "published_at": "2026-07-25T16:59:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
-      "url": "https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto",
-      "published_at": "2026-07-25T15:46:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "stolen"
-        ]
       },
       "coins": [],
       "topics": []
@@ -828,42 +991,6 @@
       "topics": [
         "ai",
         "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
-      "url": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
-      "published_at": "2026-07-25T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
-      "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
-      "published_at": "2026-07-25T10:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -1015,109 +1142,6 @@
       "topics": [
         "ai",
         "governance"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Claude Opus 5 Outscores Fable 5 on Most Benchmarks—At Half the Price",
-      "url": "https://decrypt.co/374305/claude-opus-5-outscores-fable-5-most-benchmarks-half-price",
-      "published_at": "2026-07-24T18:28:43+00:00",
-      "summary": "Anthropic's new everyday model undercuts its own frontier product on cost and beats it almost everywhere that counts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Clarity Act on the Ropes as Ethics Fight and Shrinking Calendar Threaten Passage",
-      "url": "https://decrypt.co/374300/clarity-act-ethics-fight-shrinking-calendar-threaten-passage",
-      "published_at": "2026-07-24T17:50:26+00:00",
-      "summary": "Senate Majority Leader John Thune signals the crypto market-structure bill likely won't clear the chamber before the August recess, as Democrats reject the GOP's ethics language and analysts slash the odds of passage.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Poolin, Once One of Bitcoin's Biggest Mining Pools, Files for Bankruptcy",
-      "url": "https://decrypt.co/374289/poolin-bitcoin-biggest-mining-pools-files-bankruptcy",
-      "published_at": "2026-07-24T17:44:48+00:00",
-      "summary": "The Singapore-based pool never recovered from freezing withdrawals in 2022. Now it's auctioning off its last Texas mining sites to pay back 11,700 users still holding IOUs.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "recovered"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "FIL"
-      ],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Wise plans to resubmit national trust bank application under GENIUS Act framework",
-      "url": "https://www.theblock.co/post/409631/wise-plans-resubmit-national-trust-bank-application-under-genius-act-framework?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-24T17:37:34+00:00",
-      "summary": "The OCC has granted conditional approval to several stablecoin-focused entities since December.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "National Fraternal Order of Police Gives Green Light to Clarity Act in Latest Support for Crypto Bill",
-      "url": "https://bitcoinmagazine.com/news/fraternal-order-police-support-clarity-act",
-      "published_at": "2026-07-24T17:07:18+00:00",
-      "summary": "Bitcoin Magazine\n\nNational Fraternal Order of Police Gives Green Light to Clarity Act in Latest Support for Crypto Bill\nA number of organizations have thrown support behind the bill this week. \nThis post National Fraternal Order of Police Gives Green Light to Clarity Act in Latest Support for Crypto Bill first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
