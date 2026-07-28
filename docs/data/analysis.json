@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-28T02:51:01.665252+00:00",
+  "generated_at": "2026-07-28T06:30:33.921692+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.007,
+    "market_sentiment_score": -0.011,
     "label_distribution": {
-      "bearish": 14,
+      "neutral": 37,
       "bullish": 18,
-      "neutral": 38
+      "bearish": 15
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 20
+        "mentions": 21
       },
       {
         "coin": "OP",
-        "mentions": 12
+        "mentions": 13
       },
       {
         "coin": "ETH",
@@ -24,11 +24,7 @@
       },
       {
         "coin": "Near",
-        "mentions": 9
-      },
-      {
-        "coin": "SOL",
-        "mentions": 4
+        "mentions": 7
       },
       {
         "coin": "BTC",
@@ -36,6 +32,10 @@
       },
       {
         "coin": "Tron",
+        "mentions": 3
+      },
+      {
+        "coin": "SOL",
         "mentions": 3
       },
       {
@@ -47,14 +47,14 @@
         "mentions": 2
       },
       {
-        "coin": "FIL",
+        "coin": "UNI",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 28
       },
       {
         "topic": "pos",
@@ -66,7 +66,7 @@
       },
       {
         "topic": "exchange",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "fed",
@@ -85,16 +85,116 @@
         "mentions": 3
       },
       {
-        "topic": "tokenization",
+        "topic": "cex",
         "mentions": 2
       },
       {
-        "topic": "onchain",
+        "topic": "tokenization",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Binance co-founder CZ backs crypto license passporting across ASEAN",
+      "url": "https://cointelegraph.com/news/binance-co-founder-cz-backs-crypto-license-passporting-across-asean?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T06:00:54+00:00",
+      "summary": "Binance co-founder CZ backed crypto license passporting across ASEAN to simplify approvals, reduce compliance costs and encourage competition.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "What Is KuCoin?",
+      "url": "https://www.theblock.co/learn/409571/what-is-kucoin?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-28T05:14:22+00:00",
+      "summary": "KuCoin is a global cryptocurrency exchange where users can trade, earn, spend, and manage digital assets. Founded in 2017, the platform is now one of the most popular CEXs, serving more than 45 million users across over 200 countries and regions. These range from first-time crypto users and active retail traders to professional and institutional [&hellip;]",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cex",
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin slides 2% after U.S. close while Korea’s Kospi plunges 10%",
+      "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-slides-2-after-u-s-close-while-korea-s-kospi-plunges-10",
+      "published_at": "2026-07-28T04:32:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "plunges"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US judge temporarily blocks Minnesota prediction market ban",
+      "url": "https://cointelegraph.com/news/us-judge-blocks-minnesota-prediction-market-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T04:28:10+00:00",
+      "summary": "The preliminary injunction allows Kalshi and Polymarket US to continue operating in Minnesota while the court considers their challenge to the state law.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Zimbabwe admits seven fintech projects to regulatory sandbox",
+      "url": "https://cointelegraph.com/news/zimbabwe-seven-fintech-projects-regulatory-sandbox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T03:17:10+00:00",
+      "summary": "Sandbox participation permits supervised testing but does not guarantee full commercial registration.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "regulatory"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Hong Kong prepares banks for quantum threats amid tokenization push",
@@ -1051,108 +1151,6 @@
         "Near"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "IBM portfolio acquisition makes Circle the largest US blockchain patent holder",
-      "url": "https://www.theblock.co/post/409750/circle-acquires-ibm-blockchain-patent-portfolio-becomes-largest-us-patent-holder?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-27T14:19:44+00:00",
-      "summary": "Circle acquired IBM's blockchain patent portfolio of 680+ patent families and nearly 1,000 issued patents.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Lido begins moving $16.5 billion in staked ether to cut validator count by a third",
-      "url": "https://www.coindesk.com/tech/2026/07/27/lido-begins-moving-usd16-5-billion-in-staked-ether-to-cut-validator-count-by-a-third",
-      "published_at": "2026-07-27T14:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "validator"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Hong Kong crypto giant HashKey merges regional exchange into one",
-      "url": "https://cointelegraph.com/news/hong-kong-crypto-giant-hashkey-merges-its-exchanges-into-one?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-27T13:41:44+00:00",
-      "summary": "Hong Kong’s HashKey will unify its crypto exchange branches, with users from its Hong Kong, Global, Singapore and Middle East regions using the same platform.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Benchmark reiterates $570 Strategy target, says cash reserve strengthens bitcoin acquisition plan",
-      "url": "https://www.theblock.co/post/409743/benchmark-reiterates-570-strategy-target-says-cash-reserve-strengthens-bitcoin-acquisition-plan?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-27T13:37:59+00:00",
-      "summary": "Benchmark reiterated its $570 Strategy target, citing disciplined capital allocation, growing cash reserves and continued long-term BTC plan.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Thailand's SEC alleges Bitkub concealed cyberattack that led to $50 million hack",
-      "url": "https://www.coindesk.com/policy/2026/07/27/thailand-s-sec-alleges-bitkub-concealed-cyberattack-that-led-to-usd50-million-hack",
-      "published_at": "2026-07-27T13:32:16+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
     }
   ]
 }
