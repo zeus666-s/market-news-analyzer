@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-28T14:20:12.883315+00:00",
+  "generated_at": "2026-07-28T17:38:28.331723+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.061,
+    "market_sentiment_score": -0.037,
     "label_distribution": {
-      "neutral": 33,
-      "bullish": 18,
-      "bearish": 19
+      "bullish": 22,
+      "bearish": 16,
+      "neutral": 32
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 21
+        "mentions": 20
       },
       {
         "coin": "OP",
-        "mentions": 15
-      },
-      {
-        "coin": "SOL",
-        "mentions": 6
+        "mentions": 18
       },
       {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 8
+      },
+      {
+        "coin": "SOL",
+        "mentions": 7
       },
       {
         "coin": "Ethereum",
+        "mentions": 5
+      },
+      {
+        "coin": "Solana",
         "mentions": 4
       },
       {
-        "coin": "Near",
-        "mentions": 4
-      },
-      {
-        "coin": "Binance",
+        "coin": "UNI",
         "mentions": 3
       },
       {
@@ -43,58 +43,499 @@
         "mentions": 3
       },
       {
-        "coin": "Solana",
+        "coin": "Binance",
         "mentions": 2
       },
       {
-        "coin": "BTC",
+        "coin": "Near",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 31
       },
       {
         "topic": "pos",
         "mentions": 13
       },
       {
-        "topic": "sec",
+        "topic": "exchange",
         "mentions": 7
+      },
+      {
+        "topic": "sec",
+        "mentions": 6
+      },
+      {
+        "topic": "defi",
+        "mentions": 5
       },
       {
         "topic": "wallet",
         "mentions": 5
       },
       {
-        "topic": "defi",
-        "mentions": 4
-      },
-      {
         "topic": "liquidity",
         "mentions": 4
       },
       {
-        "topic": "exchange",
-        "mentions": 4
-      },
-      {
-        "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "stablecoin",
+        "topic": "miner",
         "mentions": 3
       },
       {
-        "topic": "cftc",
+        "topic": "mining",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Zcash activates Ironwood upgrade, launching new shielded pool after Orchard vulnerability",
+      "url": "https://www.theblock.co/post/409934/zcash-ironwood-upgrade-launching-new-shielded-pool-after-orchard-vulnerability?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-28T17:26:31+00:00",
+      "summary": "Ironwood represents something of a unified effort across Zcash’s developer ecosystem after Shielded Labs found a bug in Orchard.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "UNI",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Core Scientific Adds More Bitcoin To Balance Sheet in Q2 Despite Selling Strategy",
+      "url": "https://bitcoinmagazine.com/news/core-scientific-adds-more-bitcoin",
+      "published_at": "2026-07-28T17:23:46+00:00",
+      "summary": "Bitcoin Magazine\n\nCore Scientific Adds More Bitcoin To Balance Sheet in Q2 Despite Selling Strategy\nWhile the publicly-traded miner's holdings have shrunk overall this year, the company has quickly added more Bitcoin to its balance sheet the past quarter. \nThis post Core Scientific Adds More Bitcoin To Balance Sheet in Q2 Despite Selling Strategy first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "miner",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
+      "url": "https://www.coindesk.com/markets/2026/07/28/wall-street-veteran-don-wilson-says-regulators-are-getting-crypto-s-biggest-trading-innovation-all-wrong",
+      "published_at": "2026-07-28T17:23:35+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "First ChatGPT, Now Claude: Frontier AI Models Are Escaping Their Sandboxes",
+      "url": "https://decrypt.co/374557/chatgpt-claude-ai-models-escaping-sandboxes-cowork",
+      "published_at": "2026-07-28T16:54:11+00:00",
+      "summary": "A week after OpenAI disclosed a frontier AI sandbox escape, researchers found Anthropic's Claude Cowork could break out of its own virtual machine.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin lows pierce $63K as Asia chip-stock crash spreads to Wall Street",
+      "url": "https://cointelegraph.com/markets/bitcoin-lows-pierce-63k-as-asia-chip-stock-crash-spills?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T16:27:46+00:00",
+      "summary": "Bitcoin and crypto dropped as contagion from a major Asia stock-market correction spreads to the US at the Wall Street open.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash",
+          "dropped"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Why the Bitcoin Rally Seems More Like a Bull Trap",
+      "url": "https://decrypt.co/374539/bitcoin-price-rally-bull-trap",
+      "published_at": "2026-07-28T16:22:18+00:00",
+      "summary": "The Bitcoin bounce looked promising. The charts now say it wasn't.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kraken opens Jersey Mike’s IPO to retail investors through tokenized shares and direct allocations",
+      "url": "https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T16:20:57+00:00",
+      "summary": "Eligible US users can request IPO allocations, while customers in more than 110 countries gain access to tokenized Jersey Mike’s shares backed 1:1 by the underlying stock.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
+      "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act",
+      "published_at": "2026-07-28T16:08:19+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Robinhood Chain deposits climb but volume and users fade after memecoin-fueled launch",
+      "url": "https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-28T16:02:48+00:00",
+      "summary": "The number of active accounts on Roinbhood Chain averaged around 275,000 per day, down by 7% week-over-week.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "memecoin",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Core Scientific revenue doubles in Q2 as AI colocation expansion accelerates",
+      "url": "https://cointelegraph.com/markets/core-scientific-revenue-doubles-q2-ai-colocation-expansion-accelerate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T15:47:00+00:00",
+      "summary": "Core Scientific reported strong second-quarter revenue growth as AI colocation became its largest business, though a non-cash accounting charge resulted in a $1.15 billion net loss.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "growth",
+          "strong"
+        ],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
+      "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains",
+      "published_at": "2026-07-28T15:46:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Galaxy Digital buys 500 acres in McGregor for second Texas AI data center campus",
+      "url": "https://www.theblock.co/post/409911/galaxy-digital-buys-500-acres-in-mcgregor-for-second-texas-ai-data-center-campus?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-28T15:31:00+00:00",
+      "summary": "The “privately funded\" Texas campus is expected to generate a minimum of $130 million for McGregor's local tax base, Galaxy said.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Nansen CEO bets on AI agents to overtake human traders within two years",
+      "url": "https://www.theblock.co/post/409914/nansen-ceo-bets-on-ai-agents-to-overtake-human-traders-within-two-years?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-28T15:22:12+00:00",
+      "summary": "Nansen CEO Alex Svanevik says AI agents will overtake human traders in two years as the platform pivots from analytics to agentic trading.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bank of Russia Creates New Rules For Crypto Trading",
+      "url": "https://bitcoinmagazine.com/news/bank-of-russia-drops-crypto-trading-rules",
+      "published_at": "2026-07-28T15:17:55+00:00",
+      "summary": "Bitcoin Magazine\n\nBank of Russia Creates New Rules For Crypto Trading \nRussia&#8217;s central bank on Monday published draft regulations for the trading of digital currencies.&#160; The Bank of Russia released the changes to its &#8220;organized trading&#8221; rules, including the term &#8220;digital currency&#8221; throughout.&#160; The new rules are for organizations like crypto exchanges, which now have to report digital assets into their existing systems for pricing, monitoring [&#8230;]\n...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "regulation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Barry Silbert-backed Zcash miner Fortitude brings Nebraska facility online to cut its ZEC production costs",
+      "url": "https://www.theblock.co/post/409899/barry-silbert-zcash-miner-fortitude-nebraska-facility-online-cut-zec-mining-costs?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-28T15:13:41+00:00",
+      "summary": "Fortitude expects its new 12-megawatt mining facility to cut its direct cash mining cost from about $70 to roughly $40 per ZEC.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "miner",
+        "mining"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
+      "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
+      "published_at": "2026-07-28T14:49:50+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Hyperliquid is taking crypto perps deep into DeFi’s ‘money LEGO’ land",
+      "url": "https://www.coindesk.com/business/2026/07/28/hyperliquid-is-taking-crypto-perps-deep-into-defi-s-money-lego-land",
+      "published_at": "2026-07-28T14:49:01+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "defi"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates",
+      "url": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
+      "published_at": "2026-07-28T14:35:28+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Morgan Stanley debuts Ethereum and Solana ETFs with market’s lowest fee, staking rewards",
+      "url": "https://www.theblock.co/post/409898/morgan-stanley-debuts-ethereum-solana-etfs-markets-lowest-fee-staking-rewards?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-28T14:31:47+00:00",
+      "summary": "The firm launching its ETH- and SOL-based funds comes roughly two and half years after the first spot bitcoin ETFs started trading.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "etf",
+        "staking"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Morgan Stanley debuts ether, solana exchange-traded products after bitcoin fund success",
+      "url": "https://www.coindesk.com/markets/2026/07/28/morgan-stanley-debuts-ether-and-solana-etps-after-bitcoin-fund-success",
+      "published_at": "2026-07-28T14:30:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "success"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Hyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins",
+      "url": "https://bitcoinmagazine.com/news/hyperscale-ups-bitcoin-stash",
+      "published_at": "2026-07-28T14:23:08+00:00",
+      "summary": "Bitcoin Magazine\n\nHyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins\nThe New York Stock Exchange-listed company has kept buying Bitcoin \nThis post Hyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "exchange",
+        "pos"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
@@ -297,7 +738,7 @@
     {
       "source": "Cointelegraph",
       "title": "PayPal expands stablecoin push as crypto assets factor into Q2 results",
-      "url": "https://cointelegraph.com/news/paypal-expands-stablecoin-push-crypto-assets-q2-results?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/markets/paypal-expands-stablecoin-push-crypto-assets-q2-results?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-28T12:07:51+00:00",
       "summary": "PayPal highlighted growth of stablecoins and AI-driven payment tools in Q2 while reporting $8.68 billion in revenue and an $81 million crypto-related earnings adjustment.",
       "sentiment": {
@@ -663,65 +1104,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Inside the CME and CFTC’s battle over onchain perpetual futures",
-      "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
-      "published_at": "2026-07-28T08:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc",
-        "futures",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Hong Kong’s central bank puts a number on lenders' quantum preparedness. It's very low.",
-      "url": "https://www.coindesk.com/markets/2026/07/28/hong-kong-s-central-bank-puts-a-number-on-lenders-quantum-preparedness-it-s-very-low",
-      "published_at": "2026-07-28T07:55:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin falls back to $63,000 as South Korea's Kospi crashes nearly 11%",
-      "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-recovers-from-asian-session-lows-nasdaq-futures-remain-under-pressure",
-      "published_at": "2026-07-28T07:46:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crashes",
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
       "source": "Cointelegraph",
       "title": "Apple faces lawsuit over alleged $1.8M Bitcoin wallet app losses",
       "url": "https://cointelegraph.com/news/apple-lawsuit-alleged-1-8-million-loss-fake-bitcoin-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -785,384 +1167,6 @@
         "Binance"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "What Is KuCoin?",
-      "url": "https://www.theblock.co/learn/409571/what-is-kucoin?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T05:14:22+00:00",
-      "summary": "KuCoin is a global cryptocurrency exchange where users can trade, earn, spend, and manage digital assets. Founded in 2017, the platform is now one of the most popular CEXs, serving more than 45 million users across over 200 countries and regions. These range from first-time crypto users and active retail traders to professional and institutional [&hellip;]",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "cex",
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin slides 2% after U.S. close while Korea’s Kospi plunges 10%",
-      "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-slides-2-after-u-s-close-while-korea-s-kospi-plunges-10",
-      "published_at": "2026-07-28T04:32:39+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "plunges"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US judge temporarily blocks Minnesota prediction market ban",
-      "url": "https://cointelegraph.com/news/us-judge-blocks-minnesota-prediction-market-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T04:28:10+00:00",
-      "summary": "The preliminary injunction allows Kalshi and Polymarket US to continue operating in Minnesota while the court considers their challenge to the state law.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Zimbabwe admits 7 fintech projects to regulatory sandbox",
-      "url": "https://cointelegraph.com/news/zimbabwe-seven-fintech-projects-regulatory-sandbox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T03:17:10+00:00",
-      "summary": "Sandbox participation permits supervised testing but does not guarantee full commercial registration.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Hong Kong prepares banks for quantum threats amid tokenization push",
-      "url": "https://cointelegraph.com/news/hong-kong-banks-quantum-threats-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T02:21:04+00:00",
-      "summary": "The HKMA aims to make Hong Kong’s banking sector fully prepared for quantum-related security risks by 2030 as the city expands tokenized finance.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risks"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "What Is a Digital Commodity?",
-      "url": "https://www.theblock.co/learn/409682/what-is-a-digital-commodity?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T01:55:46+00:00",
-      "summary": "A digital commodity is an onchain asset that draws its value from open-market supply and demand rather than from the work of a company or central issuer.  Assets in this category are freely transferable and traded on public markets, which makes them behave more like traditional commodities such as gold than like a share of [&hellip;]",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance phishes its own staff monthly, India censors BitChat code: Asia Express",
-      "url": "https://cointelegraph.com/magazine/india-bans-bitchat-binance-phishs-its-own-staff-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T01:23:07+00:00",
-      "summary": "Binance has been phishing its own staff to get ahead of potential attacks. South Korean crypto volumes tank 89% — plus all of the week’s other crypto news from Asia.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "tank"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Senate puts off crypto Clarity Act for now as it focuses limited bandwidth elsewhere",
-      "url": "https://www.coindesk.com/policy/2026/07/27/u-s-senate-puts-off-crypto-clarity-act-for-now-as-it-focuses-limited-bandwidth-elsewhere",
-      "published_at": "2026-07-27T23:55:16+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Kalshi, Polymarket win pause against Minnesota's prediction market ban",
-      "url": "https://www.coindesk.com/policy/2026/07/27/kalshi-polymarket-win-pause-against-minnesota-s-prediction-market-ban",
-      "published_at": "2026-07-27T23:29:38+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "win"
-        ],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Elon Musk: Humans Will Lose Control of AI Within a Decade",
-      "url": "https://decrypt.co/374488/elon-musk-humans-lose-control-ai-decade",
-      "published_at": "2026-07-27T23:00:04+00:00",
-      "summary": "The SpaceX founder says artificial intelligence is advancing too quickly to stop and is urging leading AI companies to coordinate on safety before releasing their most powerful models.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "leading"
-        ],
-        "negative_hits": [
-          "lose"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "artificial intelligence",
-        "cex",
-        "pow"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "OpenAI’s GPT-6 Will Arrive by September, Markets Predict",
-      "url": "https://decrypt.co/374472/openai-gpt-6-will-arrive-september-prediction-market",
-      "published_at": "2026-07-27T22:31:03+00:00",
-      "summary": "Money is moving on a September bet for OpenAI’s next major model on both Polymarket and Myriad prediction markets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "NFL urges CFTC to strengthen rules on sports prediction markets: report",
-      "url": "https://www.theblock.co/post/409846/nfl-urges-cftc-to-strengthen-rules-on-sports-prediction-markets-report?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-27T21:57:24+00:00",
-      "summary": "The NFL responded to the CFTC’s recent draft rulemaking calling for stricter prediction markets oversight, including age restrictions.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cftc"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Searchable NYC Property Database Puts Wealthy Residents at Risk, Critics Warn",
-      "url": "https://decrypt.co/374484/searchable-nyc-property-database-could-put-wealthy-residents-at-risk-crypto-execs-warn",
-      "published_at": "2026-07-27T21:05:05+00:00",
-      "summary": "A searchable database built from New York City's public property assessment records has drawn backlash from critics who say it creates privacy and security risks.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk",
-          "risks"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Prediction Market Traders Brace for Surprise Fed Rate Hike",
-      "url": "https://decrypt.co/374453/prediction-market-traders-brace-for-surprise-fed-rate-hike",
-      "published_at": "2026-07-27T20:43:16+00:00",
-      "summary": "Prediction market traders have pushed the odds of a July Fed rate hike to 27% on both Polymarket and Myriad, rising double digits in the last 24 hours.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Coinbase Chief Policy Officer Praises Crypto Clarity Act as “Extraordinarily Bipartisan”",
-      "url": "https://bitcoinmagazine.com/news/coinbase-policy-officer-praises-clarity",
-      "published_at": "2026-07-27T20:43:13+00:00",
-      "summary": "Bitcoin Magazine\n\nCoinbase Chief Policy Officer Praises Crypto Clarity Act as &#8220;Extraordinarily Bipartisan&#8221;\nCoinbase Chief Policy Officer Faryar Shirzad said it's time for Democrats and Republicans to vote on the Clarity Act. \nThis post Coinbase Chief Policy Officer Praises Crypto Clarity Act as &#8220;Extraordinarily Bipartisan&#8221; first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "NY Attorney General Letitia James warns Clarity Act would ‘dilute’ states’ ability to go after fraud as pressure mounts",
-      "url": "https://www.theblock.co/post/409831/ny-attorney-general-letitia-james-warns-clarity-act-dilute-states-ability-fraud-pressure-mounts?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-27T20:31:57+00:00",
-      "summary": "NYAG Letitia James urged Congress to tighten a crypto bill, warning that it would weaken states' ability to police the industry.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud",
-          "warning",
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "SparkKitty Malware Found in App Stores Targets Crypto Wallet Seed Phrases",
-      "url": "https://decrypt.co/374450/sparkkitty-malware-mobile-apps-crypto-wallet",
-      "published_at": "2026-07-27T20:09:57+00:00",
-      "summary": "A newly detailed report says SparkKitty malware scanned photos on infected iPhones and Android devices for cryptocurrency wallet recovery phrases after infiltrating Apple's App Store and Google Play.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
-      "url": "https://www.coindesk.com/markets/2026/07/27/bitcoin-shrugs-off-ai-selloff-but-high-stakes-fed-meeting-could-determine-what-s-next",
-      "published_at": "2026-07-27T19:55:45+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed"
-      ]
     }
   ]
 }
