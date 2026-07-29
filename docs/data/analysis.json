@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-07-28T21:12:20.198584+00:00",
+  "generated_at": "2026-07-29T03:10:48.476688+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.004,
+    "market_sentiment_score": -0.013,
     "label_distribution": {
-      "neutral": 32,
-      "bullish": 24,
-      "bearish": 14
+      "neutral": 33,
+      "bullish": 22,
+      "bearish": 15
     },
     "top_coins": [
+      {
+        "coin": "OP",
+        "mentions": 25
+      },
       {
         "coin": "Bitcoin",
         "mentions": 24
       },
       {
-        "coin": "OP",
-        "mentions": 23
-      },
-      {
         "coin": "ETH",
-        "mentions": 12
+        "mentions": 11
       },
       {
         "coin": "SOL",
-        "mentions": 9
-      },
-      {
-        "coin": "Ethereum",
         "mentions": 8
       },
       {
@@ -35,12 +31,16 @@
         "mentions": 7
       },
       {
-        "coin": "UNI",
-        "mentions": 4
+        "coin": "Ethereum",
+        "mentions": 7
       },
       {
-        "coin": "Sui",
-        "mentions": 2
+        "coin": "UNI",
+        "mentions": 3
+      },
+      {
+        "coin": "ADA",
+        "mentions": 1
       },
       {
         "coin": "XRP",
@@ -54,31 +54,35 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 19
       },
       {
         "topic": "exchange",
         "mentions": 8
       },
       {
-        "topic": "fed",
-        "mentions": 5
+        "topic": "sec",
+        "mentions": 6
       },
       {
-        "topic": "defi",
-        "mentions": 5
+        "topic": "fed",
+        "mentions": 4
       },
       {
         "topic": "mining",
         "mentions": 4
       },
       {
-        "topic": "liquidity",
+        "topic": "defi",
         "mentions": 4
+      },
+      {
+        "topic": "pow",
+        "mentions": 3
       },
       {
         "topic": "wallet",
@@ -87,14 +91,207 @@
       {
         "topic": "miner",
         "mentions": 3
-      },
-      {
-        "topic": "sec",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Tether signs tokenization deal with Nairobi Securities Exchange",
+      "url": "https://cointelegraph.com/news/tether-signs-tokenization-deal-with-nairobi-securities-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T02:50:51+00:00",
+      "summary": "The agreement covers tokenized securities, blockchain-based market infrastructure and the potential use of USDT as a settlement layer.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "sec",
+        "tokenization",
+        "usdt"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Zcash says Ironwood proof rules out undetectable counterfeiting bugs",
+      "url": "https://cointelegraph.com/news/zcash-ironwood-proof-counterfeiting-orchard-flaw?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T01:05:15+00:00",
+      "summary": "Zcash researchers published more than 2,700 machine-checked theorems designed to rule out undetectable counterfeiting bugs in Ironwood.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "European financial institutions launch RL1 cooperative blockchain network",
+      "url": "https://cointelegraph.com/news/european-financial-institutions-launch-rl1-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T00:09:29+00:00",
+      "summary": "RL1 began operations as a member-owned blockchain cooperative backed by 10 European financial institutions, including ABN AMRO, DekaBank and Natixis CIB.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase wants to be Canada’s ‘everything exchange,’ but says clearer rules are needed first",
+      "url": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first",
+      "published_at": "2026-07-28T23:50:38+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Myanmar parliament passes crypto scam bill with penalties up to life",
+      "url": "https://cointelegraph.com/news/myanmar-parliament-crypto-scam-bill-life-sentences?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T23:27:28+00:00",
+      "summary": "Myanmar lawmakers approved an anti-online scam bill whose draft proposed prison terms of 10 years to life for crypto scams and operating scam centers.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "approved"
+        ],
+        "negative_hits": [
+          "scam"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Markets Don’t Buy the US Ceasefire Against Iran Will Last",
+      "url": "https://decrypt.co/374611/us-iran-ceasefire-prediction-market-odds",
+      "published_at": "2026-07-28T22:46:03+00:00",
+      "summary": "The odds that a ceasefire lasts at least 14 consecutive days dropped by 10% today on Polymarket, and traders on Myriad believe peace talks won't happen until next month.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": [
+          "dropped"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Apple Overtakes Nvidia—Which Will Be Bigger by End of July?",
+      "url": "https://decrypt.co/374604/apple-overtakes-nvidia-which-bigger-july",
+      "published_at": "2026-07-28T22:08:04+00:00",
+      "summary": "Apple’s supposedly inadequate AI spending suddenly looks less like falling behind and more like avoiding a very expensive bill.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Visa outlines stablecoin strategy during Q3 earnings call",
+      "url": "https://cointelegraph.com/news/visa-earnings-stablecoin-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-28T21:57:49+00:00",
+      "summary": "Visa said it is investing across the stablecoin stack, highlighting OpenUSD, tokenized deposits and AI-powered commerce during the company’s third-quarter earnings call.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "pow",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "SEC Chairman Says He’s ‘Committed’ to Helping Advance Crypto Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/sec-chair-paul-atkins-supports-clarity-act",
+      "published_at": "2026-07-28T21:53:59+00:00",
+      "summary": "Bitcoin Magazine\n\nSEC Chairman Says He&#8217;s &#8216;Committed&#8217; to Helping Advance Crypto Clarity Act \nSEC Chairman Paul Atkins is the latest to throw support behind the crypto bill. \nThis post SEC Chairman Says He&#8217;s &#8216;Committed&#8217; to Helping Advance Crypto Clarity Act  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Claude Mythos Cracked Post-Quantum Cryptography That Humans Spent Years Failing to Break",
@@ -990,203 +1187,6 @@
       "topics": [
         "exchange",
         "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Core Scientific ties its AI pivot to AMD in multi-gigawatt infrastructure deal",
-      "url": "https://www.theblock.co/post/409887/core-scientific-ties-ai-pivot-amd-multi-gigawatt-infrastructure-deal?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T13:36:11+00:00",
-      "summary": "Core Scientific and AMD partner on 500 MW of U.S. AI data-center capacity from 2027, scalable to 2.5 GW, with warrants to buy CORZ stock.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "The real reason DeFi projects that survived 2022 crash are shutting down now",
-      "url": "https://cointelegraph.com/magazine/the-2022-bear-market-didnt-kill-these-defi-projects-what-changed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T13:30:00+00:00",
-      "summary": "DeFi projects that survived the fallout from the Terra and FTX collapses in 2022 are dying out in 2026. But analysts say it’s not a case of industry consolidation — but the opposite.",
-      "sentiment": {
-        "score": -7,
-        "normalized": -0.875,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapses",
-          "crash",
-          "down"
-        ]
-      },
-      "coins": [
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "defi",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Russia’s central bank drafts first rules for ‘organized’ crypto trading",
-      "url": "https://www.theblock.co/post/409877/russias-central-bank-drafts-first-rules-for-organized-crypto-trading?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T13:22:21+00:00",
-      "summary": "The Bank of Russia drafted rules establishing organized trading, equity requirements, and digital depositories for digital asset markets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Markets eye Bank of Japan meeting on Friday as yen repeats 40-year US dollar lows",
-      "url": "https://cointelegraph.com/markets/markets-eye-bank-of-japan-meeting-on-friday-as-yen-repeats-40-year-us-dollar-lows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T13:11:28+00:00",
-      "summary": "Analysis warned of a repeat of the 2024 yen carry-trade unwind that pressured crypto markets ahead of the next Bank of Japan interest-rate meeting.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warned"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ethereum, Solana led crypto hack losses in H1 2026: Blockaid",
-      "url": "https://cointelegraph.com/news/ethereum-solana-led-crypto-hack-losses-h1-2026-blockaid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T13:00:00+00:00",
-      "summary": "Blockaid found Ethereum remained the hardest-hit blockchain in H1 2026, while Solana replaced Arbitrum as the network with the second-highest losses, driven largely by key compromises.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL",
-        "Arbitrum",
-        "ARB"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
-      "url": "https://www.coindesk.com/business/2026/07/28/core-scientific-lands-amd-ai-deal-as-bitcoin-mining-operation-winds-down",
-      "published_at": "2026-07-28T12:46:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "mining"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance makes fighting crypto crime more difficult, says new report",
-      "url": "https://www.coindesk.com/business/2026/07/28/binance-makes-fighting-crypto-crime-more-difficult-says-new-nyt-article",
-      "published_at": "2026-07-28T12:24:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "1inch launches Aqua publicly, a shared liquidity layer for DeFi across 13 chains",
-      "url": "https://www.theblock.co/post/409866/1inch-launches-aqua-publicly-a-shared-liquidity-layer-for-defi-across-13-chains?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T12:19:48+00:00",
-      "summary": "1inch launched Aqua publicly across 13 EVM chains, with a 10M 1INCH incentive program for shared, self-custodial DeFi liquidity provisioning.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launched",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "defi",
-        "liquidity"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "PayPal expands stablecoin push as crypto assets factor into Q2 results",
-      "url": "https://cointelegraph.com/markets/paypal-expands-stablecoin-push-crypto-assets-q2-results?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T12:07:51+00:00",
-      "summary": "PayPal highlighted growth of stablecoins and AI-driven payment tools in Q2 while reporting $8.68 billion in revenue and an $81 million crypto-related earnings adjustment.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin"
       ]
     }
   ]
