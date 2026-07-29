@@ -1,100 +1,436 @@
 {
-  "generated_at": "2026-07-29T06:35:34.162344+00:00",
+  "generated_at": "2026-07-29T10:43:11.783879+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.002,
+    "market_sentiment_score": 0.013,
     "label_distribution": {
-      "neutral": 35,
-      "bearish": 13,
-      "bullish": 22
+      "neutral": 40,
+      "bearish": 11,
+      "bullish": 19
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 22
       },
       {
         "coin": "OP",
-        "mentions": 24
+        "mentions": 22
       },
       {
         "coin": "ETH",
-        "mentions": 10
-      },
-      {
-        "coin": "Solana",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "SOL",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "coin": "Ethereum",
-        "mentions": 6
+        "mentions": 5
       },
       {
-        "coin": "UNI",
+        "coin": "Solana",
         "mentions": 4
       },
       {
-        "coin": "ADA",
+        "coin": "UNI",
+        "mentions": 3
+      },
+      {
+        "coin": "Sui",
+        "mentions": 2
+      },
+      {
+        "coin": "BTC",
         "mentions": 2
       },
       {
         "coin": "Near",
-        "mentions": 1
-      },
-      {
-        "coin": "Uniswap",
-        "mentions": 1
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 38
+        "mentions": 40
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 17
       },
       {
         "topic": "exchange",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "topic": "fed",
-        "mentions": 6
-      },
-      {
-        "topic": "miner",
-        "mentions": 4
+        "mentions": 7
       },
       {
         "topic": "sec",
-        "mentions": 4
+        "mentions": 5
       },
       {
-        "topic": "mining",
-        "mentions": 4
+        "topic": "exchanges",
+        "mentions": 3
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 3
       },
       {
         "topic": "liquidity",
         "mentions": 3
       },
       {
-        "topic": "pow",
+        "topic": "miner",
         "mentions": 3
       },
       {
-        "topic": "defi",
-        "mentions": 3
+        "topic": "wallet",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision",
+      "url": "https://www.coindesk.com/markets/2026/07/29/bitcoin-steadies-above-usd64-000-as-crypto-looks-to-fed-interest-rate-decision",
+      "published_at": "2026-07-29T10:34:18+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Apple Sued After Fake iPhone Wallet App Drained $1.8M in Bitcoin",
+      "url": "https://decrypt.co/374628/apple-sued-after-fake-iphone-wallet-app-drained-1-8m-in-bitcoin",
+      "published_at": "2026-07-29T10:22:57+00:00",
+      "summary": "The suit claims Apple ranked a fake Sparrow Wallet app and put it in curated crypto collections alongside legitimate ones.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sued"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Binance offers gold and silver options after commodity futures pull in billions in daily volume",
+      "url": "https://www.coindesk.com/markets/2026/07/29/binance-offers-gold-and-silver-options-after-commodity-futures-pull-in-billions-in-daily-volume",
+      "published_at": "2026-07-29T10:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "futures"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto TradFi grows fivefold to $6.6B as exchanges expand into stocks, commodities: Report",
+      "url": "https://cointelegraph.com/news/crypto-exchanges-tokenized-assets-market-6-6-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T10:00:00+00:00",
+      "summary": "A CoinGecko study points to rising demand for tokenized equities and commodities on centralized exchanges, with perpetual futures driving most of the market’s trading activity.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "futures"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Russia Charges Telegram's Pavel Durov With Aiding Terrorism",
+      "url": "https://decrypt.co/374625/russia-charges-telegrams-pavel-durov-with-aiding-terrorism",
+      "published_at": "2026-07-29T09:34:35+00:00",
+      "summary": "Durov has previously called Russia’s criminal case against him \"a sad spectacle of a state afraid of its own people.\"",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ionic Digital jumps 26% in Nasdaq debut, giving Celsius Network claimholders an exit route",
+      "url": "https://www.coindesk.com/business/2026/07/29/ionic-digital-jumps-26-in-nasdaq-debut-giving-celsius-network-claimholders-an-exit-route",
+      "published_at": "2026-07-29T09:22:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Hungary repeals crypto checks as first MiCA license is granted",
+      "url": "https://cointelegraph.com/news/hungary-repeals-crypto-checks-first-mica-license-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T09:15:36+00:00",
+      "summary": "Hungary removed mandatory third-party checks for crypto conversions as CoinCash received authorization to provide digital asset services under MiCA.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism",
+      "url": "https://www.coindesk.com/policy/2026/07/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism",
+      "published_at": "2026-07-29T09:10:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Coalition of 44 state attorneys general says CFTC lacks authority over sports prediction markets",
+      "url": "https://www.theblock.co/post/410013/state-attorneys-general-cftc-letter-prediction-markets?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-29T08:21:19+00:00",
+      "summary": "The group of AGs sent a letter to the CFTC, urging the agency to draft new rules consistent with the Commodity Exchange Act.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "cftc",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trump teleprompter operator accused over Kalshi bets leaves government: AP",
+      "url": "https://cointelegraph.com/news/trump-teleprompter-kalshi-bets-government-ap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T08:12:11+00:00",
+      "summary": "Gabriel Perez, who was accused of profiting from Kalshi bets tied to President Donald Trump’s speeches, is no longer employed by the federal government.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "SpaceX is a battleground Solana must win",
+      "url": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win",
+      "published_at": "2026-07-29T08:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "win"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "cex"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism, issues arrest warrant: report",
+      "url": "https://www.theblock.co/post/410005/russia-charges-telegram-founder-pavel-durov?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-29T07:40:59+00:00",
+      "summary": "Russian security forces charged Telegram founder Pavel Durov with aiding terrorism, issuing an international warrant for his arrest.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ark Invest buys $12 million in SpaceX as it trims Block, Bullish and Robinhood holdings",
+      "url": "https://www.theblock.co/post/410002/ark-invest-buys-spacex-trims-block-bullish-robinhood?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-29T07:28:37+00:00",
+      "summary": "The firm sold $2.3 million worth of Block Inc. shares, $1.6 million worth of Bullish, and $4 million worth of Robinhood.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish",
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "cex"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs extend outflow streak as BTC fails to hold $65K",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-extend-outflow-streak-btc-slips-below-65k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T07:16:47+00:00",
+      "summary": "US spot Bitcoin ETFs recorded four straight sessions of outflows totaling $526 million as Bitcoin faced renewed selling pressure after failing to hold $65,000.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fails",
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "UK policy sprint finds cross-border payments are stablecoins’ top use case",
+      "url": "https://cointelegraph.com/news/uk-policy-cross-border-payments-stablecoins-use-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T07:11:27+00:00",
+      "summary": "Industry participants said stablecoins offer the biggest near-term benefits for cross-border payments, while domestic UK retail adoption is likely to remain limited.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Telegram founder Pavel Durov internationally wanted, Russia’s FSB says",
+      "url": "https://cointelegraph.com/news/telegram-founder-wanted-internationally-russia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T06:32:25+00:00",
+      "summary": "Russia’s FSB says Telegram founder Pavel Durov faces a terrorism-related charge and an international arrest warrant, while a separate French case remains open.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Live updates: Bitcoin clears $64,000 in Asia hours ahead of Fed decision",
@@ -533,32 +869,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Morgan Stanley expands crypto lineup with Ether, Solana ETPs",
-      "url": "https://cointelegraph.com/news/morgan-stanley-expands-crypto-lineup-with-ether-solana-etps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T20:10:46+00:00",
-      "summary": "The new exchange-traded products track Ether and Solana, offer staking rewards and follow the firm’s Bitcoin fund launched earlier this year.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "exchange",
-        "staking"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Teacher Arrested for Clapping at AI Data Center Public Hearing",
       "url": "https://decrypt.co/374597/teacher-arrested-clapping-ai-data-center-public-hearing",
@@ -720,33 +1030,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "AmericanFortress proposes quantum-safe crypto wallet protection without fund migration",
-      "url": "https://cointelegraph.com/news/americanfortress-proposes-quantum-safe-crypto-wallet-protection-without-fund-migration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T18:47:26+00:00",
-      "summary": "The proposed cryptographic scheme aims to protect existing Bitcoin, Ethereum and Solana wallets from future quantum attacks without requiring users to move funds or change wallet addresses.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "XRP Price Slides as Senate Drops Clarity Act and Fed Decision Looms",
       "url": "https://decrypt.co/374579/xrp-price-slides-senate-clarity-act-fed-rate-looms",
@@ -817,50 +1100,6 @@
         "l2",
         "layer 2",
         "tvl"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T18:15:25+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Galaxy, MARA Holdings deepen Texas expansion with land acquisitions",
-      "url": "https://cointelegraph.com/news/galaxy-mara-texas-land-deals-ai-bitcoin-data-centers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T18:08:32+00:00",
-      "summary": "The crypto-focused companies announced separate acquisitions as demand for power-intensive AI and digital infrastructure continues to grow.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pow"
       ]
     },
     {
@@ -946,251 +1185,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Core Scientific Adds More Bitcoin To Balance Sheet in Q2 Despite Selling Strategy",
-      "url": "https://bitcoinmagazine.com/news/core-scientific-adds-more-bitcoin",
-      "published_at": "2026-07-28T17:23:46+00:00",
-      "summary": "Bitcoin Magazine\n\nCore Scientific Adds More Bitcoin To Balance Sheet in Q2 Despite Selling Strategy\nWhile the publicly-traded miner's holdings have shrunk overall this year, the company has quickly added more Bitcoin to its balance sheet the past quarter. \nThis post Core Scientific Adds More Bitcoin To Balance Sheet in Q2 Despite Selling Strategy first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "miner",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
-      "url": "https://www.coindesk.com/markets/2026/07/28/wall-street-veteran-don-wilson-says-regulators-are-getting-crypto-s-biggest-trading-innovation-all-wrong",
-      "published_at": "2026-07-28T17:23:35+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "First ChatGPT, Now Claude: Frontier AI Models Are Escaping Their Sandboxes",
-      "url": "https://decrypt.co/374557/chatgpt-claude-ai-models-escaping-sandboxes-cowork",
-      "published_at": "2026-07-28T16:54:11+00:00",
-      "summary": "A week after OpenAI disclosed a frontier AI sandbox escape, researchers found Anthropic's Claude Cowork could break out of its own virtual machine.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin lows pierce $63K as Asia chip-stock crash spreads to Wall Street",
-      "url": "https://cointelegraph.com/markets/bitcoin-lows-pierce-63k-as-asia-chip-stock-crash-spills?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T16:27:46+00:00",
-      "summary": "Bitcoin and crypto dropped as contagion from a major Asia stock-market correction spreads to the US at the Wall Street open.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crash",
-          "dropped"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Why the Bitcoin Rally Seems More Like a Bull Trap",
-      "url": "https://decrypt.co/374539/bitcoin-price-rally-bull-trap",
-      "published_at": "2026-07-28T16:22:18+00:00",
-      "summary": "The Bitcoin bounce looked promising. The charts now say it wasn't.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Kraken opens Jersey Mike’s IPO to retail investors through tokenized shares and direct allocations",
-      "url": "https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T16:20:57+00:00",
-      "summary": "Eligible US users can request IPO allocations, while customers in more than 110 countries gain access to tokenized Jersey Mike’s shares backed 1:1 by the underlying stock.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
-      "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act",
-      "published_at": "2026-07-28T16:08:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Robinhood Chain deposits climb but volume and users fade after memecoin-fueled launch",
-      "url": "https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T16:02:48+00:00",
-      "summary": "The number of active accounts on Roinbhood Chain averaged around 275,000 per day, down by 7% week-over-week.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "memecoin",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
-      "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains",
-      "published_at": "2026-07-28T15:46:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Galaxy Digital buys 500 acres in McGregor for second Texas AI data center campus",
-      "url": "https://www.theblock.co/post/409911/galaxy-digital-buys-500-acres-in-mcgregor-for-second-texas-ai-data-center-campus?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T15:31:00+00:00",
-      "summary": "The “privately funded\" Texas campus is expected to generate a minimum of $130 million for McGregor's local tax base, Galaxy said.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Nansen CEO bets on AI agents to overtake human traders within 2 years",
-      "url": "https://www.theblock.co/post/409914/nansen-ceo-bets-on-ai-agents-to-overtake-human-traders-within-two-years?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T15:22:12+00:00",
-      "summary": "Nansen CEO Alex Svanevik says AI agents will overtake human traders in two years as the platform pivots from analytics to agentic trading.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bank of Russia Creates New Rules For Crypto Trading",
-      "url": "https://bitcoinmagazine.com/news/bank-of-russia-drops-crypto-trading-rules",
-      "published_at": "2026-07-28T15:17:55+00:00",
-      "summary": "Bitcoin Magazine\n\nBank of Russia Creates New Rules For Crypto Trading \nRussia&#8217;s central bank on Monday published draft regulations for the trading of digital currencies.&#160; The Bank of Russia released the changes to its &#8220;organized trading&#8221; rules, including the term &#8220;digital currency&#8221; throughout.&#160; The new rules are for organizations like crypto exchanges, which now have to report digital assets into their existing systems for pricing, monitoring [&#8230;]\n...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges",
-        "regulation"
-      ]
     }
   ]
 }
