@@ -1,83 +1,87 @@
 {
-  "generated_at": "2026-07-29T17:19:23.427826+00:00",
+  "generated_at": "2026-07-29T21:00:55.859497+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.014,
+    "market_sentiment_score": 0.021,
     "label_distribution": {
-      "bullish": 17,
-      "neutral": 43,
-      "bearish": 10
+      "bullish": 15,
+      "neutral": 48,
+      "bearish": 7
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "coin": "Bitcoin",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "coin": "ETH",
+        "mentions": 7
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 6
       },
       {
         "coin": "SOL",
-        "mentions": 5
+        "mentions": 3
       },
       {
-        "coin": "Ethereum",
-        "mentions": 5
-      },
-      {
-        "coin": "Solana",
-        "mentions": 4
-      },
-      {
-        "coin": "Near",
-        "mentions": 4
+        "coin": "Sui",
+        "mentions": 3
       },
       {
         "coin": "Binance",
         "mentions": 2
       },
       {
-        "coin": "BTC",
+        "coin": "Near",
         "mentions": 2
       },
       {
-        "coin": "Sui",
-        "mentions": 2
+        "coin": "UNI",
+        "mentions": 1
+      },
+      {
+        "coin": "Solana",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 38
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 17
       },
       {
         "topic": "fed",
+        "mentions": 11
+      },
+      {
+        "topic": "sec",
         "mentions": 7
       },
       {
         "topic": "exchange",
-        "mentions": 6
+        "mentions": 4
       },
       {
-        "topic": "sec",
-        "mentions": 5
-      },
-      {
-        "topic": "stablecoin",
+        "topic": "wallet",
         "mentions": 4
       },
       {
         "topic": "futures",
+        "mentions": 4
+      },
+      {
+        "topic": "stablecoin",
         "mentions": 3
       },
       {
@@ -87,14 +91,352 @@
       {
         "topic": "dai",
         "mentions": 2
-      },
-      {
-        "topic": "regulation",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Flock Cameras Face Growing Backlash as Privacy Concerns Reach Capitol Hill",
+      "url": "https://decrypt.co/374603/flock-cameras-backlash-privacy-concerns-capitol-hill",
+      "published_at": "2026-07-29T20:46:03+00:00",
+      "summary": "Growing opposition across America to Flock cameras has reached Capitol Hill, where Rep. Thomas Massie plans legislation to block federal funding for the technology.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "growing"
+        ],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "fed",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Robinhood slides 4% despite earnings beat as crypto revenue cools",
+      "url": "https://www.coindesk.com/markets/2026/07/29/robinhood-slides-4-despite-earnings-beat-as-crypto-revenue-cools",
+      "published_at": "2026-07-29T20:40:43+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto entering biggest consolidation phase in history, says ARK analyst",
+      "url": "https://cointelegraph.com/news/crypto-entering-biggest-consolidation-phase-in-history-says-ark-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T20:40:38+00:00",
+      "summary": "ARK Invest’s Lorenzo Valente says revenue is becoming increasingly concentrated among a handful of crypto protocols, setting the stage for more mergers, acquisitions and exchange closures.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tennessee county passes another ban on crypto operations",
+      "url": "https://cointelegraph.com/news/tennessee-county-ban-crypto-operations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T20:11:27+00:00",
+      "summary": "A group of 12 county commissioners voted unanimously to ban mining facilities and data centers in unincorporated areas as it deals with a lawsuit by a digital asset company.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban",
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "UNI",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "mining"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "There's a New Way to Protect Bitcoin From Future Quantum Attacks, Researchers Say",
+      "url": "https://decrypt.co/374651/new-research-bitcoin-wallet-quantum-attacks-safe",
+      "published_at": "2026-07-29T20:01:03+00:00",
+      "summary": "New research outlines a cryptographic approach that could allow Bitcoin and other blockchain wallets to remain compatible with existing addresses in a post-quantum future.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US prosecutors propose changes to CLARITY as voting window narrows: Report",
+      "url": "https://cointelegraph.com/news/clarity-act-changes-law-enforcement-voting-narrows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T19:43:29+00:00",
+      "summary": "A White House crypto adviser said that the proposed changes to the CLARITY Act were “not even close” to the administration’s position, signaling another fight over the bill.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Fed holds rates steady as 3 officials push for hike while crypto market stays flat",
+      "url": "https://www.theblock.co/post/410092/fed-holds-rates-steady-three-officials-push-hike-crypto-market-stays-flat?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-29T19:38:31+00:00",
+      "summary": "The Fed said Middle East-driven energy shocks are keeping inflation above its 2% target, as it keeps it rate range steady.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "fed",
+        "inflation"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Barely Budges as Fed Keeps Interest Rates Unchanged",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-stays-still-on-fed-decision",
+      "published_at": "2026-07-29T19:34:17+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Barely Budges as Fed Keeps Interest Rates Unchanged\nThe leading cryptocurrency didn't move much — and it wasn't clear what the Fed will do next. \nThis post Bitcoin Barely Budges as Fed Keeps Interest Rates Unchanged first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "leading"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed",
+        "interest rate",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "MoonPay's PayBox Puts a Crypto Wallet Inside Claude and ChatGPT—And Lets It Pay for Things",
+      "url": "https://decrypt.co/374687/moonpays-paybox-crypto-wallet-claude-chatgpt",
+      "published_at": "2026-07-29T19:31:03+00:00",
+      "summary": "The company wants your AI to move money autonomously while you stay in control. Here's how it actually works.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Pump.fun token graduation rate jumps after BOOST changes launch incentives",
+      "url": "https://www.theblock.co/post/409815/pump-fun-token-graduation-rate-jumps-boost-changes-launch-incentives?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-29T18:51:01+00:00",
+      "summary": "BOOST comes into effect after a token has already bonded, so it doesn’t mechanically lift the share of tokens that reach the threshold.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "boost",
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin, Ethereum Wobble as Fed Holds Rates Steady",
+      "url": "https://decrypt.co/374672/bitcoin-ethereum-price-fed-holds-rates-steady",
+      "published_at": "2026-07-29T18:43:45+00:00",
+      "summary": "Chair Kevin Warsh kept the federal funds rate at 3.5%–3.75% and offered no new signals on when cuts—or hikes—might come.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "As crypto perpetual futures boom, Ethereum’s role is shifting",
+      "url": "https://www.coindesk.com/tech/2026/07/29/as-crypto-perpetual-futures-boom-ethereum-s-role-is-shifting",
+      "published_at": "2026-07-29T18:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Fed holds rates steady, extending pause as markets await Kevin Warsh's policy roadmap",
+      "url": "https://www.coindesk.com/markets/2026/07/29/fomc-hold-fed-holds-rates-steady-extending-pause-as-markets-await-warsh-s-policy-roadmap",
+      "published_at": "2026-07-29T17:58:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Democratic Senator Backs Clarity Act — With Proposed Law Enforcement Changes Included: Report",
+      "url": "https://bitcoinmagazine.com/news/democratic-senator-backs-clarity-act",
+      "published_at": "2026-07-29T17:53:43+00:00",
+      "summary": "Bitcoin Magazine\n\nDemocratic Senator Backs Clarity Act — With Proposed Law Enforcement Changes Included: Report \nLawmakers — mostly Democrats —are still pushing for changes to the long-awaited bill. \nThis post Democratic Senator Backs Clarity Act — With Proposed Law Enforcement Changes Included: Report  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘Ethereum Cypherpunk Manifesto’ author joins Ethereum Foundation as fourth board member",
+      "url": "https://www.theblock.co/post/410083/ethereum-cypherpunk-manifesto-author-ethereum-foundation-fourth-board-member?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-29T17:22:33+00:00",
+      "summary": "The SEAL 911 security firm co-founder, pcaversaccio, is known for his privacy advocacy and cypherpunk cultural commentary.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ethereum Price Stalls as Fed Rate Decision Looms",
+      "url": "https://decrypt.co/374653/ethereum-price-stalls-fed-rate-decision",
+      "published_at": "2026-07-29T17:18:49+00:00",
+      "summary": "Despite being down today, ETH has clawed back from the worst levels of the year. Now it's waiting on the Fed.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Binance launches regulated gold, silver options through ADGM exchange",
@@ -777,338 +1119,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "3 reasons Wednesday's Fed meeting is pivotal for BTC",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/29/3-reasons-wednesday-s-fed-meeting-is-pivotal-for-btc",
-      "published_at": "2026-07-29T11:15:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "BTC"
-      ],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘Sleepy July’: K33 says bitcoin spot volume on track for weakest month since late 2023",
-      "url": "https://www.theblock.co/post/410017/sleepy-july-k33-says-bitcoin-spot-volume-on-track-for-weakest-month-since-late-2023?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T10:59:48+00:00",
-      "summary": "K33 says bitcoin spot trading activity is headed for its weakest month since late 2023 as derivatives markets remain subdued.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision",
-      "url": "https://www.coindesk.com/markets/2026/07/29/bitcoin-steadies-above-usd64-000-as-crypto-looks-to-fed-interest-rate-decision",
-      "published_at": "2026-07-29T10:34:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Apple Sued After Fake iPhone Wallet App Drained $1.8M in Bitcoin",
-      "url": "https://decrypt.co/374628/apple-sued-after-fake-iphone-wallet-app-drained-1-8m-in-bitcoin",
-      "published_at": "2026-07-29T10:22:57+00:00",
-      "summary": "The suit claims Apple ranked a fake Sparrow Wallet app and put it in curated crypto collections alongside legitimate ones.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sued"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Sui"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance offers gold and silver options after commodity futures pull in billions in daily volume",
-      "url": "https://www.coindesk.com/markets/2026/07/29/binance-offers-gold-and-silver-options-after-commodity-futures-pull-in-billions-in-daily-volume",
-      "published_at": "2026-07-29T10:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "futures"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto TradFi grows fivefold to $6.6B as exchanges expand into stocks, commodities: Report",
-      "url": "https://cointelegraph.com/news/crypto-exchanges-tokenized-assets-market-6-6-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T10:00:00+00:00",
-      "summary": "A CoinGecko study points to rising demand for tokenized equities and commodities on centralized exchanges, with perpetual futures driving most of the market’s trading activity.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "exchanges",
-        "futures"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Russia Charges Telegram's Pavel Durov With Aiding Terrorism",
-      "url": "https://decrypt.co/374625/russia-charges-telegrams-pavel-durov-with-aiding-terrorism",
-      "published_at": "2026-07-29T09:34:35+00:00",
-      "summary": "Durov has previously called Russia’s criminal case against him \"a sad spectacle of a state afraid of its own people.\"",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ionic Digital jumps 26% in Nasdaq debut, giving Celsius Network claimholders an exit route",
-      "url": "https://www.coindesk.com/business/2026/07/29/ionic-digital-jumps-26-in-nasdaq-debut-giving-celsius-network-claimholders-an-exit-route",
-      "published_at": "2026-07-29T09:22:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Hungary repeals crypto checks as first MiCA license is granted",
-      "url": "https://cointelegraph.com/news/hungary-repeals-crypto-checks-first-mica-license-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T09:15:36+00:00",
-      "summary": "Hungary removed mandatory third-party checks for crypto conversions as CoinCash received authorization to provide digital asset services under MiCA.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism",
-      "url": "https://www.coindesk.com/policy/2026/07/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism",
-      "published_at": "2026-07-29T09:10:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Coalition of 44 state attorneys general says CFTC lacks authority over sports prediction markets",
-      "url": "https://www.theblock.co/post/410013/state-attorneys-general-cftc-letter-prediction-markets?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T08:21:19+00:00",
-      "summary": "The group of AGs sent a letter to the CFTC, urging the agency to draft new rules consistent with the Commodity Exchange Act.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cftc",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trump teleprompter operator accused over Kalshi bets leaves government: AP",
-      "url": "https://cointelegraph.com/news/trump-teleprompter-kalshi-bets-government-ap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T08:12:11+00:00",
-      "summary": "Gabriel Perez, who was accused of profiting from Kalshi bets tied to President Donald Trump’s speeches, is no longer employed by the federal government.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "SpaceX is a battleground Solana must win",
-      "url": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win",
-      "published_at": "2026-07-29T08:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "win"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "cex"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism, issues arrest warrant: report",
-      "url": "https://www.theblock.co/post/410005/russia-charges-telegram-founder-pavel-durov?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T07:40:59+00:00",
-      "summary": "Russian security forces charged Telegram founder Pavel Durov with aiding terrorism, issuing an international warrant for his arrest.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Sui"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ark Invest buys $12 million in SpaceX as it trims Block, Bullish and Robinhood holdings",
-      "url": "https://www.theblock.co/post/410002/ark-invest-buys-spacex-trims-block-bullish-robinhood?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T07:28:37+00:00",
-      "summary": "The firm sold $2.3 million worth of Block Inc. shares, $1.6 million worth of Bullish, and $4 million worth of Robinhood.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "cex"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs extend outflow streak as BTC fails to hold $65K",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-extend-outflow-streak-btc-slips-below-65k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T07:16:47+00:00",
-      "summary": "US spot Bitcoin ETFs recorded four straight sessions of outflows totaling $526 million as Bitcoin faced renewed selling pressure after failing to hold $65,000.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fails",
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "etf"
       ]
     }
   ]
