@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-07-29T03:10:48.476688+00:00",
+  "generated_at": "2026-07-29T06:35:34.162344+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.013,
+    "market_sentiment_score": -0.002,
     "label_distribution": {
-      "neutral": 33,
-      "bullish": 22,
-      "bearish": 15
+      "neutral": 35,
+      "bearish": 13,
+      "bullish": 22
     },
     "top_coins": [
       {
-        "coin": "OP",
+        "coin": "Bitcoin",
         "mentions": 25
       },
       {
-        "coin": "Bitcoin",
+        "coin": "OP",
         "mentions": 24
       },
       {
         "coin": "ETH",
-        "mentions": 11
-      },
-      {
-        "coin": "SOL",
-        "mentions": 8
+        "mentions": 10
       },
       {
         "coin": "Solana",
-        "mentions": 7
+        "mentions": 6
+      },
+      {
+        "coin": "SOL",
+        "mentions": 6
       },
       {
         "coin": "Ethereum",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "coin": "UNI",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "ADA",
+        "mentions": 2
+      },
+      {
+        "coin": "Near",
         "mentions": 1
       },
       {
-        "coin": "XRP",
-        "mentions": 1
-      },
-      {
-        "coin": "Tron",
+        "coin": "Uniswap",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 38
       },
       {
         "topic": "pos",
@@ -62,14 +62,18 @@
       },
       {
         "topic": "exchange",
-        "mentions": 8
-      },
-      {
-        "topic": "sec",
-        "mentions": 6
+        "mentions": 9
       },
       {
         "topic": "fed",
+        "mentions": 6
+      },
+      {
+        "topic": "miner",
+        "mentions": 4
+      },
+      {
+        "topic": "sec",
         "mentions": 4
       },
       {
@@ -77,24 +81,197 @@
         "mentions": 4
       },
       {
-        "topic": "defi",
-        "mentions": 4
+        "topic": "liquidity",
+        "mentions": 3
       },
       {
         "topic": "pow",
         "mentions": 3
       },
       {
-        "topic": "wallet",
-        "mentions": 3
-      },
-      {
-        "topic": "miner",
+        "topic": "defi",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin clears $64,000 in Asia hours ahead of Fed decision",
+      "url": "https://www.coindesk.com/tech/2026/07/29/live-updates-bitcoin-clears-usd64-000-in-asia-hours-ahead-of-fed-decision",
+      "published_at": "2026-07-29T06:25:21+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
+      "url": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses",
+      "published_at": "2026-07-29T06:03:28+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "liquidations",
+          "losses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Citadel bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.",
+      "url": "https://www.coindesk.com/markets/2026/07/29/citadel-bets-on-a-fed-rate-hike-wednesday-as-bitcoin-analysts-call-a-hold-someone-will-be-wrong",
+      "published_at": "2026-07-29T05:37:38+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin rises toward $64,000 as Korea's record chip crash leaves crypto untouched",
+      "url": "https://www.coindesk.com/markets/2026/07/29/bitcoin-rises-toward-usd64-000-as-korea-s-record-chip-crash-leaves-crypto-untouched",
+      "published_at": "2026-07-29T05:32:27+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trade.xyz to cover SK Hynix perp liquidation losses tied to price anomaly",
+      "url": "https://cointelegraph.com/news/trade-xyz-sk-hynix-perp-liquidations-price-anomaly?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T05:29:48+00:00",
+      "summary": "Trade.xyz said its oracle worked as designed but will reimburse eligible traders after an external SK Hynix price print caused the contract’s mark price to fall nearly 19%.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall",
+          "liquidation",
+          "losses"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Uniswap founder rejects claims v4 fees reduce LP earnings",
+      "url": "https://cointelegraph.com/news/uniswap-founder-rejects-v4-fees-reduce-lp-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T05:02:07+00:00",
+      "summary": "Hayden Adams said critics misunderstood Uniswap’s newly approved v4 protocol fees, rejecting claims the change reduces liquidity providers’ earnings.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approved"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA",
+        "Uniswap",
+        "UNI"
+      ],
+      "topics": [
+        "ai",
+        "liquidity"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korea plans stablecoin rules as opposition pushes crypto tax repeal",
+      "url": "https://cointelegraph.com/news/south-korea-consolidated-crypto-law-tax-repeal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T03:43:05+00:00",
+      "summary": "The FSC reportedly plans a government-backed digital asset bill covering stablecoins and exchanges, while opposition lawmakers seek to scrap a 22% crypto tax due in 2027.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Celsius-linked Bitcoin miner Ionic Digital gains 26% in Nasdaq debut",
+      "url": "https://cointelegraph.com/markets/celsius-bitcoin-miner-ionic-digital-nasdaq-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T03:26:44+00:00",
+      "summary": "The Bitcoin miner and AI infrastructure company closed at $62.90, giving it a market capitalization of about $2.8 billion after its direct listing.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "miner"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Tether signs tokenization deal with Nairobi Securities Exchange",
@@ -179,10 +356,10 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Myanmar parliament passes crypto scam bill with penalties up to life",
+      "title": "Myanmar Parliament passes crypto scam bill with penalties up to life",
       "url": "https://cointelegraph.com/news/myanmar-parliament-crypto-scam-bill-life-sentences?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-28T23:27:28+00:00",
-      "summary": "Myanmar lawmakers approved an anti-online scam bill whose draft proposed prison terms of 10 years to life for crypto scams and operating scam centers.",
+      "summary": "Myanmar lawmakers approved an anti-online scam bill whose draft proposes prison terms of 10 years to life for crypto scams and operating scam centers.",
       "sentiment": {
         "score": -1,
         "normalized": -0.125,
@@ -934,32 +1111,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Core Scientific revenue doubles in Q2 as AI colocation expansion accelerates",
-      "url": "https://cointelegraph.com/markets/core-scientific-revenue-doubles-q2-ai-colocation-expansion-accelerate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-28T15:47:00+00:00",
-      "summary": "Core Scientific reported strong second-quarter revenue growth as AI colocation became its largest business, though a non-cash accounting charge resulted in a $1.15 billion net loss.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "growth",
-          "strong"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
       "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains",
@@ -1039,154 +1190,6 @@
         "exchange",
         "exchanges",
         "regulation"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Barry Silbert-backed Zcash miner Fortitude brings Nebraska facility online to cut its ZEC production costs",
-      "url": "https://www.theblock.co/post/409899/barry-silbert-zcash-miner-fortitude-nebraska-facility-online-cut-zec-mining-costs?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T15:13:41+00:00",
-      "summary": "Fortitude expects its new 12-megawatt mining facility to cut its direct cash mining cost from about $70 to roughly $40 per ZEC.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "miner",
-        "mining"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
-      "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
-      "published_at": "2026-07-28T14:49:50+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Hyperliquid is taking crypto perps deep into DeFi’s ‘money LEGO’ land",
-      "url": "https://www.coindesk.com/business/2026/07/28/hyperliquid-is-taking-crypto-perps-deep-into-defi-s-money-lego-land",
-      "published_at": "2026-07-28T14:49:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "defi"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates",
-      "url": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
-      "published_at": "2026-07-28T14:35:28+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Morgan Stanley debuts Ethereum and Solana ETFs with market’s lowest fee, staking rewards",
-      "url": "https://www.theblock.co/post/409898/morgan-stanley-debuts-ethereum-solana-etfs-markets-lowest-fee-staking-rewards?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-28T14:31:47+00:00",
-      "summary": "The firm launching its ETH- and SOL-based funds comes roughly two and half years after the first spot bitcoin ETFs started trading.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "etf",
-        "staking"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Morgan Stanley debuts ether, solana exchange-traded products after bitcoin fund success",
-      "url": "https://www.coindesk.com/markets/2026/07/28/morgan-stanley-debuts-ether-and-solana-etps-after-bitcoin-fund-success",
-      "published_at": "2026-07-28T14:30:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "success"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Hyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins",
-      "url": "https://bitcoinmagazine.com/news/hyperscale-ups-bitcoin-stash",
-      "published_at": "2026-07-28T14:23:08+00:00",
-      "summary": "Bitcoin Magazine\n\nHyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins\nThe New York Stock Exchange-listed company has kept buying Bitcoin \nThis post Hyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buying"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "exchange",
-        "pos"
       ]
     }
   ]
