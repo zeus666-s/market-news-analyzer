@@ -1,37 +1,41 @@
 {
-  "generated_at": "2026-07-30T02:43:02.259844+00:00",
+  "generated_at": "2026-07-30T06:32:05.874360+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.011,
+    "market_sentiment_score": 0.016,
     "label_distribution": {
-      "neutral": 49,
-      "bullish": 14,
-      "bearish": 7
+      "neutral": 45,
+      "bearish": 9,
+      "bullish": 16
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 17
+        "mentions": 18
       },
       {
         "coin": "OP",
-        "mentions": 15
+        "mentions": 17
       },
       {
         "coin": "ETH",
-        "mentions": 10
+        "mentions": 11
       },
       {
         "coin": "Ethereum",
         "mentions": 7
       },
       {
-        "coin": "Sui",
+        "coin": "Near",
         "mentions": 3
       },
       {
         "coin": "Binance",
+        "mentions": 3
+      },
+      {
+        "coin": "XRP",
         "mentions": 2
       },
       {
@@ -39,37 +43,33 @@
         "mentions": 2
       },
       {
-        "coin": "Near",
+        "coin": "Sui",
         "mentions": 2
       },
       {
-        "coin": "ARB",
-        "mentions": 1
-      },
-      {
-        "coin": "UNI",
+        "coin": "ALGO",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 19
       },
       {
         "topic": "fed",
-        "mentions": 10
+        "mentions": 9
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 6
       },
       {
-        "topic": "exchange",
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
@@ -77,24 +77,235 @@
         "mentions": 4
       },
       {
-        "topic": "stablecoin",
+        "topic": "exchange",
         "mentions": 3
       },
       {
+        "topic": "smart contract",
+        "mentions": 2
+      },
+      {
+        "topic": "mining",
+        "mentions": 2
+      },
+      {
         "topic": "cftc",
-        "mentions": 2
-      },
-      {
-        "topic": "futures",
-        "mentions": 2
-      },
-      {
-        "topic": "usdc",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin analysts agree the Fed's hold was hawkish. They don't agree on what happens next.",
+      "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-analysts-agree-the-fed-s-hold-was-hawkish-they-don-t-agree-on-what-happens-next",
+      "published_at": "2026-07-30T06:28:58+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ostium blames off-chain breach for $24 million exploit, rules out smart contract flaw",
+      "url": "https://www.theblock.co/post/410122/ostium-post-mortem-exploit?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-30T06:25:55+00:00",
+      "summary": "The team said trader collateral was unaffected and that it will release a recovery plan for liquidity providers.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "liquidity",
+        "smart contract"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korea report proposes stablecoin rules before crypto law",
+      "url": "https://cointelegraph.com/news/south-korea-report-stablecoin-rules-crypto-law?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T05:33:57+00:00",
+      "summary": "Policy report recommends interim licensing guidance, greater flexibility for stablecoin issuers and rules ahead of the Digital Asset Basic Act.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US sanctions Iranian maritime firm, says it accepted Bitcoin to evade restrictions",
+      "url": "https://cointelegraph.com/news/us-sanctions-iran-hormuzsafe-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T05:23:59+00:00",
+      "summary": "The US Treasury said HormuzSafe accepted Bitcoin and other digital assets to evade sanctions and generate revenue for Iran’s Islamic Revolutionary Guard Corps.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ether, XRP flat as chip stocks steady on Samsung's 250-fold profit surge",
+      "url": "https://www.coindesk.com/markets/2026/07/30/ether-xrp-flat-as-chip-stocks-steady-on-samsung-s-250-fold-profit-surge",
+      "published_at": "2026-07-30T05:19:47+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "profit",
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Russia detains crypto mining firm BitRiver founder on fraud charges: report",
+      "url": "https://www.theblock.co/post/410117/russia-detains-bitriver-founder?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-30T05:13:34+00:00",
+      "summary": "Runets and his company were reportedly involved in a deal with local conglomerate En+ that resulted in $12.5 million in damages.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "mining"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin's quantum plan assumes some algorithms break. AI just weakened one in 60 hours",
+      "url": "https://www.coindesk.com/tech/2026/07/29/bitcoin-s-quantum-plan-assumes-some-algorithms-break-ai-just-weakened-one-in-60-hours",
+      "published_at": "2026-07-30T04:16:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ALGO"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Luno cuts 20% of staff as crypto layoffs spread across 12 firms in July",
+      "url": "https://cointelegraph.com/news/luno-cuts-staff-crypto-layoffs-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T04:13:34+00:00",
+      "summary": "Luno and Gnosis joined a widening round of crypto restructurings in July, when at least 12 companies reported job cuts.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Japanese game developer launches Bitcoin, altcoin fund with SBI",
+      "url": "https://cointelegraph.com/news/japanese-game-developer-bitcoin-altcoin-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T03:19:58+00:00",
+      "summary": "The Bitcoin and altcoin fund builds on Gumi’s growing crypto business centered around XRP, with the company nearly doubling its crypto holdings over the past year.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "growing",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "XRP",
+        "LTC",
+        "Near",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Binance.US to apply for CFTC license in August for prediction market platform",
+      "url": "https://www.theblock.co/post/410110/binance-us-cftc-license?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-30T03:17:36+00:00",
+      "summary": "Binance.US CEO Stephen Gregory said at a recent conference that the company will apply for a designated contract market license in August.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Ethereum Foundation adds SEAL 911 co-founder to board as privacy focus grows",
@@ -200,7 +411,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Robinhood posts record quarter, but crypto revenue slides 38%",
+      "title": "Robinhood posts record quarter as crypto revenue slides 38%",
       "url": "https://cointelegraph.com/news/robinhood-record-quarter-crypto-revenue-slides?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-29T21:53:35+00:00",
       "summary": "The online brokerage continued expanding its digital asset business with Robinhood Chain, tokenized stocks and decentralized lending even as cryptocurrency transaction revenue declined.",
@@ -225,7 +436,7 @@
       "title": "Binance.US to attempt prediction markets entry as CFTC-licensed entity, says CEO",
       "url": "https://cointelegraph.com/news/binance-us-prediction-markets-cftc-designated-contract-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-29T21:52:27+00:00",
-      "summary": "The CEO of the US crypto exchange said that the company would apply for a license with the CFTC in August allowing it to offer prediction markets.",
+      "summary": "The CEO of the US crypto exchange said that the company would apply for a license with the CFTC in August, allowing it to offer prediction markets.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -927,205 +1138,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto Long & Short: What this year's $972 million crypto hacks actually tell us about security",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/07/29/crypto-long-and-short-what-this-year-s-usd972-million-crypto-hacks-actually-tell-us-about-security",
-      "published_at": "2026-07-29T15:13:07+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘The moment to act is now’: Solana Policy Institute urges Senate to move on crypto bill as time dwindles",
-      "url": "https://www.theblock.co/post/410041/the-moment-to-act-is-now-solana-policy-institute-urges-senate-to-move-on-crypto-bill-as-time-dwindles?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T14:35:02+00:00",
-      "summary": "As the clock ticks on Congress, the Solana Policy Institute is mounting an urgent push for Senate leaders to take up crypto legislation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Crypto Giant DCG Warns Senate: Pass Clarity Act or Lose Ground to Singapore, UAE",
-      "url": "https://bitcoinmagazine.com/news/crypto-giant-dcg-supports-clarity-act",
-      "published_at": "2026-07-29T14:12:10+00:00",
-      "summary": "Bitcoin Magazine\n\nCrypto Giant DCG Warns Senate: Pass Clarity Act or Lose Ground to Singapore, UAE\nThe crypto conglomerate is the latest to show support for the bill in its current form. \nThis post Crypto Giant DCG Warns Senate: Pass Clarity Act or Lose Ground to Singapore, UAE first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": [
-          "lose",
-          "warns"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum Foundation names pcaversaccio to board amid leadership changes",
-      "url": "https://www.coindesk.com/tech/2026/07/29/ethereum-foundation-names-pcaversaccio-to-board-amid-leadership-changes",
-      "published_at": "2026-07-29T14:11:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Tether’s GENIUS-compliant USAT stablecoin launches on Celo, marking first expansion beyond Ethereum",
-      "url": "https://www.theblock.co/post/410048/tethers-genius-compliant-usat-stablecoin-launches-on-celo-marking-first-expansion-beyond-ethereum?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T14:06:34+00:00",
-      "summary": "USAT can be used to pay for gas on the blockchain, meaning users will not have to hold multiple tokens to make USAT transactions.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The inside story of how a hike in Hong Kong changed crypto trading forever",
-      "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
-      "published_at": "2026-07-29T13:53:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T13:47:35+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BNY to bring transfer agency records onchain in blockchain push",
-      "url": "https://cointelegraph.com/news/bny-transfer-agency-records-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T13:36:18+00:00",
-      "summary": "BNY is launching a blockchain-based transfer agency platform as the bank expands its digital asset infrastructure and moves core financial records onchain.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "About $80 million ZEC crosses into Zcash's new Ironwood pool in the first day",
-      "url": "https://www.coindesk.com/tech/2026/07/29/about-usd80-million-zec-crosses-into-zcash-s-new-ironwood-pool-in-the-first-day",
-      "published_at": "2026-07-29T13:32:37+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "The 100x obsession: Fundamentals grow in importance as crypto matures",
-      "url": "https://cointelegraph.com/magazine/the-100x-obsession-why-great-crypto-projects-keep-losing-to-great-stories?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T13:30:00+00:00",
-      "summary": "Crypto’s fundamentals have never been stronger, yet degens keep chasing hot new narratives. Behavioral finance may explain why get rich quick stories continue to beat substance.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": [
-        "ai"
-      ]
     }
   ]
 }
