@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-07-29T21:00:55.859497+00:00",
+  "generated_at": "2026-07-30T02:43:02.259844+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.021,
+    "market_sentiment_score": 0.011,
     "label_distribution": {
-      "bullish": 15,
-      "neutral": 48,
+      "neutral": 49,
+      "bullish": 14,
       "bearish": 7
     },
     "top_coins": [
-      {
-        "coin": "OP",
-        "mentions": 17
-      },
       {
         "coin": "Bitcoin",
         "mentions": 17
       },
       {
+        "coin": "OP",
+        "mentions": 15
+      },
+      {
         "coin": "ETH",
-        "mentions": 7
+        "mentions": 10
       },
       {
         "coin": "Ethereum",
-        "mentions": 6
-      },
-      {
-        "coin": "SOL",
-        "mentions": 3
+        "mentions": 7
       },
       {
         "coin": "Sui",
@@ -39,30 +35,34 @@
         "mentions": 2
       },
       {
+        "coin": "SOL",
+        "mentions": 2
+      },
+      {
         "coin": "Near",
         "mentions": 2
       },
       {
-        "coin": "UNI",
+        "coin": "ARB",
         "mentions": 1
       },
       {
-        "coin": "Solana",
+        "coin": "UNI",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 37
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 18
       },
       {
         "topic": "fed",
-        "mentions": 11
+        "mentions": 10
       },
       {
         "topic": "sec",
@@ -77,24 +77,209 @@
         "mentions": 4
       },
       {
-        "topic": "futures",
-        "mentions": 4
-      },
-      {
         "topic": "stablecoin",
         "mentions": 3
       },
       {
-        "topic": "usdc",
+        "topic": "cftc",
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "futures",
+        "mentions": 2
+      },
+      {
+        "topic": "usdc",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Ethereum Foundation adds SEAL 911 co-founder to board as privacy focus grows",
+      "url": "https://cointelegraph.com/news/ethereum-foundation-seal-911-pascal-caversaccio-board?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T01:34:26+00:00",
+      "summary": "Pascal Caversaccio joins the Ethereum Foundation’s four-member board as the organization elevates privacy and security in its protocol strategy.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US arbitration giant launches specialist panel for crypto disputes",
+      "url": "https://cointelegraph.com/news/aaa-web3-panel-crypto-blockchain-disputes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T00:29:11+00:00",
+      "summary": "The American Arbitration Association’s Web3 Panel brings together specialists in blockchain, smart contracts, digital assets and autonomous transactions.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "ARB"
+      ],
+      "topics": [
+        "ai",
+        "smart contract"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Senators ready to send stricter ethics rules on Trump's crypto ventures to White House, sources say",
+      "url": "https://www.coindesk.com/policy/2026/07/29/senators-said-to-strike-idea-to-toughen-trump-s-concession-on-clarity-act-s-crypto-limits",
+      "published_at": "2026-07-29T23:12:04+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Microsoft Quietly Adds New Windows App That Wants to Scan Your Face",
+      "url": "https://decrypt.co/374688/microsoft-quietly-adds-windows-app-wants-scan-face-onedrive",
+      "published_at": "2026-07-29T22:31:03+00:00",
+      "summary": "A new OneDrive Photos app is appearing on some Windows 11 PCs through OneDrive and Windows updates, adding AI-powered search and an optional facial grouping feature.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Robinhood Posts Best Quarter Ever as Prediction Market and Robinhood Chain Take Off",
+      "url": "https://decrypt.co/374693/robinhood-earnings-best-quarter-ever-crypto",
+      "published_at": "2026-07-29T22:01:24+00:00",
+      "summary": "Robinhood posted a record $1.31 billion in revenue in Q2. Prediction markets are now doing the work crypto used to for the company.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Robinhood posts record quarter, but crypto revenue slides 38%",
+      "url": "https://cointelegraph.com/news/robinhood-record-quarter-crypto-revenue-slides?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T21:53:35+00:00",
+      "summary": "The online brokerage continued expanding its digital asset business with Robinhood Chain, tokenized stocks and decentralized lending even as cryptocurrency transaction revenue declined.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "declined"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "lending",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance.US to attempt prediction markets entry as CFTC-licensed entity, says CEO",
+      "url": "https://cointelegraph.com/news/binance-us-prediction-markets-cftc-designated-contract-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-29T21:52:27+00:00",
+      "summary": "The CEO of the US crypto exchange said that the company would apply for a license with the CFTC in August allowing it to offer prediction markets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Robinhood’s prediction markets top crypto and equities revenue in Q2",
+      "url": "https://www.theblock.co/post/410102/robinhoods-prediction-markets-top-crypto-and-equities-revenue-in-q2?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-29T21:14:23+00:00",
+      "summary": "The trading platform generated $156 million from event contracts, compared with $100 million from cryptocurrency trading.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Republican Senator Cynthia Lummis Slams Democrat Lawmakers For Dragging Their Feet Over Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/senator-cynthia-lummis-slams-democrats",
+      "published_at": "2026-07-29T21:04:23+00:00",
+      "summary": "Bitcoin Magazine\n\nRepublican Senator Cynthia Lummis Slams Democrat Lawmakers For Dragging Their Feet Over Clarity Act \nThe pro-crypto senator is the latest to come out and try to get the bill over the line. \nThis post Republican Senator Cynthia Lummis Slams Democrat Lawmakers For Dragging Their Feet Over Clarity Act  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Flock Cameras Face Growing Backlash as Privacy Concerns Reach Capitol Hill",
@@ -937,185 +1122,6 @@
       },
       "coins": [
         "Tron"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The systemic-risk debate over perpetual futures is aimed at the wrong target",
-      "url": "https://www.coindesk.com/opinion/2026/07/29/the-systemic-risk-debate-over-perpetual-futures-is-aimed-at-the-wrong-target",
-      "published_at": "2026-07-29T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "futures"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "MoonPay launches PayBox, an AI payment vault for ChatGPT and Claude",
-      "url": "https://www.theblock.co/post/410032/moonpay-paybox-chatgpt-claude?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T13:00:00+00:00",
-      "summary": "Crypto payments company MoonPay now lets users move money through ChatGPT and Claude with a new AI payment vault called PayBox.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bernstein cuts Circle price target to $140, says Open USD threat will fade",
-      "url": "https://www.theblock.co/post/410029/bernstein-cuts-circle-price-target-to-140-says-open-usd-threat-will-fade?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T12:55:18+00:00",
-      "summary": "Bernstein cuts Circle price target to $140 from $190, keeps Outperform, and says the Open USD threat fades as USDC supply holds near ATH.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "ath",
-          "outperform"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "usdc"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Safe smart accounts process nearly 130 million transactions in record quarter",
-      "url": "https://www.theblock.co/post/410023/safe-smart-accounts-process-nearly-130-million-transactions-in-record-quarter?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-29T12:50:02+00:00",
-      "summary": "Programmable smart wallet provider reported another quarter of user growth, ending Q2 2026 with over 63 million Safe accounts created.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BNY targets $8.6 trillion transfer agency market on blockchain rails",
-      "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails",
-      "published_at": "2026-07-29T12:18:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Claude Mythos Breaks Post-Quantum Cryptography",
-      "url": "https://decrypt.co/374637/morning-minute-claude-mythos-breaks-post-quantum-cryptography",
-      "published_at": "2026-07-29T12:15:00+00:00",
-      "summary": "Plus markets are mixed ahead of FOMC; new Wall St. giants are backing the Clarity Act; and Zcash officially launched its Ironwood upgrade",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launched",
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Emirates enables UAE residents to pay for flights through Crypto.com",
-      "url": "https://cointelegraph.com/news/emirates-starts-letting-uae-residents-pay-for-flights-through-cryptocom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T12:14:31+00:00",
-      "summary": "The service is limited to eligible UAE residents and bookings are priced and settled in dirhams.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Crypto Scams Cost Americans an Estimated $80.7B in 2025: Report",
-      "url": "https://decrypt.co/374638/crypto-scams-cost-americans-an-estimated-80-7b-in-2025-report",
-      "published_at": "2026-07-29T12:10:26+00:00",
-      "summary": "The figure is seven times that of the $11.4 billion in reported losses, a rate drawn from a 2017 survey on how rarely fraud is reported.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud",
-          "losses"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Telegram founder Pavel Durov internationally wanted, Russia’s FSB says",
-      "url": "https://cointelegraph.com/news/telegram-founder-wanted-internationally-russia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-29T11:18:19+00:00",
-      "summary": "Russia’s FSB says Telegram founder Pavel Durov faces a terrorism-related charge and an international arrest warrant, while a separate French case remains open.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
       ],
       "topics": [
         "ai"
