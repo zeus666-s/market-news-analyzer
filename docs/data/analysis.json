@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-31T14:19:10.379064+00:00",
+  "generated_at": "2026-07-31T17:43:31.615198+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.007,
+    "market_sentiment_score": -0.021,
     "label_distribution": {
-      "neutral": 41,
-      "bearish": 14,
-      "bullish": 15
+      "bearish": 17,
+      "bullish": 15,
+      "neutral": 38
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 13
       },
       {
         "coin": "ETH",
@@ -31,19 +31,19 @@
         "mentions": 4
       },
       {
-        "coin": "SOL",
-        "mentions": 3
+        "coin": "UNI",
+        "mentions": 2
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 2
       },
       {
         "coin": "LINK",
         "mentions": 2
       },
       {
-        "coin": "UNI",
-        "mentions": 2
-      },
-      {
-        "coin": "Ethereum",
+        "coin": "Uniswap",
         "mentions": 1
       },
       {
@@ -54,26 +54,34 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 20
+        "mentions": 19
       },
       {
         "topic": "sec",
         "mentions": 7
       },
       {
-        "topic": "defi",
-        "mentions": 4
-      },
-      {
-        "topic": "fed",
-        "mentions": 4
+        "topic": "stablecoin",
+        "mentions": 6
       },
       {
         "topic": "etf",
+        "mentions": 3
+      },
+      {
+        "topic": "exchange",
+        "mentions": 3
+      },
+      {
+        "topic": "lending",
+        "mentions": 3
+      },
+      {
+        "topic": "fed",
         "mentions": 3
       },
       {
@@ -81,20 +89,418 @@
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
-        "mentions": 3
-      },
-      {
-        "topic": "dai",
-        "mentions": 2
-      },
-      {
-        "topic": "rwa",
+        "topic": "usdt",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Analysts back Strategy’s cash buildup as Saylor shifts from ‘100% bitcoin’ approach",
+      "url": "https://www.theblock.co/post/410297/strategy-cash-buildup-saylor-shifts-from-100-bitcoin-approach?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-31T17:40:13+00:00",
+      "summary": "TD Cowen and Benchmark reiterated buy on Strategy after an $8.2 billion Q2 loss and a corporate STRC-to-par push.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tether Reports $1.5B Q2 Profit as USDT Supply Grows, Gold Holdings Rise",
+      "url": "https://decrypt.co/374796/tether-reports-1-5b-q2-profit-usdt-supply-grows",
+      "published_at": "2026-07-31T17:10:49+00:00",
+      "summary": "The latest attestation offers a snapshot of the assets backing the world's largest stablecoin, including U.S. Treasuries, repo agreements, and more than 146 metric tons of gold.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "stablecoin",
+        "usdt"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+      "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
+      "published_at": "2026-07-31T17:07:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ex-FTX users report funds being released in $900M distribution round",
+      "url": "https://cointelegraph.com/news/ftx-users-funds-released-fifth-distribution-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-31T16:56:31+00:00",
+      "summary": "Several users of the long-defunct crypto exchange reported that distribution agents had begun releasing funds to reimburse creditors for some of their 2022 losses.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "World Cup 2026 prediction markets topped $20 billion, with Ronaldo tears among the biggest wagers",
+      "url": "https://www.theblock.co/post/410295/world-cup-2026-prediction-markets-topped-20-billion-ronaldo-tears-biggest-wagers?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-31T16:48:36+00:00",
+      "summary": "World Cup betting activity peaked around major knockout matches, with markets ranging from match outcomes to player-specific outcomes.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether earns $1.5B in Q2 as US Treasury holdings fuel profits",
+      "url": "https://cointelegraph.com/news/tether-q2-profit-us-treasury-holdings-usdt-supply?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-31T16:25:47+00:00",
+      "summary": "Tether’s reserve surplus grew to $4.11 billion in the second quarter as USDT supply rose despite a weaker stablecoin market and continued pressure across the crypto sector.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profits"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "sec",
+        "stablecoin",
+        "usdt"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bybit adds tokenized Nvidia, Apple, Tesla stocks as loan collateral",
+      "url": "https://cointelegraph.com/news/bybit-tokenized-stocks-collateral-margin-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-31T16:23:21+00:00",
+      "summary": "Eligible retail and institutional users can use tokenized shares of Nvidia, Apple, Tesla and three other US companies across Bybit’s trading and lending products.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "lending"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "US Closes in on Iran’s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies",
+      "url": "https://bitcoinmagazine.com/news/us-sanctions-iran-companies-using-bitcoin",
+      "published_at": "2026-07-31T16:20:58+00:00",
+      "summary": "Bitcoin Magazine\n\nUS Closes in on Iran&#8217;s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies\nThe news comes after the U.S. froze Iran's other digital assets. \nThis post US Closes in on Iran&#8217;s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US Treasury yields rise as TIPS challenge the inflation narrative",
+      "url": "https://cointelegraph.com/markets/us-treasury-yields-rise-as-tips-challenge-the-inflation-narrative?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-31T16:14:19+00:00",
+      "summary": "TIPS data points to rising real yields, not inflation, a dynamic that weighs on non-yielding assets like Bitcoin.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "inflation",
+        "yield"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price sinks to 2-week lows as US stocks fail to copy Asia rebound",
+      "url": "https://cointelegraph.com/markets/bitcoin-two-week-lows-us-stocks-fail-copy-asia-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-31T15:57:03+00:00",
+      "summary": "Bitcoin saw fresh downside pressure as US stocks tracked sideways into the end of the month, diverging from the relief bounce seen in Asia.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fail"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Quantum computing nears commercial breakthrough, IBM CEO says",
+      "url": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
+      "published_at": "2026-07-31T15:39:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "breakthrough"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Circle Lands New York Trust Charter as Stablecoin Issuer Expands Regulatory Footprint",
+      "url": "https://decrypt.co/374791/circle-new-york-trust-charter-stablecoin-issuer",
+      "published_at": "2026-07-31T15:32:02+00:00",
+      "summary": "The approval comes weeks after Circle won federal approval to establish a national trust bank, adding another license as the USDC issuer expands.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "approval",
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "fed",
+        "regulatory",
+        "stablecoin",
+        "usdc"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "COLDCARD SECURITY RISK: IMMEDIATE ACTION REQUIRED",
+      "url": "https://bitcoinmagazine.com/news/coldcard-security-risk-immediate-action-required",
+      "published_at": "2026-07-31T15:22:26+00:00",
+      "summary": "Bitcoin Magazine\n\nCOLDCARD SECURITY RISK: IMMEDIATE ACTION REQUIRED\nIMPORTANT: Major security vulnerability discovered in Coldcard hardware wallets. For your own safety read disclosures and take necessary actions immediately. \nThis post COLDCARD SECURITY RISK: IMMEDIATE ACTION REQUIRED first appeared on Bitcoin Magazine and is written by Shinobi.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Coldcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen",
+      "url": "https://bitcoinmagazine.com/news/coldcard-wallet-exposed-after-bitcoin-hack",
+      "published_at": "2026-07-31T15:22:11+00:00",
+      "summary": "Bitcoin Magazine\n\nColdcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen\nOver $70 million in Bitcoin has been pinched. Coldcard has since urged its users to take precautions. \nThis post Coldcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "US Treasury Sanctions Iranian Firms Taking Bitcoin for Hormuz Passage",
+      "url": "https://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
+      "published_at": "2026-07-31T15:05:43+00:00",
+      "summary": "OFAC sanctioned two Iranian firms including Hormuz Safe, which “accepts payment in Bitcoin and other digital assets.”",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "XDC AI and the Rise of Agentic Finance: When AI Agents Learn to Pay",
+      "url": "https://decrypt.co/374741/xdc-ai-and-the-rise-of-agentic-finance-when-ai-agents-learn-to-pay",
+      "published_at": "2026-07-31T15:01:04+00:00",
+      "summary": "As AI agents move from giving advice to making transactions, a new layer of payment infrastructure is racing to catch up.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Uniswap launches ‘Earn’ with Morpho to let users earn yield on idle crypto assets",
+      "url": "https://www.theblock.co/post/410286/uniswap-morpho-earn-yield-gauntlet-vaults?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-31T15:00:52+00:00",
+      "summary": "Uniswap has teamed up with Morpho to launch Earn, a new lending product that lets users earn yield via Gauntlet-curated vaults.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launch",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Uniswap",
+        "UNI"
+      ],
+      "topics": [
+        "lending",
+        "yield"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto faces 3 barriers to next bull run, STS Digital CEO says",
+      "url": "https://www.coindesk.com/markets/2026/07/31/crypto-faces-3-barriers-to-next-bull-run-sts-digital-ceo-says",
+      "published_at": "2026-07-31T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Ethereum’s 43-day staking queue isn’t a clean demand signal, Sygnum says",
+      "url": "https://www.theblock.co/post/410285/ethereum-43-day-staking-queue-isnt-clean-demand-signal-sygnum?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-31T14:35:11+00:00",
+      "summary": "Sygnum's Thomas Brunner says Ethereum’s 43-day staking queue reflects mechanics, not just fresh demand from investors.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "staking"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "ECB says digital euro app will exceed EU accessibility standards",
@@ -750,415 +1156,6 @@
       "topics": [
         "futures",
         "rwa"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: 'Worst hit in Bitcoin history' – longtime Bitcoiners react to Coincard flaw",
-      "url": "https://www.coindesk.com/markets/2026/07/31/live-updates-bitcoin-steady-as-japan-holds-rates-at-1-keeping-the-yen-carry-trade-alive",
-      "published_at": "2026-07-31T07:46:10+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "New York sues Kalshi over illegal gambling claims, seeks $36 billion in damages",
-      "url": "https://www.theblock.co/post/410247/new-york-sues-kalshi?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-31T07:34:48+00:00",
-      "summary": "New York State is seeking at least $36 billion in compensatory damages from Kalshi, pending a full accounting.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs post $233M inflows, pushing week back into the green",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-week-back-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T06:46:23+00:00",
-      "summary": "BlackRock’s IBIT led $233.1 million in daily inflows as US spot Bitcoin ETFs turned positive for the week and July stayed on track to end in the green.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "positive"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin flat near $64,000 as Kospi's record 17% surge leaves crypto untouched",
-      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-flat-near-usd64-000-as-kospi-s-record-17-surge-leaves-crypto-untouched",
-      "published_at": "2026-07-31T05:43:39+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Major bitcoin wallet flaw drains $38 million worth of BTC in 25-minute sweep",
-      "url": "https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep",
-      "published_at": "2026-07-31T05:12:55+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto’s next altseason may have fewer winners: Wintermute",
-      "url": "https://cointelegraph.com/news/crypto-next-altseason-fewer-winners-wintermute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T04:46:14+00:00",
-      "summary": "Institutional investors accounted for 72% of Wintermute’s spot OTC flow in the first half of 2026 as capital clustered in fewer tokens and altcoin rallies became more selective.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "rallies"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "LTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "‘Funds may be at risk’: Coinkite issues warning for Coldcard Mk3 users amid 594 BTC theft reports",
-      "url": "https://www.theblock.co/post/410235/coinkite-coldcard-mk3-warning?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-31T02:56:53+00:00",
-      "summary": "Coinkite recommends that Mk3 users create a strong, unique BIP-39 passphrase on the device and move funds to the resulting wallet.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [
-          "strong"
-        ],
-        "negative_hits": [
-          "risk",
-          "theft",
-          "warning"
-        ]
-      },
-      "coins": [
-        "BTC",
-        "Tron",
-        "UNI"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain",
-      "url": "https://cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T02:38:09+00:00",
-      "summary": "Coinkite urged Coldcard Mk3 users to migrate funds after identifying a potential seed-generation risk, as Bitcoin security experts separately examine an unexplained $38 million wallet drain.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk",
-          "warning"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Stablecoin Reserve Requirements Explained",
-      "url": "https://www.theblock.co/learn/410234/stablecoin-reserve-requirements-explained?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-31T02:31:26+00:00",
-      "summary": "A stablecoin is a digital asset designed to maintain a steady value by pegging its price to another asset, most commonly a fiat currency like the U.S. dollar. Stablecoin reserve requirements are the rules determining the assets an issuer must hold to back up every stablecoin it puts into circulation.  Major jurisdictions with stablecoin reserve [&hellip;]",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fiat",
-        "mining",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Stablecoins and Cross-Border Payments: How Digital Dollars Move Across Borders",
-      "url": "https://www.theblock.co/learn/410227/stablecoins-and-cross-border-payments?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-31T01:53:33+00:00",
-      "summary": "Stablecoins are a type of cryptocurrency designed to hold a fixed value against a reference currency, most commonly one U.S. dollar. Transferring stablecoins across countries is unlike transferring money through a bank: A sender converts their local currency into a stablecoin, sends it to the recipient’s blockchain address via a blockchain network, and the recipient [&hellip;]",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bhutan’s Gelephu taps 3iQ to manage part of Bitcoin treasury",
-      "url": "https://cointelegraph.com/news/bhutan-gelephu-3iq-bitcoin-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T00:31:21+00:00",
-      "summary": "3iQ will manage an undisclosed portion of Gelephu Mindfulness City’s Bitcoin treasury as Bhutan develops a digital-asset investment hub.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US senators sent revised ethics rules to White House for CLARITY Act: Report",
-      "url": "https://cointelegraph.com/news/us-senators-revised-ethics-rules-white-house-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-30T21:54:38+00:00",
-      "summary": "The window to pass a comprehensive crypto market structure bill before the Senate breaks for a month-long recess is closing, with ethics a dividing issue for many lawmakers.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Strategy posts $8.2 billion loss as bitcoin holdings increase 11% during Q2",
-      "url": "https://www.theblock.co/post/410212/strategy-posts-8-2-billion-loss-as-bitcoin-holdings-increase-11-during-q2?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-30T21:38:40+00:00",
-      "summary": "The price of bitcoin was more than 40% lower at the end of this year's second quarter when compared to Q2 2025.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "‘Bitcoin Senator’ Cynthia Lummis Blasts Democrats For Stalling Crypto Clarity Act",
-      "url": "https://bitcoinmagazine.com/news/cynthia-lummis-blasts-democrats-on-clarity",
-      "published_at": "2026-07-30T21:37:45+00:00",
-      "summary": "Bitcoin Magazine\n\n&#8216;Bitcoin Senator&#8217; Cynthia Lummis Blasts Democrats For Stalling Crypto Clarity Act\nRepublican Senator Cynthia Lummis has again attacked the Democrats for holding back the long-awaited crypto Clarity Act.&#160; Speaking on the Crypto in America podcast Thursday, Lummis said that the bill could have been passed months ago but is unfairly being held back.&#160; Lawmakers are hoping the Clarity Act gets passed before Congress departs for August [&#8230;]\nThis post &#8...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Coinbase Misses on Q2 Earnings as Crypto Trading Activity Slows",
-      "url": "https://decrypt.co/374761/coinbase-misses-q2-earnings-crypto-trading-activity-slows",
-      "published_at": "2026-07-30T21:19:12+00:00",
-      "summary": "The exchange reported lower quarterly revenue and a net loss as crypto trading activity declined, while subscription, stablecoin, and lending businesses continued to grow.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "declined",
-          "loss"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "lending",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Coinbase shares slip after Q2 results despite prediction markets doubling and record trading market share",
-      "url": "https://www.theblock.co/post/410208/coinbase-shares-slip-after-q2-results-despite-prediction-markets-doubling-and-record-trading-market-share?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-30T21:09:49+00:00",
-      "summary": "Coinbase said 88% of its net revenue now comes from sources other than bitcoin spot trading, as its share of global crypto volume grows.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-posts-loss",
-      "published_at": "2026-07-30T21:00:08+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered\nThe Bitcoin treasury company posted massive losses but aims to continue making digital credit a \"new asset class.\" \nThis post Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
-      "url": "https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
-      "published_at": "2026-07-30T20:32:13+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "decline",
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Legendary Investor Ray Dalio Still Holds Bitcoin — But Only 1% of His Portfolio",
-      "url": "https://bitcoinmagazine.com/news/ray-dalio-prefers-gold-over-bitcoin",
-      "published_at": "2026-07-30T19:57:05+00:00",
-      "summary": "Bitcoin Magazine\n\nLegendary Investor Ray Dalio Still Holds Bitcoin — But Only 1% of His Portfolio \nRay Dalio still prefers the precious metal over \"digital gold.\"\nThis post Legendary Investor Ray Dalio Still Holds Bitcoin — But Only 1% of His Portfolio  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
