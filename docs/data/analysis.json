@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-07-30T21:15:41.687445+00:00",
+  "generated_at": "2026-07-31T03:25:30.521030+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.011,
+    "market_sentiment_score": -0.014,
     "label_distribution": {
-      "neutral": 36,
       "bearish": 17,
-      "bullish": 17
+      "neutral": 37,
+      "bullish": 16
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 22
+        "mentions": 24
       },
       {
         "coin": "OP",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "coin": "BTC",
-        "mentions": 3
+        "mentions": 5
       },
       {
         "coin": "ETH",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "SOL",
@@ -39,6 +39,10 @@
         "mentions": 2
       },
       {
+        "coin": "Tron",
+        "mentions": 1
+      },
+      {
         "coin": "Near",
         "mentions": 1
       },
@@ -50,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 38
+        "mentions": 35
       },
       {
         "topic": "pos",
@@ -58,11 +62,15 @@
       },
       {
         "topic": "sec",
-        "mentions": 6
+        "mentions": 8
       },
       {
         "topic": "fed",
         "mentions": 6
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 4
       },
       {
         "topic": "exchange",
@@ -77,11 +85,7 @@
         "mentions": 4
       },
       {
-        "topic": "miner",
-        "mentions": 3
-      },
-      {
-        "topic": "mining",
+        "topic": "wallet",
         "mentions": 3
       },
       {
@@ -91,6 +95,232 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "‘Funds may be at risk’: Coinkite issues warning for Coldcard Mk3 users amid 594 BTC theft reports",
+      "url": "https://www.theblock.co/post/410235/coinkite-coldcard-mk3-warning?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-31T02:56:53+00:00",
+      "summary": "Coinkite recommends that Mk3 users create a strong, unique BIP-39 passphrase on the device and move funds to the resulting wallet.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [
+          "strong"
+        ],
+        "negative_hits": [
+          "risk",
+          "theft",
+          "warning"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "Tron",
+        "UNI"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain",
+      "url": "https://cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-31T02:38:09+00:00",
+      "summary": "Coinkite urged Coldcard Mk3 users to migrate funds after identifying a potential seed-generation risk, as Bitcoin security experts separately examine an unexplained $38 million wallet drain.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk",
+          "warning"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Stablecoin Reserve Requirements Explained",
+      "url": "https://www.theblock.co/learn/410234/stablecoin-reserve-requirements-explained?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-31T02:31:26+00:00",
+      "summary": "A stablecoin is a digital asset designed to maintain a steady value by pegging its price to another asset, most commonly a fiat currency like the U.S. dollar. Stablecoin reserve requirements are the rules determining the assets an issuer must hold to back up every stablecoin it puts into circulation.  Major jurisdictions with stablecoin reserve [&hellip;]",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "fiat",
+        "mining",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Stablecoins and Cross-Border Payments: How Digital Dollars Move Across Borders",
+      "url": "https://www.theblock.co/learn/410227/stablecoins-and-cross-border-payments?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-31T01:53:33+00:00",
+      "summary": "Stablecoins are a type of cryptocurrency designed to hold a fixed value against a reference currency, most commonly one U.S. dollar. Transferring stablecoins across countries is unlike transferring money through a bank: A sender converts their local currency into a stablecoin, sends it to the recipient’s blockchain address via a blockchain network, and the recipient [&hellip;]",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bhutan’s Gelephu taps 3iQ to manage part of Bitcoin treasury",
+      "url": "https://cointelegraph.com/news/bhutan-gelephu-3iq-bitcoin-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-31T00:31:21+00:00",
+      "summary": "3iQ will manage an undisclosed portion of Gelephu Mindfulness City’s Bitcoin treasury as Bhutan develops a digital-asset investment hub.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US Senators sent revised ethics rules to White House for CLARITY Act: Report",
+      "url": "https://cointelegraph.com/news/us-senators-revised-ethics-rules-white-house-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T21:54:38+00:00",
+      "summary": "The window to pass a comprehensive crypto market structure bill before the Senate breaks for a month-long recess is closing, with ethics a dividing issue for many lawmakers.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Strategy posts $8.2 billion loss as bitcoin holdings increase 11% during Q2",
+      "url": "https://www.theblock.co/post/410212/strategy-posts-8-2-billion-loss-as-bitcoin-holdings-increase-11-during-q2?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-07-30T21:38:40+00:00",
+      "summary": "The price of bitcoin was more than 40% lower at the end of this year's second quarter when compared to Q2 2025.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "‘Bitcoin Senator’ Cynthia Lummis Blasts Democrats For Stalling Crypto Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/cynthia-lummis-blasts-democrats-on-clarity",
+      "published_at": "2026-07-30T21:37:45+00:00",
+      "summary": "Bitcoin Magazine\n\n&#8216;Bitcoin Senator&#8217; Cynthia Lummis Blasts Democrats For Stalling Crypto Clarity Act\nRepublican Senator Cynthia Lummis has again attacked the Democrats for holding back the long-awaited crypto Clarity Act.&#160; Speaking on the Crypto in America podcast Thursday, Lummis said that the bill could have been passed months ago but is unfairly being held back.&#160; Lawmakers are hoping the Clarity Act gets passed before Congress departs for August [&#8230;]\nThis post &#8...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Strategy posts $8.2B Q2 loss as Bitcoin slump drives unrealized losses",
+      "url": "https://cointelegraph.com/news/strategy-reports-q2-2026-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-30T21:36:39+00:00",
+      "summary": "The Bitcoin treasury company said it has built a $3.75 billion cash reserve to support preferred stock payouts following the launch of its BTC monetization program.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "launch",
+          "support"
+        ],
+        "negative_hits": [
+          "loss",
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Coinbase Misses on Q2 Earnings as Crypto Trading Activity Slows",
+      "url": "https://decrypt.co/374761/coinbase-misses-q2-earnings-crypto-trading-activity-slows",
+      "published_at": "2026-07-30T21:19:12+00:00",
+      "summary": "The exchange reported lower quarterly revenue and a net loss as crypto trading activity declined, while subscription, stablecoin, and lending businesses continued to grow.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "declined",
+          "loss"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "lending",
+        "stablecoin"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Coinbase shares slip after Q2 results despite prediction markets doubling and record trading market share",
@@ -927,214 +1157,6 @@
         "etf",
         "pos"
       ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitchat Mesh App Defies India Cybercrime Notice After Protesters Use It During Network Restrictions",
-      "url": "https://bitcoinmagazine.com/politics/bitchat-mesh-app-defies-india-cybercrime-notice-after-protesters-use-it-during-network-restrictions",
-      "published_at": "2026-07-30T14:00:00+00:00",
-      "summary": "Bitcoin Magazine\n\nBitchat Mesh App Defies India Cybercrime Notice After Protesters Use It During Network Restrictions\nThe open-source Bitchat app, designed to work without internet or central servers, continued functioning and spreading peer-to-peer after authorities targeted its GitHub code.\nThis post Bitchat Mesh App Defies India Cybercrime Notice After Protesters Use It During Network Restrictions first appeared on Bitcoin Magazine and is written by Juan Galt.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "defi",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
-      "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
-      "published_at": "2026-07-30T13:55:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum enters its second decade after a year of upheaval at the foundation",
-      "url": "https://www.coindesk.com/tech/2026/07/30/ethereum-enters-its-second-decade-after-a-year-of-upheaval-at-the-foundation",
-      "published_at": "2026-07-30T13:52:37+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Fake staking site drains $8.5 million in XRP from dozens of investors promising easy yield",
-      "url": "https://www.coindesk.com/business/2026/07/30/fake-staking-site-drains-usd8-5-million-in-xrp-from-dozens-of-investors-promising-easy-yield",
-      "published_at": "2026-07-30T13:35:51+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP"
-      ],
-      "topics": [
-        "ai",
-        "staking",
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitRiver founder charged in Russia over alleged $8M fraud",
-      "url": "https://cointelegraph.com/news/bitriver-founder-russia-charges-alleged-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-30T13:26:06+00:00",
-      "summary": "Russian authorities charged BitRiver founder Igor Runets with alleged fraud tied to a $8 million crypto mining equipment deal involving Russian billionaire Oleg Deripaska.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "mining"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "'Completely Legal': GrapheneOS Pushes Back as Duress Password Case Proceeds",
-      "url": "https://decrypt.co/374705/completely-legal-grapheneos-pushes-back-as-duress-password-case-proceeds",
-      "published_at": "2026-07-30T13:25:27+00:00",
-      "summary": "Activist Samuel Tunick said his prosecution is meant to set a precedent against privacy and \"intimidate people.\"",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Australia’s eSafety regulator sues Telegram over alleged failure to remove pro-terror content, seeks A$54.6 million penalty",
-      "url": "https://www.theblock.co/post/410152/australias-esafety-regulator-sues-telegram-over-alleged-failure-to-remove-pro-terror-content-seeks-a54-6-million-penalty?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-30T13:24:11+00:00",
-      "summary": "Australia's eSafety regulator sued Telegram in Federal Court over alleged failures to remove pro-terror content.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "failure",
-          "sued"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Hyperscale Data sells 100 bitcoin to fund Michigan AI data center build",
-      "url": "https://www.theblock.co/post/410148/hyperscale-data-sells-100-bitcoin-to-fund-michigan-ai-data-center-build?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-30T13:10:16+00:00",
-      "summary": "Hyperscale Data sold 100 bitcoin and opened a credit facility to fund its Michigan AI data center campus build.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Everything is becoming a perp",
-      "url": "https://www.coindesk.com/opinion/2026/07/28/everything-is-becoming-a-perp",
-      "published_at": "2026-07-30T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bernstein says Core Scientific’s AMD partnership could generate $14B over 15 years",
-      "url": "https://www.theblock.co/post/410140/bernstein-says-core-scientifics-amd-partnership-could-generate-14b-over-15-years?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-30T12:15:01+00:00",
-      "summary": "Bernstein values Core Scientific's AMD deal at $14B over 15 years, with AMD backstopping a neocloud lease and holding warrants for 30M CORZ shares.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "partnership"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
