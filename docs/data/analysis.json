@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-01T03:23:54.136978+00:00",
+  "generated_at": "2026-08-01T06:33:32.165845+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.005,
+    "market_sentiment_score": -0.011,
     "label_distribution": {
-      "neutral": 37,
       "bullish": 18,
-      "bearish": 15
+      "bearish": 16,
+      "neutral": 36
     },
     "top_coins": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "BTC",
@@ -43,18 +43,18 @@
         "mentions": 2
       },
       {
-        "coin": "Uniswap",
+        "coin": "XRP",
         "mentions": 1
       },
       {
-        "coin": "FIL",
+        "coin": "Uniswap",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "topic": "pos",
@@ -67,6 +67,10 @@
       {
         "topic": "stablecoin",
         "mentions": 6
+      },
+      {
+        "topic": "wallet",
+        "mentions": 4
       },
       {
         "topic": "cftc",
@@ -85,16 +89,54 @@
         "mentions": 3
       },
       {
-        "topic": "wallet",
-        "mentions": 3
-      },
-      {
         "topic": "fiat",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "XRP Ledger upgrade brings back features once pulled over critical bugs",
+      "url": "https://www.coindesk.com/tech/2026/08/01/xrp-ledger-upgrade-brings-back-features-once-pulled-over-critical-bugs",
+      "published_at": "2026-08-01T06:09:51+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "How bitcoin cold wallets lost $70 million in an attack that never touched the devices",
+      "url": "https://www.coindesk.com/tech/2026/08/01/how-bitcoin-cold-wallets-lost-usd70-million-in-an-attack-that-never-touched-the-devices",
+      "published_at": "2026-08-01T05:55:46+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Coldcard Bitcoin Thief Likely Used Top Blockchain Services Provider: Report",
@@ -1125,43 +1167,6 @@
       "topics": [
         "etf",
         "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "World Cup bets smash records as prediction markets hit $20 billion in volume",
-      "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
-      "published_at": "2026-07-31T12:00:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
-      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
-      "published_at": "2026-07-31T11:58:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "LINK"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
