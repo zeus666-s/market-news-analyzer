@@ -1,22 +1,26 @@
 {
-  "generated_at": "2026-08-01T17:04:38.350453+00:00",
+  "generated_at": "2026-08-01T20:58:48.575051+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.037,
+    "market_sentiment_score": -0.046,
     "label_distribution": {
+      "bearish": 24,
       "neutral": 29,
-      "bearish": 23,
-      "bullish": 18
+      "bullish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
         "mentions": 17
+      },
+      {
+        "coin": "Near",
+        "mentions": 6
       },
       {
         "coin": "ETH",
@@ -24,18 +28,14 @@
       },
       {
         "coin": "BTC",
-        "mentions": 5
-      },
-      {
-        "coin": "Near",
         "mentions": 4
       },
       {
-        "coin": "UNI",
-        "mentions": 3
+        "coin": "Binance",
+        "mentions": 2
       },
       {
-        "coin": "Binance",
+        "coin": "UNI",
         "mentions": 2
       },
       {
@@ -47,26 +47,26 @@
         "mentions": 2
       },
       {
-        "coin": "Solana",
+        "coin": "BNB",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 32
       },
       {
         "topic": "pos",
         "mentions": 17
       },
       {
-        "topic": "sec",
+        "topic": "wallet",
         "mentions": 8
       },
       {
-        "topic": "wallet",
-        "mentions": 7
+        "topic": "sec",
+        "mentions": 8
       },
       {
         "topic": "stablecoin",
@@ -95,6 +95,78 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
+      "url": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million",
+      "published_at": "2026-08-01T20:10:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BNB Chain ‘pursuing legal action’ against former employee over memecoin launched from tutorial wallet",
+      "url": "https://www.theblock.co/post/410351/bnb-chain-pursuing-legal-action-against-former-employee-over-memecoin-launched-from-tutorial-wallet?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-01T19:09:57+00:00",
+      "summary": "Lookonchain said the former employee bought nearly 80% of ASTEROID's supply for $10,000 before selling most of the tokens for about $638,000.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "BNB",
+        "Near",
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "memecoin",
+        "onchain",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Minnesota crypto ATM ban goes into effect after reported $1M losses",
+      "url": "https://cointelegraph.com/news/minnesota-crypto-atm-ban-losses-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-01T18:07:17+00:00",
+      "summary": "State officials reported that Minnesota residents, and largely senior citizens, had lost about $1 million from scams tied to crypto kiosks from 2023 to 2025.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban",
+          "losses",
+          "lost"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "CoinDesk",
       "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
@@ -1109,65 +1181,6 @@
       "coins": [
         "Bitcoin"
       ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "XDC AI and the Rise of Agentic Finance: When AI Agents Learn to Pay",
-      "url": "https://decrypt.co/374741/xdc-ai-and-the-rise-of-agentic-finance-when-ai-agents-learn-to-pay",
-      "published_at": "2026-07-31T15:01:04+00:00",
-      "summary": "As AI agents move from giving advice to making transactions, a new layer of payment infrastructure is racing to catch up.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Uniswap launches ‘Earn’ with Morpho to let users earn yield on idle crypto assets",
-      "url": "https://www.theblock.co/post/410286/uniswap-morpho-earn-yield-gauntlet-vaults?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-31T15:00:52+00:00",
-      "summary": "Uniswap has teamed up with Morpho to launch Earn, a new lending product that lets users earn yield via Gauntlet-curated vaults.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Uniswap",
-        "UNI"
-      ],
-      "topics": [
-        "lending",
-        "yield"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto faces 3 barriers to next bull run, STS Digital CEO says",
-      "url": "https://www.coindesk.com/markets/2026/07/31/crypto-faces-3-barriers-to-next-bull-run-sts-digital-ceo-says",
-      "published_at": "2026-07-31T15:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
       "topics": []
     }
   ]
