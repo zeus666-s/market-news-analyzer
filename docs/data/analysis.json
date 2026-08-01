@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-01T06:33:32.165845+00:00",
+  "generated_at": "2026-08-01T10:03:08.358617+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.011,
+    "market_sentiment_score": -0.027,
     "label_distribution": {
+      "bearish": 19,
       "bullish": 18,
-      "bearish": 16,
-      "neutral": 36
+      "neutral": 33
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 16
       },
       {
         "coin": "ETH",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "coin": "BTC",
@@ -43,11 +43,11 @@
         "mentions": 2
       },
       {
-        "coin": "XRP",
+        "coin": "Binance",
         "mentions": 1
       },
       {
-        "coin": "Uniswap",
+        "coin": "XRP",
         "mentions": 1
       }
     ],
@@ -58,22 +58,22 @@
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
         "mentions": 9
       },
       {
+        "topic": "wallet",
+        "mentions": 6
+      },
+      {
         "topic": "stablecoin",
         "mentions": 6
       },
       {
-        "topic": "wallet",
-        "mentions": 4
-      },
-      {
-        "topic": "cftc",
+        "topic": "etf",
         "mentions": 3
       },
       {
@@ -85,8 +85,8 @@
         "mentions": 3
       },
       {
-        "topic": "fed",
-        "mentions": 3
+        "topic": "cftc",
+        "mentions": 2
       },
       {
         "topic": "fiat",
@@ -95,6 +95,76 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Coldcard Bitcoin loss estimate rises to $70M after Galaxy analysis",
+      "url": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-01T09:23:56+00:00",
+      "summary": "Galaxy Research identified 1,196 addresses that lost 1,082.65 Bitcoin in a 41-minute window, expanding the estimated scope of the Coldcard wallet incident.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss",
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Binance founder CZ calls for wallet diversification after $70 million Coldcard exploit",
+      "url": "https://www.coindesk.com/markets/2026/08/01/binance-founder-cz-says-diversify-your-wallets-following-usd70-million-coldcard-exploit",
+      "published_at": "2026-08-01T09:01:08+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs end July in the green despite late-month selling",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-01T07:23:07+00:00",
+      "summary": "Spot Bitcoin ETFs attracted $172.4 million in July inflows but remained $5.3 billion negative year to date after heavy withdrawals in May and June.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "negative",
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "XRP Ledger upgrade brings back features once pulled over critical bugs",
@@ -1100,73 +1170,6 @@
       "topics": [
         "rwa",
         "tokenization"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Circle secures NYDFS trust charter, adding state layer to federal USDC oversight",
-      "url": "https://www.theblock.co/post/410275/circle-secures-nydfs-trust-charter-adding-state-layer-to-federal-usdc-oversight?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-31T12:59:31+00:00",
-      "summary": "Circle won a limited-purpose trust charter from NYDFS for Circle Internet Trust Company after securing final OCC national trust approval.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed",
-        "pos",
-        "sec",
-        "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
-      "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
-      "published_at": "2026-07-31T12:28:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Coinbase Posts Surprise Loss as Crypto Trading Dries Up",
-      "url": "https://decrypt.co/374781/morning-minute-coinbase-posts-surprise-loss-as-crypto-trading-dries-up",
-      "published_at": "2026-07-31T12:11:17+00:00",
-      "summary": "Plus, BTC is red this morning despite $233M in ETF inflows yesterday; and NY State is trying to shut down Kalshi and seeking $36B in damages",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "loss"
-        ]
-      },
-      "coins": [
-        "BTC"
-      ],
-      "topics": [
-        "etf",
-        "pos"
       ]
     }
   ]
