@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-08-02T13:37:38.447679+00:00",
+  "generated_at": "2026-08-02T17:05:07.910157+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.061,
+    "market_sentiment_score": -0.064,
     "label_distribution": {
-      "neutral": 29,
-      "bearish": 24,
-      "bullish": 17
+      "neutral": 31,
+      "bullish": 15,
+      "bearish": 24
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 12
       },
       {
         "coin": "BTC",
         "mentions": 6
       },
       {
-        "coin": "ETH",
-        "mentions": 6
+        "coin": "Near",
+        "mentions": 5
       },
       {
-        "coin": "Near",
+        "coin": "ETH",
         "mentions": 5
       },
       {
@@ -39,34 +39,34 @@
         "mentions": 3
       },
       {
+        "coin": "Sui",
+        "mentions": 2
+      },
+      {
         "coin": "BNB",
         "mentions": 2
       },
       {
         "coin": "SOL",
         "mentions": 2
-      },
-      {
-        "coin": "UNI",
-        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 14
+      },
+      {
+        "topic": "sec",
+        "mentions": 10
       },
       {
         "topic": "wallet",
         "mentions": 10
-      },
-      {
-        "topic": "sec",
-        "mentions": 8
       },
       {
         "topic": "stablecoin",
@@ -85,16 +85,112 @@
         "mentions": 3
       },
       {
-        "topic": "memecoin",
+        "topic": "defi",
         "mentions": 2
       },
       {
-        "topic": "onchain",
+        "topic": "bridge",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Why a DeFi platform ditched its consumer app to become the secret backend for tech giants",
+      "url": "https://www.coindesk.com/web3/2026/08/02/why-a-defi-platform-ditched-its-consumer-app-to-become-the-secret-backend-for-tech-giants",
+      "published_at": "2026-08-02T17:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "defi",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
+      "url": "https://www.coindesk.com/tech/2026/08/02/the-future-of-crypto-payments-won-t-include-on-ramps-or-bridges-fun-ceo-says",
+      "published_at": "2026-08-02T16:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "bridge"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Strategy leaves preferred STRC dividend at 12% as price still below par",
+      "url": "https://cointelegraph.com/news/strategy-leaves-preferred-strc-dividend-at-12-price-still-below-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-02T15:23:33+00:00",
+      "summary": "Investors have previously benefited from a payout boost when the preferred STRC shares traded well below their $100 par value for a month.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boost"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Trump Media says $165 million bitcoin transfer to Crypto.com wasn’t a sale",
+      "url": "https://www.theblock.co/post/410360/trump-media-linked-wallets-move-165-million-in-bitcoin-to-crypto-com-leaving-4261-btc-in-tracked-wallets?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-02T15:16:08+00:00",
+      "summary": "The company said a similar transfer to Crypto.com in May was part of a broader trading strategy and did not represent a sale.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "What’s the Deal With Meta’s ‘Pervert Glasses’?",
+      "url": "https://decrypt.co/374808/whats-the-deal-with-meta-pervert-glasses",
+      "published_at": "2026-08-02T15:01:03+00:00",
+      "summary": "Lawsuits, privacy complaints, secret recordings, and government investigations have put Meta’s AI glasses under scrutiny.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "The reverse bridge: Crypto meets Wall Street using perps",
@@ -164,8 +260,8 @@
       "source": "Cointelegraph",
       "title": "BNB Chain pursues legal action after ex-employee’s memecoin launch",
       "url": "https://cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-02T11:20:06+00:00",
-      "summary": "BNB Chain said a former employee allegedly used a company tutorial wallet to create a memecoin that the company says it did not authorize or endorse.",
+      "published_at": "2026-08-02T11:24:00+00:00",
+      "summary": "BNB Chain said a former employee allegedly used a company tutorial wallet to create a memecoin that the blockchain ecosystem says it did not authorize or endorse.",
       "sentiment": {
         "score": 1,
         "normalized": 0.125,
@@ -188,7 +284,7 @@
       "source": "Cointelegraph",
       "title": "Trump Media sells another 2,628 BTC, holdings fall to 4,261 BTC",
       "url": "https://cointelegraph.com/news/trump-media-2628-btc-crypto-com-4261-btc-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-02T09:29:15+00:00",
+      "published_at": "2026-08-02T09:31:00+00:00",
       "summary": "Trump Media transferred another 2,628 Bitcoin to Crypto.com, bringing its reported sales over seven months to 7,281 BTC and leaving the company with 4,261 BTC in holdings.",
       "sentiment": {
         "score": -2,
@@ -210,7 +306,7 @@
       "source": "Cointelegraph",
       "title": "Coldcard hack sparks biggest sub-1 BTC move since FTX: CryptoQuant",
       "url": "https://cointelegraph.com/news/coldcard-biggest-sub-1-btc-transfer-ftx-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-02T08:04:56+00:00",
+      "published_at": "2026-08-02T08:07:00+00:00",
       "summary": "Bitcoin users moved 39,600 BTC in small transactions as the Coldcard hack continued, with researchers warning that the attack remained active.",
       "sentiment": {
         "score": -4,
@@ -349,7 +445,7 @@
       "source": "Cointelegraph",
       "title": "Minnesota crypto ATM ban goes into effect after reported $1M losses",
       "url": "https://cointelegraph.com/news/minnesota-crypto-atm-ban-losses-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-01T18:07:17+00:00",
+      "published_at": "2026-08-01T18:09:00+00:00",
       "summary": "State officials reported that Minnesota residents, and largely senior citizens, had lost about $1 million from scams tied to crypto kiosks from 2023 to 2025.",
       "sentiment": {
         "score": -6,
@@ -574,7 +670,7 @@
       "source": "Cointelegraph",
       "title": "Russia expands crypto mining ban to Moscow through 2032",
       "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-01T10:23:41+00:00",
+      "published_at": "2026-08-01T10:30:00+00:00",
       "summary": "Russia has added Moscow, the Moscow Region and parts of Kursk Region to its cryptocurrency mining ban list, citing power supply concerns behind the restrictions.",
       "sentiment": {
         "score": -3,
@@ -642,7 +738,7 @@
       "source": "Cointelegraph",
       "title": "Bitcoin ETFs end July in the green despite late-month selling",
       "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-01T07:23:07+00:00",
+      "published_at": "2026-08-01T07:25:00+00:00",
       "summary": "Spot Bitcoin ETFs attracted $172.4 million in July inflows but remained $5.3 billion negative year to date after heavy withdrawals in May and June.",
       "sentiment": {
         "score": -2,
@@ -724,29 +820,6 @@
       "topics": [
         "ai",
         "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
-      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say",
-      "published_at": "2026-07-31T20:50:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -948,31 +1021,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
-      "url": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
-      "published_at": "2026-07-31T18:24:55+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Tether’s excess reserves fall by more than $4 billion amid weaker Q2 financial results",
       "url": "https://www.theblock.co/post/410305/tethers-excess-reserves-fall-by-more-than-4-billion-amid-weaker-q2-financial-results?utm_source=rss&utm_medium=rss",
@@ -1123,72 +1171,6 @@
         "sec",
         "stablecoin",
         "usdt"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bybit adds tokenized Nvidia, Apple, Tesla stocks as loan collateral",
-      "url": "https://cointelegraph.com/news/bybit-tokenized-stocks-collateral-margin-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T16:23:21+00:00",
-      "summary": "Eligible retail and institutional users can use tokenized shares of Nvidia, Apple, Tesla and three other US companies across Bybit’s trading and lending products.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "lending"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "US Closes in on Iran’s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies",
-      "url": "https://bitcoinmagazine.com/news/us-sanctions-iran-companies-using-bitcoin",
-      "published_at": "2026-07-31T16:20:58+00:00",
-      "summary": "Bitcoin Magazine\n\nUS Closes in on Iran&#8217;s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies\nThe news comes after the U.S. froze Iran's other digital assets. \nThis post US Closes in on Iran&#8217;s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Circle Lands New York Trust Charter as Stablecoin Issuer Expands Regulatory Footprint",
-      "url": "https://decrypt.co/374791/circle-new-york-trust-charter-stablecoin-issuer",
-      "published_at": "2026-07-31T15:32:02+00:00",
-      "summary": "The approval comes weeks after Circle won federal approval to establish a national trust bank, adding another license as the USDC issuer expands.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed",
-        "regulatory",
-        "stablecoin",
-        "usdc"
       ]
     }
   ]
