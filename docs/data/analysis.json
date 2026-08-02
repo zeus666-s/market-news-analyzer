@@ -1,22 +1,26 @@
 {
-  "generated_at": "2026-08-02T06:37:30.816870+00:00",
+  "generated_at": "2026-08-02T10:01:01.972297+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.05,
+    "market_sentiment_score": -0.057,
     "label_distribution": {
-      "neutral": 31,
-      "bearish": 23,
+      "bearish": 24,
+      "neutral": 30,
       "bullish": 16
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 16
+      },
+      {
+        "coin": "BTC",
+        "mentions": 6
       },
       {
         "coin": "ETH",
@@ -25,10 +29,6 @@
       {
         "coin": "Near",
         "mentions": 5
-      },
-      {
-        "coin": "BTC",
-        "mentions": 4
       },
       {
         "coin": "Binance",
@@ -58,7 +58,7 @@
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 16
       },
       {
         "topic": "wallet",
@@ -95,6 +95,52 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Trump Media sells another 2,628 BTC, holdings fall to 4,261 BTC",
+      "url": "https://cointelegraph.com/news/trump-media-2628-btc-crypto-com-4261-btc-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-02T09:29:15+00:00",
+      "summary": "Trump Media transferred another 2,628 Bitcoin to Crypto.com, bringing its reported sales over seven months to 7,281 BTC and leaving the company with 4,261 BTC in holdings.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall",
+          "sells"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coldcard hack sparks biggest sub-1 BTC move since FTX: CryptoQuant",
+      "url": "https://cointelegraph.com/news/coldcard-biggest-sub-1-btc-transfer-ftx-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-02T08:04:56+00:00",
+      "summary": "Bitcoin users moved 39,600 BTC in small transactions as the Coldcard hack continued, with researchers warning that the attack remained active.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "warning"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Strategy holds STRC dividend at 12%",
@@ -1113,29 +1159,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price sinks to 2-week lows as US stocks fail to copy Asia rebound",
-      "url": "https://cointelegraph.com/markets/bitcoin-two-week-lows-us-stocks-fail-copy-asia-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T15:57:03+00:00",
-      "summary": "Bitcoin saw fresh downside pressure as US stocks tracked sideways into the end of the month, diverging from the relief bounce seen in Asia.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fail"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Circle Lands New York Trust Charter as Stablecoin Issuer Expands Regulatory Footprint",
       "url": "https://decrypt.co/374791/circle-new-york-trust-charter-stablecoin-issuer",
@@ -1157,30 +1180,6 @@
         "regulatory",
         "stablecoin",
         "usdc"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "COLDCARD SECURITY RISK: IMMEDIATE ACTION REQUIRED",
-      "url": "https://bitcoinmagazine.com/news/coldcard-security-risk-immediate-action-required",
-      "published_at": "2026-07-31T15:22:26+00:00",
-      "summary": "Bitcoin Magazine\n\nCOLDCARD SECURITY RISK: IMMEDIATE ACTION REQUIRED\nIMPORTANT: Major security vulnerability discovered in Coldcard hardware wallets. For your own safety read disclosures and take necessary actions immediately. \nThis post COLDCARD SECURITY RISK: IMMEDIATE ACTION REQUIRED first appeared on Bitcoin Magazine and is written by Shinobi.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "sec",
-        "wallet"
       ]
     }
   ]
