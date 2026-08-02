@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-02T10:01:01.972297+00:00",
+  "generated_at": "2026-08-02T13:37:38.447679+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.057,
+    "market_sentiment_score": -0.061,
     "label_distribution": {
+      "neutral": 29,
       "bearish": 24,
-      "neutral": 30,
-      "bullish": 16
+      "bullish": 17
     },
     "top_coins": [
       {
@@ -39,15 +39,15 @@
         "mentions": 3
       },
       {
+        "coin": "BNB",
+        "mentions": 2
+      },
+      {
         "coin": "SOL",
         "mentions": 2
       },
       {
         "coin": "UNI",
-        "mentions": 2
-      },
-      {
-        "coin": "Ethereum",
         "mentions": 2
       }
     ],
@@ -62,7 +62,7 @@
       },
       {
         "topic": "wallet",
-        "mentions": 8
+        "mentions": 10
       },
       {
         "topic": "sec",
@@ -74,7 +74,7 @@
       },
       {
         "topic": "exchange",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "topic": "mining",
@@ -85,8 +85,8 @@
         "mentions": 3
       },
       {
-        "topic": "etf",
-        "mentions": 3
+        "topic": "memecoin",
+        "mentions": 2
       },
       {
         "topic": "onchain",
@@ -95,6 +95,95 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "The reverse bridge: Crypto meets Wall Street using perps",
+      "url": "https://www.coindesk.com/business/2026/08/02/the-reverse-bridge-crypto-meets-wall-street-using-perps",
+      "published_at": "2026-08-02T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "bridge"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
+      "url": "https://www.coindesk.com/markets/2026/08/02/unlike-the-ftx-collapse-the-usd88-million-coldcard-exploit-has-investors-sending-bitcoin-back-to-exchanges",
+      "published_at": "2026-08-02T12:03:51+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "collapse",
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-02T11:56:35+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BNB Chain pursues legal action after ex-employee’s memecoin launch",
+      "url": "https://cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-02T11:20:06+00:00",
+      "summary": "BNB Chain said a former employee allegedly used a company tutorial wallet to create a memecoin that the company says it did not authorize or endorse.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "BNB"
+      ],
+      "topics": [
+        "ai",
+        "memecoin",
+        "wallet"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Trump Media sells another 2,628 BTC, holdings fall to 4,261 BTC",
@@ -159,7 +248,7 @@
     },
     {
       "source": "The Block",
-      "title": "Iran-linked exchange sent $676 million to Binance in alleged sanctions-evasion operation: Reuters",
+      "title": "Iran-linked exchange sent $676 million to Binance wallets in alleged sanctions-evasion operation: Reuters",
       "url": "https://www.theblock.co/post/410355/iran-linked-exchange-sent-676-million-to-binance-in-alleged-sanctions-evasion-operation-reuters?utm_source=rss&utm_medium=rss",
       "published_at": "2026-08-01T21:18:45+00:00",
       "summary": "Dubai-based Shelbit processed over $4 billion since May 2024 through a network tied to Iranian gambling sites, the central bank, and the IRGC, per Reuters.",
@@ -177,7 +266,8 @@
       ],
       "topics": [
         "ai",
-        "exchange"
+        "exchange",
+        "wallet"
       ]
     },
     {
@@ -883,29 +973,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T18:09:51+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Tether’s excess reserves fall by more than $4 billion amid weaker Q2 financial results",
       "url": "https://www.theblock.co/post/410305/tethers-excess-reserves-fall-by-more-than-4-billion-amid-weaker-q2-financial-results?utm_source=rss&utm_medium=rss",
@@ -952,22 +1019,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "The good and the bad of perps, according to crypto traders",
-      "url": "https://www.coindesk.com/business/2026/07/31/the-good-and-the-bad-of-perps-according-to-crypto-traders",
-      "published_at": "2026-07-31T17:53:59+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Analysts back Strategy’s cash buildup as Saylor shifts from ‘100% bitcoin’ approach",
       "url": "https://www.theblock.co/post/410297/strategy-cash-buildup-saylor-shifts-from-100-bitcoin-approach?utm_source=rss&utm_medium=rss",
@@ -1010,27 +1061,6 @@
       "topics": [
         "stablecoin",
         "usdt"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
-      "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
-      "published_at": "2026-07-31T17:07:30+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "etf"
       ]
     },
     {
@@ -1135,27 +1165,6 @@
       "topics": [
         "ai",
         "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US Treasury yields rise as TIPS challenge the inflation narrative",
-      "url": "https://cointelegraph.com/markets/us-treasury-yields-rise-as-tips-challenge-the-inflation-narrative?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T16:14:19+00:00",
-      "summary": "TIPS data points to rising real yields, not inflation, a dynamic that weighs on non-yielding assets like Bitcoin.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "inflation",
-        "yield"
       ]
     },
     {
