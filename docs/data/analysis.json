@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-01T20:58:48.575051+00:00",
+  "generated_at": "2026-08-02T03:23:52.156904+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.046,
+    "market_sentiment_score": -0.05,
     "label_distribution": {
-      "bearish": 24,
-      "neutral": 29,
-      "bullish": 17
+      "neutral": 31,
+      "bearish": 23,
+      "bullish": 16
     },
     "top_coins": [
       {
@@ -16,15 +16,15 @@
       },
       {
         "coin": "OP",
-        "mentions": 17
-      },
-      {
-        "coin": "Near",
-        "mentions": 6
+        "mentions": 18
       },
       {
         "coin": "ETH",
         "mentions": 6
+      },
+      {
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "BTC",
@@ -32,6 +32,14 @@
       },
       {
         "coin": "Binance",
+        "mentions": 3
+      },
+      {
+        "coin": "LINK",
+        "mentions": 3
+      },
+      {
+        "coin": "SOL",
         "mentions": 2
       },
       {
@@ -39,16 +47,8 @@
         "mentions": 2
       },
       {
-        "coin": "LINK",
-        "mentions": 2
-      },
-      {
         "coin": "Ethereum",
         "mentions": 2
-      },
-      {
-        "coin": "BNB",
-        "mentions": 1
       }
     ],
     "top_topics": [
@@ -73,6 +73,10 @@
         "mentions": 5
       },
       {
+        "topic": "exchange",
+        "mentions": 3
+      },
+      {
         "topic": "mining",
         "mentions": 3
       },
@@ -85,16 +89,74 @@
         "mentions": 3
       },
       {
-        "topic": "cftc",
-        "mentions": 2
-      },
-      {
-        "topic": "usdt",
+        "topic": "onchain",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Strategy holds STRC dividend at 12%",
+      "url": "https://www.coindesk.com/markets/2026/08/01/strategy-holds-strc-dividend-at-12",
+      "published_at": "2026-08-01T22:01:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Iran-linked exchange sent $676 million to Binance in alleged sanctions-evasion operation: Reuters",
+      "url": "https://www.theblock.co/post/410355/iran-linked-exchange-sent-676-million-to-binance-in-alleged-sanctions-evasion-operation-reuters?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-01T21:18:45+00:00",
+      "summary": "Dubai-based Shelbit processed over $4 billion since May 2024 through a network tied to Iranian gambling sites, the central bank, and the IRGC, per Reuters.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance",
+        "LINK",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Onchain, in court: What happened in crypto legal news this week",
+      "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-01T21:14:39+00:00",
+      "summary": "A case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trading.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "onchain",
+        "rwa"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
@@ -1074,26 +1136,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Quantum computing nears commercial breakthrough, IBM CEO says",
-      "url": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
-      "published_at": "2026-07-31T15:39:30+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "breakthrough"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "Circle Lands New York Trust Charter as Stablecoin Issuer Expands Regulatory Footprint",
       "url": "https://decrypt.co/374791/circle-new-york-trust-charter-stablecoin-issuer",
@@ -1140,48 +1182,6 @@
         "sec",
         "wallet"
       ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Coldcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen",
-      "url": "https://bitcoinmagazine.com/news/coldcard-wallet-exposed-after-bitcoin-hack",
-      "published_at": "2026-07-31T15:22:11+00:00",
-      "summary": "Bitcoin Magazine\n\nColdcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen\nOver $70 million in Bitcoin has been pinched. Coldcard has since urged its users to take precautions. \nThis post Coldcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "US Treasury Sanctions Iranian Firms Taking Bitcoin for Hormuz Passage",
-      "url": "https://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
-      "published_at": "2026-07-31T15:05:43+00:00",
-      "summary": "OFAC sanctioned two Iranian firms including Hormuz Safe, which “accepts payment in Bitcoin and other digital assets.”",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
