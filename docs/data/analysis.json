@@ -1,38 +1,42 @@
 {
-  "generated_at": "2026-08-03T17:55:35.545903+00:00",
+  "generated_at": "2026-08-03T21:08:24.480128+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.096,
+    "market_sentiment_score": -0.098,
     "label_distribution": {
-      "bullish": 11,
-      "neutral": 32,
-      "bearish": 27
+      "bearish": 29,
+      "neutral": 31,
+      "bullish": 10
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 37
-      },
-      {
-        "coin": "OP",
-        "mentions": 12
+        "mentions": 35
       },
       {
         "coin": "BTC",
-        "mentions": 11
+        "mentions": 10
+      },
+      {
+        "coin": "OP",
+        "mentions": 9
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "SOL",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Near",
         "mentions": 5
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 3
       },
       {
         "coin": "Ripple",
@@ -43,18 +47,14 @@
         "mentions": 3
       },
       {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "XRP",
+        "coin": "FIL",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 29
+        "mentions": 27
       },
       {
         "topic": "pos",
@@ -62,11 +62,11 @@
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 9
       },
       {
         "topic": "wallet",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "topic": "exchange",
@@ -74,6 +74,14 @@
       },
       {
         "topic": "miner",
+        "mentions": 4
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 3
+      },
+      {
+        "topic": "onchain",
         "mentions": 3
       },
       {
@@ -81,20 +89,233 @@
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
-        "mentions": 2
-      },
-      {
-        "topic": "onchain",
-        "mentions": 2
-      },
-      {
-        "topic": "yield",
+        "topic": "dex",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "DEXs capture record 24% of spot crypto trading as CEX volumes sink",
+      "url": "https://www.theblock.co/post/410476/dexs-capture-record-spot-crypto-trading-as-cex-volumes-sink?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T20:46:31+00:00",
+      "summary": "Spot exchange volume is on track to set a new 12-month low at $670 million, down from its annual high of $2.23 trillion.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "APT"
+      ],
+      "topics": [
+        "cex",
+        "dex",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
+      "url": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
+      "published_at": "2026-08-03T20:39:33+00:00",
+      "summary": "Air-gapped wallets keep private keys completely offline, reducing exposure to hackers—but they're not immune from threats.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bessent’s top crypto adviser Tyler Williams exits US Treasury: Report",
+      "url": "https://cointelegraph.com/news/bessent-top-crypto-adviser-tyler-williams-leaves-us-treasury-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T20:29:47+00:00",
+      "summary": "A key architect of the Trump administration’s digital asset agenda is leaving the Treasury Department as Congress struggles to advance landmark crypto legislation.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "struggles"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T19:52:11+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "FalconX cuts 10% of workforce amid prolonged crypto market slump: Report",
+      "url": "https://cointelegraph.com/news/falconx-workforce-reduction-amid-crypto-market-slump-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T19:44:48+00:00",
+      "summary": "According to Bloomberg, the digital asset prime broker is refocusing its Singapore strategy and withdrawing its local license application as crypto companies continue to trim costs.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
+      "url": "https://decrypt.co/374865/blackrock-tokenized-money-market-funds-solana-ethereum",
+      "published_at": "2026-08-03T19:17:37+00:00",
+      "summary": "BlackRock launched a tokenized money market fund for stablecoin reserves that uses Solana alongside Ethereum.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "American Bitcoin Reports Quarterly Loss But Boosts Bitcoin Stash",
+      "url": "https://bitcoinmagazine.com/news/american-bitcoin-reports-loss-boosts-stash",
+      "published_at": "2026-08-03T19:03:26+00:00",
+      "summary": "Bitcoin Magazine\n\nAmerican Bitcoin Reports Quarterly Loss But Boosts Bitcoin Stash \nThe publicly traded Bitcoin miner's stock is up after it revealed it had bought more coins. \nThis post American Bitcoin Reports Quarterly Loss But Boosts Bitcoin Stash  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "boosts"
+        ],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "miner",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "FBI agent accused of stealing $1 million in crypto, allegedly turned to ChatGPT for vacation plans",
+      "url": "https://www.theblock.co/post/410491/fbi-agent-stealing-1-million-crypto-turned-to-chatgpt-vacation-plans?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T18:48:34+00:00",
+      "summary": "An FBI agent was arrested after allegedly stealing about $1 million in cryptocurrency from \"adversarial cryptocurrency accounts.\"",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Kalshi CEO invokes Nasdaq, Uber and Airbnb in defense against New York lawsuit",
+      "url": "https://www.theblock.co/post/410481/kalshi-ceo-invokes-nasdaq-uber-airbnb-defense-new-york-lawsuit?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T18:44:48+00:00",
+      "summary": "\"You could copy and paste that lawsuit and file it against Nasdaq,” Kalshi CEO Tarek Mansour said during an interview with CNBC.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "BNB",
+        "FIL",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Proof of Attendance Protocol is shutting down after 5+ years",
+      "url": "https://www.theblock.co/post/410482/proof-of-attendance-protocol-is-shutting-down-after-5-years?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T18:40:12+00:00",
+      "summary": "Some 46,210 issuers like Coinbase and American Express used POAP to create onchain mementos that users could mint.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "XRP Holders Can Now Borrow Ripple's RLUSD on Ethereum Without Selling Their Crypto",
@@ -552,29 +773,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T13:17:41+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "BlackRock expands tokenized cash with new blockchain-based money market offerings",
       "url": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings",
@@ -953,220 +1151,24 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live updates: Bitcoin rises above $63,000 as stocks surge to start August",
+      "title": "Live updates: Bitcoin flirts with $64,000 as stocks start strong in August",
       "url": "https://www.coindesk.com/business/2026/08/03/live-updates-traders-say-bitcoin-sell-off-from-usd65-000-points-to-thin-volume-not-panic-selling",
       "published_at": "2026-08-03T10:29:23+00:00",
       "summary": "",
       "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
+        "score": 1,
+        "normalized": 0.125,
         "label": "bullish",
         "positive_hits": [
-          "surge"
+          "strong"
         ],
         "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin may find bear market bottom in August: 10x Research",
-      "url": "https://cointelegraph.com/markets/bitcoin-find-bear-market-bottom-august-10x-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T10:25:32+00:00",
-      "summary": "Bitcoin could confirm an August bear-market bottom, though rising Treasury yields could force the Fed to raise rates in September, according to 10x Research.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bear"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "yield"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Coldcard Losses Near $114M as Small Bitcoin Transfers Spike",
-      "url": "https://decrypt.co/374820/coldcard-losses-near-114m-as-small-bitcoin-transfers-spike",
-      "published_at": "2026-08-03T10:15:37+00:00",
-      "summary": "Transfers of less than 1 BTC hit levels last seen days after the FTX collapse, while Galaxy Research flagged a likely fourth wave of thefts.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapse",
-          "losses"
-        ]
       },
       "coins": [
         "Bitcoin",
-        "BTC",
-        "Near"
+        "Tron"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The bitcoin futures yield collapse: Once over 20%, now less than Treasury notes",
-      "url": "https://www.coindesk.com/markets/2026/08/03/the-bitcoin-futures-yield-collapse-once-over-20-now-less-than-treasury-notes",
-      "published_at": "2026-08-03T10:13:50+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapse"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "futures",
-        "yield"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bernstein says Clarity Act failure could accelerate SEC, CFTC crypto rulemaking",
-      "url": "https://www.theblock.co/post/410395/bernstein-says-clarity-act-failure-could-accelerate-sec-cftc-crypto-rulemaking?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-03T09:49:47+00:00",
-      "summary": "Bernstein expects SEC and CFTC rulemaking to accelerate under Project Crypto if the Clarity Act fails to pass this year.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fails",
-          "failure"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Robinhood wins UK crypto registration before new regulatory regime kicks off",
-      "url": "https://www.coindesk.com/policy/2026/08/03/robinhood-wins-uk-crypto-registration-before-new-regulatory-regime-kicks-off",
-      "published_at": "2026-08-03T09:38:53+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ripple invests in ZILO and Licuido to deepen tokenized capital markets push",
-      "url": "https://www.theblock.co/post/410397/ripple-invests-zilo-licuido?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-03T09:38:48+00:00",
-      "summary": "Ripple said the deals are set to bring regulated transfer agency, issuance, and collateral mobility to its infrastructure on the XRP Ledger.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "XRP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "South Korea’s Bithumb officially targets 2028 IPO, outlines multi-year roadmap",
-      "url": "https://www.theblock.co/post/410391/south-korea-bithumb-ipo-2028?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-03T09:21:28+00:00",
-      "summary": "Bithumb plans to request a preliminary listing review and have its application reviewed by local authorities in 2027.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "HashKey receives JPMorgan approval to open client money account",
-      "url": "https://cointelegraph.com/news/hashkey-jpmorgan-client-money-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T09:14:38+00:00",
-      "summary": "HashKey Exchange said it received approval to open client money accounts with JPMorgan, weeks after it launched customer fund accounts with DBS Bank.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coldcard wallet losses may near $114 million as possible fourth sweep emerges",
-      "url": "https://www.coindesk.com/tech/2026/08/03/coldcard-wallet-losses-may-near-usd114-million-as-possible-fourth-sweep-emerges",
-      "published_at": "2026-08-03T08:51:39+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "pos",
-        "wallet"
-      ]
     }
   ]
 }
