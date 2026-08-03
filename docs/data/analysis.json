@@ -1,37 +1,41 @@
 {
-  "generated_at": "2026-08-03T14:48:49.204696+00:00",
+  "generated_at": "2026-08-03T17:55:35.545903+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.093,
+    "market_sentiment_score": -0.096,
     "label_distribution": {
-      "bearish": 24,
-      "neutral": 36,
-      "bullish": 10
+      "bullish": 11,
+      "neutral": 32,
+      "bearish": 27
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 34
+        "mentions": 37
       },
       {
         "coin": "OP",
-        "mentions": 10
+        "mentions": 12
       },
       {
         "coin": "BTC",
-        "mentions": 8
+        "mentions": 11
+      },
+      {
+        "coin": "ETH",
+        "mentions": 5
+      },
+      {
+        "coin": "SOL",
+        "mentions": 5
       },
       {
         "coin": "Near",
         "mentions": 5
       },
       {
-        "coin": "ETH",
-        "mentions": 4
-      },
-      {
-        "coin": "SOL",
+        "coin": "Ripple",
         "mentions": 3
       },
       {
@@ -39,38 +43,38 @@
         "mentions": 3
       },
       {
-        "coin": "Ripple",
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
-        "coin": "Sui",
-        "mentions": 2
-      },
-      {
-        "coin": "Binance",
+        "coin": "XRP",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 29
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 13
       },
       {
         "topic": "sec",
-        "mentions": 11
-      },
-      {
-        "topic": "wallet",
         "mentions": 10
       },
       {
+        "topic": "wallet",
+        "mentions": 8
+      },
+      {
         "topic": "exchange",
-        "mentions": 7
+        "mentions": 6
+      },
+      {
+        "topic": "miner",
+        "mentions": 3
       },
       {
         "topic": "mining",
@@ -78,23 +82,338 @@
       },
       {
         "topic": "stablecoin",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "topic": "onchain",
         "mentions": 2
       },
       {
-        "topic": "exchanges",
-        "mentions": 2
-      },
-      {
-        "topic": "miner",
+        "topic": "yield",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "XRP Holders Can Now Borrow Ripple's RLUSD on Ethereum Without Selling Their Crypto",
+      "url": "https://decrypt.co/374862/xrp-holders-borrow-ripple-rlusd-ethereum-without-selling",
+      "published_at": "2026-08-03T17:51:03+00:00",
+      "summary": "Flare's FXRP has been approved as collateral in a $280 million RLUSD lending vault, allowing XRP holders to tap Ethereum's lending markets.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "approved"
+        ],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Ripple",
+        "XRP"
+      ],
+      "topics": [
+        "lending"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BlackRock launches two tokenized money market funds for stablecoin reserves",
+      "url": "https://www.theblock.co/post/410469/blackrock-launches-two-tokenized-money-market-funds-stablecoin-reserves?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T17:48:09+00:00",
+      "summary": "BRSRV joins a list of funds launched by the likes of Morgan Stanley, State Street, and Fidelity designed for stablecoin reserves.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto Privacy Tools Serve ‘Essential Protective Functions’: Report by ChangeNOW, CoinRabbit",
+      "url": "https://decrypt.co/374838/crypto-privacy-tools-serve-essential-protective-functions-report-by-changenow-coinrabbit",
+      "published_at": "2026-08-03T17:31:03+00:00",
+      "summary": "Authoritarian oppression, corporate treasuries and “wrench attacks” make up the privacy case in a new report from ChangeNOW and CoinRabbit.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Crypto Clarity Act Risks More Delay As Recess Looms",
+      "url": "https://bitcoinmagazine.com/news/crypto-clarity-act-risks-more-delay",
+      "published_at": "2026-08-03T17:21:38+00:00",
+      "summary": "Bitcoin Magazine\n\nCrypto Clarity Act Risks More Delay As Recess Looms\nLamakers will break for over one month this week — the Clarity Act may not get a vote before then.  \nThis post Crypto Clarity Act Risks More Delay As Recess Looms first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Solo Bitcoin Miner Hits Jackpot, Scoring $200K BTC Reward",
+      "url": "https://decrypt.co/374859/solo-bitcoin-miner-hits-jackpot-scoring-200k-btc-reward",
+      "published_at": "2026-08-03T17:12:08+00:00",
+      "summary": "CKPool's developer put the winner's hashrate at a “wildly variable” peak of 100 PH, noting that it was probably rented.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "miner"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Jameson Lopp says Coldcard exploit exposes limits of Bitcoin’s ‘don’t trust, verify’ mantra",
+      "url": "https://www.theblock.co/post/410446/jameson-lopp-coldcard-exploit-exposes-limits-bitcoins-dont-trust-verify-mantra?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T16:59:42+00:00",
+      "summary": "Lopp said AI is reshaping wallet security by helping attackers uncover bugs and developers audit code faster.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Michael Saylor says he’s never sold his personal bitcoin after Strategy dumps more BTC",
+      "url": "https://www.theblock.co/post/410451/michael-saylor-says-never-sold-his-personal-bitcoin-strategy-dumps-more-btc?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T16:57:22+00:00",
+      "summary": "Strategy Inc disclosed that it sold 1,638 bitcoin last week for $104.7 million, reducing its total holdings to 842,138 BTC.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "dumps"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kenya moves 30 million academic credentials onto Avalanche blockchain",
+      "url": "https://cointelegraph.com/news/kenya-avalanche-blockchain-academic-credentials-verification?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T16:46:22+00:00",
+      "summary": "A new digital verification platform aims to reduce forged certificates by allowing employers and universities to authenticate academic records onchain.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Avalanche",
+        "UNI"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Trump Family’s American Bitcoin Tops 8,000 BTC After Record Mining Quarter",
+      "url": "https://decrypt.co/374850/trump-american-bitcoin-8000-btc-record-mining-quarter",
+      "published_at": "2026-08-03T16:29:15+00:00",
+      "summary": "The Hut 8 subsidiary increased its Bitcoin holdings by 14% in the second quarter even as Bitcoin’s price fell.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "mining",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BlackRock launches tokenized money market funds for stablecoin reserves",
+      "url": "https://cointelegraph.com/news/blackrock-launches-tokenized-money-market-funds-stablecoin-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T16:13:12+00:00",
+      "summary": "The asset manager introduced two blockchain-based money market funds designed to qualify as stablecoin reserve assets under the US GENIUS Act.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tom Lee’s Bitmine Buys More Ethereum, Adds to Stock Buyback",
+      "url": "https://decrypt.co/374836/tom-lee-bitmine-buys-more-ethereum-adds-stock-buyback",
+      "published_at": "2026-08-03T15:31:43+00:00",
+      "summary": "The crypto treasury company says it added another 10,399 ETH last week, bringing its holdings to nearly 5.8 million ETH as it pushes toward its goal of owning 5% of Ethereum's circulating supply.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
+      "url": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+      "published_at": "2026-08-03T15:24:45+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "LINK"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Hashdex to shut smallest Bitcoin ETF after more than two years",
+      "url": "https://cointelegraph.com/news/hashdex-to-shut-smallest-bitcoin-etf-after-more-than-two-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T15:24:43+00:00",
+      "summary": "The spot price Bitcoin exchange-traded fund, which was never able to attract more than $18 million in net assets, will pay out investors and sell its 225 BTC in the coming weeks.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sell"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "dex",
+        "etf",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Strategy Sells Bitcoin After Five Weeks Without Buying",
+      "url": "https://bitcoinmagazine.com/news/strategy-sells-bitcoin-after-buying-pause",
+      "published_at": "2026-08-03T15:17:39+00:00",
+      "summary": "Bitcoin Magazine\n\nStrategy Sells Bitcoin After Five Weeks Without Buying\nThe company had held off buying Bitcoin before the sale, instead focusing on strengthening its cash balance. \nThis post Strategy Sells Bitcoin After Five Weeks Without Buying first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": [
+          "sells"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
@@ -846,314 +1165,6 @@
       ],
       "topics": [
         "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitget to exit Japan, close remaining positions after Dec. 31",
-      "url": "https://cointelegraph.com/news/bitget-exit-japan-account-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T08:21:23+00:00",
-      "summary": "The crypto exchange stopped accepting new registrations from Japan residents and will begin progressively restricting existing accounts on Nov. 1.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
-      "published_at": "2026-08-03T08:16:28+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto treasury firm ZeroStack warns of survival risk amid $82.5M loss",
-      "url": "https://cointelegraph.com/news/zerostack-survival-risk-82m-crypto-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T07:15:56+00:00",
-      "summary": "The Nasdaq-listed company relies largely on staking rewards to fund operations, while its 0G holdings were valued 91% below their recorded costs.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss",
-          "risk",
-          "warns"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "staking"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin hits $62K while Coinbase premium hits 77-day negative streak",
-      "url": "https://cointelegraph.com/markets/bitcoin-hits-62k-while-coinbase-premium-hits-77-day-negative-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T05:58:00+00:00",
-      "summary": "The persistent discount suggests US spot buyers have remained less aggressive than overseas traders even as US Bitcoin ETF inflows turned positive in July.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "positive"
-        ],
-        "negative_hits": [
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Kalshi and Polymarket’s combined volume reaches all-time high in July, surpassing $50 billion",
-      "url": "https://www.theblock.co/post/410382/kalshi-polymarket-volume-july?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-03T04:34:46+00:00",
-      "summary": "Notably, Polymarket US's volume rose 54% while the main Polymarket platform's volume fell 26% compared to June.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "all-time high"
-        ],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Coldcard’s 5-year flaw reveals hardware wallet testing gap: Kraken’s security chief",
-      "url": "https://cointelegraph.com/news/coldcards-5-year-flaw-reveals-hardware-wallet-testing-gap-krakens-security-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T04:09:44+00:00",
-      "summary": "The five-year bug escaped detection because auditors verified that the intended random number generator existed, but not that it was being called.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korean stablecoin outflows top $367M in June: Report",
-      "url": "https://cointelegraph.com/news/south-korea-stablecoin-outflows-overseas-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-03T04:05:11+00:00",
-      "summary": "Stablecoins have been flowing out of South Korean exchanges for 18 consecutive months as regulators weigh tighter oversight of cross-border crypto activity.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges",
-        "sec",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Hong Kong police flag $3.3 million romance scam involving fake crypto app",
-      "url": "https://www.theblock.co/post/410377/hong-kong-3-million-crypto-romance-scam?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-03T03:42:16+00:00",
-      "summary": "Hong Kong police reported that an insurance agent lost more than $3.3 million after being lured into a fake crypto investment scheme.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lost",
-          "scam"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "SEC keeps Nasdaq bitcoin options on hold after granting CME review",
-      "url": "https://www.theblock.co/post/410373/sec-keeps-nasdaq-bitcoin-options-on-hold-after-granting-cme-review?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-02T21:25:36+00:00",
-      "summary": "CME is arguing that the contracts are commodity option swaps subject exclusively to the CFTC's oversight rather than the SEC's.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "cftc",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Saylor hints at Strategy bitcoin buy after five-week pause as STRC rate stays at 12%: ‘Bitcoin Drive engaged’",
-      "url": "https://www.theblock.co/post/410370/saylor-hints-at-strategy-bitcoin-buy-after-five-week-pause-as-strc-rate-stays-at-12-bitcoin-drive-engaged?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-02T18:10:43+00:00",
-      "summary": "Strategy has gone five consecutive weeks without a disclosed bitcoin purchase; the firm last reported holding 843,775 BTC acquired for $63.69 billion.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Coldcard Bitcoin Exploit Balloons to $88 Million as Attackers Keep Draining Wallets",
-      "url": "https://decrypt.co/374817/coldcard-bitcoin-exploit-88-million-attackers-draining-wallets",
-      "published_at": "2026-08-02T17:18:51+00:00",
-      "summary": "Galaxy Research says a third wave of thefts from Coldcard Bitcoin wallets has pushed observed losses to roughly 1,367 BTC across 4,585 addresses.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Trump Media says $165 million bitcoin transfer to Crypto.com wasn’t a sale",
-      "url": "https://www.theblock.co/post/410360/trump-media-linked-wallets-move-165-million-in-bitcoin-to-crypto-com-leaving-4261-btc-in-tracked-wallets?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-02T15:16:08+00:00",
-      "summary": "The company said a similar transfer to Crypto.com in May was part of a broader trading strategy and did not represent a sale.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "What’s the Deal With Meta’s ‘Pervert Glasses’?",
-      "url": "https://decrypt.co/374808/whats-the-deal-with-meta-pervert-glasses",
-      "published_at": "2026-08-02T15:01:03+00:00",
-      "summary": "Lawsuits, privacy complaints, secret recordings, and government investigations have put Meta’s AI glasses under scrutiny.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Sui"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Iran-linked exchange sent $676 million to Binance wallets in alleged sanctions-evasion operation: Reuters",
-      "url": "https://www.theblock.co/post/410355/iran-linked-exchange-sent-676-million-to-binance-in-alleged-sanctions-evasion-operation-reuters?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-01T21:18:45+00:00",
-      "summary": "Dubai-based Shelbit processed over $4 billion since May 2024 through a network tied to Iranian gambling sites, the central bank, and the IRGC, per Reuters.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance",
-        "LINK",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange",
         "wallet"
       ]
     }
