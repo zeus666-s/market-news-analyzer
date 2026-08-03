@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-08-03T03:25:59.089050+00:00",
+  "generated_at": "2026-08-03T07:32:19.392158+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.084,
+    "market_sentiment_score": -0.093,
     "label_distribution": {
-      "bearish": 26,
+      "bearish": 27,
       "neutral": 31,
-      "bullish": 13
+      "bullish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 30
+        "mentions": 32
       },
       {
         "coin": "OP",
-        "mentions": 13
+        "mentions": 15
       },
       {
         "coin": "BTC",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "Near",
         "mentions": 5
-      },
-      {
-        "coin": "ETH",
-        "mentions": 4
       },
       {
         "coin": "UNI",
@@ -39,42 +35,46 @@
         "mentions": 3
       },
       {
+        "coin": "Sui",
+        "mentions": 2
+      },
+      {
+        "coin": "BNB",
+        "mentions": 2
+      },
+      {
         "coin": "Binance",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "coin": "LINK",
-        "mentions": 3
-      },
-      {
-        "coin": "Sui",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 29
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 12
       },
       {
         "topic": "wallet",
-        "mentions": 10
+        "mentions": 9
+      },
+      {
+        "topic": "exchange",
+        "mentions": 4
       },
       {
         "topic": "stablecoin",
         "mentions": 4
-      },
-      {
-        "topic": "exchange",
-        "mentions": 3
       },
       {
         "topic": "mining",
@@ -85,11 +85,11 @@
         "mentions": 3
       },
       {
-        "topic": "cftc",
+        "topic": "defi",
         "mentions": 2
       },
       {
-        "topic": "defi",
+        "topic": "etf",
         "mentions": 2
       }
     ]
@@ -97,7 +97,223 @@
   "articles": [
     {
       "source": "Cointelegraph",
-      "title": "Suspected 4th Coldcard attack wave sweeps 389 Bitcoin: Galaxy’s Thorn",
+      "title": "Crypto treasury firm ZeroStack warns of survival risk amid $82.5M loss",
+      "url": "https://cointelegraph.com/news/zerostack-survival-risk-82m-crypto-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T07:15:56+00:00",
+      "summary": "The Nasdaq-listed company relies largely on staking rewards to fund operations, while its 0G holdings were valued 91% below their recorded costs.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss",
+          "risk",
+          "warns"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "staking"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T06:25:13+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
+      "url": "https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market",
+      "published_at": "2026-08-03T06:15:38+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin hits $62K while Coinbase premium hits 77-day negative streak",
+      "url": "https://cointelegraph.com/markets/bitcoin-hits-62k-while-coinbase-premium-hits-77-day-negative-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T05:58:00+00:00",
+      "summary": "The persistent discount suggests US spot buyers have remained less aggressive than overseas traders even as US Bitcoin ETF inflows turned positive in July.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "positive"
+        ],
+        "negative_hits": [
+          "negative"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Trump Media’s bitcoin stash may be down to loan collateral after $165 million BTC move",
+      "url": "https://www.coindesk.com/markets/2026/08/03/trump-media-s-bitcoin-stash-may-be-down-to-loan-collateral-after-usd165-million-btc-move",
+      "published_at": "2026-08-03T05:52:29+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Michael Saylor’s Strategy is now tracking bitcoin’s 200-week moving average",
+      "url": "https://www.coindesk.com/markets/2026/08/03/michael-saylor-s-strategy-is-now-tracking-bitcoin-s-200-week-moving-average",
+      "published_at": "2026-08-03T05:07:49+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Kalshi and Polymarket’s combined volume reaches all-time high in July, surpassing $50 billion",
+      "url": "https://www.theblock.co/post/410382/kalshi-polymarket-volume-july?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T04:34:46+00:00",
+      "summary": "Notably, Polymarket US's volume rose 54% while the main Polymarket platform's volume fell 26% compared to June.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "all-time high"
+        ],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coldcard’s 5-year flaw reveals hardware wallet testing gap: Kraken’s security chief",
+      "url": "https://cointelegraph.com/news/coldcards-5-year-flaw-reveals-hardware-wallet-testing-gap-krakens-security-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T04:09:44+00:00",
+      "summary": "The five-year bug escaped detection because auditors verified that the intended random number generator existed, but not that it was being called.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korean stablecoin outflows top $367M in June: Report",
+      "url": "https://cointelegraph.com/news/south-korea-stablecoin-outflows-overseas-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-03T04:05:11+00:00",
+      "summary": "Stablecoins have been flowing out of South Korean exchanges for 18 consecutive months as regulators weigh tighter oversight of cross-border crypto activity.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "sec",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Hong Kong police flag $3.3 million romance scam involving fake crypto app",
+      "url": "https://www.theblock.co/post/410377/hong-kong-3-million-crypto-romance-scam?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-03T03:42:16+00:00",
+      "summary": "Hong Kong police reported that an insurance agent lost more than $3.3 million after being lured into a fake crypto investment scheme.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost",
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Suspected 4th Coldcard attack wave sweeps 448 Bitcoin: Galaxy’s Thorn",
       "url": "https://cointelegraph.com/news/suspected-4th-coldcard-attack-wave-sweeps-389-bitcoin-galaxys-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-03T01:57:40+00:00",
       "summary": "Galaxy research head Alex Thorn warned that unconfirmed transactions may give some Coldcard users a narrow opportunity to save their funds.",
@@ -161,29 +377,6 @@
       "topics": [
         "cftc",
         "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-02T20:00:35+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -785,22 +978,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Everyone has the perps convergence backwards",
-      "url": "https://www.coindesk.com/opinion/2026/08/01/everyone-has-the-perps-convergence-backwards",
-      "published_at": "2026-08-01T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "Cointelegraph",
       "title": "Russia expands crypto mining ban to Moscow through 2032",
       "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -821,96 +998,6 @@
         "mining",
         "pow"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Coldcard Bitcoin loss estimate rises to $70M after Galaxy analysis",
-      "url": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-01T09:23:56+00:00",
-      "summary": "Galaxy Research identified 1,196 addresses that lost 1,082.65 Bitcoin in a 41-minute window, expanding the estimated scope of the Coldcard wallet incident.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss",
-          "lost"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance founder CZ calls for wallet diversification after $70 million Coldcard exploit",
-      "url": "https://www.coindesk.com/markets/2026/08/01/binance-founder-cz-says-diversify-your-wallets-following-usd70-million-coldcard-exploit",
-      "published_at": "2026-08-01T09:01:08+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs end July in the green despite late-month selling",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-01T07:25:00+00:00",
-      "summary": "Spot Bitcoin ETFs attracted $172.4 million in July inflows but remained $5.3 billion negative year to date after heavy withdrawals in May and June.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "negative",
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "XRP Ledger upgrade brings back features once pulled over critical bugs",
-      "url": "https://www.coindesk.com/tech/2026/08/01/xrp-ledger-upgrade-brings-back-features-once-pulled-over-critical-bugs",
-      "published_at": "2026-08-01T06:09:51+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP"
-      ],
-      "topics": []
     },
     {
       "source": "Bitcoin Magazine",
@@ -1002,26 +1089,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bank of Italy finds no consistent cost advantage for stablecoin remittances",
-      "url": "https://cointelegraph.com/news/bank-of-italy-study-no-stablecoin-remittance-cost-advantages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T20:10:21+00:00",
-      "summary": "Researchers found that fiat conversion costs and payment infrastructure, rather than blockchain fees, accounted for most of the differences in stablecoin remittance costs and settlement times.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fiat",
-        "stablecoin"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "AI Music Company Suno Loses Copyright Case in Germany",
       "url": "https://decrypt.co/374802/suno-ai-music-copyright-case-germany",
@@ -1093,26 +1160,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Pump.fun laid off workers before they received millions in PUMP tokens: Report",
-      "url": "https://cointelegraph.com/news/pump-fun-employees-fired-tokens-vest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-31T19:16:19+00:00",
-      "summary": "Pump.fun co-founder Noah Tweedale reportedly attributed the layoffs to the company growing too quickly.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Younger Democrats Understand Clarity Act And Bill Should Pass, Says Coinbase’s Chief Policy Officer",
       "url": "https://bitcoinmagazine.com/news/clarity-act-should-pass-says-coinbase",
@@ -1130,52 +1177,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tether’s excess reserves fall by more than $4 billion amid weaker Q2 financial results",
-      "url": "https://www.theblock.co/post/410305/tethers-excess-reserves-fall-by-more-than-4-billion-amid-weaker-q2-financial-results?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-07-31T17:58:47+00:00",
-      "summary": "Tether swung from $4.9 billion in net profit for Q2 2025 to $1.5 in net operating profit during the second quarter of this year.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Coinkite Releases Fixed Firmware After Coldcard Bug; AI Likely Involved In The Breach",
-      "url": "https://bitcoinmagazine.com/business/coinkite-releases-fixed-firmware-after-coldcard-bug-ai-likely-involved-in-the-hack",
-      "published_at": "2026-07-31T17:57:02+00:00",
-      "summary": "Bitcoin Magazine\n\nCoinkite Releases Fixed Firmware After Coldcard Bug; AI Likely Involved In The Breach\nNVK stated that AI-assisted code review can now find latent bugs at a speed outpacing even the industry’s most seasoned experts, calling it a sober reality of the new AI paradigm.\nThis post Coinkite Releases Fixed Firmware After Coldcard Bug; AI Likely Involved In The Breach first appeared on Bitcoin Magazine and is written by Juan Galt.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
       ]
     }
   ]
