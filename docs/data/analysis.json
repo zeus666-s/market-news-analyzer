@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-04T21:15:47.615186+00:00",
+  "generated_at": "2026-08-05T02:51:01.347617+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.048,
+    "market_sentiment_score": -0.061,
     "label_distribution": {
-      "bullish": 15,
-      "neutral": 33,
-      "bearish": 22
+      "neutral": 36,
+      "bearish": 23,
+      "bullish": 11
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 32
+        "mentions": 31
       },
       {
         "coin": "OP",
@@ -24,14 +24,14 @@
       },
       {
         "coin": "Near",
-        "mentions": 7
-      },
-      {
-        "coin": "SOL",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Ethereum",
+        "mentions": 4
+      },
+      {
+        "coin": "SOL",
         "mentions": 4
       },
       {
@@ -39,54 +39,54 @@
         "mentions": 4
       },
       {
-        "coin": "Solana",
-        "mentions": 3
-      },
-      {
         "coin": "LINK",
         "mentions": 3
       },
       {
-        "coin": "Chainlink",
+        "coin": "Sui",
+        "mentions": 2
+      },
+      {
+        "coin": "ADA",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 20
+        "mentions": 21
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "wallet",
         "mentions": 7
       },
       {
-        "topic": "stablecoin",
+        "topic": "staking",
         "mentions": 4
       },
       {
-        "topic": "staking",
-        "mentions": 3
-      },
-      {
         "topic": "etf",
-        "mentions": 3
+        "mentions": 4
       },
       {
-        "topic": "mining",
+        "topic": "stablecoin",
         "mentions": 3
       },
       {
         "topic": "miner",
         "mentions": 3
+      },
+      {
+        "topic": "defi",
+        "mentions": 2
       },
       {
         "topic": "dai",
@@ -95,6 +95,230 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Three Missouri men charged over alleged plot to steal bitcoin through home invasion",
+      "url": "https://www.theblock.co/post/410688/three-missouri-men-charged-bitcoin-home-invasion?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-05T02:47:25+00:00",
+      "summary": "The three individuals have pleaded not guilty to the charge of conspiracy to interfere with commerce by robbery.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Crypto ‘will be fine’ even if Clarity fails to pass this week, Bitwise CIO Matt Hougan says",
+      "url": "https://www.theblock.co/post/410676/crypto-will-be-fine-if-clarity-fails-matt-hougan?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-05T02:31:03+00:00",
+      "summary": "The US Congress is entering a month-long recess next week, giving Clarity a three-day window to advance through the Senate.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fails"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ethereum researchers want to rein in staking, critics say it could backfire",
+      "url": "https://cointelegraph.com/news/ethereum-researchers-want-to-rein-in-staking-critics-say-it-could-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-05T02:30:07+00:00",
+      "summary": "EIP-8363 is a newly published draft proposal that would cut net consensus-layer rewards as the Ethereum staking ratio heads toward 50%.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "staking"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "This Bitcoin Bridge Shut Itself Down Because AI Was Finding Bugs Too Fast",
+      "url": "https://decrypt.co/374933/bitcoin-bridge-shuts-down-ai-finding-bugs-too-fast",
+      "published_at": "2026-08-04T22:46:03+00:00",
+      "summary": "Non-custodial Bitcoin swap provider Boltz says attackers are finding vulnerabilities faster than its team can fix them, forcing it to suspend swaps indefinitely.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "defi"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Enthusiast Bugs His Toddler's Sleepover and Feeds It to Claude—The Internet Bugs Back",
+      "url": "https://decrypt.co/374930/ai-enthusiast-bugged-toddler-sleepover-claude",
+      "published_at": "2026-08-04T22:16:03+00:00",
+      "summary": "Nicholas Charriere turned an hour of nonsense into a family website with named tracks. One reply calling him creepy got more likes than his post.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Tribal gaming regulators, senators make a renewed push to add prediction markets provision to Clarity Act",
+      "url": "https://www.theblock.co/post/410668/tribal-gaming-regulators-senators-make-renewed-push-add-prediction-markets-provision-clarity-act?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-04T22:15:26+00:00",
+      "summary": "Senators and tribal gaming regulators are pushing to keep sports betting under state jurisdiction, resisting efforts by a federal regulator.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Dumps Apple Employees' Text Messages to Fight Trade Secret Suit",
+      "url": "https://decrypt.co/374928/openai-emails-text-messages-apple-trade-secrets-lawsuit",
+      "published_at": "2026-08-04T21:46:03+00:00",
+      "summary": "The ChatGPT maker released emails and text messages it says expose factual errors in Apple's lawsuit and undercut claims that former Apple employees brought confidential information to the company.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "dumps",
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BlackRock’s spot Ethereum ETF to undergo 1-for-3 reverse share split in October",
+      "url": "https://www.theblock.co/post/410663/blackrocks-spot-ethereum-etf-to-undergo-1-for-3-reverse-share-split-in-october?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-04T21:34:47+00:00",
+      "summary": "The split will consolidate every three ETHA shares into one, increasing the fund’s per-share net asset value.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "SOL"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Self Custody Is Dead. Long Live Self Custody",
+      "url": "https://bitcoinmagazine.com/culture/self-custody-is-dead-long-live-self-custody",
+      "published_at": "2026-08-04T21:25:26+00:00",
+      "summary": "Bitcoin Magazine\n\nSelf Custody Is Dead. Long Live Self Custody\nThe Coldcard security failure has shaken Bitcoin's confidence in hardware wallets—but abandoning self-custody would mean abandoning the very reason Bitcoin exists. History suggests the lesson isn't to trust custodians again, but to build stronger, more resilient ways to hold our own keys.\nThis post Self Custody Is Dead. Long Live Self Custody first appeared on Bitcoin Magazine and is written by Juan Galt.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": [
+          "failure"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ledger Says Coldcard Exploit Shows Bitcoin Wallet Security Must Adapt to AI",
+      "url": "https://decrypt.co/374914/ledger-coldcard-exploit-bitcoin-wallet-security-ai",
+      "published_at": "2026-08-04T21:16:03+00:00",
+      "summary": "Ledger CTO Charles Guillemet says the Coldcard exploit underscores why certified hardware randomness matters—and why AI is reshaping wallet security.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ADA",
+        "APT"
+      ],
+      "topics": [
+        "ai",
+        "sec",
+        "wallet"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "SEC Commissioner Hester ‘Crypto Mom’ Peirce Optimistic About Clarity Act",
@@ -960,220 +1184,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Texas electric grid moratorium won’t have big impact on BTC miners: Bernstein",
-      "url": "https://cointelegraph.com/news/texas-electric-grid-moratorim-btc-miners-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-04T12:37:59+00:00",
-      "summary": "Monday’s announcement that Texas Governor Greg Abbott set a moratorium on approval of ERCOT-linked data centers pending an audit won’t impact miners’ approved electricity contracts.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "approved"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "BTC",
-        "LINK"
-      ],
-      "topics": [
-        "miner",
-        "miners"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Saylor Sells Bitcoin Again",
-      "url": "https://decrypt.co/374897/morning-minute-saylor-sells-bitcoin-again",
-      "published_at": "2026-08-04T12:33:21+00:00",
-      "summary": "Strategy sold $104M in Bitcoin last week to help prop up STRC, a financial product they created to… help them buy more Bitcoin.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tether Gold reserves rise 9.5% as gold posts worst quarter in 13 years",
-      "url": "https://cointelegraph.com/news/tether-gold-rise-q2-sharpest-quarterly-gold-correction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-04T12:30:07+00:00",
-      "summary": "XAUt added to its bullion backing during gold’s worst quarter since 2013, as tokenized commodity holder counts continued to rise.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BNY to add crypto staking to digital asset custody platform",
-      "url": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform",
-      "published_at": "2026-08-04T12:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "staking"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "OKX says Coldcard exploit triggers ‘record’ inflows to centralized exchanges",
-      "url": "https://www.theblock.co/post/410515/okx-says-coldcard-exploit-record-inflows-centralized-exchanges?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-04T12:05:02+00:00",
-      "summary": "During the first half of the year, OKX told The Block it prevented $26.3 million in scam-related losses by stopping suspicious transfers.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "losses"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coldcard urges users to move bitcoin as exploit is still in progress",
-      "url": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues",
-      "published_at": "2026-08-04T12:00:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Italy’s biggest bank triples staked Ether ETF holdings while cutting IBIT shares",
-      "url": "https://cointelegraph.com/news/intesa-sanpaolo-bank-staked-ether-etf-ibit-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-04T11:55:19+00:00",
-      "summary": "Italy’s largest bank Intesa Sanpaolo increased its staked Ether ETF position to $7.1 million while reducing its holdings in two spot Bitcoin ETFs.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "BlackRock Tokenizes $311B of European Money Market Funds With JP Morgan's Kinexys",
-      "url": "https://decrypt.co/374894/blackrock-tokenizes-311b-of-european-money-market-funds-with-jp-morgans-kinexys",
-      "published_at": "2026-08-04T11:40:44+00:00",
-      "summary": "Europe's largest cash management platform is now issuing tokens on Ethereum, in a launch restricted to professional investors.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Sui",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "DCG’s Fortitude acquires 12.5 MW Nebraska facility for net $4.7 million, expanding Zcash mining portfolio",
-      "url": "https://www.theblock.co/post/410565/dcgs-fortitude-acquires-nebraska-facility-zcash-mining?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-04T11:32:23+00:00",
-      "summary": "Fortitude Mining completed the cash acquisition of a 12.5 MW mining facility for a net outlay of about $4.7 million after credits.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The bitcoin market has plenty of reasons to freak out, yet calm pervades",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/04/the-bitcoin-market-has-plenty-of-reasons-to-freak-out-yet-calm-pervades",
-      "published_at": "2026-08-04T11:23:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
