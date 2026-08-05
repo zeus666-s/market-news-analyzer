@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-08-05T17:44:36.224448+00:00",
+  "generated_at": "2026-08-05T21:15:59.337710+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.091,
+    "market_sentiment_score": -0.086,
     "label_distribution": {
-      "bearish": 27,
-      "bullish": 12,
-      "neutral": 31
+      "bullish": 11,
+      "neutral": 33,
+      "bearish": 26
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "coin": "OP",
-        "mentions": 13
+        "mentions": 15
       },
       {
         "coin": "ETH",
         "mentions": 5
       },
       {
-        "coin": "Near",
-        "mentions": 4
+        "coin": "Sui",
+        "mentions": 3
       },
       {
-        "coin": "Sui",
+        "coin": "Near",
         "mentions": 3
       },
       {
@@ -35,19 +35,19 @@
         "mentions": 3
       },
       {
-        "coin": "ADA",
-        "mentions": 3
-      },
-      {
-        "coin": "SOL",
-        "mentions": 3
-      },
-      {
-        "coin": "LINK",
+        "coin": "XRP",
         "mentions": 2
       },
       {
-        "coin": "BTC",
+        "coin": "ADA",
+        "mentions": 2
+      },
+      {
+        "coin": "SOL",
+        "mentions": 2
+      },
+      {
+        "coin": "LINK",
         "mentions": 2
       }
     ],
@@ -58,43 +58,333 @@
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 9
+        "mentions": 10
       },
       {
         "topic": "stablecoin",
-        "mentions": 8
+        "mentions": 9
+      },
+      {
+        "topic": "fed",
+        "mentions": 4
       },
       {
         "topic": "wallet",
-        "mentions": 6
+        "mentions": 4
       },
       {
         "topic": "etf",
         "mentions": 3
       },
       {
-        "topic": "validator",
-        "mentions": 3
-      },
-      {
-        "topic": "validators",
-        "mentions": 3
+        "topic": "defi",
+        "mentions": 2
       },
       {
         "topic": "regulation",
         "mentions": 2
       },
       {
-        "topic": "usdc",
+        "topic": "nft",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Block’s bitcoin gross profit falls 31% after Cash App fee cuts as shares reverse initial gains",
+      "url": "https://www.theblock.co/post/410923/blocks-bitcoin-gross-profit-falls-31-cash-app-fee-cuts-shares-reverse-initial-gains?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-05T20:47:25+00:00",
+      "summary": "Block raised its 2026 gross profit forecast to $12.51 billion after posting record adjusted operating income.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "gains",
+          "profit"
+        ],
+        "negative_hits": [
+          "falls"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Cloudflare OS: Here’s What’s Inside the Open-Source AI Agent Platform",
+      "url": "https://decrypt.co/374997/cloudflare-os-inside-open-source-ai-agent-platform",
+      "published_at": "2026-08-05T20:46:03+00:00",
+      "summary": "The release targets developers building autonomous apps and workflows on Cloudflare's edge—a clear bet on agent infrastructure.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Red Team Finds 85 Critical Flaws Across 390 Open Source Repos After Coldcard Exploit",
+      "url": "https://bitcoinmagazine.com/business/bitcoin-red-team-finds-85-critical-flaws-across-390-open-source-repos-after-coldcard-exploit",
+      "published_at": "2026-08-05T20:33:06+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Red Team Finds 85 Critical Flaws Across 390 Open Source Repos After Coldcard Exploit\nTriggered by the Coldcard RNG vulnerability that drained over $100 million, the Bitcoin Red Team led by Calle and Rob Hamilton has already filed 4,962 findings across 390 open-source projects using frontier AI models.\nThis post Bitcoin Red Team Finds 85 Critical Flaws Across 390 Open Source Repos After Coldcard Exploit first appeared on Bitcoin Magazine and is written by Juan Galt.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "FIL",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
+      "url": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
+      "published_at": "2026-08-05T20:16:03+00:00",
+      "summary": "A U.S. appeals court ruled Amazon is unlikely to prove Perplexity violated federal hacking law, marking the first appellate decision on whether AI agents can legally act on users' behalf online.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "wins"
+        ],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Visa Widens Stablecoin Payouts via Zerohash Rails",
+      "url": "https://decrypt.co/374994/visa-stablecoin-payouts-zerohash",
+      "published_at": "2026-08-05T19:42:48+00:00",
+      "summary": "Eligible Visa Direct clients can now prefund accounts and send payouts in stablecoins, expanding Visa's latest push to bring blockchain-based payments into its global network.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Senator Lummis still pushing for CLARITY vote before August recess",
+      "url": "https://cointelegraph.com/news/senator-lummis-clarity-vote-movement-calendar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-05T19:18:24+00:00",
+      "summary": "US lawmakers have only a few days to hold a vote on a crypto market structure bill before a recess begins that could push consideration into the 2026 election season or beyond.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-05T19:11:41+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI and Anthropic's Rogue Models Hacked Real Companies. The Law Has No Answer",
+      "url": "https://decrypt.co/374991/openai-anthropic-rogue-ai-models-hacked-law",
+      "published_at": "2026-08-05T19:11:23+00:00",
+      "summary": "Two AI labs say unreleased models broke into live systems to game benchmarks. Prosecuting a line of code is harder than it looks.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hacked"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a ‘late-stage bear market’",
+      "url": "https://www.theblock.co/post/410920/cryptoquant-bitcoin-ether-xrp-whales-accumulating-late-stage-bear-market?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-05T19:09:26+00:00",
+      "summary": "Large crypto holders are accumulating bitcoin, ether, and XRP as prices remain under pressure, CryptoQuant said.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bear"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "XRP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Marex invests in Digital Prime to expand institutional crypto lending",
+      "url": "https://cointelegraph.com/news/marex-digital-prime-tokenet-institutional-crypto-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-05T18:53:47+00:00",
+      "summary": "The undisclosed investment will support the development of Tokenet, a digital asset lending platform, as institutional demand for crypto infrastructure continues to grow.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "demand",
+          "institutional",
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "lending"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Feds Say an NFT Founder Raised $10 Million Only to Blow It All on Gambling, Trading, and a DJ Hobby",
+      "url": "https://decrypt.co/374986/nft-founder-10-million-fraud-gambling-dj-hobby",
+      "published_at": "2026-08-05T18:43:47+00:00",
+      "summary": "Prosecutors say the founder of NFT marketplace Few and Far promised investors their money would build a Web3 platform before diverting it to personal expenses.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "fed",
+        "nft",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Tests Market’s Patience as Zcash Gives Holders Hope: Analysis",
+      "url": "https://decrypt.co/374975/bitcoin-price-test-zcash-holds-golden-cross",
+      "published_at": "2026-08-05T18:33:34+00:00",
+      "summary": "Will Bitcoin breakout of its death cross? Can Zcash continue to make holders forget about that mid-June crash? Here’s what the charts say.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "url": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
+      "published_at": "2026-08-05T18:15:21+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Russia Passes Law to Regulate Crypto Exchanges, Keeps Payment Ban in Place",
@@ -555,29 +845,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T13:20:01+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "World Chain becomes first production L2 to ship streaming Block Access Lists via Flashblocks",
       "url": "https://www.theblock.co/post/410651/world-chain-first-production-l2-block-access-lists-via-flashblocks?utm_source=rss&utm_medium=rss",
@@ -908,271 +1175,6 @@
       "topics": [
         "ai",
         "onchain"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Ethereum Proposal Would Burn Staking Rewards to Zero if Half of ETH Is Staked",
-      "url": "https://decrypt.co/374944/ethereum-proposal-would-burn-staking-rewards-to-zero-if-half-of-eth-is-staked",
-      "published_at": "2026-08-05T11:29:23+00:00",
-      "summary": "The incentive to stake beyond half the supply would disappear at activation, with the yield cut phasing in over 18 months.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "staking",
-        "yield"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The $120 million Coldcard hack lights up Bitcoin's memory pool",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/05/the-usd120-million-coldcard-hack-lights-up-bitcoin-s-memory-pool",
-      "published_at": "2026-08-05T11:20:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Circle shares fall 3% despite earnings beat as stablecoin issuer misses on revenue",
-      "url": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing",
-      "published_at": "2026-08-05T11:13:17+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin, broader market fail to keep pace as global equities hit record highs",
-      "url": "https://www.coindesk.com/markets/2026/08/05/bitcoin-broader-market-fail-to-keep-pace-as-global-equities-hit-record-highs",
-      "published_at": "2026-08-05T11:01:15+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "record high"
-        ],
-        "negative_hits": [
-          "fail"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs log inflows as cold wallet hack reignites custody debate",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-cold-wallet-hack-custody-debate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T10:43:05+00:00",
-      "summary": "US spot Bitcoin ETFs drew $382 million in two-day inflows, with Galaxy’s Bitcoin ETF returning to gains as the Coldcard incident renewed custody concerns.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "concerns",
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "S&P gives BlackRock tokenized reserve fund top stability rating",
-      "url": "https://cointelegraph.com/news/sp-blackrock-tokenized-reserve-fund-stability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T10:40:43+00:00",
-      "summary": "The rating recognizes the fund’s ability to maintain a stable net asset value, while S&amp;P separately reaffirmed USDT among the lowest-rated stablecoins under its existing assessment framework.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin",
-        "usdt"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coldcard hack sparks a self-custody security overhaul: Cory Klippsten",
-      "url": "https://www.coindesk.com/markets/2026/08/05/coldcard-hack-sparks-a-self-custody-security-overhaul-cory-klippsten",
-      "published_at": "2026-08-05T09:55:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Ex-LAPD Officer Gets Life Plus 15 Years Over $350K Bitcoin Robbery",
-      "url": "https://decrypt.co/374941/ex-lapd-officer-gets-life-plus-15-years-over-350k-bitcoin-robbery",
-      "published_at": "2026-08-05T09:52:42+00:00",
-      "summary": "Eric Halem and his crew wore police vests to enter a Koreatown high-rise, then handcuffed a 17-year-old and took his hard drive.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Cipher slides 16% on wider Q2 losses as Bernstein sees upside from Texas power audit",
-      "url": "https://www.theblock.co/post/410820/cipher-wider-q2-losses?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-05T09:50:28+00:00",
-      "summary": "The bitcoin miner-turned-HPC developer posted a net loss of $267.5 million in Q2, more than five times the loss it registered a year ago.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "miner",
-        "pos",
-        "pow"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price-metric basket sees longest capitulation since FTX blow-up: Glassnode",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-metric-basket-sees-longest-capitulation-since-ftx-blow-up-glassnode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T09:40:00+00:00",
-      "summary": "Glassnode confirmed that its aggregate BTC price cycle tool was in its coldest phase since the collapse of FTX in late 2022.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapse"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BlackRock brings tokenized money market funds to Europe via JPMorgan",
-      "url": "https://cointelegraph.com/news/blackrock-jpmorgan-tokenized-money-market-funds-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T09:24:03+00:00",
-      "summary": "JPMorgan’s Kinexys platform will tokenize select BlackRock money market fund shares denominated in pounds, euros and US dollars.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Proof of Play to shut down after blockchain gaming thesis falls short",
-      "url": "https://cointelegraph.com/news/proof-of-play-shut-blockchain-gaming-thesis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T09:10:04+00:00",
-      "summary": "The a16z-backed studio will open-source Pirate Nation assets, while an independent foundation continues supporting the PIRATE token.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "falls"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
