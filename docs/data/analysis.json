@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-05T21:15:59.337710+00:00",
+  "generated_at": "2026-08-06T02:54:17.083557+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.086,
+    "market_sentiment_score": -0.061,
     "label_distribution": {
-      "bullish": 11,
-      "neutral": 33,
-      "bearish": 26
+      "bullish": 13,
+      "bearish": 23,
+      "neutral": 34
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 32
+        "mentions": 28
       },
       {
         "coin": "OP",
@@ -20,14 +20,18 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
-      },
-      {
-        "coin": "Sui",
-        "mentions": 3
+        "mentions": 7
       },
       {
         "coin": "Near",
+        "mentions": 4
+      },
+      {
+        "coin": "SOL",
+        "mentions": 4
+      },
+      {
+        "coin": "Sui",
         "mentions": 3
       },
       {
@@ -35,38 +39,34 @@
         "mentions": 3
       },
       {
-        "coin": "XRP",
+        "coin": "Tron",
         "mentions": 2
       },
       {
-        "coin": "ADA",
+        "coin": "Binance",
         "mentions": 2
       },
       {
-        "coin": "SOL",
-        "mentions": 2
-      },
-      {
-        "coin": "LINK",
+        "coin": "DOT",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 39
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 16
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 11
       },
       {
         "topic": "stablecoin",
-        "mentions": 9
+        "mentions": 7
       },
       {
         "topic": "fed",
@@ -74,11 +74,15 @@
       },
       {
         "topic": "wallet",
-        "mentions": 4
+        "mentions": 3
       },
       {
-        "topic": "etf",
-        "mentions": 3
+        "topic": "cex",
+        "mentions": 2
+      },
+      {
+        "topic": "dex",
+        "mentions": 2
       },
       {
         "topic": "defi",
@@ -87,14 +91,230 @@
       {
         "topic": "regulation",
         "mentions": 2
-      },
-      {
-        "topic": "nft",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Cathie Wood’s Ark Invest scoops up $17 million in Circle, $20 million in SpaceX shares following Q2 results",
+      "url": "https://www.theblock.co/post/410948/cathie-wood-ark-invest-circle-spacex-q2?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-06T02:22:22+00:00",
+      "summary": "SpaceX plunged as investors grew concerned about the firm's $18.4 billion in capital expenditure during Q2, despite revenue growth.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": [
+          "concerned"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cex"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Putin signs landmark crypto law allowing regulated retail trading in Russia",
+      "url": "https://www.theblock.co/post/410951/putin-signs-russia-crypto-law?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-06T02:11:16+00:00",
+      "summary": "The law continues to ban the use of crypto to pay for goods and services within Russia, while allowing use for cross-border settlements.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Block raises 2026 outlook on strong quarter, says AI touches nearly all code",
+      "url": "https://cointelegraph.com/markets/block-raises-2026-outlook-strong-quarter-says-ai-touches-nearly-all-code?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-06T01:33:57+00:00",
+      "summary": "Cash App and Square drove better-than-expected results, while the company said it expanded its use of AI across software engineering.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "strong"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron",
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Mysten Labs tech chief joins Anthropic to work on AI security",
+      "url": "https://cointelegraph.com/news/mysten-labs-tech-chief-joins-anthropic-to-work-on-ai-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-06T01:31:35+00:00",
+      "summary": "Mysten Labs’ co-founder Sam Blackshear said he is joining Anthropic as AI shifts the balance between attackers and defenders.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin Red Team reports 5K findings in sweeping security audit",
+      "url": "https://cointelegraph.com/news/bitcoin-red-team-reports-5k-findings-in-sweeping-security-audit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-06T01:09:06+00:00",
+      "summary": "“There’s a lot of chaos right now in the ecosystem. We absolutely understand that many people are being bombarded with security issues right now,” said Bitcoin developer Calle.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘At a standstill:’ Senate races to salvage Clarity Act before August recess as ethics fight, law enforcement concerns loom",
+      "url": "https://www.theblock.co/post/410940/standstill-senate-races-salvage-clarity-act-before-august-recess-ethics-fight-law-enforcement-concerns-loom?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-05T21:41:36+00:00",
+      "summary": "With a procedural vote on crypto legislation up in the air, lawmakers are racing to resolve outstanding issues within the next few days.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
+      "url": "https://www.coindesk.com/business/2026/08/05/binance-sues-redotpay-for-usd470-million-claiming-it-diverted-users",
+      "published_at": "2026-08-05T21:40:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Binance",
+        "DOT",
+        "Sui"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Meta Debuts AI Coding Agent Muse: Here’s How It Compares to Claude Code and Codex",
+      "url": "https://decrypt.co/375001/muse-code-meta-ai-coding-agent-claude-codex",
+      "published_at": "2026-08-05T21:24:06+00:00",
+      "summary": "Meta's new agent runs in your terminal, coordinates subagents, and survives crashes—but on the benchmarks that matter, it lags behind.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crashes"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "dex"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "White House Now Reviewing Crypto Clarity Act Ethics Text Ahead of August Deadline: Report",
+      "url": "https://bitcoinmagazine.com/news/white-house-reviewing-crypto-clarity-act",
+      "published_at": "2026-08-05T21:16:24+00:00",
+      "summary": "Bitcoin Magazine\n\nWhite House Now Reviewing Crypto Clarity Act Ethics Text Ahead of August Deadline: Report\nSenators have just days to vote on the long-awaited crypto Clarity Act. \nThis post White House Now Reviewing Crypto Clarity Act Ethics Text Ahead of August Deadline: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Senator Warren questions US AI chip policy after Trump crypto investment: Report",
+      "url": "https://cointelegraph.com/news/senator-warren-us-policy-uae-ai-chips-trump-crypto-investment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-05T21:15:37+00:00",
+      "summary": "The lawmaker reportedly sent a letter to the Commerce Secretary demanding answers about the administration’s treatment of the UAE following investments in the Trump family’s crypto company.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Block’s bitcoin gross profit falls 31% after Cash App fee cuts as shares reverse initial gains",
@@ -966,215 +1186,6 @@
       "topics": [
         "ai",
         "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Galaxy Digital shares slip 5% after second-quarter results",
-      "url": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
-      "published_at": "2026-08-05T12:42:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "AI agent token once worth $2.4 billion ends with founder calling it dead",
-      "url": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
-      "published_at": "2026-08-05T12:28:39+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Circle names BlackRock, DTCC among Arc validators as Q2 revenue hits $701 million",
-      "url": "https://www.theblock.co/post/410840/circle-names-blackrock-dtcc-among-arc-validators-as-q2-revenue-hits-701-million?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-05T12:16:27+00:00",
-      "summary": "Circle named BlackRock, Visa, DTCC and eight others as Arc validators as Q2 revenue hit $701M and USDC circulation reached $73.3B.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "usdc",
-        "validator",
-        "validators"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
-      "url": "https://www.coindesk.com/markets/2026/08/05/spacex-stock-drops-11-premarket-as-lockup-spending-fears-hit-first-earnings",
-      "published_at": "2026-08-05T12:12:08+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "decline",
-          "fears"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "cex"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Jim Cramer Sells His Bitcoin Over Quantum Fears",
-      "url": "https://decrypt.co/374947/morning-minute-jim-cramer-sells-his-bitcoin-over-quantum-fears",
-      "published_at": "2026-08-05T12:09:32+00:00",
-      "summary": "The last time he sold was in December 2022 with Bitcoin at $16,800. Will Jim's sales mark the bottom again?",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fears",
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
-      "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
-      "published_at": "2026-08-05T12:09:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance sues RedotPay over alleged $473 million user losses: Report",
-      "url": "https://cointelegraph.com/news/binance-redotpay-lawsuit-alleged-473-million-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T12:01:31+00:00",
-      "summary": "Binance-linked companies sued RedotPay, accusing it of diverting more than 470,000 Binance Card users under a commercial deal and seeking nearly $473 million in damages.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses",
-          "sued"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "DOT",
-        "LINK",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Visa expands stablecoin capabilities on Visa Direct with zerohash collaboration",
-      "url": "https://www.theblock.co/post/410657/stablecoin-capabilities-visa-direct-zerohash?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-05T12:00:00+00:00",
-      "summary": "Visa Direct reportedly connects to more than 18 billion endpoints, including cards, bank accounts and digital wallets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Circle Q2 revenue falls short of Wall Street estimates",
-      "url": "https://cointelegraph.com/news/circle-q2-revenue-misses-wall-street-estimates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-05T11:48:38+00:00",
-      "summary": "Stablecoin issuer Circle reported $701 million in Q2 revenue, missing Wall Street estimates of about $713 million.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘Panic visible onchain’: Bitcoin activity hits 2026 high amid Coldcard attack as K33 flags potential bottoming pattern",
-      "url": "https://www.theblock.co/post/410835/panic-visible-onchain-bitcoin-activity-hits-2026-high-amid-coldcard-attack-as-k33-flags-potential-bottoming-pattern?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-05T11:33:11+00:00",
-      "summary": "Bitcoin's seven-day active supply climbed to a 2026 high with about 890,000 BTC moved over the past week amid the Coldcard attack, per K33.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "panic"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
       ]
     }
   ]
