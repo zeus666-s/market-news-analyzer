@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-07T05:43:26.813611+00:00",
+  "generated_at": "2026-08-07T09:04:00.730173+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.03,
+    "market_sentiment_score": -0.041,
     "label_distribution": {
-      "neutral": 31,
       "bullish": 15,
-      "bearish": 24
+      "neutral": 30,
+      "bearish": 25
     },
     "top_coins": [
       {
@@ -31,11 +31,11 @@
         "mentions": 3
       },
       {
-        "coin": "LINK",
+        "coin": "BTC",
         "mentions": 2
       },
       {
-        "coin": "Near",
+        "coin": "LINK",
         "mentions": 2
       },
       {
@@ -47,14 +47,14 @@
         "mentions": 2
       },
       {
-        "coin": "Sui",
+        "coin": "Ethereum",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 27
       },
       {
         "topic": "pos",
@@ -62,7 +62,11 @@
       },
       {
         "topic": "sec",
-        "mentions": 8
+        "mentions": 10
+      },
+      {
+        "topic": "etf",
+        "mentions": 7
       },
       {
         "topic": "exchange",
@@ -70,10 +74,6 @@
       },
       {
         "topic": "wallet",
-        "mentions": 5
-      },
-      {
-        "topic": "etf",
         "mentions": 5
       },
       {
@@ -95,6 +95,108 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+      "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
+      "published_at": "2026-08-07T08:46:17+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approval"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "etf",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ethereum staking token weETH splits from restaking as rewards debate heats up",
+      "url": "https://www.coindesk.com/tech/2026/08/07/ethereum-staking-token-weeth-splits-from-restaking-as-rewards-debate-heats-up",
+      "published_at": "2026-08-07T08:01:28+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "staking"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coldcard exploit pushes July losses to $247M as second-worst month of 2026",
+      "url": "https://cointelegraph.com/news/coldcard-exploit-july-second-worst-month-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-07T07:59:42+00:00",
+      "summary": "The Coldcard exploit, which caused more than $100 million in losses, helped push July crypto thefts to $247 million, making it the second-worst month of 2026.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "losses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin flat at $64,300 before US jobs report, with oil back as a headwind",
+      "url": "https://www.coindesk.com/markets/2026/08/07/live-updates-bitcoin-flat-at-usd64-300-before-us-jobs-report-with-oil-back-as-a-headwind",
+      "published_at": "2026-08-07T07:44:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million",
+      "url": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million",
+      "published_at": "2026-08-07T05:45:21+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Japan FSA asks crypto exchanges to impose withdrawal delays to fight scams",
@@ -164,17 +266,15 @@
     },
     {
       "source": "CoinDesk",
-      "title": "A case for a bitcoin surge to $76,000 may be building beneath the boring price action, but there's a caveat",
+      "title": "A bitcoin pattern taking shape right now could send prices soaring to $76,000",
       "url": "https://www.coindesk.com/markets/2026/08/07/a-case-for-a-bitcoin-surge-to-usd76-000-may-be-building-beneath-the-boring-price-action-but-there-s-a-caveat",
       "published_at": "2026-08-07T04:28:17+00:00",
       "summary": "",
       "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
         "negative_hits": []
       },
       "coins": [
@@ -1074,112 +1174,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
-      "url": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate",
-      "published_at": "2026-08-06T16:10:04+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin ETF Inflows Surge Following $130M Coldcard Hack",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-etf-inflows-surge-following-hack",
-      "published_at": "2026-08-06T15:44:39+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin ETF Inflows Surge Following $130M Coldcard Hack \nCould investors be moving their funds from cold storage to exchange-traded funds managed by the likes of BlackRock following the massive Coldcard exploit?\nThis post Bitcoin ETF Inflows Surge Following $130M Coldcard Hack  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": [
-          "exploit",
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf",
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/08/06/crypto-for-advisors-europe-s-crypto-rules-u-s-preview",
-      "published_at": "2026-08-06T15:07:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Circuit, DaLand Give Credit Unions a Direct Path to Bitcoin",
-      "url": "https://bitcoinmagazine.com/news/circuit-daland-give-credit-unions-bitcoin",
-      "published_at": "2026-08-06T14:19:11+00:00",
-      "summary": "Bitcoin Magazine\n\nCircuit, DaLand Give Credit Unions a Direct Path to Bitcoin\nCredit unions now have a production-ready path to offer Bitcoin and other digital asset services without relying on outside platforms.\nThis post Circuit, DaLand Give Credit Unions a Direct Path to Bitcoin first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "UNI"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Step App winds down after four years as FITFI token sinks",
-      "url": "https://cointelegraph.com/news/step-app-winds-down-four-years-move-to-earn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-06T13:52:36+00:00",
-      "summary": "Move-to-earn project Step App will wind down services by Aug. 21 after four years, while its FITFI token trades 99.9% below its all-time high.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "all-time high"
-        ],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
