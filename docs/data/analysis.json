@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-08-07T16:57:20.364548+00:00",
+  "generated_at": "2026-08-07T20:46:25.117579+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.052,
+    "market_sentiment_score": -0.073,
     "label_distribution": {
+      "neutral": 33,
       "bearish": 25,
-      "neutral": 30,
-      "bullish": 15
+      "bullish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 29
       },
       {
         "coin": "OP",
-        "mentions": 21
+        "mentions": 22
+      },
+      {
+        "coin": "LINK",
+        "mentions": 5
+      },
+      {
+        "coin": "BTC",
+        "mentions": 5
       },
       {
         "coin": "Near",
@@ -24,15 +32,15 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
-      },
-      {
-        "coin": "BTC",
-        "mentions": 2
+        "mentions": 4
       },
       {
         "coin": "Ethereum",
         "mentions": 2
+      },
+      {
+        "coin": "XRP",
+        "mentions": 1
       },
       {
         "coin": "BNB",
@@ -40,14 +48,6 @@
       },
       {
         "coin": "APT",
-        "mentions": 1
-      },
-      {
-        "coin": "Optimism",
-        "mentions": 1
-      },
-      {
-        "coin": "LINK",
         "mentions": 1
       }
     ],
@@ -58,43 +58,371 @@
       },
       {
         "topic": "pos",
-        "mentions": 20
+        "mentions": 19
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 9
       },
       {
         "topic": "exchange",
-        "mentions": 7
+        "mentions": 8
       },
       {
-        "topic": "etf",
-        "mentions": 6
+        "topic": "exchanges",
+        "mentions": 8
       },
       {
         "topic": "wallet",
         "mentions": 6
       },
       {
-        "topic": "exchanges",
-        "mentions": 5
-      },
-      {
-        "topic": "fed",
+        "topic": "etf",
         "mentions": 4
       },
       {
         "topic": "defi",
-        "mentions": 4
+        "mentions": 3
       },
       {
-        "topic": "miner",
+        "topic": "stablecoin",
+        "mentions": 3
+      },
+      {
+        "topic": "fed",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Senators Cynthia Lummis and Angela Alsobrooks Say Bipartisan Work on Clarity Act Continues Despite Delays",
+      "url": "https://bitcoinmagazine.com/news/lummis-alsobrooks-work-on-clarity-act",
+      "published_at": "2026-08-07T20:42:33+00:00",
+      "summary": "Bitcoin Magazine\n\nSenators Cynthia Lummis and Angela Alsobrooks Say Bipartisan Work on Clarity Act Continues Despite Delays\nThe long-awaited crypto Clarity Act bill has been stalled. Still, lawmakers from both parties say the fight isn't over. \nThis post Senators Cynthia Lummis and Angela Alsobrooks Say Bipartisan Work on Clarity Act Continues Despite Delays first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
+      "url": "https://decrypt.co/375163/treasury-sanctions-crypto-exchanges-laundered-millions-iran",
+      "published_at": "2026-08-07T20:28:33+00:00",
+      "summary": "The U.S. Treasury sanctioned two crypto exchanges it says laundered millions of dollars for Iran's Revolutionary Guard, naming a Georgia- and UAE-based operator and an Iran-based platform.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges",
+      "url": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-07T20:02:20+00:00",
+      "summary": "The US government sanctioned an individual and two crypto exchanges it said facilitated money laundering for a combined $5 million in digital assets linked to Iran.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Payment Service BTCPay Warns Critical Flaw Is Under Active Attack",
+      "url": "https://decrypt.co/375159/bitcoin-payment-service-btcpay-critical-flaw-active-attack",
+      "published_at": "2026-08-07T20:00:34+00:00",
+      "summary": "Bitcoin company BTCPay Server told users to install the latest version of the server and replace credentials that may have been exposed.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "US sanctions two more Iranian crypto exchanges under ‘Economic Fury’ campaign",
+      "url": "https://www.theblock.co/news/regulation/2026-08-07-us-sanctions-two-more-iranian-crypto-exchanges-under-economic-fury-campaign-411184?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-07T19:49:33+00:00",
+      "summary": "The U.S. Treasury Department traced more than $3 million in transfers between Shelbit and IRGC-linked wallets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "SharpLink CEO warns EIP-8363 could kill ETH’s biggest advantage over Bitcoin",
+      "url": "https://www.theblock.co/news/defi/2026-08-07-sharplink-ceo-warns-eip-8363-could-kill-eths-biggest-advantage-over-bitcoin-411186?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-07T19:37:14+00:00",
+      "summary": "The \"Tapered Issuance Burn\" proposal would phase in a rising burn of consensus rewards to limit the amount of ETH staked.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "LINK",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Flock Wanted to Turn 350,000 Uber Drivers Into a Nationwide Plate-Scanning Fleet",
+      "url": "https://decrypt.co/375149/flock-cameras-uber-drivers-nationwide-plate-scanning-fleet",
+      "published_at": "2026-08-07T19:18:41+00:00",
+      "summary": "A leaked Flock presentation shows the surveillance firm pitching a plan to pull license-plate data from rideshare and delivery drivers.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "url": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "published_at": "2026-08-07T18:42:44+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "exchanges"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CFTC cautions prediction markets over using American-style ‘moneyline’ betting odds: Bloomberg",
+      "url": "https://www.theblock.co/news/regulation/2026-08-07-cftc-cautions-prediction-markets-american-style-moneyline-betting-odds-bloomberg-411178?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-07T18:39:26+00:00",
+      "summary": "Some prediction market platforms received a warning from the CFTC to refrain using American-style gambling odds, according to Bloomberg.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-07T18:36:10+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Coldcard Bitcoin Hack: Victims Report Median Loss of 1 BTC as Theft Tops $111 Million",
+      "url": "https://bitcoinmagazine.com/news/coldcard-victims-report-median-loss-1btc",
+      "published_at": "2026-08-07T18:02:38+00:00",
+      "summary": "Bitcoin Magazine\n\nColdcard Bitcoin Hack: Victims Report Median Loss of 1 BTC as Theft Tops $111 Million\nThe amount of Bitcoin stolen has been confirmed at $111 million, but is likely much higher — and could stand at over $130 million. \nThis post Coldcard Bitcoin Hack: Victims Report Median Loss of 1 BTC as Theft Tops $111 Million first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -11,
+        "normalized": -1.0,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "loss",
+          "stolen",
+          "theft"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Circle expands USDC to OKX ecosystem with X Layer launch",
+      "url": "https://cointelegraph.com/news/circle-native-usdc-okx-x-layer-cctp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-07T17:36:45+00:00",
+      "summary": "The rollout gives X Layer users access to Circle-issued USDC and crosschain transfers as the stablecoin expands across major blockchain ecosystems.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin",
+        "usdc"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "XRP at a Crossroads as Senate Punts on Clarity Act",
+      "url": "https://decrypt.co/375136/xrp-price-crossroads-senate-punts-clarity-act",
+      "published_at": "2026-08-07T17:36:41+00:00",
+      "summary": "XRP is taking the Clarity Act news harder than the rest of the crypto market. Here's why.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Reform UK chair calls for probe into SBF-linked donation: Report",
+      "url": "https://cointelegraph.com/news/reform-uk-probe-ftx-sam-bankman-fried-donation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-07T17:03:50+00:00",
+      "summary": "As the chairman of the Reform UK calls for an investigation into a FTX-linked political donation, the party’s leader prepares to face voters amid his own crypto-related scandal.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "investigation"
+        ]
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BTCPay warns of actively exploited vulnerability that could drain funds",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-07-btcpay-warns-actively-exploited-vulnerability-could-drain-funds-411170?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-07T17:03:20+00:00",
+      "summary": "Makers of the open source bitcoin payment processor BTCPay urged users to update their servers to version 2.4.2.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploited",
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "BitMEX sale collapsed as buyers balked at founder ownership and shrinking business",
@@ -467,29 +795,6 @@
       ],
       "topics": [
         "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T13:49:35+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -873,305 +1178,6 @@
       ],
       "topics": [
         "miner"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-      "url": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
-      "published_at": "2026-08-07T09:24:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Stripe-owned Bridge joins EU MiCA register after Luxembourg approval",
-      "url": "https://cointelegraph.com/news/bridge-mica-stablecoin-issuer-esma-register?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T09:14:17+00:00",
-      "summary": "Stripe-owned Bridge has entered the EU MiCA register following Luxembourg approval, joining regulated providers under the bloc’s crypto framework.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "bridge"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘Applesauce’: Michigan judge denies Coinbase bid to block state enforcement of sports event contracts",
-      "url": "https://www.theblock.co/news/regulation/2026-08-07-michigan-judge-denies-coinbase-bid-prediction-markets-411128?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-07T09:06:56+00:00",
-      "summary": "\"Coinbase's averments are, in a word, applesauce,\" U.S. District Judge Shalina Kumar wrote in Thursday's ruling.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "CLARITY Act delay gives Asian financial hubs an opening: First Digital CEO",
-      "url": "https://cointelegraph.com/news/clarity-act-delay-asian-crypto-hubs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T09:01:14+00:00",
-      "summary": "Industry figures warned that continued legislative limbo could slow institutional adoption, revive regulation by enforcement and push innovation offshore.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "innovation",
-          "institutional"
-        ],
-        "negative_hits": [
-          "warned"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "regulation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
-      "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
-      "published_at": "2026-08-07T08:46:17+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "etf",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum staking token weETH splits from restaking as rewards debate heats up",
-      "url": "https://www.coindesk.com/tech/2026/08/07/ethereum-staking-token-weeth-splits-from-restaking-as-rewards-debate-heats-up",
-      "published_at": "2026-08-07T08:01:28+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "staking"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Coldcard exploit pushes July losses to $247M as second-worst month of 2026",
-      "url": "https://cointelegraph.com/news/coldcard-exploit-july-second-worst-month-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T07:59:42+00:00",
-      "summary": "The Coldcard exploit, which caused more than $100 million in losses, helped push July crypto thefts to $247 million, making it the second-worst month of 2026.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "losses"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: 'This can't last forever': Mulling bitcoin's lame price action as risk markets rally",
-      "url": "https://www.coindesk.com/markets/2026/08/07/live-updates-bitcoin-flat-at-usd64-300-before-us-jobs-report-with-oil-back-as-a-headwind",
-      "published_at": "2026-08-07T07:44:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Japan FSA asks crypto exchanges to impose withdrawal delays to fight scams",
-      "url": "https://cointelegraph.com/news/japan-fsa-crypto-exchanges-withdrawal-delays-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T05:24:38+00:00",
-      "summary": "Japanese authorities called for address registration, customer-specific limits and stronger authentication as part of a broader push to curb misuse of exchange accounts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Proposed CLARITY ethics deal could save Trump millions in taxes: Bloomberg",
-      "url": "https://cointelegraph.com/news/proposed-clarity-ethics-deal-could-save-trump-millions-in-taxes-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T05:04:22+00:00",
-      "summary": "The latest bipartisan ethics proposal would reportedly require Trump to divest crypto businesses while allowing him to defer capital gains taxes on those sales.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Cathie Wood’s Ark Invest buys $21 million in Block as stock drops 6%",
-      "url": "https://www.theblock.co/news/business/2026-08-07-cathie-wood-ark-invest-buys-21-million-block-411075?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-07T04:03:44+00:00",
-      "summary": "Block's stock fell 6.15% on Thursday as the company posted rising operating expenses in Q2, despite cutting 40% of its workforce in February.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": [
-          "drops",
-          "fell"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitget explores licensed crypto presence in Bhutan",
-      "url": "https://cointelegraph.com/news/bitget-explores-licensed-crypto-presence-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T03:22:26+00:00",
-      "summary": "Crypto exchange Bitget has signed an agreement with Gelephu Mindfulness City Authority to pursue a regulated local presence.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Senate delays Clarity Act vote until after August recess, Thune confirms",
-      "url": "https://www.theblock.co/news/regulation/2026-08-06-senate-delays-clarity-act-vote-411083?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-07T02:55:45+00:00",
-      "summary": "Senate Majority Leader John Thune confirmed with The Block, saying: 'We're getting that queued up first thing when we come back.'",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Sui to add post-quantum signature schemes for quantum-safe accounts",
-      "url": "https://www.theblock.co/news/web3/2026-08-06-sui-post-quantum-signature-scheme-410968?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-07T02:09:29+00:00",
-      "summary": "Sui said users can adopt quantum-safe keys without creating a new recovery phrase or changing wallet addresses.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Sui",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
       ]
     }
   ]
