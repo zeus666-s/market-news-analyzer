@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-08T05:01:48.060232+00:00",
+  "generated_at": "2026-08-08T08:47:54.250051+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.077,
     "label_distribution": {
       "bearish": 25,
-      "neutral": 33,
-      "bullish": 12
+      "bullish": 12,
+      "neutral": 33
     },
     "top_coins": [
       {
@@ -24,7 +24,7 @@
       },
       {
         "coin": "Near",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "coin": "LINK",
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "topic": "pos",
@@ -77,11 +77,11 @@
         "mentions": 5
       },
       {
-        "topic": "defi",
-        "mentions": 3
+        "topic": "stablecoin",
+        "mentions": 4
       },
       {
-        "topic": "stablecoin",
+        "topic": "defi",
         "mentions": 3
       },
       {
@@ -95,6 +95,50 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+      "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
+      "published_at": "2026-08-08T07:46:04+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+      "url": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-08T06:21:08+00:00",
+      "summary": "IMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "boost",
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "liquidity",
+        "stablecoin"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "US court backs Bybit’s bid to trace funds from $1.5B North Korea hack",
@@ -1129,43 +1173,6 @@
         "exchanges",
         "futures"
       ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: MetaMask Hands AI Agents a Wallet",
-      "url": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet",
-      "published_at": "2026-08-07T12:00:35+00:00",
-      "summary": "MetaMask's Agent Wallet lets AI agents trade crypto on their own. Plus, Bitcoin reclaims $65k despite the Clarity Act facing a new delay.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "After a Clarity Act funeral, the crypto world would keep turning",
-      "url": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning",
-      "published_at": "2026-08-07T12:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
