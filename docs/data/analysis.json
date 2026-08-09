@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-09T08:49:20.995255+00:00",
+  "generated_at": "2026-08-09T12:59:08.549796+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.05,
+    "market_sentiment_score": -0.064,
     "label_distribution": {
-      "bearish": 20,
-      "neutral": 35,
-      "bullish": 15
+      "bullish": 14,
+      "bearish": 21,
+      "neutral": 35
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 32
+        "mentions": 33
       },
       {
         "coin": "OP",
-        "mentions": 22
+        "mentions": 21
       },
       {
         "coin": "BTC",
@@ -24,7 +24,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "coin": "LINK",
@@ -58,15 +58,15 @@
       },
       {
         "topic": "pos",
-        "mentions": 20
+        "mentions": 19
+      },
+      {
+        "topic": "wallet",
+        "mentions": 8
       },
       {
         "topic": "exchange",
         "mentions": 8
-      },
-      {
-        "topic": "wallet",
-        "mentions": 7
       },
       {
         "topic": "exchanges",
@@ -77,24 +77,68 @@
         "mentions": 5
       },
       {
-        "topic": "stablecoin",
-        "mentions": 5
-      },
-      {
         "topic": "sec",
         "mentions": 4
       },
       {
-        "topic": "defi",
-        "mentions": 3
+        "topic": "stablecoin",
+        "mentions": 4
       },
       {
         "topic": "dai",
+        "mentions": 2
+      },
+      {
+        "topic": "defi",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "BIP-110 Bitcoin branch stalls after two blocks as gap widens",
+      "url": "https://cointelegraph.com/news/bitcoin-bip-110-branch-stalls-miner-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-09T11:00:53+00:00",
+      "summary": "The enforcing fork remains stuck at Bitcoin’s full mining difficulty as mandatory signaling proceeds with little hashpower support.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "mining",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
+      "url": "https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-09T09:10:39+00:00",
+      "summary": "The rules, effective Jan. 1, 2027, cover transactions above $10,000 sent to overseas providers or self-custody wallets, along with other transfers flagged for review.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "wallet"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "BTCPay restricts remote Lightning access after attackers steal funds",
@@ -1105,51 +1149,6 @@
       "topics": [
         "etf",
         "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Still in Death Cross as Jobs Miss Cuts Rate-Hike Odds",
-      "url": "https://decrypt.co/375118/bitcoin-price-death-cross-jobs-miss-rate-hike-odds",
-      "published_at": "2026-08-07T16:07:12+00:00",
-      "summary": "A soft July payrolls print pulled September rate-hike odds down. It gives investors in risk assets hope, but Bitcoin remains in bear territory.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bear",
-          "down",
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "OpenAI's First Device Is a $300-Plus Doughnut-Shaped Speaker: Report",
-      "url": "https://decrypt.co/375117/openais-first-device-is-a-300-plus-doughnut-shaped-speaker-report",
-      "published_at": "2026-08-07T16:03:06+00:00",
-      "summary": "Designed with Jony Ive's LoveFrom studio, the screenless gadget is slated for 2027 and will use cameras, lights and moving parts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
