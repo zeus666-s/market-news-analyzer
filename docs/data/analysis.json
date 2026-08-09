@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-09T05:10:04.386620+00:00",
+  "generated_at": "2026-08-09T08:49:20.995255+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.05,
     "label_distribution": {
+      "bearish": 20,
       "neutral": 35,
-      "bullish": 15,
-      "bearish": 20
+      "bullish": 15
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "coin": "OP",
@@ -20,7 +20,7 @@
       },
       {
         "coin": "BTC",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "ETH",
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
+        "mentions": 29
       },
       {
         "topic": "pos",
@@ -95,6 +95,30 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "BTCPay restricts remote Lightning access after attackers steal funds",
+      "url": "https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-09T05:46:07+00:00",
+      "summary": "Foundation and Citadel21 reported drained Lightning nodes, but the total amount stolen and number of affected operators remain unknown.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "l2"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
@@ -1126,34 +1150,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin ETFs Add Nearly $800 Million in the Wake of Coldcard Exploit",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-etfs-800-million-coldcard",
-      "published_at": "2026-08-07T16:00:50+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin ETFs Add Nearly $800 Million in the Wake of Coldcard Exploit\nOne of the biggest Bitcoin security stories of the year unfolded last week as a firmware exploit affecting certain Coldcard hardware wallets renewed industry debate around self-custody and operational security. At the same time, another story was developing in the background. Over the same seven trading days, U.S. spot Bitcoin ETFs attracted $790.6 million in [&#8230;]\nThis post Bitcoin ETFs Add Nearly $800...",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "pos",
-        "sec",
-        "wallet"
       ]
     }
   ]
