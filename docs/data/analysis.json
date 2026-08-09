@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-09T16:40:12.014740+00:00",
+  "generated_at": "2026-08-09T20:37:43.336713+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.054,
+    "market_sentiment_score": -0.071,
     "label_distribution": {
-      "neutral": 37,
-      "bullish": 14,
-      "bearish": 19
+      "bearish": 22,
+      "neutral": 36,
+      "bullish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 34
+        "mentions": 33
       },
       {
         "coin": "OP",
-        "mentions": 21
+        "mentions": 20
       },
       {
         "coin": "BTC",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "ETH",
@@ -31,12 +31,12 @@
         "mentions": 4
       },
       {
-        "coin": "Near",
+        "coin": "FIL",
         "mentions": 3
       },
       {
-        "coin": "FIL",
-        "mentions": 3
+        "coin": "Near",
+        "mentions": 2
       },
       {
         "coin": "XRP",
@@ -54,15 +54,15 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "wallet",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "topic": "exchange",
@@ -73,28 +73,114 @@
         "mentions": 6
       },
       {
-        "topic": "exchanges",
+        "topic": "stablecoin",
         "mentions": 5
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
+        "topic": "exchanges",
+        "mentions": 5
       },
       {
         "topic": "sec",
         "mentions": 3
       },
       {
-        "topic": "dai",
+        "topic": "mining",
         "mentions": 2
       },
       {
-        "topic": "defi",
+        "topic": "pow",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
+      "url": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks",
+      "published_at": "2026-08-09T19:33:09+00:00",
+      "summary": "The breakaway chain drew just 2.53% of mining support, leaving its blocks hours apart and roughly 350 days from a difficulty adjustment while the main network powered ahead.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": [
+          "halt"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "mining",
+        "pow"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "World Liberty received $100 million from businessman investigated for money laundering: NYT",
+      "url": "https://www.theblock.co/news/regulation/2026-08-09-world-liberty-received-100-million-from-businessman-investigated-for-money-laundering-nyt-411221?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-09T18:51:32+00:00",
+      "summary": "The businessman, Guren \"Bobby\" Zhou, has not been charged, though British officials told the Times that the investigation remained active as of late July.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "investigated",
+          "investigation"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Is Clarity's delay a blessing in disguise?: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/08/09/is-clarity-s-delay-a-blessing-in-disguise-state-of-crypto",
+      "published_at": "2026-08-09T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Brazil to tighten crypto fraud controls with new 24-hour wait on transfers to self-custody wallets",
+      "url": "https://www.theblock.co/news/regulation/2026-08-09-brazil-to-tighten-crypto-fraud-controls-with-new-24-hour-wait-on-transfers-to-self-custody-wallets-411219?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-09T17:03:38+00:00",
+      "summary": "The new rule will take effect on Jan. 1, 2027, and will cover cryptocurrencies including fiat-backed stablecoins.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "fiat",
+        "stablecoin",
+        "wallet"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Hyperliquid’s RWA perps boom is eating into the revenue that backs HYPE",
@@ -839,28 +925,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
-      "url": "https://www.coindesk.com/business/2026/08/07/trump-backed-american-bitcoin-director-justin-mateen-buys-nearly-usd2-million-of-abtc-stock",
-      "published_at": "2026-08-07T20:20:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
       "source": "Cointelegraph",
       "title": "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges",
       "url": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1077,79 +1141,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "BTCPay warns of actively exploited vulnerability that could drain funds",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-07-btcpay-warns-actively-exploited-vulnerability-could-drain-funds-411170?utm_source=rss&utm_medium=rss",
-      "published_at": "2026-08-07T17:03:20+00:00",
-      "summary": "Makers of the open source bitcoin payment processor BTCPay urged users to update their servers to version 2.4.2.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploited",
-          "warns"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Hackers Use BNB Chain to Spread Malware Through Fake CAPTCHAs",
-      "url": "https://decrypt.co/375133/hackers-use-bnb-chain-spread-malware-fake-captchas",
-      "published_at": "2026-08-07T16:36:59+00:00",
-      "summary": "Microsoft said compromised websites are retrieving malicious instructions from the blockchain before tricking visitors into running them on Windows devices.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "BNB",
-        "APT"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Shrugs off Coldcard Hack and Clarity Act Delays, Price Chops Higher as Investors Buy ETFs",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-price-shrugs-off-coldcard-hack",
-      "published_at": "2026-08-07T16:29:44+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Shrugs off Coldcard Hack and Clarity Act Delays, Price Chops Higher as Investors Buy ETFs\nThe Bitcoin price seems unfazed by recent negative news. \nThis post Bitcoin Shrugs off Coldcard Hack and Clarity Act Delays, Price Chops Higher as Investors Buy ETFs first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": [
-          "hack",
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "etf",
-        "pos"
       ]
     }
   ]
