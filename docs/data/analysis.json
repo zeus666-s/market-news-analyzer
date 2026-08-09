@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-08T20:35:12.912861+00:00",
+  "generated_at": "2026-08-09T02:02:48.811122+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.061,
+    "market_sentiment_score": -0.048,
     "label_distribution": {
       "neutral": 34,
-      "bullish": 15,
-      "bearish": 21
+      "bullish": 16,
+      "bearish": 20
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 31
+        "mentions": 33
       },
       {
         "coin": "OP",
-        "mentions": 21
+        "mentions": 22
       },
       {
         "coin": "BTC",
@@ -54,15 +54,15 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 20
       },
       {
         "topic": "exchange",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "topic": "wallet",
@@ -70,7 +70,7 @@
       },
       {
         "topic": "exchanges",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "etf",
@@ -95,6 +95,53 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Bitcoin’s BIP-110 supporters split onto minority chain as main network pulls ahead",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-08-bitcoins-bip-110-supporters-split-onto-minority-chain-as-main-network-pulls-ahead-411213?utm_source=rss&utm_medium=rss",
+      "published_at": "2026-08-08T22:05:44+00:00",
+      "summary": "BIP-110 is a proposed one-year change that limits non-financial data on Bitcoin and has sparked a debate over how Bitcoin's block space should be used.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin’s BIP-110 enters mandatory signaling with miner support below 3%",
+      "url": "https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-08T21:17:08+00:00",
+      "summary": "The deployment milestone tests whether enforcing nodes can sustain the change amid limited miner signaling and discussion of a hard-fork fallback.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "milestone",
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "miner"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
@@ -1113,48 +1160,6 @@
         "ai",
         "pos",
         "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Wallet Dormant Since 2011 Moves Millions in BTC",
-      "url": "https://decrypt.co/375114/bitcoin-wallet-dormant-since-2011-moves-millions-btc",
-      "published_at": "2026-08-07T15:27:35+00:00",
-      "summary": "A Bitcoin address that had stayed silent for 15 years just sent its coins out for the first time.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-tags-653k-august-high-as-low-us-jobs-numbers-cool-fed-rate-bets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T15:23:15+00:00",
-      "summary": "Bitcoin hit month-to-date highs above $65,000 as risk-assets gained on low US nonfarm payrolls data.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed"
       ]
     }
   ]
