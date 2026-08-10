@@ -1,37 +1,41 @@
 {
-  "generated_at": "2026-08-10T02:07:20.170540+00:00",
+  "generated_at": "2026-08-10T05:36:49.944058+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.068,
+    "market_sentiment_score": -0.064,
     "label_distribution": {
-      "neutral": 37,
-      "bearish": 21,
-      "bullish": 12
+      "neutral": 39,
+      "bearish": 20,
+      "bullish": 11
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 32
+        "mentions": 34
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 21
       },
       {
         "coin": "BTC",
-        "mentions": 7
+        "mentions": 6
+      },
+      {
+        "coin": "FIL",
+        "mentions": 4
       },
       {
         "coin": "ETH",
         "mentions": 4
       },
       {
-        "coin": "FIL",
+        "coin": "LINK",
         "mentions": 3
       },
       {
-        "coin": "LINK",
+        "coin": "XRP",
         "mentions": 3
       },
       {
@@ -39,15 +43,11 @@
         "mentions": 2
       },
       {
-        "coin": "XRP",
-        "mentions": 2
-      },
-      {
-        "coin": "DOT",
+        "coin": "SOL",
         "mentions": 1
       },
       {
-        "coin": "Tron",
+        "coin": "DOT",
         "mentions": 1
       }
     ],
@@ -62,26 +62,26 @@
       },
       {
         "topic": "wallet",
+        "mentions": 8
+      },
+      {
+        "topic": "etf",
         "mentions": 7
       },
       {
         "topic": "exchange",
-        "mentions": 7
-      },
-      {
-        "topic": "etf",
         "mentions": 6
       },
       {
+        "topic": "sec",
+        "mentions": 4
+      },
+      {
         "topic": "stablecoin",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "topic": "exchanges",
-        "mentions": 5
-      },
-      {
-        "topic": "sec",
         "mentions": 4
       },
       {
@@ -97,7 +97,113 @@
   "articles": [
     {
       "source": "Cointelegraph",
-      "title": "BIP-110 dies with a whimper, CLARITY vote punted: Hodler’s Digest, Aug. 9",
+      "title": "Bitcoin Red Team founder turns to Chinese AI: ‘It absolutely guts me’",
+      "url": "https://cointelegraph.com/news/bitcoin-red-team-founder-turns-to-chinese-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-10T05:18:27+00:00",
+      "summary": "Bitcoin Red Team has now found 1,288 critical and high-level vulnerabilities in the Bitcoin ecosystem as of Saturday.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin tops $65,000 with US inflation data due this week",
+      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-tops-usd65-000-with-us-inflation-data-due-this-week",
+      "published_at": "2026-08-10T04:39:37+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Australia orders Cryptolink Bitcoin ATMs offline over ‘basic reporting’ failures",
+      "url": "https://cointelegraph.com/news/australia-orders-cryptolink-bitcoin-atms-offline-over-basic-reporting-failures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-10T04:32:36+00:00",
+      "summary": "Australia’s financial watchdog has suspended Cryptolink’s registration for three months, adding to a crackdown that previously saw the Bitcoin ATM operator fined $56,340.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "LINK",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money",
+      "url": "https://www.coindesk.com/markets/2026/08/10/xrp-is-getting-left-behind-in-the-crypto-bounce-even-as-etfs-keep-attracting-investor-money",
+      "published_at": "2026-08-10T04:26:01+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto’s first quantum attack will look like unexplained breach: Quantus founder",
+      "url": "https://cointelegraph.com/news/cryptos-first-quantum-attack-look-like-ordinary-key-theft-quantus-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-10T03:34:53+00:00",
+      "summary": "Bad actors with access to a cryptography-breaking quantum computer probably won’t try to announce it to the world by hacking Satoshi Nakamoto’s high-profile Bitcoin wallets, crypto executives say.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "FIL"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BIP-110 ends with a whimper, CLARITY vote punted: Hodler’s Digest, Aug. 9",
       "url": "https://cointelegraph.com/magazine/bip-110-dies-with-a-whimper-clarity-vote-punted-hodlers-digest-aug-9?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-10T00:32:21+00:00",
       "summary": "BIP-110 forks itself into oblivion with a “2-block chain” and CLARITY will finally get a Senate vote in September. The odds say that vote will be a No.",
@@ -491,29 +597,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-08T17:19:56+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Senate Keeps Clarity Act Alive With Crypto Bill Vote Set for September",
       "url": "https://decrypt.co/375174/senate-keeps-clarity-act-alive-with-crypto-bill-vote-set-for-september",
@@ -809,30 +892,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
-      "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
-      "published_at": "2026-08-08T02:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losing",
-          "risk",
-          "sell"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "Cointelegraph",
       "title": "Donald Trump’s media company to terminate Crypto.com deal",
       "url": "https://cointelegraph.com/news/donald-trump-media-company-crypto-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -869,22 +928,6 @@
       "topics": [
         "pos"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
-      "url": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
-      "published_at": "2026-08-07T21:13:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     },
     {
       "source": "Decrypt",
@@ -956,28 +999,6 @@
         "OP"
       ],
       "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges",
-      "url": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T20:02:20+00:00",
-      "summary": "The US government sanctioned an individual and two crypto exchanges it said facilitated money laundering for a combined $5 million in digital assets linked to Iran.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "ai",
         "exchange",
         "exchanges"
       ]
@@ -1115,28 +1136,6 @@
       ],
       "topics": [
         "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Circle expands USDC to OKX ecosystem with X Layer launch",
-      "url": "https://cointelegraph.com/news/circle-native-usdc-okx-x-layer-cctp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-07T17:36:45+00:00",
-      "summary": "The rollout gives X Layer users access to Circle-issued USDC and crosschain transfers as the stablecoin expands across major blockchain ecosystems.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin",
-        "usdc"
       ]
     }
   ]
