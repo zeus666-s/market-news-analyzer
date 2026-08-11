@@ -1,42 +1,38 @@
 {
-  "generated_at": "2026-08-10T20:48:35.694664+00:00",
+  "generated_at": "2026-08-11T02:02:11.697626+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.036,
+    "market_sentiment_score": -0.043,
     "label_distribution": {
-      "bearish": 21,
-      "neutral": 37,
-      "bullish": 12
+      "neutral": 38,
+      "bearish": 22,
+      "bullish": 10
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 36
+        "mentions": 38
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "coin": "BTC",
-        "mentions": 9
+        "mentions": 10
       },
       {
         "coin": "ETH",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "SOL",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Ethereum",
-        "mentions": 4
-      },
-      {
-        "coin": "LINK",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "coin": "Tron",
@@ -49,44 +45,48 @@
       {
         "coin": "ADA",
         "mentions": 2
+      },
+      {
+        "coin": "Solana",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 33
       },
       {
         "topic": "pos",
         "mentions": 13
       },
       {
-        "topic": "etf",
+        "topic": "sec",
         "mentions": 7
       },
       {
-        "topic": "sec",
+        "topic": "etf",
         "mentions": 6
       },
       {
         "topic": "wallet",
-        "mentions": 5
-      },
-      {
-        "topic": "exchange",
-        "mentions": 5
-      },
-      {
-        "topic": "defi",
         "mentions": 4
       },
       {
-        "topic": "stablecoin",
+        "topic": "exchange",
         "mentions": 4
       },
       {
         "topic": "mining",
         "mentions": 4
+      },
+      {
+        "topic": "defi",
+        "mentions": 3
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 3
       },
       {
         "topic": "miner",
@@ -95,6 +95,136 @@
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Vitalik Buterin Says Ethereum Is Betting Its Future on Quantum Security and AI",
+      "url": "https://decrypt.co/375285/vitalik-buterin-ethereum-betting-future-quantum-ai",
+      "published_at": "2026-08-10T21:48:22+00:00",
+      "summary": "Ethereum’s updated roadmap puts quantum resistance, privacy and AI-assisted formal verification at the center of the network’s technical ambitions.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Blockstream Debuts Swaps, Allowing Bitcoiners to Move Between Lightning and Main Network With Ease",
+      "url": "https://bitcoinmagazine.com/news/blockstream-debuts-bitcoin-swaps-lightning",
+      "published_at": "2026-08-10T21:18:27+00:00",
+      "summary": "Bitcoin Magazine\n\nBlockstream Debuts Swaps, Allowing Bitcoiners to Move Between Lightning and Main Network With Ease \nFollowing the suspension of Boltz, Blocksteam is debuting a feature allowing trustless Bitcoin swaps. \nThis post Blockstream Debuts Swaps, Allowing Bitcoiners to Move Between Lightning and Main Network With Ease  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Trump Media’s bitcoin holdings shrink as crypto losses hit $361 million",
+      "url": "https://www.coindesk.com/business/2026/08/10/trump-media-s-bitcoin-holdings-shrink-as-crypto-losses-hit-usd361-million",
+      "published_at": "2026-08-10T21:12:07+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
+      "url": "https://decrypt.co/375282/bitcoin-atms-pulled-australia-regulators-crackdown",
+      "published_at": "2026-08-10T21:02:43+00:00",
+      "summary": "AUSTRAC has suspended the registration of the operator running 96 of Australia's roughly 1,800 crypto ATMs, effective August 9.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "BTCPay Server supporters offer up to 3 BTC for recovery bounty after critical exploit",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-10-btcpay-server-supporters-offer-3-btc-recovery-bounty-critical-exploit-411353",
+      "published_at": "2026-08-10T20:59:57+00:00",
+      "summary": "BTCPay said AI may have been used to exploit vulnerability, and credited Craig Raw and the Bitcoin Red Team fund for reporting the issue.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Judge stays CFTC’s case against US soldier over prediction market bets",
+      "url": "https://cointelegraph.com/news/cftc-us-solider-insider-trading-polymarket-nicolas-maduro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-10T20:50:59+00:00",
+      "summary": "A New York judge granted a motion filed by US prosecutors in July to stay the CFTC’s civil case against Gannon Ken Van Dyke over making more than $400,000 on prediction markets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL",
+        "FIL"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "sec"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "BTCPay Server Offers a 3 Bitcoin Bounty for Recovery of Stolen Funds After Wallet Exploit",
@@ -254,7 +384,7 @@
     {
       "source": "The Block",
       "title": "BlackRock says bitcoin sentiment is turning as decoupling from stocks takes hold",
-      "url": "https://www.theblock.co/news/markets/2026-08-10-blackrock-says-bitcoin-sentiment-turning-decoupling-stocks-takes-hold-411333?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/markets/2026-08-10-blackrock-says-bitcoin-sentiment-turning-decoupling-stocks-takes-hold-411333",
       "published_at": "2026-08-10T19:30:16+00:00",
       "summary": "\"That decoupling is healthy because it’s part of the thesis for a lot of people around bitcoin as a diversifier,\" says BlackRock.",
       "sentiment": {
@@ -416,7 +546,7 @@
     {
       "source": "The Block",
       "title": "Keel shutters all US bitcoin mining operations amid continuing AI pivot",
-      "url": "https://www.theblock.co/news/business/2026-08-10-keel-shutters-us-bitcoin-mining-operations-amid-ai-pivot-411302?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/business/2026-08-10-keel-shutters-us-bitcoin-mining-operations-amid-ai-pivot-411302",
       "published_at": "2026-08-10T17:05:14+00:00",
       "summary": "Like many other Bitcoin miners, Keel has been shifting its focus from mining in favor of becoming a supplier of AI infrastructure.",
       "sentiment": {
@@ -458,7 +588,7 @@
     {
       "source": "The Block",
       "title": "Vitalik Buterin puts privacy and quantum resistance front and center in Ethereum’s latest roadmap",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-10-vitalik-buterin-privacy-quantum-resistance-front-and-center-ethereum-latest-roadmap-411298?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-10-vitalik-buterin-privacy-quantum-resistance-front-and-center-ethereum-latest-roadmap-411298",
       "published_at": "2026-08-10T16:24:44+00:00",
       "summary": "Buterin previously said the upgrades included in Lean Ethereum will form the protocol's “third major iteration.”",
       "sentiment": {
@@ -603,7 +733,7 @@
     {
       "source": "The Block",
       "title": "Bitcoin miner Bitdeer’s shares sink 15% despite revenue growth, progress on AI pivot",
-      "url": "https://www.theblock.co/news/business/2026-08-10-bitcoin-miner-bitdeer-shares-sink-despite-revenue-growth-progress-ai-pivot-411276?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/business/2026-08-10-bitcoin-miner-bitdeer-shares-sink-despite-revenue-growth-progress-ai-pivot-411276",
       "published_at": "2026-08-10T15:38:10+00:00",
       "summary": "The company is focused increasingly focused on becoming a provider of AI infrastructure, expanding beyond its core bitcoin mining business.",
       "sentiment": {
@@ -701,7 +831,7 @@
     {
       "source": "The Block",
       "title": "Adam Back-backed H100 more than triples bitcoin holdings to 3,506 BTC in acquisition deal",
-      "url": "https://www.theblock.co/news/business/2026-08-10-adam-back-backed-h100-more-triples-bitcoin-holdings-3506-btc-acquisition-411270?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/business/2026-08-10-adam-back-backed-h100-more-triples-bitcoin-holdings-3506-btc-acquisition-411270",
       "published_at": "2026-08-10T14:57:17+00:00",
       "summary": "H100 paid for the deal with 790.5 million newly issued shares, and the company is now within striking distance of big BTC treasury players.",
       "sentiment": {
@@ -769,7 +899,7 @@
     {
       "source": "The Block",
       "title": "Crypto lost $110 million to hacks in July amid rising bug bounty activity: Immunefi",
-      "url": "https://www.theblock.co/news/defi/2026-08-10-crypto-hacks-july-immunefi-411246?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/defi/2026-08-10-crypto-hacks-july-immunefi-411246",
       "published_at": "2026-08-10T14:00:00+00:00",
       "summary": "Crypto lost roughly $110 million to hacks in July as Immunefi said its audit competitions outperformed tier-1 audits.",
       "sentiment": {
@@ -789,7 +919,7 @@
     {
       "source": "The Block",
       "title": "Bitmine adds 7,391 ether in a week, bringing total Ethereum holdings to 5.81 million ETH",
-      "url": "https://www.theblock.co/news/business/2026-08-10-bitmine-adds-7391-eth-411265?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/business/2026-08-10-bitmine-adds-7391-eth-411265",
       "published_at": "2026-08-10T13:53:42+00:00",
       "summary": "Bitmine bought 7,391 ether last week, lifting its total Ethereum treasury to 5.81 million ETH, worth roughly $11 billion.",
       "sentiment": {
@@ -869,7 +999,7 @@
     {
       "source": "The Block",
       "title": "‘Owning the rails’: Standard Chartered sees LINK at $200 by 2030 as Chainlink underpins tokenized-asset boom",
-      "url": "https://www.theblock.co/news/defi/2026-08-10-standard-chartered-chainlink-tokenization-411252?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/defi/2026-08-10-standard-chartered-chainlink-tokenization-411252",
       "published_at": "2026-08-10T13:04:18+00:00",
       "summary": "Standard Chartered bets Chainlink owns the rails for tokenized finance, initiating LINK coverage with a $200 target by end-2030.",
       "sentiment": {
@@ -982,7 +1112,7 @@
     {
       "source": "The Block",
       "title": "Michael Saylor’s Strategy sells another 1,690 BTC as USD reserve hits $4.65 billion",
-      "url": "https://www.theblock.co/news/business/2026-08-10-michael-saylor-strategy-bitcoin-treasury-411237?utm_source=rss&utm_medium=rss",
+      "url": "https://www.theblock.co/news/business/2026-08-10-michael-saylor-strategy-bitcoin-treasury-411237",
       "published_at": "2026-08-10T12:09:39+00:00",
       "summary": "Strategy's total holdings account for roughly 4% of the 21 million bitcoin supply cap — worth roughly $55 billion.",
       "sentiment": {
@@ -1066,131 +1196,6 @@
       "topics": [
         "rwa"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "UK’s FCA to regulate tokenized gold to preserve London’s place as the top hub for bullion",
-      "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold",
-      "published_at": "2026-08-10T11:38:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin's BIP-110 episode is free-market capitalism in purest form",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/10/bitcoin-s-bip-110-episode-is-free-market-capitalism-in-purest-form",
-      "published_at": "2026-08-10T11:31:29+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Markets flip for Fed rate-hike pause into CPI: Five things to know in Bitcoin this week",
-      "url": "https://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-10T11:13:40+00:00",
-      "summary": "Bitcoin spiked to a new August high into Sunday’s weekly close as market participants turned their attention to the next US inflation reports.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin steadies above $65,000 as Iran-Oman deal talk eases Hormuz concerns, lifts risk assets",
-      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-steadies-above-usd65-000-as-iran-oman-deal-talk-eases-hormuz-concerns-lifts-risk-assets",
-      "published_at": "2026-08-10T10:45:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns",
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Standard Chartered Sees $4T Tokenization Driving Chainlink to $200 by 2030",
-      "url": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030",
-      "published_at": "2026-08-10T10:19:06+00:00",
-      "summary": "The bank has now set 2030 targets for Uniswap, Aave, Morpho and Chainlink, all resting on one 37x forecast for DeFi growth.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Chainlink",
-        "LINK",
-        "Uniswap",
-        "UNI"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "H100 becomes Europe’s No. 2 Bitcoin treasury after 2,455 BTC deal",
-      "url": "https://cointelegraph.com/news/sweden-h100-bitcoin-treasury-btc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-10T10:14:30+00:00",
-      "summary": "Sweden’s H100 more than tripled its Bitcoin holdings to 3,506 BTC after completing an acquisition involving 2,455 BTC.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
