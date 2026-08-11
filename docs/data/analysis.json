@@ -1,42 +1,46 @@
 {
-  "generated_at": "2026-08-11T02:02:11.697626+00:00",
+  "generated_at": "2026-08-11T05:13:18.238270+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.043,
+    "market_sentiment_score": -0.059,
     "label_distribution": {
-      "neutral": 38,
-      "bearish": 22,
+      "bearish": 25,
+      "neutral": 35,
       "bullish": 10
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 38
+        "mentions": 36
       },
       {
         "coin": "OP",
-        "mentions": 17
-      },
-      {
-        "coin": "BTC",
-        "mentions": 10
+        "mentions": 19
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
-        "coin": "SOL",
-        "mentions": 6
+        "coin": "BTC",
+        "mentions": 9
       },
       {
         "coin": "Ethereum",
         "mentions": 5
       },
       {
+        "coin": "SOL",
+        "mentions": 5
+      },
+      {
         "coin": "Tron",
-        "mentions": 3
+        "mentions": 4
+      },
+      {
+        "coin": "XRP",
+        "mentions": 2
       },
       {
         "coin": "FIL",
@@ -45,20 +49,16 @@
       {
         "coin": "ADA",
         "mentions": 2
-      },
-      {
-        "coin": "Solana",
-        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 35
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "sec",
@@ -81,20 +81,188 @@
         "mentions": 4
       },
       {
-        "topic": "defi",
-        "mentions": 3
-      },
-      {
         "topic": "stablecoin",
         "mentions": 3
       },
       {
         "topic": "miner",
         "mentions": 3
+      },
+      {
+        "topic": "defi",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Luke Dashjr removed as Bitcoin Improvement Proposal editor",
+      "url": "https://cointelegraph.com/news/luke-dashjr-removed-as-bitcoin-proposal-editor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T04:54:15+00:00",
+      "summary": "Luke Dashjr lost his BIP editor privileges after developers raised concerns over his role in BIP 110 and its stalled minority fork.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns",
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "XRP, ether lead crypto losses as traders eye $70,000 bitcoin next",
+      "url": "https://www.coindesk.com/markets/2026/08/11/xrp-ether-lead-crypto-losses-as-traders-eye-usd70-000-bitcoin-next",
+      "published_at": "2026-08-11T04:50:23+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "White House vows to get CLARITY across ‘finish line’ in September",
+      "url": "https://cointelegraph.com/news/white-house-clarity-across-finish-line-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T04:12:58+00:00",
+      "summary": "Patrick Witt says the Trump administration will keep negotiating with Democrats as the Senate prepares for a September CLARITY vote.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. SEC sets meeting to propose Reg Crypto to support certain digital assets offerings",
+      "url": "https://www.coindesk.com/policy/2026/08/11/u-s-sec-sets-meeting-to-propose-reg-crypto-to-support-certain-digital-assets-offerings",
+      "published_at": "2026-08-11T04:07:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin's 'strongest hands' are back, on-chain data show",
+      "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-s-strongest-hands-are-back-on-chain-data-show",
+      "published_at": "2026-08-11T03:48:40+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "on-chain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trump Media to revamp crypto treasury strategy after $238M Q2 loss",
+      "url": "https://cointelegraph.com/news/trump-media-crypto-treasury-strategy-after-238m-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T03:21:27+00:00",
+      "summary": "Trump Media says it will take a more disciplined approach to its crypto treasury while directing more resources toward its core media business.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Riot Platforms stock jumps 25% after-hours on $9.1 billion AI deal reportedly with Anthropic",
+      "url": "https://www.theblock.co/news/business/2026-08-10-riot-platforms-ai-deal-anthropic-411358",
+      "published_at": "2026-08-11T02:22:30+00:00",
+      "summary": "The deal includes two five-year extension options that could raise the potential contract value to $16.1 billion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Thailand’s 0% crypto tax. Bitcoin Red Team forced to use Chinese AI: Asia Express",
+      "url": "https://cointelegraph.com/magazine/thailands-0-crypto-tax-bitcoin-red-team-forced-to-use-chinese-ai-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T02:08:36+00:00",
+      "summary": "The Bitcoin Red Team has been forced to rely on open source Chinese AI, after OpenAI restricted access. Thailand sets crypto tax to 0% in bid to become crypto hub.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Vitalik Buterin Says Ethereum Is Betting Its Future on Quantum Security and AI",
@@ -1015,186 +1183,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy turns 1,690 BTC into $108.6M STRC buyback",
-      "url": "https://cointelegraph.com/markets/strategy-sells-1690-btc-buy-back-108-6-million-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-10T12:36:32+00:00",
-      "summary": "Strategy sold 1,690 Bitcoin to repurchase STRC shares as its US dollar reserve rose to $4.65 billion and its Bitcoin holdings fell to 840,447 BTC.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
-      "url": "https://decrypt.co/375194/morning-minute-bitcoin-etfs-see-biggest-inflows-since-may",
-      "published_at": "2026-08-10T12:32:19+00:00",
-      "summary": "And the ETH inflows were even bigger, when factoring in market cap.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Strategy Sells $109M in Bitcoin as Dollar Reserve Tops $4.6B",
-      "url": "https://decrypt.co/375196/strategy-sells-109m-in-bitcoin-as-dollar-reserve-tops-4-6b",
-      "published_at": "2026-08-10T12:24:48+00:00",
-      "summary": "All of the proceeds went into a $109 million STRC buyback, while the company sold six times as much again in its own stock.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin ETFs Draw $854M Over Five Days as Rate-Hike Bets Fade",
-      "url": "https://decrypt.co/375192/bitcoin-etfs-draw-854m-over-five-days-as-rate-hike-bets-fade",
-      "published_at": "2026-08-10T12:14:57+00:00",
-      "summary": "Daily totals shrank as the week wore on, and analysts are split on whether the return of institutional money marks a genuine turn.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "etf"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Michael Saylor’s Strategy sells another 1,690 BTC as USD reserve hits $4.65 billion",
-      "url": "https://www.theblock.co/news/business/2026-08-10-michael-saylor-strategy-bitcoin-treasury-411237",
-      "published_at": "2026-08-10T12:09:39+00:00",
-      "summary": "Strategy's total holdings account for roughly 4% of the 21 million bitcoin supply cap — worth roughly $55 billion.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
-      "url": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
-      "published_at": "2026-08-10T12:09:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
-      "url": "https://www.coindesk.com/business/2026/08/10/crypto-exchange-coinsbuy-loses-usd8-million-in-coordinated-two-blockchain-attack",
-      "published_at": "2026-08-10T11:39:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loses"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tokenized RWA surge to $4T may push LINK to $200 by end-2030: Standard Chartered",
-      "url": "https://cointelegraph.com/news/tokenized-rwa-4t-push-link-200-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-10T11:39:39+00:00",
-      "summary": "The LINK token may see a 25-fold increase to $200 by the end of 2030, as the growing real world asset market increases demand for the industry’s largest oracle services provider, according to Standard Chartered.",
-      "sentiment": {
-        "score": 7,
-        "normalized": 0.875,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "growing",
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "rwa"
       ]
     }
   ]
