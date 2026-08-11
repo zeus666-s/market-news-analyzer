@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-08-11T17:00:50.525399+00:00",
+  "generated_at": "2026-08-11T20:51:09.267290+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.084,
+    "market_sentiment_score": -0.102,
     "label_distribution": {
-      "bearish": 23,
-      "bullish": 8,
-      "neutral": 39
+      "bearish": 24,
+      "neutral": 35,
+      "bullish": 11
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 37
+        "mentions": 32
       },
       {
         "coin": "OP",
-        "mentions": 26
+        "mentions": 23
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 7
       },
       {
         "coin": "BTC",
+        "mentions": 6
+      },
+      {
+        "coin": "SOL",
         "mentions": 5
+      },
+      {
+        "coin": "Solana",
+        "mentions": 3
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 2
+      },
+      {
+        "coin": "XRP",
+        "mentions": 2
       },
       {
         "coin": "Tron",
         "mentions": 2
       },
       {
-        "coin": "SOL",
-        "mentions": 2
-      },
-      {
         "coin": "LINK",
         "mentions": 2
-      },
-      {
-        "coin": "Solana",
-        "mentions": 1
-      },
-      {
-        "coin": "XRP",
-        "mentions": 1
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 28
       },
       {
         "topic": "pos",
@@ -62,7 +62,7 @@
       },
       {
         "topic": "sec",
-        "mentions": 9
+        "mentions": 12
       },
       {
         "topic": "mining",
@@ -73,28 +73,473 @@
         "mentions": 4
       },
       {
+        "topic": "regulation",
+        "mentions": 3
+      },
+      {
+        "topic": "usdt",
+        "mentions": 3
+      },
+      {
         "topic": "etf",
         "mentions": 3
       },
       {
-        "topic": "onchain",
-        "mentions": 3
-      },
-      {
-        "topic": "defi",
-        "mentions": 3
-      },
-      {
-        "topic": "exchanges",
+        "topic": "cftc",
         "mentions": 2
       },
       {
-        "topic": "usdt",
+        "topic": "wallet",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "The Bull and Bear Case for Solana’s Next Price Move",
+      "url": "https://decrypt.co/375364/solana-price-death-cross-bull-bear-case-next-move",
+      "published_at": "2026-08-11T20:46:04+00:00",
+      "summary": "Solana is holding its 50-day average after a pullback from August's $90 spike, but the death cross above it keeps pressure pointed down.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bear",
+          "down"
+        ]
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Should Bitcoin Companies Build USD Reserves? Understanding The Truth",
+      "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/bitcoin-companies-usd",
+      "published_at": "2026-08-11T20:18:33+00:00",
+      "summary": "Bitcoin Magazine\n\nShould Bitcoin Companies Build USD Reserves? Understanding The Truth\nStrategy is acquiring more cash than bitcoin these days. This is what's really going on and whether other Bitcoin companies should follow suit. \nThis post Should Bitcoin Companies Build USD Reserves? Understanding The Truth first appeared on Bitcoin Magazine and is written by Allard Peng.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Sui"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Florida man charged by CFTC over $397 million crypto Ponzi scheme",
+      "url": "https://www.theblock.co/news/regulation/2026-08-11-florida-man-charged-by-cftc-over-397-million-crypto-ponzi-scheme-411491",
+      "published_at": "2026-08-11T20:14:55+00:00",
+      "summary": "A Florida man is facing fresh charges from the CFTC after the agency says he misappropriated $48 million dollars of customers' money.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "CFTC Charges Goliath Ventures With $400M Bitcoin Fraud",
+      "url": "https://bitcoinmagazine.com/news/cftc-charges-goliath-in-bitcoin-fraud",
+      "published_at": "2026-08-11T20:14:24+00:00",
+      "summary": "Bitcoin Magazine\n\nCFTC Charges Goliath Ventures With $400M Bitcoin Fraud \nRegulator says roughly 1,600 customers lost money in Bitcoin and crypto operation whose CEO has already pleaded guilty\nThis post CFTC Charges Goliath Ventures With $400M Bitcoin Fraud  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud",
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "cftc",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "SEC Prepares Escape Hatch From Securities Registration for Crypto Projects",
+      "url": "https://decrypt.co/375375/sec-prepares-escape-hatch-securities-registration-crypto-projects",
+      "published_at": "2026-08-11T20:10:00+00:00",
+      "summary": "The agency has set an open meeting to consider moving forward with its Regulation Crypto proposal.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "regulation",
+        "rwa",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MoneyGram expands crypto cash ramps to Solana",
+      "url": "https://cointelegraph.com/news/moneygram-expands-crypto-cash-ramps-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T19:53:02+00:00",
+      "summary": "MoneyGram’s Ramps service now connects Solana wallets and applications to its global cash network, with Rift becoming the first wallet to integrate the service.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "integrate"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Following Senate delay, crypto bill has a narrow window to become law",
+      "url": "https://cointelegraph.com/news/clarity-act-senate-delay-window-become-law-midterm-elections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T19:42:08+00:00",
+      "summary": "After an August recess, lawmakers in the Senate will have just 36 days in session before the end of the year to pass the CLARITY Act.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Casa CEO Nick Neuman: 233k BTC Moved To Safety After Coldcard Exploit Proves Self-Custody Resilience",
+      "url": "https://bitcoinmagazine.com/news/casa-ceo-nick-neuman-233k-btc-moved-to-safety-after-coldcard-exploit-proves-self-custody-resilience",
+      "published_at": "2026-08-11T19:10:11+00:00",
+      "summary": "Bitcoin Magazine\n\nCasa CEO Nick Neuman: 233k BTC Moved To Safety After Coldcard Exploit Proves Self-Custody Resilience\nCasa customer data indicates part of the 233k BTC flow came from single-key Ledger and Trezor users shifting to multisig and from multisig users removing Coldcard devices after the July 30 attack waves.\nThis post Casa CEO Nick Neuman: 233k BTC Moved To Safety After Coldcard Exploit Proves Self-Custody Resilience first appeared on Bitcoin Magazine and is written by Juan Galt.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Brazil's largest lender Itaú is stepping deeper into the tokenization",
+      "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization",
+      "published_at": "2026-08-11T19:06:23+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Agent Hacks a Gym—And the Tech World Wonders What's Next",
+      "url": "https://decrypt.co/375358/ai-agent-hacks-gym-membership-tech-world-reacts",
+      "published_at": "2026-08-11T18:56:03+00:00",
+      "summary": "The newly reported incident is raising fresh concerns about autonomous AI after models from OpenAI, Anthropic, and Meta exploited websites and online services.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns",
+          "exploited"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "ENS Foundation takes administrative control of $65 million Endowment following tokenholder vote",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-11-ens-foundation-administrative-control-65-million-endowment-tokenholder-vote-411464",
+      "published_at": "2026-08-11T18:49:47+00:00",
+      "summary": "ENS tokenholders voted to transform the ENS Foundation into a fully operational organization with a five-member board and financial power.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pow"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "What’s next for the Clarity Act as September brings a tough road ahead",
+      "url": "https://www.theblock.co/news/regulation/2026-08-11-whats-next-for-clarity-act-september-brings-tough-road-ahead-411465",
+      "published_at": "2026-08-11T18:35:00+00:00",
+      "summary": "The outlook for crypto legislation is growing increasingly bleak, following Sen. John Thune's move to punt the initial vote to next month.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growing"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Trump Media’s Crypto Bet Fuels Massive $238M Quarterly Loss",
+      "url": "https://decrypt.co/375359/trump-media-crypto-bet-238m-quarterly-loss",
+      "published_at": "2026-08-11T18:25:14+00:00",
+      "summary": "Falling digital asset values battered the Truth Social parent’s balance sheet, contributing to about $361 million in crypto-related losses during the first half of 2026.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss",
+          "losses"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Twenty One to Become ‘More Than a Bitcoin Treasury,’ Says New CEO",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-treasury-twenty-one-writes-letter",
+      "published_at": "2026-08-11T18:20:39+00:00",
+      "summary": "Bitcoin Magazine\n\nTwenty One to Become &#8216;More Than a Bitcoin Treasury,&#8217; Says New CEO\nTwenty One just revealed its quarterly earnings. The company is reassuring investors that it has big plans following Jack Maller's departure as CEO.\nThis post Twenty One to Become &#8216;More Than a Bitcoin Treasury,&#8217; Says New CEO first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Strategy CEO says company will resume Bitcoin accumulation this year",
+      "url": "https://cointelegraph.com/news/strategy-ceo-resume-bitcoin-accumulation-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T18:03:49+00:00",
+      "summary": "The company has bought roughly 25 times more BTC than it has sold this year, despite recent sales that challenged its long-standing accumulation strategy.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "accumulation"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "ARP Digital secures Dubai VARA broker-dealer license",
+      "url": "https://cointelegraph.com/news/arp-digital-secures-dubai-vara-broker-dealer-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T17:53:51+00:00",
+      "summary": "The license allows ARP Digital to offer regulated digital asset and stablecoin conversions into UAE dirhams as it expands its Gulf presence beyond Bahrain.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Russia Approves Trading of Bitcoin, Ethereum and USDT—But No XRP",
+      "url": "https://decrypt.co/375345/russia-approves-trading-bitcoin-ethereum-usdt-no-xrp",
+      "published_at": "2026-08-11T17:26:54+00:00",
+      "summary": "Bitcoin, Ethereum and Tether clear the central bank's liquidity bar—everything else, including XRP, stays off-limits for retail.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "XRP"
+      ],
+      "topics": [
+        "ai",
+        "liquidity",
+        "usdt"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "SEC could propose ‘pivotal’ crypto rules that may start with token safe harbor, TD Cowen says",
+      "url": "https://www.theblock.co/news/regulation/2026-08-11-sec-crypto-rules-token-safe-harbor-td-cowen-411455",
+      "published_at": "2026-08-11T17:14:08+00:00",
+      "summary": "The SEC’s crypto regulation meeting on Friday could mark the start of a “pivotal” rulemaking process, according to TD Cowen.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "regulation",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "EToro reports second quarter crypto loss even as total profit beats estimates",
+      "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025",
+      "published_at": "2026-08-11T17:12:11+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ravencoin Crashes 20% as Critical Exploit Threatens to Rollback Network",
+      "url": "https://decrypt.co/375330/ravencoin-crashes-critical-exploit-threatens-rollback",
+      "published_at": "2026-08-11T17:02:36+00:00",
+      "summary": "Two mining pools controlling most of Ravencoin's hash power are already rebuilding the chain from before Friday's first bad block—here's what a forced rollback would undo.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crashes",
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "mining",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "FlightAware sues Kalshi over flight cancellation data",
+      "url": "https://cointelegraph.com/news/flightaware-lawsuit-kalshi-flight-cancellations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T16:55:14+00:00",
+      "summary": "The legal action against Kalshi focused on trademark infringement and injury to its reputation in addition to citing state authorities comparing the company’s contracts to gambling.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "New Bitcoin addresses jump as Coldcard exploit pushes users to move funds",
@@ -717,440 +1162,6 @@
         "BTC"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ravencoin, a blockchain built from Bitcoin’s code, could roll back four days of transactions",
-      "url": "https://www.coindesk.com/tech/2026/08/11/ravencoin-could-roll-back-four-days-of-transactions-after-critical-block-flaw",
-      "published_at": "2026-08-11T11:24:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coinbase picks Abu Dhabi for its global tokenized asset push",
-      "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
-      "published_at": "2026-08-11T11:23:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "When safe assets compete with risk. Lessons from the 1960s–90s for bitcoin and stocks.",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/11/when-safe-assets-compete-with-risk-lessons-from-the-1960s-90s-for-bitcoin-and-stocks",
-      "published_at": "2026-08-11T11:13:55+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "‘One of the single biggest barriers to growth’: UK lawmakers press banks over crypto access ahead of new FCA regime",
-      "url": "https://www.theblock.co/news/regulation/2026-08-11-uk-crypto-banking-access-411389",
-      "published_at": "2026-08-11T11:04:38+00:00",
-      "summary": "UK lawmakers have asked banks to explain how the new FCA crypto regime may change their policies toward digital asset firms.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin-backed lending is entering its institutional era: Two Prime",
-      "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-backed-lending-is-entering-its-institutional-era-two-prime",
-      "published_at": "2026-08-11T11:04:28+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "lending"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin sell pressure ‘closer to exhaustion’ after $4B USDT market-cap drop: CryptoQuant",
-      "url": "https://cointelegraph.com/markets/bitcoin-sell-pressure-closer-to-exhaustion-after-4b-usdt-market-cap-drop-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T10:55:00+00:00",
-      "summary": "Bitcoin analysis suggested that sell pressure would not increase given the historically large contraction in USDT market cap over a 60-day period.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop",
-          "sell"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "usdt"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin stuck below $65,000 as Hormuz hopes evaporate, XRP close to dropping below $1",
-      "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-below-usd65-000-as-the-strait-of-hormuz-stalemate-and-strategy-s-selling-squeeze-the-market",
-      "published_at": "2026-08-11T10:48:08+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "XRP",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin falls to $63,500; Anthropic to watermark Claude's AI content after EU regulations",
-      "url": "https://www.coindesk.com/tech/2026/08/11/live-updates-bitcoin-slips-as-corporate-btc-enthusiasm-moves-to-ai",
-      "published_at": "2026-08-11T10:34:52+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "regulation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "FlightAware sues Kalshi over bets on flight cancellations",
-      "url": "https://www.coindesk.com/policy/2026/08/11/kalshi-faces-new-lawsuit-flightaware-accuses-it-of-using-its-data-for-flight-cancellation-betting",
-      "published_at": "2026-08-11T10:34:17+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Software stocks break away from bitcoin: What the rare divergence means for crypto",
-      "url": "https://www.coindesk.com/markets/2026/08/11/software-stocks-break-away-from-bitcoin-what-the-rare-divergence-means-for-crypto",
-      "published_at": "2026-08-11T10:31:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Luke Dashjr removed as Bitcoin BIP editor after controversial BIP-110 fork stalls",
-      "url": "https://www.coindesk.com/tech/2026/08/11/luke-dashjr-removed-as-bitcoin-bip-editor-after-controversial-bip-110-fork-stalls",
-      "published_at": "2026-08-11T10:28:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Coldcard hack losses: How investigators trace stolen Bitcoin",
-      "url": "https://cointelegraph.com/news/coldcard-losses-how-investigators-trace-stolen-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T10:14:39+00:00",
-      "summary": "The Coldcard hack has no definitive loss figure yet as investigators rely on victim reports and onchain analysis that produce varying estimates.",
-      "sentiment": {
-        "score": -10,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "loss",
-          "losses",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Nvidia’s $500 billion AI infrastructure push leaves crypto compute further behind",
-      "url": "https://www.coindesk.com/tech/2026/08/11/nvidia-wants-to-turn-its-ai-chips-into-an-investable-asset-class",
-      "published_at": "2026-08-11T10:10:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Coinbase Opens UK Derivatives Trading With Up to 50x Leverage",
-      "url": "https://decrypt.co/375301/coinbase-opens-uk-derivatives-trading-with-up-to-50x-leverage",
-      "published_at": "2026-08-11T09:58:44+00:00",
-      "summary": "Futures, perpetuals and options spanning crypto, commodities, equities and FX, limited to clients who qualify as professional investors.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "futures"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Keel shuts US Bitcoin mining operations as Q2 revenue falls 50%",
-      "url": "https://cointelegraph.com/markets/keel-shuts-bitcoin-mining-ai-pivot-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T09:26:00+00:00",
-      "summary": "Keel completed the shutdown of its US Bitcoin mining operations as it pivots toward AI and high-performance computing infrastructure",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "mining"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "UK Lawmakers Write to Bank CEOs Over Crypto Account Refusals",
-      "url": "https://decrypt.co/375294/uk-lawmakers-write-to-bank-ceos-over-crypto-account-refusals",
-      "published_at": "2026-08-11T08:41:17+00:00",
-      "summary": "The APPG has asked banks to explain their crypto policies, warning that access could be one of the single biggest barriers to growth.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Anthropic strikes $9B compute deal with Bitcoin miner Riot: Report",
-      "url": "https://cointelegraph.com/news/anthropic-9b-deal-bitcoin-miner-riot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T08:00:26+00:00",
-      "summary": "Anthropic reportedly struck a $9 billion deal with Riot for 191 megawatts of capacity from the Bitcoin miner’s Rockdale campus in Texas.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "miner"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Coinbase rolls out derivatives for UK professional investors",
-      "url": "https://www.theblock.co/news/business/2026-08-11-coinbase-expands-uk-derivatives-411380",
-      "published_at": "2026-08-11T08:00:00+00:00",
-      "summary": "Coinbase launches perpetuals, futures and options to UK professional clients after obtaining its MiFID license.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "futures"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "FlightAware sues Kalshi over alleged unauthorized data use for flight cancellation markets",
-      "url": "https://www.theblock.co/news/business/2026-08-11-flightaware-sues-kalshi-411370",
-      "published_at": "2026-08-11T07:06:33+00:00",
-      "summary": "FlightAware is also seeking a temporary restraining order to bar Kalshi from activities involving the flight-tracking site.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Zama brings its blockchain-privacy token to Revolut’s 70 million users",
-      "url": "https://www.theblock.co/news/markets/2026-08-11-zama-brings-blockchain-privacy-token-to-revoluts-70-million-users-411290",
-      "published_at": "2026-08-11T07:05:03+00:00",
-      "summary": "Zama listed its ZAMA token on Revolut across the EEA, opening the privacy protocol to the fintech's 70 million-plus customers.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T06:39:00+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
     }
   ]
 }
