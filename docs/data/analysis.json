@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-08-11T20:51:09.267290+00:00",
+  "generated_at": "2026-08-12T02:19:16.639708+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.102,
+    "market_sentiment_score": -0.105,
     "label_distribution": {
       "bearish": 24,
-      "neutral": 35,
-      "bullish": 11
+      "neutral": 36,
+      "bullish": 10
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 32
+        "mentions": 29
       },
       {
         "coin": "OP",
-        "mentions": 23
-      },
-      {
-        "coin": "ETH",
-        "mentions": 7
+        "mentions": 21
       },
       {
         "coin": "BTC",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "SOL",
         "mentions": 5
       },
       {
-        "coin": "Solana",
+        "coin": "ETH",
+        "mentions": 5
+      },
+      {
+        "coin": "Sui",
         "mentions": 3
       },
       {
-        "coin": "Ethereum",
-        "mentions": 2
+        "coin": "Solana",
+        "mentions": 3
       },
       {
         "coin": "XRP",
@@ -54,47 +54,290 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
-      },
-      {
-        "topic": "pos",
-        "mentions": 14
+        "mentions": 27
       },
       {
         "topic": "sec",
-        "mentions": 12
+        "mentions": 14
+      },
+      {
+        "topic": "pos",
+        "mentions": 13
       },
       {
         "topic": "mining",
         "mentions": 5
       },
       {
-        "topic": "exchange",
+        "topic": "cftc",
+        "mentions": 5
+      },
+      {
+        "topic": "etf",
         "mentions": 4
+      },
+      {
+        "topic": "wallet",
+        "mentions": 3
       },
       {
         "topic": "regulation",
         "mentions": 3
       },
       {
-        "topic": "usdt",
+        "topic": "tokenization",
         "mentions": 3
       },
       {
-        "topic": "etf",
+        "topic": "exchange",
         "mentions": 3
-      },
-      {
-        "topic": "cftc",
-        "mentions": 2
-      },
-      {
-        "topic": "wallet",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Ravencoin hits record low as network exploit puts transactions at risk",
+      "url": "https://cointelegraph.com/news/ravencoin-rvn-record-low-consensus-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T01:11:51+00:00",
+      "summary": "Mining pools controlling most of Ravencoin’s hash rate are building a competing chain that could trigger a three-day reorganization.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "mining"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC, CFTC sue Goliath Ventures over $400M crypto Ponzi scheme",
+      "url": "https://cointelegraph.com/news/sec-cftc-sue-goliath-ventures-400m-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T00:07:41+00:00",
+      "summary": "Regulators allege Goliath promised crypto liquidity-pool returns but instead paid earlier investors and funded its founder’s luxury spending.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc",
+        "liquidity",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Robinhood Chain hits 11.6 million daily transactions as USDe fuels TVL growth",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-11-robinhood-chain-hits-11-6-million-daily-transactions-as-usde-fuels-tvl-growth-411310",
+      "published_at": "2026-08-11T22:26:02+00:00",
+      "summary": "There is a clear divergence for Robinhood Chain in the number of transactions and TVL growing against a stagnating user base.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "growing",
+          "growth"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "dai",
+        "tvl"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Another OpenAI Exec Quits in Leadership Shake-Up as AI Giant Eyes IPO",
+      "url": "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo",
+      "published_at": "2026-08-11T22:04:06+00:00",
+      "summary": "The former operating chief is starting a new venture following several departures across the ChatGPT developer’s leadership and safety teams.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CFTC flexes emergency authority to keep Kalshi operating amid New York lawsuit",
+      "url": "https://www.theblock.co/news/regulation/2026-08-11-cftc-flexes-emergency-authority-kalshi-operating-amid-new-york-lawsuit-411507",
+      "published_at": "2026-08-11T22:00:30+00:00",
+      "summary": "The CFTC flexed its emergency authority and ordered Kalshi to keep operating after the platform was sued last month in New York.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit",
+          "sued"
+        ]
+      },
+      "coins": [
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
+      "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-as-etf-inflows-offset-selling-but-inflation-data-could-spark-a-move",
+      "published_at": "2026-08-11T21:38:13+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "inflation"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay",
+      "url": "https://bitcoinmagazine.com/news/regulators-push-pro-crypto-clarity-act",
+      "published_at": "2026-08-11T21:36:25+00:00",
+      "summary": "Bitcoin Magazine\n\nRegulators To Push Pro-Crypto Initiatives Following Clarity Act Delay \nA vote on the Clarity Act last week stalled. Still, pro-crypto regulators have now said they aim to unveil plans to help the digital asset space. \nThis post Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "CFTC orders Kalshi to continue offering prediction markets in New York after state lawsuit",
+      "url": "https://www.coindesk.com/policy/2026/08/11/cftc-orders-kalshi-to-continue-offering-prediction-markets-in-new-york-after-state-lawsuit",
+      "published_at": "2026-08-11T21:28:59+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
+      "url": "https://decrypt.co/375376/btcpay-bitcoin-bounty-critical-wallet-exploit",
+      "published_at": "2026-08-11T21:16:03+00:00",
+      "summary": "The reward aims to recover Bitcoin stolen after attackers gained access to connected LND wallets.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [
+          "recover"
+        ],
+        "negative_hits": [
+          "exploit",
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC to address crypto regulations in absence of CLARITY passage",
+      "url": "https://cointelegraph.com/news/sec-crypto-regulations-absence-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T20:59:07+00:00",
+      "summary": "The US securities regulator scheduled a meeting this week with the potential to step up on digital asset policies without congressional action.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "regulation",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Itaú joins Brazil tokenization pilot with OpenAssets",
+      "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-11T20:55:58+00:00",
+      "summary": "The bank will test tokenized fixed-income securities and investment funds as part of an ANBIMA-led industry pilot.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "sec",
+        "tokenization"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "The Bull and Bear Case for Solana’s Next Price Move",
@@ -924,244 +1167,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "SharpLink reports $394M in Q2 net loss fueled by ETH decline",
-      "url": "https://cointelegraph.com/markets/sharplink-reports-394m-q2-net-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T13:17:00+00:00",
-      "summary": "SharpLink reported a net loss of $394 million in the second quarter of 2026, largely driven by Ether’s 23% decline during the quarter.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "decline",
-          "loss"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "LINK"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘Clear scale up path’: Bernstein sees 80% upside for Riot after reported $9.1 billion Anthropic deal",
-      "url": "https://www.theblock.co/news/business/2026-08-11-bernstein-riot-upside-anthropic-deal-411407",
-      "published_at": "2026-08-11T13:15:21+00:00",
-      "summary": "The firm's analysts estimate AI colocation now accounts for 84% of Riot's target enterprise value, versus 11% for bitcoin mining.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "mining"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade",
-      "url": "https://www.coindesk.com/business/2026/08/11/pokemon-cards-are-becoming-multibillion-dollar-market-crypto-wants-to-fix-how-they-trade",
-      "published_at": "2026-08-11T13:06:07+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Grvt eyes $100 million USDY position in Ondo Finance tie-up",
-      "url": "https://www.theblock.co/news/defi/2026-08-11-grvt-100-million-usdy-position-ondo-finance-411393",
-      "published_at": "2026-08-11T13:05:02+00:00",
-      "summary": "USDY is a tokenized secured note backed primarily by short-term U.S. Treasurys, Treasury-based ETF shares, and bank deposits.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "secured"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "etf",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "EToro to buy TradeZero as Q2 crypto revenue falls 30%",
-      "url": "https://cointelegraph.com/markets/etoro-buy-tradezero-crypto-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T12:35:00+00:00",
-      "summary": "Trading platform eToro will acquire TradeZero as part of its US expansion as it reported crypto-related revenue fell by about 30% compared to the second quarter of 2025.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": [
-          "falls",
-          "fell"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Saylor's Strategy Sells Bitcoin for Second Week in a Row",
-      "url": "https://decrypt.co/375304/morning-minute-saylors-strategy-sells-bitcoin-for-second-week-in-a-row",
-      "published_at": "2026-08-11T12:22:13+00:00",
-      "summary": "Strategy dumped $108M in BTC at a loss and a whopping $650M of MSTR stock, and yet MSTR stock barely flinched. What gives?",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss",
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Russia proposes exchange trading of Bitcoin, Ether and Tether’s USDT",
-      "url": "https://cointelegraph.com/news/bank-of-russia-trading-bitcoin-ether-tether-usdt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T12:09:38+00:00",
-      "summary": "Russia’s central bank proposed allowing Bitcoin, Ether and USDT to trade on regulated exchanges, following a law signed by President Vladimir Putin last week.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges",
-        "pos",
-        "usdt"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "North Korea Now Leans on Crime Networks to Launder Stolen Crypto: RUSI",
-      "url": "https://decrypt.co/375305/north-korea-now-leans-on-crime-networks-to-launder-stolen-crypto-rusi",
-      "published_at": "2026-08-11T12:02:42+00:00",
-      "summary": "Once its proceeds mix with scam money, exchanges struggle to separate proliferation finance from ordinary laundering, the paper warns.",
-      "sentiment": {
-        "score": -9,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "scam",
-          "stolen",
-          "struggle",
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "MoneyGram expands on Solana with global crypto-to-cash service",
-      "url": "https://www.coindesk.com/business/2026/08/10/moneygram-expands-on-solana-with-global-crypto-to-cash-service",
-      "published_at": "2026-08-11T12:02:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Australian watchdog suspends Cryptolink, forcing 96 ATMs offline",
-      "url": "https://www.coindesk.com/policy/2026/08/11/australian-watchdog-suspends-cryptolink-forcing-96-atms-offline",
-      "published_at": "2026-08-11T11:45:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Trump Media records $360.6 million unrealized loss on digital assets in first half of the year",
-      "url": "https://www.theblock.co/news/business/2026-08-11-trump-media-records-360-6-million-unrealized-loss-on-digital-assets-in-first-half-of-the-year-411394",
-      "published_at": "2026-08-11T11:34:20+00:00",
-      "summary": "Trump Media recorded a $360.6M unrealized digital-asset loss in H1. Its directly held BTC and CRO were worth $597.7M at June 30.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "BTC"
-      ],
-      "topics": []
     }
   ]
 }
