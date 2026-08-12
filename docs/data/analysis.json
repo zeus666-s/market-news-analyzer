@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-08-12T13:19:07.172770+00:00",
+  "generated_at": "2026-08-12T17:00:26.914013+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.084,
+    "market_sentiment_score": -0.052,
     "label_distribution": {
+      "neutral": 41,
       "bullish": 10,
-      "neutral": 37,
-      "bearish": 23
+      "bearish": 19
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 23
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 14
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 6
       },
       {
         "coin": "Sui",
         "mentions": 6
       },
       {
-        "coin": "BTC",
+        "coin": "SOL",
         "mentions": 5
       },
       {
-        "coin": "SOL",
+        "coin": "Solana",
         "mentions": 4
       },
       {
         "coin": "Near",
+        "mentions": 4
+      },
+      {
+        "coin": "BTC",
         "mentions": 3
       },
       {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
         "coin": "FIL",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "coin": "XRP",
@@ -54,47 +54,516 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 13
-      },
-      {
-        "topic": "sec",
-        "mentions": 11
+        "mentions": 14
       },
       {
         "topic": "cftc",
         "mentions": 7
       },
       {
-        "topic": "pow",
-        "mentions": 5
+        "topic": "stablecoin",
+        "mentions": 6
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
+        "topic": "sec",
+        "mentions": 6
       },
       {
         "topic": "inflation",
-        "mentions": 3
+        "mentions": 5
+      },
+      {
+        "topic": "fed",
+        "mentions": 4
       },
       {
         "topic": "etf",
         "mentions": 3
       },
       {
-        "topic": "mining",
+        "topic": "pow",
         "mentions": 3
       },
       {
-        "topic": "wallet",
-        "mentions": 3
+        "topic": "staking",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Wintermute plans $1 billion AI push beyond crypto: Bloomberg",
+      "url": "https://www.coindesk.com/business/2026/08/12/wintermute-plans-usd1-billion-ai-push-beyond-crypto-bloomberg",
+      "published_at": "2026-08-12T16:34:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Solana platform taps prediction market Kalshi for Wall Street-style high-speed data feed",
+      "url": "https://www.coindesk.com/business/2026/08/12/solana-platform-taps-prediction-market-kalshi-for-wall-street-style-high-speed-data-feed",
+      "published_at": "2026-08-12T16:14:49+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "HashKey begins beta distribution of Hong Kong-regulated HKDAP stablecoin",
+      "url": "https://cointelegraph.com/news/hashkey-begins-beta-distribution-of-hong-kong-regulated-hkdap-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T16:07:59+00:00",
+      "summary": "HashKey has become an authorized distributor for Anchorpoint’s HKDAP, expanding institutional access as Hong Kong’s regulated stablecoin market takes shape.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "XRP Bridge Drained After Software Treats Fake Deposits as Real",
+      "url": "https://decrypt.co/375441/xrp-drained-tx-bridge",
+      "published_at": "2026-08-12T16:00:52+00:00",
+      "summary": "A flaw that went undetected during multiple audits allowed an attacker to create unbacked balances and withdraw XRP from the bridge’s reserves.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "SKALE launches Agent Pit to let builders train AI agents before taking them live on Polymarket",
+      "url": "https://www.theblock.co/news/defi/2026-08-12-skales-agent-pit-lets-builders-train-ai-agents-before-taking-them-live-on-polymarket-411580",
+      "published_at": "2026-08-12T16:00:00+00:00",
+      "summary": "SKALE Labs launched Agent Pit, a Polymarket-inspired, paper-trading prediction market sandbox on its zero-gas blockchain.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto-Backed Loans, Explained: How to Unlock Cash Without Selling Your Bitcoin",
+      "url": "https://decrypt.co/375428/crypto-backed-loans-explained-how-to-unlock-cash-without-selling-your-bitcoin",
+      "published_at": "2026-08-12T15:54:16+00:00",
+      "summary": "A fixed-rate crypto-backed loan lets you borrow against BTC, ETH, or SOL while keeping your coins. Here's how they work.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BIP-110 failure shows Bitcoin would be ‘almost impossible to reproduce,’ Plan B Network director says",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-12-bip-110-failure-bitcoin-impossible-reproduce-plan-b-network-director-411596",
+      "published_at": "2026-08-12T15:51:35+00:00",
+      "summary": "Plan B Network director Giacomo Zucco says BIP-110’s failure exposed the challenges of recreating Bitcoin’s early development.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "failure"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Attackers keep hitting the wrong house in rural France after crypto millionaire moved: report",
+      "url": "https://www.theblock.co/news/regulation/2026-08-12-attackers-keep-hitting-wrong-house-rural-france-after-crypto-millionaire-moved-report-411605",
+      "published_at": "2026-08-12T15:30:05+00:00",
+      "summary": "A French couple in the Somme who bought a former crypto millionaires’ house have been targeted in three separate home invasions.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Yawns As Fed’s Favorite Inflation Gauge Eases",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-yawns-as-us-inflation-eases",
+      "published_at": "2026-08-12T15:20:07+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Yawns As Fed&#8217;s Favorite Inflation Gauge Eases \nBitcoin's price was largely flat on news that US inflation was subdued in July.\nThis post Bitcoin Yawns As Fed&#8217;s Favorite Inflation Gauge Eases  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed",
+        "inflation",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "New York City Council opens probe into prediction market platforms",
+      "url": "https://www.theblock.co/news/regulation/2026-08-12-new-york-city-council-opens-probe-into-prediction-market-platforms-411604",
+      "published_at": "2026-08-12T15:18:01+00:00",
+      "summary": "The NYC Council has opened a probe into prediction market platforms over alleged \"false, deceptive, or abusive marketing tactics.\"",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Why Bitcoin Barely Moved Even as US Inflation Cools to 3.4%",
+      "url": "https://decrypt.co/375411/why-bitcoin-barely-moved-us-cpi-inflation-cools",
+      "published_at": "2026-08-12T15:07:56+00:00",
+      "summary": "The tamest U.S. inflation print in months left crypto markets flat, with Bitcoin shrugging off the data hit. Here's why.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin eyes $63K as US CPI relief sends September Fed rate pause odds to 60%",
+      "url": "https://cointelegraph.com/markets/bitcoin-eyes-63k-as-us-cpi-relief-sends-september-fed-rate-pause-odds-to-60?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T15:00:10+00:00",
+      "summary": "Bitcoin price action did not reflect relief in US CPI inflation numbers matching expectations amid a warning over $63,000 failing as support.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "inflation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Miden bets on privacy stablecoins with introduction of USDCx",
+      "url": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
+      "published_at": "2026-08-12T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin",
+        "usdc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto Long & Short:",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
+      "published_at": "2026-08-12T14:51:12+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin dips under $64,000 as in-line CPI buys the Fed time, not conviction: analysts",
+      "url": "https://www.theblock.co/news/markets/2026-08-12-bitcoin-dips-under-64000-in-line-cpi-buys-fed-time-not-conviction-analysts-411594",
+      "published_at": "2026-08-12T14:35:08+00:00",
+      "summary": "Bitcoin fell under $64,000 after July CPI matched forecasts at 3.4%, with analysts saying the in-line print keeps the Fed patient.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "A Routing Bug Took Solana 86% of the Way to Losing Finality",
+      "url": "https://decrypt.co/375404/a-routing-bug-took-solana-86-of-the-way-to-losing-finality",
+      "published_at": "2026-08-12T14:13:07+00:00",
+      "summary": "A malformed default route at a single hosting provider took almost 29% of staked SOL offline, against a 33% threshold.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losing"
+        ]
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Kalshi Adds Real-Time Market Data Feed Through DoubleZero",
+      "url": "https://decrypt.co/375384/kalshi-real-time-market-data-feed-doublezero",
+      "published_at": "2026-08-12T14:00:04+00:00",
+      "summary": "The service gives trading firms access to Kalshi’s sports and crypto order books over DoubleZero’s fiber network.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Kalshi first prediction market to stream full order books via DoubleZero",
+      "url": "https://www.theblock.co/news/markets/2026-08-12-kalshi-first-prediction-market-to-stream-full-order-books-via-doublezero-411589",
+      "published_at": "2026-08-12T14:00:00+00:00",
+      "summary": "The move gives institutional traders direct access to Level 1 and Level 2 data without having to reconstruct the book from APIs.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kalshi launches sports and crypto perps data feed on DoubleZero",
+      "url": "https://cointelegraph.com/news/kalshi-launches-sports-crypto-data-feed-doublezero?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T13:58:41+00:00",
+      "summary": "Kalshi launched access to its sports and crypto perpetual data feed through DoubleZero’s dedicated fiber network to bolster institutional data access.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional",
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
+      "url": "https://www.coindesk.com/tech/2026/08/12/smart-contract-blockchain-solana-nearly-froze-wednesday-marinade-finance-says",
+      "published_at": "2026-08-12T13:39:31+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "smart contract"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Slovenia joins EU’s MiCA stablecoin register with first issuer",
+      "url": "https://cointelegraph.com/news/slovenia-eu-mica-stablecoin-register-dinaro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T13:31:54+00:00",
+      "summary": "Slovenia entered the EU’s MiCA stablecoin register through electronic money institution Dinaro, as the update also added two new CASPs.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "El Salvador’s Bitcoin experiment turns 5: ‘It was for us, not them’",
+      "url": "https://cointelegraph.com/magazine/el-salvadors-bitcoin-experiment-turns-5-it-was-for-us-and-not-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T13:30:00+00:00",
+      "summary": "Five years after El Salvador made Bitcoin legal tender, the experiment has fallen short of its original promises for locals, but it’s been great for Bitcoin’s global profile.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "FIL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Wintermute to pour $1B into AI, high-frequency trading amid TradFi expansion: Report",
+      "url": "https://cointelegraph.com/news/wintermute-pour-1b-ai-tradfi-expansion-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-12T13:23:57+00:00",
+      "summary": "Wintermute will reportedly invest $1 billion in AI infrastructure and high-frequency trading as part of its expansion into traditional finance.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
@@ -394,7 +863,7 @@
       "source": "Cointelegraph",
       "title": "Binance, RedotPay clash over fate of Singapore lawsuit",
       "url": "https://cointelegraph.com/news/binance-redotpay-clash-singapore-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-12T10:18:18+00:00",
+      "published_at": "2026-08-12T10:21:00+00:00",
       "summary": "Amid a $473 million legal dispute, RedotPay says it expects Binance to end its Singapore case, while Binance says its claims remain active.",
       "sentiment": {
         "score": -2,
@@ -543,26 +1012,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "One overlooked group has added $1.78 billion of selling pressure to bitcoin market",
-      "url": "https://www.coindesk.com/markets/2026/08/12/one-overlooked-group-has-added-usd1-78-billion-of-selling-pressure-to-bitcoin-market",
-      "published_at": "2026-08-12T08:53:23+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Australian regulator takes down Yepbit websites as investors report blocked withdrawals",
       "url": "https://www.theblock.co/news/regulation/2026-08-12-australian-regulator-takes-down-yepbit-websites-411538",
@@ -624,26 +1073,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin holds $64,000 as July inflation meets forecasts",
-      "url": "https://www.coindesk.com/tech/2026/08/12/live-updates-bitcoin-at-usd63-600-as-japan-s-metaplanet-moves-3-881-btc-between-wallets",
-      "published_at": "2026-08-12T07:04:53+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Harmony confirms exploit involving unauthorized minting of 4 billion ONE tokens",
       "url": "https://www.theblock.co/news/defi/2026-08-12-harmony-confirms-exploit-one-token-411527",
@@ -684,25 +1113,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities",
-      "url": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities",
-      "published_at": "2026-08-12T06:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Bitwise cuts 14% of staff as crypto layoffs mount during market downturn",
       "url": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522",
@@ -717,436 +1127,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print",
-      "url": "https://www.coindesk.com/business/2026/08/12/here-s-what-bitcoin-and-ether-traders-are-doing-ahead-of-the-binary-u-s-cpi-print",
-      "published_at": "2026-08-12T05:26:55+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Harmony’s ONE dives 40% after an attack appears to mint tokens equal to quarter of supply",
-      "url": "https://www.coindesk.com/markets/2026/08/12/harmony-s-one-falls-26-after-attacker-allegedly-mints-4-billion-tokens",
-      "published_at": "2026-08-12T05:18:40+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "CFTC invokes emergency powers to keep Kalshi operating in New York fight",
-      "url": "https://cointelegraph.com/news/cftc-kalshi-emergency-order-new-york-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-12T04:53:26+00:00",
-      "summary": "The order escalates a jurisdictional fight over whether states may treat federally regulated event contracts as illegal gambling.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "cftc",
-        "fed",
-        "pow"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ravencoin hits record low as network exploit puts transactions at risk",
-      "url": "https://cointelegraph.com/markets/ravencoin-rvn-record-low-consensus-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-12T01:11:51+00:00",
-      "summary": "Mining pools controlling most of Ravencoin’s hash rate are building a competing chain that could trigger a three-day reorganization.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "mining"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "SEC, CFTC sue Goliath Ventures over $400M crypto Ponzi scheme",
-      "url": "https://cointelegraph.com/news/sec-cftc-sue-goliath-ventures-400m-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-12T00:07:41+00:00",
-      "summary": "Regulators allege Goliath promised crypto liquidity-pool returns but instead paid earlier investors and funded its founder’s luxury spending.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc",
-        "liquidity",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Robinhood Chain hits 11.6 million daily transactions as USDe fuels TVL growth",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-11-robinhood-chain-hits-11-6-million-daily-transactions-as-usde-fuels-tvl-growth-411310",
-      "published_at": "2026-08-11T22:26:02+00:00",
-      "summary": "There is a clear divergence for Robinhood Chain in the number of transactions and TVL growing against a stagnating user base.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "growing",
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "dai",
-        "tvl"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Another OpenAI Exec Quits in Leadership Shake-Up as AI Giant Eyes IPO",
-      "url": "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo",
-      "published_at": "2026-08-11T22:04:06+00:00",
-      "summary": "The former operating chief is starting a new venture following several departures across the ChatGPT developer’s leadership and safety teams.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "CFTC flexes emergency authority to keep Kalshi operating amid New York lawsuit",
-      "url": "https://www.theblock.co/news/regulation/2026-08-11-cftc-flexes-emergency-authority-kalshi-operating-amid-new-york-lawsuit-411507",
-      "published_at": "2026-08-11T22:00:30+00:00",
-      "summary": "The CFTC flexed its emergency authority and ordered Kalshi to keep operating after the platform was sued last month in New York.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lawsuit",
-          "sued"
-        ]
-      },
-      "coins": [
-        "Sui",
-        "OP"
-      ],
-      "topics": [
-        "cftc"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay",
-      "url": "https://bitcoinmagazine.com/news/regulators-push-pro-crypto-clarity-act",
-      "published_at": "2026-08-11T21:36:25+00:00",
-      "summary": "Bitcoin Magazine\n\nRegulators To Push Pro-Crypto Initiatives Following Clarity Act Delay \nA vote on the Clarity Act last week stalled. Still, pro-crypto regulators have now said they aim to unveil plans to help the digital asset space. \nThis post Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
-      "url": "https://decrypt.co/375376/btcpay-bitcoin-bounty-critical-wallet-exploit",
-      "published_at": "2026-08-11T21:16:03+00:00",
-      "summary": "The reward aims to recover Bitcoin stolen after attackers gained access to connected LND wallets.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [
-          "recover"
-        ],
-        "negative_hits": [
-          "exploit",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "SEC to address crypto regulations in absence of CLARITY passage",
-      "url": "https://cointelegraph.com/news/sec-crypto-regulations-absence-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T20:59:07+00:00",
-      "summary": "The US securities regulator scheduled a meeting this week with the potential to step up on digital asset policies without congressional action.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "regulation",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Itaú joins Brazil tokenization pilot with OpenAssets",
-      "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T20:55:58+00:00",
-      "summary": "The bank will test tokenized fixed-income securities and investment funds as part of an ANBIMA-led industry pilot.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "sec",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "The Bull and Bear Case for Solana’s Next Price Move",
-      "url": "https://decrypt.co/375364/solana-price-death-cross-bull-bear-case-next-move",
-      "published_at": "2026-08-11T20:46:04+00:00",
-      "summary": "Solana is holding its 50-day average after a pullback from August's $90 spike, but the death cross above it keeps pressure pointed down.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bear",
-          "down"
-        ]
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Should Bitcoin Companies Build USD Reserves? Understanding The Truth",
-      "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/bitcoin-companies-usd",
-      "published_at": "2026-08-11T20:18:33+00:00",
-      "summary": "Bitcoin Magazine\n\nShould Bitcoin Companies Build USD Reserves? Understanding The Truth\nStrategy is acquiring more cash than bitcoin these days. This is what's really going on and whether other Bitcoin companies should follow suit. \nThis post Should Bitcoin Companies Build USD Reserves? Understanding The Truth first appeared on Bitcoin Magazine and is written by Allard Peng.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Sui"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Florida man charged by CFTC over $397 million crypto Ponzi scheme",
-      "url": "https://www.theblock.co/news/regulation/2026-08-11-florida-man-charged-by-cftc-over-397-million-crypto-ponzi-scheme-411491",
-      "published_at": "2026-08-11T20:14:55+00:00",
-      "summary": "A Florida man is facing fresh charges from the CFTC after the agency says he misappropriated $48 million dollars of customers' money.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "cftc"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "CFTC Charges Goliath Ventures With $400M Bitcoin Fraud",
-      "url": "https://bitcoinmagazine.com/news/cftc-charges-goliath-in-bitcoin-fraud",
-      "published_at": "2026-08-11T20:14:24+00:00",
-      "summary": "Bitcoin Magazine\n\nCFTC Charges Goliath Ventures With $400M Bitcoin Fraud \nRegulator says roughly 1,600 customers lost money in Bitcoin and crypto operation whose CEO has already pleaded guilty\nThis post CFTC Charges Goliath Ventures With $400M Bitcoin Fraud  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud",
-          "lost"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "cftc",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "SEC Prepares Escape Hatch From Securities Registration for Crypto Projects",
-      "url": "https://decrypt.co/375375/sec-prepares-escape-hatch-securities-registration-crypto-projects",
-      "published_at": "2026-08-11T20:10:00+00:00",
-      "summary": "The agency has set an open meeting to consider moving forward with its Regulation Crypto proposal.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "regulation",
-        "rwa",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MoneyGram expands crypto cash ramps to Solana",
-      "url": "https://cointelegraph.com/news/moneygram-expands-crypto-cash-ramps-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T19:53:02+00:00",
-      "summary": "MoneyGram’s Ramps service now connects Solana wallets and applications to its global cash network, with Rift becoming the first wallet to integrate the service.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "integrate"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Following Senate delay, crypto bill has narrow window to become law",
-      "url": "https://cointelegraph.com/news/clarity-act-senate-delay-window-become-law-midterm-elections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-11T19:42:08+00:00",
-      "summary": "After an August recess, lawmakers in the Senate will have just 36 days in session before the end of the year to pass the CLARITY Act.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Casa CEO Nick Neuman: 233k BTC Moved To Safety After Coldcard Exploit Proves Self-Custody Resilience",
-      "url": "https://bitcoinmagazine.com/news/casa-ceo-nick-neuman-233k-btc-moved-to-safety-after-coldcard-exploit-proves-self-custody-resilience",
-      "published_at": "2026-08-11T19:10:11+00:00",
-      "summary": "Bitcoin Magazine\n\nCasa CEO Nick Neuman: 233k BTC Moved To Safety After Coldcard Exploit Proves Self-Custody Resilience\nCasa customer data indicates part of the 233k BTC flow came from single-key Ledger and Trezor users shifting to multisig and from multisig users removing Coldcard devices after the July 30 attack waves.\nThis post Casa CEO Nick Neuman: 233k BTC Moved To Safety After Coldcard Exploit Proves Self-Custody Resilience first appeared on Bitcoin Magazine and is written by Juan Galt.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "pos"
-      ]
     }
   ]
 }
