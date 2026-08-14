@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T09:11:13.799697+00:00",
+  "generated_at": "2026-08-14T13:15:48.704702+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.011,
+    "market_sentiment_score": 0.007,
     "label_distribution": {
-      "bearish": 15,
-      "neutral": 38,
+      "bearish": 16,
+      "neutral": 37,
       "bullish": 17
     },
     "top_coins": [
@@ -16,22 +16,30 @@
       },
       {
         "coin": "Bitcoin",
-        "mentions": 19
+        "mentions": 23
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "Near",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "coin": "SOL",
         "mentions": 4
       },
       {
-        "coin": "XRP",
+        "coin": "Ethereum",
+        "mentions": 2
+      },
+      {
+        "coin": "BTC",
+        "mentions": 2
+      },
+      {
+        "coin": "DOT",
         "mentions": 2
       },
       {
@@ -39,45 +47,41 @@
         "mentions": 2
       },
       {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "ADA",
-        "mentions": 1
-      },
-      {
-        "coin": "Uniswap",
+        "coin": "Binance",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 22
+        "mentions": 21
       },
       {
         "topic": "sec",
-        "mentions": 8
+        "mentions": 9
       },
       {
-        "topic": "exchange",
-        "mentions": 5
-      },
-      {
-        "topic": "wallet",
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
         "topic": "etf",
+        "mentions": 4
+      },
+      {
+        "topic": "wallet",
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
+        "topic": "exchange",
+        "mentions": 3
+      },
+      {
+        "topic": "regulatory",
         "mentions": 3
       },
       {
@@ -85,19 +89,362 @@
         "mentions": 3
       },
       {
-        "topic": "pow",
-        "mentions": 3
-      },
-      {
-        "topic": "regulatory",
+        "topic": "rwa",
         "mentions": 2
       }
     ]
   },
   "articles": [
     {
+      "source": "The Block",
+      "title": "Hyperscale Data sells 685 bitcoin for $43 million to fund Michigan data center",
+      "url": "https://www.theblock.co/news/business/2026-08-14-hyperscale-data-sells-685-bitcoin-for-43-million-to-fund-michigan-data-center-411827",
+      "published_at": "2026-08-14T12:59:18+00:00",
+      "summary": "Hyperscale Data sold 685 bitcoin for approximately $43 million as it reduced debt and funded its Michigan AI data center.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sells"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ireland’s New AML Strategy Brings ‘Enhanced Checks’ on Private Crypto Wallets",
+      "url": "https://decrypt.co/375628/irelands-new-aml-strategy-brings-enhanced-checks-on-private-crypto-wallets",
+      "published_at": "2026-08-14T12:38:39+00:00",
+      "summary": "The country's first strategy of its kind also brings stricter due diligence for firms dealing with overseas crypto companies.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Norway sovereign wealth fund sees indirect bitcoin exposure hit all-time high, with Strategy accounting for 86%: K33",
+      "url": "https://www.theblock.co/news/markets/2026-08-14-norway-sovereign-wealth-fund-indirect-bitcoin-exposure-all-time-high-strategy-k33-411815",
+      "published_at": "2026-08-14T12:25:38+00:00",
+      "summary": "Norges Bank Investment Management also disclosed a new $88 million stake in Ethereum treasury firm Bitmine.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "all-time high"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "pos",
+        "rwa"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kraken parent Payward posts $508 million in Q2 adjusted revenue as growth broadens beyond crypto trading",
+      "url": "https://www.theblock.co/news/business/2026-08-14-kraken-parent-payward-508-million-q2-adjusted-revenue-411818",
+      "published_at": "2026-08-14T12:21:02+00:00",
+      "summary": "Kraken parent Payward posted $508M in Q2 adjusted revenue, up 17%, as funded accounts grew 42% to 6.6M and volume fell 13% to $310B.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
       "source": "Cointelegraph",
-      "title": "JPMorgan cut Polymarket banking ties over regulatory concerns: Report",
+      "title": "Gemini posts $108M Q2 net loss despite 37% revenue growth",
+      "url": "https://cointelegraph.com/news/gemini-45m-q2-revenue-financial-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T12:02:08+00:00",
+      "summary": "Credit card and staking revenue drove Gemini’s services growth in Q2 as exchange revenue fell 38% and trading volume dropped by two-thirds.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": [
+          "dropped",
+          "fell",
+          "loss"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "pos",
+        "staking"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Tether Finally Gets An Audit",
+      "url": "https://decrypt.co/375625/morning-minute-tether-finally-gets-an-audit",
+      "published_at": "2026-08-14T11:45:39+00:00",
+      "summary": "It seems Tether passed, putting an end to the longest-running open criticism of the leading stablecoin company.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "leading"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/14/volatility-exits-crypto-tradfi-markets-even-as-u-s-iran-risks-linger-sovereign-debt-rises",
+      "published_at": "2026-08-14T11:33:50+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fear"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Shinhan Asset Management partners with Plume on tokenized fund pilot",
+      "url": "https://cointelegraph.com/news/shinhan-partners-plume-tokenized-fund-experiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T11:23:28+00:00",
+      "summary": "Shinhan Asset Management and Plume will test a tokenized fund using a Korean won-denominated ultra-short-term bond fund as its underlying asset.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Trump family's World Liberty Financial delay plans to sell Maldives resort token",
+      "url": "https://www.coindesk.com/business/2026/08/14/trump-family-s-world-liberty-financial-delay-plans-to-sell-maldives-resort-token",
+      "published_at": "2026-08-14T11:07:49+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sell"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown",
+      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-slips-as-u-s-inflation-fails-to-spark-gains-etfs-see-august-s-first-two-day-drawdown",
+      "published_at": "2026-08-14T11:06:12+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": [
+          "fails"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "inflation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Strategy, Metaplanet could face MSCI index removal under new proposal",
+      "url": "https://www.theblock.co/news/business/2026-08-14-strategy-metaplanet-msci-index-proposal-411809",
+      "published_at": "2026-08-14T10:57:33+00:00",
+      "summary": "An MSCI proposal could see Strategy and Metaplanet removed from its global indexes under a new non-operating company screen.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "dex",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin eyes new August lows as Binance longs face ‘cleanout’",
+      "url": "https://cointelegraph.com/markets/bitcoin-liquidation-cleanout-open-interest-falls-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T10:43:57+00:00",
+      "summary": "Bitcoin futures open interest on Binance fell alongside BTC price as analysis published on CryptoQuant flagged mounting pressure on leveraged longs.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Binance",
+        "OP"
+      ],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "SEC Shelves Crypto Rule Meeting Days After Senate Punted Clarity Act",
+      "url": "https://decrypt.co/375622/sec-shelves-crypto-rule-meeting-days-after-senate-punted-clarity-act",
+      "published_at": "2026-08-14T10:39:39+00:00",
+      "summary": "No replacement date has been set for the meeting, which was cancelled due to an “unforeseen scheduling issue.”",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "RedotPay said to put $1 billion U.S. IPO plan on hold: Bloomberg",
+      "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg",
+      "published_at": "2026-08-14T10:35:40+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "DOT"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "RedotPay US IPO delayed amid regulatory, legal hurdles: Report",
+      "url": "https://cointelegraph.com/news/redotpay-us-license-ipo-delay-binance-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T09:53:50+00:00",
+      "summary": "RedotPay’s US IPO has reportedly been delayed as it seeks regulatory approvals, while the company says it secured a US money transmitter license.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "secured"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "DOT"
+      ],
+      "topics": [
+        "regulatory",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Kalshi Ordered to Block Washington Bets Days After CFTC Backed It",
+      "url": "https://decrypt.co/375619/kalshi-ordered-to-block-washington-bets-days-after-cftc-backed-it",
+      "published_at": "2026-08-14T09:50:40+00:00",
+      "summary": "A King County judge gave the exchange until August 19 to stop offering sports, election and politics wagers in the state.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cftc",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "JPMorgan cuts Polymarket banking ties over regulatory concerns: Report",
       "url": "https://cointelegraph.com/news/jpmorgan-debanked-polymarket-regulatory-concerns-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T08:53:42+00:00",
       "summary": "JPMorgan Chase reportedly cut banking ties with Polymarket in October 2025 over regulatory concerns but remains open to an underwriting role if the platform goes public.",
@@ -819,362 +1166,6 @@
         "regulation",
         "sec"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Citigroup CEO Fraser on Clarity Act: ‘We would like to see a good bill go through,’ as stablecoin reward issues simmer",
-      "url": "https://www.theblock.co/news/regulation/2026-08-13-citigroup-ceo-fraser-on-clarity-act-we-would-like-to-see-good-bill-go-stablecoin-reward-issues-simmer-411751",
-      "published_at": "2026-08-13T17:48:10+00:00",
-      "summary": "Citigroup CEO Jane Fraser says she would like to see a crypto bill passed into law, even as she and others continue to fight for changes.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Crypto Group Warns Fed Could Use Banking Access to Squeeze Digital Asset Firms",
-      "url": "https://decrypt.co/375567/crypto-group-fed-banking-access-squeeze-firms",
-      "published_at": "2026-08-13T17:47:12+00:00",
-      "summary": "The Blockchain Association is urging the Supreme Court to take up Custodia’s case, saying that broad Fed power over “master accounts” could be used to push crypto firms out of the banking system.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed",
-        "pow"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
-      "url": "https://www.coindesk.com/markets/2026/08/13/forecasts-for-usd1-million-bitcoin-price-likely-look-too-ambitious-key-ratio-suggests",
-      "published_at": "2026-08-13T17:43:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto group backs Custodia in Supreme Court battle over Fed access",
-      "url": "https://cointelegraph.com/news/blockchain-association-backs-custodia-in-supreme-court-fight-over-fed-master-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T17:36:09+00:00",
-      "summary": "The Blockchain Association argues the Fed should not have broad discretion to deny eligible state-chartered banks direct access to its payment system.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Robinhood Chain nears $1B TVL as Uniswap drives liquidity: Standard Chartered",
-      "url": "https://cointelegraph.com/news/robinhood-chain-uniswap-liquidity-uni-burns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T17:28:54+00:00",
-      "summary": "Standard Chartered said Robinhood’s Uniswap integration could solve a key challenge for new blockchains while accelerating UNI token burns.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "integration"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL",
-        "Near",
-        "Uniswap",
-        "UNI"
-      ],
-      "topics": [
-        "ai",
-        "liquidity",
-        "tvl"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Companies Want Help From AI Labs to Guard Against Hackers",
-      "url": "https://decrypt.co/375564/bitcoin-firms-want-ai-hacking-tools",
-      "published_at": "2026-08-13T17:11:04+00:00",
-      "summary": "More than 40 bitcoin and crypto firms asked the biggest AI labs this week to let independent security researchers use their strongest models before public release.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Tron"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Trezor warns 14,000 customers after fulfilment partner suffers data breach",
-      "url": "https://www.coindesk.com/tech/2026/08/13/trezor-warns-14-000-users-after-fulfilment-partner-suffers-data-breach",
-      "published_at": "2026-08-13T17:10:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Data Breach at Trezor Leaks Info on Nearly 14,000 Bitcoin Wallet Users",
-      "url": "https://bitcoinmagazine.com/news/trezor-data-breach-leaks-customer-info",
-      "published_at": "2026-08-13T16:52:05+00:00",
-      "summary": "Bitcoin Magazine\n\nData Breach at Trezor Leaks Info on Nearly 14,000 Bitcoin Wallet Users\nThe data breach exposes names and emails from 13,689 customers who bought the popular Bitcoin wallet in recent months. \nThis post Data Breach at Trezor Leaks Info on Nearly 14,000 Bitcoin Wallet Users first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Metaplanet Denies Selling $320M in Bitcoin as Firm Launches BitBonds",
-      "url": "https://decrypt.co/375562/metaplanet-denies-bitcoin-sale-launches-bitbonds",
-      "published_at": "2026-08-13T16:40:49+00:00",
-      "summary": "The company's CEO said a 5,014 BTC transfer was a custody move, not a sale, as the Tokyo-listed Bitcoin treasury company rolls out a fixed-rate debt program.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Chinese AI Beats Restricted OpenAI and Anthropic Cybersecurity Models, Bitcoin Industry Warns",
-      "url": "https://bitcoinmagazine.com/business/chinese-ai-beats-restricted-openai-and-anthropic-cybersecurity-models-bitcoin-industry-warns",
-      "published_at": "2026-08-13T16:18:45+00:00",
-      "summary": "Bitcoin Magazine\n\nChinese AI Beats Restricted OpenAI and Anthropic Cybersecurity Models, Bitcoin Industry Warns\nBitcoin company leaders and open-source developers report Chinese AI models delivering superior results on defensive cybersecurity work that restricted American frontier systems refuse, forcing reliance on them to secure critical infrastructure.\nThis post Chinese AI Beats Restricted OpenAI and Anthropic Cybersecurity Models, Bitcoin Industry Warns first appeared on Bitcoin Magazine ...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "secure"
-        ],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Hawaii To Ban Cash Deposits at Crypto ATMs From October",
-      "url": "https://decrypt.co/375560/hawaii-to-ban-cash-deposits-at-crypto-atms-from-october",
-      "published_at": "2026-08-13T16:05:39+00:00",
-      "summary": "Lawmakers targeted the deposits that scammers rely on, with the machines still able to sell crypto for dollars or swap one coin for another.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban",
-          "sell"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Public Bitcoin miners cut hashrate 13.4% as AI infrastructure revenue grows",
-      "url": "https://cointelegraph.com/news/bitcoin-miners-hashrate-ai-data-centers-hpc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T16:00:23+00:00",
-      "summary": "AI and HPC are reshaping mining economics as operators repurpose power and data centers, while a smaller group of miners continues to expand Bitcoin capacity.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "miners",
-        "mining",
-        "pos",
-        "pow"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Onchain lender Figure nearly triples quarterly profits as loan marketplace volume surges to $4.3 billion",
-      "url": "https://www.theblock.co/news/business/2026-08-13-onchain-lender-figure-nearly-triples-quarterly-profits-as-loan-marketplace-volume-surges-to-4-3-billion-411736",
-      "published_at": "2026-08-13T15:54:52+00:00",
-      "summary": "The company said its net income increased 192% to $87 million from $30 million during the same period a year ago.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "profits",
-          "surges"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bullish shares jump 10% as Q2 adjusted EBITDA more than triples",
-      "url": "https://cointelegraph.com/news/bullish-shares-surge-as-q2-adjusted-revenue-surges-62?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T15:36:45+00:00",
-      "summary": "The crypto exchange operator’s shares gained around 10% as adjusted EBITDA more than tripled and subscription and services revenue hit a record high.",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "record high"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trezor reports data from 14K users exposed through shipping provider",
-      "url": "https://cointelegraph.com/news/trezor-customer-data-shipping-provider-shipmonk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T15:25:14+00:00",
-      "summary": "The wallet provider warned that thousands of users could potentially be at risk of phishing attempts, while advising that all devices, private keys and backups were safe.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk",
-          "warned"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto for Advisors: The crypto advice gap",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
-      "published_at": "2026-08-13T15:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
