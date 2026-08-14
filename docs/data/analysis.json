@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-14T05:40:08.807921+00:00",
+  "generated_at": "2026-08-14T09:11:13.799697+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.025,
+    "market_sentiment_score": 0.011,
     "label_distribution": {
-      "neutral": 35,
-      "bullish": 20,
-      "bearish": 15
+      "bearish": 15,
+      "neutral": 38,
+      "bullish": 17
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 24
+        "mentions": 25
       },
       {
         "coin": "Bitcoin",
@@ -20,15 +20,19 @@
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "coin": "Near",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "SOL",
         "mentions": 4
+      },
+      {
+        "coin": "XRP",
+        "mentions": 2
       },
       {
         "coin": "Solana",
@@ -36,10 +40,6 @@
       },
       {
         "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "FIL",
         "mentions": 2
       },
       {
@@ -58,11 +58,11 @@
       },
       {
         "topic": "pos",
-        "mentions": 20
+        "mentions": 22
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "exchange",
@@ -77,10 +77,6 @@
         "mentions": 3
       },
       {
-        "topic": "staking",
-        "mentions": 3
-      },
-      {
         "topic": "stablecoin",
         "mentions": 3
       },
@@ -91,10 +87,139 @@
       {
         "topic": "pow",
         "mentions": 3
+      },
+      {
+        "topic": "regulatory",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "JPMorgan cut Polymarket banking ties over regulatory concerns: Report",
+      "url": "https://cointelegraph.com/news/jpmorgan-debanked-polymarket-regulatory-concerns-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T08:53:42+00:00",
+      "summary": "JPMorgan Chase reportedly cut banking ties with Polymarket in October 2025 over regulatory concerns but remains open to an underwriting role if the platform goes public.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin slips below $63,000 as oil, yields climb",
+      "url": "https://www.coindesk.com/tech/2026/08/14/live-updates-bitcoin-slips-below-usd63-000-as-oil-yields-climb",
+      "published_at": "2026-08-14T08:51:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "yield"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto payments barely register among euro area merchants, ECB finds",
+      "url": "https://cointelegraph.com/news/ecb-survey-0-2-euro-area-companies-accept-crypto-online?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T08:22:54+00:00",
+      "summary": "Crypto acceptance was just 0.2% online and remained below 1% at physical points of sale, while mobile payments gained ground.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC cancels key crypto regulatory meeting",
+      "url": "https://cointelegraph.com/news/sec-cancels-crypto-regulatory-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T08:02:18+00:00",
+      "summary": "The SEC canceled a meeting on proposed crypto offering rules after the Senate left for recess without voting on the CLARITY Act.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "regulatory",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cluster of headwinds weigh on bitcoin. XRP teeters near $1",
+      "url": "https://www.coindesk.com/markets/2026/08/14/cluster-of-headwinds-weigh-on-bitcoin-xrp-teeters-near-usd1",
+      "published_at": "2026-08-14T07:14:37+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "XRP",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI’s new proposal",
+      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-holders-strategy-and-metaplanet-face-stock-index-exclusion-under-msci-s-new-proposal",
+      "published_at": "2026-08-14T06:20:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "dex",
+        "pos"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "JPMorgan shuttered its banking relationship with predictions platform Polymarket: FT",
@@ -1036,31 +1161,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin keeps traders guessing near $64K as stocks gain on cool US PPI data",
-      "url": "https://cointelegraph.com/markets/bitcoin-keeps-traders-guessing-near-64k-as-stocks-gain-on-cool-us-ppi-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T15:07:38+00:00",
-      "summary": "Bitcoin joined US stocks in modest gains after July PPI inflation data continued a cooling trend seen over the past month.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "gain",
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "inflation"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Crypto for Advisors: The crypto advice gap",
       "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
@@ -1075,114 +1175,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Nakamoto Posts First Positive Adjusted Operating Income, Despite $133M GAAP Net Loss",
-      "url": "https://bitcoinmagazine.com/news/nakamoto-posts-quarterly-results",
-      "published_at": "2026-08-13T14:57:04+00:00",
-      "summary": "Bitcoin Magazine\n\nNakamoto Posts First Positive Adjusted Operating Income, Despite $133M GAAP Net Loss\nThe company's first quarterly results are a turning point in the Bitcoin-native company. \nThis post Nakamoto Posts First Positive Adjusted Operating Income, Despite $133M GAAP Net Loss first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "positive"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "B2C2 taps Schroders veteran to chase Asia’s growing crypto wealth",
-      "url": "https://www.coindesk.com/business/2026/08/13/b2c2-taps-schroders-veteran-to-chase-asia-s-growing-crypto-wealth",
-      "published_at": "2026-08-13T14:43:38+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "FCA, HTX in Settlement Talks Over Illegal UK Crypto Promotions: Report",
-      "url": "https://decrypt.co/375551/fca-htx-in-settlement-talks-over-illegal-uk-crypto-promotions-report",
-      "published_at": "2026-08-13T14:31:56+00:00",
-      "summary": "An FCA employee bought crypto from a UK IP address using a driving license as ID, according to the regulator's claim.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Trezor shipping provider breach exposes personal data of nearly 14,000 customers",
-      "url": "https://www.theblock.co/news/business/2026-08-13-trezor-shipping-provider-breach-exposes-personal-data-nearly-14000-customers-411702",
-      "published_at": "2026-08-13T14:23:10+00:00",
-      "summary": "Trezor said a ShipMonk breach exposed the personal data of nearly 14,000 hardware wallet customers, including some shipping addresses.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin continues ranging as crowded longs meet soft inflation, the quietest tape since 2019: analysts",
-      "url": "https://www.theblock.co/news/markets/2026-08-13-bitcoin-continues-ranging-as-crowded-longs-meet-soft-inflation-the-quietest-tape-since-2019-analysts-411708",
-      "published_at": "2026-08-13T14:19:09+00:00",
-      "summary": "Bitcoin flattened under $64,000 as flat July PPI and in-line CPI both failed to spark a rally, with Glassnode flagging absent buyers.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": [
-          "failed"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "inflation"
-      ]
     }
   ]
 }
