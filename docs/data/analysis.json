@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-14T02:18:55.712824+00:00",
+  "generated_at": "2026-08-14T05:40:08.807921+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.02,
+    "market_sentiment_score": 0.025,
     "label_distribution": {
-      "bullish": 18,
-      "neutral": 37,
+      "neutral": 35,
+      "bullish": 20,
       "bearish": 15
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "coin": "Bitcoin",
@@ -28,7 +28,11 @@
       },
       {
         "coin": "SOL",
-        "mentions": 3
+        "mentions": 4
+      },
+      {
+        "coin": "Solana",
+        "mentions": 2
       },
       {
         "coin": "Ethereum",
@@ -37,10 +41,6 @@
       {
         "coin": "FIL",
         "mentions": 2
-      },
-      {
-        "coin": "Solana",
-        "mentions": 1
       },
       {
         "coin": "ADA",
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 33
       },
       {
         "topic": "pos",
@@ -62,7 +62,7 @@
       },
       {
         "topic": "sec",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "topic": "exchange",
@@ -73,6 +73,14 @@
         "mentions": 4
       },
       {
+        "topic": "etf",
+        "mentions": 3
+      },
+      {
+        "topic": "staking",
+        "mentions": 3
+      },
+      {
         "topic": "stablecoin",
         "mentions": 3
       },
@@ -81,20 +89,95 @@
         "mentions": 3
       },
       {
-        "topic": "fed",
-        "mentions": 3
-      },
-      {
         "topic": "pow",
-        "mentions": 3
-      },
-      {
-        "topic": "onchain",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "JPMorgan shuttered its banking relationship with predictions platform Polymarket: FT",
+      "url": "https://www.coindesk.com/markets/2026/08/14/jpmorgan-shuttered-its-banking-relationship-with-predictions-platform-polymarket-ft",
+      "published_at": "2026-08-14T05:04:52+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Neutrl pauses NUSD redemptions over undisclosed reserve issue",
+      "url": "https://cointelegraph.com/news/neutrl-pauses-nusd-redemptions-over-undisclosed-reserve-issue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T04:44:31+00:00",
+      "summary": "BA Labs had previously classified a proposed NUSD integration as higher risk because of its counterparty, operational and liquidity exposure.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "integration"
+        ],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "liquidity",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitwise mulls tokenizing its Solana staking ETF via Superstate partnership",
+      "url": "https://www.theblock.co/news/defi/2026-08-14-bitwise-tokenize-sol-staking-etf-411790",
+      "published_at": "2026-08-14T04:09:44+00:00",
+      "summary": "Shares held in tokenized form would carry the same rights as those in book-entry form, though not freely transferable outside the system.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "partnership"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "etf",
+        "staking"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Washington court orders Kalshi to halt most prediction market offerings in state",
+      "url": "https://www.theblock.co/news/regulation/2026-08-13-washington-court-orders-kalshi-411785",
+      "published_at": "2026-08-14T03:21:28+00:00",
+      "summary": "The Washington court, however, allows Kalshi to continue offering commodities, climate, economics and finance-related markets in the state.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "halt"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "Cointelegraph",
       "title": "Figure reports $4.3B in loan marketplace volume as profit nearly triples",
@@ -1100,87 +1183,6 @@
         "ai",
         "inflation"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Kalshi in talks with Sequoia, Wellington for $750 million fund raise at $40 billion valuation",
-      "url": "https://www.coindesk.com/business/2026/08/13/kalshi-in-talks-with-sequoia-wellington-for-usd750-million-fund-raise-at-usd40-billion-valuation",
-      "published_at": "2026-08-13T14:16:06+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ether.fi adds tokenized stocks, metals and Aave-powered portfolio loans in latest ‘neobank’ expansion",
-      "url": "https://www.theblock.co/news/defi/2026-08-13-ether-fi-adds-tokenized-stocks-metals-and-aave-powered-portfolio-loans-in-latest-neobank-expansion-411704",
-      "published_at": "2026-08-13T14:13:07+00:00",
-      "summary": "Etherfi noted its updated app is “less crypto-forward,” and aimed at attracting “a much broader audience.”",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "pow",
-        "rwa"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Ethereum DeFi Platform Ether.fi Adds Tokenized Stocks and Portfolio-Backed Loans",
-      "url": "https://decrypt.co/375529/ethereum-defi-etherfi-tokenized-stocks",
-      "published_at": "2026-08-13T14:01:03+00:00",
-      "summary": "The Ethereum staking platform is adding asset trading, fiat accounts, and borrowing through Aave as it pushes into crypto banking.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "defi",
-        "fiat",
-        "staking"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
-      "url": "https://www.coindesk.com/business/2026/08/13/swissquote-cuts-full-year-guidance-as-1h-crypto-income-plunges-shares-slide",
-      "published_at": "2026-08-13T13:41:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "plunges"
-        ]
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
