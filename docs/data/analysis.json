@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T20:48:45.379056+00:00",
+  "generated_at": "2026-08-14T02:18:55.712824+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.011,
+    "market_sentiment_score": 0.02,
     "label_distribution": {
       "bullish": 18,
-      "neutral": 35,
-      "bearish": 17
+      "neutral": 37,
+      "bearish": 15
     },
     "top_coins": [
       {
@@ -16,18 +16,22 @@
       },
       {
         "coin": "Bitcoin",
-        "mentions": 21
+        "mentions": 19
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "Near",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "SOL",
+        "mentions": 3
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
@@ -35,8 +39,8 @@
         "mentions": 2
       },
       {
-        "coin": "BTC",
-        "mentions": 2
+        "coin": "Solana",
+        "mentions": 1
       },
       {
         "coin": "ADA",
@@ -45,39 +49,27 @@
       {
         "coin": "Uniswap",
         "mentions": 1
-      },
-      {
-        "coin": "UNI",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 20
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 8
       },
       {
-        "topic": "fed",
+        "topic": "exchange",
         "mentions": 5
       },
       {
         "topic": "wallet",
-        "mentions": 4
-      },
-      {
-        "topic": "onchain",
-        "mentions": 4
-      },
-      {
-        "topic": "exchange",
         "mentions": 4
       },
       {
@@ -89,12 +81,252 @@
         "mentions": 3
       },
       {
-        "topic": "etf",
+        "topic": "fed",
+        "mentions": 3
+      },
+      {
+        "topic": "pow",
+        "mentions": 3
+      },
+      {
+        "topic": "onchain",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Figure reports $4.3B in loan marketplace volume as profit nearly triples",
+      "url": "https://cointelegraph.com/news/figure-q2-loan-marketplace-volume-profit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T02:06:37+00:00",
+      "summary": "Figure expects consumer loan marketplace volume to range from $4.8 billion to $5.2 billion in the third quarter.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ethereum Foundation pivots away from Poseidon in post-quantum plan",
+      "url": "https://cointelegraph.com/news/ethereum-foundation-drops-poseidon-post-quantum-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-13T23:34:56+00:00",
+      "summary": "Advances in compact proofs have erased Poseidon’s previous performance advantage, according to researcher Justin Drake.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. SEC to again delay 'innovation exemption' for tokenization amid Wall Street, White House concerns",
+      "url": "https://www.coindesk.com/policy/2026/08/13/u-s-sec-to-again-delay-innovation-exemption-for-tokenization-amid-wall-street-white-house-concerns",
+      "published_at": "2026-08-13T23:09:14+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "innovation"
+        ],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
+      "url": "https://decrypt.co/375609/bitcoin-burning-red-team-chinese-ai-kimi",
+      "published_at": "2026-08-13T22:36:07+00:00",
+      "summary": "Bitcoin Red Team member Calle said Chinese models, including Moonshot AI’s Kimi K3, are finding bugs across Bitcoin’s open-source software.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
+      "url": "https://www.coindesk.com/policy/2026/08/13/sec-cancels-long-awaited-proposal-of-reg-crypto-postponing-meeting-without-new-date",
+      "published_at": "2026-08-13T22:18:07+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anthropic's AI Agents Started a Virtual War. The Chat Logs Are Unhinged",
+      "url": "https://decrypt.co/375596/anthropic-ai-agents-virtual-war-quotes-unhinged",
+      "published_at": "2026-08-13T21:45:04+00:00",
+      "summary": "In a new red-team study, Claude models deployed self-replicating malware against each other—and the transcripts explain why.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin’s Bear Cycle Looks Familiar — And That Might Be the Bullish Case",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-bear-cycle-looks-looks-bullish",
+      "published_at": "2026-08-13T21:19:32+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin&#8217;s Bear Cycle Looks Familiar — And That Might Be the Bullish Case\nBitcoin is doing what it always has done, according to market observers. \nThis post Bitcoin&#8217;s Bear Cycle Looks Familiar — And That Might Be the Bullish Case first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish"
+        ],
+        "negative_hits": [
+          "bear"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Solana Can Be the 'Everything Chain' as Crypto Apps Go Mainstream: 6th Man Ventures Co-Founder",
+      "url": "https://decrypt.co/375605/solana-everything-chain-crypto-apps-mainstream",
+      "published_at": "2026-08-13T21:16:05+00:00",
+      "summary": "6th Man Ventures co-founder Mike Dudas says Solana’s infrastructure could carry crypto’s next wave.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Gemini shares slide after $108 million loss as Winklevoss says ‘we still have work to do’",
+      "url": "https://www.theblock.co/news/business/2026-08-13-gemini-shares-slide-108-million-loss-winklevoss-says-we-still-have-work-to-do-411775",
+      "published_at": "2026-08-13T21:15:23+00:00",
+      "summary": "Gemini’s prediction market volume nearly doubled as the exchange continued expanding beyond crypto trading.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "City of Baltimore goes after prediction markets for sports betting",
+      "url": "https://cointelegraph.com/news/baltimore-lawsuit-prediction-markets-kalshi-polymarket-sports-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-13T21:08:23+00:00",
+      "summary": "The city’s complaint over gambling laws and deceptive trade practices included Robinhood, Webull and Coinbase as partners with prediction market platform Kalshi.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether completes first full financial audit, receives clean KPMG opinion",
+      "url": "https://cointelegraph.com/news/tether-completes-first-full-financial-audit-receives-clean-kpmg-opinion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-13T20:43:12+00:00",
+      "summary": "KPMG’s audit covered Tether’s 2025 financial statements and found its reserves exceeded liabilities by $6.8 billion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "White House to Host Crypto Industry Execs Next Week: Report",
@@ -949,237 +1181,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto platform operator gets 15-year prison sentence in South Korea due to $50 million scam",
-      "url": "https://www.coindesk.com/business/2026/08/13/crypto-platform-operator-gets-15-year-prison-sentence-in-south-korea-due-to-usd50-million-scam",
-      "published_at": "2026-08-13T13:37:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "scam"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Figure revenue doubles as blockchain loan marketplace volumes surge",
-      "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
-      "published_at": "2026-08-13T13:29:28+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitmine’s $257M annualized staking income ‘fills’ operational gaps, share buybacks: analysts",
-      "url": "https://cointelegraph.com/news/bitmines-257m-staking-income-operational-gaps-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T13:14:48+00:00",
-      "summary": "Bitmine’s Ether staking revenue is an important financial buffer that fills financial gaps and provides recurring revenue streams beyond Ether’s price appreciation, analysts told Cointelegraph.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "FIL",
-        "OP"
-      ],
-      "topics": [
-        "staking"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Peter Thiel-backed Bullish posts $280 million Q2 net loss as digital asset sales fall 44%",
-      "url": "https://www.theblock.co/news/business/2026-08-13-peter-thiel-backed-bullish-posts-280-million-q2-net-loss-as-digital-asset-sales-fall-44-411695",
-      "published_at": "2026-08-13T13:10:53+00:00",
-      "summary": "Peter Thiel-backed crypto exchange Bullish reported a $280 million Q2 net loss as digital asset sales fell 44% and adjusted revenue rose 62%.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": [
-          "fall",
-          "fell",
-          "loss"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Trezor Customer Data Exposed in Shipping Partner Breach",
-      "url": "https://decrypt.co/375556/trezor-customer-data-exposed-in-shipping-partner-breach",
-      "published_at": "2026-08-13T13:10:43+00:00",
-      "summary": "The hardware wallet manufacturer says its devices and backups are untouched, but the leak hands attackers valuable customer data.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "XRP Holders Can Now Trade Options Using Flare’s FXRP as Collateral",
-      "url": "https://decrypt.co/375526/xrp-holders-trade-options-flare-fxrp-collateral",
-      "published_at": "2026-08-13T13:01:05+00:00",
-      "summary": "The Derive integration gives XRP holders a way to hedge or speculate without depositing their tokens with a centralized exchange.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "integration"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP",
-        "OP"
-      ],
-      "topics": [
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MUFG PoC to bring Japanese government bond repo transactions onchain",
-      "url": "https://cointelegraph.com/news/mufg-bring-japanese-government-bond-repo-transactions-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T13:00:37+00:00",
-      "summary": "MUFG’s experiment plans to bring Japanese government bond repo transactions onchain to achieve 24/7 settlement, as well as improved capital and operational efficiency.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bullish shares surge 14% as subscription revenue offsets digital asset slowdown",
-      "url": "https://www.coindesk.com/business/2026/08/13/bullish-reports-usd280-million-q2-net-loss-as-crypto-trading-slows",
-      "published_at": "2026-08-13T12:09:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: The SEC Plans Rules for Tokenized Stocks",
-      "url": "https://decrypt.co/375547/morning-minute-the-sec-plans-rules-for-tokenized-stocks",
-      "published_at": "2026-08-13T11:53:17+00:00",
-      "summary": "The new framework could be announced as soon as Friday, in what could be the biggest development for crypto this year.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "SEC allows Franklin Templeton funds to invest in onchain money fund",
-      "url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-13T11:48:37+00:00",
-      "summary": "The SEC said it will not pursue enforcement action if Franklin Templeton’s funds start investing cash in the asset manager’s own tokenized money market fund.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Twitch Turns On Amazon AI Training by Default: 'Nobody Would Opt In'",
-      "url": "https://decrypt.co/375535/twitch-turns-on-amazon-ai-training-by-default-nobody-would-opt-in",
-      "published_at": "2026-08-13T11:42:27+00:00",
-      "summary": "Twitch's chief product officer says he does not know whether content had already been used for training before the setting appeared.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
     }
   ]
 }
