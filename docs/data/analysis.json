@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-15T08:34:23.717721+00:00",
+  "generated_at": "2026-08-15T12:44:47.406603+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.007,
+    "market_sentiment_score": 0.009,
     "label_distribution": {
+      "bearish": 15,
       "neutral": 40,
-      "bullish": 15,
-      "bearish": 15
+      "bullish": 15
     },
     "top_coins": [
       {
@@ -20,15 +20,19 @@
       },
       {
         "coin": "ETH",
-        "mentions": 12
+        "mentions": 14
       },
       {
         "coin": "SOL",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "Solana",
         "mentions": 6
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 4
       },
       {
         "coin": "Binance",
@@ -36,10 +40,6 @@
       },
       {
         "coin": "Near",
-        "mentions": 3
-      },
-      {
-        "coin": "Ethereum",
         "mentions": 3
       },
       {
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "pos",
-        "mentions": 24
+        "mentions": 22
       },
       {
         "topic": "ai",
@@ -66,10 +66,10 @@
       },
       {
         "topic": "sec",
-        "mentions": 8
+        "mentions": 7
       },
       {
-        "topic": "exchange",
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
@@ -81,20 +81,84 @@
         "mentions": 3
       },
       {
-        "topic": "staking",
-        "mentions": 3
-      },
-      {
         "topic": "dex",
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
+        "topic": "exchange",
         "mentions": 3
+      },
+      {
+        "topic": "yield",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Wall Street's private blockchain obsession is a 'race to the bottom,' Ethereum advocate Raman warns",
+      "url": "https://www.coindesk.com/business/2026/08/15/wall-street-s-private-blockchain-obsession-is-a-race-to-the-bottom-ethereum-advocate-raman-warns",
+      "published_at": "2026-08-15T12:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kalshi ordered to stop broad range of prediction markets in Washington",
+      "url": "https://cointelegraph.com/news/kalshi-stop-prediction-market-contracts-washington?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-15T10:44:52+00:00",
+      "summary": "Kalshi must implement initial geofencing by Aug. 19 and a GeoComply multi-source geofencing system by Sept. 2.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Galaxy lowers CLARITY Act odds to 10%",
+      "url": "https://cointelegraph.com/news/galaxy-lowers-clarity-act-odds-10?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-15T08:40:59+00:00",
+      "summary": "Galaxy cited unresolved ethics, stablecoin yield and developer protection issues, along with a narrow Senate window when lawmakers return in September.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "stablecoin",
+        "yield"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
@@ -1080,34 +1144,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Gemini posts $108M Q2 net loss despite 37% revenue growth",
-      "url": "https://cointelegraph.com/news/gemini-45m-q2-revenue-financial-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-14T12:02:08+00:00",
-      "summary": "Credit card and staking revenue drove Gemini’s services growth in Q2 as exchange revenue fell 38% and trading volume dropped by two-thirds.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": [
-          "dropped",
-          "fell",
-          "loss"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "exchange",
-        "pos",
-        "staking"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Morning Minute: Tether Finally Gets An Audit",
       "url": "https://decrypt.co/375625/morning-minute-tether-finally-gets-an-audit",
@@ -1148,40 +1184,6 @@
       "coins": [
         "Bitcoin"
       ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Shinhan Asset Management partners with Plume on tokenized fund pilot",
-      "url": "https://cointelegraph.com/news/shinhan-partners-plume-tokenized-fund-experiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-14T11:23:28+00:00",
-      "summary": "Shinhan Asset Management and Plume will test a tokenized fund using a Korean won-denominated ultra-short-term bond fund as its underlying asset.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Trump family's World Liberty Financial delay plans to sell Maldives resort token",
-      "url": "https://www.coindesk.com/business/2026/08/14/trump-family-s-world-liberty-financial-delay-plans-to-sell-maldives-resort-token",
-      "published_at": "2026-08-14T11:07:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [],
       "topics": []
     }
   ]
