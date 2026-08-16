@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T16:30:09.698240+00:00",
+  "generated_at": "2026-08-16T20:27:28.598411+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.02,
+    "market_sentiment_score": 0.018,
     "label_distribution": {
-      "neutral": 36,
+      "neutral": 37,
       "bearish": 15,
-      "bullish": 19
+      "bullish": 18
     },
     "top_coins": [
       {
@@ -39,26 +39,26 @@
         "mentions": 4
       },
       {
+        "coin": "Near",
+        "mentions": 3
+      },
+      {
         "coin": "LINK",
         "mentions": 3
       },
       {
         "coin": "Solana",
         "mentions": 3
-      },
-      {
-        "coin": "Near",
-        "mentions": 2
       }
     ],
     "top_topics": [
       {
-        "topic": "pos",
+        "topic": "ai",
         "mentions": 21
       },
       {
-        "topic": "ai",
-        "mentions": 20
+        "topic": "pos",
+        "mentions": 21
       },
       {
         "topic": "etf",
@@ -74,7 +74,7 @@
       },
       {
         "topic": "wallet",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "topic": "yield",
@@ -95,6 +95,46 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "The SEC meeting that wasn't: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
+      "published_at": "2026-08-16T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Wallet provider SafePal says data breach exposed personal info of nearly 40,000 customers",
+      "url": "https://www.theblock.co/news/business/2026-08-16-wallet-provider-safepal-says-data-breach-exposed-personal-info-of-nearly-40000-customers-411934",
+      "published_at": "2026-08-16T17:18:38+00:00",
+      "summary": "SafePal said it found the root cause of the breach recently, though customers had posted online about being targeted by phishing attempts as early as July.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "wallet"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn’t Dumb Anymore",
@@ -1104,47 +1144,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "OpenAI Staff Blame Rush to Ship for Rogue Agent Hack",
-      "url": "https://decrypt.co/375670/openai-staff-blame-rush-ship-rogue-agent-hack",
-      "published_at": "2026-08-14T18:31:03+00:00",
-      "summary": "Current and former OpenAI employees reportedly say pressure to release new AI products made it harder to prioritize safety.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push",
-      "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
-      "published_at": "2026-08-14T17:48:04+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec",
-        "tokenization"
-      ]
     }
   ]
 }
