@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-17T16:32:14.795375+00:00",
+  "generated_at": "2026-08-17T20:31:19.022086+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.013,
+    "market_sentiment_score": -0.018,
     "label_distribution": {
+      "bearish": 16,
       "neutral": 37,
-      "bullish": 17,
-      "bearish": 16
+      "bullish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 15
+        "mentions": 13
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "Near",
@@ -31,70 +31,375 @@
         "mentions": 5
       },
       {
-        "coin": "FIL",
-        "mentions": 4
+        "coin": "Binance",
+        "mentions": 3
       },
       {
         "coin": "BTC",
         "mentions": 3
       },
       {
+        "coin": "SOL",
+        "mentions": 2
+      },
+      {
         "coin": "Monero",
         "mentions": 2
       },
       {
-        "coin": "Binance",
-        "mentions": 2
-      },
-      {
-        "coin": "UNI",
+        "coin": "FIL",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 17
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 11
       },
       {
         "topic": "wallet",
-        "mentions": 6
+        "mentions": 5
+      },
+      {
+        "topic": "dai",
+        "mentions": 4
       },
       {
         "topic": "etf",
         "mentions": 4
       },
       {
+        "topic": "stablecoin",
+        "mentions": 3
+      },
+      {
+        "topic": "regulation",
+        "mentions": 3
+      },
+      {
         "topic": "miner",
         "mentions": 3
       },
       {
-        "topic": "dai",
-        "mentions": 2
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 2
-      },
-      {
-        "topic": "miners",
-        "mentions": 2
-      },
-      {
-        "topic": "defi",
+        "topic": "pow",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "OpenAI’s Answer to Rogue Agents and Hacks Is More AI, Not Less",
+      "url": "https://decrypt.co/375816/openai-answer-rogue-agents-hacks-more-ai",
+      "published_at": "2026-08-17T19:59:18+00:00",
+      "summary": "OpenAI President Greg Brockman's new essay cites his company's own hack of Hugging Face to push urgent AI-powered defense.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "IREN delivers first of four AI cloud deployments to Microsoft under $9.7 billion deal",
+      "url": "https://www.theblock.co/news/business/2026-08-17-iren-delivers-first-four-ai-cloud-deployments-microsoft-under-9-7-billion-deal-412016",
+      "published_at": "2026-08-17T19:54:52+00:00",
+      "summary": "IREN is targeting 480 MW of AI cloud capacity in 2026 and 1.2 gigawatts by 2027 as it continues to pivot away from bitcoin mining.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "mining"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "XRP Price Holds to Near Two-Year Streak, But Charts Flash a Warning Sign",
+      "url": "https://decrypt.co/375794/xrp-price-two-year-streak-charts-flash-warning",
+      "published_at": "2026-08-17T19:01:56+00:00",
+      "summary": "XRP is clinging to the dollar price line it's defended since Trump's 2024 win. But both the daily and weekly charts are now flashing red.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "win"
+        ],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [
+        "XRP",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "dai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Saylor says share buyback isn’t priority as Strategy builds $4.8 billion cash reserve",
+      "url": "https://www.coindesk.com/markets/2026/08/17/saylor-says-share-buyback-isn-t-a-priority-as-it-builds-its-usd4-8-billion-cash-reserve-though-a-possibility",
+      "published_at": "2026-08-17T18:53:47+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance to plan UK relaunch with FCA license application: Report",
+      "url": "https://cointelegraph.com/news/binance-uk-launch-plans-fca-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-17T18:45:00+00:00",
+      "summary": "Binance’s UK arm has been barred from offering regulated activities in the country since June 2021, but the company will reportedly move to secure licensing under new crypto rules.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "secure"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Solana’s Pump Token Leads Crypto Market Gainers as Chart Paints Golden Cross",
+      "url": "https://decrypt.co/375788/solana-pump-price-crypto-market-golden-cross",
+      "published_at": "2026-08-17T18:29:56+00:00",
+      "summary": "The native token of Solana's Pump.fun is up 8%, and the pattern bulls have been waiting for is starting to form on the daily chart.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "leads"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "dai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ethereum Developers Target Privacy Changes in Next Major Upgrade",
+      "url": "https://decrypt.co/375787/ethereum-developers-privacy-hegota-upgrade",
+      "published_at": "2026-08-17T18:19:46+00:00",
+      "summary": "A proposed package would let privacy pools pay their own transaction fees without relying on intermediaries.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Investors Cash Out Fast of Bitcoin ETFs but Price Remains Stable",
+      "url": "https://bitcoinmagazine.com/news/investors-cash-out-of-bitcoin-etfs",
+      "published_at": "2026-08-17T18:04:52+00:00",
+      "summary": "Bitcoin Magazine\n\nInvestors Cash Out Fast of Bitcoin ETFs but Price Remains Stable\nThe Bitcoin investment vehicles were on a hot streak but investor sentiment last week changed. \nThis post Investors Cash Out Fast of Bitcoin ETFs but Price Remains Stable first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin production slips again in July for CleanSpark, BitFuFu and Canaan",
+      "url": "https://www.theblock.co/news/business/2026-08-17-bitcoin-production-slips-again-july-cleanspark-bitfufu-canaan-411985",
+      "published_at": "2026-08-17T17:13:59+00:00",
+      "summary": "CleanSpark is up 6.4% year to date, while BitFuFu and Canaan have fallen more than 50% and 70%, respectively.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC seeks public input on AI compute futures contracts as CME eyes October launch",
+      "url": "https://cointelegraph.com/news/cftc-ai-compute-futures-cme-october-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-17T17:11:39+00:00",
+      "summary": "The regulatory review could shape an emerging market that lets companies and investors trade and hedge the cost of increasingly scarce AI computing power.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc",
+        "futures",
+        "pow",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "US Treasury seeks public comment on GENIUS Act stablecoin rules",
+      "url": "https://www.theblock.co/news/regulation/2026-08-17-us-treasury-seeks-public-comment-genius-act-stablecoin-rules-411987",
+      "published_at": "2026-08-17T16:40:26+00:00",
+      "summary": "Under the law, entities generally cannot issue payment stablecoins in the U.S. without obtaining an appropriate federal or state license.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
+      "url": "https://www.coindesk.com/business/2026/08/17/bitmart-founder-dismisses-calls-for-audit-as-users-report-blocked-funds-unpaid-employees",
+      "published_at": "2026-08-17T16:40:08+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "US Treasury Asks For Public Input on Landmark Genius Act Crypto Legislation",
+      "url": "https://bitcoinmagazine.com/news/us-treasury-asks-for-input-on-genius-act",
+      "published_at": "2026-08-17T16:36:51+00:00",
+      "summary": "Bitcoin Magazine\n\nUS Treasury Asks For Public Input on Landmark Genius Act Crypto Legislation \nThe U.S. Department of the Treasury is moving fast with crypto regulation, with the government body asking for public comment on the landmark GENIUS Act.&#160; In a Monday announcement, the Treasury said that it was welcoming input from stakeholders on a proposed rule that would provide clarity to industry regarding who needs a license to [&#8230;]\nThis post US Treasury Asks For Public Input on Land...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US Treasury moves forward with rules on GENIUS Act after July deadline",
+      "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-17T16:29:48+00:00",
+      "summary": "The stablecoin bill signed into law last year is scheduled to go into effect in January 2027, potentially without finalized regulations from US government agencies.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "regulation",
+        "rwa",
+        "stablecoin"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Wall Street Pushback Halts SEC's Crypto Fundraising Framework, Sources Say",
@@ -861,296 +1166,6 @@
       "topics": [
         "pos",
         "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance handed user data to Russia that led to a Ukrainian donor's arrest",
-      "url": "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
-      "published_at": "2026-08-17T09:16:14+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
-      "published_at": "2026-08-17T09:13:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin rises above $64,000 as big AI compute deals continue to roll in",
-      "url": "https://www.coindesk.com/markets/2026/08/17/live-updates-bitcoin-flat-near-usd63-500-but-the-flows-have-quietly-turned",
-      "published_at": "2026-08-17T08:38:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitMart account demands founder explain funds status, Xia calls claims ‘fabricated’",
-      "url": "https://cointelegraph.com/news/bitmart-account-founder-explain-repayment-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-17T08:30:00+00:00",
-      "summary": "BitMart’s Chinese-language X account demanded an Aug. 19 repayment plan, while Sheldon Xia called its claims of blocked withdrawals and non-payment of salaries “fabricated rumors.”",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Greenlane’s $70M BERA treasury ends Q2 valued at $16M",
-      "url": "https://cointelegraph.com/news/greenlane-70m-bera-treasury-valued-16m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-17T05:52:55+00:00",
-      "summary": "Greenlane recorded a $19.1 million noncash valuation loss as BERA’s price fell nearly 76% year to date.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell",
-          "loss"
-        ]
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Chainalysis sues US over $95M ICE contract with TRM Labs",
-      "url": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-17T03:42:48+00:00",
-      "summary": "The sealed complaint leaves Chainalysis’ specific objections and requested remedy undisclosed as briefing continues.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Data of 54,000 wallet users leaked, CLARITY odds just 10%: Hodler’s Digest",
-      "url": "https://cointelegraph.com/magazine/data-of-54000-wallet-users-leaked-clarity-odds-just-10-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-16T23:54:50+00:00",
-      "summary": "Owners of Trezor and SafePal crypto wallets at high risk of phishing attempts after separate data leaks, CLARITY odds at 10% despite White House meeting this week.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Prediction market Novig sues Wisconsin AG in latest spat over sports contracts",
-      "url": "https://www.theblock.co/news/business/2026-08-16-prediction-market-novig-sues-wisconsin-ag-in-latest-spat-over-sports-contracts-411938",
-      "published_at": "2026-08-16T21:40:20+00:00",
-      "summary": "Novig, which recently announced a partnership with the New York Mets, has sued officials in five states including Wisconsin since Aug. 4.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "partnership"
-        ],
-        "negative_hits": [
-          "sued"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Wallet provider SafePal says data breach exposed personal info of nearly 40,000 customers",
-      "url": "https://www.theblock.co/news/business/2026-08-16-wallet-provider-safepal-says-data-breach-exposed-personal-info-of-nearly-40000-customers-411934",
-      "published_at": "2026-08-16T17:18:38+00:00",
-      "summary": "SafePal said it found the root cause of the breach recently, though customers had posted online about being targeted by phishing attempts as early as July.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn’t Dumb Anymore",
-      "url": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
-      "published_at": "2026-08-16T16:00:05+00:00",
-      "summary": "Three weeks after a Flash release that couldn't produce a working file, Google's budget tier zero-shots a playable game. It still can't reason, and a free 27B model still writes better.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Hackers exploited macOS Screen Sharing flaw to install Monero miners, Dutch cyber agency says",
-      "url": "https://www.theblock.co/news/defi/2026-08-16-hackers-exploited-macos-screen-sharing-flaw-to-install-monero-miners-dutch-cyber-agency-says-411932",
-      "published_at": "2026-08-16T15:07:00+00:00",
-      "summary": "U.S. officials rated the severity of the vulnerability a critical 9.8/10 on the CVSS scale, and experts are warning users to update their devices.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploited",
-          "warning"
-        ]
-      },
-      "coins": [
-        "Monero"
-      ],
-      "topics": [
-        "miner",
-        "miners"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
-      "url": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
-      "published_at": "2026-08-16T14:01:03+00:00",
-      "summary": "A California bill is awaiting an Assembly vote to \"place guardrails\" around AI chatbots and prevent them from acting as therapists.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "banned"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
-      "url": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-16T12:48:09+00:00",
-      "summary": "DefiLlama’s founder said Apple removed one fake app within days after the company documented it draining funds from a small crypto wallet.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ethereum devs to narrow 66 proposals tied to Hegotá upgrade",
-      "url": "https://cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-16T11:12:51+00:00",
-      "summary": "The Hegotá upgrade aims to introduce more native privacy for Ethereum applications.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
       ]
     }
   ]
