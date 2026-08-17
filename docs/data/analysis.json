@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-16T20:27:28.598411+00:00",
+  "generated_at": "2026-08-17T01:36:07.420475+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.018,
+    "market_sentiment_score": 0.011,
     "label_distribution": {
+      "bearish": 16,
       "neutral": 37,
-      "bearish": 15,
-      "bullish": 18
+      "bullish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 26
       },
       {
         "coin": "OP",
@@ -20,14 +20,10 @@
       },
       {
         "coin": "ETH",
-        "mentions": 13
+        "mentions": 11
       },
       {
         "coin": "SOL",
-        "mentions": 6
-      },
-      {
-        "coin": "Ethereum",
         "mentions": 5
       },
       {
@@ -39,6 +35,10 @@
         "mentions": 4
       },
       {
+        "coin": "Ethereum",
+        "mentions": 4
+      },
+      {
         "coin": "Near",
         "mentions": 3
       },
@@ -47,8 +47,8 @@
         "mentions": 3
       },
       {
-        "coin": "Solana",
-        "mentions": 3
+        "coin": "ADA",
+        "mentions": 2
       }
     ],
     "top_topics": [
@@ -58,11 +58,15 @@
       },
       {
         "topic": "pos",
-        "mentions": 21
+        "mentions": 20
       },
       {
         "topic": "etf",
         "mentions": 7
+      },
+      {
+        "topic": "wallet",
+        "mentions": 6
       },
       {
         "topic": "stablecoin",
@@ -70,10 +74,6 @@
       },
       {
         "topic": "sec",
-        "mentions": 5
-      },
-      {
-        "topic": "wallet",
         "mentions": 5
       },
       {
@@ -95,6 +95,46 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Data of 54,000 wallet users leaked, CLARITY odds just 10%: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/data-of-54000-wallet-users-leaked-clarity-odds-just-10-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-16T23:54:50+00:00",
+      "summary": "Owners of Trezor and SafePal crypto wallets at high risk of phishing attempts after separate data leaks, CLARITY odds at 10% despite White House meeting this week.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Prediction market Novig sues Wisconsin AG in latest spat over sports contracts",
+      "url": "https://www.theblock.co/news/business/2026-08-16-prediction-market-novig-sues-wisconsin-ag-in-latest-spat-over-sports-contracts-411938",
+      "published_at": "2026-08-16T21:40:20+00:00",
+      "summary": "Novig, which recently announced a partnership with the New York Mets, has sued officials in five states including Wisconsin since Aug. 4.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "partnership"
+        ],
+        "negative_hits": [
+          "sued"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "CoinDesk",
       "title": "The SEC meeting that wasn't: State of Crypto",
@@ -1093,57 +1133,6 @@
         "defi",
         "yield"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Dartmouth endowment’s crypto exposure drops by $2M amid falling prices",
-      "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-btc-eth-sol-dropped?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-14T18:57:04+00:00",
-      "summary": "The value of the university endowment’s holdings in the Bitwise Solana staking ETF, Grayscale Ethereum staking ETF and BlackRock’s iShares Bitcoin ETF dropped to about $12 million.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "dropped",
-          "drops"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL",
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "etf",
-        "pos",
-        "staking"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Kraken parent Payward revenue rises 17% as trading volume falls in Q2",
-      "url": "https://cointelegraph.com/news/kraken-parent-payward-revenue-rises-as-trading-volume-falls-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-14T18:44:21+00:00",
-      "summary": "Payward grew revenue despite weaker crypto spot activity, as funded accounts jumped 42% and a growing share of revenue came from outside transaction-based activity.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": [
-          "falls"
-        ]
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
