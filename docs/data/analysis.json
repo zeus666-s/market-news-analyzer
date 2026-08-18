@@ -1,68 +1,68 @@
 {
-  "generated_at": "2026-08-18T04:39:38.797208+00:00",
+  "generated_at": "2026-08-18T08:41:27.411821+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.025,
     "label_distribution": {
-      "neutral": 36,
-      "bullish": 18,
-      "bearish": 16
+      "bearish": 19,
+      "bullish": 20,
+      "neutral": 31
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 20
       },
       {
         "coin": "ETH",
+        "mentions": 9
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 7
       },
       {
         "coin": "Near",
-        "mentions": 5
+        "mentions": 4
       },
       {
-        "coin": "Ethereum",
-        "mentions": 5
+        "coin": "Ripple",
+        "mentions": 3
       },
       {
         "coin": "Binance",
-        "mentions": 4
+        "mentions": 3
       },
       {
         "coin": "BTC",
         "mentions": 3
       },
       {
+        "coin": "XRP",
+        "mentions": 2
+      },
+      {
         "coin": "SOL",
-        "mentions": 2
-      },
-      {
-        "coin": "Monero",
-        "mentions": 2
-      },
-      {
-        "coin": "ADA",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "topic": "sec",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "stablecoin",
@@ -73,11 +73,7 @@
         "mentions": 4
       },
       {
-        "topic": "pow",
-        "mentions": 3
-      },
-      {
-        "topic": "etf",
+        "topic": "wallet",
         "mentions": 3
       },
       {
@@ -85,16 +81,255 @@
         "mentions": 3
       },
       {
-        "topic": "wallet",
+        "topic": "pow",
         "mentions": 3
       },
       {
-        "topic": "miner",
-        "mentions": 3
+        "topic": "defi",
+        "mentions": 2
+      },
+      {
+        "topic": "rwa",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin holds $64,000 as surging yields and oil drain risk appetite",
+      "url": "https://www.coindesk.com/tech/2026/08/18/live-updates-bitcoin-holds-usd64-000-as-surging-yields-and-oil-drain-risk-appetite",
+      "published_at": "2026-08-18T08:16:11+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "yield"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BitBox patches ‘severe’ wallet flaws that could put funds at risk",
+      "url": "https://cointelegraph.com/news/bitbox-patches-severe-wallet-firmware-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-18T08:07:04+00:00",
+      "summary": "BitBox recommended all users update to firmware version 9.26.5 and said it had received no reports of exploitation or fund losses.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses",
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kraken brings US stock trading to European Economic Area customers",
+      "url": "https://www.theblock.co/news/business/2026-08-18-kraken-us-stock-trading-europe-economic-area-412027",
+      "published_at": "2026-08-18T08:00:02+00:00",
+      "summary": "Kraken has launched US stock trading for eligible customers across all European Economic Area member countries.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Cathie Wood’s Ark Invest scoops up $15 million in Block Inc shares as stock dips 3%",
+      "url": "https://www.theblock.co/news/markets/2026-08-18-cathie-wood-ark-invest-15-million-block-inc-412060",
+      "published_at": "2026-08-18T07:37:40+00:00",
+      "summary": "The firm also bought $1 million worth of Securitize shares, which fell over 20% last week following disappointing Q2 results.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ripple partners with South Korea’s Jeonbuk Bank for cross-border payments",
+      "url": "https://www.theblock.co/news/business/2026-08-18-ripple-south-korea-jeonbuk-bank-412049",
+      "published_at": "2026-08-18T06:17:53+00:00",
+      "summary": "The Jeonbuk Bank collaboration marked Ripple's third Korean partnership this year, following those with Kyobo Life Insurance and Kbank.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "partnership"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-18T06:09:35+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "The bitcoin price level where leveraged bulls could get whacked",
+      "url": "https://www.coindesk.com/markets/2026/08/18/the-bitcoin-price-level-where-leveraged-bulls-could-get-whacked",
+      "published_at": "2026-08-18T05:55:43+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "XRP sinks below $1 for first time since 2024 even as Korean bank adopts Ripple Payments",
+      "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments",
+      "published_at": "2026-08-18T05:34:32+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple",
+        "XRP",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Upbit and Bithumb report 50% declines in H1 revenue, reflecting market contraction",
+      "url": "https://www.theblock.co/news/markets/2026-08-18-upbit-bithumb-h1-decline-412034",
+      "published_at": "2026-08-18T05:30:25+00:00",
+      "summary": "Investor capital in South Korea largely shifted toward domestic equities, with the benchmark KOSPI more than doubling in H1 2026.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "declines"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Monad, an Ethereum rival, offered early investors up to $60 million to cash out. Almost all said no",
+      "url": "https://www.coindesk.com/markets/2026/08/18/monad-an-ethereum-rival-offered-early-investors-up-to-usd60-million-to-cash-out-almost-all-said-no",
+      "published_at": "2026-08-18T05:18:18+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ethereum Foundation warns some tools may break with Glamsterdam upgrade",
+      "url": "https://cointelegraph.com/news/ethereum-foundation-warns-some-tools-may-break-with-glamsterdam-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-18T05:12:18+00:00",
+      "summary": "Developers have been urged to test on Plataberget before Glamsterdam’s new gas model reaches Ethereum’s other testnets and mainnet.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "mainnet",
+        "testnet"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin climbs above $64,000 while most majors slip",
@@ -941,237 +1176,6 @@
       "coins": [
         "Ethereum",
         "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "How a bug in Coldcard’s code went unnoticed for years, leading to $100 million in hacked funds",
-      "url": "https://www.coindesk.com/tech/2026/08/17/how-a-bug-in-coldcard-s-code-went-unnoticed-for-years-leading-to-usd100-million-in-hacked-funds",
-      "published_at": "2026-08-17T13:57:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "leading"
-        ],
-        "negative_hits": [
-          "hacked"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bitmine adds 9,926 ETH, taking total holdings to roughly $11 billion",
-      "url": "https://www.theblock.co/news/business/2026-08-17-bitmine-adds-9926-eth-taking-total-holdings-to-roughly-11-billion-411968",
-      "published_at": "2026-08-17T13:53:11+00:00",
-      "summary": "Bitmine added 9,926 ETH last week, taking holdings to 5.82 million tokens while buybacks reached 20.8 million shares since July.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Hackers Are Abusing a macOS Screen Sharing Flaw to Secretly Mine Monero",
-      "url": "https://decrypt.co/375749/hackers-macos-screen-sharing-secretly-mine-monero",
-      "published_at": "2026-08-17T13:31:04+00:00",
-      "summary": "The Dutch cyber agency says attackers exploited an authentication flaw in macOS Screen Sharing to gain root access and plant Monero miners, with public proof-of-concept code now circulating.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": [
-          "exploited"
-        ]
-      },
-      "coins": [
-        "Monero"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "miners",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-17T13:20:20+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Trump To Meet Crypto, Prediction Market CEOs This Week",
-      "url": "https://decrypt.co/375760/morning-minute-trump-to-meet-crypto-prediction-market-ceos-this-week",
-      "published_at": "2026-08-17T13:03:17+00:00",
-      "summary": "The meeting comes while progress on the Clarity Act has been delayed and the SEC's latest rulemaking postponed.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Austria’s FMA fines crypto broker Bitpanda $81,000 in first published MiCA penalty",
-      "url": "https://www.theblock.co/news/regulation/2026-08-17-austria-mica-penalty-bitpanda-411960",
-      "published_at": "2026-08-17T13:03:16+00:00",
-      "summary": "Austria's FMA fined Bitpanda €70,000 in its first published MiCA penalty, citing white paper and marketing disclosure failures.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Strategy Leaves Bitcoin Untouched, Raises $334M Selling MSTR Stock",
-      "url": "https://decrypt.co/375762/strategy-leaves-bitcoin-untouched-raises-334m-selling-mstr-stock",
-      "published_at": "2026-08-17T12:56:55+00:00",
-      "summary": "The Bitcoin treasury firm halted BTC sales after three weeks, with equity issuance covering dividends, a STRC buyback and the dollar reserve.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "halted",
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy raises $334M through stock sales but buys no Bitcoin",
-      "url": "https://cointelegraph.com/news/strategy-stock-sales-buys-no-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-17T12:51:03+00:00",
-      "summary": "Proceeds funded STRC dividends and repurchases, while $149.1 million was added to Strategy’s US dollar reserve, which reached $4.8 billion.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Harmony plans rollback, wiping 109,000 transactions after ONE exploit",
-      "url": "https://cointelegraph.com/news/harmony-plans-rollback-transactions-one-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-17T12:31:36+00:00",
-      "summary": "Harmony said selectively restoring transactions could create inconsistent chain state, as Ravencoin faces a separate rollback dispute after an exploit.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Pirated Copies of 'The Odyssey' Are Hiding Crypto-Stealing Malware",
-      "url": "https://decrypt.co/375747/pirated-copies-odyssey-hiding-crypto-stealing-malware",
-      "published_at": "2026-08-17T12:31:04+00:00",
-      "summary": "Bitdefender says fake downloads of the newly released blockbuster are already spreading Lumma Stealer, malware that scrapes crypto wallets, passwords and browser sessions from infected machines.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "No change in bitcoin holdings as Strategy boosted dollar reserve, bought back more STRC last week",
-      "url": "https://www.coindesk.com/markets/2026/08/17/no-change-in-bitcoin-holdings-as-strategy-lifted-dollar-reserve-and-bought-back-more-strc-last-week",
-      "published_at": "2026-08-17T12:19:45+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "boosted"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
       ],
       "topics": []
     }
