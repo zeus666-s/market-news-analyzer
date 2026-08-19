@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T12:54:43.354048+00:00",
+  "generated_at": "2026-08-19T16:35:42.072101+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.016,
+    "market_sentiment_score": 0.043,
     "label_distribution": {
-      "neutral": 38,
-      "bearish": 14,
-      "bullish": 18
+      "neutral": 34,
+      "bullish": 20,
+      "bearish": 16
     },
     "top_coins": [
       {
@@ -16,72 +16,72 @@
       },
       {
         "coin": "OP",
-        "mentions": 19
-      },
-      {
-        "coin": "SOL",
-        "mentions": 6
+        "mentions": 22
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
-        "coin": "Ripple",
-        "mentions": 4
-      },
-      {
-        "coin": "UNI",
-        "mentions": 4
-      },
-      {
-        "coin": "Solana",
+        "coin": "Near",
         "mentions": 4
       },
       {
         "coin": "BTC",
-        "mentions": 4
+        "mentions": 3
       },
       {
-        "coin": "Tron",
+        "coin": "SOL",
         "mentions": 3
       },
       {
         "coin": "Ethereum",
-        "mentions": 3
+        "mentions": 2
+      },
+      {
+        "coin": "FIL",
+        "mentions": 2
+      },
+      {
+        "coin": "Ripple",
+        "mentions": 2
+      },
+      {
+        "coin": "Tron",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 9
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 6
+        "mentions": 11
       },
       {
         "topic": "liquidity",
-        "mentions": 5
-      },
-      {
-        "topic": "mining",
-        "mentions": 3
-      },
-      {
-        "topic": "wallet",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "topic": "yield",
+        "mentions": 4
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 4
+      },
+      {
+        "topic": "fed",
+        "mentions": 2
+      },
+      {
+        "topic": "futures",
         "mentions": 2
       },
       {
@@ -89,12 +89,564 @@
         "mentions": 2
       },
       {
-        "topic": "pow",
+        "topic": "wallet",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Coinbase's Base Is Betting Big on AI Agents With $100K Startup Accelerator",
+      "url": "https://decrypt.co/375952/coinbase-base-ai-agents-startup-accelerator",
+      "published_at": "2026-08-19T16:31:04+00:00",
+      "summary": "Base is narrowing its accelerator to 10 startups as it looks for teams building AI agents, payments, trading, and financing products.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Injective becomes SEC-registered transfer agent as it expands tokenization push",
+      "url": "https://www.theblock.co/news/regulation/2026-08-19-injective-becomes-sec-registered-transfer-agent-expands-tokenization-push-412225",
+      "published_at": "2026-08-19T16:24:24+00:00",
+      "summary": "Injective says the registration gives it a regulated way to keep track of who owns tokenized securities and how those assets change hands.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
+      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-surges-above-usd68-000-liquidating-usd1-4-billion-shorts-as-treasury-buybacks-boost-risk-appetite",
+      "published_at": "2026-08-19T16:18:04+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "boost",
+          "surges"
+        ],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
+      "url": "https://decrypt.co/375955/bitcoin-surges-70k-billion-crypto-shorts-rekt-hour",
+      "published_at": "2026-08-19T16:10:04+00:00",
+      "summary": "A White House sitdown with crypto's biggest names and softer Fed signals lit the fuse. But the charts show why the pain for bears might not be over yet.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "surges"
+        ],
+        "negative_hits": [
+          "bears"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ethereum engineering firm Nethermind leaves LayerZero verifier role for Chainlink",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-19-nethermind-layerzero-chainlink-412226",
+      "published_at": "2026-08-19T16:01:13+00:00",
+      "summary": "Nethermind said it is joining Chainlink as a node operator, where it will help secure CCIP and Data Feeds.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "secure"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Chainlink",
+        "LINK",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Coinbase Adds 50x Crypto Perps to Base App Through Hyperliquid",
+      "url": "https://decrypt.co/375921/coinbase-50x-crypto-perps-base-app-hyperliquid",
+      "published_at": "2026-08-19T16:00:06+00:00",
+      "summary": "The Hyperliquid integration gives eligible Base App users access to more than 290 perpetual futures markets.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "integration"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Standard Chartered analyst eyes $100K BTC as US Treasury doubles long-end buybacks",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-100k-standard-chartered-treasury-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T16:00:03+00:00",
+      "summary": "Bitcoin’s rebound toward $69,000 is gaining momentum as Geoff Kendrick points to improving liquidity conditions and a potential cycle bottom.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "liquidity"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Blasts Past $68,000 After US Treasury Doubles Debt Buybacks",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-blasts-past-68000",
+      "published_at": "2026-08-19T15:53:42+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Blasts Past $68,000 After US Treasury Doubles Debt Buybacks\nBitcoin blew past $68,000 on Wednesday, jumping nearly 3% over a 24-hour period after news dropped that the U.S. Treasury planned to more than double the size of its government debt repurchases.&#160; The price of Bitcoin was recently at $68,473 at 10.30am in New York after briefly touching $68,982. The sharp jump came as yields [&#8230;]\nThis post Bitcoin Blasts Past $68,000 After US Treasury Doubles Debt B...",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "dropped"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "yield"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US commodities regulator imposes 5-year trading ban on ex-Alameda, FTX execs",
+      "url": "https://cointelegraph.com/news/us-cftc-trading-ban-alameda-ftx-executives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T15:50:58+00:00",
+      "summary": "The consent orders ended the CFTC’s case against two former crypto executives after FTX and Alameda agreed to $12.7 billion in disgorgement and restitution payments in August 2024.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price hits 11-week high as US Treasury doubles debt buyback size",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-hits-11-week-high-as-us-treasury-doubles-debt-buyback-size?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T15:44:09+00:00",
+      "summary": "Bitcoin joined US stocks in a broad rally after the US Treasury announced that it was at least doubling the amount of its debt buyback operations from September.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin nears key technical breakout that could propel prices to $76,000",
+      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-nears-key-technical-breakout-that-could-propel-prices-to-usd76-000",
+      "published_at": "2026-08-19T15:22:47+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase, Circle and Bullish jump as Clarity Act proponents express optimism about bill",
+      "url": "https://www.coindesk.com/markets/2026/08/19/coinbase-circle-and-bullish-jump-as-clarity-act-proponents-express-optimism-about-bill",
+      "published_at": "2026-08-19T15:22:29+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish",
+          "optimism"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Optimism",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Injective receives SEC transfer agent registration for institutional services arm",
+      "url": "https://cointelegraph.com/news/injective-sec-transfer-agent-tokenized-securities-recordkeeping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T15:19:21+00:00",
+      "summary": "Injective’s affiliated entity can now maintain securities ownership records, adding regulated market infrastructure to its growing push into tokenized assets.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "growing",
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin’s Volatility May Be Down But Expect a ‘Meaningful Move’ Soon, Says Fidelity",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-volatility-is-down-says-fidelity",
+      "published_at": "2026-08-19T15:05:32+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin&#8217;s Volatility May Be Down But Expect a &#8216;Meaningful Move&#8217; Soon, Says Fidelity \nBitcoin isn't moving. Analysts think that's a sign it could soon do something significant. \nThis post Bitcoin&#8217;s Volatility May Be Down But Expect a &#8216;Meaningful Move&#8217; Soon, Says Fidelity  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "AI could supercharge crypto but there’s a catch, Fidelity Digital Assets says",
+      "url": "https://www.coindesk.com/tech/2026/08/19/ai-could-supercharge-crypto-but-there-s-a-catch-fidelity-digital-assets-says",
+      "published_at": "2026-08-19T14:59:07+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto Long & Short: Where DeFi yield really comes from (and why it broke this spring)",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/18/crypto-long-and-short-where-defi-yield-really-comes-from-and-why-it-broke-this-spring",
+      "published_at": "2026-08-19T14:57:35+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "defi",
+        "yield"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "HSBC, Standard Chartered execute first live banking transaction on Swift’s 24/7 ledger",
+      "url": "https://www.coindesk.com/business/2026/08/19/hsbc-standard-chartered-execute-first-live-banking-transaction-on-swift-s-24-7-ledger",
+      "published_at": "2026-08-19T14:50:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cantor opens Kalshi prediction markets to thousands of institutional clients",
+      "url": "https://www.coindesk.com/markets/2026/08/19/cantor-opens-kalshi-prediction-markets-to-thousands-of-institutional-clients",
+      "published_at": "2026-08-19T14:41:55+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: SEC Brings Clarity to Crypto",
+      "url": "https://decrypt.co/375949/morning-minute-sec-clarity-crypto-token-fundraising",
+      "published_at": "2026-08-19T14:30:24+00:00",
+      "summary": "If the proposed rules are formalized, it could lead to an ICO boom in the U.S.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Chinese InsurTech Firm Zhibao Adds 2,380 Bitcoin in $154.7M Treasury Pivot",
+      "url": "https://decrypt.co/375935/china-zhibao-bitcoin-treasury-pivot",
+      "published_at": "2026-08-19T13:31:04+00:00",
+      "summary": "The Shanghai-based InsurTech firm closed a $154.7 million private placement funded entirely in crypto, with investors contributing Bitcoin directly rather than cash.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "200,000 fake AI ‘victims’ deployed to scam bait online fraudsters",
+      "url": "https://cointelegraph.com/magazine/fake-ai-victims-are-scam-baiting-600000-fraudsters-every-month?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T13:30:00+00:00",
+      "summary": "Apate’s 200,000 fake AI ‘victims’ are so good at scam baiting, the company has a monthly KPI for how many F-bombs scammers drop at the infuriating bots.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "drop",
+          "scam"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC regulatory proposal marks ‘important’ step forward from ‘inapt’ crypto rules: Commissioner Peirce",
+      "url": "https://cointelegraph.com/news/sec-proposal-forward-inapt-crypto-rules-commissioner-peirce?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T13:27:09+00:00",
+      "summary": "“Crypto mom” Hester Peirce praised the SEC’s proposed crypto regime, published days after the Senate failed to pass the CLARITY Act, the US’ first comprehensive industry framework.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "failed"
+        ]
+      },
+      "coins": [
+        "APT",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "regulatory",
+        "rwa",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T13:10:52+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ex-Signature Bank chair warns big banks could use blockchain to take market share from smaller rivals as N3XT goes global",
+      "url": "https://www.theblock.co/news/business/2026-08-19-ex-signature-bank-chair-big-banks-blockchain-n3xt-412202",
+      "published_at": "2026-08-19T13:08:49+00:00",
+      "summary": "Scott Shay said big banks could use blockchain payments to take market share from smaller rivals as N3XT expands globally.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Beyond crypto funding rates: Ethena diversifies USDe backing with $1 billion FalconX facility",
+      "url": "https://www.coindesk.com/business/2026/08/19/beyond-crypto-funding-rates-ethena-diversifies-usde-backing-with-usd1-billion-falconx-facility",
+      "published_at": "2026-08-19T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Strengthen the Clarity Act",
+      "url": "https://www.coindesk.com/opinion/2026/08/19/strengthen-the-clarity-act",
+      "published_at": "2026-08-19T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck",
@@ -346,7 +898,7 @@
       "source": "Cointelegraph",
       "title": "Nexo launches regulated crypto-backed credit in Australia",
       "url": "https://cointelegraph.com/news/nexo-launches-crypto-backed-credit-australia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T10:20:27+00:00",
+      "published_at": "2026-08-19T10:25:00+00:00",
       "summary": "Nexo introduced regulated, cryptocurrency-backed credit lines that allow users to access liquidity in Australian dollars or stablecoins by borrowing against their digital assets.",
       "sentiment": {
         "score": 1,
@@ -400,26 +952,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "Ripple raises $275 million in senior notes for prime brokerage push",
-      "url": "https://www.coindesk.com/business/2026/08/19/ripple-raises-usd275-million-in-debut-debt-offering-for-its-prime-brokerage-arm",
-      "published_at": "2026-08-19T09:55:50+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Winklevoss-Backed Cypherpunk Launches 'World's Largest' Zcash Mining Fleet",
       "url": "https://decrypt.co/375926/winklevoss-cypherpunk-zcash-mining-fleet",
@@ -438,48 +970,6 @@
       "coins": [],
       "topics": [
         "mining"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
-      "url": "https://www.coindesk.com/markets/2026/08/19/openai-trails-anthropic-as-losses-deepen-and-altman-pauses-frontier-ai-training",
-      "published_at": "2026-08-19T09:10:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin remains above $64,000 as oil rises and the Kospi tumbles 6%",
-      "url": "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
-      "published_at": "2026-08-19T09:05:45+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -524,73 +1014,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
-      "url": "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million",
-      "published_at": "2026-08-19T06:36:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops",
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T05:53:49+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Robot maker Unitree’s IPO surges 600% , outpacing crypto traders’ premarket bets",
-      "url": "https://www.coindesk.com/markets/2026/08/19/robot-maker-unitree-s-ipo-surges-600-outpacing-crypto-traders-premarket-bets",
-      "published_at": "2026-08-19T05:45:27+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surges"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": []
-    },
-    {
       "source": "Cointelegraph",
       "title": "MAYAChain halts network after estimated $1.7M exploit",
       "url": "https://cointelegraph.com/news/maya-protocol-1-7m-exploit-network-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -611,55 +1034,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin holds $64,000 and solana leads gains amid 7% Korean chip stock slide",
-      "url": "https://www.coindesk.com/markets/2026/08/19/solana-leads-bitcoin-and-ether-higher-while-korean-chip-stocks-slide-7",
-      "published_at": "2026-08-19T04:25:42+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "gains",
-          "leads"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US accounting board FASB proposes conditions for stablecoins as cash equivalents",
-      "url": "https://cointelegraph.com/news/us-accounting-board-fasb-proposes-conditions-for-stablecoins-as-cash-equivalents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T03:58:13+00:00",
-      "summary": "The FASB said secondary-market liquidity alone would not be enough, with holders needing direct issuer redemption rights and one-to-one liquid reserves.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "liquidity",
-        "pos",
-        "sec",
-        "stablecoin"
       ]
     },
     {
@@ -685,40 +1059,6 @@
         "dex",
         "futures"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "‘It has to pass’: Andrew Cuomo warns U.S. is falling behind on crypto rules",
-      "url": "https://www.coindesk.com/policy/2026/08/18/it-has-to-pass-andrew-cuomo-warns-u-s-is-falling-behind-on-crypto-rules",
-      "published_at": "2026-08-19T01:35:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Robinhood CEO urges U.S. to clear path for tokenized stocks as overseas markets advance",
-      "url": "https://www.coindesk.com/markets/2026/08/18/robinhood-ceo-urges-u-s-to-clear-path-for-tokenized-stocks-as-overseas-markets-advance",
-      "published_at": "2026-08-18T23:11:12+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     },
     {
       "source": "Decrypt",
@@ -783,50 +1123,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
-      "url": "https://www.coindesk.com/policy/2026/08/18/u-s-accounting-standards-group-proposes-way-to-see-stablecoins-as-cash-equivalent",
-      "published_at": "2026-08-18T21:25:42+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "SEC proposes new crypto rules in absence of CLARITY Act",
-      "url": "https://cointelegraph.com/news/us-sec-crypto-rules-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-18T21:24:15+00:00",
-      "summary": "The proposed rules from the US securities regulator would provide companies with a safe harbor from tokens being treated as “investment contracts” and certain exemptions for token issuance.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ARB",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Solana Policy Institute CEO says Clarity Act in ‘August recess purgatory,’ gives it 10% odds before midterms",
       "url": "https://www.theblock.co/news/regulation/2026-08-18-solana-policy-institute-ceo-larity-act-august-recess-purgatory-gives-10-odds-midterms-412171",
@@ -845,322 +1141,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Arguing With People on X May Get You More Posts You Hate as Algo Feeds on Ragebait",
-      "url": "https://decrypt.co/375899/arguing-twitter-x-more-posts-hate-algorithm-ragebait",
-      "published_at": "2026-08-18T21:20:04+00:00",
-      "summary": "X’s algorithm may turn argumentative replies into a feedback loop that serves users more content that clashes with their values, with the effect stronger among Democrats, researchers found.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron",
-        "ALGO",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "BitBox Warns Bitcoiners After Discovering ‘Severe’ Vulnerability In Firmware",
-      "url": "https://bitcoinmagazine.com/news/bitbox-warns-users-about-vulnerability",
-      "published_at": "2026-08-18T21:06:52+00:00",
-      "summary": "Bitcoin Magazine\n\nBitBox Warns Bitcoiners After Discovering &#8216;Severe&#8217; Vulnerability In Firmware \nBitcoin wallet manufacturer BitBox has told users it was able to fix &#8220;severe vulnerabilities&#8221; with its hardware wallet&#8217;s firmware, and reassured users that no funds were taken. Yet it still urged users to upgrade carefully.&#160; Writing in a blog post Tuesday, the Swiss company said that one of the vulnerabilities would have allowed an attacker [&#8230;]\nThis post Bit...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "FalconX, Interstice Connect Canton to Ethereum, Solana and Robinhood Chain",
-      "url": "https://cointelegraph.com/news/interstice-falconx-cross-chain-swap-engine-canton-solana-ethereum-robinhood-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-18T20:45:48+00:00",
-      "summary": "The non-custodial cross-chain swap engine connects Canton’s institutional tokenized-asset markets with liquidity and trading activity across major public blockchains.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "cross-chain",
-        "liquidity"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "White House crypto adviser Patrick Witt says he is ‘optimistic and bullish’ on Clarity Act as stablecoin fight resurfaces",
-      "url": "https://www.theblock.co/news/regulation/2026-08-18-white-house-crypto-adviser-patrick-witt-optimistic-bullish-clarity-act-stablecoin-fight-412160",
-      "published_at": "2026-08-18T20:25:35+00:00",
-      "summary": "The White House’s top crypto adviser said he is feeling \"optimistic and bullish\" ahead of the first planned vote on sweeping crypto legislation.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "optimistic"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "SEC Proposes Crypto Fundraising Exemptions in Abrupt About-Face",
-      "url": "https://decrypt.co/375902/sec-regulation-crypto-fundraising-exemptions",
-      "published_at": "2026-08-18T20:00:25+00:00",
-      "summary": "The proposed rules would let crypto projects raise capital through token sales without full securities registration and create a path for tokens to separate from investment contracts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ripple- and Coinbase-funded PAC spends $2M in Florida race with little mention of crypto",
-      "url": "https://cointelegraph.com/news/crypto-pac-ads-florida-congress-spending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-18T19:54:16+00:00",
-      "summary": "A Florida representative not running for reelection who voted against the GENIUS and CLARITY Acts has endorsed a Democratic candidate, possibly leading to PAC-funded negative ads.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "leading"
-        ],
-        "negative_hits": [
-          "negative"
-        ]
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ripple CLO says Sept. 15 will be a ‘bellwether’ for Clarity Act market structure bill",
-      "url": "https://www.theblock.co/news/regulation/2026-08-18-ripple-clo-september-15-bellwether-clarity-act-market-structure-bill-412142",
-      "published_at": "2026-08-18T19:49:12+00:00",
-      "summary": "Stuart Alderoty calls Sept. 15 a key test for the Clarity Act and warns the U.S. could \"miss an incredible opportunity.\"",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "Ripple",
-        "UNI",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "SEC Proposes Crypto Rulebook as Clarity Act Stalls",
-      "url": "https://bitcoinmagazine.com/news/sec-proposes-crypto-rules",
-      "published_at": "2026-08-18T19:46:11+00:00",
-      "summary": "Bitcoin Magazine\n\nSEC Proposes Crypto Rulebook as Clarity Act Stalls\nRegulators are pushing ahead with legislation despite the Clarity Act stalling.\nThis post SEC Proposes Crypto Rulebook as Clarity Act Stalls first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Cypherpunk launches Zcash mining fleet controlling 18% of network hashrate",
-      "url": "https://cointelegraph.com/news/cypherpunk-zcash-mining-winklevoss-capital-zec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-18T19:31:16+00:00",
-      "summary": "The $33.3 million Winklevoss Capital deal expands Cypherpunk’s ZEC strategy as it targets 5% ownership of the cryptocurrency’s circulating supply.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "SEC proposes new crypto offering rules as Congress stalls on digital asset legislation",
-      "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145",
-      "published_at": "2026-08-18T19:23:53+00:00",
-      "summary": "On Tuesday, the SEC proposed a new rule that seeks to offer a pathway for investments involving digital assets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Markets Confident OpenAI Releases Its Next AI Model in Weeks",
-      "url": "https://decrypt.co/375892/openai-next-ai-model-gpt6-astra-prediction",
-      "published_at": "2026-08-18T19:15:26+00:00",
-      "summary": "Traders are betting OpenAI's next frontier model lands within weeks—even after the company pumped the brakes.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin correction may be nearing an end with 8 of 12 capitulation signals flashing, VanEck says",
-      "url": "https://www.theblock.co/news/markets/2026-08-18-bitcoin-correction-may-nearing-end-8-capitulation-signals-flashing-vaneck-412130",
-      "published_at": "2026-08-18T18:49:15+00:00",
-      "summary": "Long-term holders shed roughly 356,000 bitcoin over the past month, pushing their share of supply below 60%.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Trump Family Crypto Firm Tied to Chinese AI Models US Government Called a Security Risk",
-      "url": "https://decrypt.co/375887/trump-crypto-firm-chinese-ai-government-called-security-risk",
-      "published_at": "2026-08-18T18:36:04+00:00",
-      "summary": "WorldClaw accepts World Liberty’s USD1 stablecoin while offering AI models from Chinese companies facing U.S. national security restrictions.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin’s Wild Swings Go Quiet, Even as the Bears Won’t Let Go",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-volatility-dampens-vaneck",
-      "published_at": "2026-08-18T18:30:04+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin&#8217;s Wild Swings Go Quiet, Even as the Bears Won&#8217;t Let Go\nBitcoin's volatility has dampened significantly, according to new VanEck research. \nThis post Bitcoin&#8217;s Wild Swings Go Quiet, Even as the Bears Won&#8217;t Let Go first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bears"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
