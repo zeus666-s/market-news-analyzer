@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T04:40:55.469384+00:00",
+  "generated_at": "2026-08-19T08:41:52.676941+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.013,
+    "market_sentiment_score": -0.002,
     "label_distribution": {
-      "bullish": 17,
-      "neutral": 42,
-      "bearish": 11
+      "neutral": 41,
+      "bearish": 13,
+      "bullish": 16
     },
     "top_coins": [
       {
@@ -23,11 +23,11 @@
         "mentions": 8
       },
       {
-        "coin": "BTC",
-        "mentions": 7
+        "coin": "ETH",
+        "mentions": 6
       },
       {
-        "coin": "ETH",
+        "coin": "BTC",
         "mentions": 6
       },
       {
@@ -35,26 +35,26 @@
         "mentions": 5
       },
       {
+        "coin": "UNI",
+        "mentions": 4
+      },
+      {
         "coin": "Ethereum",
         "mentions": 4
       },
       {
-        "coin": "UNI",
-        "mentions": 3
-      },
-      {
-        "coin": "FIL",
+        "coin": "Near",
         "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "FIL",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 33
       },
       {
         "topic": "pos",
@@ -70,7 +70,7 @@
       },
       {
         "topic": "liquidity",
-        "mentions": 4
+        "mentions": 3
       },
       {
         "topic": "wallet",
@@ -96,27 +96,140 @@
   },
   "articles": [
     {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-august-net-inflows-approach-1b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T07:59:16+00:00",
+      "summary": "US spot Bitcoin ETFs took in $189 million on Tuesday, lifting August net inflows to $951 million, while Ether ETFs added $71.5 million.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
       "source": "CoinDesk",
-      "title": "Solana leads bitcoin and ether higher while Korean chip stocks slide 7%",
+      "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
+      "url": "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million",
+      "published_at": "2026-08-19T06:36:11+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "drops",
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T05:53:49+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Robot maker Unitree’s IPO surges 600% , outpacing crypto traders’ premarket bets",
+      "url": "https://www.coindesk.com/markets/2026/08/19/robot-maker-unitree-s-ipo-surges-600-outpacing-crypto-traders-premarket-bets",
+      "published_at": "2026-08-19T05:45:27+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surges"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MAYAChain halts network after estimated $1.7M exploit",
+      "url": "https://cointelegraph.com/news/maya-protocol-1-7m-exploit-network-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T05:13:54+00:00",
+      "summary": "A preliminary analysis says six chained bugs let a 23-message transaction drain 48.87 million CACAO, sending the token down nearly 89%.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin holds $64,000 and solana leads gains amid 7% Korean chip stock slide",
       "url": "https://www.coindesk.com/markets/2026/08/19/solana-leads-bitcoin-and-ether-higher-while-korean-chip-stocks-slide-7",
       "published_at": "2026-08-19T04:25:42+00:00",
       "summary": "",
       "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
+        "score": 2,
+        "normalized": 0.25,
         "label": "bullish",
         "positive_hits": [
+          "gains",
           "leads"
         ],
         "negative_hits": []
       },
       "coins": [
         "Bitcoin",
-        "ETH",
         "Solana",
         "SOL"
       ],
-      "topics": []
+      "topics": [
+        "ai"
+      ]
     },
     {
       "source": "Cointelegraph",
@@ -425,29 +538,6 @@
       "topics": [
         "ai",
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-18T20:21:26+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -1089,98 +1179,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Securitize brings Neuberger’s $230 billion fixed-income platform onchain with new tokenized fund",
-      "url": "https://www.theblock.co/news/markets/2026-08-18-securitize-neubergers-230-billion-fixed-income-platform-onchain-new-tokenized-fund-412102",
-      "published_at": "2026-08-18T15:04:21+00:00",
-      "summary": "HINC will be available across Avalanche, Ethereum, Solana and Sui, as Securitize expands its push to bring fixed-income strategies onchain.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL",
-        "Avalanche",
-        "Sui"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin miners’ AI pivot pays off, but mining could revive with one twist",
-      "url": "https://www.coindesk.com/business/2026/08/18/bitcoin-miners-ai-pivot-pays-off-but-mining-could-revive-with-one-twist",
-      "published_at": "2026-08-18T14:41:31+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "miners",
-        "mining"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Global bond yields surge as debt fears test bitcoin’s hedge narrative",
-      "url": "https://www.coindesk.com/markets/2026/08/18/global-bond-yields-surge-as-debt-fears-test-bitcoin-s-hedge-narrative",
-      "published_at": "2026-08-18T14:40:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": [
-          "fears"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "yield"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Japan's Metaplanet launching U.S. bitcoin treasury company through $135 million nanocap deal",
-      "url": "https://www.coindesk.com/business/2026/08/18/japan-s-metaplanet-launching-u-s-bitcoin-treasury-company-through-usd135-million-nanocap-deal",
-      "published_at": "2026-08-18T14:35:08+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
