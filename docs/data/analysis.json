@@ -1,22 +1,26 @@
 {
-  "generated_at": "2026-08-18T20:28:37.922060+00:00",
+  "generated_at": "2026-08-19T01:27:56.902088+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.002,
+    "market_sentiment_score": 0.016,
     "label_distribution": {
-      "bullish": 17,
-      "neutral": 39,
-      "bearish": 14
+      "neutral": 43,
+      "bearish": 10,
+      "bullish": 17
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 27
       },
       {
         "coin": "OP",
-        "mentions": 22
+        "mentions": 23
+      },
+      {
+        "coin": "SOL",
+        "mentions": 7
       },
       {
         "coin": "BTC",
@@ -27,38 +31,34 @@
         "mentions": 5
       },
       {
-        "coin": "SOL",
-        "mentions": 5
+        "coin": "Solana",
+        "mentions": 4
       },
       {
         "coin": "Ethereum",
         "mentions": 4
       },
       {
-        "coin": "Ripple",
-        "mentions": 3
-      },
-      {
         "coin": "UNI",
         "mentions": 3
       },
       {
-        "coin": "Near",
-        "mentions": 2
+        "coin": "Ripple",
+        "mentions": 3
       },
       {
-        "coin": "Solana",
+        "coin": "Tron",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 26
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 21
       },
       {
         "topic": "sec",
@@ -70,10 +70,10 @@
       },
       {
         "topic": "wallet",
-        "mentions": 4
+        "mentions": 3
       },
       {
-        "topic": "defi",
+        "topic": "liquidity",
         "mentions": 3
       },
       {
@@ -81,12 +81,12 @@
         "mentions": 3
       },
       {
-        "topic": "fed",
-        "mentions": 3
+        "topic": "defi",
+        "mentions": 2
       },
       {
-        "topic": "pow",
-        "mentions": 3
+        "topic": "fed",
+        "mentions": 2
       },
       {
         "topic": "miner",
@@ -95,6 +95,225 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Robinhood CEO urges U.S. to clear path for tokenized stocks as overseas markets advance",
+      "url": "https://www.coindesk.com/markets/2026/08/18/robinhood-ceo-urges-u-s-to-clear-path-for-tokenized-stocks-as-overseas-markets-advance",
+      "published_at": "2026-08-18T23:11:12+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Pennsylvania Cracks Down on AI Data Centers as Backlash Grows",
+      "url": "https://decrypt.co/375923/pennsylvania-ai-data-centers-backlash",
+      "published_at": "2026-08-18T22:56:04+00:00",
+      "summary": "Gov. Josh Shapiro ordered new restrictions on large data centers aimed at shielding residents from higher electricity costs and giving communities more control over proposed projects.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "UNI",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Mozilla Tests an AI 'Smart Window' in Firefox—But Only If You Opt In",
+      "url": "https://decrypt.co/375903/mozilla-ai-smart-firefox-opt-in",
+      "published_at": "2026-08-18T22:31:04+00:00",
+      "summary": "The optional window puts an assistant of your choice next to your tabs, with a switch to disable it.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Rare Books Traced to Amazon AI Training Facility to Be Scanned and Destroyed",
+      "url": "https://decrypt.co/375912/rare-books-amazon-ai-scanned-destroyed",
+      "published_at": "2026-08-18T21:49:46+00:00",
+      "summary": "A tracking device planted in a book order ended at a Las Vegas facility where Amazon strips bindings to scan pages for training data.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
+      "url": "https://www.coindesk.com/policy/2026/08/18/u-s-accounting-standards-group-proposes-way-to-see-stablecoins-as-cash-equivalent",
+      "published_at": "2026-08-18T21:25:42+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC proposes new crypto rules in absence of CLARITY Act",
+      "url": "https://cointelegraph.com/news/us-sec-crypto-rules-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-18T21:24:15+00:00",
+      "summary": "The proposed rules from the US securities regulator would provide companies with a safe harbor from tokens being treated as “investment contracts” and certain exemptions for token issuance.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Solana Policy Institute CEO says Clarity Act in ‘August recess purgatory,’ gives it 10% odds before midterms",
+      "url": "https://www.theblock.co/news/regulation/2026-08-18-solana-policy-institute-ceo-larity-act-august-recess-purgatory-gives-10-odds-midterms-412171",
+      "published_at": "2026-08-18T21:22:47+00:00",
+      "summary": "Miller Whitehouse-Levine urged regulators to move quickly, saying the industry \"can’t afford to keep waiting for Congress.\"",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Arguing With People on X May Get You More Posts You Hate as Algo Feeds on Ragebait",
+      "url": "https://decrypt.co/375899/arguing-twitter-x-more-posts-hate-algorithm-ragebait",
+      "published_at": "2026-08-18T21:20:04+00:00",
+      "summary": "X’s algorithm may turn argumentative replies into a feedback loop that serves users more content that clashes with their values, with the effect stronger among Democrats, researchers found.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron",
+        "ALGO",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "BitBox Warns Bitcoiners After Discovering ‘Severe’ Vulnerability In Firmware",
+      "url": "https://bitcoinmagazine.com/news/bitbox-warns-users-about-vulnerability",
+      "published_at": "2026-08-18T21:06:52+00:00",
+      "summary": "Bitcoin Magazine\n\nBitBox Warns Bitcoiners After Discovering &#8216;Severe&#8217; Vulnerability In Firmware \nBitcoin wallet manufacturer BitBox has told users it was able to fix &#8220;severe vulnerabilities&#8221; with its hardware wallet&#8217;s firmware, and reassured users that no funds were taken. Yet it still urged users to upgrade carefully.&#160; Writing in a blog post Tuesday, the Swiss company said that one of the vulnerabilities would have allowed an attacker [&#8230;]\nThis post Bit...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "FalconX, Interstice Connect Canton to Ethereum, Solana and Robinhood Chain",
+      "url": "https://cointelegraph.com/news/interstice-falconx-cross-chain-swap-engine-canton-solana-ethereum-robinhood-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-18T20:45:48+00:00",
+      "summary": "The non-custodial cross-chain swap engine connects Canton’s institutional tokenized-asset markets with liquidity and trading activity across major public blockchains.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "cross-chain",
+        "liquidity"
+      ]
+    },
     {
       "source": "The Block",
       "title": "White House crypto adviser Patrick Witt says he is ‘optimistic and bullish’ on Clarity Act as stablecoin fight resurfaces",
@@ -956,211 +1175,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto’s easy-money era is ending in a wave of failures",
-      "url": "https://www.coindesk.com/business/2026/08/13/crypto-s-easy-money-era-is-ending-in-a-wave-of-failures",
-      "published_at": "2026-08-18T13:22:40+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Cash App's crypto support expands beyond bitcoin and USDC via MoonPay",
-      "url": "https://www.coindesk.com/business/2026/08/18/cash-app-s-crypto-support-expands-beyond-bitcoin-and-usdc-via-moonpay",
-      "published_at": "2026-08-18T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "usdc"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MoonPay adds Cash App Pay for crypto purchases by US customers",
-      "url": "https://cointelegraph.com/news/moonpay-cash-app-pay-crypto-purchases-us-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-18T13:00:00+00:00",
-      "summary": "Eligible US users can fund MoonPay crypto purchases with Cash App balances as the payments firm expands beyond its core onramp business.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "The Pack Is the Painting: Evil Biscuit and the Schizocollage Movement Come to Hong Kong",
-      "url": "https://bitcoinmagazine.com/culture/the-pack-is-the-painting-evil-biscuit-and-the-schizocollage-movement-come-to-hong-kong",
-      "published_at": "2026-08-18T12:45:19+00:00",
-      "summary": "Bitcoin Magazine\n\nThe Pack Is the Painting: Evil Biscuit and the Schizocollage Movement Come to Hong Kong\nIn 1956, at an exhibition hall in Tokyo, a Japanese artist named Saburō Murakami ran through a row of paper screens, leaving a torn, human-shaped hole in each one. The audience heard the rip in the moment but likely didn’t understand it. Murakami belonged to Gutai, the radical postwar avant-garde collective whose members painted with [&#8230;]\nThis post The Pack Is the Painting: Evil Bisc...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: PUMP Prints First Golden Cross as Revenue Hits Seven-Month High",
-      "url": "https://decrypt.co/375856/morning-minute-pump-prints-first-golden-cross-as-revenue-hits-seven-month-high",
-      "published_at": "2026-08-18T12:37:02+00:00",
-      "summary": "Plus, Ethereum researchers are prioritizing privacy; Robinhood is rolling out agentic trading; and Ansem debuts his own launchpad.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Visa looking for new stablecoin settlement partner after BVNK sale to Mastercard",
-      "url": "https://www.coindesk.com/business/2026/08/18/visa-is-looking-for-a-new-stablecoin-settlement-partner-now-that-bvnk-is-owned-by-mastercard",
-      "published_at": "2026-08-18T12:20:48+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum’s next upgrade breaks the '21,000 gas' rule wallets rely on",
-      "url": "https://www.coindesk.com/tech/2026/08/18/ethereum-s-next-upgrade-breaks-the-21-000-gas-rule-wallets-rely-on",
-      "published_at": "2026-08-18T12:17:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Citi expects to launch bitcoin custody later this year under its new Custody+ platform",
-      "url": "https://www.theblock.co/news/business/2026-08-18-citi-bitcoin-custody-412090",
-      "published_at": "2026-08-18T12:15:31+00:00",
-      "summary": "The platform also includes real-time asset servicing, instant settlements, liquidity tools, and AI-powered market intelligence.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "liquidity",
-        "pow"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Cypherpunk Technologies launches Zcash mining fleet with $33 million Winklevoss deal",
-      "url": "https://www.theblock.co/news/business/2026-08-18-cypherpunk-technologies-launches-zcash-mining-fleet-412071",
-      "published_at": "2026-08-18T12:00:00+00:00",
-      "summary": "Cypherpunk Mining is online as of today with roughly 4.2 GSol/s of Equihash hashrate deployed across the US.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Chainalysis Sues US Government Over $94.6M ICE Contract Handed to Rival TRM Labs",
-      "url": "https://decrypt.co/375843/chainalysis-sues-us-government-ice-contract-trm-labs",
-      "published_at": "2026-08-18T11:31:04+00:00",
-      "summary": "The bid protest, filed in the U.S. Court of Federal Claims, challenges ICE's sole-source award for blockchain forensic tools, pitting the two biggest names in crypto tracing against each other.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL",
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "fed"
-      ]
     }
   ]
 }
