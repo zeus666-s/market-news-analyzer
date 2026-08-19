@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T01:27:56.902088+00:00",
+  "generated_at": "2026-08-19T04:40:55.469384+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.016,
+    "market_sentiment_score": 0.013,
     "label_distribution": {
-      "neutral": 43,
-      "bearish": 10,
-      "bullish": 17
+      "bullish": 17,
+      "neutral": 42,
+      "bearish": 11
     },
     "top_coins": [
       {
@@ -16,11 +16,11 @@
       },
       {
         "coin": "OP",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "coin": "SOL",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "BTC",
@@ -28,11 +28,11 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Solana",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "coin": "Ethereum",
@@ -43,8 +43,8 @@
         "mentions": 3
       },
       {
-        "coin": "Ripple",
-        "mentions": 3
+        "coin": "FIL",
+        "mentions": 2
       },
       {
         "coin": "Tron",
@@ -54,26 +54,26 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 21
+        "mentions": 22
       },
       {
         "topic": "sec",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "stablecoin",
         "mentions": 6
       },
       {
-        "topic": "wallet",
-        "mentions": 3
+        "topic": "liquidity",
+        "mentions": 4
       },
       {
-        "topic": "liquidity",
+        "topic": "wallet",
         "mentions": 3
       },
       {
@@ -95,6 +95,95 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Solana leads bitcoin and ether higher while Korean chip stocks slide 7%",
+      "url": "https://www.coindesk.com/markets/2026/08/19/solana-leads-bitcoin-and-ether-higher-while-korean-chip-stocks-slide-7",
+      "published_at": "2026-08-19T04:25:42+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "leads"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US accounting board FASB proposes conditions for stablecoins as cash equivalents",
+      "url": "https://cointelegraph.com/news/us-accounting-board-fasb-proposes-conditions-for-stablecoins-as-cash-equivalents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T03:58:13+00:00",
+      "summary": "The FASB said secondary-market liquidity alone would not be enough, with holders needing direct issuer redemption rights and one-to-one liquid reserves.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "liquidity",
+        "pos",
+        "sec",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kalshi files to launch perpetual futures tied to US stock index, copper",
+      "url": "https://www.theblock.co/news/business/2026-08-18-kalshi-files-perps-equity-index-copper-412176",
+      "published_at": "2026-08-19T03:22:58+00:00",
+      "summary": "Kalshi has filed with the Commodity Futures Trading Commission to offer perps tied to the MerQube US Large Cap Index and copper.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL",
+        "OP"
+      ],
+      "topics": [
+        "dex",
+        "futures"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "‘It has to pass’: Andrew Cuomo warns U.S. is falling behind on crypto rules",
+      "url": "https://www.coindesk.com/policy/2026/08/18/it-has-to-pass-andrew-cuomo-warns-u-s-is-falling-behind-on-crypto-rules",
+      "published_at": "2026-08-19T01:35:36+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "CoinDesk",
       "title": "Robinhood CEO urges U.S. to clear path for tokenized stocks as overseas markets advance",
@@ -1086,89 +1175,6 @@
         "normalized": 0.0,
         "label": "neutral",
         "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Wallet Untouched for 15 Years Suddenly Springs to Life",
-      "url": "https://decrypt.co/375839/bitcoin-wallet-untouched-15-years-life",
-      "published_at": "2026-08-18T14:03:34+00:00",
-      "summary": "The address received 8.54 BTC in June 2011 when the coin traded around $14 and stayed silent for 15 years before moving roughly $538,000 in a single transaction.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "HashKey taps Hong Kong's first regulated stablecoin to settle insurance and trade deals",
-      "url": "https://www.coindesk.com/business/2026/08/18/hashkey-taps-hong-kong-s-first-regulated-stablecoin-to-settle-insurance-and-trade-deals",
-      "published_at": "2026-08-18T14:03:27+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Toyota Finance opens tokenized bonds to retail investors via mobile payment app",
-      "url": "https://cointelegraph.com/news/toyota-finance-tokenized-bond-offering-mobile-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-18T13:41:56+00:00",
-      "summary": "Retail investors can apply to buy the 1 billion yen bond without a securities account and receive perks through Toyota’s payment app.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Citi plans to launch bitcoin custody for institutional clients later this year",
-      "url": "https://www.coindesk.com/markets/2026/08/18/citi-plans-to-launch-bitcoin-custody-for-institutional-clients-later-this-year",
-      "published_at": "2026-08-18T13:25:13+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "launch"
-        ],
         "negative_hits": []
       },
       "coins": [
