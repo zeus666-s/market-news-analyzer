@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-19T16:35:42.072101+00:00",
+  "generated_at": "2026-08-19T20:32:43.035130+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.043,
+    "market_sentiment_score": 0.041,
     "label_distribution": {
-      "neutral": 34,
       "bullish": 20,
+      "neutral": 34,
       "bearish": 16
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 23
       },
       {
         "coin": "OP",
@@ -23,23 +23,19 @@
         "mentions": 6
       },
       {
-        "coin": "Near",
-        "mentions": 4
-      },
-      {
         "coin": "BTC",
         "mentions": 3
       },
       {
-        "coin": "SOL",
+        "coin": "Near",
         "mentions": 3
       },
       {
-        "coin": "Ethereum",
-        "mentions": 2
+        "coin": "FIL",
+        "mentions": 3
       },
       {
-        "coin": "FIL",
+        "coin": "LINK",
         "mentions": 2
       },
       {
@@ -47,14 +43,18 @@
         "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "UNI",
+        "mentions": 2
+      },
+      {
+        "coin": "SOL",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 33
       },
       {
         "topic": "pos",
@@ -62,14 +62,10 @@
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 9
       },
       {
-        "topic": "liquidity",
-        "mentions": 4
-      },
-      {
-        "topic": "yield",
+        "topic": "cftc",
         "mentions": 4
       },
       {
@@ -77,27 +73,427 @@
         "mentions": 4
       },
       {
-        "topic": "fed",
-        "mentions": 2
-      },
-      {
         "topic": "futures",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "topic": "defi",
         "mentions": 2
       },
       {
-        "topic": "wallet",
+        "topic": "liquidity",
         "mentions": 2
+      },
+      {
+        "topic": "yield",
+        "mentions": 2
+      },
+      {
+        "topic": "dai",
+        "mentions": 1
       }
     ]
   },
   "articles": [
     {
+      "source": "The Block",
+      "title": "HYPE token surges after Trump says CFTC is working to bring Hyperliquid to US in ‘fully compliant fashion’",
+      "url": "https://www.theblock.co/news/regulation/2026-08-19-hype-token-surges-trump-says-cftc-bring-hyperliquid-us-fully-compliant-fashion-412262",
+      "published_at": "2026-08-19T20:29:35+00:00",
+      "summary": "President Trump said CFTC Chair Mike Selig is working to bring Hyperliquid into the U.S. in a “fully compliant and legal fashion.\"",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surges"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
+    {
       "source": "Decrypt",
-      "title": "Coinbase's Base Is Betting Big on AI Agents With $100K Startup Accelerator",
+      "title": "Trump Calls on Congress to Pass 'Fair Version' of Clarity Act at White House Crypto Meeting",
+      "url": "https://decrypt.co/376006/trump-pass-fair-version-clarity-white-house-crypto-meeting",
+      "published_at": "2026-08-19T19:56:45+00:00",
+      "summary": "Trump touted his administration’s crypto policies and said regulators are working to bring Hyperliquid into the U.S. under a compliant framework.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trump pushes for CLARITY Act passage alongside crypto leaders",
+      "url": "https://cointelegraph.com/news/donald-trump-clarity-act-passage-crypto-leaders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T19:54:59+00:00",
+      "summary": "Donald Trump spoke from the White House on Wednesday, urging the Senate to pass a crypto market structure bill to keep the country “ahead of China.”",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
+      "url": "https://decrypt.co/375990/crypto-stocks-rip-strategy-coinbase-bitcoin",
+      "published_at": "2026-08-19T19:51:11+00:00",
+      "summary": "Strategy, Coinbase, Circle, and BitMine are riding Bitcoin's short squeeze toward $70K—and two of them may be squeezing equity bears of their own.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bears"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T19:50:07+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "HYPE jumps 11% as Trump says CFTC is working to bring Hyperliquid to U.S.",
+      "url": "https://www.coindesk.com/markets/2026/08/19/hype-jumps-11-as-trump-says-cftc-is-working-to-bring-hyperliquid-to-u-s",
+      "published_at": "2026-08-19T19:49:51+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Trump pushes Congress to move on Clarity Act during White House crypto event",
+      "url": "https://www.coindesk.com/policy/2026/08/19/trump-pushes-congress-to-move-on-clarity-act-during-white-house-crypto-event",
+      "published_at": "2026-08-19T19:48:33+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Kalshi Pushes Beyond Prediction Markets With Copper Perpetual Futures",
+      "url": "https://decrypt.co/375987/kalshi-copper-perpetual-futures",
+      "published_at": "2026-08-19T19:16:04+00:00",
+      "summary": "The prediction market operator is seeking CFTC approval for a copper perpetual as it moves further into traditional derivatives markets.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approval"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cftc",
+        "futures"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-shortsellers-get-destroyed",
+      "published_at": "2026-08-19T19:11:09+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump \nThose betting on the price of bitcoin to drop have had their positions closed following a green candle earlier on Wednesday. \nThis post Bitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "drop"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin hits $69,000, ether jumps 10% as Treasury buybacks, SEC crypto proposal fuel market rally",
+      "url": "https://www.theblock.co/news/markets/2026-08-19-bitcoin-69000-ether-jumps-treasury-buybacks-sec-crypto-proposal-fuel-market-rally-412248",
+      "published_at": "2026-08-19T19:05:42+00:00",
+      "summary": "The move triggered nearly $2 billion in crypto liquidations and lifted crypto-linked stocks, with Strategy and Bitmine gaining around 10%.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "liquidations"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "LINK",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto PAC notches primary wins, but loses $2M Florida race",
+      "url": "https://cointelegraph.com/news/crypto-pac-wins-primaries-loses-florida-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T18:48:58+00:00",
+      "summary": "A Fairshake spokesperson said that the PAC was “just getting started“ on its expenditures as part of efforts to fill US Congress with lawmakers friendly to the crypto industry.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "wins"
+        ],
+        "negative_hits": [
+          "loses"
+        ]
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen",
+      "url": "https://decrypt.co/375976/maya-protocol-halts-network-bitcoin-exploit",
+      "published_at": "2026-08-19T18:20:35+00:00",
+      "summary": "The cross-chain protocol said an attacker exploited six software flaws to drain Bitcoin and other assets, sending its CACAO token plunging.",
+      "sentiment": {
+        "score": -9,
+        "normalized": -1.0,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "exploited",
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "cross-chain"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries",
+      "url": "https://www.coindesk.com/policy/2026/08/19/crypto-campaign-fund-fairshake-faces-usd2-million-setback-in-florida-primaries",
+      "published_at": "2026-08-19T18:10:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "FalconX, Ethena bring USDe backing assets into $1B institutional credit facility",
+      "url": "https://cointelegraph.com/news/falconx-ethena-launch-1b-usde-backed-institutional-lending-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T17:34:10+00:00",
+      "summary": "The $1 billion facility will deploy assets backing USDe into overcollateralized institutional loans, expanding Ethena’s sources of returns beyond crypto basis strategies.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "OCC races to finalize GENIUS Act stablecoin rules by November",
+      "url": "https://www.theblock.co/news/regulation/2026-08-19-occ-races-to-finalize-genius-act-stablecoin-rules-by-november-412240",
+      "published_at": "2026-08-19T17:03:52+00:00",
+      "summary": "The OCC is stepping on the gas to finalize rules by November to implement a stablecoin law signed by President Trump.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "OCC head promises final GENIUS rules by November",
+      "url": "https://cointelegraph.com/news/occ-head-jonathan-gould-genius-rules-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T17:00:01+00:00",
+      "summary": "The US banking regulator released a 376‑page proposal in February, calling for public comment on rules to implement the stablecoin bill ahead of its January 2027 effective date.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "President Trump To Host Crypto Execs at White House",
+      "url": "https://bitcoinmagazine.com/news/trump-to-host-crypto-execs",
+      "published_at": "2026-08-19T16:58:03+00:00",
+      "summary": "Bitcoin Magazine\n\nPresident Trump To Host Crypto Execs at White House \nThe meeting with crypto execs comes after a vote on the Clarity Act was stalled.  \nThis post President Trump To Host Crypto Execs at White House  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Grayscale’s latest Zcash ETF amendment shows DCG in talks to contribute 200,000 ZEC to fund",
+      "url": "https://www.theblock.co/news/markets/2026-08-19-grayscale-zcash-etf-amendment-dcg-discussions-contribute-200000-zec-fund-412232",
+      "published_at": "2026-08-19T16:57:52+00:00",
+      "summary": "While DCG is in discussions to contribute ~200,000 ZEC to the Grayscale fund, the potential transaction is nonbinding.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Moderna Stock Doubles on Cancer Breakthrough: Here’s What It Means",
+      "url": "https://decrypt.co/375968/moderna-stock-doubles-cancer-vaccine",
+      "published_at": "2026-08-19T16:54:46+00:00",
+      "summary": "A Phase 3 win against the standard of care sent the biotech's shares up 131% and left short sellers down $4.8 billion.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "breakthrough",
+          "win"
+        ],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Coinbase's Base Is Betting Big on AI Agents With $1 Million Startup Accelerator",
       "url": "https://decrypt.co/375952/coinbase-base-ai-agents-startup-accelerator",
       "published_at": "2026-08-19T16:31:04+00:00",
       "summary": "Base is narrowing its accelerator to 10 startups as it looks for teams building AI agents, payments, trading, and financing products.",
@@ -111,6 +507,27 @@
       "coins": [],
       "topics": [
         "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "StanChart, HSBC execute first live transaction on Swift blockchain ledger",
+      "url": "https://cointelegraph.com/news/standard-chartered-hsbc-execute-first-live-transaction-on-swift-blockchain-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-19T16:30:12+00:00",
+      "summary": "The transaction connected the banks’ separate tokenized deposit systems through Swift’s ledger, marking a step toward interoperable, 24/7 cross-border payments.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
       ]
     },
     {
@@ -571,29 +988,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T13:10:52+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Ex-Signature Bank chair warns big banks could use blockchain to take market share from smaller rivals as N3XT goes global",
       "url": "https://www.theblock.co/news/business/2026-08-19-ex-signature-bank-chair-big-banks-blockchain-n3xt-412202",
@@ -742,406 +1136,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bitwise CIO sees potential for 10-100x blockchain transaction growth as AI agents meet tokenized markets",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-19-bitwise-cio-sees-potential-for-10-100x-blockchain-transaction-growth-as-ai-agents-meet-tokenized-markets-412196",
-      "published_at": "2026-08-19T11:32:48+00:00",
-      "summary": "Bitwise CIO Matt Hougan said investors may be underestimating blockchain transaction activity by 10 to 100 times as tokenized markets expand.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Alleged $165M Crypto Ponzi Mastermind Deported From Fiji to US",
-      "url": "https://decrypt.co/375933/crypto-ponzi-mastermind-deported-fiji-us",
-      "published_at": "2026-08-19T11:31:04+00:00",
-      "summary": "Edward Zimbardi allegedly lured thousands of investors into \"The Crypto Program\" with promises of 25% monthly returns before fleeing to Fiji.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ripple raises $275M for US prime brokerage to meet institutional demand",
-      "url": "https://cointelegraph.com/news/ripple-raises-275m-us-prime-brokerage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T11:18:38+00:00",
-      "summary": "Ripple said the $275 million raised will support its expansion into traditional financial services such as prime brokerage and multi-asset clearing, citing strong demand from institutions.",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "institutional",
-          "strong",
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "Tron"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/19/fed-decision-making-comes-into-focus-as-bitcoin-holds-steady-bond-yields-surge",
-      "published_at": "2026-08-19T11:14:50+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin has ‘largely purged’ froth that preceded 50% drop from $126K: BlackRock",
-      "url": "https://cointelegraph.com/markets/bitcoin-has-largely-purged-froth-that-preceded-50-drop-from-126k-blackrock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T11:06:13+00:00",
-      "summary": "Bitcoin maintained its appeal as a diversification investment despite dropping more than 50% from all-time high, a BlackRock report stated.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "all-time high"
-        ],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Scaramucci points to $100,000 bitcoin as ‘magic number’ for OG sellers, eyes AI-blockchain convergence",
-      "url": "https://www.theblock.co/news/markets/2026-08-19-scaramucci-points-to-100000-bitcoin-as-magic-number-for-og-sellers-eyes-ai-blockchain-convergence-412190",
-      "published_at": "2026-08-19T10:47:39+00:00",
-      "summary": "John Darsie, CEO of SALT and partner at SkyBridge, said bitcoin's changing holder base is part of a broader maturation process.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "bridge"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin stuck in a six-week range as global bond yields hit highest levels for decades",
-      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-stuck-in-a-six-week-range-as-global-bond-yields-hit-highest-levels-for-decades",
-      "published_at": "2026-08-19T10:29:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Nexo launches regulated crypto-backed credit in Australia",
-      "url": "https://cointelegraph.com/news/nexo-launches-crypto-backed-credit-australia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T10:25:00+00:00",
-      "summary": "Nexo introduced regulated, cryptocurrency-backed credit lines that allow users to access liquidity in Australian dollars or stablecoins by borrowing against their digital assets.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "liquidity",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Rain CEO says stablecoin payments reach more than 100,000 merchants without them knowing it",
-      "url": "https://www.theblock.co/news/business/2026-08-19-rain-ceo-says-stablecoin-payments-reach-more-than-100000-merchants-without-them-knowing-it-412184",
-      "published_at": "2026-08-19T10:09:40+00:00",
-      "summary": "Rain CEO Farooq Malik said more than 100,000 merchants accept stablecoins unknowingly, with transactions settling through Visa in three days.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "TikTok code includes peer-to-peer payments over messaging: Bloomberg",
-      "url": "https://www.coindesk.com/business/2026/08/19/tiktok-code-includes-peer-to-peer-payments-over-messaging-bloomberg",
-      "published_at": "2026-08-19T10:04:30+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Winklevoss-Backed Cypherpunk Launches 'World's Largest' Zcash Mining Fleet",
-      "url": "https://decrypt.co/375926/winklevoss-cypherpunk-zcash-mining-fleet",
-      "published_at": "2026-08-19T09:31:03+00:00",
-      "summary": "The Nasdaq-listed privacy firm launched Cypherpunk Mining through a $33.33 million equity deal with Winklevoss Capital, adding roughly 18% of the Zcash network's hashrate to accelerate its treasury ambitions.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launched",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Arthur Hayes takes CEO role at Flop Labs ahead of Q4 airdrop",
-      "url": "https://cointelegraph.com/news/arthur-hayes-ceo-role-flop-labs-q4-airdrop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T08:34:51+00:00",
-      "summary": "Hayes revealed his new role as Flop Labs CEO and teased a “massive airdrop” from the AI inference protocol in the fourth quarter of 2026.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-august-net-inflows-approach-1b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T07:59:16+00:00",
-      "summary": "US spot Bitcoin ETFs took in $189 million on Tuesday, lifting August net inflows to $951 million, while Ether ETFs added $71.5 million.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MAYAChain halts network after estimated $1.7M exploit",
-      "url": "https://cointelegraph.com/news/maya-protocol-1-7m-exploit-network-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T05:13:54+00:00",
-      "summary": "A preliminary analysis says six chained bugs let a 23-message transaction drain 48.87 million CACAO, sending the token down nearly 89%.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Kalshi files to launch perpetual futures tied to US stock index, copper",
-      "url": "https://www.theblock.co/news/business/2026-08-18-kalshi-files-perps-equity-index-copper-412176",
-      "published_at": "2026-08-19T03:22:58+00:00",
-      "summary": "Kalshi has filed with the Commodity Futures Trading Commission to offer perps tied to the MerQube US Large Cap Index and copper.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL",
-        "OP"
-      ],
-      "topics": [
-        "dex",
-        "futures"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Pennsylvania Cracks Down on AI Data Centers as Backlash Grows",
-      "url": "https://decrypt.co/375923/pennsylvania-ai-data-centers-backlash",
-      "published_at": "2026-08-18T22:56:04+00:00",
-      "summary": "Gov. Josh Shapiro ordered new restrictions on large data centers aimed at shielding residents from higher electricity costs and giving communities more control over proposed projects.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Mozilla Tests an AI 'Smart Window' in Firefox—But Only If You Opt In",
-      "url": "https://decrypt.co/375903/mozilla-ai-smart-firefox-opt-in",
-      "published_at": "2026-08-18T22:31:04+00:00",
-      "summary": "The optional window puts an assistant of your choice next to your tabs, with a switch to disable it.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Rare Books Traced to Amazon AI Training Facility to Be Scanned and Destroyed",
-      "url": "https://decrypt.co/375912/rare-books-amazon-ai-scanned-destroyed",
-      "published_at": "2026-08-18T21:49:46+00:00",
-      "summary": "A tracking device planted in a book order ended at a Las Vegas facility where Amazon strips bindings to scan pages for training data.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Solana Policy Institute CEO says Clarity Act in ‘August recess purgatory,’ gives it 10% odds before midterms",
-      "url": "https://www.theblock.co/news/regulation/2026-08-18-solana-policy-institute-ceo-larity-act-august-recess-purgatory-gives-10-odds-midterms-412171",
-      "published_at": "2026-08-18T21:22:47+00:00",
-      "summary": "Miller Whitehouse-Levine urged regulators to move quickly, saying the industry \"can’t afford to keep waiting for Congress.\"",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai"
-      ]
     }
   ]
 }
