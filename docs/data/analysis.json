@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-20T12:56:21.929955+00:00",
+  "generated_at": "2026-08-20T16:39:03.868033+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.041,
+    "market_sentiment_score": 0.032,
     "label_distribution": {
-      "neutral": 32,
-      "bearish": 15,
-      "bullish": 23
+      "bearish": 17,
+      "neutral": 31,
+      "bullish": 22
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 31
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 21
       },
       {
         "coin": "ETH",
@@ -24,11 +24,19 @@
       },
       {
         "coin": "Near",
-        "mentions": 5
+        "mentions": 7
       },
       {
         "coin": "LINK",
-        "mentions": 3
+        "mentions": 4
+      },
+      {
+        "coin": "Optimism",
+        "mentions": 2
+      },
+      {
+        "coin": "Chainlink",
+        "mentions": 2
       },
       {
         "coin": "XRP",
@@ -41,35 +49,23 @@
       {
         "coin": "Ethereum",
         "mentions": 2
-      },
-      {
-        "coin": "Optimism",
-        "mentions": 1
-      },
-      {
-        "coin": "Ripple",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "topic": "sec",
-        "mentions": 12
+        "mentions": 11
       },
       {
-        "topic": "stablecoin",
-        "mentions": 5
-      },
-      {
-        "topic": "etf",
+        "topic": "wallet",
         "mentions": 4
       },
       {
@@ -77,24 +73,389 @@
         "mentions": 4
       },
       {
-        "topic": "wallet",
+        "topic": "etf",
         "mentions": 3
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 3
+      },
+      {
+        "topic": "dai",
+        "mentions": 2
       },
       {
         "topic": "defi",
         "mentions": 2
       },
       {
-        "topic": "fed",
-        "mentions": 2
-      },
-      {
-        "topic": "tokenization",
+        "topic": "regulation",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Nearly 2,000 Hacked WordPress Sites Turned Into Criminal Infrastructure",
+      "url": "https://decrypt.co/376109/hacked-wordpress-sites-criminal-infrastructure",
+      "published_at": "2026-08-20T16:33:38+00:00",
+      "summary": "The StopAndProtect operation used compromised WordPress websites to spread malware, steal crypto wallet files, and deploy ransomware.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hacked"
+        ]
+      },
+      "coins": [
+        "Near",
+        "FIL",
+        "OP"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist",
+      "url": "https://www.coindesk.com/markets/2026/08/20/treasury-buybacks-could-set-up-bitcoin-s-next-move-toward-usd180-000",
+      "published_at": "2026-08-20T16:17:32+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin miners pour billions into AI as capex outpaces revenue 15-to-1",
+      "url": "https://cointelegraph.com/news/bitcoin-miners-ai-hpc-capex-revenue-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-20T16:12:00+00:00",
+      "summary": "Nine public miners generated $341 million from AI and HPC operations in the first half of 2026 after spending more than $5 billion on capital assets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "miners"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Hits Highest Price Since June as $3 Billion in Shorts Liquidated",
+      "url": "https://decrypt.co/376085/bitcoin-price-high-june-3-billion-shorts-liquidated",
+      "published_at": "2026-08-20T16:04:04+00:00",
+      "summary": "Bitcoin punched above $72,000 Thursday, extending a two-day squeeze that's wiped out the most short positions on record and mounted the first real challenge to a bearish chart that's held since November.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bearish"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Most Americans say the Trump family’s crypto investments are not ‘appropriate’: Poll",
+      "url": "https://cointelegraph.com/news/americans-donald-trump-crypto-investments-inappropriate-poll?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-20T15:53:51+00:00",
+      "summary": "A new poll showed 63% of 1,166 Americans varied sharply along partisan lines, with a majority of Republicans saying it was appropriate for Trump and his family to invest in crypto.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Optimism moves 546.9M OP from future airdrops to ecosystem growth fund",
+      "url": "https://cointelegraph.com/news/optimism-moves-5469m-op-from-future-airdrops-to-ecosystem-growth-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-20T15:43:00+00:00",
+      "summary": "The governance vote redirects tokens previously reserved for user airdrops toward partnerships, incentives and Optimism’s growing institutional push.",
+      "sentiment": {
+        "score": 8,
+        "normalized": 1.0,
+        "label": "bullish",
+        "positive_hits": [
+          "growing",
+          "growth",
+          "institutional",
+          "optimism"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Optimism",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price reaches $72.5K as US issues ‘Economic D-Day’ threat to Iran",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-reaches-725k-as-us-issues-economic-d-day-threat-to-iran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-20T15:40:54+00:00",
+      "summary": "Bitcoin saw new multimonth highs above $72,500 even as US stocks cooled amid US threats of “economic warfare” with Iran.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Coinbase CEO Brian Armstrong Says Bitcoin Will Likely Hit $400,000 By 2030",
+      "url": "https://bitcoinmagazine.com/news/coinbase-ceo-says-bitcoin-will-hit-300000",
+      "published_at": "2026-08-20T15:39:56+00:00",
+      "summary": "Bitcoin Magazine\n\nCoinbase CEO Brian Armstrong Says Bitcoin Will Likely Hit $400,000 By 2030 \nCoinbase CEO Brian Armstrong has said that it&#8217;s &#8220;very likely&#8221; Bitcoin will hit between $300,000 to $400,000 by 2030.&#160; Speaking on Fox Business Network&#8217;s Varney &#38; Co. show Thursday, the crypto entrepreneur also said that the U.S. was moving in the right direction with crypto legislation following a meeting at the White House.&#160; President Donald [&#8230;]\nThis post ...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin's jump above $71,000 sets up bullish golden cross pattern",
+      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-s-jump-above-usd71-000-sets-up-bullish-golden-cross-pattern",
+      "published_at": "2026-08-20T15:16:12+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto for Advisors: What are tokenized deposits?",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/20/crypto-for-advisors-what-are-tokenized-deposits",
+      "published_at": "2026-08-20T15:01:40+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Hyperliquid Is Coming to the US",
+      "url": "https://decrypt.co/376069/morning-minute-hyperliquid-coming-us",
+      "published_at": "2026-08-20T14:02:44+00:00",
+      "summary": "At least, if Trump and the CFTC have their way. And the market really, really liked the news.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘Star Wars vibes:’ Chainlink’s McCormick sees AI agents, robots driving blockchain transactions",
+      "url": "https://www.theblock.co/news/web3/2026-08-20-star-wars-vibes-chainlink-mccormick-ai-agents-robots-blockchain-transactions-412327",
+      "published_at": "2026-08-20T13:58:22+00:00",
+      "summary": "McCormick expects a multi-chain future as AI lowers the cost of creating new blockchain networks, increasing the need for interoperability.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Chainlink",
+        "LINK",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Rockets Past $72,000 After Trump Pushes For Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-price-rockets-past-72000",
+      "published_at": "2026-08-20T13:40:27+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Rockets Past $72,000 After Trump Pushes For Clarity Act \nBitcoin&#8217;s price surged further on Thursday, blowing past $72,000 the day after President Trump held a meeting with crypto executives and urged lawmakers to get the long-awaited Clarity Act over the line.&#160; The leading cryptocurrency was trading for $71,758 at 8am in New York, after jumping nearly 12% over a 24-hour period. It touched as [&#8230;]\nThis post Bitcoin Rockets Past $72,000 After Trump Push...",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "leading"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Fake Crypto AML Checkers Are Trying to Drain Users' Wallets",
+      "url": "https://decrypt.co/376029/fake-crypto-aml-drain-users-wallets",
+      "published_at": "2026-08-20T13:31:05+00:00",
+      "summary": "Scammers are impersonating crypto compliance services to trick users into approving transactions that could put their assets at risk.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MiCA cracks down on USDT in Europe... but no one else cares",
+      "url": "https://cointelegraph.com/magazine/mica-cracks-down-on-usdt-in-europe-but-global-demand-remains-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-20T13:30:00+00:00",
+      "summary": "USDT is disappearing from regulated European platforms, but there is little sign that it has resulted in weakening global demand for Tether.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "usdt"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitdeer signs $400M AI cloud computing deal for Malaysia facility",
+      "url": "https://cointelegraph.com/news/bitdeer-signs-400m-ai-computing-deal-malaysia-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-20T13:18:02+00:00",
+      "summary": "Bitdeer expects revenue from the five-year agreement to begin in early 2027 as it builds toward 350 megawatts of AI cloud capacity by 2028.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-20T13:12:56+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Cybersecurity firm unveils crypto phishing campaign targeting 885,000 phone numbers",
@@ -536,45 +897,24 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live updates: Bitcoin rises to $72,000; ETF inflows of $700 million were largest in months",
+      "title": "Live updates: Bitcoin extends gains as Bessent suggests more Treasury intervention",
       "url": "https://www.coindesk.com/tech/2026/08/20/live-updates-bitcoin-etfs-draw-usd517-million-ether-pulls-usd189-million-in-biggest-inflows-in-months",
       "published_at": "2026-08-20T06:21:17+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gains"
+        ],
         "negative_hits": []
       },
       "coins": [
         "Bitcoin"
       ],
       "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-20T06:03:50+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
+        "ai"
       ]
     },
     {
@@ -733,24 +1073,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin briefly hits $70,000 for the first time since June. Here is why",
-      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-briefly-hits-usd70-000-for-the-first-time-since-june-here-is-why",
-      "published_at": "2026-08-19T22:26:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip",
       "url": "https://decrypt.co/376030/bitcoin-rally-flips-markets-bearish-coin-flip",
@@ -821,30 +1143,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin.com integrates UAE-registered US dollar stablecoin into self-custodial wallet",
-      "url": "https://cointelegraph.com/news/bitcoincom-integrates-uae-registered-usdu-stablecoin-into-self-custodial-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T20:33:51+00:00",
-      "summary": "The integration expands access to USDU, the UAE’s first central bank-registered US dollar stablecoin, as it builds distribution beyond institutional channels.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "integration"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "stablecoin",
-        "wallet"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "HYPE token surges after Trump says CFTC is working to bring Hyperliquid to US in ‘fully compliant fashion’",
       "url": "https://www.theblock.co/news/regulation/2026-08-19-hype-token-surges-trump-says-cftc-bring-hyperliquid-us-fully-compliant-fashion-412262",
@@ -863,299 +1161,6 @@
       "topics": [
         "ai",
         "cftc"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Trump Calls on Congress to Pass 'Fair Version' of Clarity Act at White House Crypto Meeting",
-      "url": "https://decrypt.co/376006/trump-pass-fair-version-clarity-white-house-crypto-meeting",
-      "published_at": "2026-08-19T19:56:45+00:00",
-      "summary": "Trump touted his administration’s crypto policies and said regulators are working to bring Hyperliquid into the U.S. under a compliant framework.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trump pushes for CLARITY Act passage alongside crypto leaders",
-      "url": "https://cointelegraph.com/news/donald-trump-clarity-act-passage-crypto-leaders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T19:54:59+00:00",
-      "summary": "Donald Trump spoke from the White House on Wednesday, urging the Senate to pass a crypto market structure bill to keep the country “ahead of China.”",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
-      "url": "https://decrypt.co/375990/crypto-stocks-rip-strategy-coinbase-bitcoin",
-      "published_at": "2026-08-19T19:51:11+00:00",
-      "summary": "Strategy, Coinbase, Circle, and BitMine are riding Bitcoin's short squeeze toward $70K—and two of them may be squeezing equity bears of their own.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bears"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "HYPE jumps 11% as Trump says CFTC is working to bring Hyperliquid to U.S.",
-      "url": "https://www.coindesk.com/markets/2026/08/19/hype-jumps-11-as-trump-says-cftc-is-working-to-bring-hyperliquid-to-u-s",
-      "published_at": "2026-08-19T19:49:51+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cftc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Trump pushes Congress to move on Clarity Act during White House crypto event",
-      "url": "https://www.coindesk.com/policy/2026/08/19/trump-pushes-congress-to-move-on-clarity-act-during-white-house-crypto-event",
-      "published_at": "2026-08-19T19:48:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Kalshi Pushes Beyond Prediction Markets With Copper Perpetual Futures",
-      "url": "https://decrypt.co/375987/kalshi-copper-perpetual-futures",
-      "published_at": "2026-08-19T19:16:04+00:00",
-      "summary": "The prediction market operator is seeking CFTC approval for a copper perpetual as it moves further into traditional derivatives markets.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "cftc",
-        "futures"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-shortsellers-get-destroyed",
-      "published_at": "2026-08-19T19:11:09+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump \nThose betting on the price of bitcoin to drop have had their positions closed following a green candle earlier on Wednesday. \nThis post Bitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin hits $69,000, ether jumps 10% as Treasury buybacks, SEC crypto proposal fuel market rally",
-      "url": "https://www.theblock.co/news/markets/2026-08-19-bitcoin-69000-ether-jumps-treasury-buybacks-sec-crypto-proposal-fuel-market-rally-412248",
-      "published_at": "2026-08-19T19:05:42+00:00",
-      "summary": "The move triggered nearly $2 billion in crypto liquidations and lifted crypto-linked stocks, with Strategy and Bitmine gaining around 10%.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": [
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "LINK",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto PAC notches primary wins, but loses $2M Florida race",
-      "url": "https://cointelegraph.com/news/crypto-pac-wins-primaries-loses-florida-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T18:48:58+00:00",
-      "summary": "A Fairshake spokesperson said that the PAC was “just getting started“ on its expenditures as part of efforts to fill US Congress with lawmakers friendly to the crypto industry.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "wins"
-        ],
-        "negative_hits": [
-          "loses"
-        ]
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen",
-      "url": "https://decrypt.co/375976/maya-protocol-halts-network-bitcoin-exploit",
-      "published_at": "2026-08-19T18:20:35+00:00",
-      "summary": "The cross-chain protocol said an attacker exploited six software flaws to drain Bitcoin and other assets, sending its CACAO token plunging.",
-      "sentiment": {
-        "score": -9,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "exploited",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "cross-chain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "FalconX, Ethena bring USDe backing assets into $1B institutional credit facility",
-      "url": "https://cointelegraph.com/news/falconx-ethena-launch-1b-usde-backed-institutional-lending-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T17:34:10+00:00",
-      "summary": "The $1 billion facility will deploy assets backing USDe into overcollateralized institutional loans, expanding Ethena’s sources of returns beyond crypto basis strategies.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "OCC races to finalize GENIUS Act stablecoin rules by November",
-      "url": "https://www.theblock.co/news/regulation/2026-08-19-occ-races-to-finalize-genius-act-stablecoin-rules-by-november-412240",
-      "published_at": "2026-08-19T17:03:52+00:00",
-      "summary": "The OCC is stepping on the gas to finalize rules by November to implement a stablecoin law signed by President Trump.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "OCC head promises final GENIUS rules by November",
-      "url": "https://cointelegraph.com/news/occ-head-jonathan-gould-genius-rules-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-19T17:00:01+00:00",
-      "summary": "The US banking regulator released a 376‑page proposal in February, calling for public comment on rules to implement the stablecoin bill ahead of its January 2027 effective date.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "President Trump To Host Crypto Execs at White House",
-      "url": "https://bitcoinmagazine.com/news/trump-to-host-crypto-execs",
-      "published_at": "2026-08-19T16:58:03+00:00",
-      "summary": "Bitcoin Magazine\n\nPresident Trump To Host Crypto Execs at White House \nThe meeting with crypto execs comes after a vote on the Clarity Act was stalled.  \nThis post President Trump To Host Crypto Execs at White House  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
