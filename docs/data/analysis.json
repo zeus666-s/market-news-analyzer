@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T04:42:14.435991+00:00",
+  "generated_at": "2026-08-21T08:45:48.109175+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.077,
+    "market_sentiment_score": 0.046,
     "label_distribution": {
-      "bullish": 24,
+      "bullish": 21,
       "neutral": 32,
-      "bearish": 14
+      "bearish": 17
     },
     "top_coins": [
       {
@@ -19,35 +19,35 @@
         "mentions": 22
       },
       {
-        "coin": "Near",
+        "coin": "ETH",
         "mentions": 6
       },
       {
         "coin": "XRP",
-        "mentions": 4
+        "mentions": 5
+      },
+      {
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "BTC",
         "mentions": 4
       },
       {
-        "coin": "ETH",
-        "mentions": 4
+        "coin": "SOL",
+        "mentions": 3
+      },
+      {
+        "coin": "Solana",
+        "mentions": 2
+      },
+      {
+        "coin": "Ripple",
+        "mentions": 2
       },
       {
         "coin": "FIL",
-        "mentions": 2
-      },
-      {
-        "coin": "ARB",
-        "mentions": 2
-      },
-      {
-        "coin": "UNI",
-        "mentions": 2
-      },
-      {
-        "coin": "Optimism",
         "mentions": 2
       }
     ],
@@ -58,14 +58,14 @@
       },
       {
         "topic": "pos",
-        "mentions": 17
-      },
-      {
-        "topic": "cftc",
-        "mentions": 7
+        "mentions": 19
       },
       {
         "topic": "etf",
+        "mentions": 6
+      },
+      {
+        "topic": "cftc",
         "mentions": 6
       },
       {
@@ -73,28 +73,282 @@
         "mentions": 4
       },
       {
-        "topic": "sec",
-        "mentions": 4
+        "topic": "dai",
+        "mentions": 3
       },
       {
         "topic": "defi",
         "mentions": 3
       },
       {
-        "topic": "dai",
-        "mentions": 3
-      },
-      {
-        "topic": "wallet",
-        "mentions": 3
+        "topic": "pow",
+        "mentions": 2
       },
       {
         "topic": "lending",
+        "mentions": 2
+      },
+      {
+        "topic": "fed",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Strategy sits on $1.4 billion profit on bitcoin holdings as price surges",
+      "url": "https://www.coindesk.com/markets/2026/08/21/strategy-sits-on-usd1-4-billion-profit-on-bitcoin-holdings-as-price-surges",
+      "published_at": "2026-08-21T08:24:52+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "profit",
+          "surges"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs draw $608M as Ether ETFs see largest inflow since October",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-ether-etfs-largest-inflow-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-21T07:50:01+00:00",
+      "summary": "Bitcoin ETF inflows pushed August’s total to a 2026 high of $2.07 billion as Bitcoin traded above $75,000 and Ether climbed to $2,357.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Anchorage CEO says AI agents need bank accounts for ‘The Jetsons’-like future",
+      "url": "https://www.theblock.co/news/business/2026-08-21-anchorage-ceo-ai-the-jetsons-412427",
+      "published_at": "2026-08-21T07:11:13+00:00",
+      "summary": "The firm has built an agentic banking platform with a 'know-your-agent' setup to facilitate AI-driven transactions.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin tops $77,000; BTC, ETH record $800 million inflows",
+      "url": "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+      "published_at": "2026-08-21T06:43:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "South Korea’s Shinhan partners with Solana Foundation, Etherfuse, Orca for tokenized fund issuance",
+      "url": "https://www.theblock.co/news/regulation/2026-08-21-south-korea-shinhan-partners-solana-412420",
+      "published_at": "2026-08-21T06:32:48+00:00",
+      "summary": "The agreement covers a proof-of-concept for the issuance and distribution of a Korean won-denominated tokenized fund.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-21T05:53:11+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "MANTRA token plunges 18% to record low as blockchain halts after exploit",
+      "url": "https://www.coindesk.com/tech/2026/08/21/mantra-token-plunges-18-to-record-low-as-blockchain-halts-after-exploit",
+      "published_at": "2026-08-21T05:52:27+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "plunges"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korean lawmakers seek expanded FIU powers over unregistered crypto firms",
+      "url": "https://cointelegraph.com/news/south-korea-fiu-unregistered-crypto-firms-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-21T05:47:16+00:00",
+      "summary": "The proposal would let the FIU investigate suspected violations and refer unregistered crypto operators directly to law enforcement.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "investigate"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "pow"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ripple backs an RLUSD credit fund amid XRP's best week in months",
+      "url": "https://www.coindesk.com/markets/2026/08/21/ripple-backs-an-rlusd-credit-fund-amid-xrp-s-best-week-in-months",
+      "published_at": "2026-08-21T05:29:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple",
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MANTRA token sinks 18% to record low amid blockchain halt",
+      "url": "https://cointelegraph.com/markets/mantra-token-record-low-blockchain-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-21T05:04:52+00:00",
+      "summary": "The token recovered to about $0.0044 after setting a new low, while exchanges paused deposits and withdrawals from the halted MANTRA Chain.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [
+          "recovered"
+        ],
+        "negative_hits": [
+          "halt",
+          "halted"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin, ether and solana climb as another $1 billion shorts get wiped out",
+      "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-ether-and-solana-climb-as-another-usd1-billion-shorts-get-wiped-out",
+      "published_at": "2026-08-21T04:56:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "MANTRA freezes all transactions and network following unspecified incident",
+      "url": "https://www.theblock.co/news/defi/2026-08-21-mantra-freezes-network-412416",
+      "published_at": "2026-08-21T04:47:29+00:00",
+      "summary": "MANTRA Chain has halted the network and all transactions after discovering an incident, the nature of which remains undisclosed.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "halted"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Capital.com plans UAE spot crypto services after affiliate wins licence",
@@ -408,29 +662,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-20T19:50:32+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Bitcoin Is Pumping But Prediction Market Traders Aren't Convinced",
       "url": "https://decrypt.co/376103/bitcoin-price-pumping-prediction-next-move",
@@ -718,7 +949,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist",
+      "title": "Treasury buybacks could set up bitcoin’s next move toward $180,000, says strategist",
       "url": "https://www.coindesk.com/markets/2026/08/20/treasury-buybacks-could-set-up-bitcoin-s-next-move-toward-usd180-000",
       "published_at": "2026-08-20T16:17:32+00:00",
       "summary": "",
@@ -964,243 +1195,6 @@
       "topics": [
         "ai",
         "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Fake Crypto AML Checkers Are Trying to Drain Users' Wallets",
-      "url": "https://decrypt.co/376029/fake-crypto-aml-drain-users-wallets",
-      "published_at": "2026-08-20T13:31:05+00:00",
-      "summary": "Scammers are impersonating crypto compliance services to trick users into approving transactions that could put their assets at risk.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MiCA cracks down on USDT in Europe... but no one else cares",
-      "url": "https://cointelegraph.com/magazine/mica-cracks-down-on-usdt-in-europe-but-global-demand-remains-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-20T13:30:00+00:00",
-      "summary": "USDT is disappearing from regulated European platforms, but there is little sign that it has resulted in weakening global demand for Tether.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "usdt"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitdeer signs $400M AI cloud computing deal for Malaysia facility",
-      "url": "https://cointelegraph.com/news/bitdeer-signs-400m-ai-computing-deal-malaysia-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-20T13:18:02+00:00",
-      "summary": "Bitdeer expects revenue from the five-year agreement to begin in early 2027 as it builds toward 350 megawatts of AI cloud capacity by 2028.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Cybersecurity firm unveils crypto phishing campaign targeting 885,000 phone numbers",
-      "url": "https://cointelegraph.com/news/cybersecurity-unveils-crypto-phishing-885000-phone-numbers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-20T12:35:32+00:00",
-      "summary": "Rapid7 unveiled a new cryptocurrency phishing campaign targeting 885,000 phone numbers, aiming to steal investors’ holdings by redirecting them to fake wallet provider websites.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Optimism-funded team's deciding vote shifts $49 million in OP tokens away from users",
-      "url": "https://www.coindesk.com/web3/2026/08/20/optimism-funded-team-s-deciding-vote-shifts-usd49-million-in-op-tokens-away-from-users",
-      "published_at": "2026-08-20T12:00:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Optimism",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ripple-linked XRP jumps 15% as data shows 'banker hours' onchain pattern",
-      "url": "https://www.coindesk.com/markets/2026/08/20/ripple-linked-xrp-jumps-15-as-data-shows-banker-hours-onchain-pattern",
-      "published_at": "2026-08-20T11:35:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "XRP",
-        "LINK"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "OpenLedger’s Ram Kumar sees agentic payments as crypto’s first AI ‘killer app’",
-      "url": "https://www.theblock.co/news/business/2026-08-20-openledger-ram-kumar-agentic-payments-crypto-ai-killer-app-412313",
-      "published_at": "2026-08-20T11:34:23+00:00",
-      "summary": "OpenLedger core contributor Ram Kumar sees agentic payments as a major crypto use case as AI agents lack traditional banking access.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Evernorth eyes DeFi opportunities as XRP Ledger weighs native lending",
-      "url": "https://www.theblock.co/news/business/2026-08-20-evernorth-defi-xrp-ledger-native-lending-412315",
-      "published_at": "2026-08-20T11:34:05+00:00",
-      "summary": "The XRP-focused digital asset treasury firm plans to put its holdings to work as it also moves through the process of going public.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP",
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "defi",
-        "lending"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
-      "published_at": "2026-08-20T11:31:10+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "weakness"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "liquidity"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Flock's New AI Police Tool Can Track Drivers Without a Name or License Plate",
-      "url": "https://decrypt.co/375978/flock-ai-police-tool-track-drivers",
-      "published_at": "2026-08-20T11:31:04+00:00",
-      "summary": "The underlying code for \"OS Investigate\" has 69 preloaded AI prompts that turn Flock cameras into a super-charged surveillance system that identifies people by how they move.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "investigate"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs draw $517M in largest one-day inflow since early May",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-largest-daily-inflow-since-early-may?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-20T11:16:41+00:00",
-      "summary": "Investors have poured more than $1 billion into US spot Bitcoin ETFs this week as BTC neared $72,000 and Ether climbed 19% to about $2,286 on Thursday.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "ETH",
-        "Near"
-      ],
-      "topics": [
-        "etf"
       ]
     }
   ]
