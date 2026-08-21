@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T16:38:45.075325+00:00",
+  "generated_at": "2026-08-21T20:29:50.458121+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.071,
+    "market_sentiment_score": 0.077,
     "label_distribution": {
-      "neutral": 28,
+      "neutral": 29,
       "bullish": 27,
-      "bearish": 15
+      "bearish": 14
     },
     "top_coins": [
       {
@@ -19,82 +19,385 @@
         "mentions": 14
       },
       {
+        "coin": "SOL",
+        "mentions": 5
+      },
+      {
         "coin": "BTC",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "coin": "ETH",
         "mentions": 5
       },
       {
-        "coin": "XRP",
+        "coin": "Near",
         "mentions": 4
       },
       {
-        "coin": "SOL",
+        "coin": "Solana",
         "mentions": 4
       },
       {
         "coin": "LTC",
+        "mentions": 4
+      },
+      {
+        "coin": "XRP",
         "mentions": 3
       },
       {
-        "coin": "Near",
-        "mentions": 3
-      },
-      {
-        "coin": "Solana",
-        "mentions": 3
-      },
-      {
-        "coin": "FIL",
-        "mentions": 3
+        "coin": "LINK",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 26
+        "mentions": 28
       },
       {
         "topic": "pos",
-        "mentions": 18
-      },
-      {
-        "topic": "etf",
-        "mentions": 8
+        "mentions": 16
       },
       {
         "topic": "cftc",
-        "mentions": 4
+        "mentions": 6
+      },
+      {
+        "topic": "etf",
+        "mentions": 6
       },
       {
         "topic": "sec",
-        "mentions": 3
+        "mentions": 5
       },
       {
-        "topic": "exchange",
-        "mentions": 3
+        "topic": "regulatory",
+        "mentions": 4
       },
       {
         "topic": "liquidity",
         "mentions": 3
       },
       {
-        "topic": "regulatory",
+        "topic": "macro",
         "mentions": 2
       },
       {
-        "topic": "futures",
+        "topic": "exchange",
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "defi",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Legendary Investor Ray Dalio Touts Bitcoin — With Gold — To Hedge Against Incoming Debt Crisis",
+      "url": "https://bitcoinmagazine.com/news/ray-dalio-touts-bitcoin",
+      "published_at": "2026-08-21T20:14:52+00:00",
+      "summary": "Bitcoin Magazine\n\nLegendary Investor Ray Dalio Touts Bitcoin — With Gold — To Hedge Against Incoming Debt Crisis\nBridgewater Associates founder Ray Dalio has said Bitcoin will do well with government money printing. \nThis post Legendary Investor Ray Dalio Touts Bitcoin — With Gold — To Hedge Against Incoming Debt Crisis first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
+      "url": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally",
+      "published_at": "2026-08-21T20:07:05+00:00",
+      "summary": "Institutional buying, improving macro conditions and a friendlier regulatory outlook are supporting Bitcoin's rally, while billions in short liquidations have accelerated the move.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "buying",
+          "institutional",
+          "rally"
+        ],
+        "negative_hits": [
+          "liquidations"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "macro",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ray Dalio says to buy ‘a bit’ of Bitcoin amid potential debt crisis",
+      "url": "https://cointelegraph.com/news/ray-dalio-buy-bitcoin-debt-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-21T20:00:47+00:00",
+      "summary": "The hedge fund founder with an estimated net worth of $15 billion recommended that investors overweight Bitcoin and gold rather than bonds.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Onchain, in court: What happened in crypto legal news this week",
+      "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-21T19:19:27+00:00",
+      "summary": "The CFTC ordered a trading ban for former Alameda and FTX executives, and US prosecutors opposed a motion from a US soldier accused of profiting from the removal of Nicolas Maduro.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "onchain",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin seeks support near $77K as BTC, gold near 100-day highs",
+      "url": "https://cointelegraph.com/markets/bitcoin-seeks-support-near-77k-btc-gold-100-day-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-21T19:10:47+00:00",
+      "summary": "Bitcoin volatility eased after BTC hit its highest level since mid-May, while gold joined the cryptocurrency in approaching three-month highs.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Pass the Clarity Act",
+      "url": "https://www.coindesk.com/opinion/2026/08/21/pass-the-clarity-act",
+      "published_at": "2026-08-21T19:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Solana Just Got Faster—Is It Bullish for SOL?",
+      "url": "https://decrypt.co/376245/solana-faster-bullish-sol-price",
+      "published_at": "2026-08-21T18:45:01+00:00",
+      "summary": "Solana has activated the first reduction in its block timing since launch, speeding up transactions on the network.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish",
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Washington Goes All-In on Crypto: Trump Pushes Clarity, SEC Rules, and CFTC Warnings",
+      "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
+      "published_at": "2026-08-21T18:06:56+00:00",
+      "summary": "Trump urged executives to pass a \"fair version\" of the Clarity Act, the CFTC warned it would write its own rules if the bill stalls, and the SEC abruptly advanced its first crypto fundraising framework.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warned"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc",
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Has Its Best Week Since 2023 as Shortsellers Continue To Get Wiped Out",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-has-best-week-since-2023",
+      "published_at": "2026-08-21T17:51:59+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Has Its Best Week Since 2023 as Shortsellers Continue To Get Wiped Out\nBitcoin's price continues to rise and those betting on it to fall are suffering. \nThis post Bitcoin Has Its Best Week Since 2023 as Shortsellers Continue To Get Wiped Out first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Strategy Swings From $13 Billion Bitcoin Loss to $1.4 Billion Profit as BTC Rallies",
+      "url": "https://decrypt.co/376230/strategy-profit-bitcoin-holdings-btc-rallies",
+      "published_at": "2026-08-21T17:28:55+00:00",
+      "summary": "The Bitcoin treasury giant is sitting on roughly $1.4 billion in unrealized gains after Bitcoin climbed above its average acquisition price.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "gains",
+          "profit",
+          "rallies"
+        ],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
+      "published_at": "2026-08-21T17:28:34+00:00",
+      "summary": "The attacker transferred approximately 286.5 million BB from nine wallets before block production was eventually halted.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "halted"
+        ]
+      },
+      "coins": [
+        "BNB"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "XRP leads broad altcoin rally as bitcoin’s biggest weekly gain in two years lifts crypto",
+      "url": "https://www.theblock.co/news/markets/2026-08-21-xrp-leads-altcoin-rally-bitcoin-biggest-weekly-gain-in-two-years-lifts-crypto-412483",
+      "published_at": "2026-08-21T17:24:02+00:00",
+      "summary": "Amid this week's crypto rally, HYPE is up nearly 40%, while other altcoins such as XRP, ZEC and LINK have risen over 30%.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "gain",
+          "leads",
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "XRP",
+        "LINK",
+        "LTC",
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Pakistan’s Crypto Pitch: “Come Build Here” as Virtual Assets Act Moves Forward",
+      "url": "https://bitcoinmagazine.com/news/pakistan-tells-companies-to-build-there",
+      "published_at": "2026-08-21T16:59:45+00:00",
+      "summary": "Bitcoin Magazine\n\nPakistan&#8217;s Crypto Pitch: &#8220;Come Build Here&#8221; as Virtual Assets Act Moves Forward\nPakistan has announced a new regulatory framework for crypto after banning the asset class for close to a decade,&#160; Announcing the news in an X post Friday, Bilal Bin Saqib, the special assistant to the prime minister on blockchain and cryptocurrency, invited foreign businesses to come to the country and set up shop.&#160;&#160; Pakistan&#8217;s Virtual [&#8230;]\nThis post Pa...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "regulatory",
+        "rwa"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Bitcoin ETFs Just Had Their Biggest Day Since May—BlackRock Took 83% of It",
@@ -873,290 +1176,6 @@
         ]
       },
       "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korean lawmakers seek expanded FIU powers over unregistered crypto firms",
-      "url": "https://cointelegraph.com/news/south-korea-fiu-unregistered-crypto-firms-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T05:47:16+00:00",
-      "summary": "The proposal would let the FIU investigate suspected violations and refer unregistered crypto operators directly to law enforcement.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "investigate"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "pow"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ripple backs an RLUSD credit fund amid XRP's best week in months",
-      "url": "https://www.coindesk.com/markets/2026/08/21/ripple-backs-an-rlusd-credit-fund-amid-xrp-s-best-week-in-months",
-      "published_at": "2026-08-21T05:29:48+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "XRP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MANTRA token sinks 18% to record low amid blockchain halt",
-      "url": "https://cointelegraph.com/markets/mantra-token-record-low-blockchain-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T05:04:52+00:00",
-      "summary": "The token recovered to about $0.0044 after setting a new low, while exchanges paused deposits and withdrawals from the halted MANTRA Chain.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "recovered"
-        ],
-        "negative_hits": [
-          "halt",
-          "halted"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "exchanges",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin, ether and solana climb as another $1 billion shorts get wiped out",
-      "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-ether-and-solana-climb-as-another-usd1-billion-shorts-get-wiped-out",
-      "published_at": "2026-08-21T04:56:30+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Solana",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "MANTRA freezes all transactions and network following incident",
-      "url": "https://www.theblock.co/news/defi/2026-08-21-mantra-freezes-network-412416",
-      "published_at": "2026-08-21T04:47:29+00:00",
-      "summary": "MANTRA Chain halted the network and all transactions after discovering an incident related to its Cosmos EVM module.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "halted"
-        ]
-      },
-      "coins": [
-        "Cosmos"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Capital.com plans UAE spot crypto services after affiliate wins licence",
-      "url": "https://cointelegraph.com/news/capital-com-uae-spot-crypto-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T03:33:11+00:00",
-      "summary": "UAE clients will be able to buy and hold crypto through Capital.com’s app, expanding beyond price exposure through contracts for difference.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "buy",
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin breaks through $75,500 while analyst calls current rally ‘premature’",
-      "url": "https://www.theblock.co/news/markets/2026-08-20-bitcoin-breaks-through-75500-412404",
-      "published_at": "2026-08-21T02:22:44+00:00",
-      "summary": "Shawn Young, chief analyst at MEXC Research, said that the crypto market is giving Treasury's intervention 'more credit than it deserves.'",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin pushes past $75,000 as rally continues.",
-      "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-pushes-past-usd75-000-as-rally-continues",
-      "published_at": "2026-08-21T01:55:50+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "A $2 million bet on XRP volatility crosses the tape as prices surge",
-      "url": "https://www.coindesk.com/markets/2026/08/21/a-usd2-million-bet-on-xrp-volatility-crosses-the-tape-as-prices-surge",
-      "published_at": "2026-08-21T01:51:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "CME CEO Terrence Duffy trades barbs with CFTC’s Selig and Kalshi’s COO over prediction market oversight",
-      "url": "https://www.theblock.co/news/regulation/2026-08-20-cme-ceo-terrence-duffy-trades-barbs-with-cftcs-selig-and-kalshis-coo-over-prediction-market-oversight-412397",
-      "published_at": "2026-08-20T23:39:38+00:00",
-      "summary": "A CFTC ommittee meeting exposed a sharp divide between the worlds of traditional finance and prediction market platforms.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ARB"
-      ],
-      "topics": [
-        "cftc",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Tensions Flare as CME, Kalshi Execs Clash Over Prediction Markets in DC",
-      "url": "https://decrypt.co/376158/tensions-flare-cme-kalshi-clash-prediction-markets-dc",
-      "published_at": "2026-08-20T22:32:11+00:00",
-      "summary": "CME Group Chairman Terry Duffy and Kalshi co-founder Luana Lopes Lara traded barbs during a CFTC meeting over prediction markets, manipulation, and regulatory standards.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ARB",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "cftc",
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-price-to-rise-says-lyn-alden",
-      "published_at": "2026-08-20T21:16:08+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden\nWhile Bitcoin may not be \"out of the woods\" just yet, Macro expert Lyn Alden thinks new buyers could be entering the market soon. \nThis post Bitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "macro",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin breaks above 200-day moving average for first time since November",
-      "url": "https://cointelegraph.com/markets/bitcoin-breaks-200-day-moving-average?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-20T21:03:21+00:00",
-      "summary": "The BTC price reclaimed its 200-day moving average for the first time in nine months as its rally gained momentum after the US Treasury expanded its bond buybacks.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
       "topics": [
         "ai"
       ]
