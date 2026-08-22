@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-22T08:34:24.651707+00:00",
+  "generated_at": "2026-08-22T12:47:10.273412+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.087,
+    "market_sentiment_score": 0.102,
     "label_distribution": {
+      "bullish": 29,
       "neutral": 28,
-      "bullish": 28,
-      "bearish": 14
+      "bearish": 13
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 40
+        "mentions": 41
       },
       {
         "coin": "OP",
@@ -21,6 +21,10 @@
       {
         "coin": "BTC",
         "mentions": 6
+      },
+      {
+        "coin": "ETH",
+        "mentions": 5
       },
       {
         "coin": "Near",
@@ -32,10 +36,6 @@
       },
       {
         "coin": "LTC",
-        "mentions": 4
-      },
-      {
-        "coin": "ETH",
         "mentions": 4
       },
       {
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
+        "mentions": 27
       },
       {
         "topic": "pos",
@@ -95,6 +95,31 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto week in 5 stories",
+      "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+      "published_at": "2026-08-22T12:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "bears"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
@@ -1166,32 +1191,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Avalanche’s Nahas: Token prices are down, but ‘I’ve never seen more opportunities’ in crypto",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-21-avalanches-nahas-token-prices-are-down-but-ive-never-seen-more-opportunities-in-crypto-412431",
-      "published_at": "2026-08-21T09:00:26+00:00",
-      "summary": "Ava Labs CBO John Nahas says crypto prices are down, but real-world adoption is creating more opportunities across the sector.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption"
-        ],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Avalanche",
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "sec"
-      ]
     }
   ]
 }
