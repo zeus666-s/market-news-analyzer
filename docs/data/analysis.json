@@ -1,22 +1,26 @@
 {
-  "generated_at": "2026-08-22T12:47:10.273412+00:00",
+  "generated_at": "2026-08-22T16:29:08.748858+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.102,
+    "market_sentiment_score": 0.091,
     "label_distribution": {
-      "bullish": 29,
-      "neutral": 28,
-      "bearish": 13
+      "bearish": 15,
+      "neutral": 27,
+      "bullish": 28
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 41
+        "mentions": 36
       },
       {
         "coin": "OP",
         "mentions": 11
+      },
+      {
+        "coin": "Near",
+        "mentions": 6
       },
       {
         "coin": "BTC",
@@ -27,15 +31,7 @@
         "mentions": 5
       },
       {
-        "coin": "Near",
-        "mentions": 5
-      },
-      {
         "coin": "SOL",
-        "mentions": 4
-      },
-      {
-        "coin": "LTC",
         "mentions": 4
       },
       {
@@ -43,26 +39,26 @@
         "mentions": 3
       },
       {
-        "coin": "FIL",
+        "coin": "LTC",
+        "mentions": 3
+      },
+      {
+        "coin": "BNB",
         "mentions": 2
       },
       {
-        "coin": "XRP",
+        "coin": "FIL",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 30
       },
       {
         "topic": "pos",
         "mentions": 15
-      },
-      {
-        "topic": "etf",
-        "mentions": 7
       },
       {
         "topic": "sec",
@@ -73,11 +69,19 @@
         "mentions": 6
       },
       {
+        "topic": "etf",
+        "mentions": 6
+      },
+      {
+        "topic": "exchange",
+        "mentions": 4
+      },
+      {
         "topic": "regulatory",
         "mentions": 4
       },
       {
-        "topic": "exchange",
+        "topic": "defi",
         "mentions": 3
       },
       {
@@ -87,17 +91,161 @@
       {
         "topic": "liquidity",
         "mentions": 3
-      },
-      {
-        "topic": "wallet",
-        "mentions": 2
       }
     ]
   },
   "articles": [
     {
+      "source": "Decrypt",
+      "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
+      "url": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
+      "published_at": "2026-08-22T15:31:04+00:00",
+      "summary": "A group of 20-odd developers is scanning the Bitcoin ecosystem for AI-discoverable flaws, warning that cheap, powerful models have handed attackers unprecedented reach.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
       "source": "CoinDesk",
-      "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto week in 5 stories",
+      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "url": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
+      "published_at": "2026-08-22T15:16:41+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
+      "url": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
+      "published_at": "2026-08-22T14:10:17+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "BNB",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Tokenized stocks risk repeating Wall Street’s 1960s ‘paper crisis,’ Fairmint CEO says",
+      "url": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
+      "published_at": "2026-08-22T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds",
+      "url": "https://decrypt.co/376271/chatgpt-web-ai-written-pew",
+      "published_at": "2026-08-22T13:31:03+00:00",
+      "summary": "Pew Research scanned nearly half a million webpages with an AI detector and found the fingerprints concentrated on .com domains—and multiplying fast.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Kalshi off-limits in multiple states as prediction markets, CFTC team up for battle",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/21/kalshi-off-limits-in-multiple-states-as-prediction-markets-cftc-team-up-for-battle",
+      "published_at": "2026-08-22T13:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
+      "url": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-22T13:30:00+00:00",
+      "summary": "Brussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "defi",
+        "lending",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
       "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
       "published_at": "2026-08-22T12:00:00+00:00",
       "summary": "",
@@ -1048,149 +1196,6 @@
       "topics": [
         "liquidity"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin surge toward $80K points to liquidity-driven momentum shift as ETF flows rebound: Bernstein",
-      "url": "https://www.theblock.co/news/markets/2026-08-21-bitcoin-surge-80k-liquidity-driven-momentum-shift-etf-flows-rebound-bernstein-412443",
-      "published_at": "2026-08-21T10:57:54+00:00",
-      "summary": "U.S. spot bitcoin ETF flows have also rebounded, while Strategy's bitcoin holdings are now back above their average purchase price.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf",
-        "liquidity"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
-      "url": "https://www.coindesk.com/policy/2026/08/21/nomura-backed-laser-digital-wins-japan-s-first-crypto-approval-in-four-years",
-      "published_at": "2026-08-21T10:38:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin tops $77,000 as best week since 2023 pulls altcoins along for the ride",
-      "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-tops-usd77-000-as-best-week-since-2023-pulls-altcoins-along-for-the-ride",
-      "published_at": "2026-08-21T10:15:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "LTC",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Coldcard strengthens seed generation with firmware update",
-      "url": "https://cointelegraph.com/news/coldcard-upgrade-strengthen-seed-phrase-generation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T10:13:23+00:00",
-      "summary": "Coinkite urged Coldcard users to generate new seed phrases, warning that existing vulnerable seeds remain unsafe despite the security upgrade.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Binance Opens the Door to AI Agents That Can Trade Crypto for You",
-      "url": "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
-      "published_at": "2026-08-21T09:31:05+00:00",
-      "summary": "Binance Agent OS connects tools like ChatGPT and Claude directly to the exchange's markets, though safeguards wall agents off from user funds—and leave much of the oversight to users themselves.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Upbit trading volume spikes 273% as South Korean investors re-enter crypto",
-      "url": "https://www.theblock.co/news/markets/2026-08-21-upbit-trading-volume-spikes-412435",
-      "published_at": "2026-08-21T09:17:58+00:00",
-      "summary": "One analyst said South Korean capital is slowly moving back to crypto, as investors are 'return-chasing' rather than 'asset-loyal.'",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
-      "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
-      "published_at": "2026-08-21T09:17:15+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
