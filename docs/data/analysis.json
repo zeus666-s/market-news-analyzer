@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-22T04:36:51.396629+00:00",
+  "generated_at": "2026-08-22T08:34:24.651707+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.082,
+    "market_sentiment_score": 0.087,
     "label_distribution": {
-      "neutral": 29,
-      "bullish": 27,
+      "neutral": 28,
+      "bullish": 28,
       "bearish": 14
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 39
+        "mentions": 40
       },
       {
         "coin": "OP",
@@ -23,19 +23,11 @@
         "mentions": 6
       },
       {
-        "coin": "SOL",
-        "mentions": 5
-      },
-      {
-        "coin": "ETH",
-        "mentions": 5
-      },
-      {
         "coin": "Near",
-        "mentions": 4
+        "mentions": 5
       },
       {
-        "coin": "Solana",
+        "coin": "SOL",
         "mentions": 4
       },
       {
@@ -43,11 +35,19 @@
         "mentions": 4
       },
       {
-        "coin": "XRP",
+        "coin": "ETH",
+        "mentions": 4
+      },
+      {
+        "coin": "Solana",
         "mentions": 3
       },
       {
         "coin": "FIL",
+        "mentions": 2
+      },
+      {
+        "coin": "XRP",
         "mentions": 2
       }
     ],
@@ -61,12 +61,12 @@
         "mentions": 15
       },
       {
-        "topic": "sec",
+        "topic": "etf",
         "mentions": 7
       },
       {
-        "topic": "etf",
-        "mentions": 6
+        "topic": "sec",
+        "mentions": 7
       },
       {
         "topic": "cftc",
@@ -95,6 +95,48 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
+      "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
+      "published_at": "2026-08-22T05:37:43+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "spot etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
+      "url": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
+      "published_at": "2026-08-22T05:05:13+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": []
+    },
     {
       "source": "CoinDesk",
       "title": "Crypto advocates join in suing Illinois over digital asset tax",
@@ -1150,50 +1192,6 @@
       "topics": [
         "sec"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy Bitcoin treasury hits breakeven point as BTC price passes $77K",
-      "url": "https://cointelegraph.com/markets/strategy-bitcoin-treasury-hits-breakeven-point-as-btc-price-passes-77k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T08:48:52+00:00",
-      "summary": "Bitcoin gains 20% in two days as Strategy sees its BTC treasury climb out of the red.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Strategy sits on $1.4 billion profit on bitcoin holdings as price surges",
-      "url": "https://www.coindesk.com/markets/2026/08/21/strategy-sits-on-usd1-4-billion-profit-on-bitcoin-holdings-as-price-surges",
-      "published_at": "2026-08-21T08:24:52+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "profit",
-          "surges"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
