@@ -1,25 +1,29 @@
 {
-  "generated_at": "2026-08-22T16:29:08.748858+00:00",
+  "generated_at": "2026-08-22T20:27:10.668905+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.091,
+    "market_sentiment_score": 0.066,
     "label_distribution": {
-      "bearish": 15,
+      "bearish": 17,
       "neutral": 27,
-      "bullish": 28
+      "bullish": 26
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 36
+        "mentions": 35
       },
       {
         "coin": "OP",
-        "mentions": 11
+        "mentions": 12
       },
       {
         "coin": "Near",
+        "mentions": 7
+      },
+      {
+        "coin": "ETH",
         "mentions": 6
       },
       {
@@ -27,27 +31,23 @@
         "mentions": 6
       },
       {
-        "coin": "ETH",
+        "coin": "SOL",
         "mentions": 5
       },
       {
-        "coin": "SOL",
-        "mentions": 4
-      },
-      {
         "coin": "Solana",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "LTC",
         "mentions": 3
       },
       {
-        "coin": "BNB",
+        "coin": "Tron",
         "mentions": 2
       },
       {
-        "coin": "FIL",
+        "coin": "BNB",
         "mentions": 2
       }
     ],
@@ -58,19 +58,19 @@
       },
       {
         "topic": "pos",
-        "mentions": 15
-      },
-      {
-        "topic": "sec",
-        "mentions": 7
-      },
-      {
-        "topic": "cftc",
-        "mentions": 6
+        "mentions": 14
       },
       {
         "topic": "etf",
-        "mentions": 6
+        "mentions": 8
+      },
+      {
+        "topic": "sec",
+        "mentions": 8
+      },
+      {
+        "topic": "cftc",
+        "mentions": 5
       },
       {
         "topic": "exchange",
@@ -95,6 +95,96 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Bitcoin and ether ETFs draw $2.6 billion in strongest inflow week since October, tripling volume",
+      "url": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531",
+      "published_at": "2026-08-22T19:31:35+00:00",
+      "summary": "Combined ETF weekly trading volume more than tripled to $29 billion as bitcoin and ether prices rallied, though both categories are negative on the year.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "negative"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Tron"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Zcash hits eight-year high near $850 with futures volume near $10 billion amid Grayscale ETF push",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-22-zcash-hits-eight-year-high-near-850-with-futures-volume-near-10-billion-amid-grayscale-etf-push-412528",
+      "published_at": "2026-08-22T17:35:27+00:00",
+      "summary": "CoinGlass recorded nearly $10 billion in 24-hour futures volume and $1.76 billion in open interest, indicating that derivatives made up much of the trading.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "etf",
+        "futures"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
+      "url": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code",
+      "published_at": "2026-08-22T17:31:03+00:00",
+      "summary": "The Entra ID flaw earned the highest possible severity score, but Microsoft says it patched the bug before publishing the CVE and found no evidence it was ever exploited.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "exploited"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Solana cuts mainnet slot time to 350 milliseconds in first step toward 200ms goal",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521",
+      "published_at": "2026-08-22T15:54:13+00:00",
+      "summary": "The change should lead to faster transaction confirmations but is not designed to increase the overall throughput of the network.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "mainnet",
+        "sec"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
@@ -1118,83 +1208,6 @@
       ],
       "topics": [
         "futures"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
-      "url": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run",
-      "published_at": "2026-08-21T11:31:30+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Most Americans Say Trump's Crypto Profits Cross the Line: Poll",
-      "url": "https://decrypt.co/376167/americans-say-trump-crypto-profits-cross-line",
-      "published_at": "2026-08-21T11:31:04+00:00",
-      "summary": "A Reuters/Ipsos survey found 63% of Americans view the Trump family's crypto profits as inappropriate, with even half of the president's fellow Republicans saying his business interests sway his decisions.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "profits"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The hard truth is that the Clarity Act is an anti-crypto bill",
-      "url": "https://www.coindesk.com/opinion/2026/08/21/the-hard-truth-is-that-the-clarity-act-is-an-anti-crypto-bill",
-      "published_at": "2026-08-21T11:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
-      "published_at": "2026-08-21T11:26:27+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "liquidity"
       ]
     }
   ]
