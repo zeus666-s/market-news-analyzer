@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T16:30:20.268889+00:00",
+  "generated_at": "2026-08-23T20:27:56.958865+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.068,
+    "market_sentiment_score": 0.061,
     "label_distribution": {
-      "bullish": 26,
-      "neutral": 27,
-      "bearish": 17
+      "neutral": 28,
+      "bearish": 17,
+      "bullish": 25
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 14
+        "mentions": 13
       },
       {
         "coin": "Near",
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 31
       },
       {
         "topic": "pos",
@@ -69,15 +69,19 @@
         "mentions": 8
       },
       {
-        "topic": "exchange",
-        "mentions": 4
-      },
-      {
         "topic": "cftc",
         "mentions": 4
       },
       {
+        "topic": "regulation",
+        "mentions": 3
+      },
+      {
         "topic": "stablecoin",
+        "mentions": 3
+      },
+      {
+        "topic": "exchange",
         "mentions": 3
       },
       {
@@ -87,14 +91,70 @@
       {
         "topic": "macro",
         "mentions": 3
-      },
-      {
-        "topic": "regulatory",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Regulation Crypto is here: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto",
+      "published_at": "2026-08-23T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "regulation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
+      "url": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
+      "published_at": "2026-08-23T17:02:20+00:00",
+      "summary": "UTE cut power to Tether's mining sites in July 2025 after Tether representatives did not attend the signing of a revised contract, per the report.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "collapsed"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "mining",
+        "pow"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
+      "url": "https://decrypt.co/376295/religious-books-amazon-ai-written-study",
+      "published_at": "2026-08-23T16:31:04+00:00",
+      "summary": "Witchcraft books had the highest rate of likely AI-generated content at 78%, according to an Originality.ai analysis of more than 2,000 titles.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
@@ -1141,73 +1201,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
-      "url": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act",
-      "published_at": "2026-08-21T14:27:31+00:00",
-      "summary": "Meanwhile crypto majors and alts continue to soar, with BTC nearing $80k and alts like Pump and ZEC putting up big candles.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "soar"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "BTC",
-        "Near"
-      ],
-      "topics": [
-        "cftc"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Solana cuts blockchain slot time to 350 milliseconds",
-      "url": "https://cointelegraph.com/news/solana-cuts-blockchain-slot-time-350-milliseconds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T13:45:13+00:00",
-      "summary": "Solana reduced its slot time for the first time since genesis as it works toward a 200-millisecond target aimed at reducing network latency.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Laser Digital gets Japan’s first crypto exchange approval in 4 years",
-      "url": "https://cointelegraph.com/news/nomuras-laser-digital-japans-first-crypto-exchange-4-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T13:08:12+00:00",
-      "summary": "Nomura-backed Laser Digital Japan received registration to provide domestic liquidity before expanding into institutional crypto trading.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "liquidity"
-      ]
     }
   ]
 }
