@@ -1,46 +1,38 @@
 {
-  "generated_at": "2026-08-24T16:41:54.894554+00:00",
+  "generated_at": "2026-08-24T20:34:44.682774+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.052,
+    "market_sentiment_score": 0.071,
     "label_distribution": {
-      "bullish": 23,
-      "bearish": 18,
-      "neutral": 29
+      "bullish": 24,
+      "neutral": 34,
+      "bearish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 37
-      },
-      {
-        "coin": "ETH",
-        "mentions": 10
+        "mentions": 34
       },
       {
         "coin": "OP",
+        "mentions": 10
+      },
+      {
+        "coin": "ETH",
         "mentions": 9
       },
       {
         "coin": "Near",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "BTC",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Ethereum",
         "mentions": 4
-      },
-      {
-        "coin": "SOL",
-        "mentions": 4
-      },
-      {
-        "coin": "Solana",
-        "mentions": 3
       },
       {
         "coin": "Tron",
@@ -49,31 +41,35 @@
       {
         "coin": "FIL",
         "mentions": 2
+      },
+      {
+        "coin": "SOL",
+        "mentions": 2
+      },
+      {
+        "coin": "Chainlink",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 17
       },
       {
-        "topic": "sec",
-        "mentions": 6
-      },
-      {
-        "topic": "etf",
-        "mentions": 5
-      },
-      {
-        "topic": "stablecoin",
+        "topic": "exchange",
         "mentions": 4
       },
       {
-        "topic": "regulatory",
+        "topic": "etf",
+        "mentions": 4
+      },
+      {
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
@@ -81,20 +77,405 @@
         "mentions": 3
       },
       {
-        "topic": "fed",
+        "topic": "futures",
         "mentions": 3
       },
       {
-        "topic": "pow",
+        "topic": "sec",
         "mentions": 3
       },
       {
-        "topic": "wallet",
-        "mentions": 3
+        "topic": "usdc",
+        "mentions": 2
+      },
+      {
+        "topic": "dai",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Why the Bitcoin Rally Looks Like a Vote Against the Dollar",
+      "url": "https://decrypt.co/376394/bitcoins-price-rally-trade-against-dollar",
+      "published_at": "2026-08-24T20:16:03+00:00",
+      "summary": "Bitcoin and gold rose as the dollar weakened following expanded Treasury bond buybacks, reflecting concerns about U.S. fiscal policy, analysts say.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bernstein sees new USDC growth cycle, sets $140 Circle price target",
+      "url": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T20:00:39+00:00",
+      "summary": "USDC supply increased by roughly $2 billion in seven days, with Bernstein citing higher transaction activity and several factors that could support further growth.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "growth",
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "usdc"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T19:58:34+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "UK Banks Still Blocking Bitcoin, Policy Group Tells Parliament",
+      "url": "https://bitcoinmagazine.com/news/uk-banks-blocking-bitcoin",
+      "published_at": "2026-08-24T19:56:45+00:00",
+      "summary": "Bitcoin Magazine\n\nUK Banks Still Blocking Bitcoin, Policy Group Tells Parliament\nBitcoin Policy UK says that 40% of bank-to-exchange transfers are being blocked in Britain. \nThis post UK Banks Still Blocking Bitcoin, Policy Group Tells Parliament first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
+      "url": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
+      "published_at": "2026-08-24T19:43:43+00:00",
+      "summary": "The tokens represent shares held by regulated custodian Alpaca and can be traded or used in decentralized finance applications on Base.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "l2"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
+      "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
+      "published_at": "2026-08-24T19:36:36+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "US escalates Iran pressure with sanctions on crypto, aviation, shipping and gold as part of ‘economic D-Day’",
+      "url": "https://www.theblock.co/news/regulation/2026-08-24-us-escalates-iran-pressure-sanctions-crypto-aviation-shipping-gold-economic-d-day-412648",
+      "published_at": "2026-08-24T19:23:02+00:00",
+      "summary": "The U.S. Treasury Department is zeroing in on digital assets it says are being used to bolster Iran’s economy.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinbase-affiliated advocacy group endorses candidates for US midterms",
+      "url": "https://cointelegraph.com/news/coinbase-stand-crypto-advocacy-group-endorses-midterm-candidates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T19:18:06+00:00",
+      "summary": "With just over two months until the US general election, Stand With Crypto announced its pick for politicians in its efforts to “elect the most pro-crypto Congress in history.”",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinbase tokenized stocks go live on Base with Chainlink price feeds",
+      "url": "https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T19:11:48+00:00",
+      "summary": "Coinbase’s B20 equities bring stocks including Apple and Nvidia onchain, allowing eligible non-US users to trade them 24/7 and use them across DeFi.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Chainlink",
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "defi",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Strive Stock Soars After 1,110 Bitcoin Buy",
+      "url": "https://bitcoinmagazine.com/news/strive-stock-soars-after-bitcoin-buy",
+      "published_at": "2026-08-24T19:04:45+00:00",
+      "summary": "Bitcoin Magazine\n\nStrive Stock Soars After 1,110 Bitcoin Buy \nThe Nasdaq-listed company made its biggest bitcoin buy in months. \nThis post Strive Stock Soars After 1,110 Bitcoin Buy  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "soars"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms",
+      "url": "https://decrypt.co/376375/hypeliquid-price-record-high-token-unlock",
+      "published_at": "2026-08-24T18:30:27+00:00",
+      "summary": "Hyperliquid's token is riding a record into its largest remaining supply release.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "record high"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Crypto exchange volumes double in five days as market activity rebounds",
+      "url": "https://www.theblock.co/news/markets/2026-08-24-crypto-exchange-volumes-double-in-five-days-as-market-activity-rebounds-412641",
+      "published_at": "2026-08-24T18:07:20+00:00",
+      "summary": "Monthly volume tells a similar story, with $490 billion traded so far in August compared to $670 billion in July.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Zcash Hits Eight-Year High as Futures Bets Nearly Double",
+      "url": "https://decrypt.co/376372/zcash-eight-year-high-price-futures-bets",
+      "published_at": "2026-08-24T17:50:35+00:00",
+      "summary": "ZEC broke above $880 while open interest in perpetual futures climbed to $1.8 billion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T17:48:44+00:00",
+      "summary": "As BTC tops $80,000 for the first time since May, price analysis warns that the market still needs to sustain higher levels to challenge the bear-market thesis.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "liquidations",
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto political group details list of U.S. congressional allies its backing this year",
+      "url": "https://www.coindesk.com/policy/2026/08/24/crypto-political-group-details-list-of-u-s-congressional-allies-its-backing-this-year",
+      "published_at": "2026-08-24T17:30:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Coinbase debuts tokenized stocks on Base network, joining race to bring equities on blockchain",
+      "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain",
+      "published_at": "2026-08-24T17:12:35+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money",
+      "url": "https://decrypt.co/376349/bitcoin-ethereum-etfs-23-billion-aum-inflows",
+      "published_at": "2026-08-24T17:07:32+00:00",
+      "summary": "Bitcoin and Ethereum ETFs booked their strongest inflow week since October, but most of the gain came from coins investors already owned getting more valuable.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
+      "url": "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T16:44:55+00:00",
+      "summary": "Strive’s Nasdaq-traded shares surged more than 11% as the Bitcoin treasury company said it paid an average of $73,409 per BTC, pushing its holdings to 21,356 Bitcoin.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "buys",
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Bitcoin Rally Accelerates, With $80,000 in Sight After ETFs Have Stellar Week",
@@ -122,6 +503,30 @@
       ]
     },
     {
+      "source": "The Block",
+      "title": "Hyperliquid Policy Center urges SEC, CFTC to harmonize rules for perpetual contracts",
+      "url": "https://www.theblock.co/news/regulation/2026-08-24-hyperliquid-policy-center-urges-sec-cftc-harmonize-rules-perpetual-contracts-412601",
+      "published_at": "2026-08-24T16:18:24+00:00",
+      "summary": "The push comes as Hyperliquid's multi-asset perpetuals gain scale and draw scrutiny from traditional exchanges.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc",
+        "exchange",
+        "exchanges",
+        "sec"
+      ]
+    },
+    {
       "source": "Cointelegraph",
       "title": "Crypto advocacy groups oppose Illinois digital asset tax in court",
       "url": "https://cointelegraph.com/news/cryptocurrency-organizations-oppose-illinois-digital-asset-tax-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -144,6 +549,22 @@
       "topics": [
         "pos"
       ]
+    },
+    {
+      "source": "The Block",
+      "title": "Stand With Crypto ramps up midterm push with 32 House endorsements",
+      "url": "https://www.theblock.co/news/regulation/2026-08-24-stand-with-crypto-ramps-up-midterm-push-with-32-house-endorsements-412616",
+      "published_at": "2026-08-24T15:57:45+00:00",
+      "summary": "Stand With Crypto is backing more than 30 House candidates as it looks to flex its political influence once more in the upcoming elections.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
     },
     {
       "source": "Decrypt",
@@ -325,29 +746,6 @@
         "ETH"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T12:55:25+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
     },
     {
       "source": "Decrypt",
@@ -751,421 +1149,6 @@
       ],
       "topics": [
         "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETF inflows hit $1.9B in strongest week since October 2025",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-inflows-billion-strongest-week-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T08:56:52+00:00",
-      "summary": "US spot Bitcoin ETFs attracted $1.92 billion last week, their strongest weekly inflow since October 2025, as Bitcoin briefly climbed above $78,000 on Friday.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Tron"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto roars back as bitcoin posts its second-best week since early 2021",
-      "url": "https://www.coindesk.com/markets/2026/08/24/crypto-roars-back-as-bitcoin-posts-its-second-best-week-since-early-2021",
-      "published_at": "2026-08-24T08:28:14+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Jackson  Hole Symposium, U.S. PCE prices, IREN earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/08/24/jackson-hole-symposium-u-s-pce-prices-iren-earnings-crypto-week-ahead",
-      "published_at": "2026-08-24T08:16:29+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin moves closer to $80,000, but rally could need a breather",
-      "url": "https://www.coindesk.com/business/2026/08/24/live-updates-bitcoin-holds-usd77-000-as-xrp-zcash-pull-back-after-a-big-weekly-rally",
-      "published_at": "2026-08-24T08:05:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Fasset reaches unicorn status after $68 million raise led by SBI Group",
-      "url": "https://www.theblock.co/news/business/2026-08-24-fasset-68-million-raise-sbi-group-412563",
-      "published_at": "2026-08-24T07:56:44+00:00",
-      "summary": "Fasset raised $68 million in Series C funding at a $1 billion valuation, expanding its cross-border stablecoin infrastructure.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ether is crushing bitcoin and the 'golden cross' says it may not be done yet",
-      "url": "https://www.coindesk.com/markets/2026/08/24/ether-is-crushing-bitcoin-and-the-golden-cross-says-it-may-not-be-done-yet",
-      "published_at": "2026-08-24T06:50:58+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum lending app Term Finance loses $8.5 million after attacker buys voting power",
-      "url": "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power",
-      "published_at": "2026-08-24T06:27:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": [
-          "loses"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "lending",
-        "pow"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Banks, regulators join quantum-resistant crypto transfer pilot",
-      "url": "https://cointelegraph.com/news/banks-regulators-quantum-resistant-crypto-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T05:51:29+00:00",
-      "summary": "Participating banks will test post-quantum wallets and onchain transfers while regulators from Abu Dhabi, Bhutan and Malta initially observe.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Pakistan opens crypto licensing portal, sets Sept. 5 deadline for existing firms",
-      "url": "https://cointelegraph.com/news/pakistan-crypto-licensing-portal-september-5-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T05:17:57+00:00",
-      "summary": "Existing virtual asset providers must apply for an NOC by Sept. 5 or cease operations under Pakistan’s new regulatory framework.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ray Dalio says investors should own ‘a bit of Bitcoin’ as U.S. debt risks rise",
-      "url": "https://www.coindesk.com/markets/2026/08/24/ray-dalio-says-investors-should-own-a-bit-of-bitcoin-as-u-s-debt-risks-rise",
-      "published_at": "2026-08-24T05:13:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risks"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Term Finance loses estimated $8.5M in vault governance exploit",
-      "url": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T03:59:29+00:00",
-      "summary": "Term permanently closed its Meta Vaults after an attack reportedly removed nearly all of their Ethereum deposits.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "loses"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Near"
-      ],
-      "topics": [
-        "governance",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin records largest weekly dollar gain in history; Strive CEO predicts ‘strongest’ cycle ever",
-      "url": "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547",
-      "published_at": "2026-08-24T03:52:31+00:00",
-      "summary": "Strive CEO said the next bitcoin cycle will be the strongest ever, citing its strong performance against both the dollar and gold.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "gain",
-          "strong"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Tron"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
-      "url": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-23T23:56:00+00:00",
-      "summary": "The US may face a debt crisis within three years according to Ray Dalio, and debt-related issues helped fuel a rally in Bitcoin that could mark the beginning of a new cycle.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "DeFi lending protocol Term Finance loses an estimated $8.5 million to governance exploit",
-      "url": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543",
-      "published_at": "2026-08-23T20:50:45+00:00",
-      "summary": "Term vault proposals face a seven-day delay and can be vetoed by liquidity providers, yet those controls apparently did not stop the exploit.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "loses"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "defi",
-        "governance",
-        "lending",
-        "liquidity",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
-      "url": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
-      "published_at": "2026-08-23T17:02:20+00:00",
-      "summary": "UTE cut power to Tether's mining sites in July 2025 after Tether representatives did not attend the signing of a revised contract, per the report.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapsed"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "mining",
-        "pow"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
-      "url": "https://decrypt.co/376295/religious-books-amazon-ai-written-study",
-      "published_at": "2026-08-23T16:31:04+00:00",
-      "summary": "Witchcraft books had the highest rate of likely AI-generated content at 78%, according to an Originality.ai analysis of more than 2,000 titles.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Robot Brains Could Have Their ‘ChatGPT Moment’ by 2027, ACE Robotics Chairman Says",
-      "url": "https://decrypt.co/376265/robot-brains-chatgpt-moment-ace-robotics",
-      "published_at": "2026-08-23T14:31:04+00:00",
-      "summary": "The breakthrough could come from AI models that help robots understand and interact with the physical world, though widespread adoption may still be years away.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "breakthrough"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin and ether ETFs draw $2.6 billion in strongest inflow week since October, tripling volume",
-      "url": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531",
-      "published_at": "2026-08-22T19:31:35+00:00",
-      "summary": "Combined ETF weekly trading volume more than tripled to $29 billion as bitcoin and ether prices rallied, though both categories are negative on the year.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Tron"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Zcash hits eight-year high near $850 with futures volume near $10 billion amid Grayscale ETF push",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-22-zcash-hits-eight-year-high-near-850-with-futures-volume-near-10-billion-amid-grayscale-etf-push-412528",
-      "published_at": "2026-08-22T17:35:27+00:00",
-      "summary": "CoinGlass recorded nearly $10 billion in 24-hour futures volume and $1.76 billion in open interest, indicating that derivatives made up much of the trading.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "etf",
-        "futures"
       ]
     }
   ]
