@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-23T20:27:56.958865+00:00",
+  "generated_at": "2026-08-24T01:38:05.220904+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.061,
+    "market_sentiment_score": 0.059,
     "label_distribution": {
-      "neutral": 28,
-      "bearish": 17,
-      "bullish": 25
+      "bullish": 26,
+      "bearish": 18,
+      "neutral": 26
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 34
+        "mentions": 35
       },
       {
         "coin": "OP",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "coin": "Near",
@@ -24,10 +24,6 @@
       },
       {
         "coin": "ETH",
-        "mentions": 6
-      },
-      {
-        "coin": "SOL",
         "mentions": 5
       },
       {
@@ -35,11 +31,15 @@
         "mentions": 5
       },
       {
-        "coin": "Solana",
+        "coin": "SOL",
         "mentions": 4
       },
       {
         "coin": "XRP",
+        "mentions": 3
+      },
+      {
+        "coin": "Solana",
         "mentions": 3
       },
       {
@@ -54,11 +54,11 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 14
+        "mentions": 15
       },
       {
         "topic": "etf",
@@ -66,11 +66,19 @@
       },
       {
         "topic": "sec",
-        "mentions": 8
+        "mentions": 7
+      },
+      {
+        "topic": "defi",
+        "mentions": 4
       },
       {
         "topic": "cftc",
         "mentions": 4
+      },
+      {
+        "topic": "liquidity",
+        "mentions": 3
       },
       {
         "topic": "regulation",
@@ -83,18 +91,57 @@
       {
         "topic": "exchange",
         "mentions": 3
-      },
-      {
-        "topic": "defi",
-        "mentions": 3
-      },
-      {
-        "topic": "macro",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-23T23:56:00+00:00",
+      "summary": "The US may face a debt crisis within three years according to Ray Dalio, and debt-related issues helped fuel a rally in Bitcoin that could mark the beginning of a new cycle.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "DeFi lending protocol Term Finance loses an estimated $8.5 million to governance exploit",
+      "url": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543",
+      "published_at": "2026-08-23T20:50:45+00:00",
+      "summary": "Term vault proposals face a seven-day delay and can be vetoed by liquidity providers, yet those controls apparently did not stop the exploit.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "loses"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "defi",
+        "governance",
+        "lending",
+        "liquidity",
+        "pos"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Regulation Crypto is here: State of Crypto",
@@ -1156,49 +1203,6 @@
       "coins": [
         "Bitcoin",
         "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-surges-towards-80000",
-      "published_at": "2026-08-21T15:24:23+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge\nBitcoin has continued its rocket upwards, and blew past $79,000 on Friday. \nThis post Bitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "positive"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
-      "url": "https://decrypt.co/376183/bitcoin-price-higher-1-2-billion-shorts-liquidated",
-      "published_at": "2026-08-21T14:57:28+00:00",
-      "summary": "The largest cryptocurrency surged 7.9% in a day to around $77,000, triggering a short squeeze that wiped out roughly $1.21 billion in bearish bets amid a wave of favorable news from Washington.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bearish"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
       ],
       "topics": []
     }
