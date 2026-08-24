@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-24T12:57:47.768759+00:00",
+  "generated_at": "2026-08-24T16:41:54.894554+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.048,
+    "market_sentiment_score": 0.052,
     "label_distribution": {
-      "bullish": 21,
-      "neutral": 32,
-      "bearish": 17
+      "bullish": 23,
+      "bearish": 18,
+      "neutral": 29
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 40
+        "mentions": 37
+      },
+      {
+        "coin": "ETH",
+        "mentions": 10
       },
       {
         "coin": "OP",
         "mentions": 9
-      },
-      {
-        "coin": "ETH",
-        "mentions": 7
       },
       {
         "coin": "Near",
@@ -31,11 +31,11 @@
         "mentions": 5
       },
       {
-        "coin": "SOL",
+        "coin": "Ethereum",
         "mentions": 4
       },
       {
-        "coin": "Tron",
+        "coin": "SOL",
         "mentions": 4
       },
       {
@@ -43,29 +43,29 @@
         "mentions": 3
       },
       {
-        "coin": "LTC",
+        "coin": "Tron",
         "mentions": 3
       },
       {
-        "coin": "Ethereum",
+        "coin": "FIL",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 18
-      },
-      {
-        "topic": "etf",
-        "mentions": 6
+        "mentions": 19
       },
       {
         "topic": "sec",
+        "mentions": 6
+      },
+      {
+        "topic": "etf",
         "mentions": 5
       },
       {
@@ -73,28 +73,282 @@
         "mentions": 4
       },
       {
-        "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "defi",
-        "mentions": 4
-      },
-      {
         "topic": "regulatory",
         "mentions": 4
       },
       {
-        "topic": "lending",
+        "topic": "defi",
+        "mentions": 3
+      },
+      {
+        "topic": "fed",
         "mentions": 3
       },
       {
         "topic": "pow",
         "mentions": 3
+      },
+      {
+        "topic": "wallet",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Rally Accelerates, With $80,000 in Sight After ETFs Have Stellar Week",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-nears-80000-after-etf-action",
+      "published_at": "2026-08-24T16:18:56+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Rally Accelerates, With $80,000 in Sight After ETFs Have Stellar Week \nBitcoin&#8217;s price surged further on Monday, flirting with $80,000 after U.S. exchange-traded funds had their best week since October.  The leading cryptocurrency was recently trading more than 2% higher over a 24-hour period after flying past $79,155. It earlier on Monday morning in New York reached as high as $79,954.&#160; Over the past week, the [&#8230;]\nThis post Bitcoin Rally Accelerates...",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "leading",
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Stellar"
+      ],
+      "topics": [
+        "etf",
+        "exchange",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto advocacy groups oppose Illinois digital asset tax in court",
+      "url": "https://cointelegraph.com/news/cryptocurrency-organizations-oppose-illinois-digital-asset-tax-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T16:05:48+00:00",
+      "summary": "Following a similar lawsuit filed by the Digital Chamber in July, two digital asset advocacy groups challenged Illinois’ 0.2% crypto tax on constitutional and due process grounds.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "FIL",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitmine Buys Another $81M in Ethereum as ETH Outperforms Bitcoin",
+      "url": "https://decrypt.co/376336/bitmine-81m-more-ethereum-eth-tops-bitcoin",
+      "published_at": "2026-08-24T15:43:36+00:00",
+      "summary": "Bitmine is about 187,000 Ethereum short of its 5% of supply target.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "buys",
+          "outperforms"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Strive acquires 1,110 bitcoin for $81.5 million as total holdings reach 21,356 BTC",
+      "url": "https://www.theblock.co/news/business/2026-08-24-strive-acquires-1110-bitcoin-for-81-5-million-as-total-holdings-reach-21356-btc-412604",
+      "published_at": "2026-08-24T15:39:14+00:00",
+      "summary": "Strive purchased 1,110 bitcoin for $81.5 million, raising its total holdings to 21,356 BTC as the seventh-largest public company holder.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitmine extends 14-month ETH buying pace as Ether breaks above $2.5K",
+      "url": "https://cointelegraph.com/news/bitmine-eth-holdings-5-percent-ether-price-breakout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T15:29:26+00:00",
+      "summary": "Ether’s breakout above $2,500 has put the spotlight back on corporate ETH treasuries, with Bitmine now nearing its long-stated accumulation target.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "accumulation",
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Strategy Again Skips Bitcoin Buy And Establishes USD Cash Dollar Reserve",
+      "url": "https://bitcoinmagazine.com/news/strategy-establishes-new-usd-cash-reserve",
+      "published_at": "2026-08-24T14:48:17+00:00",
+      "summary": "Bitcoin Magazine\n\nStrategy Again Skips Bitcoin Buy And Establishes USD Cash Dollar Reserve \nStrategy went another week without buying or selling bitcoin but has a new pool of cash. \nThis post Strategy Again Skips Bitcoin Buy And Establishes USD Cash Dollar Reserve  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "buying"
+        ],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Zondacrypto boss seeks leniency for testimony on political ties: Report",
+      "url": "https://cointelegraph.com/news/zondacrypto-ceo-seeks-leniency-testimony-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T14:00:51+00:00",
+      "summary": "Przemysław Kral reportedly faces a fraud charge and is cooperating with Polish prosecutors as estimated customer losses reach $650 million.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud",
+          "losses"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘Upside move in ETH was overdue,’ Tom Lee says as Bitmine buys another 32,447 ether",
+      "url": "https://www.theblock.co/news/business/2026-08-24-upside-move-eth-was-overdue-tom-lee-says-bitmine-buys-more-ether-412589",
+      "published_at": "2026-08-24T13:36:31+00:00",
+      "summary": "Bitmine's total crypto, cash, and other investments currently stand at $14.9 billion, and it owns over 4.8% of Ethereum's circulating supply.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
+      "url": "https://cointelegraph.com/magazine/bitget-ceo-isnt-buying-the-bitcoin-rally-waiting-for-50k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T13:30:00+00:00",
+      "summary": "Bitget CEO Gracy Chen doesn’t believe the current Bitcoin rally is sustainable, and she aims to buy more BTC around the $50K mark later in 2026 or early next year.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "buying",
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+      "url": "https://www.coindesk.com/business/2026/08/24/tom-lee-s-bitmine-buys-usd81-million-of-eth-in-largest-weekly-haul-since-early-july",
+      "published_at": "2026-08-24T12:59:55+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T12:55:25+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Morning Minute: Saylor’s Strategy Back in Green As BTC Soars to $78k",
@@ -166,9 +420,9 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Strategy pauses BTC buys, launches $1.6B cash pool after $2B raise",
+      "title": "Strategy launches $1.6B cash pool after $2B common shares raise, maintains hold on BTC buys",
       "url": "https://cointelegraph.com/news/strategy-2-billion-raise-strc-136-million-bitcoin-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T12:43:00+00:00",
+      "published_at": "2026-08-24T12:45:00+00:00",
       "summary": "Strategy held off on new Bitcoin buying, maintaining holdings at 840,447 BTC as it launched a $1.59 billion cash pool after raising $2 billion from MSTR stock sales.",
       "sentiment": {
         "score": 4,
@@ -561,20 +815,21 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live updates: Bitcoin climbs past $79,000 early Monday, with gold topping $4,700",
+      "title": "Live updates: Bitcoin moves closer to $80,000, but rally could need a breather",
       "url": "https://www.coindesk.com/business/2026/08/24/live-updates-bitcoin-holds-usd77-000-as-xrp-zcash-pull-back-after-a-big-weekly-rally",
       "published_at": "2026-08-24T08:05:57+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin",
-        "OP"
+        "Bitcoin"
       ],
       "topics": []
     },
@@ -646,29 +901,6 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T05:55:54+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
       "title": "Banks, regulators join quantum-resistant crypto transfer pilot",
       "url": "https://cointelegraph.com/news/banks-regulators-quantum-resistant-crypto-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-24T05:51:29+00:00",
@@ -727,28 +959,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bessent's $4 billion bond buyback wanted lower yields. It got a bitcoin surge instead.",
-      "url": "https://www.coindesk.com/markets/2026/08/24/bessent-s-usd4-billion-bond-buyback-wanted-lower-yields-it-got-a-bitcoin-surge-instead",
-      "published_at": "2026-08-24T05:12:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "yield"
-      ]
     },
     {
       "source": "Cointelegraph",
@@ -890,31 +1100,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
-      "url": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-23T15:30:53+00:00",
-      "summary": "A Federal Reserve Bank of Cleveland study finds crypto investors hold sharply different views on returns and risk, while information about Bitcoin’s past gains can increase both desired allocations and actual crypto purchases.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Robot Brains Could Have Their ‘ChatGPT Moment’ by 2027, ACE Robotics Chairman Says",
       "url": "https://decrypt.co/376265/robot-brains-chatgpt-moment-ace-robotics",
@@ -981,189 +1166,6 @@
       "topics": [
         "etf",
         "futures"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
-      "url": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code",
-      "published_at": "2026-08-22T17:31:03+00:00",
-      "summary": "The Entra ID flaw earned the highest possible severity score, but Microsoft says it patched the bug before publishing the CVE and found no evidence it was ever exploited.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "exploited"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Solana cuts mainnet slot time to 350 milliseconds in first step toward 200ms goal",
-      "url": "https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521",
-      "published_at": "2026-08-22T15:54:13+00:00",
-      "summary": "The change should lead to faster transaction confirmations but is not designed to increase the overall throughput of the network.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "mainnet",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
-      "url": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
-      "published_at": "2026-08-22T15:31:04+00:00",
-      "summary": "A group of 20-odd developers is scanning the Bitcoin ecosystem for AI-discoverable flaws, warning that cheap, powerful models have handed attackers unprecedented reach.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pow"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds",
-      "url": "https://decrypt.co/376271/chatgpt-web-ai-written-pew",
-      "published_at": "2026-08-22T13:31:03+00:00",
-      "summary": "Pew Research scanned nearly half a million webpages with an AI detector and found the fingerprints concentrated on .com domains—and multiplying fast.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
-      "url": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-22T13:30:00+00:00",
-      "summary": "Brussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "defi",
-        "lending",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Smart Money Helping Support Bitcoin Rebound, Says Pantera Capital",
-      "url": "https://bitcoinmagazine.com/news/pantera-capital-says-bitcoin-to-go-higher",
-      "published_at": "2026-08-21T21:52:26+00:00",
-      "summary": "Bitcoin Magazine\n\nSmart Money Helping Support Bitcoin Rebound, Says Pantera Capital\nPantera Capital's portfolio manager has said it's hard not to be bullish with bitcoin's recent price surges. \nThis post Smart Money Helping Support Bitcoin Rebound, Says Pantera Capital first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 7,
-        "normalized": 0.875,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "support",
-          "surges"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Grayscale moves closer to launching first Zcash ETF in US with fresh amended SEC filing",
-      "url": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517",
-      "published_at": "2026-08-21T21:34:53+00:00",
-      "summary": "Grayscale is inching closer to launching its Zcash ETF, filing another amendment with the Securities and Exchange Commission on Friday.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "etf",
-        "exchange",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
-      "url": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
-      "published_at": "2026-08-21T21:31:05+00:00",
-      "summary": "Coinkite's latest firmware requires users to add their own randomness when generating wallet seeds and fixes additional security issues uncovered during a three-week review.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "sec",
-        "wallet"
       ]
     }
   ]
