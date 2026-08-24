@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-24T01:38:05.220904+00:00",
+  "generated_at": "2026-08-24T04:50:19.245739+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.059,
+    "market_sentiment_score": 0.054,
     "label_distribution": {
+      "neutral": 26,
       "bullish": 26,
-      "bearish": 18,
-      "neutral": 26
+      "bearish": 18
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 35
+        "mentions": 34
       },
       {
         "coin": "OP",
@@ -20,7 +20,7 @@
       },
       {
         "coin": "Near",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "coin": "ETH",
@@ -35,6 +35,10 @@
         "mentions": 4
       },
       {
+        "coin": "Tron",
+        "mentions": 3
+      },
+      {
         "coin": "XRP",
         "mentions": 3
       },
@@ -43,30 +47,30 @@
         "mentions": 3
       },
       {
-        "coin": "LTC",
-        "mentions": 3
-      },
-      {
-        "coin": "Tron",
+        "coin": "BNB",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 27
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "topic": "etf",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "topic": "sec",
         "mentions": 7
+      },
+      {
+        "topic": "stablecoin",
+        "mentions": 4
       },
       {
         "topic": "defi",
@@ -85,16 +89,98 @@
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
-        "mentions": 3
-      },
-      {
         "topic": "exchange",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Stablecoin neobank Fasset lands $1 billion valuation as SBI backs its payments push",
+      "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push",
+      "published_at": "2026-08-24T04:45:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto holds big weekly rally as Warsh’s Jackson Hole debut comes into focus",
+      "url": "https://www.coindesk.com/markets/2026/08/24/crypto-holds-big-weekly-rally-as-warsh-s-jackson-hole-debut-comes-into-focus",
+      "published_at": "2026-08-24T04:41:28+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Term Finance loses estimated $8.5M in vault governance exploit",
+      "url": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T03:59:29+00:00",
+      "summary": "Term permanently closed its Meta Vaults after an attack reportedly removed nearly all of their Ethereum deposits.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "loses"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Near"
+      ],
+      "topics": [
+        "governance",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin records largest weekly dollar gain in history; Strive CEO predicts ‘strongest’ cycle ever",
+      "url": "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547",
+      "published_at": "2026-08-24T03:52:31+00:00",
+      "summary": "Strive CEO said the next bitcoin cycle will be the strongest ever, citing its strong performance against both the dollar and gold.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "gain",
+          "strong"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
@@ -1118,93 +1204,6 @@
         "miners",
         "pos"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
-      "url": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin",
-      "published_at": "2026-08-21T16:10:37+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surges"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "LTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher",
-      "url": "https://cointelegraph.com/news/crypto-biz-treasurys-not-qe-playbook-sends-bitcoin-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-21T15:50:08+00:00",
-      "summary": "Bitcoin rallied as Treasury bond buybacks fueled the “not-QE” trade, while Metaplanet expanded to the US and Cypherpunk made a $33 million Zcash mining bet.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "mining"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "XRP Erases Its Most Bearish Signal—And the Ripple-Linked Coin Is Flying",
-      "url": "https://decrypt.co/376186/xrp-price-erases-death-cross",
-      "published_at": "2026-08-21T15:39:02+00:00",
-      "summary": "The token spent all August trapped under a bearish crossover. Today it closed above both moving averages for the first time since the pattern formed.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bearish"
-        ]
-      },
-      "coins": [
-        "Ripple",
-        "XRP",
-        "LINK"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Strategy shares hit two-month high as STRC rebounds toward $100 alongside bitcoin",
-      "url": "https://www.theblock.co/news/markets/2026-08-21-strategy-shares-hit-two-month-high-strc-rebounds-toward-100-alongside-bitcoin-412467",
-      "published_at": "2026-08-21T15:38:02+00:00",
-      "summary": "Amid a two-month puase on BTC buys, Strategy shares (MSTR) rallied alongside bitcoin as STRC continued its recovery toward its $100 target.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "buys",
-          "recovery"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
     }
   ]
 }
