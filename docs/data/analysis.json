@@ -1,100 +1,454 @@
 {
-  "generated_at": "2026-08-25T16:41:21.474126+00:00",
+  "generated_at": "2026-08-25T20:33:14.346980+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.023,
+    "market_sentiment_score": 0.043,
     "label_distribution": {
+      "bullish": 25,
       "bearish": 14,
-      "bullish": 22,
-      "neutral": 34
+      "neutral": 31
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 15
-      },
-      {
-        "coin": "ETH",
-        "mentions": 7
+        "mentions": 17
       },
       {
         "coin": "Near",
-        "mentions": 4
+        "mentions": 6
       },
       {
-        "coin": "Ethereum",
+        "coin": "ETH",
+        "mentions": 5
+      },
+      {
+        "coin": "SOL",
         "mentions": 4
       },
       {
         "coin": "BTC",
-        "mentions": 3
+        "mentions": 4
       },
       {
-        "coin": "SOL",
+        "coin": "Solana",
         "mentions": 2
       },
       {
-        "coin": "LINK",
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
-        "coin": "Sui",
-        "mentions": 2
+        "coin": "Avalanche",
+        "mentions": 1
       },
       {
-        "coin": "Ripple",
+        "coin": "MATIC",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "topic": "pos",
         "mentions": 15
       },
       {
-        "topic": "sec",
-        "mentions": 7
-      },
-      {
-        "topic": "etf",
-        "mentions": 7
-      },
-      {
         "topic": "exchange",
+        "mentions": 7
+      },
+      {
+        "topic": "sec",
         "mentions": 6
       },
       {
-        "topic": "stablecoin",
-        "mentions": 3
+        "topic": "etf",
+        "mentions": 6
+      },
+      {
+        "topic": "wallet",
+        "mentions": 4
       },
       {
         "topic": "defi",
         "mentions": 3
       },
       {
-        "topic": "wallet",
-        "mentions": 2
-      },
-      {
-        "topic": "exchanges",
-        "mentions": 2
+        "topic": "stablecoin",
+        "mentions": 3
       },
       {
         "topic": "futures",
+        "mentions": 2
+      },
+      {
+        "topic": "dex",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Breakout Could Be Around the Corner as Asset Is No Longer Oversold: Fairlead Strategies’ Katie Stockton",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-no-longer-oversold",
+      "published_at": "2026-08-25T20:21:05+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Breakout Could Be Around the Corner as Asset Is No Longer Oversold: Fairlead Strategies&#8217; Katie Stockton\nBitcoin is no longer oversold but there&#8217;s still time to buy, according to Fairlead Strategies&#8217; Katie Stockton.&#160; Speaking on Tuesday to CNBC, the financial research firm&#8217;s managing partner said that Bitcoin cleared its 200-day moving average back in May, meaning that a potential breakout could be coming.&#160; Bitcoin started rallying la...",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Open Interest Collapses to 12%. Is the Short Squeeze Over?",
+      "url": "https://decrypt.co/376473/bitcoin-open-interest-price-short-squeeze",
+      "published_at": "2026-08-25T20:16:04+00:00",
+      "summary": "Crypto-margined Bitcoin futures have collapsed from near-total dominance to about 12%. But leveraged traders are still placing big bets.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "collapsed",
+          "collapses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "What's the Deal With Nancy Pelosi and the Bloom Energy Stock Surge?",
+      "url": "https://decrypt.co/376516/nancy-pelosi-bloom-energy-stock-trade",
+      "published_at": "2026-08-25T19:46:03+00:00",
+      "summary": "Pelosi disclosed millions of dollars in Bloom Energy investments weeks after shares and options were purchased through her husband's accounts, including a purchase just before the company reported record earnings.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "South Korea trade giant POSCO brings trade receivables to Avalanche in latest tokenization move",
+      "url": "https://www.coindesk.com/business/2026/08/25/south-korea-trade-giant-posco-brings-trade-receivables-to-avalanche-in-latest-tokenization-move",
+      "published_at": "2026-08-25T19:40:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Avalanche"
+      ],
+      "topics": [
+        "pos",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Kraken Says ‘Dust Attack’ From Sanctioned HTX Wallet Locked Out Customers",
+      "url": "https://bitcoinmagazine.com/news/kraken-says-users-were-dust-attacked",
+      "published_at": "2026-08-25T19:27:12+00:00",
+      "summary": "Bitcoin Magazine\n\nKraken Says &#8216;Dust Attack&#8217; From Sanctioned HTX Wallet Locked Out Customers\nSomeone has sent crypto dust from sanctioned HTX to Kraken users. \nThis post Kraken Says &#8216;Dust Attack&#8217; From Sanctioned HTX Wallet Locked Out Customers first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024",
+      "url": "https://decrypt.co/376503/crypto-fear-greed-index-extreme-greed",
+      "published_at": "2026-08-25T19:11:04+00:00",
+      "summary": "The Crypto Fear and Greed Index was at 36, firmly in the fear zone, just a month ago.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fear"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "dex"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "ZRO token surges as LayerZero unveils ATLAS exchange infrastructure built on Zero blockchain",
+      "url": "https://www.theblock.co/news/ecosystems/2026-08-25-zro-token-layerzero-atlas-exchange-infrastructure-zero-blockchain-412736",
+      "published_at": "2026-08-25T18:41:50+00:00",
+      "summary": "LayerZero has announced ATLAS, new exchange infrastructure built on its Zero blockchain for trading platforms and financial institutions.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surges"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Mistral and HUMAIN Are Building 'Sovereign AI' in Saudi Arabia",
+      "url": "https://decrypt.co/376514/mistral-humain-sovereign-ai-saudi-arabia",
+      "published_at": "2026-08-25T18:39:26+00:00",
+      "summary": "Mistral and HUMAIN announced plans to build sovereign AI infrastructure in Saudi Arabia and across the region—a tie-up valued in the hundreds of millions of euros that deepens Gulf money flowing into European AI.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-25T18:34:20+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
+      "url": "https://cointelegraph.com/markets/bitcoin-enters-initial-phase-of-new-bull-market-but-83k-remains-key-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-25T18:13:11+00:00",
+      "summary": "CryptoQuant says Bitcoin’s 24% rally has flipped key market indicators bullish, though rising profit-taking could bring near-term turbulence.",
+      "sentiment": {
+        "score": 6,
+        "normalized": 0.75,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish",
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Solana transactions hit record 4.2B as SOL rallies 40%",
+      "url": "https://cointelegraph.com/news/solana-record-transactions-rwa-sol-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-25T18:08:58+00:00",
+      "summary": "Tokenized real-world assets on Solana are nearing $4 billion as network activity accelerates alongside a broader recovery in crypto markets.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "rallies",
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Gold Hits Three-Month High as Bitcoin Tests $80,000",
+      "url": "https://decrypt.co/376489/gold-price-three-month-high-bitcoin",
+      "published_at": "2026-08-25T17:24:54+00:00",
+      "summary": "Gold extended its August rally as a weaker dollar and falling yields boosted demand, while Bitcoin briefly climbed above $80,000 for the first time since May.",
+      "sentiment": {
+        "score": 7,
+        "normalized": 0.875,
+        "label": "bullish",
+        "positive_hits": [
+          "boosted",
+          "demand",
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "yield"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "US Opens a New Front Against Iran’s Crypto Economy",
+      "url": "https://bitcoinmagazine.com/news/us-sanctions-iran-crypto-economy",
+      "published_at": "2026-08-25T17:23:01+00:00",
+      "summary": "Bitcoin Magazine\n\nUS Opens a New Front Against Iran&#8217;s Crypto Economy\nIran has been using Bitcoin to dodge sanctions. The Department of the Treasury wants to shut it off from the crypto economy. \nThis post US Opens a New Front Against Iran&#8217;s Crypto Economy first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Strategy’s $66B Bitcoin machine hinges on capital markets, not BTC price: Report",
+      "url": "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-25T16:47:40+00:00",
+      "summary": "Strategy’s biggest risk may not be a Bitcoin crash, but losing access to the capital markets that help it service $1.76 billion in annual obligations.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash",
+          "losing",
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why",
+      "url": "https://decrypt.co/376446/bitcoins-price-rally-outrunning-market",
+      "published_at": "2026-08-25T16:45:59+00:00",
+      "summary": "Bitcoin gained roughly 24% this week while the broader crypto market grew by less, a mismatch that shows up clearly in Bitcoin's rising share of the total crypto market.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitwise launches self-custodied tokenized stock portfolios with Coinbase",
+      "url": "https://cointelegraph.com/news/bitwise-launches-self-custodied-tokenized-stock-portfolios-with-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-25T16:32:00+00:00",
+      "summary": "Bitwise’s new portfolios automatically rebalance Coinbase tokenized stocks while allowing eligible non-US investors to keep the assets in their own wallets.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "MATIC"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Crypto Group Warns Regulators Against Expanding Stablecoin KYC",
@@ -419,29 +773,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T13:19:39+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "MiCA revolutionised European crypto, and left Poland licking its wounds",
       "url": "https://www.coindesk.com/opinion/2026/08/24/mica-revolutionised-european-crypto-and-left-poland-licking-its-wounds",
@@ -713,6 +1044,29 @@
       "topics": []
     },
     {
+      "source": "Cointelegraph",
+      "title": "BTC RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
+      "url": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-draws-2022-comparisons-as-analysis-weighs-new-price-trend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-25T10:51:00+00:00",
+      "summary": "Bitcoin price analysis eyes the potential end of its current macro downtrend based on weekly RSI signals.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "macro"
+      ]
+    },
+    {
       "source": "Decrypt",
       "title": "Jury Convicts Las Vegas Man of $24M AI Crypto Mining Ponzi Scheme",
       "url": "https://decrypt.co/376427/jury-convicts-las-vegas-man-of-24m-ai-crypto-mining-ponzi-scheme",
@@ -729,28 +1083,6 @@
       "topics": [
         "ai",
         "mining"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
-      "url": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-draws-2022-comparisons-as-analysis-weighs-new-price-trend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T10:49:43+00:00",
-      "summary": "Bitcoin price analysis eyes the potential end of its current macro downtrend based on weekly RSI signals.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "macro"
       ]
     },
     {
@@ -837,310 +1169,6 @@
       "coins": [],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Franklin Templeton's Tokenized Treasury Fund Lands on HashKey",
-      "url": "https://decrypt.co/376422/franklin-templetons-tokenized-treasury-fund-lands-on-hashkey",
-      "published_at": "2026-08-25T09:30:27+00:00",
-      "summary": "The $1.8 trillion manager is putting its onchain money market fund on the Hong Kong exchange's Earn channel.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. widens Iran crackdown to encompass crypto, gold, shipping and technology",
-      "url": "https://www.coindesk.com/policy/2026/08/25/u-s-widens-iran-crackdown-to-encompass-crypto-gold-shipping-and-technology",
-      "published_at": "2026-08-25T08:47:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Galaxy puts Coldcard hack losses at 1,789 BTC, with 87% unmoved",
-      "url": "https://cointelegraph.com/news/coldcard-hack-galaxy-btc-lost-87-unmoved?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T08:46:47+00:00",
-      "summary": "Galaxy Research’s latest tally shows that more than half of 221 Coldcard hack victim reports involved individual losses exceeding 1 Bitcoin.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Business owner faces up to 280 years over $24M crypto Ponzi scheme",
-      "url": "https://cointelegraph.com/news/business-owner-280-years-24m-crypto-ponzi-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T07:58:10+00:00",
-      "summary": "A federal jury convicted Brent Kovar of wire fraud, mail fraud and money laundering after he took $24 million from at least 400 investors.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Franklin Templeton and Hashkey roll out U.S. tokenized money fund in Asia",
-      "url": "https://www.coindesk.com/business/2026/08/25/franklin-templeton-and-hashkey-roll-out-u-s-tokenized-money-fund-in-asia",
-      "published_at": "2026-08-25T07:55:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Las Vegas businessman faces 280 years in prison after $24 million crypto fraud conviction",
-      "url": "https://www.theblock.co/news/regulation/2026-08-25-las-vegas-businessman-24-million-crypto-fraud-412690",
-      "published_at": "2026-08-25T07:53:23+00:00",
-      "summary": "A federal jury convicted Las Vegas businessman Brent Kovar in a $24 million cryptocurrency scheme involving at least 400 investors.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin settles in under $80,000, with interest rates headed lower on Tuesday",
-      "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000",
-      "published_at": "2026-08-25T07:40:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "interest rate"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs add $338M as six-day inflow streak hits $2.26B",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-six-day-inflow-streak-2-26-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T07:38:29+00:00",
-      "summary": "Bitcoin ETFs have drawn $2.26 billion over six trading days, while year-to-date net outflows have narrowed to about $2.57 billion.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Treasury’s bond buyback plan fights the market and heightens the danger, billionaire Druckenmiller says",
-      "url": "https://www.coindesk.com/markets/2026/08/25/governments-defending-prices-against-fundamentals-always-lose-billionaire-investor-druckenmiller-says",
-      "published_at": "2026-08-25T07:32:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin holds above $80,000 backed by ETF flows; bull market case ‘early but optimistic,’ analyst says",
-      "url": "https://www.theblock.co/news/markets/2026-08-25-bitcoin-holds-above-80000-412674",
-      "published_at": "2026-08-25T06:46:31+00:00",
-      "summary": "Analysts say it's still too early to tell if this will translate into a bull market, given sticky inflation and geopolitical uncertainty.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "optimistic"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "inflation"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Franklin Templeton partners with HashKey to offer tokenized money market fund in Asia",
-      "url": "https://www.theblock.co/news/business/2026-08-25-franklin-templeton-hashkey-tokenized-fund-412675",
-      "published_at": "2026-08-25T06:39:12+00:00",
-      "summary": "HashKey said it has launched the Franklin OnChain US Government Liquidity Fund on the platform's Earn channel.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "liquidity",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US targets Iran’s crypto sector, cites over $100M in oil-linked payments",
-      "url": "https://cointelegraph.com/news/us-targets-iran-crypto-sector-100m-oil-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T05:29:29+00:00",
-      "summary": "The US Treasury expanded sanctions to Iran’s digital asset sector, alleging a UAE-based broker processed over $100 million in crypto for oil sales.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Blockchain Association backs Treasury’s proposed GENIUS Act rules for stablecoin issuers",
-      "url": "https://www.theblock.co/news/regulation/2026-08-25-blockchain-association-backs-genius-act-412668",
-      "published_at": "2026-08-25T05:24:15+00:00",
-      "summary": "It backs limiting client ID requirements to direct issuer-customer transactions in the primary market, while calling for clearer definitions.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "San Francisco-based gaming founder convicted of operating fraudulent crypto trading fund",
-      "url": "https://www.theblock.co/news/regulation/2026-08-24-san-francisco-gaming-founder-crypto-fraud-412662",
-      "published_at": "2026-08-25T02:08:02+00:00",
-      "summary": "Dillman faces a maximum penalty of 20 years and a $250,000 fine for each count of conviction, according to the DOJ.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Cypher Tank Returns to Lugano, Expanding Its Bet on Bitcoin Founders",
-      "url": "https://bitcoinmagazine.com/news/cypher-tank-bitcoin-event-returns",
-      "published_at": "2026-08-25T02:00:32+00:00",
-      "summary": "Bitcoin Magazine\n\nCypher Tank Returns to Lugano, Expanding Its Bet on Bitcoin Founders\nCypher Tank Returns to Lugano for Second Season following last year's debut. \nThis post Cypher Tank Returns to Lugano, Expanding Its Bet on Bitcoin Founders first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "tank"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "sec"
       ]
     }
   ]
