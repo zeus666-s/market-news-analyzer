@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T20:34:44.682774+00:00",
+  "generated_at": "2026-08-25T01:28:17.325341+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.071,
+    "market_sentiment_score": 0.082,
     "label_distribution": {
-      "bullish": 24,
-      "neutral": 34,
-      "bearish": 12
+      "bearish": 10,
+      "neutral": 35,
+      "bullish": 25
     },
     "top_coins": [
       {
@@ -16,11 +16,11 @@
       },
       {
         "coin": "OP",
-        "mentions": 10
+        "mentions": 12
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "coin": "Near",
@@ -35,20 +35,20 @@
         "mentions": 4
       },
       {
+        "coin": "SOL",
+        "mentions": 3
+      },
+      {
         "coin": "Tron",
         "mentions": 3
       },
       {
+        "coin": "Sui",
+        "mentions": 2
+      },
+      {
         "coin": "FIL",
         "mentions": 2
-      },
-      {
-        "coin": "SOL",
-        "mentions": 2
-      },
-      {
-        "coin": "Chainlink",
-        "mentions": 1
       }
     ],
     "top_topics": [
@@ -58,7 +58,11 @@
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 16
+      },
+      {
+        "topic": "sec",
+        "mentions": 4
       },
       {
         "topic": "exchange",
@@ -81,20 +85,122 @@
         "mentions": 3
       },
       {
-        "topic": "sec",
-        "mentions": 3
-      },
-      {
-        "topic": "usdc",
+        "topic": "cftc",
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "usdc",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Hugging Face Explores $13 Billion Sale a Month After a Rogue OpenAI Agent Hacked It",
+      "url": "https://decrypt.co/376415/hugging-face-13-billion-sale-month-after-openai-hack",
+      "published_at": "2026-08-24T22:16:04+00:00",
+      "summary": "The open-source AI hub is fielding buyout interest at nearly triple its 2023 valuation, weeks after a security breach and days after Stripe's OpenRouter deal reset the price of AI infrastructure.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hacked"
+        ]
+      },
+      "coins": [
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC, US soldier accused of illegal Polymarket bet spar over interpretation of prediction markets",
+      "url": "https://cointelegraph.com/news/cftc-us-soldier-polymarket-bet-prediction-market-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T21:33:13+00:00",
+      "summary": "A judge stayed the CFTC’s civil case against a soldier who allegedly used nonpublic information for a Polymarket bet, but the regulator is trying to weigh in on the criminal case.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Strive Buys $81.5 Million in Bitcoin After Issuing More Shares",
+      "url": "https://decrypt.co/376416/strive-buys-81-million-bitcoin-more-shares",
+      "published_at": "2026-08-24T21:28:30+00:00",
+      "summary": "The company increased its Bitcoin holdings by 5.5%, but its Bitcoin per fully diluted share rose only about 1.4%.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Sui"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Gemini plans to distribute crypto prediction markets through Apex brokerages",
+      "url": "https://cointelegraph.com/news/gemini-plans-to-distribute-crypto-prediction-markets-through-apex-brokerages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-24T20:46:16+00:00",
+      "summary": "The proposed deal would make Gemini the exclusive venue for crypto event contracts offered through Apex’s FCM, expanding its prediction-market reach to brokerage clients.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Model Ox Alpha Is Free, Beats Claude Fable, and Nobody Knows Who Built It",
+      "url": "https://decrypt.co/376396/mysterious-ai-model-ox-alpha",
+      "published_at": "2026-08-24T20:46:03+00:00",
+      "summary": "Ox Alpha is topping benchmark scores, reads a million tokens, takes video as input, and has developers guessing who's behind it.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Why the Bitcoin Rally Looks Like a Vote Against the Dollar",
@@ -957,26 +1063,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "ECB defends digital euro privacy as CBDCs face global scrutiny",
-      "url": "https://cointelegraph.com/news/ecb-digital-euro-privacy-cbdcs-global-scrutiny?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T11:21:19+00:00",
-      "summary": "Piero Cipollone said the Eurosystem would not identify digital euro users as central bank digital currencies face privacy concerns worldwide.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
       "url": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
@@ -1064,91 +1150,6 @@
         "ai",
         "fed",
         "futures"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
-      "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
-      "published_at": "2026-08-24T10:41:46+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rallies"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "LTC",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Germany widens MiCA lead as latest EU register update adds 6 banks",
-      "url": "https://cointelegraph.com/news/germany-mica-lead-licensing-update-6-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-24T10:41:34+00:00",
-      "summary": "Germany expands its lead in EU MiCA authorizations with 79 crypto asset service providers, ahead of France and the Netherlands.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bernstein says Circle’s growth cycle can continue without the Clarity Act, sees 59% upside",
-      "url": "https://www.theblock.co/news/business/2026-08-24-bernstein-says-circles-growth-cycle-can-continue-without-the-clarity-act-sees-59-upside-412573",
-      "published_at": "2026-08-24T10:08:38+00:00",
-      "summary": "Bernstein says Circle can sustain growth without the Clarity Act as USDC supply rebounds and stablecoin volumes continue expanding.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin",
-        "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Fed experiment shows how bitcoin rallies attract new crypto buyers",
-      "url": "https://www.coindesk.com/markets/2026/08/24/fed-experiment-shows-how-bitcoin-rallies-attract-new-crypto-buyers",
-      "published_at": "2026-08-24T09:56:17+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rallies"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed"
       ]
     }
   ]
