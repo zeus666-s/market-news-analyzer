@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-25T20:33:14.346980+00:00",
+  "generated_at": "2026-08-26T01:38:01.390504+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.043,
+    "market_sentiment_score": 0.055,
     "label_distribution": {
-      "bullish": 25,
-      "bearish": 14,
-      "neutral": 31
+      "bullish": 29,
+      "neutral": 27,
+      "bearish": 14
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 25
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 15
       },
       {
         "coin": "Near",
@@ -43,18 +43,18 @@
         "mentions": 2
       },
       {
-        "coin": "Avalanche",
+        "coin": "XRP",
         "mentions": 1
       },
       {
-        "coin": "MATIC",
+        "coin": "Avalanche",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 30
       },
       {
         "topic": "pos",
@@ -62,10 +62,6 @@
       },
       {
         "topic": "exchange",
-        "mentions": 7
-      },
-      {
-        "topic": "sec",
         "mentions": 6
       },
       {
@@ -73,28 +69,195 @@
         "mentions": 6
       },
       {
-        "topic": "wallet",
-        "mentions": 4
+        "topic": "sec",
+        "mentions": 5
       },
       {
-        "topic": "defi",
-        "mentions": 3
+        "topic": "wallet",
+        "mentions": 4
       },
       {
         "topic": "stablecoin",
         "mentions": 3
       },
       {
-        "topic": "futures",
+        "topic": "defi",
+        "mentions": 3
+      },
+      {
+        "topic": "pow",
         "mentions": 2
       },
       {
-        "topic": "dex",
+        "topic": "futures",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Elon Musk’s SpaceX Plans $100 Billion Louisiana Spaceport",
+      "url": "https://decrypt.co/376573/elon-musk-spacex-100-billion-spaceport",
+      "published_at": "2026-08-25T22:16:03+00:00",
+      "summary": "The 10-year project in Vermilion Parish will include five launch complexes and infrastructure for Starship missions.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "cex"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
+      "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
+      "published_at": "2026-08-25T21:56:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "XRP Hot Streak Cools as Traders Hit a Wall: Where Does It Go Next?",
+      "url": "https://decrypt.co/376559/xrp-price-cools-where-next",
+      "published_at": "2026-08-25T21:46:04+00:00",
+      "summary": "XRP has given back two days of gains after a vertical recovery, and the charts say the bounce just met a wall.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "gains",
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Zerohash back for second effort at OCC trust bank charter",
+      "url": "https://www.coindesk.com/policy/2026/08/25/zerohash-back-for-second-effort-at-occ-trust-bank-charter",
+      "published_at": "2026-08-25T21:38:28+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Alibaba to Release Qwen 3.8-Flash-Next as a Preview of What Qwen 4 Will Offer",
+      "url": "https://decrypt.co/376530/alibaba-qwen-3-8-flash-next-preview-qwen-4",
+      "published_at": "2026-08-25T21:16:04+00:00",
+      "summary": "Alibaba's Qwen team is teasing its next architecture a day early—and the specs say it runs near-frontier scale on a fraction of the power.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "pow"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Is Bitcoin Out of Its Bear Market? These Analysts Think So",
+      "url": "https://bitcoinmagazine.com/news/is-bitcoin-out-of-bear-market",
+      "published_at": "2026-08-25T20:51:18+00:00",
+      "summary": "Bitcoin Magazine\n\nIs Bitcoin Out of Its Bear Market? These Analysts Think So\nBitcoin is doing what it has done in previous cycles when it has entered a bull market. \nThis post Is Bitcoin Out of Its Bear Market? These Analysts Think So first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bear"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "These Researchers Just Shrunk an AI Model and Somehow Made It Smarter",
+      "url": "https://decrypt.co/376536/researchers-shrink-ai-model-made-smarter",
+      "published_at": "2026-08-25T20:46:03+00:00",
+      "summary": "A smaller, cheaper AI usually means a dumber one. A new technique flipped that—and your phone might be the winner.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "World Liberty Financial launches USD1 natively on Canton Network",
+      "url": "https://cointelegraph.com/news/world-liberty-financial-launches-usd1-natively-on-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-25T20:35:10+00:00",
+      "summary": "USD1 is the sixth-largest stablecoin, with a market capitalization of more than $4 billion, according to industry data.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Bitcoin Breakout Could Be Around the Corner as Asset Is No Longer Oversold: Fairlead Strategies’ Katie Stockton",
@@ -751,7 +914,7 @@
     {
       "source": "Cointelegraph",
       "title": "Hugging Face hack exposes the open-weight AI cybersecurity paradox",
-      "url": "https://cointelegraph.com/features/hugging-face-hack-exposes-the-open-weight-ai-cybersecurity-paradox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/magazine/hugging-face-hack-exposes-the-open-weight-ai-cybersecurity-paradox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-25T13:30:00+00:00",
       "summary": "Hugging Face relies on open weight Chinese models to defend itself from rogue AI agents. But a lack of safety guardrails makes those models potentially dangerous too.",
       "sentiment": {
@@ -1001,175 +1164,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "A bitcoin short squeeze for the ages as futures open interest collapses",
-      "url": "https://www.coindesk.com/markets/2026/08/25/a-bitcoin-short-squeeze-for-the-ages-as-futures-open-interest-collapses",
-      "published_at": "2026-08-25T10:57:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "futures"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin extends 7-day advance to roughly 25%",
-      "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-extends-7-day-advance-to-roughly-25",
-      "published_at": "2026-08-25T10:52:03+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BTC RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
-      "url": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-draws-2022-comparisons-as-analysis-weighs-new-price-trend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T10:51:00+00:00",
-      "summary": "Bitcoin price analysis eyes the potential end of its current macro downtrend based on weekly RSI signals.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "macro"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Jury Convicts Las Vegas Man of $24M AI Crypto Mining Ponzi Scheme",
-      "url": "https://decrypt.co/376427/jury-convicts-las-vegas-man-of-24m-ai-crypto-mining-ponzi-scheme",
-      "published_at": "2026-08-25T10:50:23+00:00",
-      "summary": "Brent Kovar told at least 400 investors a supercomputer was mining crypto for them, and that their money was insured by the FDIC.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "mining"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Solana ETFs extend growth streak to 5 days after year's biggest inflows",
-      "url": "https://www.coindesk.com/markets/2026/08/25/solana-etfs-extend-growth-streak-to-5-days-after-year-s-biggest-inflows",
-      "published_at": "2026-08-25T10:25:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "US Can Now Sanction Anyone Operating in Iran's Crypto Sector",
-      "url": "https://decrypt.co/376424/us-can-now-sanction-anyone-operating-in-irans-crypto-sector",
-      "published_at": "2026-08-25T10:21:41+00:00",
-      "summary": "Digital assets are among five sectors in a campaign Treasury called an “Economic D-Day,” alongside technology, gold, aviation and shipping.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules",
-      "url": "https://cointelegraph.com/news/thailand-bitcoin-ether-etfs-draft-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T10:20:14+00:00",
-      "summary": "Thailand’s SEC opened consultations on local Bitcoin and Ether ETF rules and qualification standards for foreign digital asset custodians.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Standard Chartered becomes first bank distributor of HKD stablecoin",
-      "url": "https://cointelegraph.com/news/standard-chartered-hkdap-stablecoin-distribution?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-25T09:52:40+00:00",
-      "summary": "The bank plans tokenized money market fund settlements in the fourth quarter as HKDAP expands its phased rollout into conventional banking.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
     }
   ]
 }
