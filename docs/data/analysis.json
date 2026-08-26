@@ -1,41 +1,45 @@
 {
-  "generated_at": "2026-08-26T16:50:12.030484+00:00",
+  "generated_at": "2026-08-26T22:56:02.113378+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.021,
+    "market_sentiment_score": 0.032,
     "label_distribution": {
-      "neutral": 39,
-      "bearish": 13,
-      "bullish": 18
+      "bearish": 11,
+      "neutral": 42,
+      "bullish": 17
     },
     "top_coins": [
       {
-        "coin": "Bitcoin",
-        "mentions": 24
+        "coin": "OP",
+        "mentions": 26
       },
       {
-        "coin": "OP",
-        "mentions": 23
+        "coin": "Bitcoin",
+        "mentions": 26
       },
       {
         "coin": "SOL",
-        "mentions": 5
-      },
-      {
-        "coin": "Near",
-        "mentions": 4
-      },
-      {
-        "coin": "XRP",
-        "mentions": 3
+        "mentions": 7
       },
       {
         "coin": "ETH",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "Ethereum",
+        "mentions": 3
+      },
+      {
+        "coin": "Solana",
+        "mentions": 3
+      },
+      {
+        "coin": "BTC",
+        "mentions": 2
+      },
+      {
+        "coin": "UNI",
         "mentions": 2
       },
       {
@@ -43,22 +47,18 @@
         "mentions": 2
       },
       {
-        "coin": "Solana",
-        "mentions": 1
-      },
-      {
-        "coin": "Tron",
+        "coin": "XRP",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 18
       },
       {
         "topic": "sec",
@@ -73,28 +73,388 @@
         "mentions": 4
       },
       {
-        "topic": "lending",
-        "mentions": 3
-      },
-      {
         "topic": "etf",
         "mentions": 3
       },
       {
+        "topic": "wallet",
+        "mentions": 3
+      },
+      {
+        "topic": "lending",
+        "mentions": 3
+      },
+      {
+        "topic": "regulation",
+        "mentions": 2
+      },
+      {
         "topic": "fed",
-        "mentions": 2
-      },
-      {
-        "topic": "dex",
-        "mentions": 2
-      },
-      {
-        "topic": "staking",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Russian Influence Network Used ChatGPT to Masquerade as Academic Experts",
+      "url": "https://decrypt.co/376662/russia-chatgpt-influence-campaign",
+      "published_at": "2026-08-26T22:46:03+00:00",
+      "summary": "The operation promoted a purported Israeli think tank that published copied scholarship under academics’ names and circulated pro-Russian analysis across social media.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "tank"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bill Gates Wants a Robot Tax and Jobs Humans Can't Be Fired From",
+      "url": "https://decrypt.co/376663/bill-gates-robot-tax-jobs-humans-cant-be-fired",
+      "published_at": "2026-08-26T22:16:03+00:00",
+      "summary": "Gates is calling for AI tokens and robots to be taxed so firms think twice before swapping out workers, plus a bracket of \"human reserved\" roles that stay off-limits to automation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Nvidia Shares Surge in After-Hours Trading After Record $96.2 Billion Revenue",
+      "url": "https://decrypt.co/376664/nvidia-shares-surge-record-q2-revenue",
+      "published_at": "2026-08-26T21:42:42+00:00",
+      "summary": "The chipmaker doubled quarterly revenue while disclosing $366 billion in future commitments and up to $108.5 billion in guarantee exposure.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Billions Pour Into Bitcoin ETFs as Rally Rolls On",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-etfs-receive-billions-in-new-cash",
+      "published_at": "2026-08-26T20:56:47+00:00",
+      "summary": "Bitcoin Magazine\n\nBillions Pour Into Bitcoin ETFs as Rally Rolls On\nThe popular investment vehicles have continued to receive new cash the past couple of days after last week's huge run. Will it last? \nThis post Billions Pour Into Bitcoin ETFs as Rally Rolls On first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
+      "url": "https://www.coindesk.com/markets/2026/08/26/nvidia-tops-earnings-estimates-guides-to-usd108-billion-in-revenue-next-quarter",
+      "published_at": "2026-08-26T20:24:31+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "What Traders Are Watching for Bitcoin's Next Move",
+      "url": "https://decrypt.co/376649/what-traders-watching-bitcoin-next-move",
+      "published_at": "2026-08-26T20:22:17+00:00",
+      "summary": "Bitcoin's monster rally just hit its first real test. Here's why each catalyst matters and how they could move the price from here.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Better launches Bitcoin-backed mortgages powered by Coinbase",
+      "url": "https://cointelegraph.com/news/better-launches-bitcoin-backed-mortgages-powered-by-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-26T20:09:23+00:00",
+      "summary": "Better and Coinbase have launched a crypto-backed mortgage product that lets US homebuyers pledge Bitcoin as collateral for a down payment without having to sell it.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": [
+          "down",
+          "sell"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pow"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
+      "url": "https://decrypt.co/376646/galaxy-crypto-credit-lines-bitcoin-ethereum-solana",
+      "published_at": "2026-08-26T19:56:03+00:00",
+      "summary": "GalaxyOne clients can borrow cash against Bitcoin, Ethereum, and staked Solana at 8.99% APR without selling a coin.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Forget the Trump Bump — Bitcoin Would Be Fine Under Democrats, Says VanEck",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-would-be-fine-under-democrats",
+      "published_at": "2026-08-26T19:39:19+00:00",
+      "summary": "Bitcoin Magazine\n\nForget the Trump Bump — Bitcoin Would Be Fine Under Democrats, Says VanEck \nVanEck's Matthew Sigel has said that Bitcoin doesn't need a Republican president to do well. \nThis post Forget the Trump Bump — Bitcoin Would Be Fine Under Democrats, Says VanEck  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "US Banks Join Forces to Build a Blockchain of Their Own",
+      "url": "https://decrypt.co/376644/banks-build-blockchain-bankchain-alliance",
+      "published_at": "2026-08-26T19:21:25+00:00",
+      "summary": "The BankChain Alliance aims to give smaller financial institutions access to tokenized deposits and blockchain payments through a shared network targeted for 2027.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-26T19:14:06+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Wallets Dormant for Over a Decade Move $40M in One Week",
+      "url": "https://decrypt.co/376641/bitcoin-wallets-dormant-decade-move-40m",
+      "published_at": "2026-08-26T18:44:17+00:00",
+      "summary": "Six wallets that slept through Bitcoin's entire boom woke up between Aug. 16 and Aug. 26, moving tens of millions in BTC.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Solana Treasury Firm Invites Investors to Look 'Beyond the Price of SOL'",
+      "url": "https://decrypt.co/376619/solana-treasury-sol-data-beyond-price",
+      "published_at": "2026-08-26T17:52:22+00:00",
+      "summary": "Nasdaq-listed SOL treasury company DeFi Development Corp launched a free network dashboard on Wednesday. Its pitch: judge Solana on more than just price.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "defi"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Chainalysis estimates $457B in taxable crypto activity, says CARF misses most",
+      "url": "https://cointelegraph.com/news/chainalysis-estimates-457b-in-potentially-taxable-crypto-activity-says-carf-misses-most-onchain-flows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-26T17:48:34+00:00",
+      "summary": "The blockchain analytics firm said just 14% of the onchain activity it identified is covered by the OECD’s international crypto tax-reporting framework.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Coinbase and Better Mortgage Announce General Availability of Bitcoin-Backed Mortgages",
+      "url": "https://bitcoinmagazine.com/news/coinbase-better-announce-bitcoin-mortgages",
+      "published_at": "2026-08-26T17:24:53+00:00",
+      "summary": "Bitcoin Magazine\n\nCoinbase and Better Mortgage Announce General Availability of Bitcoin-Backed Mortgages \nThe announcement comes after Better and Coinbase debuted the first Bitcoin-backed loan in June. \nThis post Coinbase and Better Mortgage Announce General Availability of Bitcoin-Backed Mortgages  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "'The Government Doesn't Own Our Data': Prosecuted GrapheneOS User",
+      "url": "https://decrypt.co/376631/the-government-doesnt-own-our-data-prosecuted-grapheneos-user",
+      "published_at": "2026-08-26T17:24:52+00:00",
+      "summary": "Samuel Tunick, facing five years over a wiped phone, said he was secretly placed on a watch list as a suspected terrorist.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto CEO Faces US Extradition Over Alleged $20 Million Token Scheme",
+      "url": "https://decrypt.co/376617/crypto-ceo-extradition-20-million-scheme",
+      "published_at": "2026-08-26T17:15:33+00:00",
+      "summary": "Manpreet Kohli, accused of making $20 million from an alleged scheme to manipulate the Saitama token, is a step closer to facing trial in Boston.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "SEC sends crypto custody rule overhaul to White House for review",
@@ -270,7 +630,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
+      "title": "South Korea’s top financial conglomerate team up with Visa to test stablecoin issuance and B2B settlements",
       "url": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
       "published_at": "2026-08-26T15:15:13+00:00",
       "summary": "",
@@ -281,7 +641,9 @@
         "positive_hits": [],
         "negative_hits": []
       },
-      "coins": [],
+      "coins": [
+        "OP"
+      ],
       "topics": [
         "stablecoin"
       ]
@@ -562,29 +924,6 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-26T12:30:00+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
       "title": "Taurus links digital asset platforms to Swift’s blockchain ledger",
       "url": "https://cointelegraph.com/news/taurus-digital-asset-platforms-swift-blockchain-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-26T12:00:00+00:00",
@@ -604,24 +943,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: LayerZero Announces ATLAS as New Settlement Engine",
-      "url": "https://decrypt.co/376580/morning-minute-layerzero-announces-atlas-as-new-settlement-engine",
-      "published_at": "2026-08-26T11:50:27+00:00",
-      "summary": "The market liked the news, with ZRO up 10% and jumping nearly 50% off its local bottom.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": []
     },
     {
       "source": "The Block",
@@ -793,24 +1114,6 @@
       "topics": []
     },
     {
-      "source": "Decrypt",
-      "title": "Roman Storm's Tornado Cash Retrial Pushed to April 2027",
-      "url": "https://decrypt.co/376577/roman-storms-tornado-cash-retrial-pushed-to-april-2027",
-      "published_at": "2026-08-26T10:42:35+00:00",
-      "summary": "Judge Katherine Polk Failla adjourned the retrial by more than six months, with Storm's motion for acquittal still undecided.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Bernstein sees bitcoin reaching $150,000 by mid-2027 amid ‘debasement trade,’ but cuts Strategy target to $350",
       "url": "https://www.theblock.co/news/markets/2026-08-26-bernstein-sees-bitcoin-reaching-150000-by-mid-2027-amid-debasement-trade-but-cuts-strategy-target-to-350-412778",
@@ -843,295 +1146,6 @@
       },
       "coins": [
         "SOL"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Euro stablecoins get a mainstream push as Revolut begins rolling out EURR in Europe",
-      "url": "https://www.coindesk.com/business/2026/08/26/euro-stablecoins-get-a-mainstream-push-as-revolut-begins-rolling-out-eurr-in-europe",
-      "published_at": "2026-08-26T10:03:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Revolut begins phased EURR stablecoin rollout in Denmark, Poland and Portugal",
-      "url": "https://www.theblock.co/news/business/2026-08-26-revolut-begins-phased-eurr-stablecoin-rollout-in-denmark-poland-and-portugal-412772",
-      "published_at": "2026-08-26T09:12:54+00:00",
-      "summary": "Revolut began rolling out EURR, its first euro-pegged stablecoin, to customers in Denmark, Poland, and Portugal.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Japan to start stocks and bonds tokenization development plans this year",
-      "url": "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds",
-      "published_at": "2026-08-26T09:06:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin adds to early losses, slipping to $78,000",
-      "url": "https://www.coindesk.com/business/2026/08/26/live-updates-zcash-pulls-back-8-as-its-grayscale-etf-goes-live-capping-a-60-rally",
-      "published_at": "2026-08-26T08:51:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Revolut rolls out euro stablecoin in 3 European markets",
-      "url": "https://cointelegraph.com/news/revolut-eurr-euro-stablecoin-europe-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-26T08:45:41+00:00",
-      "summary": "The Bridge-issued EURR token will support multiple blockchains and external wallets, with wider EEA availability expected this year.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "bridge",
-        "stablecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "South Korea’s Shinhan to use Visa’s stablecoin platform for ‘future finance’ initiatives",
-      "url": "https://www.theblock.co/news/web3/2026-08-26-south-koreas-shinhan-visa-stablecoin-412765",
-      "published_at": "2026-08-26T08:43:43+00:00",
-      "summary": "The two will also test the application of stablecoins in card payments, AI-based future payment models, and B2B and B2C payment businesses.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "A massive $6.4 billion bitcoin options expiry on Friday could amplify volatility",
-      "url": "https://www.coindesk.com/markets/2026/08/25/a-massive-usd6-4-billion-bitcoin-options-expiry-on-friday-could-amplify-volatility",
-      "published_at": "2026-08-26T08:01:09+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Tornado Cash developer Roman Storm’s retrial pushed back to April 2027",
-      "url": "https://www.theblock.co/news/regulation/2026-08-26-tornado-cash-roman-storm-retrial-april-2027-412761",
-      "published_at": "2026-08-26T08:00:17+00:00",
-      "summary": "A jury convicted Storm on a count of money transmitting last year, but did not reach a verdict on other charges.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tornado Cash developer Roman Storm’s retrial delayed to April 2027",
-      "url": "https://cointelegraph.com/news/roman-storm-retrial-delayed-april-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-26T07:44:04+00:00",
-      "summary": "Judge Katherine Polk Failla adjourned the retrial in light of Storm’s pending motion for acquittal and related request for a continuance.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs tear through 2026 outflows in 7-day hot streak",
-      "url": "https://cointelegraph.com/news/bitcoin-etf-august-inflows-surge-past-3-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-26T07:30:31+00:00",
-      "summary": "The funds are $390 million short of October 2025’s inflow total after cutting their year-to-date net outflow deficit by more than half.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "defi",
-        "etf"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Japan to work on blockchain-based stock settlement system, details expected early 2027: Nikkei",
-      "url": "https://www.theblock.co/news/regulation/2026-08-26-japan-blockchain-stock-settlement-system-412755",
-      "published_at": "2026-08-26T06:40:31+00:00",
-      "summary": "If the plan is approved, the agencies could launch the system within a few years, and fully operational in the early 2030s.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "approved",
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BlackRock cuts bitcoin ETF swap minimum to $1 million: Report",
-      "url": "https://www.coindesk.com/markets/2026/08/26/E",
-      "published_at": "2026-08-26T05:52:53+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "XRP’s 44% rally brings leverage back, raising risk of sharper pullback",
-      "url": "https://www.coindesk.com/markets/2026/08/26/xrp-s-44-rally-brings-leverage-back-raising-risk-of-sharper-pullback",
-      "published_at": "2026-08-26T05:16:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "XRP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Kalshi raised $1.12 billion via private equity offering since April, latest SEC filing shows",
-      "url": "https://www.theblock.co/news/web3/2026-08-26-kalshi-latest-form-d-412749",
-      "published_at": "2026-08-26T04:51:58+00:00",
-      "summary": "It was reported earlier this month that Kalshi is looking to raise $750 million in fresh capital at a $40 billion valuation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "FIL"
       ],
       "topics": [
         "ai",
