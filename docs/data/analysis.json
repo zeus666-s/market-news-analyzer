@@ -1,30 +1,38 @@
 {
-  "generated_at": "2026-08-30T04:41:32.999564+00:00",
+  "generated_at": "2026-08-30T13:41:49.402561+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.018,
+    "market_sentiment_score": 0.034,
     "label_distribution": {
-      "bearish": 15,
-      "neutral": 34,
-      "bullish": 21
+      "bearish": 14,
+      "neutral": 33,
+      "bullish": 23
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "coin": "OP",
-        "mentions": 13
+        "mentions": 12
       },
       {
         "coin": "SOL",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "Solana",
-        "mentions": 7
+        "mentions": 6
+      },
+      {
+        "coin": "ETH",
+        "mentions": 4
+      },
+      {
+        "coin": "LINK",
+        "mentions": 3
       },
       {
         "coin": "BTC",
@@ -39,34 +47,26 @@
         "mentions": 3
       },
       {
-        "coin": "ETH",
-        "mentions": 3
-      },
-      {
-        "coin": "Near",
-        "mentions": 2
-      },
-      {
-        "coin": "LINK",
+        "coin": "Tron",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 38
+        "mentions": 40
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "topic": "fed",
-        "mentions": 11
+        "mentions": 10
       },
       {
         "topic": "inflation",
-        "mentions": 10
+        "mentions": 9
       },
       {
         "topic": "sec",
@@ -77,6 +77,10 @@
         "mentions": 8
       },
       {
+        "topic": "pow",
+        "mentions": 4
+      },
+      {
         "topic": "etf",
         "mentions": 4
       },
@@ -85,16 +89,122 @@
         "mentions": 3
       },
       {
-        "topic": "pow",
-        "mentions": 3
-      },
-      {
-        "topic": "validator",
+        "topic": "usdt",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
+      "url": "https://decrypt.co/376863/ai-models-hacked-companies-ai-labs-cyber-defenses",
+      "published_at": "2026-08-30T13:31:04+00:00",
+      "summary": "More than 100 AI, security, finance, and technology organizations want governments and industry to prepare for attacks powered by increasingly capable models.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hacked"
+        ]
+      },
+      "coins": [
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "pow",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-30T12:49:37+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "url": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+      "published_at": "2026-08-30T12:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Russia’s Sber eyes USDT loans, questions digital ruble demand",
+      "url": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-30T09:55:00+00:00",
+      "summary": "Russia’s largest bank, Sber, plans to accept USDT and Ether alongside Bitcoin as loan collateral as the country introduces regulated crypto trading under a new law.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "usdt"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Real Trump Coins denies launching GOLD token, blames ‘bad actors’",
+      "url": "https://cointelegraph.com/news/real-trump-coins-denies-gold-token-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-30T08:04:56+00:00",
+      "summary": "Trump-linked Real Trump Coins said it never authorized GOLD or any digital token as questions persisted over its X account, associated domains and the concentrated token supply.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
@@ -378,29 +488,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-29T12:39:59+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
     },
     {
       "source": "Cointelegraph",
@@ -1122,89 +1209,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Ethereum ETFs Take $226M in a Day, Almost Matching Bitcoin's Haul",
-      "url": "https://decrypt.co/376810/ethereum-etfs-take-226m-in-a-day-almost-matching-bitcoins-haul",
-      "published_at": "2026-08-28T14:17:21+00:00",
-      "summary": "Nine straight sessions have brought in $1.4 billion, with Thursday marking the funds' strongest day in 10 months.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH",
-        "Tron"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
-      "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
-      "published_at": "2026-08-28T14:05:12+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "SBI Holdings invests $270 million in Ajaib, taking 20% stake amid Asia digital asset push",
-      "url": "https://www.theblock.co/news/deals/2026-08-28-sbi-holdings-invests-270-million-in-ajaib-taking-20-stake-amid-asia-digital-asset-push-413023",
-      "published_at": "2026-08-28T13:32:26+00:00",
-      "summary": "Ajaib offers crypto and stablecoins alongside traditional investments, including OTC settlement services for institutional clients.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Who is legally liable when an AI agent goes rogue?",
-      "url": "https://cointelegraph.com/magazine/who-is-legally-liable-when-an-ai-agent-goes-rogue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-28T13:30:00+00:00",
-      "summary": "If your personal AI agent goes rogue and causes harm or financial damage in the real world, can you be held liable?",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
     }
   ]
 }
