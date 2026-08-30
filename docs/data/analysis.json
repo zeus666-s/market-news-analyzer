@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-30T19:11:50.262961+00:00",
+  "generated_at": "2026-08-30T22:33:06.870614+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.014,
+    "market_sentiment_score": 0.025,
     "label_distribution": {
-      "bearish": 16,
-      "bullish": 22,
-      "neutral": 32
+      "bearish": 15,
+      "neutral": 32,
+      "bullish": 23
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 25
       },
       {
         "coin": "OP",
@@ -27,46 +27,46 @@
         "mentions": 6
       },
       {
-        "coin": "LINK",
+        "coin": "BTC",
         "mentions": 4
       },
       {
-        "coin": "Near",
-        "mentions": 3
+        "coin": "LINK",
+        "mentions": 4
       },
       {
         "coin": "ETH",
         "mentions": 3
       },
       {
-        "coin": "BTC",
+        "coin": "Near",
         "mentions": 3
       },
       {
-        "coin": "XRP",
-        "mentions": 3
+        "coin": "Polygon",
+        "mentions": 2
       },
       {
-        "coin": "ADA",
-        "mentions": 3
+        "coin": "Ethereum",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 40
+        "mentions": 37
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 17
       },
       {
         "topic": "fed",
-        "mentions": 11
+        "mentions": 10
       },
       {
         "topic": "inflation",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "topic": "sec",
@@ -77,11 +77,11 @@
         "mentions": 7
       },
       {
-        "topic": "pow",
+        "topic": "etf",
         "mentions": 4
       },
       {
-        "topic": "etf",
+        "topic": "pow",
         "mentions": 4
       },
       {
@@ -95,6 +95,94 @@
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
+      "url": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
+      "published_at": "2026-08-30T22:31:04+00:00",
+      "summary": "The Austin and Kyoto hard forks, deployed quietly on the Bor and Heimdall clients before public disclosure, closed denial-of-service and consensus-hardening flaws that Polygon says were never exploited.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploited"
+        ]
+      },
+      "coins": [
+        "Polygon"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
+      "url": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
+      "published_at": "2026-08-30T21:31:04+00:00",
+      "summary": "Spot Bitcoin ETFs shed $201.9 million on Aug. 28, ending a nine-day inflow run, even as Ethereum funds extended a 10-day streak with fresh cash.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kalshi becomes exclusive prediction market partner of US Open: report",
+      "url": "https://www.theblock.co/news/deals/2026-08-30-kalshi-becomes-exclusive-prediction-market-partner-of-us-open-report-413074",
+      "published_at": "2026-08-30T20:28:52+00:00",
+      "summary": "As part of the agreement, rival prediction market platforms are reportedly barred from advertising at the tournament and on its ESPN broadcasts.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Strategy’s Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+      "url": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
+      "published_at": "2026-08-30T19:39:55+00:00",
+      "summary": "A Bitcoin rally to around $79,000 lifted the company's 840,447 BTC roughly $2.8 billion above its cost basis, as Saylor's \"We're Back\" post fueled speculation that Strategy may resume buying.",
+      "sentiment": {
+        "score": 7,
+        "normalized": 0.875,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "buying",
+          "profit",
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Crypto.com-linked Cronos network halts after Tectonic exploit estimated at $75 million",
@@ -1100,102 +1188,6 @@
       "topics": [
         "ai",
         "inflation"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "What Is Strategy (MSTR)? The Bitcoin Treasury Company",
-      "url": "https://decrypt.co/resources/what-is-strategy-microstrategy-mstr-the-bitcoin-treasury-company",
-      "published_at": "2026-08-28T16:08:02+00:00",
-      "summary": "Strategy’s co-founder Michael Saylor pioneered the Bitcoin treasury playbook. Here’s what you need to know.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Miner IREN Shares Fall as AI Conversion Costs Mount",
-      "url": "https://decrypt.co/376816/bitcoin-miner-iren-shares-drop-ai-costs",
-      "published_at": "2026-08-28T16:04:37+00:00",
-      "summary": "AI cloud revenue topped Bitcoin mining for the first time as IREN accelerated its data center conversion.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "mining"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Drops Before Shrugging Off Fed Chair’s Inflation Comments",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-shrugs-off-fed-chair-comments",
-      "published_at": "2026-08-28T15:49:18+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Drops Before Shrugging Off Fed Chair&#8217;s Inflation Comments \nBitcoin dropped, then popped after Federal Reserve Chair Kevin Warsh gave his first major speech as head of the U.S. central bank and said he had &#8220;more work to do&#8221; to fight inflation.&#160; The leading cryptocurrency was recently trading for $79,474 after dropping as low as $78,630 before quickly rising again.&#160; Bitcoin has typically done [&#8230;]\nThis post Bitcoin Drops Before Shruggin...",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "leading"
-        ],
-        "negative_hits": [
-          "dropped",
-          "drops"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "inflation",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitwise fund is first Solana ETF to hit $1 billion AUM",
-      "url": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035",
-      "published_at": "2026-08-28T15:48:52+00:00",
-      "summary": "The Bitwise Solana Staking ETF (ticker BSOL) crossed $1 billion AUM on Friday, less than a year after its launch.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "etf",
-        "staking"
       ]
     }
   ]
