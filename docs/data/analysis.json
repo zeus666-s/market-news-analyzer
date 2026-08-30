@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-30T13:41:49.402561+00:00",
+  "generated_at": "2026-08-30T19:11:50.262961+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.034,
+    "market_sentiment_score": 0.014,
     "label_distribution": {
-      "bearish": 14,
-      "neutral": 33,
-      "bullish": 23
+      "bearish": 16,
+      "bullish": 22,
+      "neutral": 32
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 12
+        "mentions": 13
       },
       {
         "coin": "SOL",
@@ -27,11 +27,15 @@
         "mentions": 6
       },
       {
-        "coin": "ETH",
+        "coin": "LINK",
         "mentions": 4
       },
       {
-        "coin": "LINK",
+        "coin": "Near",
+        "mentions": 3
+      },
+      {
+        "coin": "ETH",
         "mentions": 3
       },
       {
@@ -45,10 +49,6 @@
       {
         "coin": "ADA",
         "mentions": 3
-      },
-      {
-        "coin": "Tron",
-        "mentions": 2
       }
     ],
     "top_topics": [
@@ -58,11 +58,11 @@
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "topic": "fed",
-        "mentions": 10
+        "mentions": 11
       },
       {
         "topic": "inflation",
@@ -70,11 +70,11 @@
       },
       {
         "topic": "sec",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "topic": "stablecoin",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "topic": "pow",
@@ -95,6 +95,110 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Crypto.com-linked Cronos network halts after Tectonic exploit estimated at $75 million",
+      "url": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069",
+      "published_at": "2026-08-30T18:40:08+00:00",
+      "summary": "Li says the attacker manipulated the price of Tectonic's illiquid TONIC token before borrowing against the inflated collateral, a Mango Markets-style hack.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "hack"
+        ]
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Saylor signals Strategy is ‘Back’ to Bitcoin buying",
+      "url": "https://cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-30T17:59:00+00:00",
+      "summary": "Michael Saylor’s “We’re Back” post hints Strategy may resume Bitcoin buying after a two-month pause to strengthen its balance sheet.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
+      "url": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066",
+      "published_at": "2026-08-30T17:51:54+00:00",
+      "summary": "The lawsuit asks a federal court to block the $95 million TRM contract and require ICE to conduct a full and open competition.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+      "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+      "published_at": "2026-08-30T15:39:55+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+      "url": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
+      "published_at": "2026-08-30T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "Decrypt",
       "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
@@ -1093,122 +1197,6 @@
         "etf",
         "staking"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin dips to $78.4K as Fed’s Warsh downplays softer inflation prints",
-      "url": "https://cointelegraph.com/markets/bitcoin-dips-fed-warsh-dismisses-recent-low-inflation-prints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-28T15:31:25+00:00",
-      "summary": "Bitcoin failed to make a decisive break above $80,000 as traders digested Fed Chair Kevin Warsh’s Jackson Hole keynote speech, which remained wary of US inflation trends.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "failed"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Traders Watch Fed Chair Warsh for Clues—And Get Nothing",
-      "url": "https://decrypt.co/376813/bitcoin-traders-watch-fed-chair-warsh-for-clues-and-get-nothing",
-      "published_at": "2026-08-28T15:14:11+00:00",
-      "summary": "Fed Chair Warsh's first Jackson Hole keynote doubled down on giving markets zero rate hints as inflation runs hot and Bitcoin traders wait on September's call.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto Biz: Bitcoin pumps, Wall Street does the paperwork",
-      "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-rally-crypto-stocks-circle-strategy-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-28T14:53:40+00:00",
-      "summary": "Bitcoin’s $80,000 rebound lifts crypto stocks as Circle, Strategy and Solana show how capital markets, stablecoins and onchain growth are driving crypto’s recovery.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "growth",
-          "recovery"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bybit launches 24/7 options on stock perpetuals, starting with SpaceX and Nvidia",
-      "url": "https://www.theblock.co/news/markets/2026-08-28-bybit-launches-24-7-options-on-stock-perpetuals-starting-with-spacex-and-nvidia-413032",
-      "published_at": "2026-08-28T14:44:23+00:00",
-      "summary": "Beginning Sept. 17, Bybit users will be able to trade 24/7 options on SPCX and NVDA, with fractional lots and USDT settlement.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "cex",
-        "usdt"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "BitGo to buy NYDIG trading arm for $42.5M in cash and stock plus $15M earnout",
-      "url": "https://www.coindesk.com/business/2026/08/28/bitgo-to-buy-nydig-trading-arm-for-usd42-5m-in-cash-and-stock-plus-usd15m-earnout",
-      "published_at": "2026-08-28T14:37:14+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
