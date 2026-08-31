@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-30T22:33:06.870614+00:00",
+  "generated_at": "2026-08-31T04:44:56.192211+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.025,
+    "market_sentiment_score": 0.018,
     "label_distribution": {
+      "neutral": 33,
       "bearish": 15,
-      "neutral": 32,
-      "bullish": 23
+      "bullish": 22
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 24
       },
       {
         "coin": "OP",
-        "mentions": 13
+        "mentions": 15
       },
       {
         "coin": "SOL",
@@ -27,19 +27,15 @@
         "mentions": 6
       },
       {
+        "coin": "LINK",
+        "mentions": 5
+      },
+      {
         "coin": "BTC",
         "mentions": 4
       },
       {
-        "coin": "LINK",
-        "mentions": 4
-      },
-      {
         "coin": "ETH",
-        "mentions": 3
-      },
-      {
-        "coin": "Near",
         "mentions": 3
       },
       {
@@ -49,20 +45,24 @@
       {
         "coin": "Ethereum",
         "mentions": 2
+      },
+      {
+        "coin": "Near",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 18
       },
       {
         "topic": "fed",
-        "mentions": 10
+        "mentions": 9
       },
       {
         "topic": "inflation",
@@ -74,7 +74,7 @@
       },
       {
         "topic": "stablecoin",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "etf",
@@ -85,16 +85,103 @@
         "mentions": 4
       },
       {
-        "topic": "wallet",
+        "topic": "validator",
         "mentions": 3
       },
       {
-        "topic": "usdt",
-        "mentions": 2
+        "topic": "cftc",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower",
+      "url": "https://www.coindesk.com/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
+      "published_at": "2026-08-31T04:29:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "LINK"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
+      "url": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-31T03:25:48+00:00",
+      "summary": "Crypto.com CEO Kris Marszalek said the company’s app and exchange were unaffected by the Tectonic breach and continued operating normally.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-30T23:36:16+00:00",
+      "summary": "Bitcoin moves toward a post quantum future, Solana validators agree to curb rampant inflation and the bull case from Bernstein is for Bitcoin to peak at $500K this cycle.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "inflation",
+        "pos",
+        "validator",
+        "validators"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
+      "url": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
+      "published_at": "2026-08-30T23:31:03+00:00",
+      "summary": "Gabriel Perez used his access to Trump's speeches before delivery to bet on \"presidential mention market\" contracts, profiting more than $107,500 before the CFTC caught up with him.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cftc"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
@@ -254,7 +341,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+      "title": "Michael Saylor hints at first bitcoin purchase in two months",
       "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
       "published_at": "2026-08-30T15:39:55+00:00",
       "summary": "",
@@ -266,8 +353,7 @@
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin",
-        "Near"
+        "Bitcoin"
       ],
       "topics": []
     },
@@ -1090,104 +1176,6 @@
         "ai",
         "inflation",
         "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Fed Chair Warsh Calls AI a 'Hinge Point in History'—4 Key Things He Said",
-      "url": "https://decrypt.co/376821/fed-chair-warsh-ai-hinge-point-4-key-things",
-      "published_at": "2026-08-28T17:18:52+00:00",
-      "summary": "Fed Chair Warsh devoted a full section of his speech today at Jackson Hole to AI's weight on the economy. Here are the biggest takeaways.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum",
-      "url": "https://decrypt.co/376819/charles-schwab-crypto-trading-bitcoin-ethereum-solana",
-      "published_at": "2026-08-28T16:39:02+00:00",
-      "summary": "The brokerage will expand Schwab Crypto trading to Solana, Avalanche, and Chainlink, but has not given a launch date for the three tokens.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL",
-        "Avalanche",
-        "Chainlink",
-        "LINK"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending",
-      "url": "https://cointelegraph.com/news/bullish-provides-usdai-100m-stablecoin-facility-gpu-backed-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-08-28T16:17:09+00:00",
-      "summary": "The institutional crypto exchange is providing $100 million in stablecoin liquidity to support loans backed by AI computing infrastructure.",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "institutional",
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "lending",
-        "liquidity",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
-      "url": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
-      "published_at": "2026-08-28T16:12:45+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL",
-        "MATIC"
-      ],
-      "topics": [
-        "ai",
-        "inflation"
       ]
     }
   ]
