@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-09-03T22:25:26.870011+00:00",
+  "generated_at": "2026-09-04T03:48:56.543487+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.007,
+    "market_sentiment_score": -0.004,
     "label_distribution": {
+      "neutral": 39,
       "bearish": 17,
-      "neutral": 37,
-      "bullish": 16
+      "bullish": 14
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 27
       },
       {
         "coin": "OP",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "Sui",
         "mentions": 5
-      },
-      {
-        "coin": "FIL",
-        "mentions": 3
       },
       {
         "coin": "LINK",
@@ -43,18 +39,22 @@
         "mentions": 3
       },
       {
+        "coin": "FIL",
+        "mentions": 2
+      },
+      {
         "coin": "Ethereum",
         "mentions": 2
       },
       {
-        "coin": "XRP",
+        "coin": "Arbitrum",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 40
+        "mentions": 42
       },
       {
         "topic": "pos",
@@ -65,20 +65,20 @@
         "mentions": 7
       },
       {
-        "topic": "cftc",
-        "mentions": 5
-      },
-      {
-        "topic": "futures",
-        "mentions": 5
-      },
-      {
         "topic": "exchange",
         "mentions": 5
       },
       {
+        "topic": "cftc",
+        "mentions": 4
+      },
+      {
+        "topic": "futures",
+        "mentions": 4
+      },
+      {
         "topic": "fed",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "topic": "stablecoin",
@@ -89,12 +89,72 @@
         "mentions": 3
       },
       {
-        "topic": "regulation",
+        "topic": "usdt",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
+      "url": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
+      "published_at": "2026-09-04T03:26:50+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "AMC CEO blasts Robinhood for stock token, putting synthetic shares in spotlight",
+      "url": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
+      "published_at": "2026-09-04T03:03:25+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether sued over frozen ‘pig butcher’ coins, 6,600 students get crypto loans: Asia Express",
+      "url": "https://cointelegraph.com/magazine/tether-sued-over-frozen-pig-butcher-coins-6600-students-get-crypto-loans-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-03T23:40:09+00:00",
+      "summary": "Thai businessmen sue Tether over $42M frozen USDT tied to pig butchering scam, Aussie crypto firms face big fines unless they meet licensing deadline.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "scam",
+          "sued"
+        ]
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "usdt"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Bitcoin Bear Market May Not Yet Be Over, Says Fidelity",
@@ -1082,72 +1142,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
-      "url": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-uae?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-03T10:15:34+00:00",
-      "summary": "Standard Chartered said it is the first major global bank to offer institutional access to spot Bitcoin and Ether trading in the UAE region.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Australia is cracking down on crypto businesses as its strict new regulatory deadline nears",
-      "url": "https://www.coindesk.com/business/2026/09/03/australia-is-cracking-down-on-crypto-businesses-as-its-strict-new-regulatory-deadline-nears",
-      "published_at": "2026-09-03T10:09:31+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Ukraine Busts Kyiv Crypto Drainer Ring Moving Up to $1M Monthly",
-      "url": "https://decrypt.co/377245/ukraine-busts-kyiv-crypto-drainer-ring-moving-up-to-1m-monthly",
-      "published_at": "2026-09-03T09:53:41+00:00",
-      "summary": "Fake investment ads on Telegram channels funneled EU victims to a lookalike exchange that emptied their wallets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "wallet"
       ]
     }
   ]
