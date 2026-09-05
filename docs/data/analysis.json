@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-05T14:53:04.037168+00:00",
+  "generated_at": "2026-09-05T18:00:58.602561+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.068,
+    "market_sentiment_score": 0.062,
     "label_distribution": {
-      "bullish": 26,
-      "bearish": 12,
-      "neutral": 32
+      "neutral": 34,
+      "bullish": 24,
+      "bearish": 12
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 28
       },
       {
         "coin": "OP",
@@ -27,6 +27,10 @@
         "mentions": 3
       },
       {
+        "coin": "ETH",
+        "mentions": 2
+      },
+      {
         "coin": "XRP",
         "mentions": 2
       },
@@ -35,30 +39,26 @@
         "mentions": 2
       },
       {
-        "coin": "SOL",
+        "coin": "Ethereum",
         "mentions": 1
       },
       {
-        "coin": "Ripple",
+        "coin": "Arbitrum",
         "mentions": 1
       },
       {
-        "coin": "ETH",
-        "mentions": 1
-      },
-      {
-        "coin": "LINK",
+        "coin": "ARB",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
@@ -69,6 +69,10 @@
         "mentions": 6
       },
       {
+        "topic": "stablecoin",
+        "mentions": 4
+      },
+      {
         "topic": "etf",
         "mentions": 4
       },
@@ -77,24 +81,98 @@
         "mentions": 4
       },
       {
-        "topic": "stablecoin",
-        "mentions": 3
+        "topic": "wallet",
+        "mentions": 1
+      },
+      {
+        "topic": "on-chain",
+        "mentions": 1
       },
       {
         "topic": "dai",
-        "mentions": 1
-      },
-      {
-        "topic": "defi",
-        "mentions": 1
-      },
-      {
-        "topic": "regulation",
         "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up",
+      "url": "https://decrypt.co/377510/ancient-bitcoin-wallet-3-million-wakes-up",
+      "published_at": "2026-09-05T17:01:04+00:00",
+      "summary": "At least four more decade-old wallets moved a combined $15.7 million between Aug. 29 and Sept. 4, with one batch of coins sent to Coinbase in a likely sign of a sale.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+      "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+      "published_at": "2026-09-05T16:43:13+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
+      "url": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
+      "published_at": "2026-09-05T16:06:41+00:00",
+      "summary": "Robinhood Chain is an Ethereum layer-2 network built with Arbitrum technology for tokenized assets, crypto apps, and on-chain financial products.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Arbitrum",
+        "ARB"
+      ],
+      "topics": [
+        "ai",
+        "on-chain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Update Your Browser: Google Patches Chrome Flaw Hackers Were Already Using",
+      "url": "https://decrypt.co/377501/google-chrome-zero-day-exploited",
+      "published_at": "2026-09-05T15:01:04+00:00",
+      "summary": "The update fixes a high-severity flaw in Chrome’s V8 engine, but Google has not revealed who is using it or whom they targeted.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "LeBron James teases Polymarket partnership in new social media video",
@@ -931,29 +1009,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "IMF Now Says Donations Funded El Salvador's Bitcoin Growth",
-      "url": "https://decrypt.co/377392/imf-now-says-donations-funded-el-salvadors-bitcoin-growth",
-      "published_at": "2026-09-04T12:26:01+00:00",
-      "summary": "A year ago the fund claimed the total had not moved, and that the reserve was only shuffling coins between government wallets.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Trezor says ShipMonk breach affected another 67,000 customers",
       "url": "https://www.theblock.co/news/business/2026-09-04-trezor-says-shipmonk-breach-affected-another-67000-customers-413540",
@@ -969,25 +1024,6 @@
       "coins": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "67,000 More Trezor Customers Exposed as Data Breach Widens",
-      "url": "https://decrypt.co/377389/67000-more-trezor-customers-exposed-as-data-breach-widens",
-      "published_at": "2026-09-04T11:32:49+00:00",
-      "summary": "Some records exposed in the breach date to 2019, years beyond the 90-day retention Trezor said its partners had agreed to.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos"
       ]
     },
     {
@@ -1114,40 +1150,6 @@
       "topics": [
         "sec"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Zcash jumps 20% to landmark $1,000 level as short sellers lose $34 million",
-      "url": "https://www.coindesk.com/markets/2026/09/04/zcash-jumps-20-to-landmark-usd1-000-level-as-short-sellers-lose-usd34-million",
-      "published_at": "2026-09-04T10:40:14+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lose"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "FinCEN Ties $12.7B to Crypto Scams Run From Asian Compounds",
-      "url": "https://decrypt.co/377386/fincen-ties-12-7b-to-crypto-scams-run-from-asian-compounds",
-      "published_at": "2026-09-04T10:22:57+00:00",
-      "summary": "Monthly reported sums rose 18% on average, and the compounds now appear to be spreading beyond Southeast Asia.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
