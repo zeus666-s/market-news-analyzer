@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T18:00:58.602561+00:00",
+  "generated_at": "2026-09-05T21:58:49.446756+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.062,
+    "market_sentiment_score": 0.064,
     "label_distribution": {
-      "neutral": 34,
-      "bullish": 24,
+      "neutral": 33,
+      "bullish": 25,
       "bearish": 12
     },
     "top_coins": [
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 30
       },
       {
         "topic": "pos",
@@ -62,23 +62,27 @@
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 10
       },
       {
         "topic": "fed",
         "mentions": 6
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
+        "topic": "etf",
+        "mentions": 5
       },
       {
-        "topic": "etf",
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
         "topic": "onchain",
         "mentions": 4
+      },
+      {
+        "topic": "governance",
+        "mentions": 1
       },
       {
         "topic": "wallet",
@@ -87,14 +91,51 @@
       {
         "topic": "on-chain",
         "mentions": 1
-      },
-      {
-        "topic": "dai",
-        "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "UBS, Jane Street among firms with combined $75 million in Hyperliquid ETF holdings: Bloomberg",
+      "url": "https://www.theblock.co/news/defi/2026-09-05-ubs-jane-street-among-firms-with-combined-75-million-in-hyperliquid-etf-holdings-bloomberg-413616",
+      "published_at": "2026-09-05T20:02:08+00:00",
+      "summary": "Brazil's Wealth High Governance Asset Management held about $24 million worth of 21Shares' HYPE fund as of the end of June, the top HYPE ETF holder.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "etf",
+        "governance"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "published_at": "2026-09-05T18:05:11+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
     {
       "source": "Decrypt",
       "title": "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up",
@@ -1108,46 +1149,6 @@
       "topics": [
         "ai",
         "etf",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trezor says data breach affects another 67K US customers",
-      "url": "https://cointelegraph.com/news/trezor-data-breach-affects-67k-us-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-04T11:19:19+00:00",
-      "summary": "Trezor said an additional 67,000 US users were affected by its shipping provider’s data breach, opening the path to potential phishing attacks and social engineering scams.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korean regulators introduce tokenized securities roadmap",
-      "url": "https://cointelegraph.com/news/south-korean-regulators-tokenized-securities-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-04T10:42:10+00:00",
-      "summary": "South Korea’s financial regulator introduced a three-phase roadmap for the issuance of tokenized assets, as the country prepares to adopt its first tokenized securities framework in February 2027.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
         "sec"
       ]
     }
