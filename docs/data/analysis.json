@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-06T18:08:45.743549+00:00",
+  "generated_at": "2026-09-06T22:01:10.278074+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.057,
+    "market_sentiment_score": 0.046,
     "label_distribution": {
-      "bearish": 13,
-      "bullish": 25,
-      "neutral": 32
+      "neutral": 34,
+      "bullish": 23,
+      "bearish": 13
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 21
+        "mentions": 20
       },
       {
         "coin": "Near",
@@ -27,6 +27,10 @@
         "mentions": 4
       },
       {
+        "coin": "BTC",
+        "mentions": 3
+      },
+      {
         "coin": "XRP",
         "mentions": 3
       },
@@ -35,20 +39,16 @@
         "mentions": 3
       },
       {
-        "coin": "Ripple",
+        "coin": "SOL",
         "mentions": 2
       },
       {
-        "coin": "BTC",
+        "coin": "Ripple",
         "mentions": 2
       },
       {
         "coin": "FIL",
         "mentions": 2
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 1
       }
     ],
     "top_topics": [
@@ -58,11 +58,11 @@
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 19
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "stablecoin",
@@ -73,11 +73,11 @@
         "mentions": 5
       },
       {
-        "topic": "fed",
-        "mentions": 5
+        "topic": "onchain",
+        "mentions": 4
       },
       {
-        "topic": "onchain",
+        "topic": "fed",
         "mentions": 4
       },
       {
@@ -89,12 +89,76 @@
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "exchange",
         "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Liquid Network pauses after purported ‘white-hat’ hackers withdraw $320 million in bitcoin",
+      "url": "https://www.theblock.co/news/defi/2026-09-06-liquid-network-pauses-after-purported-white-hat-hackers-withdraw-320-million-in-bitcoin-413626",
+      "published_at": "2026-09-06T21:14:36+00:00",
+      "summary": "The Bitcoin sidechain has been paused, with exchanges suspending LBTC deposits and withdrawals as Blockstream works to contact those responsible.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "STONK surges 250% to $140 million market cap as stock-paired Solana launchpad StonkFun pulls volume to Raydium and Jupiter",
+      "url": "https://www.theblock.co/news/defi/2026-09-06-stonk-surges-250-to-140-million-market-cap-as-stock-paired-solana-launchpad-stonkfun-pulls-volume-to-raydium-and-jupiter-413621",
+      "published_at": "2026-09-06T20:51:40+00:00",
+      "summary": "The platform integrated with Raydium's LaunchLab on Saturday as RAY also saw gains of more than 40%.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "gains",
+          "surges"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Prediction markets inch closer to the Supreme Court: State of Crypto",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/06/prediction-markets-inch-closer-to-the-supreme-court-state-of-crypto",
+      "published_at": "2026-09-06T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "Coinbase-backed Router Protocol to shut down, burn 303 million ROUTE tokens",
@@ -1088,64 +1152,6 @@
       "topics": [
         "pos"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Revolut, OpenReserve get preliminary US bank approval with crypto plans",
-      "url": "https://cointelegraph.com/news/revolut-openreserve-occ-approval-national-bank-crypto-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-04T13:34:30+00:00",
-      "summary": "Revolut and OpenReserve received preliminary OCC approval to form US national banks, with both planning cryptocurrency and stablecoin-related services.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Token buybacks are booming. But are they good for crypto projects?",
-      "url": "https://cointelegraph.com/magazine/token-buybacks-are-booming-but-are-they-good-for-crypto-projects?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-04T13:30:00+00:00",
-      "summary": "Crypto projects are spending hundreds of millions buying their own tokens. But are buybacks creating lasting value — or just making tokens look more valuable than they really are?",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buying"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. added stronger than expected 162,000 jobs in August as labor market bounced back",
-      "url": "https://www.coindesk.com/markets/2026/09/04/u-s-added-stronger-than-expected-162-000-jobs-in-august-as-labor-market-bounced-back",
-      "published_at": "2026-09-04T12:31:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": []
     }
   ]
 }
