@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-06T08:31:28.831481+00:00",
+  "generated_at": "2026-09-06T15:13:18.140568+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": 0.064,
     "label_distribution": {
-      "neutral": 33,
-      "bullish": 25,
+      "bullish": 24,
+      "neutral": 34,
       "bearish": 12
     },
     "top_coins": [
@@ -16,18 +16,22 @@
       },
       {
         "coin": "OP",
-        "mentions": 24
+        "mentions": 22
+      },
+      {
+        "coin": "Near",
+        "mentions": 4
       },
       {
         "coin": "Tron",
         "mentions": 4
       },
       {
-        "coin": "Near",
+        "coin": "ETH",
         "mentions": 3
       },
       {
-        "coin": "ETH",
+        "coin": "BTC",
         "mentions": 2
       },
       {
@@ -45,10 +49,6 @@
       {
         "coin": "Arbitrum",
         "mentions": 1
-      },
-      {
-        "coin": "ARB",
-        "mentions": 1
       }
     ],
     "top_topics": [
@@ -58,43 +58,169 @@
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 19
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 8
       },
       {
         "topic": "fed",
         "mentions": 6
       },
       {
-        "topic": "etf",
+        "topic": "stablecoin",
         "mentions": 5
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
+        "topic": "etf",
+        "mentions": 5
       },
       {
         "topic": "onchain",
         "mentions": 4
       },
       {
-        "topic": "governance",
-        "mentions": 1
+        "topic": "on-chain",
+        "mentions": 2
       },
       {
         "topic": "wallet",
-        "mentions": 1
+        "mentions": 2
       },
       {
-        "topic": "on-chain",
+        "topic": "dai",
         "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Stablecoins Won't Scale Without Banks",
+      "url": "https://decrypt.co/377280/stablecoins-wont-scale-without-banks",
+      "published_at": "2026-09-06T15:01:03+00:00",
+      "summary": "With a growing number of institutions exploring stablecoins, the bottleneck is regulated infrastructure they can trust.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "growing",
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
+      "url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
+      "published_at": "2026-09-06T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-06T13:24:43+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
+      "url": "https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-06T13:03:00+00:00",
+      "summary": "Whale Alert identified 12 mining rewards totaling 600 BTC that moved after 16 years of dormancy, with the onchain tracking platform finding no connection to Satoshi Nakamoto.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "mining",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "This Crypto Project Just Funded 1,000 Student Loans Entirely On-Chain",
+      "url": "https://decrypt.co/377494/pencil-finance-1-million-student-loan",
+      "published_at": "2026-09-06T13:01:04+00:00",
+      "summary": "The team behind Pencil Finance says the financing supported thousands of Southeast Asian students, but it did not disclose borrower costs, defaults, or investor returns.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "on-chain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
+      "url": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-06T09:07:08+00:00",
+      "summary": "Tether-backed Orionx is permanently closing after an audit found more than $7 million in customer assets had moved to wallets outside its custody.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
     {
       "source": "The Block",
       "title": "UBS, Jane Street among firms with combined $75 million in Hyperliquid ETF holdings: Bloomberg",
@@ -118,23 +244,24 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
       "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
       "published_at": "2026-09-05T18:05:11+00:00",
       "summary": "",
       "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buying"
-        ],
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin"
+        "Bitcoin",
+        "Near"
       ],
-      "topics": []
+      "topics": [
+        "pos"
+      ]
     },
     {
       "source": "Decrypt",
@@ -279,32 +406,9 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-05T11:16:19+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
       "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
       "url": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-05T10:44:29+00:00",
+      "published_at": "2026-09-05T10:46:00+00:00",
       "summary": "Polish lawmakers failed to overturn a presidential veto of crypto legislation as the Zondacrypto investigation expands and its Estonian operator enters bankruptcy.",
       "sentiment": {
         "score": -4,
@@ -891,22 +995,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "BitMEX Co-Founder Ben Delo Gives Farage's Reform UK Another £4 Million",
-      "url": "https://decrypt.co/377411/bitmex-co-founder-ben-delo-gives-farages-reform-uk-another-4-million",
-      "published_at": "2026-09-04T15:10:00+00:00",
-      "summary": "Two April payments supplied three-quarters of the party's donations for the quarter, where the next largest single gift was £180,000.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "CoinDesk",
       "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
       "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
@@ -1026,30 +1114,6 @@
       "topics": []
     },
     {
-      "source": "Decrypt",
-      "title": "Morning Minute: Crypto Stages Major Rally on Rate Hopes",
-      "url": "https://decrypt.co/377393/morning-minute-crypto-stages-major-rally-on-rate-hopes",
-      "published_at": "2026-09-04T12:31:31+00:00",
-      "summary": "Bitcoin soared past $81k, HYPE and ZEC hit smashing new ATHs and the onchain rally leveled up. Is this the first stage of the next leg up?",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Trezor says ShipMonk breach affected another 67,000 customers",
       "url": "https://www.theblock.co/news/business/2026-09-04-trezor-says-shipmonk-breach-affected-another-67000-customers-413540",
@@ -1085,71 +1149,6 @@
       "coins": [],
       "topics": [
         "regulatory"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "We checked 6 years of bitcoin data. The NFP report isn't big price mover",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
-      "published_at": "2026-09-04T11:29:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "El Salvador has not used public funds to accumulate bitcoin since June 2025, IMF says",
-      "url": "https://www.theblock.co/news/regulation/2026-09-04-el-salvador-has-not-used-public-funds-to-accumulate-bitcoin-since-june-2025-imf-says-413535",
-      "published_at": "2026-09-04T11:28:46+00:00",
-      "summary": "IMF says El Salvador used no public funds for bitcoin accumulation since June 2025, with purchases coming from private donations.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "accumulate",
-          "accumulation"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Crypto firms urge SEC to speed ETF reviews and allow confidential draft filings",
-      "url": "https://www.theblock.co/news/regulation/2026-09-04-crypto-firms-urge-sec-to-speed-etf-reviews-and-allow-confidential-draft-filings-413532",
-      "published_at": "2026-09-04T11:21:09+00:00",
-      "summary": "In contrast, Jane Street and Charles Schwab raised concerns over rushed ETF launches and confidential filings limiting market scrutiny.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "sec"
       ]
     }
   ]
