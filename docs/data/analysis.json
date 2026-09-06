@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-06T15:13:18.140568+00:00",
+  "generated_at": "2026-09-06T18:08:45.743549+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.064,
+    "market_sentiment_score": 0.057,
     "label_distribution": {
-      "bullish": 24,
-      "neutral": 34,
-      "bearish": 12
+      "bearish": 13,
+      "bullish": 25,
+      "neutral": 32
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 27
       },
       {
         "coin": "OP",
-        "mentions": 22
+        "mentions": 21
       },
       {
         "coin": "Near",
@@ -27,15 +27,19 @@
         "mentions": 4
       },
       {
+        "coin": "XRP",
+        "mentions": 3
+      },
+      {
         "coin": "ETH",
         "mentions": 3
       },
       {
-        "coin": "BTC",
+        "coin": "Ripple",
         "mentions": 2
       },
       {
-        "coin": "XRP",
+        "coin": "BTC",
         "mentions": 2
       },
       {
@@ -45,28 +49,20 @@
       {
         "coin": "Ethereum",
         "mentions": 1
-      },
-      {
-        "coin": "Arbitrum",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 8
-      },
-      {
-        "topic": "fed",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "topic": "stablecoin",
@@ -74,6 +70,10 @@
       },
       {
         "topic": "etf",
+        "mentions": 5
+      },
+      {
+        "topic": "fed",
         "mentions": 5
       },
       {
@@ -95,6 +95,91 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Coinbase-backed Router Protocol to shut down, burn 303 million ROUTE tokens",
+      "url": "https://www.theblock.co/news/defi/2026-09-06-coinbase-backed-router-protocol-to-shut-down-burn-303-million-route-tokens-413618",
+      "published_at": "2026-09-06T18:03:26+00:00",
+      "summary": "The shutdown comes after attempts to commercialize, license or find a buyer for its technology failed to produce a sustainable business.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "failed"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI's GPT-6 Astra Is Shockingly Good at Almost Everything",
+      "url": "https://decrypt.co/377514/openai-gpt-6-astra-review-shockingly-good",
+      "published_at": "2026-09-06T17:01:04+00:00",
+      "summary": "Early testers spent OpenAI's launch weekend pushing Astra through 3D cities, playable games, Bach chorales and research papers.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "XRP Gets Another Boost Through Ripple Deal With Florida Athletics",
+      "url": "https://decrypt.co/377512/xrp-boost-ripple-florida-athletics",
+      "published_at": "2026-09-06T16:01:03+00:00",
+      "summary": "The multi-year deal will place the XRP logo on the field at Ben Hill Griffin Stadium starting this season, extending Ripple's push into college athletics.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boost"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple",
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
+      "url": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
+      "published_at": "2026-09-06T16:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Stablecoins Won't Scale Without Banks",
@@ -944,57 +1029,6 @@
       "topics": []
     },
     {
-      "source": "Decrypt",
-      "title": "OpenAI Agents Hack German Website to Share Rule-Breaking Tactics: Report",
-      "url": "https://decrypt.co/377412/openai-agents-hack-german-website",
-      "published_at": "2026-09-04T15:36:04+00:00",
-      "summary": "The activity began in May and remained undisclosed until Friday, a day after OpenAI launched Astra and U.S. lawmakers proposed restrictions on advanced AI.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "launched"
-        ],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Slides as Blowout Jobs Report Revives Fed Hike Odds",
-      "url": "https://decrypt.co/377414/bitcoin-slides-blowout-jobs-report-fed-hike-odds",
-      "published_at": "2026-09-04T15:13:28+00:00",
-      "summary": "The Dow dropped 226 points and Bitcoin erased some of its gains after August payrolls tripled estimates, pushing September rate-hike odds to 58%.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "dropped"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "fed"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
       "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
@@ -1112,44 +1146,6 @@
         "Tron"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Trezor says ShipMonk breach affected another 67,000 customers",
-      "url": "https://www.theblock.co/news/business/2026-09-04-trezor-says-shipmonk-breach-affected-another-67000-customers-413540",
-      "published_at": "2026-09-04T12:03:16+00:00",
-      "summary": "The newly identified records date from 2019 to 2021 and include names, emails, phone numbers, shipping addresses, and order numbers.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Kalshi US visits soar 1,500% as regulatory pressure mounts",
-      "url": "https://cointelegraph.com/news/kalshi-traffic-soars-regulatory-pressure-mounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-04T11:32:28+00:00",
-      "summary": "Kalshi’s US web traffic climbed more than 1,500% in less than a year, while trading volume grew even faster and legal scrutiny of its sports contracts intensified.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "soar"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "regulatory"
-      ]
     }
   ]
 }
