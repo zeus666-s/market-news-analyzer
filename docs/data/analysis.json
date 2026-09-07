@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-09-06T22:01:10.278074+00:00",
+  "generated_at": "2026-09-07T03:50:07.653315+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.046,
+    "market_sentiment_score": 0.041,
     "label_distribution": {
+      "bearish": 14,
       "neutral": 34,
-      "bullish": 23,
-      "bearish": 13
+      "bullish": 22
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 18
+      },
+      {
+        "coin": "ETH",
+        "mentions": 4
+      },
+      {
+        "coin": "BTC",
+        "mentions": 4
       },
       {
         "coin": "Near",
@@ -27,16 +35,12 @@
         "mentions": 4
       },
       {
-        "coin": "BTC",
-        "mentions": 3
-      },
-      {
         "coin": "XRP",
         "mentions": 3
       },
       {
-        "coin": "ETH",
-        "mentions": 3
+        "coin": "Ethereum",
+        "mentions": 2
       },
       {
         "coin": "SOL",
@@ -45,23 +49,23 @@
       {
         "coin": "Ripple",
         "mentions": 2
-      },
-      {
-        "coin": "FIL",
-        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 21
       },
       {
         "topic": "sec",
+        "mentions": 7
+      },
+      {
+        "topic": "etf",
         "mentions": 6
       },
       {
@@ -69,32 +73,150 @@
         "mentions": 5
       },
       {
-        "topic": "etf",
-        "mentions": 5
+        "topic": "fed",
+        "mentions": 4
       },
       {
         "topic": "onchain",
         "mentions": 4
       },
       {
-        "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "on-chain",
-        "mentions": 2
-      },
-      {
         "topic": "wallet",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "topic": "exchange",
-        "mentions": 1
+        "mentions": 2
+      },
+      {
+        "topic": "exchanges",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
+      "url": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+      "published_at": "2026-09-07T03:43:12+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Harmony to fully sunset Layer 1, proposes token migration to Ethereum for AI video initiative",
+      "url": "https://www.theblock.co/news/web3/2026-09-06-harmony-sunset-network-413635",
+      "published_at": "2026-09-07T02:28:47+00:00",
+      "summary": "Harmony said it would help validators transition to its proposed new initiative, a 'remix economy' with AI video creators.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "validator",
+        "validators"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Spot bitcoin ETFs pull in $987 million last week as institutional demand recovers",
+      "url": "https://www.theblock.co/news/markets/2026-09-06-bitcoin-etfs-987-million-weekly-inflow-413639",
+      "published_at": "2026-09-07T02:15:55+00:00",
+      "summary": "Spot bitcoin ETFs drew in $3.52 billion in net inflows in August, their largest monthly positive flows since September 2025.",
+      "sentiment": {
+        "score": 6,
+        "normalized": 0.75,
+        "label": "bullish",
+        "positive_hits": [
+          "demand",
+          "institutional",
+          "positive"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "‘White hats’ take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/white-hats-take-4000-btc-from-liquid-btc-etfs-best-week-of-2026-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-07T00:05:02+00:00",
+      "summary": "Purported white hat hackers have taken 4000 Bitcoin from the Liquid sidechain in a major security breach. The Bitcoin ETFs see the best three weeks of inflows in 2026.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Alleged White-Hat Hackers Withdraw 4,000 bitcoin from Blockstream’s Liquid Network Federation Reserves",
+      "url": "https://bitcoinmagazine.com/news/alleged-white-hat-hackers-withdraw-4000-bitcoin-from-blockstreams-liquid-network-federation-reserves",
+      "published_at": "2026-09-06T22:16:53+00:00",
+      "summary": "Bitcoin Magazine\n\nAlleged White-Hat Hackers Withdraw 4,000 bitcoin from Blockstream&#8217;s Liquid Network Federation Reserves\nLiquid Network said purported white-hat hackers withdrew about 4,000 bitcoin from the federation wallet that backs L-BTC. Bridge nodes are disabled and the sidechain is paused.\nThis post Alleged White-Hat Hackers Withdraw 4,000 bitcoin from Blockstream&#8217;s Liquid Network Federation Reserves first appeared on Bitcoin Magazine and is written by Juan Galt.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "fed",
+        "pos",
+        "wallet"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Liquid Network pauses after purported ‘white-hat’ hackers withdraw $320 million in bitcoin",
@@ -1045,112 +1167,6 @@
       ],
       "topics": [
         "fed"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "National Sheriffs’ Association Drops Opposition to Clarity Act",
-      "url": "https://bitcoinmagazine.com/news/national-sheriffs-association-clarity-act",
-      "published_at": "2026-09-04T16:05:36+00:00",
-      "summary": "Bitcoin Magazine\n\nNational Sheriffs&#8217; Association Drops Opposition to Clarity Act\nThe law enforcement organization previously opposed the bill. \nThis post National Sheriffs&#8217; Association Drops Opposition to Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ripple expands college sports push with XRP partnership at Florida",
-      "url": "https://www.theblock.co/news/business/2026-09-04-ripple-college-sports-push-xrp-partnership-florida-gators-413576",
-      "published_at": "2026-09-04T15:37:17+00:00",
-      "summary": "The XRP logo will be featured on the field at Ben Hill Griffin Stadium, as well as across Florida Athletics’ digital properties and events.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "partnership"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "XRP",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
-      "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
-      "published_at": "2026-09-04T14:56:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "halt"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
-      "url": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
-      "published_at": "2026-09-04T14:23:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'",
-      "url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
-      "published_at": "2026-09-04T14:12:34+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
