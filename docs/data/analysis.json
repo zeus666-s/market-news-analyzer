@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-09T16:16:09.619765+00:00",
+  "generated_at": "2026-09-09T22:22:34.754565+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.02,
+    "market_sentiment_score": 0.032,
     "label_distribution": {
-      "neutral": 33,
-      "bearish": 14,
+      "neutral": 34,
+      "bearish": 13,
       "bullish": 23
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 19
       },
       {
         "coin": "Bitcoin",
@@ -20,15 +20,11 @@
       },
       {
         "coin": "ETH",
-        "mentions": 6
-      },
-      {
-        "coin": "BTC",
-        "mentions": 6
+        "mentions": 8
       },
       {
         "coin": "APT",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "SOL",
@@ -36,25 +32,29 @@
       },
       {
         "coin": "Ethereum",
-        "mentions": 3
+        "mentions": 4
       },
       {
-        "coin": "LINK",
-        "mentions": 2
-      },
-      {
-        "coin": "MATIC",
+        "coin": "Tron",
         "mentions": 2
       },
       {
         "coin": "Sui",
+        "mentions": 2
+      },
+      {
+        "coin": "UNI",
+        "mentions": 1
+      },
+      {
+        "coin": "Solana",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 35
       },
       {
         "topic": "pos",
@@ -65,39 +65,502 @@
         "mentions": 5
       },
       {
-        "topic": "fed",
-        "mentions": 5
-      },
-      {
-        "topic": "lending",
+        "topic": "sec",
         "mentions": 4
-      },
-      {
-        "topic": "defi",
-        "mentions": 4
-      },
-      {
-        "topic": "wallet",
-        "mentions": 3
-      },
-      {
-        "topic": "onchain",
-        "mentions": 3
-      },
-      {
-        "topic": "memecoin",
-        "mentions": 2
       },
       {
         "topic": "exchange",
+        "mentions": 4
+      },
+      {
+        "topic": "lending",
+        "mentions": 3
+      },
+      {
+        "topic": "dai",
+        "mentions": 2
+      },
+      {
+        "topic": "defi",
+        "mentions": 2
+      },
+      {
+        "topic": "rwa",
+        "mentions": 2
+      },
+      {
+        "topic": "pow",
         "mentions": 2
       }
     ]
   },
   "articles": [
     {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T21:30:00+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "US Treasury Secretary Scott Bessent ‘Strongly Urges’ Senate To Pass Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/scott-bessent-urges-clarity-act-action",
+      "published_at": "2026-09-09T21:20:51+00:00",
+      "summary": "Bitcoin Magazine\n\nUS Treasury Secretary Scott Bessent &#8216;Strongly Urges&#8217; Senate To Pass Clarity Act\nSenators will vote on the long-awaited crypto Clarity Act next week. \nThis post US Treasury Secretary Scott Bessent &#8216;Strongly Urges&#8217; Senate To Pass Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Jack Dorsey’s Block Becomes Latest Bitcoin-Focused Company To Apply for Banking Charter",
+      "url": "https://bitcoinmagazine.com/news/block-applies-for-banking-charter",
+      "published_at": "2026-09-09T20:35:41+00:00",
+      "summary": "Bitcoin Magazine\n\nJack Dorsey’s Block Becomes Latest Bitcoin-Focused Company To Apply for Banking Charter\nBlock wants the banking license so it can open Builders Bank, which would provide custody and related fiduciary services for bitcoin. \nThis post Jack Dorsey’s Block Becomes Latest Bitcoin-Focused Company To Apply for Banking Charter first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+      "url": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+      "published_at": "2026-09-09T20:31:29+00:00",
+      "summary": "The Fields medalist points to a real race between OpenAI and Anthropic as proof: AI can now flatten a hard problem the moment someone starts working on it.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "DoubleZero adds Kalshi election market data ahead of US midterms",
+      "url": "https://cointelegraph.com/news/doublezero-adds-kalshi-election-market-data-ahead-of-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T20:08:09+00:00",
+      "summary": "The expansion gives institutional and automated traders real-time access to Kalshi’s political markets as election betting activity continues to grow.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators' Home States",
+      "url": "https://decrypt.co/377810/crypto-banks-clarity-act-lobbying-senators",
+      "published_at": "2026-09-09T18:56:58+00:00",
+      "summary": "Crypto advocates and community bankers are targeting lawmakers in their home states as the Senate prepares for a September 15 procedural vote.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Consensys to split into MetaMask and institutional blockchain company",
+      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T18:47:32+00:00",
+      "summary": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Steak ‘n Shake Says Sales Grew Double Digits Since Bitcoin Adoption",
+      "url": "https://bitcoinmagazine.com/news/steak-n-shake-says-sales-grew",
+      "published_at": "2026-09-09T18:37:31+00:00",
+      "summary": "Bitcoin Magazine\n\nSteak &#8216;n Shake Says Sales Grew Double Digits Since Bitcoin Adoption\nThe burger franchise started accepting bitcoin over Lightning last year and claims business is booming. \nThis post Steak &#8216;n Shake Says Sales Grew Double Digits Since Bitcoin Adoption first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Iran Continues Using Bitcoin To Keep Economy Stable: Report",
+      "url": "https://bitcoinmagazine.com/news/iran-still-using-bitcoin-to-help-economy",
+      "published_at": "2026-09-09T18:23:22+00:00",
+      "summary": "Bitcoin Magazine\n\nIran Continues Using Bitcoin To Keep Economy Stable: Report\nRumors of Iran using bitcoin to skirt transactions have been abound for some time now. Business and regime insiders have reportedly said it's a tried and tested method. \nThis post Iran Continues Using Bitcoin To Keep Economy Stable: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "DoubleZero adds Kalshi’s election markets ahead of November midterms",
+      "url": "https://www.theblock.co/news/regulation/2026-09-09-doublezero-adds-kalshis-election-markets-ahead-november-midterms-414075",
+      "published_at": "2026-09-09T18:17:58+00:00",
+      "summary": "Kalshi's elections and politics markets went live on the market data delivery platform DoubleZero Edge on Wednesday.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
+      "url": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
+      "published_at": "2026-09-09T17:56:26+00:00",
+      "summary": "SkyAI’s proposed equity plan would authorize 5.145 million shares for stock-based compensation, representing roughly 7.2% additional dilution.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "rwa"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Apple Unveils Redesigned Siri AI and A20 Pro Chip as CEO John Ternus Makes Debut",
+      "url": "https://decrypt.co/377807/apple-redesigned-siri-ai-a20-pro-chip",
+      "published_at": "2026-09-09T17:50:14+00:00",
+      "summary": "The company's first fall keynote under new leadership paired a Gemini-powered Siri overhaul with Apple's first 2-nanometer chip, plus a $1,999 foldable iPhone that won't ship until October.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin miners are missing the crypto rally as exchanges, stablecoins surge",
+      "url": "https://www.theblock.co/news/markets/2026-09-09-bitcoin-miners-are-missing-the-crypto-rally-as-exchanges-stablecoins-surge-413848",
+      "published_at": "2026-09-09T17:36:02+00:00",
+      "summary": "Among tracked companies, only one bitcoin mining company has outperformed the cryptocurrency: Canaan (ticker CAN).",
+      "sentiment": {
+        "score": 6,
+        "normalized": 0.75,
+        "label": "bullish",
+        "positive_hits": [
+          "rally",
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "miner",
+        "miners",
+        "mining",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "TRM Labs doubles valuation to $2B in Series C expansion",
+      "url": "https://cointelegraph.com/news/trm-labs-doubles-valuation-to-2b-in-series-c-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T17:30:06+00:00",
+      "summary": "The blockchain intelligence firm said its annual recurring revenue has quadrupled over the past three years as it expands its AI-powered investigations business.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Secret Service Freezes $52.8 Million in Crypto Tied to Telegram Bazaar Behind Global Scams",
+      "url": "https://decrypt.co/377804/secret-service-freezes-crypto-telegram-bazaar-xinbi",
+      "published_at": "2026-09-09T17:16:08+00:00",
+      "summary": "Blockchain sleuths at Elliptic traced the money, Treasury sanctioned the marketplace, and Xinbi—which ran $24 billion through a Telegram scam bazaar—called the freeze unfair.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "While Bitcoin Devs Debate Next Moves, IonQ Unveils Superion 256 Quantum Computer",
+      "url": "https://decrypt.co/377737/bitcoin-debate-ionq-quantum-computer",
+      "published_at": "2026-09-09T16:46:05+00:00",
+      "summary": "The company has built its first chips and begun testing prototypes as it seeks to manufacture quantum computers in larger quantities.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "What Is LAPTOP? Hunter Biden's Meme Coin Targeting TRUMP Holders",
+      "url": "https://decrypt.co/resources/what-is-laptop-hunter-bidens-meme-coin-targeting-trump-holders",
+      "published_at": "2026-09-09T16:40:50+00:00",
+      "summary": "The LAPTOP token launched on Base in September 2026, peaked two minutes later, and shed almost all of its value the same day.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "APT",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "U.S. Bank tests proprietary stablecoin in cross-border Stellar transaction",
+      "url": "https://cointelegraph.com/news/us-bank-launches-usbdc-stablecoin-with-live-cross-border-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T16:37:08+00:00",
+      "summary": "The pilot moved USBDC between the bank’s North American and European entities on the public Stellar blockchain.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Stellar",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar",
+      "url": "https://cointelegraph.com/markets/bitcoin-fails-to-reclaim-80k-as-bessent-fuels-yen-strength-around-153-per-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T16:28:19+00:00",
+      "summary": "Bitcoin trended lower with US stocks on Iran escalation while US Treasury Secretary Scott Bessent contributed to fears of a yen carry-trade unwind.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [
+          "strength"
+        ],
+        "negative_hits": [
+          "fails",
+          "fears"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Hyperliquid Policy Center backs CFTC in fight over perpetual futures, asks court to drop CME’s case",
+      "url": "https://www.theblock.co/news/regulation/2026-09-09-hyperliquid-policy-center-backs-cftc-fight-perpetual-futures-asks-court-drop-cme-case-414046",
+      "published_at": "2026-09-09T16:17:59+00:00",
+      "summary": "The Hyperliquid Policy Center accused CME Group of stifling innovation and urged a court to dismiss the exchange’s lawsuit against the CFTC.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "innovation"
+        ],
+        "negative_hits": [
+          "drop",
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "exchange",
+        "futures"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Mexican Musician and Family Killed Over Bitcoin Cold Wallet Believed to Hold Millions",
+      "url": "https://decrypt.co/377795/mexican-family-killed-bitcoin-cold-wallet",
+      "published_at": "2026-09-09T16:16:04+00:00",
+      "summary": "Mexican prosecutors allege suspects targeted Camilo Séptimo keyboardist Jonathan Meléndez and his family while searching for a cold wallet they believed contained millions in Bitcoin.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
       "source": "CoinDesk",
-      "title": "Robinhood’s CEO Vlad Tenev fires back at AMC CEO in escalating fight over stock tokens",
+      "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
       "url": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
       "published_at": "2026-09-09T16:11:07+00:00",
       "summary": "",
@@ -684,447 +1147,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains",
-      "url": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
-      "published_at": "2026-09-09T12:13:59+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Renzo expands beyond restaking with basis trade product on Hyperliquid",
-      "url": "https://www.theblock.co/news/defi/2026-09-09-renzo-crypto-basis-trade-product-hyperliquid-413979",
-      "published_at": "2026-09-09T12:06:21+00:00",
-      "summary": "Renzo Basis will first support BTC and HYPE and is designed to let users earn yield from funding rates through automated positions.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "BTC"
-      ],
-      "topics": [
-        "pos",
-        "staking",
-        "yield"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto lobbying orgs ask court to suspend Illinois tax as legal case continues",
-      "url": "https://www.coindesk.com/policy/2026/09/09/crypto-lobbying-orgs-ask-court-to-suspend-illinois-tax-as-legal-case-continues",
-      "published_at": "2026-09-09T12:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "What could happen if the CLARITY Act fails to pass in 2026",
-      "url": "https://cointelegraph.com/news/clarity-act-fails-passage-next-session-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T11:54:41+00:00",
-      "summary": "The US Senate has a limited window to pass a crypto market structure bill, but if it were to fail, the legislation could be completely remade or scrapped under Democrats in 2027.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fail",
-          "fails"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "UK Crime Agency Warns of 'Innovative Use' of Crypto by Launderers",
-      "url": "https://decrypt.co/377757/uk-crime-agency-warns-of-innovative-use-of-crypto-by-launderers",
-      "published_at": "2026-09-09T11:43:53+00:00",
-      "summary": "The agency ranks cryptoassets third among nine economic crime priorities, and says it wants to generate its own targets.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Bank takes next step towards launching its stablecoin with cross-border payment test",
-      "url": "https://www.coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test",
-      "published_at": "2026-09-09T11:40:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "OpenAI says 10,000 AI agents solved a $1 million math problem. Now mathematicians are fighting",
-      "url": "https://www.coindesk.com/tech/2026/09/09/openai-says-10-000-ai-agents-solved-a-usd1-million-math-problem-now-mathematicians-are-fighting",
-      "published_at": "2026-09-09T11:23:50+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL",
-        "MATIC",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Metaplanet’s executive stock pool sparks shareholder backlash as CEO addresses MMXX ties",
-      "url": "https://cointelegraph.com/news/metaplanets-executive-stock-pool-backlash-ceo-mmxx-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T11:15:23+00:00",
-      "summary": "Metaplanet’s executive stock pool continues to draw backlash over dilution concerns, as investors urged the company to freeze the exercise rights tied to 273 million shares.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "India seeks takedowns of 15 crypto platforms over AML compliance",
-      "url": "https://www.theblock.co/news/regulation/2026-09-09-india-seeks-takedowns-of-15-crypto-platforms-over-aml-compliance-413975",
-      "published_at": "2026-09-09T11:12:43+00:00",
-      "summary": "India's FIU issued non-compliance notices to 15 crypto platforms and sought takedowns of their apps and URLs.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin SOPR metric sees longest profit run of 2026 as new analysis challenges bear market",
-      "url": "https://cointelegraph.com/markets/bitcoin-sopr-metric-sees-longest-profit-run-of-2026-as-new-analysis-challenges-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T10:12:16+00:00",
-      "summary": "Bitcoin aggregate onchain profit entered its fourth week, but a popular analyst warned that BTC price “downside risk” remained in place.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": [
-          "bear",
-          "risk",
-          "warned"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Silvergate ex-CEO blames Biden pressure for bank’s 2023 wind-down",
-      "url": "https://cointelegraph.com/news/silvergate-ex-ceo-biden-pressure-bank-wind-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T10:05:00+00:00",
-      "summary": "Alan Lane said a “coordinated attack” by the Biden administration made Silvergate’s continued operation untenable and prompted its liquidation.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "liquidation"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Mexico Seizes 300 Crypto Mining Rigs Wired Into a Hydroelectric Dam",
-      "url": "https://decrypt.co/377748/mexico-seizes-300-crypto-mining-rigs-wired-into-a-hydroelectric-dam",
-      "published_at": "2026-09-09T09:28:29+00:00",
-      "summary": "Forensic accountants are tracing who paid for the mining hardware, and money laundering has not been ruled out.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "mining"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Jack Dorsey's Block Applies for Bank Charter to Custody Bitcoin",
-      "url": "https://decrypt.co/377746/jack-dorseys-block-applies-for-bank-charter-to-custody-bitcoin",
-      "published_at": "2026-09-09T08:26:08+00:00",
-      "summary": "Builders Bank would consolidate custody work Block now runs under more than 50 state money transmitter licenses.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
-      "url": "https://cointelegraph.com/news/iran-central-bank-encourages-crypto-evade-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T07:36:39+00:00",
-      "summary": "Exporters can now fund imports with overseas earnings without first selling their foreign currency at official rates, the Financial Times reported.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
-      "url": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T07:36:21+00:00",
-      "summary": "The proposed Builders Bank would offer federally supervised digital asset custody but would not accept deposits or issue loans.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "fed",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T05:51:21+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Gemini receives Singapore payment license for crypto services",
-      "url": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T05:27:12+00:00",
-      "summary": "Gemini’s local entity is authorized to provide digital payment token and cross-border money transfer services without standard transaction-volume limits.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "First staked ETF tied to Tron hits the US markets on Wednesday",
-      "url": "https://www.theblock.co/news/regulation/2026-09-09-first-staked-etf-tied-to-tron-hits-the-us-markets-wednesday-413935",
-      "published_at": "2026-09-09T04:01:03+00:00",
-      "summary": "The first staked ETF tied to Tron is set to hit the market Wednesday, giving investors a new way to gain exposure to TRX.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron",
-        "TRX"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Hunter Biden details LAPTOP memecoin’s airdrop and burn-or-charity rules ahead of launch",
-      "url": "https://www.theblock.co/news/defi/2026-09-08-hunter-biden-details-laptop-airdrop-413952",
-      "published_at": "2026-09-09T02:34:58+00:00",
-      "summary": "About 30% of the supply is tied to 30 public real-world events that either burn or donate the tokens depending on the results.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "APT",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "memecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "StoneX sees 45% upside for Robinhood, points to accelerating Layer 2 chain and prediction markets",
-      "url": "https://www.theblock.co/news/business/2026-09-08-stonex-sees-upside-robinhood-413955",
-      "published_at": "2026-09-09T02:18:25+00:00",
-      "summary": "The report says the launch of Robinhood Chain and the company's prediction markets business provide new growth drivers.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "growth",
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "layer 2"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Pons propels Robinhood Chain fees to record $6 million in daily fees as DEX volume doubles",
-      "url": "https://www.theblock.co/news/ecosystems/2026-09-08-pons-propels-robinhood-chain-fees-record-6-million-daily-fees-dex-volume-doubles-413852",
-      "published_at": "2026-09-08T22:26:02+00:00",
-      "summary": "PONS reached an all-time high valuation of over $970 million on Friday, with the token up over 200% in the last week alone.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "all-time high"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "dex"
-      ]
     }
   ]
 }
