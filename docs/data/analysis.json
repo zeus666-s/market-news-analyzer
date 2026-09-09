@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-09T03:58:43.303159+00:00",
+  "generated_at": "2026-09-09T08:54:58.547149+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.014,
+    "market_sentiment_score": 0.025,
     "label_distribution": {
-      "bullish": 21,
-      "neutral": 34,
-      "bearish": 15
+      "neutral": 35,
+      "bearish": 13,
+      "bullish": 22
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 29
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 20
       },
       {
         "coin": "ETH",
@@ -32,6 +32,10 @@
       },
       {
         "coin": "APT",
+        "mentions": 4
+      },
+      {
+        "coin": "SOL",
         "mentions": 3
       },
       {
@@ -39,42 +43,46 @@
         "mentions": 3
       },
       {
-        "coin": "SOL",
-        "mentions": 2
-      },
-      {
         "coin": "LINK",
         "mentions": 2
       },
       {
-        "coin": "MATIC",
+        "coin": "UNI",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 33
       },
       {
         "topic": "pos",
-        "mentions": 11
+        "mentions": 13
       },
       {
         "topic": "stablecoin",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "defi",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "topic": "onchain",
         "mentions": 4
+      },
+      {
+        "topic": "defi",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
+        "mentions": 3
+      },
+      {
+        "topic": "sec",
+        "mentions": 3
       },
       {
         "topic": "exchange",
@@ -83,18 +91,274 @@
       {
         "topic": "lending",
         "mentions": 3
-      },
-      {
-        "topic": "sec",
-        "mentions": 3
-      },
-      {
-        "topic": "wallet",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Jack Dorsey's Block Applies for Bank Charter to Custody Bitcoin",
+      "url": "https://decrypt.co/377746/jack-dorseys-block-applies-for-bank-charter-to-custody-bitcoin",
+      "published_at": "2026-09-09T08:26:08+00:00",
+      "summary": "Builders Bank would consolidate custody work Block now runs under more than 50 state money transmitter licenses.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses",
+      "url": "https://www.coindesk.com/policy/2026/09/09/india-s-financial-intelligence-unit-flags-15-crypto-platforms-for-aml-lapses",
+      "published_at": "2026-09-09T08:17:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
+      "url": "https://cointelegraph.com/news/iran-central-bank-encourages-crypto-evade-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T07:36:39+00:00",
+      "summary": "Exporters can now fund imports with overseas earnings without first selling their foreign currency at official rates, the Financial Times reported.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
+      "url": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T07:36:21+00:00",
+      "summary": "The proposed Builders Bank would offer federally supervised digital asset custody but would not accept deposits or issue loans.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "fed",
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
+      "url": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
+      "published_at": "2026-09-09T07:20:51+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Anthropic researcher quits with a warning on AI that echoes 'The Terminator' script",
+      "url": "https://www.coindesk.com/markets/2026/09/09/anthropic-researcher-quits-with-a-warning-on-ai-that-echoes-the-terminator-script",
+      "published_at": "2026-09-09T06:20:38+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T05:51:21+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Gemini receives Singapore payment license for crypto services",
+      "url": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T05:27:12+00:00",
+      "summary": "Gemini’s local entity is authorized to provide digital payment token and cross-border money transfer services without standard transaction-volume limits.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Hunter Biden defends LAPTOP ahead of Wednesday launch, calls TRUMP a ‘grift’",
+      "url": "https://www.coindesk.com/markets/2026/09/09/hunter-biden-defends-laptop-ahead-of-wednesday-launch-calls-trump-a-grift",
+      "published_at": "2026-09-09T05:22:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "APT",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Moonshot’s Kimi rattled markets. U.S. agencies now say it was trained on American models",
+      "url": "https://www.coindesk.com/tech/2026/09/09/moonshot-s-kimi-rattled-markets-u-s-agencies-now-say-it-was-trained-on-american-models",
+      "published_at": "2026-09-09T04:40:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin recovers toward $79,000 as Zcash records a $500 million ETF haul",
+      "url": "https://www.coindesk.com/markets/2026/09/09/bitcoin-recovers-toward-usd79-000-as-zcash-records-a-usd500-million-etf-haul",
+      "published_at": "2026-09-09T04:35:55+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Cybercrime ringleader Malone Lam pleads guilty in $245M crypto theft conspiracy",
+      "url": "https://cointelegraph.com/news/malone-lam-pleads-guilty-245m-crypto-theft-conspiracy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-09T04:09:51+00:00",
+      "summary": "US prosecutors said Lam organized an international network that targeted cryptocurrency holders through social engineering and home break-ins.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "theft"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "First staked ETF tied to Tron hits the US markets on Wednesday",
+      "url": "https://www.theblock.co/news/regulation/2026-09-09-first-staked-etf-tied-to-tron-hits-the-us-markets-wednesday-413935",
+      "published_at": "2026-09-09T04:01:03+00:00",
+      "summary": "The first staked ETF tied to Tron is set to hit the market Wednesday, giving investors a new way to gain exposure to TRX.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron",
+        "TRX"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "pos"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Hunter Biden details LAPTOP memecoin’s airdrop and burn-or-charity rules ahead of launch",
@@ -315,29 +579,6 @@
         "exchange",
         "pos",
         "rwa"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-08T20:13:27+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -918,259 +1159,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Is Bitcoin too volatile to risk your retirement on?",
-      "url": "https://cointelegraph.com/magazine/is-bitcoin-too-volatile-to-risk-your-retirement-on?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-08T13:30:00+00:00",
-      "summary": "Bitcoin believers see it as an almost certain long-term investment, but retirement demands a different approach. How much crypto exposure is too much for your retirement account?",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum makes quantum resistance a top priority with a 2029 deadline",
-      "url": "https://www.coindesk.com/tech/2026/09/08/ethereum-makes-quantum-resistance-a-top-priority-with-a-2029-deadline",
-      "published_at": "2026-09-08T13:18:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
-      "url": "https://www.coindesk.com/markets/2026/09/03/bitcoin-rally-has-more-room-as-volatility-shorts-unwind-two-prime-ceo-says",
-      "published_at": "2026-09-08T13:18:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitmine purchased another $69 million of ETH, with Tom DeMark expecting price uptrend to soon resume",
-      "url": "https://www.coindesk.com/business/2026/09/08/bitmine-purchased-another-usd69-million-of-eth-with-tom-demark-expecting-price-uptrend-to-soon-resume",
-      "published_at": "2026-09-08T13:06:34+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: The Trenches Just Had Their Biggest Week Since TRUMP",
-      "url": "https://decrypt.co/377661/morning-minute-the-trenches-just-had-their-biggest-week-since-trump",
-      "published_at": "2026-09-08T13:06:33+00:00",
-      "summary": "Is it a warning sign for a local top? Or is the onchain party just getting started?",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warning"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy skips Bitcoin buy to repurchase $176M of STRC preferred shares",
-      "url": "https://cointelegraph.com/news/strategy-skips-bitcoin-buy-repurchase-176m-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-08T12:51:00+00:00",
-      "summary": "Strategy repurchased $176 million worth of its STRC preferred stock and doubled the size of its digital securities repurchase program to $2 billion, while pausing on new Bitcoin buys.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "buy",
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Mexico quadruple homicide tied to alleged Bitcoin robbery attempt",
-      "url": "https://cointelegraph.com/news/mexico-quadruple-homicide-alleged-bitcoin-robbery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-08T12:41:14+00:00",
-      "summary": "Two suspects face a Wednesday hearing over four killings allegedly linked to a crypto wallet believed to hold millions of dollars in Bitcoin.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "LINK"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Strategy repurchases $176 million of STRC shares, makes no bitcoin purchases or sales",
-      "url": "https://www.theblock.co/news/business/2026-09-08-strategy-bitcoin-strc-repurchase-program-413678",
-      "published_at": "2026-09-08T12:20:03+00:00",
-      "summary": "Strategy's total holdings account for around 4% of the 21 million bitcoin supply cap — worth roughly $66 billion.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "How One Executive Recruitment Firm Is Using M&A to Turn Earnings Into Bitcoin",
-      "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/how-one-executive-recruitment-firm-is-using-ma-to-turn-earnings-into-bitcoin",
-      "published_at": "2026-09-08T12:15:40+00:00",
-      "summary": "Bitcoin Magazine\n\nHow One Executive Recruitment Firm Is Using M&amp;A to Turn Earnings Into Bitcoin\nXCE’s latest deal offers a case study in building the operating business and Bitcoin balance sheet side by side.\nThis post How One Executive Recruitment Firm Is Using M&amp;A to Turn Earnings Into Bitcoin first appeared on Bitcoin Magazine and is written by Nick Ward.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin’s complexity paradox: How layer-2 scalers became AI's main target",
-      "url": "https://www.coindesk.com/markets/2026/09/08/bitcoin-security-risks-grow-as-ai-uncovers-hidden-vulnerabilities",
-      "published_at": "2026-09-08T12:09:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin volatility remains subdued as supply in profit nears historical bear-to-bull transition level: analysts",
-      "url": "https://www.theblock.co/news/markets/2026-09-08-bitcoin-volatility-remains-subdued-as-supply-in-profit-nears-historical-bear-to-bull-transition-level-analysts-413754",
-      "published_at": "2026-09-08T12:08:55+00:00",
-      "summary": "More than 71% of bitcoin supply is now in profit, approaching a level that has typically marked bear-to-bull transitions, Bitfinex said.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "What Is LAPTOP? Hunter Biden's Meme Coin Targeting TRUMP Holders",
-      "url": "https://decrypt.co/resources/what-is-laptop-hunter-bidens-meme-coin-targeting-trump-holders",
-      "published_at": "2026-09-08T11:33:50+00:00",
-      "summary": "The LAPTOP token launches in September on Base, with a fifth of the supply earmarked for traders who lost money on TRUMP.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": [
-          "lost"
-        ]
-      },
-      "coins": [
-        "APT",
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
