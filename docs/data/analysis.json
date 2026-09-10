@@ -1,95 +1,95 @@
 {
-  "generated_at": "2026-09-10T08:53:28.452441+00:00",
+  "generated_at": "2026-09-10T16:07:27.851326+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.013,
+    "market_sentiment_score": -0.005,
     "label_distribution": {
-      "neutral": 33,
-      "bearish": 15,
-      "bullish": 22
+      "neutral": 37,
+      "bullish": 18,
+      "bearish": 15
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 21
+        "mentions": 27
       },
       {
         "coin": "OP",
         "mentions": 20
       },
       {
-        "coin": "ETH",
-        "mentions": 9
-      },
-      {
         "coin": "APT",
-        "mentions": 8
+        "mentions": 7
       },
       {
-        "coin": "Ethereum",
-        "mentions": 4
+        "coin": "UNI",
+        "mentions": 5
+      },
+      {
+        "coin": "ETH",
+        "mentions": 5
       },
       {
         "coin": "Tron",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "SOL",
+        "mentions": 4
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 3
       },
       {
-        "coin": "Sui",
+        "coin": "Solana",
+        "mentions": 3
+      },
+      {
+        "coin": "Uniswap",
         "mentions": 2
-      },
-      {
-        "coin": "Dogecoin",
-        "mentions": 1
-      },
-      {
-        "coin": "DOGE",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 33
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 16
       },
       {
         "topic": "sec",
-        "mentions": 8
-      },
-      {
-        "topic": "wallet",
-        "mentions": 5
-      },
-      {
-        "topic": "exchange",
-        "mentions": 4
+        "mentions": 10
       },
       {
         "topic": "stablecoin",
+        "mentions": 6
+      },
+      {
+        "topic": "wallet",
+        "mentions": 6
+      },
+      {
+        "topic": "exchange",
+        "mentions": 5
+      },
+      {
+        "topic": "yield",
         "mentions": 4
       },
       {
-        "topic": "lending",
+        "topic": "memecoin",
         "mentions": 3
       },
       {
-        "topic": "etf",
-        "mentions": 2
+        "topic": "liquidity",
+        "mentions": 3
       },
       {
-        "topic": "futures",
-        "mentions": 2
-      },
-      {
-        "topic": "defi",
+        "topic": "tokenization",
         "mentions": 2
       }
     ]
@@ -97,9 +97,74 @@
   "articles": [
     {
       "source": "CoinDesk",
-      "title": "Live updates: Bitcoin ETFs post a second straight outflow while other major funds turns green",
-      "url": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green",
-      "published_at": "2026-09-10T07:45:46+00:00",
+      "title": "Monument Bank delays retail tokenized deposits, cites regulatory issues in the UK",
+      "url": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
+      "published_at": "2026-09-10T15:53:24+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "EU finance groups push to remove tokenized securities cap",
+      "url": "https://cointelegraph.com/news/european-finance-groups-urge-eu-to-scrap-tokenized-securities-cap-propose-15t-fallback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T15:49:22+00:00",
+      "summary": "European finance and tokenization groups say Brussels should remove limits on assets admitted to DLT infrastructure or set a 1.5 trillion euro baseline if a cap remains.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anthropic Discloses Fourth Claude Hacking Incident as Debate Around Regulation Grows",
+      "url": "https://decrypt.co/377889/anthropic-discloses-fourth-claude-hacking-incident-as-debate-around-regulation-grows",
+      "published_at": "2026-09-10T15:33:11+00:00",
+      "summary": "The company now says attacks during security tests exposed model behavior failures, after initially emphasizing errors in its testing infrastructure.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "regulation",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
+      "url": "https://www.coindesk.com/business/2026/09/10/a-quarter-of-bankrupt-bitcoin-depot-s-atms-snapped-up-for-less-than-usd1-million",
+      "published_at": "2026-09-10T15:14:49+00:00",
       "summary": "",
       "sentiment": {
         "score": 0,
@@ -111,18 +176,37 @@
       "coins": [
         "Bitcoin"
       ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase, Moov to bring stablecoin payment infrastructure to community banks and credit unions",
+      "url": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153",
+      "published_at": "2026-09-10T15:11:41+00:00",
+      "summary": "The integration will use Coinbase's Payments API and custodial wallets to embed stablecoin rails into Moov's existing payments platform.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "integration"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
       "topics": [
         "ai",
-        "etf",
-        "pos",
-        "sec"
+        "stablecoin",
+        "wallet"
       ]
     },
     {
       "source": "CoinDesk",
-      "title": "SGX's bitcoin and ether perpetual futures are now open to U.S. institutions",
-      "url": "https://www.coindesk.com/markets/2026/09/10/sgx-s-bitcoin-and-ether-perpetual-futures-are-now-open-to-u-s-institutions",
-      "published_at": "2026-09-10T07:01:44+00:00",
+      "title": "Crypto for Advisors: Hyperliquid and the future of finance",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/09/10/crypto-for-advisors",
+      "published_at": "2026-09-10T15:00:16+00:00",
       "summary": "",
       "sentiment": {
         "score": 0,
@@ -131,42 +215,171 @@
         "positive_hits": [],
         "negative_hits": []
       },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Uniswap launches ‘StablePair Hook’ to help LPs capture more stablecoin trading value",
+      "url": "https://www.theblock.co/news/defi/2026-09-10-uniswap-stablepair-hook-414160",
+      "published_at": "2026-09-10T15:00:00+00:00",
+      "summary": "Uniswap Labs has launched StablePair Hook, a Uniswap v4 tool that uses dynamic fees for stablecoin pairs such as USDC/USDT.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
       "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
+        "Uniswap",
+        "UNI",
+        "APT"
       ],
       "topics": [
-        "futures"
+        "ai",
+        "stablecoin",
+        "usdc",
+        "usdt"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin falls on US PPI overshoot as 30-year bond yield hits new 19-year high",
+      "url": "https://cointelegraph.com/markets/bitcoin-falls-on-us-ppi-overshoot-as-30-year-bond-yield-hits-new-19-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T14:52:15+00:00",
+      "summary": "Bitcoin fell with US stocks as high inflation and a further surge in oil prices coincided with another multidecade high for US bond yields.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": [
+          "falls",
+          "fell"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "inflation",
+        "yield"
       ]
     },
     {
       "source": "CoinDesk",
-      "title": "Hunter Biden’s LAPTOP blames bots after 98% crash as traders rack up six-figure losses",
-      "url": "https://www.coindesk.com/markets/2026/09/10/hunter-biden-s-laptop-blames-bots-after-98-crash-as-traders-rack-up-six-figure-losses",
-      "published_at": "2026-09-10T06:13:45+00:00",
+      "title": "MoneyGram unveils stablecoin-backed card as digital dollars move into everyday spending",
+      "url": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
+      "published_at": "2026-09-10T14:30:00+00:00",
       "summary": "",
       "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
         "positive_hits": [],
-        "negative_hits": [
-          "crash",
-          "losses"
-        ]
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "MoneyGram launches first stablecoin-backed Visa card in Colombia",
+      "url": "https://www.theblock.co/news/business/2026-09-10-moneygram-card-stablecoin-visa-colombia-414137",
+      "published_at": "2026-09-10T14:30:00+00:00",
+      "summary": "MoneyGram has launched its first stablecoin-backed Visa card, developed with Rain and initially available in Colombia.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
       },
       "coins": [
-        "APT",
         "OP"
       ],
-      "topics": []
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Nasdaq, Boerse Stuttgart, others ask EU to remove or increase cap in tokenization trial",
+      "url": "https://www.coindesk.com/business/2026/09/10/nasdaq-boerse-stuttgart-others-ask-eu-to-remove-or-increase-cap-in-tokenization-trial",
+      "published_at": "2026-09-10T13:56:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Citadel urges SEC to assert oversight of event contracts tied to public firms",
+      "url": "https://www.theblock.co/news/regulation/2026-09-10-citadel-urges-sec-assert-oversight-event-contracts-tied-public-firms-414140",
+      "published_at": "2026-09-10T13:43:09+00:00",
+      "summary": "Citadel Securities urges SEC oversight of equity-linked event contracts, challenging CFTC self-certification.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK"
+      ],
+      "topics": [
+        "cftc",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinbase, Moov to provide stablecoin infrastructure for US community banks",
+      "url": "https://cointelegraph.com/news/coinbase-moov-stablecoin-infrastructure-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T13:35:23+00:00",
+      "summary": "The partnership will provide stablecoin acceptance, settlement and real-time funding capabilities to over 1,000 community banks and credit unions.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "partnership"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
     },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-10T05:59:21+00:00",
+      "published_at": "2026-09-10T13:20:26+00:00",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "sentiment": {
         "score": 0,
@@ -183,6 +396,572 @@
         "dai",
         "defi",
         "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin at $400K by 2030 Still 'Reasonable Target': Coinbase CEO",
+      "url": "https://decrypt.co/377875/bitcoin-at-400k-by-2030-still-reasonable-target-coinbase-ceo",
+      "published_at": "2026-09-10T13:04:27+00:00",
+      "summary": "Brian Armstrong argues the bottom is in, a year into the downturn, with the next halving roughly 18 months out.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron"
+      ],
+      "topics": [
+        "halving"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Threatened with arrest online? Recognizing a law enforcement impersonation scam",
+      "url": "https://www.coindesk.com/opinion/2026/09/10/threatened-with-arrest-online-recognizing-a-law-enforcement-impersonation-scam",
+      "published_at": "2026-09-10T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
+      "url": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50",
+      "published_at": "2026-09-10T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Solana sees record 263K tokens issued in a single day",
+      "url": "https://cointelegraph.com/news/solana-record-263k-tokens-issued?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T13:00:00+00:00",
+      "summary": "Memecoin platform Pump.fun accounted for most of the new tokens among launchpads, as the Solana network notched a new all-time daily issuance high.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "memecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Researchers halve quantum resource benchmark for key operation in Bitcoin, Ethereum attack",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-10-researchers-halve-quantum-resource-benchmark-for-key-operation-in-bitcoin-ethereum-attack-414121",
+      "published_at": "2026-09-10T13:00:00+00:00",
+      "summary": "The resulting benchmark is less than half Google's previously reported level, though the two approaches use different accounting methods.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "The Quantum Issue: WTF Is Quantum Computing?",
+      "url": "https://bitcoinmagazine.com/print/the-quantum-issue-wtf-is-quantum-computing",
+      "published_at": "2026-09-10T13:00:00+00:00",
+      "summary": "Bitcoin Magazine\n\nThe Quantum Issue: WTF Is Quantum Computing?\nFrom The Quantum Issue: A high level look at quantum computer, what it even is, and how it is different from conventional computing. \nThis post The Quantum Issue: WTF Is Quantum Computing? first appeared on Bitcoin Magazine and is written by Shinobi.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Nasdaq to invest $100 million in Kraken parent Payward as firms expand partnership",
+      "url": "https://www.theblock.co/news/deals/2026-09-10-nasdaq-to-invest-100-million-in-kraken-parent-payward-as-firms-expand-partnership-414120",
+      "published_at": "2026-09-10T12:53:22+00:00",
+      "summary": "Nasdaq Ventures agreed to invest $100 million in Kraken parent Payward, expanding their tokenized equity infrastructure partnership.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "partnership"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Morning Minute: Hunter Biden’s LAPTOP Crashes",
+      "url": "https://decrypt.co/377867/morning-minute-hunter-bidens-laptop-crashes",
+      "published_at": "2026-09-10T12:10:48+00:00",
+      "summary": "The meme coin plunged on its debut, as recent alt leaders and many onchain darlings slipped in a nasty day for crypto.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crashes"
+        ]
+      },
+      "coins": [
+        "APT",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ex-BoE deputy governor headlines trio of former central bankers joining Fnality",
+      "url": "https://cointelegraph.com/news/ex-boe-cunliffe-central-bankers-fnality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T12:02:16+00:00",
+      "summary": "Jon Cunliffe, Jochen Metzger and Ron Berndsen join Fnality Europe’s supervisory board as the company works to expand beyond its sterling payment system.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BIS chief warns AI capex arms race relies on opaque debt, posing systemic risks",
+      "url": "https://www.coindesk.com/business/2026/09/10/ai-s-rapid-rise-poses-global-financial-stability-risks-says-head-of-the-bis",
+      "published_at": "2026-09-10T12:00:36+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks",
+          "warns"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Treasury yields continue to rise even as Bessent doubles down on bond buybacks",
+      "url": "https://www.coindesk.com/markets/2026/09/10/scott-bessent-doubles-down-on-bond-buybacks-as-treasury-yields-continue-to-surge",
+      "published_at": "2026-09-10T11:47:41+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "yield"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
+      "url": "https://cointelegraph.com/news/nasdaq-invests-100m-kraken-parent-21b-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T11:41:00+00:00",
+      "summary": "Nasdaq invested $100 million in Payward as part of its push toward tokenized stock products with round-the-clock trading.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto exchange giant Bybit to offer European ‘super-app’ with stocks, derivatives",
+      "url": "https://www.coindesk.com/business/2026/09/10/crypto-exchange-giant-bybit-to-offer-european-super-app-with-stocks-derivatives",
+      "published_at": "2026-09-10T11:36:01+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Nasdaq Invests $100M in Kraken Parent Payward at $21B Valuation",
+      "url": "https://decrypt.co/377864/nasdaq-invests-100m-in-kraken-parent-payward-at-21b-valuation",
+      "published_at": "2026-09-10T11:28:55+00:00",
+      "summary": "Deutsche Börse's April stake implied a $13.3 billion valuation. Five months on, Nasdaq is paying at $21 billion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Nasdaq invests $100 million in Kraken parent company Payward at $21 billion valuation",
+      "url": "https://www.coindesk.com/business/2026/09/10/nasdaq-invests-usd100-million-in-kraken-parent-company-payward-at-usd21-billion-valuation",
+      "published_at": "2026-09-10T11:21:21+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin traders dial down bullish plays ahead of U.S. inflation data",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/10/bitcoin-traders-dial-down-bullish-plays-ahead-of-u-s-inflation-data",
+      "published_at": "2026-09-10T11:15:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "bullish"
+        ],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "inflation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase CEO Brian Armstrong says bitcoin has bottomed for current cycle, expects uptrend over next two years",
+      "url": "https://www.theblock.co/news/markets/2026-09-10-coinbase-ceo-brian-armstrong-says-bitcoin-has-bottomed-for-current-cycle-expects-uptrend-over-next-two-years-414104",
+      "published_at": "2026-09-10T10:31:54+00:00",
+      "summary": "Coinbase CEO Brian Armstrong expects bitcoin to trend higher over the next two years, saying the current cycle may have bottomed.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Tron"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin trades near $78,000 as memecoins, small caps lead a broad crypto retreat",
+      "url": "https://www.coindesk.com/markets/2026/09/10/bitcoin-trades-near-usd78-000-as-memecoins-small-caps-lead-a-broad-crypto-retreat",
+      "published_at": "2026-09-10T10:24:14+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "memecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Treasury Secretary Bessent urges CLARITY Act passage after Senate returns",
+      "url": "https://cointelegraph.com/news/treasury-secretary-bessent-urges-clarity-act-passage-senate-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T10:20:00+00:00",
+      "summary": "Secretary Scott Bessent warned that failing to pass the CLARITY Act would send a “troubling signal” about America’s leadership in the digital asset industry.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warned"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Vitalik Buterin Pushes Ethereum Plan to Slash Quantum-Safe Privacy Costs",
+      "url": "https://decrypt.co/377857/vitalik-buterin-pushes-ethereum-plan-to-slash-quantum-safe-privacy-costs",
+      "published_at": "2026-09-10T10:11:52+00:00",
+      "summary": "Buterin wants EIP-8288 in I-star, the upgrade after Hegota, and adopting it would make RISC-V Ethereum's canonical instruction set.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Hunter Biden denies profiting from memecoin after his LAPTOP crashes",
+      "url": "https://cointelegraph.com/news/hunter-biden-denies-profiting-memecoin-laptop-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T10:08:46+00:00",
+      "summary": "Nansen found a $117,800 unrealized loss in one wallet as the team announced liquidity incentives and Bubblemaps flagged fresh top holders.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crashes",
+          "loss"
+        ]
+      },
+      "coins": [
+        "APT",
+        "OP"
+      ],
+      "topics": [
+        "liquidity",
+        "memecoin",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs shed $167M after strongest three-week inflow run of 2026",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-shed-167m-after-strongest-three-week-inflow-run-of-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T09:59:32+00:00",
+      "summary": "ARKB led Wednesday’s Bitcoin ETF outflows as Ether and Solana funds returned to net inflows.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL",
+        "Tron"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Indian agri warehouse giant is putting $2 billion in grain-backed loans onchain",
+      "url": "https://www.coindesk.com/business/2026/09/10/indian-agri-warehouse-giant-is-putting-usd2-billion-in-grain-backed-loans-onchain",
+      "published_at": "2026-09-10T09:42:59+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin sell-side risk returns to rare lows as $80K sellers fade from view",
+      "url": "https://cointelegraph.com/markets/bitcoin-sell-side-risk-returns-rare-lows-fade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T09:36:42+00:00",
+      "summary": "Bitcoin investors showed little sign of panic selling as BTC held most of its August gains and sell-side risk fell to rare lows, data showed.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": [
+          "fell",
+          "panic",
+          "risk",
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "India’s Arya.ag to put grain ownership records on Avalanche",
+      "url": "https://cointelegraph.com/news/arya-ag-tests-tokenized-grain-receipts-avalanche?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T09:30:00+00:00",
+      "summary": "The system will combine farmer, grain, warehouse, insurance and loan data for lenders, though no launch date or initial deployment size was disclosed.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Avalanche"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Unicoin sues Uniswap Labs, seeks to cancel UNI registration",
+      "url": "https://cointelegraph.com/news/unicoin-sues-uniswap-court-cancel-uni-trademark?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T08:55:11+00:00",
+      "summary": "The complaint says Uniswap’s counsel sent three letters before Unicoin’s Sept. 28 launch and seeks declarations on its marks and domains.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Uniswap",
+        "UNI"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin slumps as oil and bond yields surge to new highs",
+      "url": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green",
+      "published_at": "2026-09-10T07:45:46+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "yield"
       ]
     },
     {
@@ -206,28 +985,6 @@
         "sec",
         "wallet"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Dogecoin sinks 5% to lead majors' losses, with bitcoin holding $78,000 level",
-      "url": "https://www.coindesk.com/markets/2026/09/10/dogecoin-sinks-5-to-lead-majors-losses-with-bitcoin-holding-usd78-000-level",
-      "published_at": "2026-09-10T05:30:15+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Dogecoin",
-        "DOGE"
-      ],
-      "topics": []
     },
     {
       "source": "The Block",
@@ -254,26 +1011,6 @@
         "ai",
         "liquidity"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto wins regardless of Clarity Act vote, Coinbase's Armstrong says",
-      "url": "https://www.coindesk.com/markets/2026/09/10/crypto-wins-regardless-of-clarity-act-vote-coinbase-s-armstrong-says",
-      "published_at": "2026-09-10T05:05:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -409,24 +1146,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "DoubleZero adds Kalshi election market data ahead of US midterms",
-      "url": "https://cointelegraph.com/news/doublezero-adds-kalshi-election-market-data-ahead-of-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T20:08:09+00:00",
-      "summary": "The expansion gives institutional and automated traders real-time access to Kalshi’s political markets as election betting activity continues to grow.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators' Home States",
       "url": "https://decrypt.co/377810/crypto-banks-clarity-act-lobbying-senators",
@@ -442,728 +1161,6 @@
       "coins": [
         "UNI"
       ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Consensys to split into MetaMask and institutional blockchain company",
-      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T18:47:32+00:00",
-      "summary": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Steak ‘n Shake Says Sales Grew Double Digits Since Bitcoin Adoption",
-      "url": "https://bitcoinmagazine.com/news/steak-n-shake-says-sales-grew",
-      "published_at": "2026-09-09T18:37:31+00:00",
-      "summary": "Bitcoin Magazine\n\nSteak &#8216;n Shake Says Sales Grew Double Digits Since Bitcoin Adoption\nThe burger franchise started accepting bitcoin over Lightning last year and claims business is booming. \nThis post Steak &#8216;n Shake Says Sales Grew Double Digits Since Bitcoin Adoption first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Iran Continues Using Bitcoin To Keep Economy Stable: Report",
-      "url": "https://bitcoinmagazine.com/news/iran-still-using-bitcoin-to-help-economy",
-      "published_at": "2026-09-09T18:23:22+00:00",
-      "summary": "Bitcoin Magazine\n\nIran Continues Using Bitcoin To Keep Economy Stable: Report\nRumors of Iran using bitcoin to skirt transactions have been abound for some time now. Business and regime insiders have reportedly said it's a tried and tested method. \nThis post Iran Continues Using Bitcoin To Keep Economy Stable: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "DoubleZero adds Kalshi’s election markets ahead of November midterms",
-      "url": "https://www.theblock.co/news/regulation/2026-09-09-doublezero-adds-kalshis-election-markets-ahead-november-midterms-414075",
-      "published_at": "2026-09-09T18:17:58+00:00",
-      "summary": "Kalshi's elections and politics markets went live on the market data delivery platform DoubleZero Edge on Wednesday.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
-      "url": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
-      "published_at": "2026-09-09T17:56:26+00:00",
-      "summary": "SkyAI’s proposed equity plan would authorize 5.145 million shares for stock-based compensation, representing roughly 7.2% additional dilution.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "rwa"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Apple Unveils Redesigned Siri AI and A20 Pro Chip as CEO John Ternus Makes Debut",
-      "url": "https://decrypt.co/377807/apple-redesigned-siri-ai-a20-pro-chip",
-      "published_at": "2026-09-09T17:50:14+00:00",
-      "summary": "The company's first fall keynote under new leadership paired a Gemini-powered Siri overhaul with Apple's first 2-nanometer chip, plus a $1,999 foldable iPhone that won't ship until October.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pow"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin miners are missing the crypto rally as exchanges, stablecoins surge",
-      "url": "https://www.theblock.co/news/markets/2026-09-09-bitcoin-miners-are-missing-the-crypto-rally-as-exchanges-stablecoins-surge-413848",
-      "published_at": "2026-09-09T17:36:02+00:00",
-      "summary": "Among tracked companies, only one bitcoin mining company has outperformed the cryptocurrency: Canaan (ticker CAN).",
-      "sentiment": {
-        "score": 6,
-        "normalized": 0.75,
-        "label": "bullish",
-        "positive_hits": [
-          "rally",
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges",
-        "miner",
-        "miners",
-        "mining",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "TRM Labs doubles valuation to $2B in Series C expansion",
-      "url": "https://cointelegraph.com/news/trm-labs-doubles-valuation-to-2b-in-series-c-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T17:30:06+00:00",
-      "summary": "The blockchain intelligence firm said its annual recurring revenue has quadrupled over the past three years as it expands its AI-powered investigations business.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pow"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Secret Service Freezes $52.8 Million in Crypto Tied to Telegram Bazaar Behind Global Scams",
-      "url": "https://decrypt.co/377804/secret-service-freezes-crypto-telegram-bazaar-xinbi",
-      "published_at": "2026-09-09T17:16:08+00:00",
-      "summary": "Blockchain sleuths at Elliptic traced the money, Treasury sanctioned the marketplace, and Xinbi—which ran $24 billion through a Telegram scam bazaar—called the freeze unfair.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "scam"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "While Bitcoin Devs Debate Next Moves, IonQ Unveils Superion 256 Quantum Computer",
-      "url": "https://decrypt.co/377737/bitcoin-debate-ionq-quantum-computer",
-      "published_at": "2026-09-09T16:46:05+00:00",
-      "summary": "The company has built its first chips and begun testing prototypes as it seeks to manufacture quantum computers in larger quantities.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "What Is LAPTOP? Hunter Biden's Meme Coin Targeting TRUMP Holders",
-      "url": "https://decrypt.co/resources/what-is-laptop-hunter-bidens-meme-coin-targeting-trump-holders",
-      "published_at": "2026-09-09T16:40:50+00:00",
-      "summary": "The LAPTOP token launched on Base in September 2026, peaked two minutes later, and shed almost all of its value the same day.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "APT",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US Bank tests proprietary stablecoin in cross-border Stellar transaction",
-      "url": "https://cointelegraph.com/news/us-bank-launches-usbdc-stablecoin-with-live-cross-border-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T16:37:08+00:00",
-      "summary": "The pilot moved USBDC between the bank’s North American and European entities on the public Stellar blockchain.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Stellar",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar",
-      "url": "https://cointelegraph.com/markets/bitcoin-fails-to-reclaim-80k-as-bessent-fuels-yen-strength-around-153-per-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T16:28:19+00:00",
-      "summary": "Bitcoin trended lower with US stocks on Iran escalation while US Treasury Secretary Scott Bessent contributed to fears of a yen carry-trade unwind.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "strength"
-        ],
-        "negative_hits": [
-          "fails",
-          "fears"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Hyperliquid Policy Center backs CFTC in fight over perpetual futures, asks court to drop CME’s case",
-      "url": "https://www.theblock.co/news/regulation/2026-09-09-hyperliquid-policy-center-backs-cftc-fight-perpetual-futures-asks-court-drop-cme-case-414046",
-      "published_at": "2026-09-09T16:17:59+00:00",
-      "summary": "The Hyperliquid Policy Center accused CME Group of stifling innovation and urged a court to dismiss the exchange’s lawsuit against the CFTC.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "innovation"
-        ],
-        "negative_hits": [
-          "drop",
-          "lawsuit"
-        ]
-      },
-      "coins": [
-        "Sui",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "cftc",
-        "exchange",
-        "futures"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Mexican Musician and Family Killed Over Bitcoin Cold Wallet Believed to Hold Millions",
-      "url": "https://decrypt.co/377795/mexican-family-killed-bitcoin-cold-wallet",
-      "published_at": "2026-09-09T16:16:04+00:00",
-      "summary": "Mexican prosecutors allege suspects targeted Camilo Séptimo keyboardist Jonathan Meléndez and his family while searching for a cold wallet they believed contained millions in Bitcoin.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
-      "url": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
-      "published_at": "2026-09-09T16:11:07+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Hunter Biden’s LAPTOP airdrops briefly worth over $1 million each before 99% crash",
-      "url": "https://www.theblock.co/news/markets/2026-09-09-hunter-biden-laptop-airdrops-briefly-worth-over-1-million-each-before-99-crash-414034",
-      "published_at": "2026-09-09T16:05:45+00:00",
-      "summary": "Substack subscribers were reportedly able to claim 4,276 LAPTOP tokens each, with some quickly selling their allocations.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crash",
-          "selling"
-        ]
-      },
-      "coins": [
-        "APT",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
-      "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
-      "published_at": "2026-09-09T16:05:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Hunter Biden’s laptop controversy gets a memecoin afterlife",
-      "url": "https://cointelegraph.com/news/hunter-bidens-laptop-memecoin-afterlife?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T15:58:39+00:00",
-      "summary": "The project’s disclosures say LAPTOP has no utility, lock founder tokens for six months and reserve 2% for wallets that lost money on TRUMP.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lost"
-        ]
-      },
-      "coins": [
-        "APT",
-        "OP"
-      ],
-      "topics": [
-        "memecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trade groups seek to block Illinois crypto tax before January effective date",
-      "url": "https://cointelegraph.com/news/trade-groups-seek-block-illinois-crypto-tax-before-january-effective-date?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T15:57:07+00:00",
-      "summary": "Following on their earlier lawsuit, CCI and the Blockchain Association seek to block Illinois’ 0.2% crypto tax, arguing it is unconstitutional and would impose costly compliance burdens.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lawsuit"
-        ]
-      },
-      "coins": [
-        "Sui"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tether pushes into private credit with $400 million fund with Fasanara",
-      "url": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
-      "published_at": "2026-09-09T15:51:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Hunter Biden's LAPTOP Meme Coin Crashes 99% on Debut",
-      "url": "https://decrypt.co/377783/hunter-biden-laptop-meme-coin-crashes",
-      "published_at": "2026-09-09T15:47:09+00:00",
-      "summary": "LAPTOP hit a $190.81 peak within minutes of launching on Base, then shed roughly 99% as thin liquidity met a wave of selling.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crashes",
-          "selling"
-        ]
-      },
-      "coins": [
-        "APT",
-        "OP"
-      ],
-      "topics": [
-        "liquidity"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
-      "url": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
-      "published_at": "2026-09-09T15:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Consensys to split MetaMask into its own firm while staying silent on IPO",
-      "url": "https://www.coindesk.com/business/2026/09/09/consensys-to-split-metamask-into-its-own-firm-while-staying-silent-on-ipo",
-      "published_at": "2026-09-09T15:24:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tether, Fasanara launch $400M private credit fund targeting $3B",
-      "url": "https://cointelegraph.com/news/tether-fasanara-launch-400m-private-credit-fund-targeting-3b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T15:21:44+00:00",
-      "summary": "The evergreen fund will use USDT infrastructure to support asset-backed lending through fintech platforms in more than 60 countries.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "lending",
-        "usdt"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Prediction Markets Abandon Cheap Oil as Brent Passes $100",
-      "url": "https://decrypt.co/377766/prediction-markets-abandon-cheap-oil-as-brent-passes-100",
-      "published_at": "2026-09-09T15:15:01+00:00",
-      "summary": "Myriad's $120 side overtook $55 at the start of September, while Polymarket puts WTI reaching $100 this month at 59%.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Consensys Is Splitting in Two as MetaMask Goes Its Own Way",
-      "url": "https://decrypt.co/377768/consensys-split-metamask-new-institutional-crypto-company",
-      "published_at": "2026-09-09T15:07:24+00:00",
-      "summary": "Consensys Software Inc. will become MetaMask, while a newly formed Consensys will take over the firm's Ethereum protocols and institutional blockchain infrastructure business.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Crypto industry groups escalate fight against Illinois, asking court to block controversial crypto tax",
-      "url": "https://www.theblock.co/news/regulation/2026-09-09-crypto-industry-groups-escalate-fight-illinois-asking-court-block-crypto-tax-414036",
-      "published_at": "2026-09-09T15:04:41+00:00",
-      "summary": "Crypto groups representing a slew of digital asset firms are escalating its legal fight in Illinois over its controversial crypto tax.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto Long & Short:  Inside the 300-to-1 onchain gap between the dollar and euro",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/08/crypto-long-and-short-inside-the-300-to-1-onchain-gap-between-the-dollar-and-euro",
-      "published_at": "2026-09-09T14:58:07+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Consensys splits MetaMask from institutional and Ethereum infrastructure businesses",
-      "url": "https://www.theblock.co/news/business/2026-09-09-consensys-splits-metamask-institutional-ethereum-infrastructure-businesses-414022",
-      "published_at": "2026-09-09T14:54:15+00:00",
-      "summary": "The separation is expected to be completed by the end of 2026, with the existing entity rebranding as MetaMask under CEO Joe Lubin.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Ink Foundation, GSR and others open Charter Foundation to help cut token launch costs",
-      "url": "https://www.theblock.co/news/ecosystems/2026-09-09-ink-foundation-gsr-crypto-charter-foundation-token-launch-costs-414023",
-      "published_at": "2026-09-09T14:49:03+00:00",
-      "summary": "A group of crypto firms has launched Charter Foundation to offer a new framework to help founders reduce the cost of launching tokens.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "German Finance Ministry Drafts 25% Tax on Crypto Gains From 2027",
-      "url": "https://decrypt.co/377764/german-finance-ministry-drafts-25-tax-on-crypto-gains-from-2027",
-      "published_at": "2026-09-09T14:37:18+00:00",
-      "summary": "Anything bought before 2027 keeps the twelve-month exemption, so the change lands only on Germany's future crypto buyers.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "VerifiedX Launches $15 Million Financing Round to Deploy Institutional Bitcoin Infrastructure",
-      "url": "https://bitcoinmagazine.com/news/cantor-fitzgerald-working-with-verifiedx",
-      "published_at": "2026-09-09T14:36:50+00:00",
-      "summary": "Bitcoin Magazine\n\nVerifiedX Launches $15 Million Financing Round to Deploy Institutional Bitcoin Infrastructure\nCantor Fitzgerald is the investment banker on the round. The funding facilitates custody at BitGo, listings on tier-one exchanges and Bitcoin lending programs.\nThis post VerifiedX Launches $15 Million Financing Round to Deploy Institutional Bitcoin Infrastructure first appeared on Bitcoin Magazine and is written by Bitcoin Magazine.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges",
-        "lending",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
-      "url": "https://www.coindesk.com/tech/2026/09/09/kalshi-election-data-goes-live-on-doublezero-ahead-of-u-s-midterms",
-      "published_at": "2026-09-09T14:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
       "topics": []
     }
   ]
