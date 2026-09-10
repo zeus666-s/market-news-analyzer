@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-09-10T03:57:45.675899+00:00",
+  "generated_at": "2026-09-10T08:53:28.452441+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.029,
+    "market_sentiment_score": 0.013,
     "label_distribution": {
-      "neutral": 34,
-      "bullish": 23,
-      "bearish": 13
+      "neutral": 33,
+      "bearish": 15,
+      "bullish": 22
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 18
+        "mentions": 21
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 20
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "APT",
-        "mentions": 6
-      },
-      {
-        "coin": "SOL",
-        "mentions": 4
+        "mentions": 8
       },
       {
         "coin": "Ethereum",
@@ -36,36 +32,40 @@
       },
       {
         "coin": "Tron",
-        "mentions": 2
+        "mentions": 3
+      },
+      {
+        "coin": "SOL",
+        "mentions": 3
       },
       {
         "coin": "Sui",
         "mentions": 2
       },
       {
-        "coin": "UNI",
+        "coin": "Dogecoin",
         "mentions": 1
       },
       {
-        "coin": "Solana",
+        "coin": "DOGE",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 35
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 6
+        "mentions": 8
       },
       {
-        "topic": "stablecoin",
+        "topic": "wallet",
         "mentions": 5
       },
       {
@@ -73,28 +73,229 @@
         "mentions": 4
       },
       {
-        "topic": "wallet",
-        "mentions": 3
+        "topic": "stablecoin",
+        "mentions": 4
       },
       {
         "topic": "lending",
         "mentions": 3
       },
       {
+        "topic": "etf",
+        "mentions": 2
+      },
+      {
+        "topic": "futures",
+        "mentions": 2
+      },
+      {
         "topic": "defi",
-        "mentions": 2
-      },
-      {
-        "topic": "rwa",
-        "mentions": 2
-      },
-      {
-        "topic": "pow",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin ETFs post a second straight outflow while other major funds turns green",
+      "url": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green",
+      "published_at": "2026-09-10T07:45:46+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "SGX's bitcoin and ether perpetual futures are now open to U.S. institutions",
+      "url": "https://www.coindesk.com/markets/2026/09/10/sgx-s-bitcoin-and-ether-perpetual-futures-are-now-open-to-u-s-institutions",
+      "published_at": "2026-09-10T07:01:44+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Hunter Biden’s LAPTOP blames bots after 98% crash as traders rack up six-figure losses",
+      "url": "https://www.coindesk.com/markets/2026/09/10/hunter-biden-s-laptop-blames-bots-after-98-crash-as-traders-rack-up-six-figure-losses",
+      "published_at": "2026-09-10T06:13:45+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash",
+          "losses"
+        ]
+      },
+      "coins": [
+        "APT",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T05:59:21+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trezor, BitBox warn users about fake hardware wallet security alerts",
+      "url": "https://cointelegraph.com/news/trezor-bitbox-hardware-wallet-phishing-emails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T05:34:21+00:00",
+      "summary": "BitBox said multiple Bitcoin companies appeared to have been targeted through a shared newsletter provider, while Trezor confirmed a breach at its email service.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Dogecoin sinks 5% to lead majors' losses, with bitcoin holding $78,000 level",
+      "url": "https://www.coindesk.com/markets/2026/09/10/dogecoin-sinks-5-to-lead-majors-losses-with-bitcoin-holding-usd78-000-level",
+      "published_at": "2026-09-10T05:30:15+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Dogecoin",
+        "DOGE"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Hunter Biden’s LAPTOP team cites sniper bots, thin liquidity for 99% crash on launch day",
+      "url": "https://www.theblock.co/news/defi/2026-09-10-hunter-bidens-laptop-sniper-bots-414095",
+      "published_at": "2026-09-10T05:28:17+00:00",
+      "summary": "The LAPTOP project said it will add pool incentives and expects early prediction-market burns to cut supply.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": [
+          "crash"
+        ]
+      },
+      "coins": [
+        "APT",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "liquidity"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto wins regardless of Clarity Act vote, Coinbase's Armstrong says",
+      "url": "https://www.coindesk.com/markets/2026/09/10/crypto-wins-regardless-of-clarity-act-vote-coinbase-s-armstrong-says",
+      "published_at": "2026-09-10T05:05:41+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "wins"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US sanctions Xinbi scam marketplace, restrains $52M in crypto",
+      "url": "https://cointelegraph.com/news/us-sanctions-xinbi-restrains-52m-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-10T04:05:03+00:00",
+      "summary": "The Justice Department seized Xinbi’s Telegram channels and two wallets as investigators pursued 47 additional wallets across its alleged laundering network.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Trezor says third-party security breach led to phishing emails from legitimate domain",
@@ -138,29 +339,6 @@
         "pos",
         "sec",
         "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T21:30:00+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -506,7 +684,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "U.S. Bank tests proprietary stablecoin in cross-border Stellar transaction",
+      "title": "US Bank tests proprietary stablecoin in cross-border Stellar transaction",
       "url": "https://cointelegraph.com/news/us-bank-launches-usbdc-stablecoin-with-live-cross-border-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-09-09T16:37:08+00:00",
       "summary": "The pilot moved USBDC between the bank’s North American and European entities on the public Stellar blockchain.",
@@ -977,172 +1155,6 @@
       "title": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
       "url": "https://www.coindesk.com/tech/2026/09/09/kalshi-election-data-goes-live-on-doublezero-ahead-of-u-s-midterms",
       "published_at": "2026-09-09T14:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "PayPal expands stablecoin rails with custom token issuance platform",
-      "url": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
-      "published_at": "2026-09-09T14:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Hunter Biden's new LAPTOP token lost 98% of its value in under an hour after $1.6 billion debut",
-      "url": "https://www.coindesk.com/business/2026/09/09/hunter-biden-s-laptop-memecoin-debuts-at-usd1-6-billion-market-cap",
-      "published_at": "2026-09-09T13:57:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lost"
-        ]
-      },
-      "coins": [
-        "APT",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Tether, Fasanara launch $400 million fund for stablecoin-enabled private credit",
-      "url": "https://www.theblock.co/news/deals/2026-09-09-tether-fasanara-launch-400-million-fund-for-stablecoin-enabled-private-credit-414011",
-      "published_at": "2026-09-09T13:53:28+00:00",
-      "summary": "The firms seek up to $3 billion from institutional investors to deploy through Fasanara's global fintech lending network.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "lending",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "German finance ministry proposes 25% crypto tax starting 2028: Report",
-      "url": "https://cointelegraph.com/news/german-finance-ministry-25-crypto-tax-2028?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T13:49:55+00:00",
-      "summary": "The German Ministry of Finance is reportedly seeking to impose a 25% tax on cryptocurrencies, departing from current laws that make crypto gains tax-free after one year of holding.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "10 of the greatest unsolved crypto mysteries",
-      "url": "https://cointelegraph.com/magazine/10-of-the-greatest-unsolved-crypto-mysteries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T13:30:00+00:00",
-      "summary": "From the whereabouts of the CryptoQueen to a mysterious death involving a DeFi builder paranoid about the “pedo elite,” here are 10 crypto mysteries that still have no good answer.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "defi"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Venice’s VVV Token Soars After OpenAI Dispute",
-      "url": "https://decrypt.co/377761/morning-minute-venices-vvv-token-soars-after-openai-dispute",
-      "published_at": "2026-09-09T13:28:52+00:00",
-      "summary": "Concerns over frontier AI labs stealing user data has driven demand for private inference (or at least tokens tied to private inference).",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "soars"
-        ],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BitMart misses roadmap deadline, appoints financial adviser",
-      "url": "https://cointelegraph.com/news/bitmart-misses-roadmap-deadline-appoints-financial-adviser?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T13:04:28+00:00",
-      "summary": "BitMart provided no asset figures or withdrawal timetable and will launch a feedback portal within five working days during a financial adviser review.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "KYC data is an irresistible honeypot for hackers, and we must change how it is collected",
-      "url": "https://www.coindesk.com/opinion/2026/09/09/kyc-data-is-an-irresistible-honeypot-for-hackers-and-we-must-change-how-it-is-collected",
-      "published_at": "2026-09-09T13:02:49+00:00",
       "summary": "",
       "sentiment": {
         "score": 0,
