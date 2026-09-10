@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-09T22:22:34.754565+00:00",
+  "generated_at": "2026-09-10T03:57:45.675899+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.032,
+    "market_sentiment_score": 0.029,
     "label_distribution": {
       "neutral": 34,
-      "bearish": 13,
-      "bullish": 23
+      "bullish": 23,
+      "bearish": 13
     },
     "top_coins": [
       {
-        "coin": "OP",
-        "mentions": 19
+        "coin": "Bitcoin",
+        "mentions": 18
       },
       {
-        "coin": "Bitcoin",
+        "coin": "OP",
         "mentions": 18
       },
       {
@@ -28,7 +28,7 @@
       },
       {
         "coin": "SOL",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "coin": "Ethereum",
@@ -54,31 +54,31 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 17
+      },
+      {
+        "topic": "sec",
+        "mentions": 6
       },
       {
         "topic": "stablecoin",
         "mentions": 5
       },
       {
-        "topic": "sec",
-        "mentions": 4
-      },
-      {
         "topic": "exchange",
         "mentions": 4
       },
       {
-        "topic": "lending",
+        "topic": "wallet",
         "mentions": 3
       },
       {
-        "topic": "dai",
-        "mentions": 2
+        "topic": "lending",
+        "mentions": 3
       },
       {
         "topic": "defi",
@@ -95,6 +95,51 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Trezor says third-party security breach led to phishing emails from legitimate domain",
+      "url": "https://www.theblock.co/news/defi/2026-09-09-trezor-phishing-emails-414086",
+      "published_at": "2026-09-10T02:26:58+00:00",
+      "summary": "This follows last month's security breach at shipping provider ShipMonk, which exposed the personal information of Trezor customers.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
+      "url": "https://decrypt.co/377831/bitcoin-wallet-trezor-hackers-breach-email",
+      "published_at": "2026-09-09T23:02:23+00:00",
+      "summary": "The hardware wallet maker said a fake security alert claimed a hardware flaw could expose users’ recovery phrases.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
@@ -1099,45 +1144,6 @@
       "url": "https://www.coindesk.com/opinion/2026/09/09/kyc-data-is-an-irresistible-honeypot-for-hackers-and-we-must-change-how-it-is-collected",
       "published_at": "2026-09-09T13:02:49+00:00",
       "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Algorand names former Chainlink executive William Herkelrath as CEO",
-      "url": "https://www.coindesk.com/business/2026/09/09/algorand-names-former-chainlink-executive-william-herkelrath-as-ceo",
-      "published_at": "2026-09-09T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Chainlink",
-        "LINK",
-        "Algorand",
-        "ALGO"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Italy’s central bank orders sanctions screening for crypto transfers",
-      "url": "https://cointelegraph.com/news/italys-central-bank-orders-sanctions-screening-for-crypto-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-09T12:20:33+00:00",
-      "summary": "Banca d’Italia ordered crypto service providers to implement internal controls to screen for crypto transfers tied to sanctioned entities.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
