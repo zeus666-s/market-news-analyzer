@@ -1,22 +1,26 @@
 {
-  "generated_at": "2026-09-13T18:39:31.172068+00:00",
+  "generated_at": "2026-09-13T22:14:30.283781+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.061,
+    "market_sentiment_score": -0.064,
     "label_distribution": {
-      "bearish": 15,
-      "neutral": 51,
+      "bearish": 16,
+      "neutral": 50,
       "bullish": 4
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "coin": "OP",
         "mentions": 16
+      },
+      {
+        "coin": "BTC",
+        "mentions": 4
       },
       {
         "coin": "Near",
@@ -32,10 +36,6 @@
       },
       {
         "coin": "UNI",
-        "mentions": 3
-      },
-      {
-        "coin": "BTC",
         "mentions": 3
       },
       {
@@ -62,11 +62,15 @@
       },
       {
         "topic": "fed",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "inflation",
         "mentions": 6
+      },
+      {
+        "topic": "sec",
+        "mentions": 3
       },
       {
         "topic": "defi",
@@ -87,14 +91,53 @@
       {
         "topic": "etf",
         "mentions": 3
-      },
-      {
-        "topic": "onchain",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
+      "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568",
+      "published_at": "2026-09-13T21:51:11+00:00",
+      "summary": "Blockchain security firm Blockaid said roughly 46.1 billion syBTC were minted but the attacker realized only about $336,000 in proceeds.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "recovered"
+        ],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Is Clarity dead? A vibes-based analysis: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/09/13/is-clarity-dead-a-vibes-based-analysis-state-of-crypto",
+      "published_at": "2026-09-13T18:45:08+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
@@ -1074,24 +1117,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "With Fed rate hike all but assured, here's how markets might react",
-      "url": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
-      "published_at": "2026-09-11T15:45:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Metaplanet reverses course on executive options with 41% cut to potential shares, scraps employee warrant plan",
       "url": "https://www.theblock.co/news/business/2026-09-11-metaplanet-reverses-course-executive-options-41-cut-potential-shares-scraps-employee-warrant-plan-414265",
@@ -1110,28 +1135,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Rises as Markets Digest Inflation Data Ahead of Fed Rate Decision",
-      "url": "https://decrypt.co/377962/bitcoin-price-cpi-inflation-fed-rate-decision",
-      "published_at": "2026-09-11T15:32:08+00:00",
-      "summary": "Inflation held at 3.4% and core cooled annually, but a hot monthly core reading kept Fed hike odds near 62% while crypto markets rallied broadly.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "fed",
-        "inflation"
-      ]
     }
   ]
 }
