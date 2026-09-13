@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T13:12:33.484595+00:00",
+  "generated_at": "2026-09-13T18:39:31.172068+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.052,
+    "market_sentiment_score": -0.061,
     "label_distribution": {
+      "bearish": 15,
       "neutral": 51,
-      "bullish": 5,
-      "bearish": 14
+      "bullish": 4
     },
     "top_coins": [
       {
@@ -19,7 +19,7 @@
         "mentions": 16
       },
       {
-        "coin": "UNI",
+        "coin": "Near",
         "mentions": 4
       },
       {
@@ -31,7 +31,7 @@
         "mentions": 3
       },
       {
-        "coin": "Near",
+        "coin": "UNI",
         "mentions": 3
       },
       {
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 36
       },
       {
         "topic": "pos",
@@ -69,15 +69,15 @@
         "mentions": 6
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
-      },
-      {
         "topic": "defi",
         "mentions": 3
       },
       {
         "topic": "regulation",
+        "mentions": 3
+      },
+      {
+        "topic": "stablecoin",
         "mentions": 3
       },
       {
@@ -89,12 +89,76 @@
         "mentions": 3
       },
       {
-        "topic": "wallet",
-        "mentions": 3
+        "topic": "onchain",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564",
+      "published_at": "2026-09-13T18:29:23+00:00",
+      "summary": "Reuters reported that the site was the fourth crypto farm discovered in the area since early 2025, near a local hydroelectric dam.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "theft"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Quantum-proof blockchain: why math, not machines, holds the key",
+      "url": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
+      "published_at": "2026-09-13T17:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-13T16:47:53+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "AI Agents Spending Money Online? New Research Says Not Really",
@@ -375,29 +439,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-12T16:09:41+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -1091,44 +1132,6 @@
         "fed",
         "inflation"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
-      "url": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
-      "published_at": "2026-09-11T15:17:08+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Blockstream Refuses Ransom for Return of $47M in Bitcoin from Liquid Hack: 'It Is Theft'",
-      "url": "https://decrypt.co/377959/blockstream-refuses-ransom-for-return-of-47m-in-bitcoin-from-liquid-hack-it-is-theft",
-      "published_at": "2026-09-11T14:17:38+00:00",
-      "summary": "With 598.5 BTC still outstanding, the company says it will go to law enforcement should the funds not be returned.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "theft"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
     }
   ]
 }
