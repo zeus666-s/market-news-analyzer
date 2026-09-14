@@ -1,22 +1,26 @@
 {
-  "generated_at": "2026-09-13T22:14:30.283781+00:00",
+  "generated_at": "2026-09-14T04:13:41.401625+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.064,
+    "market_sentiment_score": -0.066,
     "label_distribution": {
-      "bearish": 16,
       "neutral": 50,
+      "bearish": 16,
       "bullish": 4
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 18
+      },
+      {
+        "coin": "ETH",
+        "mentions": 4
       },
       {
         "coin": "BTC",
@@ -27,15 +31,7 @@
         "mentions": 4
       },
       {
-        "coin": "ETH",
-        "mentions": 4
-      },
-      {
         "coin": "ARB",
-        "mentions": 3
-      },
-      {
-        "coin": "UNI",
         "mentions": 3
       },
       {
@@ -47,6 +43,10 @@
         "mentions": 2
       },
       {
+        "coin": "UNI",
+        "mentions": 2
+      },
+      {
         "coin": "Dogecoin",
         "mentions": 2
       }
@@ -54,11 +54,11 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 38
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 17
       },
       {
         "topic": "fed",
@@ -89,12 +89,75 @@
         "mentions": 3
       },
       {
-        "topic": "etf",
-        "mentions": 3
+        "topic": "dai",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "US Republicans send ‘final’ CLARITY Act offer to Democrats",
+      "url": "https://cointelegraph.com/news/us-republicans-send-final-clarity-act-offer-to-democrats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-14T03:22:49+00:00",
+      "summary": "The 635-page revised proposal includes Trump-backed ethics provisions and comes just two days before a key procedural vote.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Revolut attackers threaten daily customer data leaks",
+      "url": "https://cointelegraph.com/news/revolut-attackers-threaten-daily-customer-data-leaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-14T00:54:08+00:00",
+      "summary": "Attackers reportedly published identity documents and selfies belonging to Revolut customers and threatened to release more data each day until the fintech pays.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "dai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/cryptos-biggest-week-ever-swarm-fears-prompt-ai-slowdown-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-14T00:15:37+00:00",
+      "summary": "Crypto’s moment of CLARITY finally arrives with a key Senate vote on Tuesday. AI swarm fears prompt development slowdown, with some predicting big falls in AI stock prices.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "falls",
+          "fears"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
@@ -1072,69 +1135,6 @@
         "fed",
         "stablecoin"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
-      "url": "https://cointelegraph.com/markets/bitcoin-spikes-toward-80k-as-us-cpi-data-delivers-new-22-year-high-in-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-11T16:03:37+00:00",
-      "summary": "Bitcoin briefly rebounded past $79,000 and US stocks turned green as US CPI inflation data met expectations.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "inflation",
-        "yield"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Spikes, Shrugs off Hot US Inflation Data",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-spikes-on-hot-inflation-data",
-      "published_at": "2026-09-11T15:46:05+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Spikes, Shrugs off Hot US Inflation Data\nThe price of bitcoin is up, despite the fact that an interest rate hike could be just around the corner. \nThis post Bitcoin Price Spikes, Shrugs off Hot US Inflation Data first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "inflation",
-        "interest rate",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Metaplanet reverses course on executive options with 41% cut to potential shares, scraps employee warrant plan",
-      "url": "https://www.theblock.co/news/business/2026-09-11-metaplanet-reverses-course-executive-options-41-cut-potential-shares-scraps-employee-warrant-plan-414265",
-      "published_at": "2026-09-11T15:45:25+00:00",
-      "summary": "The changes come amid a bruising stretch for Metaplanet shares, as stock fell about 17% over two trading sessions this week.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }
