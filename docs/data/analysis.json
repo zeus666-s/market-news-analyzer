@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-09-15T19:35:38.123456+00:00",
+  "generated_at": "2026-09-15T22:46:21.653424+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.029,
+    "market_sentiment_score": -0.052,
     "label_distribution": {
+      "neutral": 31,
       "bearish": 21,
-      "neutral": 27,
-      "bullish": 22
+      "bullish": 18
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 23
-      },
-      {
-        "coin": "OP",
-        "mentions": 16
+        "mentions": 25
       },
       {
         "coin": "ETH",
+        "mentions": 16
+      },
+      {
+        "coin": "OP",
         "mentions": 15
       },
       {
         "coin": "BTC",
-        "mentions": 7
+        "mentions": 6
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 5
       },
       {
         "coin": "Solana",
@@ -36,10 +40,6 @@
       },
       {
         "coin": "Binance",
-        "mentions": 4
-      },
-      {
-        "coin": "Ethereum",
         "mentions": 4
       },
       {
@@ -58,43 +58,355 @@
       },
       {
         "topic": "pos",
-        "mentions": 20
+        "mentions": 19
       },
       {
         "topic": "stablecoin",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "topic": "sec",
         "mentions": 5
       },
       {
-        "topic": "wallet",
-        "mentions": 4
-      },
-      {
         "topic": "fed",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "topic": "defi",
         "mentions": 3
       },
       {
-        "topic": "exchange",
+        "topic": "wallet",
+        "mentions": 3
+      },
+      {
+        "topic": "regulatory",
         "mentions": 2
       },
       {
-        "topic": "tokenization",
+        "topic": "onchain",
         "mentions": 2
       },
       {
-        "topic": "usdt",
+        "topic": "miner",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "There were many conductors in the derailment of the crypto industry's Clarity Act",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/15/there-were-many-conductors-in-the-derailment-of-the-crypto-industry-s-clarity-act",
+      "published_at": "2026-09-15T21:58:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Wall Street Bets on Fed Rate Hike: Here's What It Means for Bitcoin, Bonds and Trump",
+      "url": "https://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump",
+      "published_at": "2026-09-15T21:46:03+00:00",
+      "summary": "Nearly every major bank now expects the Fed to raise rates for the first time in three years. Markets have mostly priced it in, but the political fallout could run deeper than one hike.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘This one stings’: Clarity Act fails procedural Senate vote — is crypto’s biggest regulatory push dead?",
+      "url": "https://www.theblock.co/news/regulation/2026-09-15-this-one-stings-clarity-act-fails-senate-is-cryptos-biggest-regulatory-push-dead-415135",
+      "published_at": "2026-09-15T21:24:18+00:00",
+      "summary": "A procedural vote to advance landmark digital asset legislation failed spectacularly on Tuesday, leaving the crypto industry crushed.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "failed",
+          "fails"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "regulatory"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BIS paper finds major gap in Bitcoin onchain transfer estimates",
+      "url": "https://cointelegraph.com/news/bis-paper-finds-major-gap-in-bitcoin-onchain-transfer-estimates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-15T21:23:00+00:00",
+      "summary": "A BIS study found widely used crypto metrics can obscure economic activity, with measurement challenges spanning Bitcoin, Ethereum and stablecoins.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "onchain",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin, BTC-Related Stocks Tumble After Senate Blocks Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-tumbles-after-clarity-act-blockage",
+      "published_at": "2026-09-15T21:22:44+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin, BTC-Related Stocks Tumble After Senate Blocks Clarity Act \nBitcoin&#8217;s price tumbled — along with crypto-related stocks — following the blockage of the long-awaited Clarity Act.&#160; The price of the leading cryptocurrency recently stood at $75,939, down 4% over the past day, after dropping as low as $75,038 at one point on Tuesday.&#160; Lawmakers blocked the landmark digital asset market structure bill in a [&#8230;]\nThis post Bitcoin, BTC-Related Stocks Tumb...",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "leading"
+        ],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Strive’s Matt Cole: Bitcoin is Primed for 30% Growth into 2030",
+      "url": "https://bitcoinmagazine.com/videos/strive-matt-cole-bitcoin-growth-2030",
+      "published_at": "2026-09-15T21:21:01+00:00",
+      "summary": "Bitcoin Magazine\n\nStrive&#8217;s Matt Cole: Bitcoin is Primed for 30% Growth into 2030\nStrive CEO Matt Cole shares his base case for Bitcoin, forecasting roughly 50% annualized returns through 2030.\nThis post Strive&#8217;s Matt Cole: Bitcoin is Primed for 30% Growth into 2030 first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Coinbase-Backed Crypto Group Warns of Midterms Payback After Clarity Act Fails",
+      "url": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act",
+      "published_at": "2026-09-15T21:10:06+00:00",
+      "summary": "The Coinbase-backed Stand With Crypto will add senators’ votes to its scorecards as it rallies crypto voters ahead of November’s elections.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "rallies"
+        ],
+        "negative_hits": [
+          "fails",
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto stocks slide after CLARITY Act fails to advance in Senate",
+      "url": "https://cointelegraph.com/markets/crypto-stocks-slide-after-clarity-act-fails-to-advance-in-senate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-15T20:37:34+00:00",
+      "summary": "Circle and Coinbase shares fell about 10% as the failed Senate vote weighed on crypto-linked equities, with Bitcoin miners and treasury companies also declining.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "failed",
+          "fails",
+          "fell"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "miners"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI's Brockman Says Safety Concerns Have Already Slowed Its Most Advanced AI Work",
+      "url": "https://decrypt.co/378300/openai-safety-concerns-slowed-most-advanced-ai-work",
+      "published_at": "2026-09-15T20:09:19+00:00",
+      "summary": "Greg Brockman says OpenAI delayed launches and reworked its processes after a pre-release model broke out of a sandbox and hacked into Hugging Face.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": [
+          "concerns",
+          "hacked"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Lightning Lands on BitBox — And It Doesn’t Ask for a New Seed Phrase",
+      "url": "https://bitcoinmagazine.com/news/lightning-lands-on-bitbox",
+      "published_at": "2026-09-15T20:07:45+00:00",
+      "summary": "Bitcoin Magazine\n\nLightning Lands on BitBox — And It Doesn&#8217;t Ask for a New Seed Phrase\nCold storage and instant payments now share one app, one backup, and one balance sheet.\nThis post Lightning Lands on BitBox — And It Doesn&#8217;t Ask for a New Seed Phrase first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto stocks sink after Senate rejects Clarity Act",
+      "url": "https://www.coindesk.com/markets/2026/09/15/crypto-stocks-sink-after-senate-rejects-clarity-act",
+      "published_at": "2026-09-15T20:03:17+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Senate Blocks Clarity Act, Likely Killing It for 2026",
+      "url": "https://bitcoinmagazine.com/news/senate-blocks-clarity-act",
+      "published_at": "2026-09-15T19:58:39+00:00",
+      "summary": "Bitcoin Magazine\n\nSenate Blocks Clarity Act, Likely Killing It for 2026\nIn a blow to the digital asset industry, lawmakers blocked the landmark crypto legislation. \nThis post Senate Blocks Clarity Act, Likely Killing It for 2026 first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-15T19:53:13+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Why the Clarity Act Could Decide America’s Financial Future w/ John Deaton",
+      "url": "https://bitcoinmagazine.com/videos/why-the-clarity-act-could-decide-americas-financial-future",
+      "published_at": "2026-09-15T19:51:41+00:00",
+      "summary": "Bitcoin Magazine\n\nWhy the Clarity Act Could Decide America’s Financial Future w/ John Deaton\nJohn Deaton joins Grace Remington and Sean Hagan to break down why the Clarity Act cloture vote is really a vote on whether to even debate the bill.\nThis post Why the Clarity Act Could Decide America’s Financial Future w/ John Deaton first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Crypto Reacts: Bitcoin Slides as Clarity Act Fails to Clear Senate Vote",
@@ -273,7 +585,7 @@
     },
     {
       "source": "The Block",
-      "title": "DOJ charges Robinhood engineers with front-running crypto listings on Hyperliquid",
+      "title": "DOJ charges Robinhood former engineers with front-running crypto listings on Hyperliquid",
       "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865",
       "published_at": "2026-09-15T17:50:23+00:00",
       "summary": "According to prosecutors, the two took positions in tokens ahead of Robinhood’s public listing announcements between 2025 and 2026.",
@@ -869,311 +1181,6 @@
         "stablecoin",
         "staking"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Standard Chartered sees Arbitrum at $10 by end-2030, up 70-fold",
-      "url": "https://www.theblock.co/news/markets/2026-09-15-standard-chartered-sees-arbitrum-at-10-by-end-2030-up-70-fold-414821",
-      "published_at": "2026-09-15T11:50:30+00:00",
-      "summary": "Standard Chartered sees Arbitrum at $10 by 2030, projecting a roughly 70-fold increase as tokenization grows and TradFi firms move onchain.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Arbitrum",
-        "ARB"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/15/ether-solana-xrp-likely-to-gain-if-clarity-act-progresses",
-      "published_at": "2026-09-15T11:15:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "Solana",
-        "SOL",
-        "XRP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Solana Treasury Firm DeFi Dev Corp Rolls Out $300M CHAD to Buy More SOL",
-      "url": "https://decrypt.co/378183/solana-defi-development-corp-chad",
-      "published_at": "2026-09-15T11:01:04+00:00",
-      "summary": "DeFi Development Corp added another 55,491 SOL and opened a CHAD at-the-market program for its preferred stock, extending a fast-moving three-week run of capital markets activity.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "defi"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Why banks should stop worrying and learn to love the Clarity Act",
-      "url": "https://www.coindesk.com/opinion/2026/09/15/why-banks-should-stop-worrying-and-learn-to-love-the-clarity-act",
-      "published_at": "2026-09-15T11:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Velocity extends Series A to $48M at $200M valuation with backing from Visa, Circle, and Ripple",
-      "url": "https://www.coindesk.com/business/2026/09/10/velocity-extends-series-a-to-usd48m-at-usd200m-valuation-with-backing-from-visa-circle-and-ripple",
-      "published_at": "2026-09-15T11:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin gives back Monday's gain as Clarity Act odds fade on Polymarket",
-      "url": "https://www.coindesk.com/markets/2026/09/15/bitcoin-gives-back-monday-s-gain-as-clarity-act-odds-fade-on-polymarket",
-      "published_at": "2026-09-15T10:41:35+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "How a simple coding mistake let a hacker drain $7.8 million from a crypto wallet",
-      "url": "https://www.coindesk.com/business/2026/09/15/how-a-simple-coding-mistake-let-a-hacker-drain-usd7-8-million-from-a-crypto-wallet",
-      "published_at": "2026-09-15T10:27:55+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Nigel Farage-backed Stack BTC plans to acquire a gold dealer for $16 million to fund bitcoin buy",
-      "url": "https://www.coindesk.com/business/2026/09/15/nigel-farage-backed-stack-btc-eyes-usd16-million-gold-dealer-deal-to-fund-bitcoin-buy",
-      "published_at": "2026-09-15T10:06:40+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US House crypto tax package omits mining, staking reward deferral",
-      "url": "https://cointelegraph.com/news/us-house-crypto-tax-bill-mining-staking-reward-deferral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-15T10:04:21+00:00",
-      "summary": "The 114-page bill would change the tax treatment of crypto fees, stablecoins and lending while leaving existing reward-tax timing unchanged.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "lending",
-        "mining",
-        "stablecoin",
-        "staking"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
-      "url": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-15T09:40:27+00:00",
-      "summary": "Ethereum and Base are pursuing different account abstraction designs after talks failed, according to Ethlabs researcher Derek Chiang.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fail",
-          "failed"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Sui"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tonkeeper rebrands as Keeper with support for 7 networks, including Bitcoin and Ethereum",
-      "url": "https://www.theblock.co/news/business/2026-09-15-tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum-414807",
-      "published_at": "2026-09-15T09:35:02+00:00",
-      "summary": "Tonkeeper has rebranded as Keeper, with the wallet now supporting seven blockchain networks, including Bitcoin and Ethereum.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ark Invest sells $14 million in Circle, trims Coinbase as crypto stocks rally",
-      "url": "https://www.theblock.co/news/business/2026-09-15-ark-invest-sells-circle-coinbase-414811",
-      "published_at": "2026-09-15T09:32:31+00:00",
-      "summary": "The Cathie Wood-led investment firm routinely adds and trims its crypto stock holdings throughout the year.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin short-term holders hit 30-day profit streak as bull-market odds improve: CryptoQuant",
-      "url": "https://cointelegraph.com/markets/bitcoin-short-term-holders-hit-30-day-profit-streak-as-bull-market-odds-improve-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-15T09:30:31+00:00",
-      "summary": "Bitcoin short-term holders approached a full month in partial profit as analysis saw improving odds of an enduring bullish BTC price reversal.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "profit"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Strive's Bitcoin Stash Hits an Even 25,000 BTC After $36.6 Million Buy",
-      "url": "https://decrypt.co/378190/strive-bitcoin-25000-btc-after-buy",
-      "published_at": "2026-09-15T09:01:05+00:00",
-      "summary": "The asset manager funded the entire purchase through preferred stock, pushing SATA's notional value past $1 billion for the first time.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
     }
   ]
 }
