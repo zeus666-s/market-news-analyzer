@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-16T19:27:05.895603+00:00",
+  "generated_at": "2026-09-16T22:47:03.686921+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.041,
+    "market_sentiment_score": -0.048,
     "label_distribution": {
-      "neutral": 33,
-      "bullish": 15,
-      "bearish": 22
+      "neutral": 34,
+      "bearish": 22,
+      "bullish": 14
     },
     "top_coins": [
       {
@@ -20,53 +20,53 @@
       },
       {
         "coin": "ETH",
-        "mentions": 10
+        "mentions": 9
+      },
+      {
+        "coin": "SOL",
+        "mentions": 4
+      },
+      {
+        "coin": "BTC",
+        "mentions": 4
       },
       {
         "coin": "LINK",
         "mentions": 3
       },
       {
-        "coin": "SOL",
-        "mentions": 3
-      },
-      {
-        "coin": "Near",
-        "mentions": 3
-      },
-      {
-        "coin": "BTC",
-        "mentions": 3
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
         "coin": "Monero",
         "mentions": 1
       },
       {
+        "coin": "Ethereum",
+        "mentions": 1
+      },
+      {
         "coin": "XRP",
+        "mentions": 1
+      },
+      {
+        "coin": "Binance",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 39
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 14
       },
       {
         "topic": "fed",
-        "mentions": 11
+        "mentions": 13
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 9
       },
       {
         "topic": "cftc",
@@ -81,20 +81,216 @@
         "mentions": 4
       },
       {
-        "topic": "pow",
-        "mentions": 3
-      },
-      {
         "topic": "mainnet",
         "mentions": 3
       },
       {
-        "topic": "wallet",
+        "topic": "inflation",
+        "mentions": 2
+      },
+      {
+        "topic": "interest rate",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Crypto Tax Bill Clears House Committee After Clarity Act Setback",
+      "url": "https://decrypt.co/378449/crypto-tax-bill-clears-house-committee",
+      "published_at": "2026-09-16T21:46:03+00:00",
+      "summary": "The bill would exempt qualifying crypto fees from gain-or-loss calculations and restrict tax-loss deductions on tokens sold and quickly repurchased.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Meta May Have Found a Fix for Its 'Pervert Glasses'",
+      "url": "https://decrypt.co/378448/meta-fix-pervert-glasses",
+      "published_at": "2026-09-16T21:16:03+00:00",
+      "summary": "Meta is reportedly developing a version of its smart glasses without a camera, potentially addressing one of the biggest privacy objections to AI wearables.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CLARITY Act could get another shot during lame-duck session, policy advocate says",
+      "url": "https://cointelegraph.com/news/clarity-act-could-get-another-shot-during-lame-duck-session-policy-advocate-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-16T20:51:38+00:00",
+      "summary": "Digital Sovereignty Alliance managing director Adrian Wall said senators from both parties are considering another attempt to advance the crypto market structure bill before the current Congress ends.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI's Rogue AI Agents Were Probing Hugging Face Two Months Before Hack",
+      "url": "https://decrypt.co/378446/openai-rogue-agents-hugging-face-two-months-before-hack",
+      "published_at": "2026-09-16T20:31:03+00:00",
+      "summary": "An independent researcher found the agents hijacked Hugging Face accounts and mapped the platform's defenses as early as May 13—activity OpenAI's own incident report never fully described.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Peter Schiff: “The Fed Has Already Lost The Battle Against Inflation” & BTC vs GOLD Debate",
+      "url": "https://bitcoinmagazine.com/videos/peter-schiff-the-fed-has-already-lost-the-battle",
+      "published_at": "2026-09-16T20:28:50+00:00",
+      "summary": "Bitcoin Magazine\n\nPeter Schiff: &#8220;The Fed Has Already Lost The Battle Against Inflation&#8221; &#038; BTC vs GOLD Debate\nPeter Schiff says the bond market didn't break recently, it broke in 2020, and everything since has been a slow unwind.\nThis post Peter Schiff: &#8220;The Fed Has Already Lost The Battle Against Inflation&#8221; &#038; BTC vs GOLD Debate first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "inflation",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin, ether swing after unanimous quarter-point Fed rate hike as Warsh takes aim at inflation",
+      "url": "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307",
+      "published_at": "2026-09-16T20:02:16+00:00",
+      "summary": "Bitcoin and ether whipsawed as the Federal Reserve delivered its first rate hike in more than three years.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "inflation"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Price Wobbles Before Settling After Fed Raises Rates",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-price-wobbles-after-rate-hike",
+      "published_at": "2026-09-16T19:46:49+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Price Wobbles Before Settling After Fed Raises Rates \nBitcoin is down over the past week after traders had bet that the central bank would hike interest rates. \nThis post Bitcoin Price Wobbles Before Settling After Fed Raises Rates  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "interest rate",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Fed Chair Implies Trump Is Only Half Right on the Economy Following Rate Hike",
+      "url": "https://decrypt.co/378433/fed-hikes-rates-warsh-implies-trump-only-half-right",
+      "published_at": "2026-09-16T19:43:24+00:00",
+      "summary": "Chair Kevin Warsh credited Trump's economy, then ignored his rate-cut wishes entirely.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-16T19:25:46+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "UK FCA sets crypto authorization guidance ahead of September application window",
@@ -577,7 +773,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Hamas’ military wing told donors to avoid Binance. Use Bybit, OKX and others instead",
+      "title": "Hamas military wing told donors to avoid sending crypto directly from Binance, DOJ filing shows",
       "url": "https://www.coindesk.com/policy/2026/09/16/hamas-military-wing-told-donors-to-avoid-binance-use-bybit-okx-and-others-instead",
       "published_at": "2026-09-16T15:25:41+00:00",
       "summary": "",
@@ -589,7 +785,8 @@
         "negative_hits": []
       },
       "coins": [
-        "Binance"
+        "Binance",
+        "FIL"
       ],
       "topics": []
     },
@@ -948,218 +1145,6 @@
         "mainnet",
         "stablecoin",
         "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin loses touch with the Dollar Index, U.S. stocks ahead of the Fed",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed",
-      "published_at": "2026-09-16T11:16:51+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loses"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "dex",
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin traders brace for Fed hike, but a surprise hold could pose bigger risk",
-      "url": "https://www.coindesk.com/markets/2026/09/15/bitcoin-traders-brace-for-fed-hike-but-a-surprise-hold-could-pose-bigger-risk",
-      "published_at": "2026-09-16T11:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Two Prime makes onchain finance push with $10 million-backed bitcoin yield vault",
-      "url": "https://www.coindesk.com/markets/2026/09/15/two-prime-makes-onchain-finance-push-with-usd10-million-backed-bitcoin-yield-vault",
-      "published_at": "2026-09-16T11:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "yield"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin ETFs shed $450 million as Clarity Act fails",
-      "url": "https://www.coindesk.com/markets/2026/09/16/bitcoin-etfs-shed-usd450-million-as-clarity-act-fails",
-      "published_at": "2026-09-16T10:48:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fails"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Deutsche Bank awaits regulatory nod to launch institutional crypto custody solutions",
-      "url": "https://cointelegraph.com/news/deutsche-bank-regulatory-nod-institutional-crypto-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-16T10:33:12+00:00",
-      "summary": "Germany’s largest bank is awaiting regulatory approval to launch institutional custody solutions for Bitcoin, Ether and select stablecoins before expanding into tokenized assets.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "institutional",
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "regulatory",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Circle launches Arc mainnet with BlackRock and Visa among validators, mints 10 billion ARC tokens",
-      "url": "https://www.theblock.co/news/ecosystems/2026-09-16-circle-launches-arc-mainnet-with-blackrock-and-visa-among-validators-mints-10-billion-arc-tokens-415250",
-      "published_at": "2026-09-16T10:30:00+00:00",
-      "summary": "Circle confirmed it completed the genesis mint of 10 billion ARC tokens this week, although a public launch of the token remains undecided.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "mainnet",
-        "validator",
-        "validators"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ethiopia cuts Bitcoin miners’ power by 77% amid hydropower shortage: Report",
-      "url": "https://cointelegraph.com/news/ethiopia-bitcoin-mining-power-cut-hydro-shortage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-16T10:11:39+00:00",
-      "summary": "Bitcoin miners generated 35% of the state-owned power producer’s revenue last year, but declining reservoir inflows led the utility to prioritize households and manufacturers.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "miner",
-        "miners",
-        "pow"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Deutsche Bank plans bitcoin, ether custody for institutional clients in Europe",
-      "url": "https://www.theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251",
-      "published_at": "2026-09-16T10:05:28+00:00",
-      "summary": "Deutsche Bank plans to launch European digital asset custody this year, initially supporting bitcoin, ether, and select stablecoins.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Italy investigates government email breach linked to Revolut data leak",
-      "url": "https://cointelegraph.com/news/italy-government-email-breach-revolut-data-leak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-16T09:58:48+00:00",
-      "summary": "Italy is probing the Revolut-linked breach after its cyber agency reported more than 650 cases involving abused or illicit certified email accounts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
