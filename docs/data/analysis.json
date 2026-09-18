@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T22:44:13.850337+00:00",
+  "generated_at": "2026-09-18T04:00:21.617624+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.043,
+    "market_sentiment_score": 0.037,
     "label_distribution": {
-      "neutral": 43,
       "bullish": 19,
-      "bearish": 8
+      "neutral": 42,
+      "bearish": 9
     },
     "top_coins": [
       {
@@ -16,11 +16,15 @@
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "coin": "ETH",
         "mentions": 5
+      },
+      {
+        "coin": "BTC",
+        "mentions": 3
       },
       {
         "coin": "Ethereum",
@@ -28,14 +32,6 @@
       },
       {
         "coin": "Near",
-        "mentions": 2
-      },
-      {
-        "coin": "BTC",
-        "mentions": 2
-      },
-      {
-        "coin": "Monero",
         "mentions": 2
       },
       {
@@ -49,16 +45,20 @@
       {
         "coin": "Avalanche",
         "mentions": 1
+      },
+      {
+        "coin": "UNI",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 45
+        "mentions": 46
       },
       {
         "topic": "sec",
-        "mentions": 18
+        "mentions": 17
       },
       {
         "topic": "pos",
@@ -66,35 +66,142 @@
       },
       {
         "topic": "fed",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "cftc",
         "mentions": 6
       },
       {
-        "topic": "exchange",
-        "mentions": 4
+        "topic": "stablecoin",
+        "mentions": 5
       },
       {
-        "topic": "stablecoin",
-        "mentions": 4
+        "topic": "exchange",
+        "mentions": 5
+      },
+      {
+        "topic": "onchain",
+        "mentions": 5
       },
       {
         "topic": "futures",
         "mentions": 4
       },
       {
-        "topic": "onchain",
-        "mentions": 4
-      },
-      {
-        "topic": "rwa",
+        "topic": "interest rate",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "World launches self-custodial ‘super app’ World Money",
+      "url": "https://cointelegraph.com/news/world-launches-self-custodial-super-app-world-money?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-18T03:40:28+00:00",
+      "summary": "World Money is rolling out across more than 150 countries, combining stablecoin payments, digital asset rewards and trading in a self-custodial app.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
+      "url": "https://www.coindesk.com/markets/2026/09/17/boj-rate-hike",
+      "published_at": "2026-09-18T03:03:38+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "interest rate"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments",
+      "url": "https://cointelegraph.com/news/us-sanctions-irans-bitbank-saying-it-processes-hormuz-safe-bitcoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-18T01:33:54+00:00",
+      "summary": "US Treasury says the Iranian exchange processed payments received through Iran’s Strait of Hormuz maritime scheme and helped move hundreds of millions of dollars in Bitcoin to the IRGC.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Dan Hillery: Digital Credit Could Rival BTC’s $1.5 Trillion Market Cap",
+      "url": "https://bitcoinmagazine.com/videos/dan-hillery-digital-credit-could-rival-btcs-1-5-trillion-market-cap",
+      "published_at": "2026-09-18T00:57:38+00:00",
+      "summary": "Bitcoin Magazine\n\nDan Hillery: Digital Credit Could Rival BTC&#8217;s $1.5 Trillion Market Cap\nTwo years ago, Bitcoin credit barely existed. Today, UTXO’s Dan Hillery breaks down how a $16B market could one day rival the network itself.\nThis post Dan Hillery: Digital Credit Could Rival BTC&#8217;s $1.5 Trillion Market Cap first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "North Korea drives onchain malware surge, CoinEx shuts: Asia Express",
+      "url": "https://cointelegraph.com/magazine/north-korea-drives-onchain-malware-surge-coinex-shuts-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-17T23:49:23+00:00",
+      "summary": "North Korea and Iran account for the majority of onchain malware, while Malaysia has been named among the most crypto curious Islamic nations.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "OpenAI Models Are Writing Their Own Jailbreak Instructions—And Sometimes Obeying Them",
@@ -1035,120 +1142,6 @@
         "ai",
         "sec"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "It’s here — SEC releases long-awaited innovation exemption to ‘bring America’s capital markets into the digital age’",
-      "url": "https://www.theblock.co/news/regulation/2026-09-17-sec-releases-innovation-exemption-415324",
-      "published_at": "2026-09-17T13:00:00+00:00",
-      "summary": "The SEC released its 'innovation exemption,' positioning the measure as a response to the Senate's failure to advance crypto legislation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "innovation"
-        ],
-        "negative_hits": [
-          "failure"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "S&P Global to acquire blockchain security platform OpenZeppelin",
-      "url": "https://cointelegraph.com/news/sp-global-openzeppelin-acquisition-blockchain-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-17T12:56:23+00:00",
-      "summary": "S&amp;P Global agreed to buy OpenZeppelin, which says its smart contracts have facilitated more than $37 trillion in value transfers.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "smart contract"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Revolut Hackers Demand $3M Monero Ransom, Threaten to Sell Customer Data: Report",
-      "url": "https://decrypt.co/378472/revolut-hackers-demand-3m-monero-ransom-threaten-to-sell-customer-data-report",
-      "published_at": "2026-09-17T12:53:01+00:00",
-      "summary": "The group says it chose whom to target by scanning the blockchain for Revolut accounts holding significant crypto.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [
-        "Monero"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Crypto.com registers with SEC for single-stock futures, plans US stock perps",
-      "url": "https://www.theblock.co/news/business/2026-09-17-crypto-com-registers-with-sec-for-single-stock-futures-plans-us-stock-perps-415355",
-      "published_at": "2026-09-17T12:41:53+00:00",
-      "summary": "CEO Kris Marszalek said the company is also working with the SEC and CFTC to offer single-stock perpetual futures in the U.S.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc",
-        "futures",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum’s upcoming Glamsterdam upgrade clears rehearsal for a big jump in capacity",
-      "url": "https://www.coindesk.com/tech/2026/09/17/ethereum-s-upcoming-glamsterdam-upgrade-clears-rehearsal-for-a-big-jump-in-capacity",
-      "published_at": "2026-09-17T12:37:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
     }
   ]
 }
