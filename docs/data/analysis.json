@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-19T18:29:58.040550+00:00",
+  "generated_at": "2026-09-19T22:15:07.676061+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.054,
+    "market_sentiment_score": 0.05,
     "label_distribution": {
       "bullish": 22,
-      "bearish": 13,
-      "neutral": 35
+      "neutral": 35,
+      "bearish": 13
     },
     "top_coins": [
       {
@@ -19,11 +19,11 @@
         "mentions": 16
       },
       {
-        "coin": "Near",
-        "mentions": 4
+        "coin": "FIL",
+        "mentions": 5
       },
       {
-        "coin": "FIL",
+        "coin": "Near",
         "mentions": 4
       },
       {
@@ -54,11 +54,11 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 20
       },
       {
         "topic": "cftc",
@@ -69,7 +69,7 @@
         "mentions": 8
       },
       {
-        "topic": "stablecoin",
+        "topic": "etf",
         "mentions": 6
       },
       {
@@ -77,12 +77,12 @@
         "mentions": 6
       },
       {
-        "topic": "etf",
+        "topic": "futures",
         "mentions": 5
       },
       {
-        "topic": "futures",
-        "mentions": 4
+        "topic": "stablecoin",
+        "mentions": 5
       },
       {
         "topic": "fed",
@@ -95,6 +95,53 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
+      "url": "https://cointelegraph.com/news/rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-19T19:14:38+00:00",
+      "summary": "The new ASSX fund offers 2x daily exposure to Strive shares, giving traders a leveraged way to bet on the Bitcoin treasury company.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kalshi joins Coinbase with filing for US stock perpetual futures",
+      "url": "https://cointelegraph.com/news/kalshi-joins-coinbase-with-filing-for-us-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-19T18:35:16+00:00",
+      "summary": "Kalshi’s proposal would bring perpetual futures tied to individual stocks to US traders, as Coinbase and Bitnomial pursue similar products.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL",
+        "OP"
+      ],
+      "topics": [
+        "futures",
+        "pos"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Bitcoin ETFs eke out positive week with $433 million Friday inflow as ether funds snap four-week inflow streak",
@@ -1143,47 +1190,6 @@
         "LTC"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin adds to bull-market hopes as price metric prints fourth-ever bullish cross",
-      "url": "https://cointelegraph.com/markets/bitcoin-adds-to-bull-market-hopes-as-price-metric-prints-fourth-ever-bullish-cross?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-18T10:46:17+00:00",
-      "summary": "The Fisher Transform indicator produced a rare crossover for only the fourth time in Bitcoin’s history.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade",
-      "url": "https://www.coindesk.com/markets/2026/09/18/layer-2-and-defi-tokens-lead-broad-crypto-advance-as-post-fed-hike-nerves-fade",
-      "published_at": "2026-09-18T10:33:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "defi",
-        "fed",
-        "pos"
-      ]
     }
   ]
 }
