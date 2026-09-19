@@ -1,22 +1,26 @@
 {
-  "generated_at": "2026-09-19T08:44:27.499957+00:00",
+  "generated_at": "2026-09-19T15:40:07.866837+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.05,
+    "market_sentiment_score": 0.054,
     "label_distribution": {
-      "neutral": 36,
-      "bullish": 21,
-      "bearish": 13
+      "bearish": 13,
+      "neutral": 35,
+      "bullish": 22
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 24
       },
       {
         "coin": "OP",
         "mentions": 17
+      },
+      {
+        "coin": "Near",
+        "mentions": 4
       },
       {
         "coin": "Binance",
@@ -27,74 +31,262 @@
         "mentions": 4
       },
       {
-        "coin": "ETH",
-        "mentions": 4
-      },
-      {
-        "coin": "Near",
-        "mentions": 4
-      },
-      {
-        "coin": "UNI",
-        "mentions": 3
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 3
-      },
-      {
         "coin": "XRP",
         "mentions": 3
       },
       {
         "coin": "SOL",
         "mentions": 3
+      },
+      {
+        "coin": "UNI",
+        "mentions": 3
+      },
+      {
+        "coin": "Solana",
+        "mentions": 2
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 17
-      },
-      {
-        "topic": "cftc",
-        "mentions": 11
+        "mentions": 16
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 10
       },
       {
-        "topic": "exchange",
-        "mentions": 7
-      },
-      {
-        "topic": "futures",
-        "mentions": 5
+        "topic": "cftc",
+        "mentions": 9
       },
       {
         "topic": "stablecoin",
-        "mentions": 5
+        "mentions": 6
+      },
+      {
+        "topic": "exchange",
+        "mentions": 6
       },
       {
         "topic": "etf",
         "mentions": 4
       },
       {
-        "topic": "interest rate",
+        "topic": "futures",
+        "mentions": 4
+      },
+      {
+        "topic": "fed",
         "mentions": 3
       },
       {
-        "topic": "onchain",
+        "topic": "interest rate",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Visa to close Crossmint memecoin rewards loophole following The Block investigation: report",
+      "url": "https://www.theblock.co/news/regulation/2026-09-19-visa-to-close-crossmint-memecoin-rewards-loophole-following-the-block-investigation-report-415866",
+      "published_at": "2026-09-19T15:11:22+00:00",
+      "summary": "Though the Crossmint-powered memecoin sales are still live on both apps, Visa's grace period is expected to end next week, per the report.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "investigation"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "memecoin",
+        "pow"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Grayscale Is Making Its Red-Hot Zcash ETF More Affordable",
+      "url": "https://decrypt.co/378675/grayscale-zcash-etf-more-affordable-split",
+      "published_at": "2026-09-19T15:01:03+00:00",
+      "summary": "The Zcash ETF is splitting its shares three ways after pulling in more than $233 million in under a month, as Wall Street piles into crypto's hottest privacy trade.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
+      "url": "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
+      "published_at": "2026-09-19T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost",
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ripple says asset managers are preparing for XRP Ledger’s next payments upgrade",
+      "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade",
+      "published_at": "2026-09-19T13:39:15+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple",
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
+      "url": "https://decrypt.co/378674/solana-heartbeat-quickens-speed-upgrade",
+      "published_at": "2026-09-19T13:01:04+00:00",
+      "summary": "The network's clock just sped up again, but the extra speed goes to freshness, not capacity.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
+      "url": "https://www.coindesk.com/markets/2026/09/19/the-orange-tie-stays-michael-saylor-responds-to-venture-capitalist-s-bitcoin-obituary",
+      "published_at": "2026-09-19T12:13:57+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Robinhood Chain fees collapse 97% even as transactions stay near record highs",
+      "url": "https://www.coindesk.com/business/2026/09/19/robinhood-chain-fees-collapse-97-even-as-transactions-stay-near-record-highs",
+      "published_at": "2026-09-19T12:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "record high"
+        ],
+        "negative_hits": [
+          "collapse"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Why Wall Street giants build tokenization money for institutions, not regular consumers",
+      "url": "https://www.coindesk.com/business/2026/09/15/why-wall-street-giants-build-tokenization-money-for-institutions-not-regular-consumers",
+      "published_at": "2026-09-19T12:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bastion wins conditional OCC approval for national trust bank charter",
+      "url": "https://cointelegraph.com/news/bastion-wins-conditional-occ-approval-for-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-19T11:47:29+00:00",
+      "summary": "Bastion Platforms National Trust Company will offer stablecoin custody and wallets, payment infrastructure and white-label issuance from a single federally regulated entity.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "approval",
+          "trust",
+          "wins"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "fed",
+        "stablecoin",
+        "wallet"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report",
@@ -987,195 +1179,6 @@
       "coins": [],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships",
-      "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships",
-      "published_at": "2026-09-18T09:01:55+00:00",
-      "summary": "OFAC says hundreds of millions of dollars in Bitcoin moved through BitBank to the Revolutionary Guards in two months.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance brushes off Lagarde MiCA speculation, reaffirms Europe commitment",
-      "url": "https://cointelegraph.com/news/binance-cites-speculation-report-ecb-chief-mica-intervention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-18T08:50:38+00:00",
-      "summary": "Binance declined to address reports of ECB intervention in its Greek MiCA bid, saying it remains committed to securing authorization in Europe.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "declined"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin cycle bottom may already be in at $58K, says analyst James Check",
-      "url": "https://cointelegraph.com/markets/bitcoin-cycle-bottom-58k-james-check?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-18T08:47:20+00:00",
-      "summary": "Onchain analyst James Check says Bitcoin may have bottomed near $58,000 after two capitulations and warns against anchoring to an October low.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
-      "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
-      "published_at": "2026-09-18T07:37:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Iran’s Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
-      "url": "https://www.coindesk.com/policy/2026/09/18/iran-s-strait-of-hormuz-toll-booth-ran-through-a-bitcoin-exchange-u-s-says",
-      "published_at": "2026-09-18T06:52:23+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
-      "url": "https://www.coindesk.com/tech/2026/09/18/solana-speeds-up-blocks-by-17-but-transaction-capacity-stays-the-same",
-      "published_at": "2026-09-18T06:16:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Corporate treasuries bought just 5,900 bitcoin in 3 months. Other demand signals look weak, too.",
-      "url": "https://www.coindesk.com/markets/2026/09/18/corporate-treasuries-bought-just-5-900-bitcoin-in-3-months-other-demand-signals-look-weak-too",
-      "published_at": "2026-09-18T05:43:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": [
-          "weak"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Stablecoin payments firm dtcpay closes $25 million Series A with SBI Group investment",
-      "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
-      "published_at": "2026-09-18T05:29:10+00:00",
-      "summary": "The fresh capital enables it to scale product suite and merchant network, including a revamped business portal for enterprise clients.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Sui"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum confirms Glamsterdam dates, but warns 'fake' builders could stall the chain",
-      "url": "https://www.coindesk.com/tech/2026/09/18/ethereum-confirms-glamsterdam-dates-but-warns-fake-builders-could-stall-the-chain",
-      "published_at": "2026-09-18T05:23:29+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
