@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T18:34:50.980646+00:00",
+  "generated_at": "2026-09-20T22:17:41.641320+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.037,
+    "market_sentiment_score": 0.027,
     "label_distribution": {
-      "bearish": 15,
+      "bearish": 16,
       "neutral": 33,
-      "bullish": 22
+      "bullish": 21
     },
     "top_coins": [
       {
@@ -27,11 +27,15 @@
         "mentions": 5
       },
       {
-        "coin": "XRP",
+        "coin": "SOL",
+        "mentions": 4
+      },
+      {
+        "coin": "Solana",
         "mentions": 3
       },
       {
-        "coin": "SOL",
+        "coin": "XRP",
         "mentions": 3
       },
       {
@@ -43,10 +47,6 @@
         "mentions": 2
       },
       {
-        "coin": "Solana",
-        "mentions": 2
-      },
-      {
         "coin": "UNI",
         "mentions": 2
       }
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 31
       },
       {
         "topic": "pos",
@@ -73,12 +73,12 @@
         "mentions": 6
       },
       {
-        "topic": "stablecoin",
+        "topic": "futures",
         "mentions": 5
       },
       {
-        "topic": "futures",
-        "mentions": 5
+        "topic": "stablecoin",
+        "mentions": 4
       },
       {
         "topic": "regulation",
@@ -95,6 +95,29 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "ZetaChain votes to shut down Layer 1 network and move ZETA to Solana",
+      "url": "https://www.theblock.co/news/defi/2026-09-20-zetachain-votes-to-shut-down-layer-1-network-and-move-zeta-to-solana-415878",
+      "published_at": "2026-09-20T20:11:49+00:00",
+      "summary": "The team plans to focus instead on Anuma, its private AI app, though the migration will still take one more vote.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Polymarket faced $10 million fraud attempt as its CEO pushed growth over compliance concerns: WSJ",
@@ -1179,31 +1202,6 @@
       "coins": [],
       "topics": [
         "cftc"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Grayscale’s Zcash ETF plans 3-for-1 split after $233 million inflow surge",
-      "url": "https://www.theblock.co/news/markets/2026-09-18-grayscales-zcash-etf-plans-3-for-1-split-233-million-inflow-surge-415520",
-      "published_at": "2026-09-18T15:09:09+00:00",
-      "summary": "The Grayscale Zcash ETF (ZCSH) nears $890 million in assets as ZEC’s rally pushes mining competition to record highs.",
-      "sentiment": {
-        "score": 9,
-        "normalized": 1.0,
-        "label": "bullish",
-        "positive_hits": [
-          "rally",
-          "record high",
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "etf",
-        "mining"
       ]
     }
   ]
