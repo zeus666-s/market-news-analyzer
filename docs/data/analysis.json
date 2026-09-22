@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-22T19:38:31.509933+00:00",
+  "generated_at": "2026-09-22T22:49:12.903334+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": 0.045,
     "label_distribution": {
-      "bearish": 11,
-      "neutral": 37,
-      "bullish": 22
+      "bullish": 22,
+      "bearish": 12,
+      "neutral": 36
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "coin": "OP",
-        "mentions": 12
+        "mentions": 13
       },
       {
         "coin": "ETH",
@@ -28,11 +28,15 @@
       },
       {
         "coin": "Near",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "coin": "SOL",
         "mentions": 5
+      },
+      {
+        "coin": "ADA",
+        "mentions": 4
       },
       {
         "coin": "BTC",
@@ -43,12 +47,8 @@
         "mentions": 3
       },
       {
-        "coin": "ADA",
-        "mentions": 2
-      },
-      {
-        "coin": "Dogecoin",
-        "mentions": 2
+        "coin": "LTC",
+        "mentions": 3
       }
     ],
     "top_topics": [
@@ -58,14 +58,14 @@
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 19
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 11
       },
       {
-        "topic": "usdc",
+        "topic": "exchange",
         "mentions": 6
       },
       {
@@ -73,15 +73,15 @@
         "mentions": 6
       },
       {
-        "topic": "stablecoin",
-        "mentions": 5
+        "topic": "usdc",
+        "mentions": 6
       },
       {
         "topic": "fed",
         "mentions": 4
       },
       {
-        "topic": "exchange",
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
@@ -89,12 +89,326 @@
         "mentions": 3
       },
       {
-        "topic": "dai",
-        "mentions": 3
+        "topic": "cftc",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Crypto VC Hashed anchors new digital asset private credit fund targeting $300 million",
+      "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013",
+      "published_at": "2026-09-22T22:30:00+00:00",
+      "summary": "The fund aims to address a critical financing bottleneck in the institutional digital asset sector by using 'covenant-based' underwriting.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "UN Security Council Will Get Advice on AI Risks From Tech Giants Building It",
+      "url": "https://decrypt.co/379008/un-security-council-ai-risks-anthropic-openai-deepseek",
+      "published_at": "2026-09-22T22:16:03+00:00",
+      "summary": "DeepSeek will address the UN Security Council on AI risks this week, sharing a stage with Dario Amodei—who has spent a year calling China's government the industry's biggest threat.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CFTC warns ‘mention market’ prediction contracts carry heightened manipulation risk",
+      "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-advisory-mention-markets-manipulation-risk-416120",
+      "published_at": "2026-09-22T21:42:19+00:00",
+      "summary": "The CFTC is warning that bets on prediction markets based on whether someone will \"mention\" specific words carries manipulation risks.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk",
+          "risks",
+          "warning",
+          "warns"
+        ]
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says",
+      "url": "https://www.coindesk.com/policy/2026/09/22/democrats-chose-visceral-hatred-for-donald-trump-over-crypto-clarity-act-lummis-says",
+      "published_at": "2026-09-22T21:29:05+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "$161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks",
+      "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks",
+      "published_at": "2026-09-22T21:16:03+00:00",
+      "summary": "Four ancient wallets moved 1,971 BTC between Sept. 6 and Sept. 22, including a 600 BTC transfer worth $51.9 million just hours ago, with three of the four carrying \"Noah Doe\" lawsuit tags.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Sui"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CFTC Chairman Selig says markets must prepare for ‘mass tokenization’",
+      "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-selig-mass-tokenization-24-7-trading-416111",
+      "published_at": "2026-09-22T21:08:20+00:00",
+      "summary": "The Trump administration is preparing for a financial market overhaul as tokenization  and 24/7 trading move into the spotlight.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cftc",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Arch Lending eyes tokenized stocks as next collateral market",
+      "url": "https://cointelegraph.com/news/arch-lending-eyes-tokenized-stocks-as-next-crypto-collateral-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-22T21:06:52+00:00",
+      "summary": "Arch Lending’s Himanshu Sahay said on Cointelegraph’s Chain Reaction podcast that the lender plans to move into tokenized equities as onchain stocks gain traction as collateral.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "lending",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Republican senator calls for probe into US presidents’ sons, citing crypto ventures",
+      "url": "https://cointelegraph.com/news/us-senator-probe-donald-trump-hunter-biden-crypto-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-22T20:57:51+00:00",
+      "summary": "Many Democrats have previously called for investigations into the Trump family’s crypto ventures, but now a Republican is asking for an inquiry based on ties to the presidency.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
+      "url": "https://decrypt.co/379004/cme-crypto-bitcoin-cash-uniswap-futures",
+      "published_at": "2026-09-22T20:46:03+00:00",
+      "summary": "The exchange operator is adding standard and micro contracts for BCH and UNI, extending a pattern of altcoin rollouts that already covers Cardano, Chainlink, Stellar, Avalanche, and Sui.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Cardano",
+        "Avalanche",
+        "Chainlink",
+        "LINK",
+        "LTC",
+        "Bitcoin Cash",
+        "BCH",
+        "Uniswap",
+        "UNI",
+        "Stellar",
+        "Sui",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "futures"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+      "url": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house",
+      "published_at": "2026-09-22T20:31:02+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-22T20:03:30+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Inside Coinbase’s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
+      "url": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody",
+      "published_at": "2026-09-22T20:01:03+00:00",
+      "summary": "Head of cryptography Yehuda Lindell says the exchange is designing custody that can adapt to whatever post-quantum signing scheme Bitcoin adopts.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ADA",
+        "APT",
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Canada’s six largest banks explore tokenized Canadian dollar deposits",
+      "url": "https://cointelegraph.com/news/canada-six-largest-banks-explore-tokenized-canadian-dollar-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-22T19:56:48+00:00",
+      "summary": "The country’s largest financial institutions are exploring tokenized deposits for interbank payments, just weeks after regulators clarified how they should be treated.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Investors Buy Nearly $1B in BTC ETFs as Bull Market Returns",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-etf-investors-buy-nearly-1-billion",
+      "published_at": "2026-09-22T19:55:41+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Investors Buy Nearly $1B in BTC ETFs as Bull Market Returns\nThe Bitcoin bulls are back — if ETF flows are to be believed.&#160; U.S. bitcoin exchange-traded funds received $999 million in new investment on Monday, according to Farside Investors data.&#160; That’s the most in one day since October 6, when the funds received over $1.2 billion and the price of the leading cryptocurrency hit a [&#8230;]\nThis post Bitcoin Investors Buy Nearly $1B in BTC ETFs as Bull Marke...",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "leading"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Near"
+      ],
+      "topics": [
+        "etf",
+        "exchange",
+        "pos"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into 'Recovery Trust'",
@@ -636,29 +950,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-22T13:12:25+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Jim Bianco: Macro Outlook, The 4th Turning and Bitcoin Adoption",
       "url": "https://bitcoinmagazine.com/videos/jim-bianco-macro-outlook-bitcoin-adoption",
@@ -906,291 +1197,6 @@
       ],
       "topics": [
         "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
-      "url": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite",
-      "published_at": "2026-09-22T10:59:03+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "supports"
-        ],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bernstein sees annual prediction market volumes hitting $10 trillion by 2035 as financial assets overtake sports",
-      "url": "https://www.theblock.co/news/business/2026-09-22-bernstein-sees-annual-prediction-market-volumes-hitting-10-trillion-by-2035-as-financial-assets-overtake-sports-416030",
-      "published_at": "2026-09-22T10:56:05+00:00",
-      "summary": "Bernstein projects global prediction market volume will hit $10 trillion by 2035, driven by expanding financial assets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains",
-      "url": "https://www.coindesk.com/markets/2026/09/22/live-updates-oil-falls-as-iran-signals-possible-hormuz-reopening-bitcoin-holds-near-usd86-000",
-      "published_at": "2026-09-22T10:20:12+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-      "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
-      "published_at": "2026-09-22T10:07:52+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "fed",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto metric signals altseason as Bitcoin market-cap share stalls below 60%",
-      "url": "https://cointelegraph.com/markets/crypto-metric-signals-altseason-as-bitcoin-market-cap-share-stalls-below-60?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-22T10:00:43+00:00",
-      "summary": "Glassnode’s Altcoin Cycle Signal printed a new altseason signal after a month of Bitcoin and altcoin market-cap gains.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "LTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto market cap reclaims $3 trillion as Bitcoin, altcoins rally",
-      "url": "https://cointelegraph.com/markets/crypto-market-cap-3-trillion-bitcoin-altcoins-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-22T09:58:26+00:00",
-      "summary": "Bitcoin traded near $86,000 as major altcoins gained, while rising derivatives leverage pointed to growing speculative activity across crypto markets.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "growing",
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "LTC",
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "US Probes Whether Binance 'Knowingly' Let Iran-Linked Trades Through: Report",
-      "url": "https://decrypt.co/378902/us-probes-whether-binance-knowingly-let-iran-linked-trades-through-report",
-      "published_at": "2026-09-22T09:47:47+00:00",
-      "summary": "Binance says it has a \"zero-tolerance policy\" for sanctions violations. Prosecutors are asking whether its 2023 compliance fixes held.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "Binance",
-        "LINK"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Animoca Brands delays IPO plans, suspends merger talks with Currenc",
-      "url": "https://www.coindesk.com/business/2026/09/22/animoca-brands-delays-ipo-plans-suspends-merger-talks-with-currenc",
-      "published_at": "2026-09-22T09:47:15+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "White hats outrun Coldcard hackers in 52-Bitcoin evacuation",
-      "url": "https://cointelegraph.com/news/white-hats-coldcard-btc-exploit-galaxy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-22T09:06:59+00:00",
-      "summary": "White hats secured about 40% of the Bitcoin moved in the Coldcard exploit’s second wave, transferring it to a Wyoming trust for victims.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "secured",
-          "trust"
-        ],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto’s wild boom-and-bust cycles are fading, Solstice CEO says",
-      "url": "https://cointelegraph.com/news/crypto-bull-runs-liquidity-solstice-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-22T08:06:23+00:00",
-      "summary": "Solstice CEO Ben Nadareski says deeper liquidity and growing institutional participation could make future crypto bull runs less volatile than previous cycles.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "growing",
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL",
-        "ADA"
-      ],
-      "topics": [
-        "liquidity"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Spot bitcoin ETFs attract nearly $1 billion in largest daily inflow in 11 months",
-      "url": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005",
-      "published_at": "2026-09-22T07:44:17+00:00",
-      "summary": "US spot bitcoin ETFs saw $999 million in net inflows on Monday, the largest single-day amount the funds have attracted since Oct. 6, 2025.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
-      "url": "https://www.coindesk.com/markets/2026/09/22/spot-bitcoin-etfs-attracted-nearly-usd1-billion-on-monday-the-9th-largest-inflow-ever",
-      "published_at": "2026-09-22T07:40:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs flirt with $1B as inflows hit 2026 high",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-biggest-inflow-october-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-22T07:33:37+00:00",
-      "summary": "US spot Bitcoin ETFs drew nearly $1 billion on Monday, their largest daily inflow since October 2025, as Bitcoin briefly climbed above $87,000.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "etf"
       ]
     }
   ]
