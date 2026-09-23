@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-22T22:49:12.903334+00:00",
+  "generated_at": "2026-09-23T04:06:44.416510+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.045,
+    "market_sentiment_score": 0.032,
     "label_distribution": {
-      "bullish": 22,
-      "bearish": 12,
+      "bearish": 13,
+      "bullish": 21,
       "neutral": 36
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 32
+        "mentions": 30
       },
       {
         "coin": "OP",
-        "mentions": 13
+        "mentions": 15
       },
       {
         "coin": "ETH",
@@ -32,10 +32,6 @@
       },
       {
         "coin": "SOL",
-        "mentions": 5
-      },
-      {
-        "coin": "ADA",
         "mentions": 4
       },
       {
@@ -49,12 +45,16 @@
       {
         "coin": "LTC",
         "mentions": 3
+      },
+      {
+        "coin": "ADA",
+        "mentions": 3
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 28
+        "mentions": 29
       },
       {
         "topic": "pos",
@@ -85,16 +85,81 @@
         "mentions": 4
       },
       {
-        "topic": "liquidity",
+        "topic": "cftc",
         "mentions": 3
       },
       {
-        "topic": "cftc",
+        "topic": "lending",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "OpenAI, Anthropic to brief UN Security Council on AI risks: Reports",
+      "url": "https://cointelegraph.com/news/openai-anthropic-to-brief-un-security-council-on-ai-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-23T03:33:15+00:00",
+      "summary": "Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman are expected to brief the UN Security Council as it examines AI risks and global security.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC issues warning over risky prediction market ‘mention’ contracts",
+      "url": "https://cointelegraph.com/news/cftc-issues-warning-over-risky-prediction-market-mention-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-23T00:18:44+00:00",
+      "summary": "The warning comes weeks after the CFTC fined a former White House teleprompter operator who made more than $107,000 trading prediction contracts tied to President Trump’s speeches.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risky",
+          "warning"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms",
+      "url": "https://www.coindesk.com/policy/2026/09/22/u-s-regulator-warns-about-cheating-risks-in-mention-markets-on-prediction-platforms",
+      "published_at": "2026-09-23T00:00:45+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks",
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "Crypto VC Hashed anchors new digital asset private credit fund targeting $300 million",
@@ -1127,69 +1192,6 @@
         "normalized": 0.0,
         "label": "neutral",
         "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "A $3.2 million 'bitcoin butterfly' option trade bets on $95,000 by the end of October",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/22/a-usd3-2-million-bitcoin-butterfly-option-trade-bets-on-usd95-000-by-the-end-of-october",
-      "published_at": "2026-09-22T11:35:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "ECB to put its own money into tokenized securities via new Pontes DLT",
-      "url": "https://cointelegraph.com/news/ecb-money-tokenized-securities-pontes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-22T11:29:35+00:00",
-      "summary": "The ECB aims to gain firsthand DLT market experience by buying tokenized public-sector securities and settling the trades through Pontes.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "buying",
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
-      "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
-      "published_at": "2026-09-22T11:07:23+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buys"
-        ],
         "negative_hits": []
       },
       "coins": [
