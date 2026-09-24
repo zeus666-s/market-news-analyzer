@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-23T22:49:55.221078+00:00",
+  "generated_at": "2026-09-24T04:01:52.342885+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": 0.046,
     "label_distribution": {
-      "bearish": 12,
       "neutral": 39,
+      "bearish": 12,
       "bullish": 19
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "OP",
@@ -20,7 +20,11 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
+      },
+      {
+        "coin": "Near",
+        "mentions": 4
       },
       {
         "coin": "BTC",
@@ -32,10 +36,6 @@
       },
       {
         "coin": "SOL",
-        "mentions": 3
-      },
-      {
-        "coin": "Near",
         "mentions": 3
       },
       {
@@ -54,19 +54,19 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 38
+        "mentions": 37
       },
       {
         "topic": "pos",
         "mentions": 16
       },
       {
-        "topic": "sec",
+        "topic": "etf",
         "mentions": 8
       },
       {
-        "topic": "etf",
-        "mentions": 8
+        "topic": "sec",
+        "mentions": 7
       },
       {
         "topic": "exchange",
@@ -78,7 +78,7 @@
       },
       {
         "topic": "cftc",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "topic": "usdc",
@@ -95,6 +95,48 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Kalshi says CFTC hasn’t contacted it over ‘unusual’ $5B trading activity",
+      "url": "https://cointelegraph.com/news/kalshi-says-cftc-hasnt-contacted-it-over-unusual-5b-trading-activity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-24T00:53:09+00:00",
+      "summary": "Kalshi said nearly $5 billion in similarly sized Ether perpetual trades reflected its liquidity incentive programs and rejected allegations that the activity was wash trading.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "liquidity"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anthropic Says Claude Found Something Big in DNA. It Just Doesn't Know What",
+      "url": "https://decrypt.co/379128/anthropic-claude-found-something-big-dna-doesnt-know-what",
+      "published_at": "2026-09-23T22:56:03+00:00",
+      "summary": "Anthropic says Claude autonomously found a new CRISPR-like enzyme system. Even Dario Amodei admits nobody knows what it actually does.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": []
+    },
     {
       "source": "Decrypt",
       "title": "An AI Agent Just Hacked a Government Website for the First Time, Australia PM Says",
@@ -1116,46 +1158,6 @@
       "topics": [
         "ai",
         "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Crypto economy fell just 1.6% in 12 months despite $2.1 trillion market cap rout, Chainalysis says",
-      "url": "https://www.theblock.co/news/ecosystems/2026-09-23-crypto-economy-fell-just-1-6-in-12-months-despite-2-1-trillion-market-cap-rout-chainalysis-says-416150",
-      "published_at": "2026-09-23T13:00:00+00:00",
-      "summary": "Global crypto activity fell 1.6% to $9.4 trillion despite a massive $2.1 trillion market cap contraction, Chainalysis says.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Bitcoin Hits $86,000 as Oil Slides and ETFs Bid",
-      "url": "https://decrypt.co/379033/morning-minute-bitcoin-hits-86000-as-oil-slides-and-etfs-bid",
-      "published_at": "2026-09-23T12:26:07+00:00",
-      "summary": "Crypto majors continue their climb while alt leaders hit new ATHs. What’s driving the recent run up?",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
       ]
     }
   ]
