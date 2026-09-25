@@ -1,25 +1,29 @@
 {
-  "generated_at": "2026-09-25T13:27:05.896024+00:00",
+  "generated_at": "2026-09-25T19:55:27.483903+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.064,
+    "market_sentiment_score": -0.075,
     "label_distribution": {
-      "neutral": 34,
       "bullish": 13,
-      "bearish": 23
+      "bearish": 25,
+      "neutral": 32
     },
     "top_coins": [
       {
-        "coin": "OP",
-        "mentions": 27
+        "coin": "Bitcoin",
+        "mentions": 23
       },
       {
-        "coin": "Bitcoin",
-        "mentions": 25
+        "coin": "OP",
+        "mentions": 21
       },
       {
         "coin": "ETH",
+        "mentions": 11
+      },
+      {
+        "coin": "SOL",
         "mentions": 5
       },
       {
@@ -27,49 +31,49 @@
         "mentions": 4
       },
       {
-        "coin": "BTC",
-        "mentions": 3
+        "coin": "Solana",
+        "mentions": 4
       },
       {
-        "coin": "SOL",
-        "mentions": 3
+        "coin": "BTC",
+        "mentions": 4
       },
       {
         "coin": "Sui",
-        "mentions": 3
+        "mentions": 2
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 2
       },
       {
         "coin": "FIL",
-        "mentions": 2
-      },
-      {
-        "coin": "Binance",
-        "mentions": 2
-      },
-      {
-        "coin": "Solana",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 30
       },
       {
         "topic": "pos",
         "mentions": 22
       },
       {
-        "topic": "fed",
-        "mentions": 7
+        "topic": "sec",
+        "mentions": 9
       },
       {
-        "topic": "sec",
-        "mentions": 6
+        "topic": "exchange",
+        "mentions": 8
       },
       {
         "topic": "wallet",
+        "mentions": 8
+      },
+      {
+        "topic": "dai",
         "mentions": 6
       },
       {
@@ -77,24 +81,591 @@
         "mentions": 5
       },
       {
+        "topic": "fed",
+        "mentions": 5
+      },
+      {
+        "topic": "etf",
+        "mentions": 4
+      },
+      {
         "topic": "dao",
         "mentions": 4
-      },
-      {
-        "topic": "exchange",
-        "mentions": 4
-      },
-      {
-        "topic": "onchain",
-        "mentions": 3
-      },
-      {
-        "topic": "bridge",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin ETFs Extend Winning Streak With Nearly $3B in Inflows",
+      "url": "https://bitcoinmagazine.com/news/bitcoin-etfs-bring-in-nearly-3-billion",
+      "published_at": "2026-09-25T19:55:01+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin ETFs Extend Winning Streak With Nearly $3B in Inflows\nOver six days, investors have spent $2.8 billion buying shares in bitcoin exchange-traded funds. \nThis post Bitcoin ETFs Extend Winning Streak With Nearly $3B in Inflows first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "etf",
+        "exchange",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Blockchain Association CEO Summer Mersinger to step down, Kristin Smith to return as interim CEO",
+      "url": "https://www.theblock.co/news/regulation/2026-09-25-blockchain-association-ceo-summer-mersinger-tstep-down-kristin-smith-interim-ceo-416913",
+      "published_at": "2026-09-25T19:48:07+00:00",
+      "summary": "The Blockchain Association is switching up its leadership with CEO Summer Mersinger set to step down next month.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Agents Hacked Their Own Test Environment to Cheat, Cybersecurity Firm Finds",
+      "url": "https://decrypt.co/379369/ai-agents-hacked-test-environment-cheat-darktrace",
+      "published_at": "2026-09-25T19:45:39+00:00",
+      "summary": "Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attacks.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hacked"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Google Built an AI That Hunts Its Own Security Bugs",
+      "url": "https://decrypt.co/379364/google-built-ai-hunts-security-bugs",
+      "published_at": "2026-09-25T19:16:04+00:00",
+      "summary": "Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+      "url": "https://cointelegraph.com/news/us-authorities-seize-accounts-tether-bitfinex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T18:56:53+00:00",
+      "summary": "US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "LINK"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T18:42:59+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
+      "url": "https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack",
+      "published_at": "2026-09-25T18:42:51+00:00",
+      "summary": "The two stablecoin issuers blacklisted a wallet labeled \"Bitget Exploiter 8,\" locking about $318,000 in USDC and USDT—but the attacker swapped most funds into unfreezable ETH before they could act.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "stablecoin",
+        "usdc",
+        "usdt",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Former Hack VC partner Hsin-Ju Chuang’s death ruled a suicide",
+      "url": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T18:33:49+00:00",
+      "summary": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "Stellar",
+        "Sui",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Man charged in $16 million crypto ‘massive pig butchering’ scam",
+      "url": "https://www.theblock.co/news/regulation/2026-09-25-man-charged-in-16-million-crypto-massive-pig-butchering-scam-416895",
+      "published_at": "2026-09-25T17:48:16+00:00",
+      "summary": "A man was charged for his role in defrauding someone of millions of dollars' worth of crypto in a \"massive pig butchering\" scam.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
+      "url": "https://decrypt.co/379359/openai-500-per-month-chatgpt-pro-max-plan",
+      "published_at": "2026-09-25T17:46:05+00:00",
+      "summary": "Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitget clarifies $388M in assets affected by security breach",
+      "url": "https://cointelegraph.com/news/bitget-clarifies-assets-affected-security-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T17:17:45+00:00",
+      "summary": "The Bitget breach announced on Thursday affected about $35 million more than previously reported, based on an analysis of assets on Zcash and TRON.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Tron"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
+      "url": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect",
+      "published_at": "2026-09-25T17:08:57+00:00",
+      "summary": "An attacker faked internal transfer requests to drain $387.5 million from Bitget's hot and warm wallets, and the exchange's CEO says the fingerprints look like Pyongyang's.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "losses"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
+      "url": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T16:34:16+00:00",
+      "summary": "Strategy’s proposal would move STRC and its three other preferred stocks to daily dividend payments, following a similar move by Bitcoin treasury firm Strive.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approval"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+      "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
+      "published_at": "2026-09-25T16:17:19+00:00",
+      "summary": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit",
+          "risk",
+          "warns"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "nft",
+        "nfts",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+      "url": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+      "published_at": "2026-09-25T16:06:23+00:00",
+      "summary": "Pullback or reversal? Here's what the charts suggest for BTC.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Solana",
+        "SOL",
+        "XRP",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto Biz: Wall Street and crypto fight for the same turf",
+      "url": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T15:49:34+00:00",
+      "summary": "Stablecoins and tokenized assets are pushing banks, exchanges and crypto companies into the same markets, from payments to stocks and ETFs.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "etf",
+        "exchange",
+        "exchanges",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks",
+      "url": "https://bitcoinmagazine.com/news/strategy-proposes-daily-dividends",
+      "published_at": "2026-09-25T15:39:53+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks\nStrategy stockholders are being asked to attend a meeting to approve daily dividends on STRF, STRC, STRK, and STRD. \nThis post Bitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Is US Defence Secretary Pete Hegseth a Bitcoiner? This Is What His Accounts Say",
+      "url": "https://bitcoinmagazine.com/news/is-us-defence-secretary-pete-hegseth-a-bitcoiner-this-is-what-his-accounts-say",
+      "published_at": "2026-09-25T15:35:30+00:00",
+      "summary": "Bitcoin Magazine\n\nIs US Defence Secretary Pete Hegseth a Bitcoiner? This Is What His Accounts Say\nU.S. Defence Secretary Pete Hegseth has millions of dollars in investments. But how much of it is in bitcoin?\nThis post Is US Defence Secretary Pete Hegseth a Bitcoiner? This Is What His Accounts Say first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+      "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+      "published_at": "2026-09-25T14:41:53+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Tokenization is moving faster than Washington",
+      "url": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
+      "published_at": "2026-09-25T14:37:32+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+      "url": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure",
+      "published_at": "2026-09-25T14:32:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Strategy proposes daily dividends to bring STRC back toward $100",
+      "url": "https://www.coindesk.com/markets/2026/09/25/strategy-proposes-daily-dividends-to-bring-strc-back-toward-usd100",
+      "published_at": "2026-09-25T14:22:07+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Magic Eden legacy approvals leave $5.7 million in NFTs exposed to exploit before rescue",
+      "url": "https://www.theblock.co/news/web3/2026-09-25-magic-eden-legacy-approvals-leave-5-7-million-in-nfts-exposed-to-exploit-before-rescue-416874",
+      "published_at": "2026-09-25T14:09:15+00:00",
+      "summary": "Magic Eden legacy approvals exposed $5.7 million in NFTs to an exploit before whitehats rescued 23,155 tokens.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "nft",
+        "nfts",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Aave V4 on Base adds Coinbase tokenized stocks as collateral for USDC loans",
+      "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372",
+      "published_at": "2026-09-25T14:00:00+00:00",
+      "summary": "Aave V4 added Apple, Nvidia, Tesla, and four more tokenized stocks as collateral for USDC loans for non-U.S. users.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "usdc"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Strategy proposes daily dividends for STRC, STRD, STRF and STRK preferred stocks",
+      "url": "https://www.theblock.co/news/business/2026-09-25-strategy-proposes-daily-dividends-for-strc-strd-strf-and-strk-preferred-stocks-416869",
+      "published_at": "2026-09-25T13:48:57+00:00",
+      "summary": "Strategy is seeking shareholder approval to pay daily dividends across its four U.S.-listed preferred stocks.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approval"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Exchanges reporting crypto gains to IRS becomes tax nightmare",
+      "url": "https://cointelegraph.com/magazine/exchanges-reporting-crypto-gains-to-irs-becomes-tax-nightmare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T13:30:00+00:00",
+      "summary": "The IRS can now see your crypto gains, but has no idea about the cost-basis. That’s proving to be a big headache for some cryptocurrency investors.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Strategy Wants Its Preferred Stock Dividends to Accrue 365 Days a Year",
@@ -541,30 +1112,10 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live updates: Bitcoin steadies below $85,000 as bond selloff pauses",
+      "title": "Live updates: Bitcoin moves to $84,000, oil slides on latest report of Middle East progress",
       "url": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
       "published_at": "2026-09-25T07:09:11+00:00",
       "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-25T05:30:56+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -575,12 +1126,7 @@
       "coins": [
         "Bitcoin"
       ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
+      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -606,28 +1152,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Researchers propose Zcash-style private Bitcoin transfers without a soft fork",
-      "url": "https://cointelegraph.com/news/shielded-bitcoin-zcash-style-privacy-no-soft-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-25T04:41:06+00:00",
-      "summary": "Shielded Bitcoin would use zero-knowledge proofs and encrypted notes to hide transaction details without changing Bitcoin consensus, but researchers have raised questions about anonymity and quantum resistance.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Bitget's $352 million hack happened via spoofed transfers, not private keys, CEO Gracy Chen says",
       "url": "https://www.coindesk.com/markets/2026/09/25/bitget-s-usd351-million-hack-happened-via-spoofed-transfers-not-private-keys-ceo-gray-chen-says",
@@ -645,525 +1169,6 @@
       "coins": [],
       "topics": [
         "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
-      "url": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-25T02:00:54+00:00",
-      "summary": "Block joins Google, Microsoft, AWS and Coinbase in backing x402, an open payment standard enabling agentic AI commerce.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
-      "url": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-25T00:32:46+00:00",
-      "summary": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "investigation"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
-      "url": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-24T23:27:17+00:00",
-      "summary": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [
-          "adoption"
-        ],
-        "negative_hits": [
-          "hack",
-          "hacked",
-          "loss"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dex"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack",
-      "url": "https://bitcoinmagazine.com/news/bitget-suffers-352-million-hack",
-      "published_at": "2026-09-24T22:53:59+00:00",
-      "summary": "Bitcoin Magazine\n\nNearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack\nCrypto exchange Bitget detected unauthorized transfers and has temporarily halted withdrawals. \nThis post Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "halted"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "exchange",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "New York sues Polymarket, alleging it is running an illegal gambling operation",
-      "url": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation",
-      "published_at": "2026-09-24T22:41:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
-      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
-      "published_at": "2026-09-24T22:28:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "fed",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
-      "url": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-24T22:10:09+00:00",
-      "summary": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "fed",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "New York Sues Polymarket, Calling Prediction Market an Illegal Gambling Operation",
-      "url": "https://bitcoinmagazine.com/news/new-york-sues-polymarket",
-      "published_at": "2026-09-24T22:09:02+00:00",
-      "summary": "Bitcoin Magazine\n\nNew York Sues Polymarket, Calling Prediction Market an Illegal Gambling Operation\nAttorney General Letitia James and Governor Kathy Hochul allege Polymarket operates without a license in a new complaint. \nThis post New York Sues Polymarket, Calling Prediction Market an Illegal Gambling Operation first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
-      "url": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe",
-      "published_at": "2026-09-24T21:59:32+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
-      "url": "https://decrypt.co/379274/federal-reserve-unveils-stablecoin-rules-on-reserves-and-capital",
-      "published_at": "2026-09-24T21:56:03+00:00",
-      "summary": "The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process for banks seeking to issue stablecoins.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "fed",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitget confirms $352M security breach, suspends withdrawals",
-      "url": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-24T21:47:17+00:00",
-      "summary": "Bitget said unauthorized transfers affected a limited number of hot wallets, while cold wallets and most platform assets remained unaffected.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitget confirms $351.6 million security breach affecting exchange hot wallets",
-      "url": "https://www.theblock.co/news/markets/2026-09-24-more-than-170-million-in-crypto-moves-from-bitget-wallets-unidentified-address-416345",
-      "published_at": "2026-09-24T21:20:47+00:00",
-      "summary": "Bitget said private keys were not compromised and that losses from the incident will be covered by its User Protection Fund.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
-      "url": "https://decrypt.co/379275/bitget-hack-183-million-crypto-exchange-wallets",
-      "published_at": "2026-09-24T21:15:38+00:00",
-      "summary": "A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hacked"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "SEC Commissioner Hester ‘Crypto Mom’ Peirce Advocates Privacy-Preserving Tech",
-      "url": "https://bitcoinmagazine.com/news/hester-peirce-advocates-privacy-tech",
-      "published_at": "2026-09-24T20:58:35+00:00",
-      "summary": "Bitcoin Magazine\n\nSEC Commissioner Hester ‘Crypto Mom’ Peirce Advocates Privacy-Preserving Tech \nThe outgoing regulator took aim at how regulators collect crypto users’ data. \nThis post SEC Commissioner Hester ‘Crypto Mom’ Peirce Advocates Privacy-Preserving Tech  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Fed proposes reserve limits, capital standards for stablecoin issuers under GENIUS Act",
-      "url": "https://www.theblock.co/news/regulation/2026-09-24-fed-proposes-reserve-limits-capital-standards-stablecoin-issuers-genius-act-416336",
-      "published_at": "2026-09-24T20:19:46+00:00",
-      "summary": "The Federal Reserve proposed new measures for stablecoin issuers, including reserve-asset limits and standardized capital requirements.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "fed",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Someone was trying to sell Ondo Finance after founder Nathan Allman's death",
-      "url": "https://www.coindesk.com/business/2026/09/23/someone-was-trying-to-sell-ondo-finance-after-founder-nathan-allman-s-death",
-      "published_at": "2026-09-24T20:13:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bullish, Alpaca, Apex Fintech and DriveWealth form coalition to push issuer-backed tokenized stocks",
-      "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks",
-      "published_at": "2026-09-24T20:05:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. commodities firms can invest in tokenized assets, use blockchain records: CFTC",
-      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc",
-      "published_at": "2026-09-24T20:04:46+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The stock token debate, and the gap nobody can close alone",
-      "url": "https://www.coindesk.com/opinion/2026/09/24/the-stock-token-debate-and-the-gap-nobody-can-close-alone",
-      "published_at": "2026-09-24T20:03:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
-      "url": "https://decrypt.co/379272/humans-reading-chatgpt-chats-lawsuit",
-      "published_at": "2026-09-24T20:01:03+00:00",
-      "summary": "A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lawsuit"
-        ]
-      },
-      "coins": [
-        "Sui",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Jeff Booth: Why $1 Million BTC is Thinking too Small",
-      "url": "https://bitcoinmagazine.com/videos/jeff-booth-why-1-million-btc-is-thinking-too-small",
-      "published_at": "2026-09-24T19:29:53+00:00",
-      "summary": "Bitcoin Magazine\n\nJeff Booth: Why $1 Million BTC is Thinking too Small\nJeff Booth says a $1 million Bitcoin price target is thinking too small. Here is why valuing Bitcoin in debased fiat currency uses a rigged system.\nThis post Jeff Booth: Why $1 Million BTC is Thinking too Small first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "fiat",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Saifedean Ammous: The Bond Crisis & Bitcoin’s Rise as a True Macro Asset",
-      "url": "https://bitcoinmagazine.com/videos/saifedean-ammous-the-bond-crisis-bitcoins-rise-as-a-true-macro-asset",
-      "published_at": "2026-09-24T19:21:38+00:00",
-      "summary": "Bitcoin Magazine\n\nSaifedean Ammous: The Bond Crisis &#038; Bitcoin’s Rise as a True Macro Asset\nFalling volatility is Bitcoin's most bullish signal right now, according to Saifedean Ammous.\nThis post Saifedean Ammous: The Bond Crisis &#038; Bitcoin’s Rise as a True Macro Asset first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "macro",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
-      "url": "https://www.theblock.co/news/business/2026-09-24-solana-treasury-skyai-keeps-board-shareholder-protest-loses-equity-plan-vote-416298",
-      "published_at": "2026-09-24T19:17:47+00:00",
-      "summary": "SkyAI’s board survived a shareholder protest, but its proposed equity pay plan fell by a wide margin.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell",
-          "loses"
-        ]
-      },
-      "coins": [
-        "Solana",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
-      "url": "https://decrypt.co/379253/meta-ai-toy-muse-charm-keychain-watches-listens",
-      "published_at": "2026-09-24T19:16:03+00:00",
-      "summary": "Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
