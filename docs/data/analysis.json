@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-24T23:06:34.747870+00:00",
+  "generated_at": "2026-09-25T04:16:12.796334+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.013,
+    "market_sentiment_score": -0.032,
     "label_distribution": {
-      "bearish": 19,
-      "neutral": 37,
+      "neutral": 35,
+      "bearish": 21,
       "bullish": 14
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "coin": "Bitcoin",
-        "mentions": 19
+        "mentions": 20
       },
       {
         "coin": "Solana",
@@ -54,15 +54,15 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "topic": "stablecoin",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "topic": "wallet",
@@ -77,24 +77,93 @@
         "mentions": 6
       },
       {
-        "topic": "exchange",
+        "topic": "cftc",
         "mentions": 4
       },
       {
-        "topic": "cftc",
-        "mentions": 4
+        "topic": "exchange",
+        "mentions": 3
       },
       {
         "topic": "regulatory",
         "mentions": 2
       },
       {
-        "topic": "defi",
+        "topic": "onchain",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
+      "url": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T02:00:54+00:00",
+      "summary": "Block joins Google, Microsoft, AWS and Coinbase in backing x402, an open payment standard enabling agentic AI commerce.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+      "url": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-25T00:32:46+00:00",
+      "summary": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "investigation"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
+      "url": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-24T23:27:17+00:00",
+      "summary": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [
+          "adoption"
+        ],
+        "negative_hits": [
+          "hack",
+          "hacked",
+          "loss"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "dex"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack",
@@ -250,7 +319,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Bitget confirms $351M security breach, suspends withdrawals",
+      "title": "Bitget confirms $352M security breach, suspends withdrawals",
       "url": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-09-24T21:47:17+00:00",
       "summary": "Bitget said unauthorized transfers affected a limited number of hot wallets, while cold wallets and most platform assets remained unaffected.",
@@ -1089,75 +1158,6 @@
       ],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "[[alloc] init] Releases Shielded Bitcoin Proposal For Private Bitcoin Transactions",
-      "url": "https://bitcoinmagazine.com/technical/alloc-init-releases-shielded-bitcoin-proposal-for-private-bitcoin-transactions",
-      "published_at": "2026-09-24T14:36:22+00:00",
-      "summary": "Bitcoin Magazine\n\n[[alloc] init] Releases Shielded Bitcoin Proposal For Private Bitcoin Transactions\nShielded Bitcoin, a proposal from [[alloc] init], would enable Bitcoin transactions with strong privacy. \nThis post [[alloc] init] Releases Shielded Bitcoin Proposal For Private Bitcoin Transactions first appeared on Bitcoin Magazine and is written by Shinobi.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "strong"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Tron",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ondo launches onchain portfolio tokens based on BlackRock-developed strategies",
-      "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260",
-      "published_at": "2026-09-24T14:27:45+00:00",
-      "summary": "Ondo has launched three onchain portfolio tokens based on model portfolio strategies developed by BlackRock.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launched",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "IBM opens beta Swift ledger link for 24/7 tokenized deposits",
-      "url": "https://cointelegraph.com/news/ibm-banks-swift-ledger-tokenized-deposit-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-24T13:29:06+00:00",
-      "summary": "IBM’s beta link lets banks instruct tokenized deposit transfers on Swift’s ledger using existing payment messages and compliance processes.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK",
-        "OP"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
