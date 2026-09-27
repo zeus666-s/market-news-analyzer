@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-27T19:39:09.768178+00:00",
+  "generated_at": "2026-09-27T22:53:38.784670+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.05,
+    "market_sentiment_score": -0.046,
     "label_distribution": {
-      "neutral": 36,
-      "bullish": 14,
+      "bullish": 15,
+      "neutral": 35,
       "bearish": 20
     },
     "top_coins": [
@@ -20,14 +20,14 @@
       },
       {
         "coin": "ETH",
-        "mentions": 13
+        "mentions": 12
       },
       {
         "coin": "SOL",
         "mentions": 5
       },
       {
-        "coin": "Ethereum",
+        "coin": "LINK",
         "mentions": 4
       },
       {
@@ -39,15 +39,15 @@
         "mentions": 4
       },
       {
+        "coin": "Ethereum",
+        "mentions": 3
+      },
+      {
         "coin": "Near",
         "mentions": 3
       },
       {
         "coin": "XRP",
-        "mentions": 3
-      },
-      {
-        "coin": "LINK",
         "mentions": 3
       }
     ],
@@ -62,7 +62,7 @@
       },
       {
         "topic": "sec",
-        "mentions": 15
+        "mentions": 14
       },
       {
         "topic": "exchange",
@@ -70,7 +70,7 @@
       },
       {
         "topic": "wallet",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "fed",
@@ -95,6 +95,33 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Onchain analyst links $18.4 million in Robinhood Chain memecoin extractions to single rug-pull operation",
+      "url": "https://www.theblock.co/news/defi/2026-09-27-onchain-analyst-links-18-4-million-in-robinhood-chain-memecoin-extractions-to-single-rug-pull-operation-416960",
+      "published_at": "2026-09-27T22:02:57+00:00",
+      "summary": "The creators of 10 Pons V2 launches exempted a set of wallets from Pons' anti-sniping tax; those wallets went on to buy most of each token's supply, per onchain data.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "memecoin",
+        "onchain",
+        "wallet"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "AI Agents Keep Escaping Their Creators' Control—Here's What We Know",
@@ -1150,31 +1177,6 @@
         "ai",
         "exchange",
         "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
-      "url": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-25T16:34:16+00:00",
-      "summary": "Strategy’s proposal would move STRC and its three other preferred stocks to daily dividend payments, following a similar move by Bitcoin treasury firm Strive.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "pos"
       ]
     }
   ]
