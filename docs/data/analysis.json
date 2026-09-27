@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-09-27T13:42:42.894911+00:00",
+  "generated_at": "2026-09-27T19:39:09.768178+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.048,
+    "market_sentiment_score": -0.05,
     "label_distribution": {
-      "neutral": 34,
-      "bearish": 21,
-      "bullish": 15
+      "neutral": 36,
+      "bullish": 14,
+      "bearish": 20
     },
     "top_coins": [
       {
-        "coin": "Bitcoin",
-        "mentions": 20
+        "coin": "OP",
+        "mentions": 19
       },
       {
-        "coin": "OP",
-        "mentions": 17
+        "coin": "Bitcoin",
+        "mentions": 19
       },
       {
         "coin": "ETH",
-        "mentions": 11
+        "mentions": 13
       },
       {
         "coin": "SOL",
         "mentions": 5
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 4
       },
       {
         "coin": "BTC",
@@ -45,20 +49,16 @@
       {
         "coin": "LINK",
         "mentions": 3
-      },
-      {
-        "coin": "Binance",
-        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 38
       },
       {
         "topic": "pos",
-        "mentions": 22
+        "mentions": 23
       },
       {
         "topic": "sec",
@@ -95,6 +95,92 @@
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "AI Agents Keep Escaping Their Creators' Control—Here's What We Know",
+      "url": "https://decrypt.co/379402/ai-agents-keep-escaping-creators-control",
+      "published_at": "2026-09-27T16:01:03+00:00",
+      "summary": "An OpenAI agent's breach of an Australian government website is the starkest example yet of a pattern building for months—and of how hard autonomous AI is to contain.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin's Quantum Problem: Three Ways Researchers Are Trying to Fix It",
+      "url": "https://decrypt.co/379400/bitcoins-quantum-problem-three-ways-researchers-are-trying-to-fix-it",
+      "published_at": "2026-09-27T15:01:03+00:00",
+      "summary": "Three developments this week—a cost breakthrough, a new privacy design, and a custody playbook—show a field moving from theory to logistics, even as \"Q-Day\" remains hypotheti",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "breakthrough"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "‘It’s really not just a blockchain anymore’: Vitalik Buterin maps Ethereum’s path to 2030",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-27-its-really-not-just-a-blockchain-anymore-vitalik-buterin-maps-ethereums-path-to-2030-416953",
+      "published_at": "2026-09-27T14:35:53+00:00",
+      "summary": "Ethereum co-founder Vitalik Buterin said Ethereum is \"really not just a blockchain anymore\" and laid out how its design will change by 2030 in a post.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Vitalik Buterin maps Ethereum’s shift beyond a blockchain in sweeping 2030 vision",
+      "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
+      "published_at": "2026-09-27T14:29:13+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "SEC Staff Says Token Buybacks Don't Make Crypto a Security—If the Network Works",
@@ -1079,102 +1165,6 @@
         "positive_hits": [
           "approval"
         ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
-      "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
-      "published_at": "2026-09-25T16:17:19+00:00",
-      "summary": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "risk",
-          "warns"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "nft",
-        "nfts",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
-      "url": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
-      "published_at": "2026-09-25T16:06:23+00:00",
-      "summary": "Pullback or reversal? Here's what the charts suggest for BTC.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "rally"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Solana",
-        "SOL",
-        "XRP",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto Biz: Wall Street and crypto fight for the same turf",
-      "url": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-25T15:49:34+00:00",
-      "summary": "Stablecoins and tokenized assets are pushing banks, exchanges and crypto companies into the same markets, from payments to stocks and ETFs.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "etf",
-        "exchange",
-        "exchanges",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks",
-      "url": "https://bitcoinmagazine.com/news/strategy-proposes-daily-dividends",
-      "published_at": "2026-09-25T15:39:53+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks\nStrategy stockholders are being asked to attend a meeting to approve daily dividends on STRF, STRC, STRK, and STRD. \nThis post Bitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
         "negative_hits": []
       },
       "coins": [
