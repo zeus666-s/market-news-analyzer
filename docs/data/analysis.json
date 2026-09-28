@@ -1,33 +1,37 @@
 {
-  "generated_at": "2026-09-27T22:53:38.784670+00:00",
+  "generated_at": "2026-09-28T04:38:56.292541+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.046,
+    "market_sentiment_score": -0.07,
     "label_distribution": {
-      "bullish": 15,
-      "neutral": 35,
-      "bearish": 20
+      "bearish": 24,
+      "bullish": 13,
+      "neutral": 33
     },
     "top_coins": [
-      {
-        "coin": "OP",
-        "mentions": 19
-      },
       {
         "coin": "Bitcoin",
         "mentions": 19
       },
       {
+        "coin": "OP",
+        "mentions": 17
+      },
+      {
         "coin": "ETH",
-        "mentions": 12
+        "mentions": 13
+      },
+      {
+        "coin": "LINK",
+        "mentions": 5
       },
       {
         "coin": "SOL",
         "mentions": 5
       },
       {
-        "coin": "LINK",
+        "coin": "Ethereum",
         "mentions": 4
       },
       {
@@ -37,10 +41,6 @@
       {
         "coin": "Solana",
         "mentions": 4
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 3
       },
       {
         "coin": "Near",
@@ -58,18 +58,18 @@
       },
       {
         "topic": "pos",
-        "mentions": 23
+        "mentions": 21
       },
       {
         "topic": "sec",
         "mentions": 14
       },
       {
-        "topic": "exchange",
-        "mentions": 8
+        "topic": "wallet",
+        "mentions": 6
       },
       {
-        "topic": "wallet",
+        "topic": "exchange",
         "mentions": 6
       },
       {
@@ -77,24 +77,113 @@
         "mentions": 5
       },
       {
-        "topic": "dai",
-        "mentions": 5
-      },
-      {
-        "topic": "etf",
-        "mentions": 4
-      },
-      {
         "topic": "cftc",
         "mentions": 4
       },
       {
+        "topic": "etf",
+        "mentions": 3
+      },
+      {
         "topic": "stablecoin",
-        "mentions": 4
+        "mentions": 3
+      },
+      {
+        "topic": "dai",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin, Nasdaq futures decline as Trump won’t rule out more Iran strikes",
+      "url": "https://www.coindesk.com/markets/2026/09/28/bitcoin-and-nasdaq-futures-decline-as-trump-won-t-rule-out-more-iran-strikes",
+      "published_at": "2026-09-28T03:58:52+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "decline"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Newsom signs California ban on public officials issuing memecoins",
+      "url": "https://cointelegraph.com/news/newsom-signs-california-ban-on-public-officials-issuing-memecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-28T02:23:42+00:00",
+      "summary": "The law also restricts crypto companies from offering certain memecoins tied to public officials to California residents and takes effect for tokens issued from Jan. 1, 2027.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "ban"
+        ]
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "memecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Zano rolls blockchain back a month after Gateway Address exploit",
+      "url": "https://cointelegraph.com/news/zano-rolls-blockchain-back-a-month-after-gateway-address-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-28T01:09:22+00:00",
+      "summary": "The Zano blockchain has been restarted at the block height that came immediately before Hard Fork 6, which introduced Gateway Addresses.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-09-27T23:43:18+00:00",
+      "summary": "THORChain refuses to blacklist addresses linked to the Bitget hack. Vitalik Buterin says Ethereum is evolving from being a mere blockchain, into a world cryptographic computer.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "LINK"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Onchain analyst links $18.4 million in Robinhood Chain memecoin extractions to single rug-pull operation",
@@ -1097,87 +1186,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Man charged in $16 million crypto ‘massive pig butchering’ scam",
-      "url": "https://www.theblock.co/news/regulation/2026-09-25-man-charged-in-16-million-crypto-massive-pig-butchering-scam-416895",
-      "published_at": "2026-09-25T17:48:16+00:00",
-      "summary": "A man was charged for his role in defrauding someone of millions of dollars' worth of crypto in a \"massive pig butchering\" scam.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "scam"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
-      "url": "https://decrypt.co/379359/openai-500-per-month-chatgpt-pro-max-plan",
-      "published_at": "2026-09-25T17:46:05+00:00",
-      "summary": "Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitget clarifies $388M in assets affected by security breach",
-      "url": "https://cointelegraph.com/news/bitget-clarifies-assets-affected-security-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-09-25T17:17:45+00:00",
-      "summary": "The Bitget breach announced on Thursday affected about $35 million more than previously reported, based on an analysis of assets on Zcash and TRON.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
-      "url": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect",
-      "published_at": "2026-09-25T17:08:57+00:00",
-      "summary": "An attacker faked internal transfer requests to drain $387.5 million from Bitget's hot and warm wallets, and the exchange's CEO says the fingerprints look like Pyongyang's.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "wallet"
-      ]
     }
   ]
 }
