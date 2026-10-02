@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-10-01T20:53:50.689785+00:00",
+  "generated_at": "2026-10-02T04:55:43.380981+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.034,
+    "market_sentiment_score": -0.03,
     "label_distribution": {
-      "bullish": 13,
-      "bearish": 19,
-      "neutral": 38
+      "neutral": 37,
+      "bearish": 18,
+      "bullish": 15
     },
     "top_coins": [
       {
-        "coin": "Bitcoin",
-        "mentions": 24
+        "coin": "OP",
+        "mentions": 25
       },
       {
-        "coin": "OP",
-        "mentions": 21
+        "coin": "Bitcoin",
+        "mentions": 22
       },
       {
         "coin": "ETH",
-        "mentions": 9
-      },
-      {
-        "coin": "Near",
-        "mentions": 6
-      },
-      {
-        "coin": "Sui",
-        "mentions": 4
-      },
-      {
-        "coin": "BTC",
-        "mentions": 4
+        "mentions": 10
       },
       {
         "coin": "Ethereum",
-        "mentions": 4
+        "mentions": 7
+      },
+      {
+        "coin": "Near",
+        "mentions": 7
       },
       {
         "coin": "LINK",
-        "mentions": 2
-      },
-      {
-        "coin": "UNI",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "coin": "XRP",
+        "mentions": 3
+      },
+      {
+        "coin": "Sui",
+        "mentions": 3
+      },
+      {
+        "coin": "ADA",
+        "mentions": 2
+      },
+      {
+        "coin": "BTC",
         "mentions": 2
       }
     ],
@@ -58,22 +58,26 @@
       },
       {
         "topic": "pos",
-        "mentions": 21
+        "mentions": 23
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 12
       },
       {
         "topic": "stablecoin",
-        "mentions": 6
+        "mentions": 5
       },
       {
         "topic": "yield",
         "mentions": 4
       },
       {
-        "topic": "fed",
+        "topic": "miner",
+        "mentions": 3
+      },
+      {
+        "topic": "mining",
         "mentions": 3
       },
       {
@@ -81,20 +85,367 @@
         "mentions": 3
       },
       {
-        "topic": "dai",
+        "topic": "zk",
         "mentions": 2
       },
       {
-        "topic": "defi",
-        "mentions": 2
-      },
-      {
-        "topic": "miner",
+        "topic": "regulatory",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Core Lightning warns attackers are targeting unpatched Bitcoin nodes",
+      "url": "https://cointelegraph.com/news/core-lightning-urges-upgrade-amid-reports-attackers-targeting-unpatched-nodes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-02T04:18:43+00:00",
+      "summary": "Node operators running version 26.06.7 or earlier were told to upgrade immediately.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
+      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-02T03:34:25+00:00",
+      "summary": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "mainnet",
+        "pos",
+        "zk"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "NEAR Intents says its identified the hacker, gives 48-hour ultimatum",
+      "url": "https://cointelegraph.com/news/near-intents-says-its-identified-the-hacker-gives-48-hour-ultimatum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-02T02:02:13+00:00",
+      "summary": "“We have identified you, sir,” NEAR Intents general manager Alex Shevchenko said on Friday after the protocol was hacked for $3.8 million.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hacked"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SEC moves to clear custody hurdle for advisers offering crypto",
+      "url": "https://cointelegraph.com/news/sec-moves-to-clear-custody-hurdle-for-advisers-offering-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-02T01:07:08+00:00",
+      "summary": "Custody requirements have kept some investment advisers from offering certain crypto to clients, a regulatory hurdle the SEC’s proposal could remove.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "regulatory",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
+      "url": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504",
+      "published_at": "2026-10-02T00:22:58+00:00",
+      "summary": "Users deposit funds into an Ethereum vault and authorize spending with zero-knowledge proofs, so the API provider can't link requests to a payer.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "zk"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "China warns foreign spies about crypto, Singapore dominates Asia: Asia Express",
+      "url": "https://cointelegraph.com/magazine/china-claims-crypto-used-by-spies-singapore-dominates-asian-crypto-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-01T23:17:47+00:00",
+      "summary": "Singapore’s crypto economy grows 55%, South Korea set to make crypto market makers legal, and Chinese spy ministry warns would-be foreign spies it’s watching the blockchain.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Frank Holmes: They Will Print $100 Trillion – Why to Buy Bitcoin & Gold",
+      "url": "https://bitcoinmagazine.com/videos/frank-holmes-they-will-print-100-trillion-why-to-buy-bitcoin-gold",
+      "published_at": "2026-10-01T21:34:00+00:00",
+      "summary": "Bitcoin Magazine\n\nFrank Holmes: They Will Print $100 Trillion &#8211; Why to Buy Bitcoin &amp; Gold\nBitcoin miners hold the power and infrastructure AI needs. HIVE's Frank Holmes explains how mining sites and former Ethereum GPUs are fueling the AI boom.\nThis post Frank Holmes: They Will Print $100 Trillion &#8211; Why to Buy Bitcoin &amp; Gold first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "miners",
+        "mining",
+        "pos",
+        "pow"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Zcash Drops 21% From Recent High—Here’s Why the Rally May Not Be Over",
+      "url": "https://decrypt.co/379901/zcash-price-drops-etf-flows-rally",
+      "published_at": "2026-10-01T21:31:03+00:00",
+      "summary": "ZEC is 21% off its $1,698 peak after ETF outflows and a suspected North Korean heist routed money through its shielded pool. Is the run over, or will traders buy the dip?",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "buy",
+          "rally"
+        ],
+        "negative_hits": [
+          "drops"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Nico Lechuga: Bitcoin Will Revolutionize the $4T Private Equity Industry",
+      "url": "https://bitcoinmagazine.com/videos/nico-lechuga-bitcoin-will-revolutionize-the-4t-private-equity-industry",
+      "published_at": "2026-10-01T21:24:55+00:00",
+      "summary": "Bitcoin Magazine\n\nNico Lechuga: Bitcoin Will Revolutionize the $4T Private Equity Industry\nTraditional PE flips companies on tight deadlines. Ego Death Capital's Nico Lechuga explains how permanent capital and Bitcoin treasuries give founders a better choice.\nThis post Nico Lechuga: Bitcoin Will Revolutionize the $4T Private Equity Industry first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Darius Dale: Will Global Liquidity Send Bitcoin Higher in 2027?",
+      "url": "https://bitcoinmagazine.com/videos/darius-dale-will-global-liquidity-send-bitcoin-higher-in-2027",
+      "published_at": "2026-10-01T21:18:21+00:00",
+      "summary": "Bitcoin Magazine\n\nDarius Dale: Will Global Liquidity Send Bitcoin Higher in 2027?\nDarius Dale warns near-term liquidity tightening could trigger Bitcoin chop, but expects a major 12-to-18-month rally if liquidity returns in 2027.\nThis post Darius Dale: Will Global Liquidity Send Bitcoin Higher in 2027? first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "liquidity",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "SEC Proposes New Rules On Crypto Custody",
+      "url": "https://bitcoinmagazine.com/news/sec-proposes-crypto-custody-rules",
+      "published_at": "2026-10-01T21:09:53+00:00",
+      "summary": "Bitcoin Magazine\n\nSEC Proposes New Rules On Crypto Custody \nThe regulator proposed new rules it ​said would ​help govern investment ⁠funds’ custody of ​crypto assets. \nThis post SEC Proposes New Rules On Crypto Custody  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury",
+      "url": "https://cointelegraph.com/news/evernorth-clears-shareholder-vote-ahead-nasdaq-debut-473m-xrp-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-01T21:07:45+00:00",
+      "summary": "Evernorth expects to begin trading on Nasdaq under the ticker XRPN after its SPAC merger closes, with an XRP treasury worth roughly $710 million at current prices.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Sazmining Launches the Wild Sats Club, a Loyalty Program That Discounts Mining Management Fees as Customer Hashrate Grows",
+      "url": "https://bitcoinmagazine.com/press-releases/sazmining-launches-the-wild-sats-club-a-loyalty-program-that-discounts-mining-management-fees-as-customer-hashrate-grows",
+      "published_at": "2026-10-01T21:05:32+00:00",
+      "summary": "Bitcoin Magazine\n\nSazmining Launches the Wild Sats Club, a Loyalty Program That Discounts Mining Management Fees as Customer Hashrate Grows\nSazmining, a Bitcoin Mining as a Service company founded in 2020 and led by CEO and Co-Founder Kent Halliburton, today launched the Wild Sats Club, a loyalty program with four tiers that lowers the management fee customers pay as their petahash under management grows. The program is open to existing and new customers starting today. \nThis post Sazmining L...",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "mining",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "SEC proposes framework allowing investment advisers, funds to self-custody crypto",
+      "url": "https://www.theblock.co/news/regulation/2026-10-01-sec-proposes-crypto-custody-rule-investment-advisers-funds-417498",
+      "published_at": "2026-10-01T21:00:53+00:00",
+      "summary": "SEC proposed a crypto framework for investment advisers &amp; funds, allowing self-custody in some cases &amp; state trust companies as custodians.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trump to host 3rd ‘exclusive’ memecoin event amid corruption claims",
+      "url": "https://cointelegraph.com/news/donald-trump-memecoin-dinner-corruption-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-01T21:00:11+00:00",
+      "summary": "The president is scheduled to appear at his golf club in Washington, DC, at a Nov. 22 dinner for his top 185 memecoin holders, following similar events in May 2025 and April 2026.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "memecoin"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "SEC Proposes Rules to Clear Up How Advisers and Funds Can Hold Crypto",
@@ -141,7 +492,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "U.S. SEC maps out crypto custody in new proposal that furthers its digital assets agenda",
+      "title": "SEC proposes new crypto custody rules for investment advisers and funds",
       "url": "https://www.coindesk.com/policy/2026/10/01/u-s-sec-maps-out-crypto-custody-in-new-proposal-that-furthers-its-digital-assets-agenda",
       "published_at": "2026-10-01T20:20:04+00:00",
       "summary": "",
@@ -753,31 +1104,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Stablecoins can drain from banks and nations at lightning speed",
-      "url": "https://cointelegraph.com/magazine/stablecoins-can-drain-from-banks-and-nations-at-lightning-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-01T13:30:00+00:00",
-      "summary": "Highly liquid and settling 24/7, stablecoins can leave banks and countries at lightning speed. But whether stablecoins are a risk — or an opportunity — depends on your perspective.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Minecraft, Candy Crush Among 11 Games in EU Virtual Currency Crackdown",
       "url": "https://decrypt.co/379813/minecraft-candy-crush-among-11-games-in-eu-virtual-currency-crackdown",
@@ -873,298 +1199,6 @@
       ],
       "topics": [
         "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report",
-      "url": "https://www.coindesk.com/tech/2026/10/01/live-updates-bitcoin-flat-near-usd84-000-after-best-quarter-since-2024",
-      "published_at": "2026-10-01T11:59:17+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
-      "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
-      "published_at": "2026-10-01T11:58:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter",
-      "published_at": "2026-10-01T11:30:38+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lost"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Lloyds, Visa settle $750,000 using USDC in live cross-border pilot",
-      "url": "https://www.theblock.co/news/business/2026-10-01-lloyds-visa-settle-750000-using-usdc-in-live-cross-border-pilot-417378",
-      "published_at": "2026-10-01T11:13:46+00:00",
-      "summary": "Lloyds used USDC to settle $750,000 of payment obligations with Visa during a seven-day live cross-border pilot.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "usdc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Synthetic tokenized stocks are bad for American investors",
-      "url": "https://www.coindesk.com/opinion/2026/10/01/synthetic-tokenized-stocks-are-bad-for-american-investors",
-      "published_at": "2026-10-01T11:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tokenized assets don’t always mirror traditional markets, Dune finds",
-      "url": "https://cointelegraph.com/news/tokenized-assets-traditional-markets-dune-rwa-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-01T10:50:24+00:00",
-      "summary": "Dune found that tokenized markets show different trading patterns from traditional markets, with RWA value reaching $34.5 billion.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "rwa"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
-      "url": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
-      "published_at": "2026-10-01T10:38:04+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin trapped below $86K as PCE changes cloud inflation reading",
-      "url": "https://cointelegraph.com/markets/bitcoin-rally-lower-us-inflation-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-01T10:30:18+00:00",
-      "summary": "Bitcoin erased its post-PCE gains as analysts cautioned that methodology changes complicated the lower-than-expected inflation reading.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "inflation",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance’s EU services face scrutiny over licensing exemption: Report",
-      "url": "https://cointelegraph.com/news/europe-binance-questions-esma-tighter-mica-oversight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-01T10:07:18+00:00",
-      "summary": "EU regulators are reportedly examining Binance’s use of a MiCA exemption to serve customers as ESMA seeks stronger enforcement powers.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Binance",
-        "Tron"
-      ],
-      "topics": [
-        "mining",
-        "pow"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
-      "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
-      "published_at": "2026-10-01T09:59:30+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "etf"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "MetaMask Exits Lido Validators Amid Infrastructure ‘Security Incident’",
-      "url": "https://decrypt.co/379800/metamask-exits-lido-validators-amid-infrastructure-security-incident",
-      "published_at": "2026-10-01T09:38:06+00:00",
-      "summary": "The wallet says it has found no immediate threat to user wallets, but the ETH it is pulling out of Lido could take 45 days to return.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "sec",
-        "validator",
-        "validators",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Chainalysis beats most Celsius claims, but ‘audit’ lawsuit survives",
-      "url": "https://cointelegraph.com/news/celsius-chainalysis-lawsuit-audit-claim-survives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-01T09:09:46+00:00",
-      "summary": "Chainalysis still faces an aiding-and-abetting claim over Celsius’ disputed $3.3 billion audit after a judge dismissed 15 other claims.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lawsuit"
-        ]
-      },
-      "coins": [
-        "Sui"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "EU Presses Binance Over ‘Reverse Solicitation’ Exemption for Users: Report",
-      "url": "https://decrypt.co/379792/eu-presses-binance-over-reverse-solicitation-exemption-for-users-report",
-      "published_at": "2026-10-01T08:56:02+00:00",
-      "summary": "Regulators are probing how the exchange keeps serving EU customers from Abu Dhabi, months after it lost its MiCA registrations.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lost"
-        ]
-      },
-      "coins": [
-        "SOL",
-        "Binance"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs draw $6.3B in Q3 as BTC price rises nearly 43%",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-6-3-billion-inflows-q3-btc-rise-43?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-01T07:27:00+00:00",
-      "summary": "Bitcoin gained 42.71% in Q3, its best third-quarter performance since 2017, as US spot ETFs attracted $6.34 billion in net inflows.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "spot etf"
       ]
     }
   ]
