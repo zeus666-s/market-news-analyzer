@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-03T13:10:47.926734+00:00",
+  "generated_at": "2026-10-03T19:06:22.388195+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.011,
+    "market_sentiment_score": -0.011,
     "label_distribution": {
+      "bearish": 20,
       "neutral": 27,
-      "bearish": 18,
-      "bullish": 25
+      "bullish": 23
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "Bitcoin",
-        "mentions": 23
+        "mentions": 21
       },
       {
         "coin": "ETH",
@@ -54,23 +54,19 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 22
+        "mentions": 21
       },
       {
         "topic": "sec",
-        "mentions": 8
+        "mentions": 6
       },
       {
         "topic": "stablecoin",
         "mentions": 5
-      },
-      {
-        "topic": "etf",
-        "mentions": 4
       },
       {
         "topic": "fed",
@@ -78,6 +74,10 @@
       },
       {
         "topic": "liquidity",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
         "mentions": 3
       },
       {
@@ -95,6 +95,126 @@
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea",
+      "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+      "published_at": "2026-10-03T17:01:03+00:00",
+      "summary": "The firm says the Sept. 24 breach pushed North Korea's 2026 crypto haul past $1 billion, and detailed how it used in-house AI to trace the stolen funds across four blockchains in a race against the attackers.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "stolen"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Banned PewDiePie Twice While He Built Ajax, an Uncensored AI That Will Run on Your PC",
+      "url": "https://decrypt.co/380001/openai-banned-pewdiepie-twice-ajax-uncensored-ai",
+      "published_at": "2026-10-03T16:01:03+00:00",
+      "summary": "The YouTuber says OpenAI suspended his account twice while he trained a small, uncensored model built to run on your own computer.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "banned"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
+      "url": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
+      "published_at": "2026-10-03T16:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto job postings triple to over 1,200 in September, but applications fall",
+      "url": "https://www.coindesk.com/business/2026/10/03/crypto-job-postings-triple-to-over-1-200-in-september-but-applications-fall",
+      "published_at": "2026-10-03T16:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Trump Is Hosting Yet Another Meme Coin Dinner: Here Are the Details",
+      "url": "https://decrypt.co/380002/trump-third-meme-coin-dinner-details",
+      "published_at": "2026-10-03T15:01:03+00:00",
+      "summary": "The TRUMP meme coin project is inviting its top 185 holders to a Nov. 22 gala dinner with President Trump two weeks after ethics disputes over his crypto interests helped stall the Clarity Act in the Senate.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cathie Wood says smart investors need to start watching where AI agents spend money",
+      "url": "https://www.coindesk.com/markets/2026/10/01/cathie-wood-says-smart-investors-need-to-start-watching-where-ai-agents-spend-money",
+      "published_at": "2026-10-03T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "The Pope Has Thoughts on AI Art—And They're Not Flattering",
@@ -1041,129 +1161,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin treasuries may struggle to match Strategy, says Ammous",
-      "url": "https://cointelegraph.com/news/bitcoin-treasuries-struggle-strategy-says-ammous?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T10:54:33+00:00",
-      "summary": "Strategy’s scale and cash reserves give it an edge over treasury rivals, according to Saifedean Ammous, author of “The Bitcoin Standard.”",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "struggle"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%",
-      "url": "https://www.coindesk.com/markets/2026/10/02/crypto-traders-are-in-risk-on-mode-as-bitcoin-dominance-nears-return-to-60",
-      "published_at": "2026-10-02T10:31:16+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "ECB outlines three models for putting central bank money onchain",
-      "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552",
-      "published_at": "2026-10-02T10:17:39+00:00",
-      "summary": "The ECB outlined three models for bringing central bank money onchain as financial institutions explore settlement infrastructure.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin open interest jumps $2.3 billion as traders pay more for bullish positions",
-      "url": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500",
-      "published_at": "2026-10-02T09:14:21+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Spanish Police Arrest 16-Year-Old Accused of Running KillSec Ransomware Group",
-      "url": "https://decrypt.co/379913/spanish-police-arrest-16-year-old-accused-of-running-killsec-ransomware-group",
-      "published_at": "2026-10-02T09:12:54+00:00",
-      "summary": "A second suspect faces extradition to Puerto Rico, while Investigators are tracing the proceeds of ransoms the group demanded in crypto.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tether's USDT is 'coming home' to Bitcoin after more than a decade",
-      "url": "https://www.coindesk.com/tech/2026/09/29/tether-s-usdt-is-coming-home-to-bitcoin-this-month-after-more-than-a-decade",
-      "published_at": "2026-10-02T08:28:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": [
-        "usdt"
       ]
     }
   ]
