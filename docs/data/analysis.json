@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-03T04:38:51.147807+00:00",
+  "generated_at": "2026-10-03T13:10:47.926734+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.0,
+    "market_sentiment_score": 0.011,
     "label_distribution": {
-      "bullish": 24,
+      "neutral": 27,
       "bearish": 18,
-      "neutral": 28
+      "bullish": 25
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 25
+        "mentions": 24
       },
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "ETH",
@@ -31,19 +31,19 @@
         "mentions": 7
       },
       {
-        "coin": "BTC",
-        "mentions": 3
-      },
-      {
-        "coin": "ADA",
-        "mentions": 2
-      },
-      {
-        "coin": "LINK",
-        "mentions": 2
-      },
-      {
         "coin": "UNI",
+        "mentions": 2
+      },
+      {
+        "coin": "BTC",
+        "mentions": 2
+      },
+      {
+        "coin": "ALGO",
+        "mentions": 1
+      },
+      {
+        "coin": "Sui",
         "mentions": 1
       },
       {
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "topic": "pos",
@@ -69,10 +69,6 @@
         "mentions": 5
       },
       {
-        "topic": "liquidity",
-        "mentions": 4
-      },
-      {
         "topic": "etf",
         "mentions": 4
       },
@@ -81,20 +77,171 @@
         "mentions": 3
       },
       {
+        "topic": "liquidity",
+        "mentions": 3
+      },
+      {
+        "topic": "tokenization",
+        "mentions": 2
+      },
+      {
         "topic": "dai",
         "mentions": 2
       },
       {
         "topic": "usdc",
         "mentions": 2
-      },
-      {
-        "topic": "zk",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "The Pope Has Thoughts on AI Art—And They're Not Flattering",
+      "url": "https://decrypt.co/379983/pope-leo-human-art-ai-creation",
+      "published_at": "2026-10-03T13:01:04+00:00",
+      "summary": "The pontiff says algorithms \"lack the spark of humanity,\" and the Vatican wants to renew an alliance with artists and cultural institutions to protect it.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ALGO",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto's Sisyphean struggle",
+      "url": "https://www.coindesk.com/opinion/2026/10/03/crypto-s-sisyphean-struggle",
+      "published_at": "2026-10-03T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "struggle"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BlackRock offers a glimpse of how tokenization may change your investment portfolio",
+      "url": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
+      "published_at": "2026-10-03T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-03T12:20:00+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "NEAR Intents recovers entire stolen $3.8M after ultimatum to exploiter",
+      "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-03T11:59:10+00:00",
+      "summary": "The exploiter returned the entire sum to NEAR Intents after being identified and given 48 hours to respond.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Community banks sue OCC over trust bank charters of crypto firms",
+      "url": "https://cointelegraph.com/news/community-banks-sue-occ-over-trust-bank-charters-of-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-03T09:25:01+00:00",
+      "summary": "Community banking group’s lawsuit claims OCC has overstepped its mandate from Congress.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "UNI",
+        "Sui"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
+      "url": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-03T07:06:08+00:00",
+      "summary": "US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "innovation"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "IMF Praises El Salvador — But Still Tries To Scale Back Its Bitcoin Project",
@@ -157,29 +304,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T20:46:58+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -962,25 +1086,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "CONNECT recap: Arthur Hayes on money printing, Wall Street moves onchain",
-      "url": "https://cointelegraph.com/news/connect-recap-arthur-hayes-money-printing-wall-street-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T10:29:35+00:00",
-      "summary": "Arthur Hayes said money printing could lift crypto prices, while CONNECT Seoul speakers examined Wall Street’s competitive edge onchain.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "ECB outlines three models for putting central bank money onchain",
       "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552",
@@ -997,56 +1102,6 @@
       "topics": [
         "ai",
         "onchain"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin reaches for $87K as short liquidations top $120M",
-      "url": "https://cointelegraph.com/markets/bitcoin-87k-order-book-liquidity-wall-shifts-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T09:37:06+00:00",
-      "summary": "Bitcoin buyers broke through a wall of ask liquidity to reach new October BTC price highs near $87,800, with the area immediately above now a new resistance hurdle.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "liquidity"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Aave founder says V3 unaffected after third-party adapter exploit drains $305K",
-      "url": "https://cointelegraph.com/news/aave-v3-third-party-adapter-exploit-305k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T09:30:49+00:00",
-      "summary": "Aave founder Stani Kulechov said Aave v3 was unaffected after an attacker exploited a third-party adapter to drain about $305,000 from two Safe multisig wallets.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit",
-          "exploited"
-        ]
-      },
-      "coins": [
-        "ADA",
-        "APT"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
       ]
     },
     {
@@ -1109,71 +1164,6 @@
       ],
       "topics": [
         "usdt"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin tops $86,000 ahead of U.S. jobs report",
-      "url": "https://www.coindesk.com/markets/2026/10/02/bitcoin-tops-usd86-000-ahead-of-u-s-jobs-report",
-      "published_at": "2026-10-02T08:11:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Spot bitcoin ETFs log $2.7 billion in September inflows as institutional demand holds",
-      "url": "https://www.theblock.co/news/markets/2026-10-02-spot-bitcoin-etfs-september-inflows-417547",
-      "published_at": "2026-10-02T05:50:41+00:00",
-      "summary": "US spot bitcoin ETFs recorded $2.65 billion in net inflows in September, their second-largest monthly inflow since October 2025.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "SEC’s innovation exemption poses constraint on bringing stock tokens to US, Robinhood crypto chief says",
-      "url": "https://www.theblock.co/news/regulation/2026-10-02-secs-innovation-exemption-robinhood-417538",
-      "published_at": "2026-10-02T05:04:41+00:00",
-      "summary": "Robinhood's Johann Kerbrat told The Block that Robinhood is still working through the SEC's latest innovation exemption on tokenized stocks.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "innovation"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
       ]
     }
   ]
