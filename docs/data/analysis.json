@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-04T13:49:54.435301+00:00",
+  "generated_at": "2026-10-04T19:20:18.246574+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.018,
+    "market_sentiment_score": -0.014,
     "label_distribution": {
+      "neutral": 29,
       "bearish": 20,
-      "neutral": 28,
-      "bullish": 22
+      "bullish": 21
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 22
-      },
-      {
-        "coin": "Bitcoin",
         "mentions": 20
       },
       {
+        "coin": "Bitcoin",
+        "mentions": 18
+      },
+      {
         "coin": "ETH",
-        "mentions": 14
+        "mentions": 13
       },
       {
         "coin": "Ethereum",
@@ -28,10 +28,14 @@
       },
       {
         "coin": "Near",
-        "mentions": 8
+        "mentions": 5
       },
       {
         "coin": "UNI",
+        "mentions": 3
+      },
+      {
+        "coin": "Sui",
         "mentions": 2
       },
       {
@@ -39,34 +43,42 @@
         "mentions": 2
       },
       {
+        "coin": "Ripple",
+        "mentions": 1
+      },
+      {
         "coin": "ALGO",
-        "mentions": 1
-      },
-      {
-        "coin": "Sui",
-        "mentions": 1
-      },
-      {
-        "coin": "LINK",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "stablecoin",
         "mentions": 4
+      },
+      {
+        "topic": "fed",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
+        "mentions": 3
+      },
+      {
+        "topic": "dai",
+        "mentions": 2
       },
       {
         "topic": "regulation",
@@ -77,24 +89,155 @@
         "mentions": 2
       },
       {
-        "topic": "dai",
-        "mentions": 2
-      },
-      {
         "topic": "usdc",
-        "mentions": 2
-      },
-      {
-        "topic": "zk",
-        "mentions": 2
-      },
-      {
-        "topic": "l2",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-04T18:51:50+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "There's an election next month: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/10/04/there-s-an-election-next-month-state-of-crypto",
+      "published_at": "2026-10-04T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Trump Taps Jay Clayton, the SEC Chair Who Sued Ripple, to Lead AI Push",
+      "url": "https://decrypt.co/380019/trump-jay-clayton-sec-ripple-ai-push-super-intelligence",
+      "published_at": "2026-10-04T17:01:03+00:00",
+      "summary": "President Trump named a new \"Super Intelligence Force\" to coordinate federal AI policy, with Director of National Intelligence Jay Clayton at the helm. As SEC chair, Clayton launched crypto lawsuits including the agency's case against Ripple.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": [
+          "sued"
+        ]
+      },
+      "coins": [
+        "Ripple",
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Banking Group Sues to Block Crypto's 'Side Door' Into the Banking System",
+      "url": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking",
+      "published_at": "2026-10-04T16:01:03+00:00",
+      "summary": "The Independent Community Bankers of America argues the OCC's national trust charters give crypto firms a \"side door into the banking system\" without the safeguards that bind traditional banks.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
+      "url": "https://decrypt.co/380007/uptober-starts-green-bitcoin-etfs-draw-134-million",
+      "published_at": "2026-10-04T15:01:03+00:00",
+      "summary": "Spot Bitcoin ETFs took in $134.4 million over the first two trading days of October, rebounding from a Sept. 30 outflow as a weak jobs report cooled Fed rate-hike bets.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "weak"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "fed"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto poured years into new products. The next challenge is keeping users",
+      "url": "https://www.coindesk.com/business/2026/10/04/crypto-poured-years-into-new-products-the-next-challenge-is-keeping-users",
+      "published_at": "2026-10-04T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trump taps intel chief Jay Clayton to lead new Super Intelligence Force",
+      "url": "https://cointelegraph.com/news/trump-taps-jay-clayton-to-lead-new-super-intelligence-force?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-04T13:48:48+00:00",
+      "summary": "President Donald Trump said US intel chief Clayton will lead the SIF, reporting to the president and Chief of Staff Susie Wiles.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "'We Have Identified You, Sir': Near Intents Recovers $3.8 Million After 48-Hour Ultimatum",
@@ -366,29 +509,6 @@
       "coins": [],
       "topics": [
         "tokenization"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-03T12:20:00+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -1010,30 +1130,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Furious debate about THORChain vs NEAR shows idealism has limits",
-      "url": "https://cointelegraph.com/magazine/furious-debate-about-thorchain-vs-near-shows-idealism-has-limits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T13:30:00+00:00",
-      "summary": "The furious debate over Bitget’s $387.7M of hacked funds comes down to whether ideals around “permissionless and decentralized” tech means never intervening — even if you could.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "hacked"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "America at a crossroads: Commissioner Peirce’s parting challenge",
       "url": "https://www.coindesk.com/opinion/2026/10/01/america-at-a-crossroads-commissioner-peirce-s-parting-challenge",
@@ -1047,116 +1143,6 @@
         "negative_hits": []
       },
       "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Impacts of Daily Dividends on Digital Credit",
-      "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/impacts-of-daily-dividends-on-digital-credit",
-      "published_at": "2026-10-02T13:20:41+00:00",
-      "summary": "Bitcoin Magazine\n\nImpacts of Daily Dividends on Digital Credit\nAnalyzing the implications for digital credit instruments paying daily dividends.\nThis post Impacts of Daily Dividends on Digital Credit first appeared on Bitcoin Magazine and is written by Allard Peng.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "'Uptober' Off With a Bang as Bitcoin Surges to $86K",
-      "url": "https://decrypt.co/379932/uptober-off-with-a-bang-as-bitcoin-surges-to-86k",
-      "published_at": "2026-10-02T12:58:25+00:00",
-      "summary": "Cooler inflation and two dovish Fed speakers have shifted the odds toward a rate hold, with payrolls due and CPI landing on October 14.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surges"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. added just 29,000 jobs in September, with unemployment rate rising to 4.2%",
-      "url": "https://www.coindesk.com/markets/2026/10/02/u-s-added-just-29-000-jobs-in-september-with-unemployment-rate-rising-to-4-2",
-      "published_at": "2026-10-02T12:31:53+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "BitGo CEO says Clarity’s failure left capital markets exposed to risk potentially worse than Lehman",
-      "url": "https://www.theblock.co/news/regulation/2026-10-02-mike-belshe-bitgo-interview-clarity-417560",
-      "published_at": "2026-10-02T12:28:54+00:00",
-      "summary": "BitGo CEO Mike Belshe warned that Clarity's failure left systemic risks arising from one firm holding exchange, brokerage, and custody functions.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "failure",
-          "risk",
-          "risks",
-          "warned"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: NEAR Intents Hacked for $3.8M - Was It A Bullish Hack?",
-      "url": "https://decrypt.co/379929/morning-minute-near-intents-hacked-for-3-8m-was-it-a-bullish-hack",
-      "published_at": "2026-10-02T12:19:00+00:00",
-      "summary": "Hacks are never good, but a rapid response, user compensation and 1-hour bug fixing seems to top the spectrum of team reactions.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": [
-          "hack",
-          "hacked"
-        ]
-      },
-      "coins": [
-        "Near",
-        "OP"
-      ],
       "topics": []
     }
   ]
