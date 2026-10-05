@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-04T22:54:26.297357+00:00",
+  "generated_at": "2026-10-05T04:54:58.750489+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.013,
+    "market_sentiment_score": 0.005,
     "label_distribution": {
-      "bullish": 21,
-      "neutral": 29,
-      "bearish": 20
+      "neutral": 28,
+      "bullish": 24,
+      "bearish": 18
     },
     "top_coins": [
+      {
+        "coin": "OP",
+        "mentions": 21
+      },
       {
         "coin": "Bitcoin",
         "mentions": 19
       },
       {
-        "coin": "OP",
-        "mentions": 19
-      },
-      {
         "coin": "ETH",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "coin": "Ethereum",
@@ -28,7 +28,11 @@
       },
       {
         "coin": "Near",
-        "mentions": 5
+        "mentions": 6
+      },
+      {
+        "coin": "FIL",
+        "mentions": 3
       },
       {
         "coin": "XRP",
@@ -43,10 +47,6 @@
         "mentions": 2
       },
       {
-        "coin": "BTC",
-        "mentions": 2
-      },
-      {
         "coin": "Ripple",
         "mentions": 1
       }
@@ -54,15 +54,19 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 35
       },
       {
         "topic": "pos",
-        "mentions": 18
+        "mentions": 19
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 9
+      },
+      {
+        "topic": "mainnet",
+        "mentions": 3
       },
       {
         "topic": "fed",
@@ -77,24 +81,186 @@
         "mentions": 3
       },
       {
-        "topic": "dai",
+        "topic": "testnet",
         "mentions": 2
       },
       {
-        "topic": "regulation",
+        "topic": "liquidity",
         "mentions": 2
       },
       {
-        "topic": "tokenization",
-        "mentions": 2
-      },
-      {
-        "topic": "usdc",
+        "topic": "governance",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Joint venture of OKX and NYSE parent ICE files for 24/7 tokenized U.S. stock trading",
+      "url": "https://www.coindesk.com/markets/2026/10/05/okx-and-nyse-s-owner-file-for-round-the-clock-tokenized-trading-in-u-s-stocks",
+      "published_at": "2026-10-05T04:45:03+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Zcash’s 25-second blocks go live on public testnet ahead of schedule",
+      "url": "https://www.coindesk.com/tech/2026/10/05/zcash-s-25-second-blocks-go-live-on-public-testnet-ahead-of-schedule",
+      "published_at": "2026-10-05T04:41:35+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec",
+        "testnet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin zooms toward $87,000, nearly setting an eight-month high, then reverses",
+      "url": "https://www.coindesk.com/markets/2026/10/05/bitcoin-zooms-toward-usd87-000-nearly-setting-an-eight-month-high-then-reverses",
+      "published_at": "2026-10-05T04:23:25+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+      "published_at": "2026-10-05T03:50:29+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "liquidity"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Zcash activates NU7 on testnet ahead of November mainnet target",
+      "url": "https://cointelegraph.com/news/zcash-nu7-testnet-activation-november-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-05T03:47:19+00:00",
+      "summary": "Zcash’s NU7 upgrade is now live on testnet, giving developers several weeks to assess 25-second blocks and other protocol changes before a planned November mainnet activation.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "mainnet",
+        "sec",
+        "testnet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "OKX, NYSE parent file to launch tokenized US stock platform",
+      "url": "https://cointelegraph.com/news/okx-nyse-parent-file-to-launch-tokenized-us-stock-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-05T03:44:09+00:00",
+      "summary": "The stock trading platform seeks to offer tokenized shares in more than 60 US-listed companies under the SEC’s recently introduced innovation exemption.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "innovation",
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Safe investor asks Swiss watchdog to intervene in governance dispute",
+      "url": "https://cointelegraph.com/news/safe-investor-asks-swiss-watchdog-to-intervene-in-governance-dispute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-05T03:12:21+00:00",
+      "summary": "Greenfield Capital said it sought changes to Safe Ecosystem Foundation’s board for months before turning to the Swiss regulator.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Zcash gets a Washington lobbyist to push crypto policy",
+      "url": "https://cointelegraph.com/news/zcash-gets-a-washington-lobbyist-to-push-crypto-policy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-05T00:35:34+00:00",
+      "summary": "The newly registered lobbying operation lists the CLARITY Act and two digital asset tax proposals among the issues it plans to lobby on in Washington.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Former SEC boss made AI Czar, Bitcoin may hit $600K this cycle: Hodler’s Digest",
@@ -117,29 +283,6 @@
       "topics": [
         "ai",
         "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-04T18:51:50+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
       ]
     },
     {
@@ -911,25 +1054,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "Trump’s potential AI czar, Jay Clayton, helped pioneer the SEC’s crypto crackdown",
-      "url": "https://www.coindesk.com/news-analysis/2026/10/02/possible-next-crypto-czar-jay-clayton-began-crypto-s-regulation-by-enforcement-at-sec",
-      "published_at": "2026-10-02T17:12:48+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Drift opens exploit recovery claims with initial payouts of just over 1% of user losses",
       "url": "https://www.theblock.co/news/ecosystems/2026-10-02-drift-opens-exploit-recovery-claims-initial-payouts-just-over-1-user-losses-417581",
@@ -1000,68 +1124,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "71% of UK finance leaders expect tokenization to reshape financial services: Lloyds",
-      "url": "https://cointelegraph.com/news/71-percent-uk-finance-leaders-expect-tokenization-reshape-financial-services-lloyds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T16:20:24+00:00",
-      "summary": "A Lloyds survey found that faster payments and settlement are the most significant perceived benefits of tokenization, as the UK builds infrastructure for tokenized finance.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto’s billions are back, but the premiums aren’t",
-      "url": "https://cointelegraph.com/news/crypto-biz-kalshi-blockchain-com-crypto-treasury-valuations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T15:32:53+00:00",
-      "summary": "Kalshi seeks a $40 billion valuation, while Blockchain.com targets an IPO and crypto treasury companies struggle to maintain their once-high valuations.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "struggle"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower",
-      "url": "https://cointelegraph.com/markets/bitcoin-briefly-taps-87k-as-bond-yields-drop-on-low-us-nonfarm-payrolls-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-02T15:27:31+00:00",
-      "summary": "Bitcoin climbed after weaker-than-expected payrolls pushed Treasury yields lower, but order-book resistance kept BTC from reaching new macro highs.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "weak"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "macro",
-        "yield"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Bitcoin Price Surges Above $87,000 on Softer-Than-Expected Jobs Data",
       "url": "https://bitcoinmagazine.com/markets/bitcoin-price-surges-on-soft-jobs-data",
@@ -1081,65 +1143,6 @@
       ],
       "topics": [
         "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin nears highest level since January as $85,000 sell wall clears, US jobs data disappoints",
-      "url": "https://www.theblock.co/news/markets/2026-10-02-bitcoin-nears-highest-level-january-85000-sell-wall-clears-us-jobs-data-disappoints-417570",
-      "published_at": "2026-10-02T13:34:40+00:00",
-      "summary": "Bitcoin climbed back toward $87,000 on Friday as sellers cleared out around $85,000, according to Glassnode.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "America at a crossroads: Commissioner Peirce’s parting challenge",
-      "url": "https://www.coindesk.com/opinion/2026/10/01/america-at-a-crossroads-commissioner-peirce-s-parting-challenge",
-      "published_at": "2026-10-02T13:22:19+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Impacts of Daily Dividends on Digital Credit",
-      "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/impacts-of-daily-dividends-on-digital-credit",
-      "published_at": "2026-10-02T13:20:41+00:00",
-      "summary": "Bitcoin Magazine\n\nImpacts of Daily Dividends on Digital Credit\nAnalyzing the implications for digital credit instruments paying daily dividends.\nThis post Impacts of Daily Dividends on Digital Credit first appeared on Bitcoin Magazine and is written by Allard Peng.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
         "pos"
       ]
     }
