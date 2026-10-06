@@ -1,80 +1,76 @@
 {
-  "generated_at": "2026-10-06T18:08:14.876724+00:00",
+  "generated_at": "2026-10-06T23:40:28.977177+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.077,
+    "market_sentiment_score": 0.057,
     "label_distribution": {
-      "neutral": 33,
-      "bullish": 27,
-      "bearish": 10
+      "bullish": 26,
+      "bearish": 11,
+      "neutral": 33
     },
     "top_coins": [
       {
         "coin": "OP",
-        "mentions": 23
+        "mentions": 19
       },
       {
         "coin": "Bitcoin",
-        "mentions": 22
+        "mentions": 19
       },
       {
         "coin": "ETH",
-        "mentions": 6
-      },
-      {
-        "coin": "Solana",
-        "mentions": 6
+        "mentions": 10
       },
       {
         "coin": "SOL",
         "mentions": 6
       },
       {
-        "coin": "BTC",
+        "coin": "Ethereum",
         "mentions": 6
       },
       {
-        "coin": "Ethereum",
+        "coin": "FIL",
         "mentions": 5
       },
       {
-        "coin": "FIL",
-        "mentions": 4
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "Ripple",
         "mentions": 4
       },
       {
-        "coin": "Near",
+        "coin": "Solana",
         "mentions": 4
+      },
+      {
+        "coin": "BTC",
+        "mentions": 3
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 29
       },
       {
         "topic": "pos",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "topic": "sec",
-        "mentions": 10
+        "mentions": 7
       },
       {
         "topic": "exchange",
-        "mentions": 6
-      },
-      {
-        "topic": "defi",
         "mentions": 5
       },
       {
         "topic": "stablecoin",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "topic": "fed",
@@ -85,16 +81,502 @@
         "mentions": 4
       },
       {
-        "topic": "cftc",
+        "topic": "defi",
+        "mentions": 4
+      },
+      {
+        "topic": "etf",
         "mentions": 3
       },
       {
-        "topic": "liquidity",
+        "topic": "usdt",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Google Launches Nano Banana 2.1: Better Than Its Predecessor at Half the Price",
+      "url": "https://decrypt.co/380257/google-launches-nano-banana-2-1",
+      "published_at": "2026-10-06T22:46:03+00:00",
+      "summary": "Google's new image model, Nano Banana 2.1, is live. It costs about half as much as its predecessor, but the performance claims come from Google's own tests.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Circle Welcomes DJ Khaled to 'Team USDC' and Crypto Twitter Is Furious",
+      "url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
+      "published_at": "2026-10-06T22:16:03+00:00",
+      "summary": "Nothing in Circle's posts announces a sponsorship, but replies dug up Khaled's 2018 SEC settlement over a crypto fraud he promoted. The internet never forgets.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "pos",
+        "sec",
+        "usdc"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Someone Scraped 5.6 Billion TikTok Videos and Put the Data on Hugging Face for Free",
+      "url": "https://decrypt.co/380229/someone-scraped-5-billion-tiktok-videos-posted-data-hugging-face",
+      "published_at": "2026-10-06T22:00:19+00:00",
+      "summary": "A developer posted metadata for about 5.6 billion public TikTok videos, scraped through the app's private API in a way TikTok's terms prohibit. The free dataset also doubles as a storefront.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ADA",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Crypto Card Payments Hit Record $12.5 Billion as Stablecoin Adoption Surges",
+      "url": "https://bitcoinmagazine.com/news/crypto-card-payments-hit-record-12-billion",
+      "published_at": "2026-10-06T21:48:49+00:00",
+      "summary": "Bitcoin Magazine\n\nCrypto Card Payments Hit Record $12.5 Billion as Stablecoin Adoption Surges\nMore people are using crypto cards than ever before to make payments. \nThis post Crypto Card Payments Hit Record $12.5 Billion as Stablecoin Adoption Surges first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 5,
+        "normalized": 0.625,
+        "label": "bullish",
+        "positive_hits": [
+          "adoption",
+          "surges"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "$350M St Cloud CEO: The First Credit Union to Put Bitcoin on Core Ledger | Jed Meyer",
+      "url": "https://bitcoinmagazine.com/videos/350m-st-cloud-ceo-the-first-credit-union-to-put-bitcoin-on-core-ledger-jed-meyer",
+      "published_at": "2026-10-06T21:34:32+00:00",
+      "summary": "Bitcoin Magazine\n\n$350M St Cloud CEO: The First Credit Union to Put Bitcoin on Core Ledger | Jed Meyer\nA 1930s postal credit union now custodies real Bitcoin. St. Cloud CEO Jed Meyer breaks down its hybrid vault model and quiet path to over 20 BTC.\nThis post $350M St Cloud CEO: The First Credit Union to Put Bitcoin on Core Ledger | Jed Meyer first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "UNI"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Housingwire’s Logan Mohtashami: Real Estate vs Bitcoin & Bond Market Outlook",
+      "url": "https://bitcoinmagazine.com/videos/housingwires-logan-mohtashami-real-estate-vs-bitcoin-bond-market-outlook",
+      "published_at": "2026-10-06T21:28:54+00:00",
+      "summary": "Bitcoin Magazine\n\nHousingwire&#8217;s Logan Mohtashami: Real Estate vs Bitcoin &amp; Bond Market Outlook\nMortgage rates hit 3-year highs as homebuyers retreat. HousingWire’s Logan Mohtashami explains why rising bond yields and Fed hawkishness drive the surge.\nThis post Housingwire&#8217;s Logan Mohtashami: Real Estate vs Bitcoin &amp; Bond Market Outlook first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "fed",
+        "pos",
+        "yield"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Leon Wankum: BTC Taking on Real Estate’s $300T Monetary Premium",
+      "url": "https://bitcoinmagazine.com/videos/leon-wankum-btc-taking-on-real-estates-300t-monetary-premium",
+      "published_at": "2026-10-06T21:21:43+00:00",
+      "summary": "Bitcoin Magazine\n\nLeon Wankum: BTC Taking on Real Estate&#8217;s $300T Monetary Premium\nProperty was once the default wealth store, but Leon Wankum argues that run is over. He explains why Bitcoin is stripping real estate of its monetary premium.\nThis post Leon Wankum: BTC Taking on Real Estate&#8217;s $300T Monetary Premium first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "StoneX’s Mark Palmer: $435 MSTR Price Target Explained – DAT Consolidation Outlook",
+      "url": "https://bitcoinmagazine.com/videos/stonexs-mark-palmer-435-mstr-price-target-explained-dat-consolidation-outlook",
+      "published_at": "2026-10-06T21:16:05+00:00",
+      "summary": "Bitcoin Magazine\n\nStoneX&#8217;s Mark Palmer: $435 MSTR Price Target Explained &#8211; DAT Consolidation Outlook\nStrategy bought STRC over Bitcoin. Mark Palmer explains why the preferred stock is vital to Strategy's fundraising and how reserve cash drives it to par.\nThis post StoneX&#8217;s Mark Palmer: $435 MSTR Price Target Explained &#8211; DAT Consolidation Outlook first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Privacy Legend Amir Taaki Deported From Singapore",
+      "url": "https://bitcoinmagazine.com/news/amir-taaki-deported-from-singapore",
+      "published_at": "2026-10-06T21:07:23+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Privacy Legend Amir Taaki Deported From Singapore \nThe early Bitcoin contributor says he was questioned for hours before being deported — something which keeps happening. \nThis post Bitcoin Privacy Legend Amir Taaki Deported From Singapore  first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Conduit sues Tether over allegedly freezing $2.8M without explanation",
+      "url": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-06T21:00:44+00:00",
+      "summary": "The lawsuit alleged that Tether froze USDt funds in a Conduit wallet tied to an investigation launched by Brazilian authorities in 2024.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": [
+          "investigation",
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "Sui"
+      ],
+      "topics": [
+        "usdt",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Winklevoss-backed Zcash ETF files with SEC for Nasdaq listing",
+      "url": "https://cointelegraph.com/news/winklevoss-backed-zcash-etf-files-with-sec-for-nasdaq-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-06T20:53:19+00:00",
+      "summary": "The proposed fund would hold ZEC directly, with Gemini Trust serving as custodian and Winklevoss Capital affiliates eyeing up to a $100 million investment.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL",
+        "OP"
+      ],
+      "topics": [
+        "etf",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-06T20:48:12+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Pudgy Penguins' Ethereum Layer-2 Abstract Is Shutting Down",
+      "url": "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
+      "published_at": "2026-10-06T20:28:53+00:00",
+      "summary": "Abstract will shut down Dec. 15, saying a chain focused solely on consumer crypto proved unsustainable, and is urging users to bridge their assets off before then.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "bridge"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "The Real Estate Market Is Dead in Spain. Long Live Bitcoin.",
+      "url": "https://bitcoinmagazine.com/business/the-real-estate-market-is-dead-in-spain-long-live-bitcoin",
+      "published_at": "2026-10-06T20:13:35+00:00",
+      "summary": "Bitcoin Magazine\n\nThe Real Estate Market Is Dead in Spain. Long Live Bitcoin.\nA 2% rent ceiling against 4.9% September inflation, plus compulsory five- and seven-year renewals, rewrites signed leases. The Bank of Spain still puts the housing deficit near 750,000 homes.\nThis post The Real Estate Market Is Dead in Spain. Long Live Bitcoin. first appeared on Bitcoin Magazine and is written by Kristyna Mazankova.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "defi",
+        "inflation",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Pudgy Penguins-backed Ethereum L2 Abstract to shut down after losing ‘tens of millions’",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-06-abstract-ethereum-layer-2-shutting-down-pudgy-penguins-igloo-417855",
+      "published_at": "2026-10-06T20:11:30+00:00",
+      "summary": "Abstract, the Pudgy Penguins-backed Ethereum L2, will shut down on Dec. 15. Users must bridge assets off before then.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "losing"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "bridge",
+        "l2"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tether Hit With Lawsuit Over $2.76 Million Stablecoin Freeze",
+      "url": "https://decrypt.co/380222/tether-lawsuit-2-76-million-stablecoin-freeze",
+      "published_at": "2026-10-06T19:46:04+00:00",
+      "summary": "The payments firm alleges Tether froze its treasury wallet on its own initiative over a Brazilian investigation it has no connection to—and has profited from the reserves while refusing to release the funds for more than a year.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "investigation",
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "Sui"
+      ],
+      "topics": [
+        "stablecoin",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "UK names 6 banks to lead first digitally native government bond",
+      "url": "https://cointelegraph.com/news/uk-taps-6-banks-to-lead-first-digitally-native-government-bond?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-06T19:19:00+00:00",
+      "summary": "The DIGIT pilot will test distributed ledger technology and onchain settlement for UK sovereign debt, with issuance expected by the first quarter of 2027.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bryan Johnson Spent Millions to Reverse Aging. He Says a Filter Works Better",
+      "url": "https://decrypt.co/380211/bryan-johnson-best-anti-aging-filters",
+      "published_at": "2026-10-06T19:15:04+00:00",
+      "summary": "The face of the \"Don't Die\" movement now says retouching beats therapy for looking young. His transformation over the summer may explain why.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "OKX Gets New Funding From Circle, Standard Chartered at $25B Valuation",
+      "url": "https://bitcoinmagazine.com/news/okx-gets-new-funding-25-billion-valuation",
+      "published_at": "2026-10-06T19:01:29+00:00",
+      "summary": "Bitcoin Magazine\n\nOKX Gets New Funding From Circle, Standard Chartered at $25B Valuation\nThe crypto exchange has raised new funding from the likes of Circle and Standard Chartered as it races to tokenize real-world assets. \nThis post OKX Gets New Funding From Circle, Standard Chartered at $25B Valuation first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Another Zcash ETF Is Coming: Winklevoss Twins File for 'WINK'",
+      "url": "https://decrypt.co/380210/another-zcash-etf-coming-winklevoss-twins-wink",
+      "published_at": "2026-10-06T18:42:34+00:00",
+      "summary": "The proposed fund would hold ZEC directly, trade on Nasdaq under \"WINK\" with Gemini as custodian, and add the Winklevoss twins to a wave of institutional interest in the privacy coin.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL",
+        "OP"
+      ],
+      "topics": [
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Russia’s digital ruble accounts top 220K in first month, nearly 4X central bank forecast",
+      "url": "https://cointelegraph.com/news/russia-digital-ruble-adoption-brics-cbdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-06T18:19:35+00:00",
+      "summary": "The digital ruble’s early uptake comes as BRICS nations explore linking their digital currencies for cross-border trade and payments.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "LINK",
+        "Near",
+        "OP"
+      ],
+      "topics": []
+    },
     {
       "source": "Cointelegraph",
       "title": "Bill aims at stopping US lawmaker bets on their own elections ahead of midterms",
@@ -313,7 +795,7 @@
       "title": "ECB policymaker warns of fragmentation without digital euro",
       "url": "https://cointelegraph.com/news/european-central-bank-fragmentation-digital-euro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-10-06T16:32:57+00:00",
-      "summary": "A ECB executive board member said the potential introduction of a digital euro ”would not to take over the role of banks,” but ensure they have a role in the EU’s monetary system.",
+      "summary": "A ECB executive board member said the potential introduction of a digital euro would not ”take over the role of banks,” but ensure they have a role in the EU’s monetary system.",
       "sentiment": {
         "score": -1,
         "normalized": -0.125,
@@ -379,30 +861,6 @@
         "ai",
         "pos",
         "wallet"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Ecash Ecosystem Rises to Challenge in the Defense of Decentralized Custody",
-      "url": "https://bitcoinmagazine.com/featured/ecash-ecosystem-rises-to-challenge-in-the-defense-of-decentralized-custody",
-      "published_at": "2026-10-06T15:55:06+00:00",
-      "summary": "Bitcoin Magazine\n\nEcash Ecosystem Rises to Challenge in the Defense of Decentralized Custody\nFedimint developers, Eric Sirion, and Cashu’s thesimplekid ran one federation across three codebases at Ecash Hackday Berlin on September 30. Fedi CEO Obi Nwosu says the demo answers the software-monoculture risk he flagged after Liquid and Coldcard.\nThis post Ecash Ecosystem Rises to Challenge in the Defense of Decentralized Custody first appeared on Bitcoin Magazine and is written by Obi Nwosu.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "fed",
-        "pos"
       ]
     },
     {
@@ -554,29 +1012,6 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-06T13:41:33+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
       "title": "OKX exchange raises fresh capital at $25B valuation",
       "url": "https://cointelegraph.com/news/okx-exchange-raises-capital-25b-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-10-06T13:32:32+00:00",
@@ -597,7 +1032,7 @@
     {
       "source": "Cointelegraph",
       "title": "Capital starting to rotate back to crypto from AI: Raoul Pal",
-      "url": "https://cointelegraph.com/features/weaker-dollar-crypto-green-light-raoul-pal-trade-secrets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "url": "https://cointelegraph.com/magazine/weaker-dollar-crypto-green-light-raoul-pal-trade-secrets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-10-06T13:30:00+00:00",
       "summary": "Real Vision founder Raoul Pal says a pause in the AI stock rally could help crypto attract capital, while AI agents are likely to boost Ethereum and Solana adoption.",
       "sentiment": {
@@ -687,54 +1122,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Paxos’ $3B USDG stablecoin launches on Arbitrum",
-      "url": "https://cointelegraph.com/news/paxos-3b-usdg-stablecoin-launches-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-06T13:00:00+00:00",
-      "summary": "Paxos’ USDG stablecoin is now live on Arbitrum as the network proposes 100 million ARB in incentives to support adoption and liquidity.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "launches",
-          "support"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Arbitrum",
-        "ARB",
-        "OP"
-      ],
-      "topics": [
-        "liquidity",
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Polymarket overhauls smart contracts with new Protocol V2 rollout",
-      "url": "https://cointelegraph.com/news/polymarket-smart-contract-overhaul-protocol-v2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-06T12:54:15+00:00",
-      "summary": "Polymarket begins its Protocol V2 rollout ahead of a planned November transition for new prediction markets, while existing positions remain on the current system.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos",
-        "smart contract"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Circle, Ripple and Standard Chartered Back OKX at Flat $25B Valuation",
       "url": "https://decrypt.co/380157/circle-ripple-and-standard-chartered-back-okx-at-flat-25b-valuation",
@@ -804,362 +1191,6 @@
         "negative_hits": []
       },
       "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Rep. Don Davis introduces bill to stop federal candidates trading prediction market contracts tied to their own elections",
-      "url": "https://www.theblock.co/news/regulation/2026-10-06-rep-don-davis-introduces-bill-to-stop-federal-candidates-trading-prediction-market-contracts-tied-to-their-own-elections-417781",
-      "published_at": "2026-10-06T11:36:15+00:00",
-      "summary": "Don Davis introduced legislation barring federal candidates and their families from trading prediction contracts tied to their own elections.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "The VIX of bonds is rising but bitcoin and stocks aren't hearing it yet",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/06/the-vix-of-bonds-is-rising-but-bitcoin-and-stocks-aren-t-hearing-it-yet",
-      "published_at": "2026-10-06T11:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Now Accepting Bitcoin: Buy Coffee and Bacon Across 200 Indiana Bitcoin Merchants",
-      "url": "https://bitcoinmagazine.com/culture/indiana-bitcoin-200-merchants",
-      "published_at": "2026-10-06T11:30:00+00:00",
-      "summary": "Bitcoin Magazine\n\nNow Accepting Bitcoin: Buy Coffee and Bacon Across 200 Indiana Bitcoin Merchants\nOld Major Market, a Central Indiana bitcoin\nbutcher holding 100% of new bitcoin payments on its balance sheet.\nThis post Now Accepting Bitcoin: Buy Coffee and Bacon Across 200 Indiana Bitcoin Merchants first appeared on Bitcoin Magazine and is written by Vagabond.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Spiko raises $90 million to expand tokenized cash funds across markets",
-      "url": "https://www.theblock.co/news/business/2026-10-06-spiko-raises-90-million-to-expand-tokenized-cash-funds-across-markets-417774",
-      "published_at": "2026-10-06T10:58:29+00:00",
-      "summary": "Spiko raised $90 million in Series B funding to scale its $2.7 billion tokenized cash fund business and expand into new markets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Crypto 'Godfather' Gets Six Years for Hiring Sheriff's Deputies, $37M Meta Fraud",
-      "url": "https://decrypt.co/380138/crypto-godfather-gets-six-years-for-hiring-sheriffs-deputies-37m-meta-fraud",
-      "published_at": "2026-10-06T10:36:57+00:00",
-      "summary": "Adam Iza used off-duty LA deputies to pull warrants and personal data on his rivals, then moved the proceeds through crypto custodians.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [
-        "ADA"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin remains locked in range as stocks notch another new record high",
-      "url": "https://www.coindesk.com/markets/2026/10/06/live-updates-a-drop-below-usd84-000-could-put-usd80-000-in-play-for-bitcoin",
-      "published_at": "2026-10-06T10:35:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "record high"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Smaller altcoins shine as bitcoin stills trades around $85,000",
-      "url": "https://www.coindesk.com/markets/2026/10/06/smaller-altcoins-shine-as-bitcoin-stills-trades-around-usd85-000",
-      "published_at": "2026-10-06T10:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "LTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Hong Kong officials double down on end-2026 deadline for crypto licensing bill",
-      "url": "https://cointelegraph.com/news/hong-kong-govt-end-2026-deadline-crypto-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-06T10:16:55+00:00",
-      "summary": "Hong Kong regulators plan to establish a licensing regime for four categories, including digital asset trading, custody, advisory and management services.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance BTC outflows hit highest since mid-2023 as whales deposit stablecoins",
-      "url": "https://cointelegraph.com/markets/binance-btc-outflows-hit-highest-since-mid-2023-as-whales-deposit-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-06T09:59:12+00:00",
-      "summary": "Binance BTC reserves fell by nearly 40,000 coins since Sept. 20 as whales returned stablecoin capital to their exchange wallets.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [
-        "BTC",
-        "Binance",
-        "Near"
-      ],
-      "topics": [
-        "exchange",
-        "pos",
-        "stablecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "ZachXBT says he fronted $349,700 to infiltrate alleged Chinese launderers tied to Lazarus, Bybit hack",
-      "url": "https://www.theblock.co/news/defi/2026-10-06-zachxbt-infiltrated-chinese-launderers-lazarus-hack-417767",
-      "published_at": "2026-10-06T09:51:47+00:00",
-      "summary": "Posing as a client, ZachXBT said he gathered intelligence that helped freeze funds tied to the $1.5 billion Bybit hack.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ondo launches onchain private-company exposure, starting with AI",
-      "url": "https://www.theblock.co/news/business/2026-10-06-ondo-launches-onchain-private-company-exposure-starting-with-ai-417762",
-      "published_at": "2026-10-06T09:38:28+00:00",
-      "summary": "Ondo Finance launched a private-markets platform with tokenized notes tied initially to a pre-IPO artificial intelligence company.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launched",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "artificial intelligence",
-        "onchain",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S.- China AI race heats up as Chinese rivals secure billions ahead of IPOs",
-      "url": "https://www.coindesk.com/markets/2026/10/06/u-s-china-ai-race-heats-up-as-chinese-rivals-secure-billions-ahead-of-ipos",
-      "published_at": "2026-10-06T09:25:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "secure"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "OKX looks to abstract blockchain mechanics to bring stablecoin balances to everyday consumers",
-      "url": "https://www.coindesk.com/business/2026/10/06/okx-money-lets-users-save-earn-10-yield-and-spend-dollar-stablecoins-in-one-app",
-      "published_at": "2026-10-06T09:02:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Why bitcoin is down 'just' 32% a year after its record high of $126,000",
-      "url": "https://www.coindesk.com/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32",
-      "published_at": "2026-10-06T08:27:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "record high"
-        ],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bringin Opens Euro Business Accounts for Bitcoin Companies Across 30 European Countries",
-      "url": "https://bitcoinmagazine.com/business/bringin-opens-euro-business-accounts-for-bitcoin-companies-across-30-european-countries",
-      "published_at": "2026-10-06T07:01:00+00:00",
-      "summary": "Bitcoin Magazine\n\nBringin Opens Euro Business Accounts for Bitcoin Companies Across 30 European Countries\nThe accounts run on MiCA-authorized infrastructure from Lightspark Payments Europe AS. Keys sit in a hardware security module, and only designated owners can move funds.\nThis post Bringin Opens Euro Business Accounts for Bitcoin Companies Across 30 European Countries first appeared on Bitcoin Magazine and is written by Juan Galt.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. scraps proposed $10,000 reporting rule for for crypto sent to private wallets",
-      "url": "https://www.coindesk.com/policy/2026/10/06/u-s-scraps-proposed-usd10-000-reporting-rule-for-for-crypto-sent-to-private-wallets",
-      "published_at": "2026-10-06T04:55:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum’s Glamsterdam test gets last-minute fix before major capacity jump",
-      "url": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
-      "published_at": "2026-10-06T04:49:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
       "topics": []
     }
   ]
