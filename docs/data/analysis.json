@@ -1,37 +1,33 @@
 {
-  "generated_at": "2026-10-10T14:21:03.879241+00:00",
+  "generated_at": "2026-10-10T19:54:03.532110+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.068,
+    "market_sentiment_score": -0.061,
     "label_distribution": {
-      "neutral": 34,
-      "bearish": 25,
-      "bullish": 11
+      "neutral": 35,
+      "bullish": 11,
+      "bearish": 24
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 19
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "SOL",
-        "mentions": 7
-      },
-      {
-        "coin": "Near",
         "mentions": 6
       },
       {
-        "coin": "BTC",
+        "coin": "Near",
         "mentions": 4
       },
       {
@@ -39,26 +35,30 @@
         "mentions": 4
       },
       {
+        "coin": "BTC",
+        "mentions": 3
+      },
+      {
         "coin": "FIL",
         "mentions": 3
       },
       {
-        "coin": "LTC",
-        "mentions": 1
+        "coin": "UNI",
+        "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "Solana",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 37
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "sec",
@@ -70,15 +70,19 @@
       },
       {
         "topic": "etf",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "cftc",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "topic": "stablecoin",
         "mentions": 3
+      },
+      {
+        "topic": "defi",
+        "mentions": 2
       },
       {
         "topic": "dai",
@@ -87,14 +91,117 @@
       {
         "topic": "regulation",
         "mentions": 2
-      },
-      {
-        "topic": "liquidity",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Kalshi is investigating bets on Trump’s press secretary pick placed before announcement: WSJ",
+      "url": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
+      "published_at": "2026-10-10T18:35:25+00:00",
+      "summary": "Three bets totaling about $173 were placed before news outlets reported Zacharia's pick and are expected to pay out roughly $9,600 combined.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "CFTC Draws the Line Between Prediction Markets and Gambling in New Rules",
+      "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules",
+      "published_at": "2026-10-10T17:01:03+00:00",
+      "summary": "A proposed rule would expressly fold event contracts tied to sports, politics, culture and weather into the “swap” definition, while an interim rule excludes casino-style gambling—sharpening the agency’s claim to exclusive jurisdiction.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "defi",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "This Sam Altman-Backed Life Insurer Runs Entirely on Bitcoin, and Just Raised $37.5 Million",
+      "url": "https://decrypt.co/380633/sam-altman-backed-life-insurer-bitcoin-raise",
+      "published_at": "2026-10-10T16:01:04+00:00",
+      "summary": "The Bermuda-based insurer, which runs entirely on Bitcoin, drew the funding from existing backers led by Bain Capital Crypto after a record year driven by demand from wealthy families in Asia, Europe and the Middle East.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+      "published_at": "2026-10-10T15:10:37+00:00",
+      "summary": "Spot bitcoin, solana, and ether ETFs all logged weekly outflows following last week's trading, a notable shift for some of the funds.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Here’s a Way to Predict When AI Chatbots Will Turn Bad",
+      "url": "https://decrypt.co/380624/formula-predicts-when-ai-chatbot-turn-bad",
+      "published_at": "2026-10-10T15:01:03+00:00",
+      "summary": "Physicists at George Washington University say a formula can estimate when an AI chatbot will flip from good answers to bad ones, and early tests on small models back it up.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "French Committee Backs Stablecoin Swap Tax and Crypto Exit Tax, Then Rejects the Budget",
@@ -1071,123 +1178,6 @@
         "ai",
         "pos",
         "sec"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Building the Berkshire Hathaway of Bitcoin | Twenty One Capital CEO Rapha Zagury",
-      "url": "https://bitcoinmagazine.com/videos/building-the-berkshire-hathaway-of-bitcoin-twenty-one-capital-ceo-rapha-zagury",
-      "published_at": "2026-10-09T13:33:09+00:00",
-      "summary": "Bitcoin Magazine\n\nBuilding the Berkshire Hathaway of Bitcoin | Twenty One Capital CEO Rapha Zagury\nTwenty One Capital holds 43K BTC at a discount. CEO Rapha Zagury breaks down its mNAV, share buybacks, and why Tether's backing provides a permanent edge.\nThis post Building the Berkshire Hathaway of Bitcoin | Twenty One Capital CEO Rapha Zagury first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "ETH"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "France is world’s most dangerous place for Bitcoiners: 90 attacks in 7 months",
-      "url": "https://cointelegraph.com/magazine/france-is-worlds-most-dangerous-place-for-bitcoiners-90-attacks-in-7-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-09T13:30:00+00:00",
-      "summary": "French authorities recorded 90 crypto-related cases involving kidnapping, extortion, threats and violent theft in seven months. What makes France such a hotspot?",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "theft"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Calamos Investments CEO John Koudounis: Bitcoin Will Hit $1M by 2030",
-      "url": "https://bitcoinmagazine.com/videos/calamos-investments-ceo-john-koudounis-bitcoin-will-hit-1m-by-2030",
-      "published_at": "2026-10-09T13:28:10+00:00",
-      "summary": "Bitcoin Magazine\n\nCalamos Investments CEO John Koudounis: Bitcoin Will Hit $1M by 2030\nIs Bitcoin headed for a $1M awakening by 2030? Calamos CEO John Koudounis explains why institutional bank lending and ETF access will drive the surge.\nThis post Calamos Investments CEO John Koudounis: Bitcoin Will Hit $1M by 2030 first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "institutional",
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "UNI"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "lending",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Bleeds in Uptober—How Low Can It Go? Experts Weigh In",
-      "url": "https://decrypt.co/380574/bitcoin-bleeds-in-uptober-how-low-can-it-go-experts-weigh-in",
-      "published_at": "2026-10-09T13:20:12+00:00",
-      "summary": "Experts highlight several support levels, from $83,000 down to $72,000, that Bitcoin may need to test in a bearish start to Uptober.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": [
-          "bearish",
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Base creator Jesse Pollak says equities and non-dollar stablecoins will lead upcoming ‘tokenization supercycle’",
-      "url": "https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144",
-      "published_at": "2026-10-09T13:12:57+00:00",
-      "summary": "Coinbase launched tokenized stocks on Base six weeks ago, with about $70 million to $100 million in daily volume, according to Pollak.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "dai",
-        "stablecoin",
-        "tokenization"
       ]
     }
   ]

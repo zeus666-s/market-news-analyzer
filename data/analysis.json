@@ -1,37 +1,33 @@
 {
-  "generated_at": "2026-10-10T14:21:03.879241+00:00",
+  "generated_at": "2026-10-10T19:54:03.532110+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.068,
+    "market_sentiment_score": -0.061,
     "label_distribution": {
-      "neutral": 34,
-      "bearish": 25,
-      "bullish": 11
+      "neutral": 35,
+      "bullish": 11,
+      "bearish": 24
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 19
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "SOL",
-        "mentions": 7
-      },
-      {
-        "coin": "Near",
         "mentions": 6
       },
       {
-        "coin": "BTC",
+        "coin": "Near",
         "mentions": 4
       },
       {
@@ -39,26 +35,30 @@
         "mentions": 4
       },
       {
+        "coin": "BTC",
+        "mentions": 3
+      },
+      {
         "coin": "FIL",
         "mentions": 3
       },
       {
-        "coin": "LTC",
-        "mentions": 1
+        "coin": "UNI",
+        "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "Solana",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 37
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "sec",
@@ -70,15 +70,19 @@
       },
       {
         "topic": "etf",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "cftc",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "topic": "stablecoin",
         "mentions": 3
+      },
+      {
+        "topic": "defi",
+        "mentions": 2
       },
       {
         "topic": "dai",
@@ -87,14 +91,117 @@
       {
         "topic": "regulation",
         "mentions": 2
-      },
-      {
-        "topic": "liquidity",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Kalshi is investigating bets on Trump’s press secretary pick placed before announcement: WSJ",
+      "url": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
+      "published_at": "2026-10-10T18:35:25+00:00",
+      "summary": "Three bets totaling about $173 were placed before news outlets reported Zacharia's pick and are expected to pay out roughly $9,600 combined.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "CFTC Draws the Line Between Prediction Markets and Gambling in New Rules",
+      "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules",
+      "published_at": "2026-10-10T17:01:03+00:00",
+      "summary": "A proposed rule would expressly fold event contracts tied to sports, politics, culture and weather into the “swap” definition, while an interim rule excludes casino-style gambling—sharpening the agency’s claim to exclusive jurisdiction.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "defi",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "This Sam Altman-Backed Life Insurer Runs Entirely on Bitcoin, and Just Raised $37.5 Million",
+      "url": "https://decrypt.co/380633/sam-altman-backed-life-insurer-bitcoin-raise",
+      "published_at": "2026-10-10T16:01:04+00:00",
+      "summary": "The Bermuda-based insurer, which runs entirely on Bitcoin, drew the funding from existing backers led by Bain Capital Crypto after a record year driven by demand from wealthy families in Asia, Europe and the Middle East.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+      "published_at": "2026-10-10T15:10:37+00:00",
+      "summary": "Spot bitcoin, solana, and ether ETFs all logged weekly outflows following last week's trading, a notable shift for some of the funds.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Here’s a Way to Predict When AI Chatbots Will Turn Bad",
+      "url": "https://decrypt.co/380624/formula-predicts-when-ai-chatbot-turn-bad",
+      "published_at": "2026-10-10T15:01:03+00:00",
+      "summary": "Physicists at George Washington University say a formula can estimate when an AI chatbot will flip from good answers to bad ones, and early tests on small models back it up.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "French Committee Backs Stablecoin Swap Tax and Crypto Exit Tax, Then Rejects the Budget",
@@ -1373,66 +1480,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "Empire Market Co-Creator Sentenced to 40 Years Over $430M Dark Web Bazaar",
-      "url": "https://decrypt.co/380561/empire-market-co-creator-sentenced-to-40-years-over-430m-dark-web-bazaar",
-      "published_at": "2026-10-09T10:11:51+00:00",
-      "summary": "Raheim Hamilton forfeited some 1,230 BTC. His co-creator Thomas Pavey, who agreed to forfeit 1,584 BTC, is due to be sentenced this month.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "SIM-Swap Fraudster Who Spent Stolen Crypto on Gold Grills and Dubai Trips Jailed",
-      "url": "https://decrypt.co/380554/sim-swap-fraudster-who-spent-stolen-crypto-on-gold-grills-and-dubai-trips-jailed",
-      "published_at": "2026-10-09T08:59:31+00:00",
-      "summary": "Ajay Shinjin helped steal nearly $265,000 in crypto after criminals hijacked BT customers' phone numbers in November 2021.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "AI Startup Manus Raises $500 Million After China Nixed Meta’s $2 Billion Acquisition",
-      "url": "https://decrypt.co/380546/maus-ai-startup-raises-500m-meta-acquisition-china",
-      "published_at": "2026-10-08T21:46:03+00:00",
-      "summary": "Manus built a self-driving AI assistant before the hype, sold itself to Meta, then watched Beijing unwind the deal. Its first fresh money since: more than $500 million.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "AI Coding Agents Drive Surge in Bitcoin Integration Requests: Breez",
       "url": "https://bitcoinmagazine.com/news/ai-coding-agents-drive-bitcoin-integration",
@@ -1563,49 +1610,6 @@
       "topics": [
         "ai",
         "etf"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin pulls back as analysts forecast $80,000-$90,000 Q4 trading range",
-      "url": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
-      "published_at": "2026-10-08T14:52:27+00:00",
-      "summary": "Bitcoin traded near $82,000 on Thursday, with analysts at QCP expecting a fourth-quarter range of $80,000 to $90,000.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Securitize launches 1:1-backed tokenized stocks, starting with Apple, Nvidia, Strategy and more",
-      "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
-      "published_at": "2026-10-08T14:04:39+00:00",
-      "summary": "Securitize launches tokenized US stocks on Solana, backed 1:1 by real shares with dividends and USDC settlement.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "sec",
-        "usdc"
       ]
     }
   ]
