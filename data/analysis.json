@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-11T14:47:17.733393+00:00",
+  "generated_at": "2026-10-11T20:03:33.658697+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.05,
+    "market_sentiment_score": -0.025,
     "label_distribution": {
-      "neutral": 36,
-      "bullish": 12,
-      "bearish": 22
+      "neutral": 37,
+      "bullish": 14,
+      "bearish": 19
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "OP",
-        "mentions": 19
+        "mentions": 17
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "SOL",
@@ -31,10 +31,6 @@
         "mentions": 5
       },
       {
-        "coin": "Near",
-        "mentions": 3
-      },
-      {
         "coin": "BTC",
         "mentions": 3
       },
@@ -43,37 +39,41 @@
         "mentions": 3
       },
       {
-        "coin": "UNI",
+        "coin": "XRP",
+        "mentions": 2
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
         "coin": "Solana",
-        "mentions": 1
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 40
+        "mentions": 42
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "topic": "sec",
         "mentions": 11
       },
       {
-        "topic": "wallet",
-        "mentions": 7
+        "topic": "etf",
+        "mentions": 6
       },
       {
         "topic": "cftc",
         "mentions": 6
       },
       {
-        "topic": "etf",
+        "topic": "wallet",
         "mentions": 6
       },
       {
@@ -95,6 +95,150 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto",
+      "published_at": "2026-10-11T18:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "XRP Ledger patches decade-old bug that could have minted trillions of XRP",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230",
+      "published_at": "2026-10-11T18:07:41+00:00",
+      "summary": "An overflow bug in the XRP Ledger's payment engine could have let an attacker mint about 18 trillion spendable XRP in one transaction.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tokenized Stocks Show Real Demand But Remain Volatile and Illiquid, IMF Finds",
+      "url": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
+      "published_at": "2026-10-11T17:11:03+00:00",
+      "summary": "An IMF analysis found that more than half of tokenized stock trading happens outside U.S. market hours, though the roughly $2.3 billion market remains more volatile and less liquid than traditional equities.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks",
+      "url": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-11T17:11:00+00:00",
+      "summary": "Investors will have to wait an extra day to find out if and how much Strategy added to its Bitcoin treasury in the first week of October.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin, Ethereum and Solana ETFs All in the Red for October",
+      "url": "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
+      "published_at": "2026-10-11T16:01:03+00:00",
+      "summary": "Bitcoin ETFs have seen $386.3 million in net outflows through the first seven trading days of October, while Ethereum funds have now posted nine straight days of losses.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
+      "url": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+      "published_at": "2026-10-11T16:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "innovation"
+        ],
+        "negative_hits": [
+          "failure"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
+      "url": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine",
+      "published_at": "2026-10-11T15:40:47+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "How Zcash Plans to Hide Your Keys From AI and Quantum Attacks",
@@ -137,7 +281,7 @@
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-11T12:45:00+00:00",
+      "published_at": "2026-10-11T12:59:00+00:00",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "sentiment": {
         "score": 0,
@@ -160,7 +304,7 @@
       "source": "Cointelegraph",
       "title": "Coldcard says it’s investigating how phishing link appeared on its X account",
       "url": "https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-11T10:22:44+00:00",
+      "published_at": "2026-10-11T10:40:00+00:00",
       "summary": "Company advised users not to visit or interact with the link in question and said it will share any further verified updates.",
       "sentiment": {
         "score": 0,
@@ -178,9 +322,9 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Ledger confirms unauthorized hardware implant; losses may exceed $86M",
+      "title": "Ledger confirms unauthorized hardware implant, says losses may exceed $86M",
       "url": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-11T09:01:51+00:00",
+      "published_at": "2026-10-11T09:05:00+00:00",
       "summary": "Ledger said the incident appeared to be isolated to a single reseller and its Southeast Asian market.",
       "sentiment": {
         "score": -2,
@@ -202,7 +346,7 @@
       "source": "Cointelegraph",
       "title": "CFTC proposals aimed at separating prediction markets from casino gambling",
       "url": "https://cointelegraph.com/news/cftc-proposals-aimed-at-separating-prediction-markets-from-casino-gambling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-11T07:44:51+00:00",
+      "published_at": "2026-10-11T07:50:00+00:00",
       "summary": "The two measures attempt to set the stage for a potential US Supreme Court battle over federal and state jurisdiction.",
       "sentiment": {
         "score": 0,
@@ -441,8 +585,8 @@
       "source": "Cointelegraph",
       "title": "Tech chief says EU can fend off rogue AI risk: Report",
       "url": "https://cointelegraph.com/news/tech-chief-says-eu-can-fend-off-rogue-ai-risk-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-10T08:41:06+00:00",
-      "summary": "There are global concerns following incidents at OpenAI ‌and Anthropic, and fears have arisen that rogue AI agents may venture beyond human control.",
+      "published_at": "2026-10-10T08:45:00+00:00",
+      "summary": "Recent incidents at OpenAI ‌and Anthropic stoke global concerns and fears that rogue AI agents may venture beyond human control.",
       "sentiment": {
         "score": -4,
         "normalized": -0.5,
@@ -1078,36 +1222,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports",
-      "url": "https://cointelegraph.com/markets/bitcoin-consolidates-crypto-weathers-ledger-theft-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-09T15:20:36+00:00",
-      "summary": "Bitcoin and crypto markets eyed a recovery from Thursday’s drop despite concerns of another hardware wallet exploit.",
-      "sentiment": {
-        "score": -7,
-        "normalized": -0.875,
-        "label": "bearish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": [
-          "concerns",
-          "drop",
-          "exploit",
-          "theft"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
       "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
@@ -1314,29 +1428,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "Bitcoin Bleeds in Uptober—How Low Can It Go? Experts Weigh In",
-      "url": "https://decrypt.co/380574/bitcoin-bleeds-in-uptober-how-low-can-it-go-experts-weigh-in",
-      "published_at": "2026-10-09T13:20:12+00:00",
-      "summary": "Experts highlight several support levels, from $83,000 down to $72,000, that Bitcoin may need to test in a bearish start to Uptober.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "support"
-        ],
-        "negative_hits": [
-          "bearish",
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Base creator Jesse Pollak says equities and non-dollar stablecoins will lead upcoming ‘tokenization supercycle’",
       "url": "https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144",
@@ -1357,83 +1448,6 @@
         "dai",
         "stablecoin",
         "tokenization"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "DWF Labs subsidiaries sue BitGo for $141 million over alleged token lock-up breach",
-      "url": "https://www.coindesk.com/policy/2026/10/09/dwf-labs-subsidiaries-sue-bitgo-for-usd141-million-over-alleged-token-lock-up-breach",
-      "published_at": "2026-10-09T12:23:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "UK Targets Cryptomus and TokenSpot in New Russia Sanctions Package",
-      "url": "https://decrypt.co/380568/uk-targets-cryptomus-and-tokenspot-in-new-russia-sanctions-package",
-      "published_at": "2026-10-09T12:04:07+00:00",
-      "summary": "The package hits five crypto and payment platforms, two of which handled transactions with Russia’s A7 network, the UK government said.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Zcash developers set January target for quantum-resistant payments after ‘bunker mode’ scare",
-      "url": "https://www.coindesk.com/tech/2026/10/09/zcash-developers-set-january-target-for-quantum-resistant-payments-after-bunker-mode-scare",
-      "published_at": "2026-10-09T11:39:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/09/trump-s-iran-pledge-underpins-crypto-gains-as-bitcoin-bears-face-liquidation-pressure",
-      "published_at": "2026-10-09T11:09:04+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "bears",
-          "liquidation"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -1584,33 +1598,6 @@
         "ai",
         "dex",
         "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitwise CEO says ‘tragic’ Dogecoin ETF failure shows gap between ETF buyers and crypto-app users",
-      "url": "https://www.theblock.co/news/business/2026-10-08-bitwise-ceo-dogecoin-etf-failure-hunter-horsley-418070",
-      "published_at": "2026-10-08T16:43:47+00:00",
-      "summary": "Alongside its recent spot NEAR ETF launch, Bitwise is prioritizing AI and intends to do more in that area.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": [
-          "failure"
-        ]
-      },
-      "coins": [
-        "Dogecoin",
-        "DOGE",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "etf"
       ]
     }
   ]
