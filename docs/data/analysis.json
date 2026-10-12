@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T20:03:33.658697+00:00",
+  "generated_at": "2026-10-12T05:15:16.998001+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.025,
+    "market_sentiment_score": -0.027,
     "label_distribution": {
-      "neutral": 37,
-      "bullish": 14,
-      "bearish": 19
+      "bearish": 19,
+      "neutral": 39,
+      "bullish": 12
     },
     "top_coins": [
       {
@@ -16,69 +16,73 @@
       },
       {
         "coin": "OP",
-        "mentions": 17
+        "mentions": 20
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 10
       },
       {
         "coin": "SOL",
         "mentions": 6
       },
       {
+        "coin": "XRP",
+        "mentions": 4
+      },
+      {
         "coin": "LINK",
-        "mentions": 5
+        "mentions": 4
+      },
+      {
+        "coin": "UNI",
+        "mentions": 3
       },
       {
         "coin": "BTC",
         "mentions": 3
       },
       {
-        "coin": "FIL",
-        "mentions": 3
-      },
-      {
-        "coin": "XRP",
+        "coin": "Sui",
         "mentions": 2
       },
       {
         "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "Solana",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 42
+        "mentions": 45
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 12
       },
       {
         "topic": "etf",
-        "mentions": 6
-      },
-      {
-        "topic": "cftc",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "topic": "wallet",
         "mentions": 6
       },
       {
+        "topic": "cftc",
+        "mentions": 5
+      },
+      {
         "topic": "stablecoin",
         "mentions": 3
+      },
+      {
+        "topic": "exchange",
+        "mentions": 2
       },
       {
         "topic": "dai",
@@ -87,14 +91,166 @@
       {
         "topic": "defi",
         "mentions": 2
-      },
-      {
-        "topic": "regulation",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+      "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+      "published_at": "2026-10-12T04:49:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "falls"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "French lawmakers back reporting rule for crypto wallets over $112K",
+      "url": "https://cointelegraph.com/news/french-lawmakers-back-reporting-rule-for-crypto-wallets-over-112k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-12T04:45:15+00:00",
+      "summary": "Holders could face fines of up to 10,000 euros for failing to declare qualifying assets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Former Acting Chair Caroline Pham says CFTC can regulate almost everything except ‘onions and box office receipts’",
+      "url": "https://www.theblock.co/news/regulation/2026-10-12-former-cftc-acting-chair-caroline-pham-onions-418246",
+      "published_at": "2026-10-12T04:33:57+00:00",
+      "summary": "Pham said the CFTC's recent proposals are 'absolutely the kind of protection' needed for crypto retail traders in the United States.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL",
+        "UNI",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Sui Foundation invests $30 million in DATA Network as AI data protocol migrates to Sui",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243",
+      "published_at": "2026-10-12T02:00:00+00:00",
+      "summary": "DATA Network is set to be upgraded to run as a protocol natively on Sui, and its independent chain will be retired.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "XRP Ledger defends emergency patch for unlimited XRP bug",
+      "url": "https://cointelegraph.com/news/xrp-ledger-defends-emergency-patch-for-unlimited-xrp-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-12T01:21:29+00:00",
+      "summary": "The XRP Ledger Foundation pushed back against claims that its emergency security patch was forced on network operators.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-11T22:57:53+00:00",
+      "summary": "An user reports buying a tampered Ledger from a big retailer in Europe. Security researchers use AI to uncover a “$94 billion” XRP bug — but receive just a $250K bounty.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "XRP",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Trader nets $1.28 million on new 1,000x exchange Papertrade by moving Hyperliquid’s ETH prices",
+      "url": "https://www.theblock.co/news/defi/2026-10-11-trader-nets-1-28-million-on-new-1000x-exchange-papertrade-by-moving-hyperliquids-eth-prices-418239",
+      "published_at": "2026-10-11T22:26:02+00:00",
+      "summary": "The same wallet later lost $450,000 when 30 short positions were liquidated on Saturday night after staying open for more than three hours.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "pos",
+        "wallet"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
@@ -857,7 +1013,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "THORChain exec accuses Tether of temporarily freezing USDT vaults",
+      "title": "THORChain dev accuses Tether of temporarily freezing USDT vaults",
       "url": "https://cointelegraph.com/news/thorchain-tether-freezing-usdt-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-10-09T19:04:03+00:00",
       "summary": "Chad Barraford, technical co-founder of the network, said that the funds were frozen and then unfrozen without explanation.",
@@ -1001,163 +1157,6 @@
       "topics": [
         "ai",
         "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin ETFs Shed $729M in Two Days as Investors Reverse Course",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-etfs-shed-729-million-in-two-days",
-      "published_at": "2026-10-09T17:11:16+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin ETFs Shed $729M in Two Days as Investors Reverse Course\nInvestors have fast cashed out of bitcoin exchange-traded funds this week. It’s showing in the price. \nThis post Bitcoin ETFs Shed $729M in Two Days as Investors Reverse Course first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf",
-        "exchange",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ledger investigates fund losses linked to Southeast Asian reseller, warns users",
-      "url": "https://cointelegraph.com/news/ledger-investigates-fund-losses-linked-to-southeast-asian-reseller-warns-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-09T17:02:47+00:00",
-      "summary": "Hardware wallet maker Ledger probes losses tied to reseller CryptoBilis, as researchers separately estimate more than $72 million to $86 million in suspected crypto thefts.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses",
-          "warns"
-        ]
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Ledger Warns Buyers Not to Set Up Wallets From Reseller After Users Report Losses",
-      "url": "https://bitcoinmagazine.com/news/ledger-warns-users-after-losses-reported",
-      "published_at": "2026-10-09T16:43:45+00:00",
-      "summary": "Bitcoin Magazine\n\nLedger Warns Buyers Not to Set Up Wallets From Reseller After Users Report Losses\nHardware wallet manufacturer Ledger is investigating after users reported having wallets drained. \nThis post Ledger Warns Buyers Not to Set Up Wallets From Reseller After Users Report Losses first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses",
-          "warns"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Ethereum L2 Starknet Jumps 20% After Saying It Wants to Become an L1",
-      "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1",
-      "published_at": "2026-10-09T16:36:03+00:00",
-      "summary": "Starknet is \"actively considering\" becoming its own blockchain, a move it says would make it the first fully quantum-resistant network by 2027.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "l2"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Blockchain.com pursues CFTC approval for prediction markets: CNBC",
-      "url": "https://cointelegraph.com/news/blockchain-cftc-approval-derivatives-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-09T16:22:45+00:00",
-      "summary": "The crypto company has reportedly applied for two licenses with the US commodities regulatory as the courts weigh prediction markets cases.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc",
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "DWF Labs Subsidiaries Sue BitGo for $141 Million Over Early Token Sales",
-      "url": "https://decrypt.co/380593/dwf-bitgo-141-million-lawsuit-early-token-sales",
-      "published_at": "2026-10-09T16:08:23+00:00",
-      "summary": "The DWF Labs-linked firms allege in London’s High Court that BitGo sold discounted Falcon Finance and ESPORTS tokens roughly two months before their lock-up expired, cratering the value of their remaining holdings.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "SOL",
-        "LINK"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "New York AG Secures Up to $35M and Industry Ban From Ex-Celsius CEO Alex Mashinsky",
-      "url": "https://decrypt.co/380592/new-york-ag-secures-up-to-35m-and-industry-ban-from-ex-celsius-ceo-alex-mashinsky",
-      "published_at": "2026-10-09T16:07:07+00:00",
-      "summary": "Mashinsky owes New York $25 million if he fails to forfeit another $10 million, and $10 million more if he doesn't serve his full sentence.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban",
-          "fails"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
       ]
     }
   ]
