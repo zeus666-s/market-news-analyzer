@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-10-13T23:39:40.063008+00:00",
+  "generated_at": "2026-10-14T04:16:06.471182+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.023,
+    "market_sentiment_score": -0.009,
     "label_distribution": {
-      "bearish": 23,
       "bullish": 20,
-      "neutral": 27
+      "neutral": 30,
+      "bearish": 20
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 34
+        "mentions": 33
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "coin": "BTC",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "SOL",
         "mentions": 6
+      },
+      {
+        "coin": "Near",
+        "mentions": 4
       },
       {
         "coin": "Binance",
@@ -35,30 +39,26 @@
         "mentions": 4
       },
       {
-        "coin": "Near",
+        "coin": "Solana",
         "mentions": 3
       },
       {
-        "coin": "Solana",
-        "mentions": 2
-      },
-      {
-        "coin": "XRP",
-        "mentions": 2
-      },
-      {
         "coin": "Ethereum",
+        "mentions": 2
+      },
+      {
+        "coin": "UNI",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 37
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "wallet",
@@ -66,22 +66,22 @@
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "exchange",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "onchain",
         "mentions": 4
       },
       {
-        "topic": "mining",
+        "topic": "fed",
         "mentions": 2
       },
       {
-        "topic": "defi",
+        "topic": "mining",
         "mentions": 2
       },
       {
@@ -95,6 +95,111 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
+      "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+      "published_at": "2026-10-14T04:11:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
+      "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+      "published_at": "2026-10-14T03:50:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase lays out flexible designs as key priority for Bitcoin’s post-quantum migration",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509",
+      "published_at": "2026-10-14T02:49:34+00:00",
+      "summary": "Coinbase published priorities for Bitcoin's post-quantum transition, urging early preparation for signature upgrades and fund migration.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrades"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitwise’s Hougan says Q3 charts point to ‘crypto spring’",
+      "url": "https://cointelegraph.com/markets/bitwises-hougan-says-q3-charts-point-to-crypto-spring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-14T02:19:56+00:00",
+      "summary": "Bitwise’s Matt Hougan said nearly every fundamental indicator that Bitwise tracks spiked sharply higher.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
+      "url": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
+      "published_at": "2026-10-14T01:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "regulatory"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Ledger asks resellers to halt sales in Southeast Asia and Hong Kong",
@@ -1250,30 +1355,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin hits $84K resistance as Korean tech rout deepens KOSPI losses",
-      "url": "https://cointelegraph.com/markets/bitcoin-hits-84k-resistance-as-korea-tech-sell-off-sends-kospi-down-74?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-13T09:42:00+00:00",
-      "summary": "Bitcoin’s liquidity kept BTC price below $84,000 amid a mounting South Korean tech and semiconductor stock sell-off.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses",
-          "sell-off"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "liquidity"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Ledger says 'spy' chip inside CryptoBilis Ledger devices transmitted wallet keys over mobile network",
       "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
@@ -1290,26 +1371,6 @@
       "topics": [
         "wallet"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "UK court ruling boosts government’s chances of keeping $5 billion in seized bitcoin",
-      "url": "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
-      "published_at": "2026-10-13T09:25:03+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "boosts"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     },
     {
       "source": "Decrypt",
@@ -1335,26 +1396,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin whale that sat through the March 2020 crash moves $378 million",
-      "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
-      "published_at": "2026-10-13T05:45:10+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "crash"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Binance VIP head says hedge funds are actively exploring arbitrage opportunities on crypto venues",
       "url": "https://www.theblock.co/news/business/2026-10-13-binance-vip-head-hedge-funds-exploring-arbitrage-418389",
@@ -1372,26 +1413,6 @@
         "UNI",
         "ARB",
         "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million",
-      "url": "https://www.coindesk.com/markets/2026/10/13/tokenized-sandisk-bets-saw-more-liquidations-than-xrp-as-asia-s-chip-rout-wipes-out-usd800-million",
-      "published_at": "2026-10-13T05:27:17+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "XRP"
       ],
       "topics": []
     },
@@ -1599,31 +1620,6 @@
       "topics": [
         "ai",
         "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "DeFi Development grows SOL holdings 12% as CHAD hits record highs",
-      "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
-      "published_at": "2026-10-12T14:53:25+00:00",
-      "summary": "DFDV added 22,070 SOL last week, lifting holdings to 2.59 million SOL, as its CHAD preferred stock hit record highs despite a selloff.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "record high"
-        ],
-        "negative_hits": [
-          "selloff"
-        ]
-      },
-      "coins": [
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "defi"
       ]
     }
   ]

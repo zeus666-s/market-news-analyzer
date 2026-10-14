@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-10-13T23:39:40.063008+00:00",
+  "generated_at": "2026-10-14T04:16:06.471182+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.023,
+    "market_sentiment_score": -0.009,
     "label_distribution": {
-      "bearish": 23,
       "bullish": 20,
-      "neutral": 27
+      "neutral": 30,
+      "bearish": 20
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 34
+        "mentions": 33
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "coin": "BTC",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "SOL",
         "mentions": 6
+      },
+      {
+        "coin": "Near",
+        "mentions": 4
       },
       {
         "coin": "Binance",
@@ -35,30 +39,26 @@
         "mentions": 4
       },
       {
-        "coin": "Near",
+        "coin": "Solana",
         "mentions": 3
       },
       {
-        "coin": "Solana",
-        "mentions": 2
-      },
-      {
-        "coin": "XRP",
-        "mentions": 2
-      },
-      {
         "coin": "Ethereum",
+        "mentions": 2
+      },
+      {
+        "coin": "UNI",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 37
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 14
       },
       {
         "topic": "wallet",
@@ -66,22 +66,22 @@
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "exchange",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "topic": "onchain",
         "mentions": 4
       },
       {
-        "topic": "mining",
+        "topic": "fed",
         "mentions": 2
       },
       {
-        "topic": "defi",
+        "topic": "mining",
         "mentions": 2
       },
       {
@@ -95,6 +95,111 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
+      "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+      "published_at": "2026-10-14T04:11:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
+      "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+      "published_at": "2026-10-14T03:50:54+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Coinbase lays out flexible designs as key priority for Bitcoin’s post-quantum migration",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509",
+      "published_at": "2026-10-14T02:49:34+00:00",
+      "summary": "Coinbase published priorities for Bitcoin's post-quantum transition, urging early preparation for signature upgrades and fund migration.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrades"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitwise’s Hougan says Q3 charts point to ‘crypto spring’",
+      "url": "https://cointelegraph.com/markets/bitwises-hougan-says-q3-charts-point-to-crypto-spring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-14T02:19:56+00:00",
+      "summary": "Bitwise’s Matt Hougan said nearly every fundamental indicator that Bitwise tracks spiked sharply higher.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
+      "url": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
+      "published_at": "2026-10-14T01:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "regulatory"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Ledger asks resellers to halt sales in Southeast Asia and Hong Kong",
@@ -1073,113 +1178,6 @@
       "coins": [
         "Bitcoin",
         "ETH"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Russia’s largest bank Sberbank secures approval to trade crypto",
-      "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
-      "published_at": "2026-10-13T11:02:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "approval"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Now Accepting Bitcoin: Moonflower Coffee and 300+ Colorado Bitcoin Merchants",
-      "url": "https://bitcoinmagazine.com/culture/moonflower-colorado-bitcoin-merchants",
-      "published_at": "2026-10-13T11:00:00+00:00",
-      "summary": "Bitcoin Magazine\n\nNow Accepting Bitcoin: Moonflower Coffee and 300+ Colorado Bitcoin Merchants\nDelicious Bitcoin Latte at Moonflower, Steak and Eggs at Butcher Block Cafe, and Navigating 300+ Colorado Bitcoin Merchants.\nThis post Now Accepting Bitcoin: Moonflower Coffee and 300+ Colorado Bitcoin Merchants first appeared on Bitcoin Magazine and is written by Vagabond.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "UK Moves Closer to Keeping $5B Bitcoin Haul After High Court Ruling",
-      "url": "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling",
-      "published_at": "2026-10-13T10:51:33+00:00",
-      "summary": "A judge ruled that Chinese law should govern fraud victims' claims to the 61,000 BTC seized from Zhimin Qian, in a blow to the claimants.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fraud"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data",
-      "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
-      "published_at": "2026-10-13T10:46:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
-      "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-diverges-from-south-korean-stocks-as-ai-concerns-deepen-the-kospi-selloff",
-      "published_at": "2026-10-13T10:38:51+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns",
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
       ],
       "topics": [
         "ai"
