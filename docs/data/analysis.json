@@ -1,42 +1,34 @@
 {
-  "generated_at": "2026-10-14T20:03:57.541312+00:00",
+  "generated_at": "2026-10-15T03:58:46.039256+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.046,
+    "market_sentiment_score": 0.041,
     "label_distribution": {
-      "bullish": 26,
-      "neutral": 31,
-      "bearish": 13
+      "neutral": 34,
+      "bearish": 11,
+      "bullish": 25
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 31
+        "mentions": 29
       },
       {
         "coin": "OP",
         "mentions": 17
       },
       {
+        "coin": "ETH",
+        "mentions": 4
+      },
+      {
         "coin": "SOL",
         "mentions": 4
       },
       {
-        "coin": "BTC",
-        "mentions": 4
-      },
-      {
-        "coin": "ETH",
-        "mentions": 3
-      },
-      {
-        "coin": "Ripple",
-        "mentions": 3
-      },
-      {
-        "coin": "XRP",
-        "mentions": 3
+        "coin": "Polygon",
+        "mentions": 2
       },
       {
         "coin": "Ethereum",
@@ -49,31 +41,39 @@
       {
         "coin": "LINK",
         "mentions": 2
+      },
+      {
+        "coin": "BTC",
+        "mentions": 2
+      },
+      {
+        "coin": "Tron",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 29
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 15
       },
       {
         "topic": "sec",
-        "mentions": 10
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 7
+        "mentions": 11
       },
       {
         "topic": "exchange",
-        "mentions": 6
+        "mentions": 8
       },
       {
         "topic": "inflation",
+        "mentions": 7
+      },
+      {
+        "topic": "stablecoin",
         "mentions": 6
       },
       {
@@ -89,12 +89,221 @@
         "mentions": 3
       },
       {
-        "topic": "wallet",
-        "mentions": 3
+        "topic": "mining",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin is back below $81,000 as Fed rate uncertainty weighs",
+      "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+      "published_at": "2026-10-15T03:57:45+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
+      "url": "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-15T03:29:22+00:00",
+      "summary": "TeraWulf, Core Scientific, Cipher Mining and IREN each lost more than 12% as hotter inflation hit AI infrastructure companies.",
+      "sentiment": {
+        "score": -7,
+        "normalized": -0.875,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost",
+          "plunge",
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "inflation",
+        "miner",
+        "miners",
+        "mining"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "VanEck seeks to withdraw application for Lido staked Ether ETF",
+      "url": "https://cointelegraph.com/news/vaneck-seeks-to-withdraw-application-for-lido-staked-ether-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-15T01:21:52+00:00",
+      "summary": "VanEck initially filed an S-1 registration statement for the exchange-traded fund in October last year.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "FIL"
+      ],
+      "topics": [
+        "etf",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Polygon gains US payments licenses after closing Coinme deal",
+      "url": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-15T00:55:21+00:00",
+      "summary": "The deal gives Polygon access to 37 money transmitter licenses and 11 state exemptions.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Polygon"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Godfather of AI and 400 Scientists Want AI Models Cut Off From the Internet",
+      "url": "https://decrypt.co/380998/scientists-want-ai-cut-off-from-internet",
+      "published_at": "2026-10-14T21:46:04+00:00",
+      "summary": "After a summer of AI models escaping test environments and hacking real companies, hundreds of researchers say the internet itself should be treated as a security boundary.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Russia’s Central Bank Authorizes Sberbank to Exchange Cryptocurrencies",
+      "url": "https://bitcoinmagazine.com/news/russia-central-bank-gives-sberbank-license",
+      "published_at": "2026-10-14T21:30:14+00:00",
+      "summary": "Bitcoin Magazine\n\nRussia’s Central Bank Authorizes Sberbank to Exchange Cryptocurrencies\nSberbank will debut its bitcoin-related products in December. \nThis post Russia’s Central Bank Authorizes Sberbank to Exchange Cryptocurrencies first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "exchange",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Developer Who Cloned Photoshop With AI Just Did the Same to Microsoft Office",
+      "url": "https://decrypt.co/380991/developer-cloned-photoshop-ai-just-did-same-microsoft-office",
+      "published_at": "2026-10-14T21:16:03+00:00",
+      "summary": "Developer Brandon Thomas used Anthropic's Claude to build free, open-source replicas of Word, Excel and PowerPoint. They're rough, but they show how cheap cloning software has become.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Organizations join forces to fight Illinois crypto tax, after 6-month pause",
+      "url": "https://cointelegraph.com/news/cci-ba-fight-illinois-crypto-tax-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-14T20:56:22+00:00",
+      "summary": "Illinois officials already agreed to delay implementation of a 0.2% tax on crypto assets, but industry-aligned organizations are pushing for summary judgment on the merits.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Patrick Witt exits White House crypto role as Clarity Act stalls",
+      "url": "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611",
+      "published_at": "2026-10-14T20:30:15+00:00",
+      "summary": "Leadership at the White House is shifting once again, as Patrick Witt’s tenure as the administration’s top crypto adviser comes to an end.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Agents Made 138 Million Crypto Payments in a Year. Most Were Tiny",
+      "url": "https://decrypt.co/380989/ai-agents-138-million-crypto-payments-one-year",
+      "published_at": "2026-10-14T20:16:05+00:00",
+      "summary": "A new Chainalysis report found payments through Coinbase’s x402 protocol surged from about 1,500 in mid-2025 to more than 138 million by Q3 2026, with U.S. wallets dominating spending on AI models.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Russia's Biggest Bank Sberbank Wins Approval to Trade Bitcoin",
@@ -953,212 +1162,6 @@
       "topics": [
         "stablecoin"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Polygon Labs completes Coinme acquisition, bringing regulated payments coverage across 48 US states",
-      "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
-      "published_at": "2026-10-14T13:00:00+00:00",
-      "summary": "Polygon Labs completed its Coinme acquisition, bringing 37 state money transmitter licenses into its stablecoin payments infrastructure.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Polygon"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Qivalis wins Dutch e-money license for euro stablecoin",
-      "url": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-14T12:53:41+00:00",
-      "summary": "Qivalis said the Electronic Money Institution authorization enables it to launch a euro-denominated stablecoin, with issuance planned for the coming months, subject to additional MiCA requirements.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
-      "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
-      "published_at": "2026-10-14T12:33:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Kraken parent to buy Lithuanian Saldo Bank amid TradFi expansion",
-      "url": "https://cointelegraph.com/news/krakens-parent-buy-lithuanian-saldo-bank-tradfi-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-14T12:26:05+00:00",
-      "summary": "Payward expects to close the acquisition in 2027, enabling it to expand its traditional banking services into four EU operating markets already served by Saldo Bank.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Move Over, Saylor, There’s a New Top Buyer in Town",
-      "url": "https://decrypt.co/380920/morning-minute-move-over-saylor-theres-a-new-top-buyer-in-town",
-      "published_at": "2026-10-14T12:11:35+00:00",
-      "summary": "With Strategy's preferred stock STRC closing in on $100 par, Saylor might not be the number two buyer for long...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work",
-      "url": "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503",
-      "published_at": "2026-10-14T12:00:00+00:00",
-      "summary": "Evernorth said it is planning a phased move into XRP lending and yield strategies following its Nasdaq debut.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple",
-        "XRP"
-      ],
-      "topics": [
-        "ai",
-        "lending",
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Can crypto users trust the supply chain behind hardware wallets?",
-      "url": "https://cointelegraph.com/news/hardware-wallet-supply-chain-risk-ledger-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-14T11:59:42+00:00",
-      "summary": "Ledger hardware wallet implants have renewed scrutiny of the middlemen handling devices before they reach buyers, even through authorized sellers.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "How Bitcoin Works",
-      "url": "https://www.theblock.co/learn/campus/how-bitcoin-works-417659",
-      "published_at": "2026-10-14T11:52:16+00:00",
-      "summary": "Bitcoin 201 examines Bitcoin as a secure monetary network. It follows the system from rule enforcement and monetary design through fees, privacy, scaling, security, governance, mining economics, energy use, Lightning, and long-term adoption.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "secure"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "governance",
-        "mining",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Here's how analysts see U.S. inflation influencing bitcoin",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/14/here-s-how-analysts-see-u-s-inflation-influencing-bitcoin",
-      "published_at": "2026-10-14T11:15:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Dutch central bank grants Qivalis e-money license for MiCA-compliant euro token",
-      "url": "https://www.coindesk.com/policy/2026/10/14/dutch-regulator-approves-qivalis-as-electronic-money-institution-under-mica-rules",
-      "published_at": "2026-10-14T11:12:36+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
