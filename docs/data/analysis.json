@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T15:16:25.989301+00:00",
+  "generated_at": "2026-10-17T18:18:02.916513+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.037,
+    "market_sentiment_score": 0.036,
     "label_distribution": {
-      "bullish": 23,
-      "neutral": 32,
+      "neutral": 31,
+      "bullish": 24,
       "bearish": 15
     },
     "top_coins": [
@@ -20,22 +20,22 @@
       },
       {
         "coin": "ETH",
-        "mentions": 7
-      },
-      {
-        "coin": "Solana",
-        "mentions": 4
-      },
-      {
-        "coin": "SOL",
-        "mentions": 4
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 3
+        "mentions": 6
       },
       {
         "coin": "UNI",
+        "mentions": 3
+      },
+      {
+        "coin": "Solana",
+        "mentions": 3
+      },
+      {
+        "coin": "SOL",
+        "mentions": 3
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
@@ -43,11 +43,11 @@
         "mentions": 2
       },
       {
-        "coin": "Polygon",
+        "coin": "FIL",
         "mentions": 1
       },
       {
-        "coin": "Near",
+        "coin": "Polygon",
         "mentions": 1
       }
     ],
@@ -58,7 +58,7 @@
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "topic": "stablecoin",
@@ -69,12 +69,16 @@
         "mentions": 6
       },
       {
-        "topic": "dex",
-        "mentions": 5
-      },
-      {
         "topic": "sec",
         "mentions": 4
+      },
+      {
+        "topic": "dex",
+        "mentions": 4
+      },
+      {
+        "topic": "tokenization",
+        "mentions": 3
       },
       {
         "topic": "mining",
@@ -87,14 +91,94 @@
       {
         "topic": "cftc",
         "mentions": 3
-      },
-      {
-        "topic": "tokenization",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets",
+      "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+      "published_at": "2026-10-17T18:14:43+00:00",
+      "summary": "Police reportedly seized $7.15 million in cash, six cold wallets, seven firearms and 1,400 rounds of ammunition in searches of 15 addresses.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto Super PAC Fairshake Pours Millions More Into Defeating Sherrod Brown",
+      "url": "https://decrypt.co/381238/crypto-super-pac-fairshake-pours-millions-more-into-defeating-sherrod-brown",
+      "published_at": "2026-10-17T17:01:03+00:00",
+      "summary": "An FEC filing shows the Fairshake affiliate Defend American Jobs disclosed roughly $7 million more in ads against the Ohio Democrat, pushing its total past $46 million—days after the PAC expanded its map to 32 House races.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
+      "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
+      "published_at": "2026-10-17T17:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto Firms Launch Quantum Alliance as 6 Million Bitcoin Sit Exposed",
+      "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed",
+      "published_at": "2026-10-17T16:01:03+00:00",
+      "summary": "The nine-member group, modeled on the Internet Engineering Task Force, aims to set open standards for testing quantum-resistance claims as forecasts place the first practical attack in the late 2020s.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "Chinese Startup StepFun Launches a Phone Built Around an AI Agent, Not Apps",
@@ -1087,86 +1171,6 @@
       "topics": [
         "usdc"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Solana’s Liu says Shanghai event postponed over registration surge",
-      "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-16T11:22:47+00:00",
-      "summary": "Solana Foundation President Lily Liu said registrations quadrupled overnight, exceeding the attendance limit registered with local authorities.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
-      "published_at": "2026-10-16T11:15:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Circle targets 40 new markets as stablecoin demand grows globally",
-      "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
-      "published_at": "2026-10-16T10:54:35+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
-      "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
-      "published_at": "2026-10-16T10:52:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
