@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-10-18T03:51:34.357667+00:00",
+  "generated_at": "2026-10-18T08:43:26.795470+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.032,
+    "market_sentiment_score": 0.018,
     "label_distribution": {
-      "neutral": 32,
-      "bullish": 23,
-      "bearish": 15
+      "bearish": 16,
+      "neutral": 33,
+      "bullish": 21
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 25
       },
       {
         "coin": "OP",
-        "mentions": 21
+        "mentions": 20
       },
       {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "Tron",
@@ -58,7 +58,7 @@
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "topic": "stablecoin",
@@ -95,6 +95,44 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+      "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+      "published_at": "2026-10-18T07:13:32+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lost"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether backs AIsa as strategic investor, completing seed extension round",
+      "url": "https://cointelegraph.com/news/tether-backs-aisa-as-strategic-investor-completing-seed-extension-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-18T06:26:53+00:00",
+      "summary": "The round brings AIsa’s total funding to more than $9 million.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
@@ -1122,54 +1160,6 @@
         "mining",
         "pos",
         "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Scammer Lost $4.8M in Bitcoin to Tampered Ledger Wallets: Chainalysis",
-      "url": "https://decrypt.co/381141/scammer-lost-4-8m-in-bitcoin-to-tampered-ledger-wallets-chainalysis",
-      "published_at": "2026-10-16T12:22:18+00:00",
-      "summary": "The funds came from a task scam that paid people to fake product sales and reviews, then demanded deposits before releasing their pay.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lost",
-          "scam"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Google Clears a Major Quantum Hurdle, Bitcoin Still Safe",
-      "url": "https://decrypt.co/381138/morning-minute-google-clears-a-major-quantum-hurdle-bitcoin-still-safe",
-      "published_at": "2026-10-16T11:46:54+00:00",
-      "summary": "Plus, crypto majors rebound despite hot PPI and Saylor’s Strategy is at risk of removal from a major index.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "dex"
       ]
     }
   ]
