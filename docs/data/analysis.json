@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T22:18:36.937395+00:00",
+  "generated_at": "2026-10-19T04:00:43.354852+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.005,
+    "market_sentiment_score": -0.002,
     "label_distribution": {
-      "neutral": 37,
+      "bullish": 17,
       "bearish": 17,
-      "bullish": 16
+      "neutral": 36
     },
     "top_coins": [
       {
@@ -16,15 +16,23 @@
       },
       {
         "coin": "OP",
-        "mentions": 22
+        "mentions": 21
       },
       {
         "coin": "ETH",
         "mentions": 5
       },
       {
+        "coin": "Near",
+        "mentions": 3
+      },
+      {
         "coin": "Tron",
         "mentions": 3
+      },
+      {
+        "coin": "Sui",
+        "mentions": 2
       },
       {
         "coin": "FIL",
@@ -35,16 +43,8 @@
         "mentions": 2
       },
       {
-        "coin": "Near",
-        "mentions": 2
-      },
-      {
         "coin": "UNI",
         "mentions": 2
-      },
-      {
-        "coin": "Sui",
-        "mentions": 1
       },
       {
         "coin": "Binance",
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 33
       },
       {
         "topic": "pos",
@@ -62,10 +62,10 @@
       },
       {
         "topic": "stablecoin",
-        "mentions": 9
+        "mentions": 8
       },
       {
-        "topic": "usdc",
+        "topic": "exchange",
         "mentions": 5
       },
       {
@@ -73,8 +73,8 @@
         "mentions": 5
       },
       {
-        "topic": "exchange",
-        "mentions": 4
+        "topic": "usdc",
+        "mentions": 5
       },
       {
         "topic": "wallet",
@@ -95,6 +95,136 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+      "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+      "published_at": "2026-10-19T03:36:58+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "futures"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
+      "url": "https://www.coindesk.com/business/2026/10/18/deutsche-bank-targets-asia-crypto-custody-expansion-in-2027-as-german-launch-nears",
+      "published_at": "2026-10-19T02:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "World launches World ID suite for banks, makes Zoom deepfake check generally available",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869",
+      "published_at": "2026-10-19T01:10:00+00:00",
+      "summary": "World ID for Zoom is generally available after a beta that began in April, and is designed to spot deepfaked participants on Zoom calls.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Qubic freezes chain after attacker drains 1.4K wallets with weak seeds",
+      "url": "https://cointelegraph.com/news/qubic-freezes-chain-after-attacker-drains-14k-wallets-with-weak-seeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-19T01:03:27+00:00",
+      "summary": "Qubic says 87.1% of the stolen funds remain onchain and the rest were frozen at crypto exchange MEXC, as network validators prepare to vote on a recovery plan.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "stolen",
+          "weak"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "onchain",
+        "validator",
+        "validators",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
+      "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
+      "published_at": "2026-10-18T23:28:06+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Richard Heart caught ‘off-guard,’ QDay gets even closer: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/richard-heart-caught-with-pants-down-qday-gets-even-closer-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-18T22:58:17+00:00",
+      "summary": "HEX founder Richard Heart detained in early morning raid in Istanbul, Starknet plunges almost 50% as it votes to become an L1, and Bitwise says all signs point to Crypto Spring.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "plunges"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Crypto.com, Novig sue Missouri over sports event contracts; Kalshi, Polymarket, Robinhood hold off",
@@ -132,7 +262,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+      "title": "Wall Street freaked out Friday, but VIX and bitcoin trades say the fear may fade Monday.",
       "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
       "published_at": "2026-10-18T16:33:00+00:00",
       "summary": "",
@@ -691,26 +821,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
-      "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
-      "published_at": "2026-10-17T12:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "growth"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Circle’s Allaire says stablecoin issuer looking to enter 40 developing markets: Report",
       "url": "https://cointelegraph.com/news/circles-allaire-says-stablecoin-issuer-looking-to-enter-40-developing-markets-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -774,42 +884,6 @@
       "topics": [
         "exchange"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
-      "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
-      "published_at": "2026-10-17T06:39:48+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-      "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
-      "published_at": "2026-10-17T02:30:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "breakthrough"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     },
     {
       "source": "Bitcoin Magazine",
@@ -1066,70 +1140,6 @@
       "coins": [],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Coinbase to power stablecoin-backed cards for Marqeta customers",
-      "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
-      "published_at": "2026-10-16T17:21:29+00:00",
-      "summary": "The expanded partnership builds on Marqeta’s work powering Coinbase’s U.S. debit card offering in 2020.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "partnership"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pow",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "CFTC Wants to Drop Gemini’s $5M Settlement. A Judge Just Said No",
-      "url": "https://decrypt.co/381149/cftc-wants-drop-gemini-5m-settlement-judge-said-no",
-      "published_at": "2026-10-16T16:36:04+00:00",
-      "summary": "The judge ruled that a shift in the CFTC’s enforcement priorities and misconduct allegations against its enforcement division weren’t enough to reopen a deal Gemini signed weeks before trial.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "cftc"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Deutsche Bank To Debut Bitcoin Custody Within Weeks: Report",
-      "url": "https://bitcoinmagazine.com/news/deutsche-bank-will-debut-bitcoin-custody",
-      "published_at": "2026-10-16T16:35:55+00:00",
-      "summary": "Bitcoin Magazine\n\nDeutsche Bank To Debut Bitcoin Custody Within Weeks: Report\nThe German lender is moving fast with its crypto custody service. \nThis post Deutsche Bank To Debut Bitcoin Custody Within Weeks: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]
