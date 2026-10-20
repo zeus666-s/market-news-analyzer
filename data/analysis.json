@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-19T20:55:33.268801+00:00",
+  "generated_at": "2026-10-20T04:13:53.676832+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.011,
+    "market_sentiment_score": 0.03,
     "label_distribution": {
-      "bullish": 18,
-      "neutral": 39,
-      "bearish": 13
+      "bearish": 13,
+      "neutral": 36,
+      "bullish": 21
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 28
+        "mentions": 31
       },
       {
         "coin": "OP",
-        "mentions": 14
+        "mentions": 12
       },
       {
         "coin": "ETH",
@@ -31,7 +31,7 @@
         "mentions": 6
       },
       {
-        "coin": "UNI",
+        "coin": "FIL",
         "mentions": 4
       },
       {
@@ -39,22 +39,22 @@
         "mentions": 3
       },
       {
-        "coin": "XRP",
+        "coin": "ADA",
         "mentions": 2
       },
       {
-        "coin": "FIL",
+        "coin": "Solana",
         "mentions": 2
       },
       {
-        "coin": "Near",
+        "coin": "SOL",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 29
+        "mentions": 28
       },
       {
         "topic": "pos",
@@ -70,7 +70,15 @@
       },
       {
         "topic": "wallet",
-        "mentions": 7
+        "mentions": 5
+      },
+      {
+        "topic": "defi",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
+        "mentions": 3
       },
       {
         "topic": "lending",
@@ -83,18 +91,194 @@
       {
         "topic": "yield",
         "mentions": 3
-      },
-      {
-        "topic": "defi",
-        "mentions": 2
-      },
-      {
-        "topic": "regulation",
-        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Blockchain Association says Treasury’s GENIUS Act rollout needs clearer DeFi, foreign issuer rules",
+      "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
+      "published_at": "2026-10-20T04:07:41+00:00",
+      "summary": "The group filed comments on Treasury's proposed rule implementing the GENIUS Act, which governs who can issue and sell payment stablecoins.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sell"
+        ]
+      },
+      "coins": [
+        "FIL",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "defi",
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Now Accepting Bitcoin: Gyros, Cocas, and 219 Arizona Bitcoin Merchants",
+      "url": "https://bitcoinmagazine.com/culture/pita-cafe-arizona-bitcoin",
+      "published_at": "2026-10-20T03:54:15+00:00",
+      "summary": "Bitcoin Magazine\n\nNow Accepting Bitcoin: Gyros, Cocas, and 219 Arizona Bitcoin Merchants\nSetting up a Lightning wallet took seconds, so we sent first-time users in Scottsdale to see how Arizona Bitcoin spending really works.\nThis post Now Accepting Bitcoin: Gyros, Cocas, and 219 Arizona Bitcoin Merchants first appeared on Bitcoin Magazine and is written by Vagabond.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin rally could revive treasury buying, but easy-money days over",
+      "url": "https://cointelegraph.com/markets/bitcoin-rally-could-revive-treasury-buying-but-easy-money-days-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-20T01:35:00+00:00",
+      "summary": "“A return to last year’s indiscriminate capital raising looks unlikely,” said Bitfinex head of derivatives Jag Kooner.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "buying",
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "AnchorWatch Launches Nevada Trust Company, Caps Bitcoin Custody Fees at $10,000 a Month",
+      "url": "https://bitcoinmagazine.com/news/anchorwatch-debuts-nevada-trust-company",
+      "published_at": "2026-10-19T22:28:17+00:00",
+      "summary": "Bitcoin Magazine\n\nAnchorWatch Launches Nevada Trust Company, Caps Bitcoin Custody Fees at $10,000 a Month\nAnchorWatch’s AnchorWatch Trust Company has now opened its custody service. \nThis post AnchorWatch Launches Nevada Trust Company, Caps Bitcoin Custody Fees at $10,000 a Month first appeared on Bitcoin Magazine and is written by Mathew Di Salvo.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launches",
+          "trust"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ADA",
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "rwa"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT",
+      "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087",
+      "published_at": "2026-10-19T22:00:53+00:00",
+      "summary": "One of the world's largest investment managers, BlackRock has filed for another bitcoin fund, marking its third tied to the asset.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "FIL"
+      ],
+      "topics": [
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Strive Buys $335 Million in Bitcoin After Investors Pour In $369 Million",
+      "url": "https://decrypt.co/381382/strive-buys-335-million-bitcoin",
+      "published_at": "2026-10-19T21:46:05+00:00",
+      "summary": "The Nasdaq-listed bitcoin holder bought as warrant holders exercised, bringing in $369 million, and it now plans a $630 million sale of 15% preferred stock.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anthropic Gives 5% of Itself to the Public. Musk Answers by Giving Away SpaceX Shares",
+      "url": "https://decrypt.co/381371/anthropic-gives-public-musk-answers-spacex-shares",
+      "published_at": "2026-10-19T21:15:04+00:00",
+      "summary": "Anthropic committed 5% of its shares to a public benefit fund, and within hours Elon Musk promised a SpaceX share to every American child.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cex"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback",
+      "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-19T21:04:34+00:00",
+      "summary": "The former medical device maker has liquidated its Solana treasury and is offering to repurchase shares and warrants using its $223.8 million cash holdings.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": [
+          "sells"
+        ]
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "XRP Ledger Repairs Its Lending Protocol Before It Goes Live",
@@ -965,29 +1149,6 @@
       ]
     },
     {
-      "source": "Bitcoin Magazine",
-      "title": "Jeff Park: What The AI Pain Trade Means For Bitcoin",
-      "url": "https://bitcoinmagazine.com/videos/jeff-park-what-the-ai-pain-trade-means-for-bitcoin",
-      "published_at": "2026-10-19T12:30:46+00:00",
-      "summary": "Bitcoin Magazine\n\nJeff Park: What The AI Pain Trade Means For Bitcoin\nFrom Strategy to Google, firms adopt preferred securities. Jeff Park explains why digital credit is the future of income and valuation.\nThis post Jeff Park: What The AI Pain Trade Means For Bitcoin first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Strategy buys $22M in Bitcoin, repurchases $193M in STRC",
       "url": "https://cointelegraph.com/news/strategy-btc-22-million-buy-strc-buyback-193-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1007,27 +1168,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Fundstrat Analyst Sean Farrell: Bitcoin to $100k by Year End + MSTR MSCI Exclusion",
-      "url": "https://bitcoinmagazine.com/videos/fundstrat-analyst-sean-farrell-bitcoin-to-100k-by-year-end-mstr-msci-exclusion",
-      "published_at": "2026-10-19T12:22:41+00:00",
-      "summary": "Bitcoin Magazine\n\nFundstrat Analyst Sean Farrell: Bitcoin to $100k by Year End + MSTR MSCI Exclusion\nWhere is Bitcoin headed by year-end? Fundstrat's Sean Farrell sees $95K–$100K as possible, explaining bond volatility impacts and the broader regime shift.\nThis post Fundstrat Analyst Sean Farrell: Bitcoin to $100k by Year End + MSTR MSCI Exclusion first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
     },
     {
       "source": "Decrypt",
@@ -1148,25 +1288,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "BingX, YouHodler added to ESMA MiCA register in latest update",
-      "url": "https://cointelegraph.com/news/bingx-youhodler-esma-mica-register-friday-update?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-19T11:32:00+00:00",
-      "summary": "ESMA’s latest MiCA register update includes BingX, YouHodler and Banco Santander’s Openbank, bringing the total to 375 unique CASPs.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "CoinDesk",
       "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
       "url": "https://www.coindesk.com/daybook-us/2026/10/19/strategy-on-verge-of-golden-cross-just-weeks-after-bitcoin-flashed-same-bullish-signal",
@@ -1227,27 +1348,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "UK Trio Jailed Over Home Invasion in Failed Crypto Theft Attempt",
-      "url": "https://decrypt.co/381281/uk-trio-jailed-over-home-invasion-in-failed-crypto-theft-attempt",
-      "published_at": "2026-10-19T10:31:09+00:00",
-      "summary": "The victim was hit over the head before his teenage sister alerted police, who arrested all three men at the scene in May.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "failed",
-          "theft"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
       "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-extends-bounce-above-usd82-000-as-stocks-rebound-defi-tokens-lead-altcoin-gains",
@@ -1269,51 +1369,6 @@
       "topics": [
         "ai",
         "defi"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "France advances stablecoin tax, eyes self-custodial wallets and exit tax proposals",
-      "url": "https://cointelegraph.com/news/france-stablecoin-tax-eyes-self-custodial-wallets-exit-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-19T10:22:30+00:00",
-      "summary": "France’s National Assembly adopted a crypto tax amendment targeting certain stablecoin swaps, while separate proposals on exit taxes and self-custodial wallet reporting remain under consideration.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "stablecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Zcash Developer Zakura Proposes Fix to Stop Quantum Computers Linking Shielded Swaps",
-      "url": "https://decrypt.co/381257/zcash-developer-zakura-proposes-fix-to-stop-quantum-computers-linking-shielded-swaps",
-      "published_at": "2026-10-19T10:11:21+00:00",
-      "summary": "Zakura says a single published Zcash address could let a future quantum attacker link every payment a wallet has ever received.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK",
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "wallet"
       ]
     },
     {
@@ -1571,48 +1626,6 @@
       ],
       "topics": [
         "bridge"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
-      "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
-      "published_at": "2026-10-17T19:56:25+00:00",
-      "summary": "Applied Optoelectronics told the WSJ it objected because it was unsure how tokenization would affect its stock price, liquidity and volatility.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron",
-        "OP"
-      ],
-      "topics": [
-        "liquidity",
-        "tokenization"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets",
-      "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
-      "published_at": "2026-10-17T18:14:43+00:00",
-      "summary": "Police reportedly seized $7.15 million in cash, six cold wallets, seven firearms and 1,400 rounds of ammunition in searches of 15 addresses.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": [
-        "wallet"
       ]
     }
   ]
