@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T23:10:51.065918+00:00",
+  "generated_at": "2026-10-22T04:02:43.601196+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.004,
+    "market_sentiment_score": -0.005,
     "label_distribution": {
-      "neutral": 38,
-      "bearish": 16,
-      "bullish": 16
+      "bearish": 18,
+      "bullish": 16,
+      "neutral": 36
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 16
       },
       {
         "coin": "UNI",
@@ -24,7 +24,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Near",
@@ -33,6 +33,10 @@
       {
         "coin": "SOL",
         "mentions": 4
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 3
       },
       {
         "coin": "Dogecoin",
@@ -45,20 +49,16 @@
       {
         "coin": "Solana",
         "mentions": 3
-      },
-      {
-        "coin": "Tron",
-        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "topic": "stablecoin",
@@ -66,11 +66,11 @@
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "defi",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "cex",
@@ -81,20 +81,91 @@
         "mentions": 4
       },
       {
-        "topic": "yield",
-        "mentions": 3
-      },
-      {
         "topic": "exchange",
         "mentions": 3
       },
       {
         "topic": "regulation",
         "mentions": 3
+      },
+      {
+        "topic": "futures",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
+      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+      "published_at": "2026-10-22T03:51:34+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fail"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "PHP Foundation admits ‘structural failure’ delayed critical security fix",
+      "url": "https://cointelegraph.com/news/php-foundation-admits-structural-failure-delayed-critical-security-fix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-22T00:44:00+00:00",
+      "summary": "Government websites and online services were disrupted after concerns about a PHP bug that could allow attackers to take control of vulnerable servers.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns",
+          "failure"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Aerodrome and Velodrome merge to launch Aero across seven blockchain networks",
+      "url": "https://www.theblock.co/news/defi/2026-10-21-aerodrome-velodrome-merge-aero-421514",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "summary": "Aerodrome and Velodrome have merged to launch Aero across Ethereum mainnet, Base, Robinhood Chain, Ink, OP Mainnet, Arc, and Arbitrum.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Arbitrum",
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "mainnet"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
@@ -1110,73 +1181,6 @@
       "coins": [],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Standard Chartered signs definitive deal to acquire Zodia Custody",
-      "url": "https://cointelegraph.com/news/standard-chartered-acquire-zodia-custody-uk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-21T12:06:23+00:00",
-      "summary": "The signing follows shareholders’ acceptance of Standard Chartered’s non-binding offer in May, with regulatory approvals still pending.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "defi",
-        "regulatory"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Dogecoin wallet, app teams unite in push to give DOGE more everyday uses",
-      "url": "https://www.coindesk.com/tech/2026/10/21/dogecoin-wallet-app-teams-unite-in-push-to-give-doge-more-everyday-uses",
-      "published_at": "2026-10-21T12:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Dogecoin",
-        "DOGE",
-        "UNI"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Dogecoin Labs launches as DOGE ecosystem seeks growth beyond meme-driven demand",
-      "url": "https://www.theblock.co/news/business/2026-10-21-dogecoin-labs-launch-mydoge-dogeos-such-app-421469",
-      "published_at": "2026-10-21T12:00:00+00:00",
-      "summary": "Dogecoin Labs, backed by the Dogecoin Foundation, unites MyDoge, DogeOS and Such App to push DOGE into payments and DeFi.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "demand",
-          "growth",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Dogecoin",
-        "DOGE",
-        "UNI"
-      ],
-      "topics": [
-        "defi"
       ]
     }
   ]

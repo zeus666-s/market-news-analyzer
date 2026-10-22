@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T23:10:51.065918+00:00",
+  "generated_at": "2026-10-22T04:02:43.601196+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.004,
+    "market_sentiment_score": -0.005,
     "label_distribution": {
-      "neutral": 38,
-      "bearish": 16,
-      "bullish": 16
+      "bearish": 18,
+      "bullish": 16,
+      "neutral": 36
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 18
+        "mentions": 16
       },
       {
         "coin": "UNI",
@@ -24,7 +24,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "Near",
@@ -33,6 +33,10 @@
       {
         "coin": "SOL",
         "mentions": 4
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 3
       },
       {
         "coin": "Dogecoin",
@@ -45,20 +49,16 @@
       {
         "coin": "Solana",
         "mentions": 3
-      },
-      {
-        "coin": "Tron",
-        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 32
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "topic": "stablecoin",
@@ -66,11 +66,11 @@
       },
       {
         "topic": "sec",
-        "mentions": 7
+        "mentions": 8
       },
       {
         "topic": "defi",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "cex",
@@ -81,20 +81,91 @@
         "mentions": 4
       },
       {
-        "topic": "yield",
-        "mentions": 3
-      },
-      {
         "topic": "exchange",
         "mentions": 3
       },
       {
         "topic": "regulation",
         "mentions": 3
+      },
+      {
+        "topic": "futures",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
+      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+      "published_at": "2026-10-22T03:51:34+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fail"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "PHP Foundation admits ‘structural failure’ delayed critical security fix",
+      "url": "https://cointelegraph.com/news/php-foundation-admits-structural-failure-delayed-critical-security-fix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-22T00:44:00+00:00",
+      "summary": "Government websites and online services were disrupted after concerns about a PHP bug that could allow attackers to take control of vulnerable servers.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "concerns",
+          "failure"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Aerodrome and Velodrome merge to launch Aero across seven blockchain networks",
+      "url": "https://www.theblock.co/news/defi/2026-10-21-aerodrome-velodrome-merge-aero-421514",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "summary": "Aerodrome and Velodrome have merged to launch Aero across Ethereum mainnet, Base, Robinhood Chain, Ink, OP Mainnet, Arc, and Arbitrum.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "Arbitrum",
+        "ARB",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "mainnet"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
@@ -1330,31 +1401,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "PancakeSwap TVL tops $380M as major fee overhaul heads to vote",
-      "url": "https://cointelegraph.com/markets/pancakeswap-tvl-jumps-19-percent-fee-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-21T10:50:52+00:00",
-      "summary": "PancakeSwap’s proposed fee-sharing overhaul would give liquidity providers 88% of swap fees and cut CAKE emissions by 69%, as BNB Chain’s DeFi activity expands.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "BNB",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "defi",
-        "liquidity",
-        "pos",
-        "tvl"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date",
       "url": "https://www.coindesk.com/markets/2026/10/21/crypto-rises-with-asian-tech-stocks-zcash-extends-gain-after-setting-upgrade-date",
@@ -1478,26 +1524,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Zcash developers confirm November date for upgrade that triples payment speed",
-      "url": "https://www.coindesk.com/markets/2026/10/21/zcash-developers-confirm-november-date-for-upgrade-that-triples-payment-speed",
-      "published_at": "2026-10-21T08:10:12+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "MoonPay, Upbit parent Dunamu explore collaboration on stablecoin payments, GIWA expansion",
       "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
@@ -1585,28 +1611,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin yield platform HoneyB developer raises $5 million at $30 million valuation",
-      "url": "https://www.theblock.co/news/deals/2026-10-20-bitcoin-yield-platform-honeyb-funding-valuation-421430",
-      "published_at": "2026-10-20T17:11:47+00:00",
-      "summary": "Nectar Group, the developer of bitcoin income platform HoneyB, has raised $5 million in a seed funding round.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "yield"
-      ]
     }
   ]
 }
