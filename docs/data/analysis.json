@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-22T23:05:40.005736+00:00",
+  "generated_at": "2026-10-23T04:05:59.210463+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.023,
+    "market_sentiment_score": 0.004,
     "label_distribution": {
-      "bearish": 19,
-      "neutral": 28,
-      "bullish": 23
+      "neutral": 30,
+      "bearish": 20,
+      "bullish": 20
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 25
       },
       {
         "coin": "OP",
-        "mentions": 13
+        "mentions": 12
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
-        "coin": "BTC",
-        "mentions": 6
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "Ethereum",
         "mentions": 5
       },
       {
-        "coin": "Near",
+        "coin": "BTC",
         "mentions": 4
       },
       {
@@ -40,33 +40,37 @@
       },
       {
         "coin": "UNI",
-        "mentions": 3
-      },
-      {
-        "coin": "Uniswap",
         "mentions": 2
       },
       {
-        "coin": "LTC",
+        "coin": "Chainlink",
+        "mentions": 1
+      },
+      {
+        "coin": "LINK",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 33
+        "mentions": 35
       },
       {
         "topic": "pos",
         "mentions": 18
       },
       {
-        "topic": "etf",
-        "mentions": 9
+        "topic": "stablecoin",
+        "mentions": 8
       },
       {
-        "topic": "stablecoin",
+        "topic": "etf",
         "mentions": 7
+      },
+      {
+        "topic": "exchange",
+        "mentions": 5
       },
       {
         "topic": "sec",
@@ -74,15 +78,11 @@
       },
       {
         "topic": "mining",
-        "mentions": 4
-      },
-      {
-        "topic": "exchange",
-        "mentions": 4
-      },
-      {
-        "topic": "defi",
         "mentions": 3
+      },
+      {
+        "topic": "wallet",
+        "mentions": 2
       },
       {
         "topic": "onchain",
@@ -96,11 +96,168 @@
   },
   "articles": [
     {
+      "source": "The Block",
+      "title": "HSBC rolls out its first HKD stablecoin RedCoin to retail users",
+      "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018",
+      "published_at": "2026-10-23T04:03:09+00:00",
+      "summary": "PayMe users will be able to activate a stablecoin wallet in-app in the coming days for peer-to-peer and peer-to-merchant payments.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+      "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-gold-trim-early-losses-as-yen-gives-up-gains-oil-stays-near-usd100",
+      "published_at": "2026-10-23T03:13:01+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": [
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
+      "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993",
+      "published_at": "2026-10-23T02:48:13+00:00",
+      "summary": "LG CNS is set to integrate Chainlink's cross-chain, data, and orchestration infrastructure into its digital asset platform.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "integrate"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Chainlink",
+        "LINK"
+      ],
+      "topics": [
+        "ai",
+        "cross-chain",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin slides below $81,500 as tech stock sell-off spreads to Asian equities",
+      "url": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-slides-tech-stock-sell-off-423990",
+      "published_at": "2026-10-23T02:21:30+00:00",
+      "summary": "The Wall Street sell-off extended to Asian equities on Friday morning, with South Korea's Kospi down 2.3% and Japan's Nikkei 225 down 1.6%.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "sell-off"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Switzerland approves first spot Bitcoin ETF for retail investors",
+      "url": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-23T00:59:35+00:00",
+      "summary": "BIT Asset Management’s Bitcoin Fund ETF is expected to begin trading on SIX Swiss Exchange in November, with its public offering restricted to Switzerland.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Pentagon bans US forces from using military info to bet in prediction markets",
+      "url": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-22T23:50:42+00:00",
+      "summary": "Hegseth warned that prediction market wagers could expose military operations to adversaries.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bans",
+          "warned"
+        ]
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return",
+      "url": "https://bitcoinmagazine.com/culture/the-sleeper-has-awakened-pepenardos-sleeping-knights-return",
+      "published_at": "2026-10-22T23:06:48+00:00",
+      "summary": "Bitcoin Magazine\n\nThe Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return\nHand-altered magazine covers, one-of-one trading cards, and the evolving culture of bitcoin collectibles.\nThis post The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return first appeared on Bitcoin Magazine and is written by Dennis Koch.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
       "source": "Cointelegraph",
       "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
       "url": "https://cointelegraph.com/magazine/new-deepseek-ban-in-us-swiss-asia-crypto-ties-deepen-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-10-22T22:50:22+00:00",
-      "summary": "DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe’s first spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech.",
+      "summary": "DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe’s only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech.",
       "sentiment": {
         "score": -6,
         "normalized": -0.75,
@@ -965,31 +1122,6 @@
       ]
     },
     {
-      "source": "Bitcoin Magazine",
-      "title": "Retail Money is “Dead” – Wall Street is how Bitcoin Actually Wins",
-      "url": "https://bitcoinmagazine.com/videos/retail-money-is-dead-wall-street-is-how-bitcoin-actually-wins",
-      "published_at": "2026-10-22T13:29:09+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nRetail Money is &#8220;Dead&#8221; &#8211; Wall Street is how Bitcoin Actually Wins\nBitcoin is moving from the fringe to the boardroom, says Allen Helm. He details how institutions structure digital credit around BTC and record ETF inflows.\nThis post Retail Money is &#8220;Dead&#8221; &#8211; Wall Street is how Bitcoin Actually Wins first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "pos"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Fireblocks denies report of $2.5 billion acquisition talks with Visa",
       "url": "https://www.theblock.co/news/deals/2026-10-22-visa-in-talks-acquire-crypto-custody-firm-fireblocks-around-2-5-billion-axios-421926",
@@ -1049,133 +1181,6 @@
         "pos",
         "stablecoin",
         "yield"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence",
-      "url": "https://www.coindesk.com/news-analysis/2026/10/21/crypto-is-making-a-splash-in-u-s-elections-but-chiefly-in-jabs-about-industry-influence",
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETF buyers are trend followers, not setters, DWF Labs says",
-      "url": "https://cointelegraph.com/news/bitcoin-etf-flows-follow-price-trends-dwf-labs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "summary": "DWF Labs research finds that Bitcoin ETF flows follow past BTC price movements rather than predict future returns, with investors buying rallies and selling dips.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "buying",
-          "rallies"
-        ],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
-      "url": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
-      "published_at": "2026-10-22T12:14:29+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "SoFi Launches Tokenized Deposit That Earns 4.4% and Converts to a Stablecoin",
-      "url": "https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin",
-      "published_at": "2026-10-22T12:01:03+00:00",
-      "summary": "Each SOFIE token represents $1 on deposit at SoFi Bank, earning 4.40% APY with FDIC insurance—a yield-and-protection combination ordinary stablecoins lack.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos",
-        "stablecoin",
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "The UK needs a workable route to regulated DeFi access",
-      "url": "https://cointelegraph.com/opinion/uk-crypto-rules-regulated-defi-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-22T12:00:00+00:00",
-      "summary": "The UK’s 2027 crypto rules risk a de facto ban on regulated firms providing access to DeFi, argues Coinbase’s European policy head Katie Harries.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban",
-          "risk"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "defi"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Dune launches onchain trading data feeds as tokenized markets expand",
-      "url": "https://www.theblock.co/news/business/2026-10-22-dune-onchain-trading-data-feeds-421889",
-      "published_at": "2026-10-22T12:00:00+00:00",
-      "summary": "The new real-time market feeds will cover trade data from over 200 onchain venues across 12 blockchain networks.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
       ]
     }
   ]
