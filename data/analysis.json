@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-10-25T22:22:54.760627+00:00",
+  "generated_at": "2026-10-26T04:04:06.544626+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.05,
+    "market_sentiment_score": -0.057,
     "label_distribution": {
-      "bearish": 18,
-      "neutral": 44,
+      "neutral": 42,
+      "bearish": 20,
       "bullish": 8
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 25
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 17
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "coin": "SOL",
         "mentions": 4
       },
       {
+        "coin": "Ethereum",
+        "mentions": 3
+      },
+      {
         "coin": "Near",
         "mentions": 3
       },
       {
+        "coin": "Solana",
+        "mentions": 2
+      },
+      {
         "coin": "FIL",
-        "mentions": 2
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "Sui",
         "mentions": 2
       },
       {
@@ -47,29 +47,29 @@
         "mentions": 1
       },
       {
-        "coin": "Solana",
+        "coin": "BTC",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "topic": "sec",
-        "mentions": 10
-      },
-      {
-        "topic": "etf",
-        "mentions": 7
+        "mentions": 9
       },
       {
         "topic": "stablecoin",
+        "mentions": 8
+      },
+      {
+        "topic": "etf",
         "mentions": 7
       },
       {
@@ -81,20 +81,133 @@
         "mentions": 3
       },
       {
-        "topic": "memecoin",
-        "mentions": 1
-      },
-      {
-        "topic": "yield",
-        "mentions": 1
-      },
-      {
         "topic": "cex",
+        "mentions": 2
+      },
+      {
+        "topic": "validator",
+        "mentions": 1
+      },
+      {
+        "topic": "memecoin",
         "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
+      "url": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-26T03:21:26+00:00",
+      "summary": "The Nasdaq-listed firm said it plans to establish Solana validator operations in Hong Kong.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "validator"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips",
+      "url": "https://www.coindesk.com/markets/2026/10/26/elon-musk-confirms-usd40-billion-spacex-debt-deal-for-ai-chips-warns-of-neocloud-shakeout",
+      "published_at": "2026-10-26T03:11:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cex"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Keystone says website breach exposed hardware wallet buyers’ addresses",
+      "url": "https://cointelegraph.com/news/keystone-says-website-breach-exposed-hardware-wallet-buyers-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-26T02:24:04+00:00",
+      "summary": "A security researcher warned that the leaked shipping details could expose crypto holders to targeted scams and physical attacks.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warned"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Standard Chartered-led Anchorpoint says it’s not rushing retail stablecoin",
+      "url": "https://cointelegraph.com/news/standard-chartered-led-anchorpoint-says-its-not-rushing-retail-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-26T00:13:29+00:00",
+      "summary": "The Standard Chartered and Animoca Brands joint venture previously targeted retail access as early as the end of 2026, but its CEO declined to reaffirm that timeline.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "declined"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-25T22:48:40+00:00",
+      "summary": "Similar to the Hugging Face hack, Ethereum researchers have set up an AI Agent message board to help rescue the Glamsterdam fork. ‘Steal My Bitcoin’ site successfully hacked.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "hacked"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a ‘false alarm’",
@@ -1288,31 +1401,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
-      "url": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-23T12:23:58+00:00",
-      "summary": "Bitcoin price volatility cooled as stock markets battled another day of resurgent AI fears during Friday’s Asia trading session.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fears",
-          "loss",
-          "weakness"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
       "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
@@ -1331,30 +1419,6 @@
       "topics": [
         "ai",
         "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Was crypto self-custody ever designed for beginners?",
-      "url": "https://cointelegraph.com/news/self-custody-crypto-beginners-mainstream-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-23T11:47:47+00:00",
-      "summary": "Recent hardware wallet security incidents have renewed debate over whether self-custody is suitable for beginners, as multisig and seedless designs carry their own risks.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risks"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "Sui"
-      ],
-      "topics": [
-        "sec",
-        "wallet"
       ]
     },
     {
@@ -1396,46 +1460,6 @@
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
-      "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
-      "published_at": "2026-10-23T11:13:01+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash",
-      "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-23T10:13:06+00:00",
-      "summary": "The attacker moved $744,000 in ETH and BNB to Tornado Cash after exploiting Cysic’s bridge to mint 10 million tokens on BNB Smart Chain.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "BNB"
-      ],
-      "topics": [
-        "ai",
-        "bridge"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "New York seeks over $1.3 billion from NovaTech founders after couple fled the US",
       "url": "https://www.theblock.co/news/regulation/2026-10-23-new-york-seeks-over-1-3-billion-from-novatech-founders-after-couple-fled-the-us-424453",
@@ -1469,27 +1493,6 @@
       ],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bybit secures first full Dubai license for spot trading services",
-      "url": "https://cointelegraph.com/news/bybit-first-full-dubai-spot-trading-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-23T09:50:04+00:00",
-      "summary": "Bybit’s new VARA licence authorizes spot trading services in Dubai, but the exchange must complete additional regulatory requirements before launching.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "regulatory",
-        "sec"
       ]
     },
     {

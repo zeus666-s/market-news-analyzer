@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-10-25T22:22:54.760627+00:00",
+  "generated_at": "2026-10-26T04:04:06.544626+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.05,
+    "market_sentiment_score": -0.057,
     "label_distribution": {
-      "bearish": 18,
-      "neutral": 44,
+      "neutral": 42,
+      "bearish": 20,
       "bullish": 8
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 25
       },
       {
         "coin": "OP",
-        "mentions": 16
+        "mentions": 17
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 8
       },
       {
         "coin": "SOL",
         "mentions": 4
       },
       {
+        "coin": "Ethereum",
+        "mentions": 3
+      },
+      {
         "coin": "Near",
         "mentions": 3
       },
       {
+        "coin": "Solana",
+        "mentions": 2
+      },
+      {
         "coin": "FIL",
-        "mentions": 2
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 2
-      },
-      {
-        "coin": "Sui",
         "mentions": 2
       },
       {
@@ -47,29 +47,29 @@
         "mentions": 1
       },
       {
-        "coin": "Solana",
+        "coin": "BTC",
         "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 36
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
       },
       {
         "topic": "sec",
-        "mentions": 10
-      },
-      {
-        "topic": "etf",
-        "mentions": 7
+        "mentions": 9
       },
       {
         "topic": "stablecoin",
+        "mentions": 8
+      },
+      {
+        "topic": "etf",
         "mentions": 7
       },
       {
@@ -81,20 +81,133 @@
         "mentions": 3
       },
       {
-        "topic": "memecoin",
-        "mentions": 1
-      },
-      {
-        "topic": "yield",
-        "mentions": 1
-      },
-      {
         "topic": "cex",
+        "mentions": 2
+      },
+      {
+        "topic": "validator",
+        "mentions": 1
+      },
+      {
+        "topic": "memecoin",
         "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
+      "url": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-26T03:21:26+00:00",
+      "summary": "The Nasdaq-listed firm said it plans to establish Solana validator operations in Hong Kong.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "validator"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips",
+      "url": "https://www.coindesk.com/markets/2026/10/26/elon-musk-confirms-usd40-billion-spacex-debt-deal-for-ai-chips-warns-of-neocloud-shakeout",
+      "published_at": "2026-10-26T03:11:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warning"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cex"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Keystone says website breach exposed hardware wallet buyers’ addresses",
+      "url": "https://cointelegraph.com/news/keystone-says-website-breach-exposed-hardware-wallet-buyers-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-26T02:24:04+00:00",
+      "summary": "A security researcher warned that the leaked shipping details could expose crypto holders to targeted scams and physical attacks.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warned"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pos",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Standard Chartered-led Anchorpoint says it’s not rushing retail stablecoin",
+      "url": "https://cointelegraph.com/news/standard-chartered-led-anchorpoint-says-its-not-rushing-retail-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-26T00:13:29+00:00",
+      "summary": "The Standard Chartered and Animoca Brands joint venture previously targeted retail access as early as the end of 2026, but its CEO declined to reaffirm that timeline.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "declined"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-25T22:48:40+00:00",
+      "summary": "Similar to the Hugging Face hack, Ethereum researchers have set up an AI Agent message board to help rescue the Glamsterdam fork. ‘Steal My Bitcoin’ site successfully hacked.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "hacked"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a ‘false alarm’",
@@ -1018,114 +1131,6 @@
       },
       "coins": [
         "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bank of Korea Wants Stablecoins Written Into Forex Law as Crypto Bill and Tax Fight Come to a Head",
-      "url": "https://bitcoinmagazine.com/news/bank-of-korea-crypto-bill-and-tax",
-      "published_at": "2026-10-23T14:01:41+00:00",
-      "summary": "Bitcoin Magazine\n\nBank of Korea Wants Stablecoins Written Into Forex Law as Crypto Bill and Tax Fight Come to a Head\nThe Bank of Korea told lawmakers it will draft a forex law amendment this year to regulate stablecoins as a means of payment, a plan that points to tighter cross-border controls rather than legal-tender status.\nThis post Bank of Korea Wants Stablecoins Written Into Forex Law as Crypto Bill and Tax Fight Come to a Head first appeared on Bitcoin Magazine and is written by Micah Z...",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
-      "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
-      "published_at": "2026-10-23T13:58:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-23T13:38:53+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Stand With Crypto Director: The Crypto Vote Will Decide the Midterms | Mason Lynaugh",
-      "url": "https://bitcoinmagazine.com/videos/stand-with-crypto-director-the-crypto-vote-will-decide-the-midterms-mason-lynaugh",
-      "published_at": "2026-10-23T13:33:32+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nStand With Crypto Director: The Crypto Vote Will Decide the Midterms | Mason Lynaugh\nAhead of midterms, Stand With Crypto's Mason Lynaugh breaks down a 3.1M-advocate push, explaining why crypto swing voters will forge the most pro-BTC Congress.\nThis post Stand With Crypto Director: The Crypto Vote Will Decide the Midterms | Mason Lynaugh first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: a16z Drops 'Crypto' From Its Fund",
-      "url": "https://decrypt.co/381691/morning-minute-a16z-drops-crypto-from-its-fund",
-      "published_at": "2026-10-23T13:29:21+00:00",
-      "summary": "The name change is symbolic of the fund’s future investing focus, though the firm will continue investing in crypto.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops"
-        ]
-      },
-      "coins": [
-        "OP"
       ],
       "topics": []
     }
