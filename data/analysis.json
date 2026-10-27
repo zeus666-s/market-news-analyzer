@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-10-27T14:13:00.504067+00:00",
+  "generated_at": "2026-10-27T20:30:53.539589+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": 0.018,
+    "market_sentiment_score": 0.054,
     "label_distribution": {
-      "neutral": 39,
-      "bearish": 16,
-      "bullish": 15
+      "bullish": 24,
+      "neutral": 30,
+      "bearish": 16
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 29
+        "mentions": 28
       },
       {
         "coin": "OP",
-        "mentions": 20
+        "mentions": 11
       },
       {
         "coin": "Ripple",
-        "mentions": 5
+        "mentions": 7
+      },
+      {
+        "coin": "FIL",
+        "mentions": 4
       },
       {
         "coin": "ETH",
         "mentions": 4
       },
       {
-        "coin": "UNI",
-        "mentions": 4
+        "coin": "XRP",
+        "mentions": 3
+      },
+      {
+        "coin": "Sui",
+        "mentions": 3
+      },
+      {
+        "coin": "MATIC",
+        "mentions": 2
       },
       {
         "coin": "ADA",
-        "mentions": 3
-      },
-      {
-        "coin": "BTC",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "coin": "Near",
-        "mentions": 3
-      },
-      {
-        "coin": "Solana",
-        "mentions": 2
-      },
-      {
-        "coin": "SOL",
-        "mentions": 2
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 36
+        "mentions": 34
       },
       {
         "topic": "pos",
@@ -62,39 +62,807 @@
       },
       {
         "topic": "stablecoin",
-        "mentions": 9
-      },
-      {
-        "topic": "wallet",
-        "mentions": 7
-      },
-      {
-        "topic": "sec",
-        "mentions": 7
+        "mentions": 10
       },
       {
         "topic": "fed",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "topic": "cftc",
         "mentions": 4
       },
       {
-        "topic": "miner",
-        "mentions": 3
+        "topic": "sec",
+        "mentions": 4
+      },
+      {
+        "topic": "wallet",
+        "mentions": 4
       },
       {
         "topic": "mining",
+        "mentions": 4
+      },
+      {
+        "topic": "etf",
         "mentions": 3
       },
       {
-        "topic": "onchain",
-        "mentions": 2
+        "topic": "usdc",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Robinhood Taps Ripple's Stablecoin, Treasury Software and Trading Loans",
+      "url": "https://decrypt.co/382002/robinhood-taps-ripple-stablecoin-treasury-software-trading-loans",
+      "published_at": "2026-10-27T20:16:02+00:00",
+      "summary": "Ripple's RLUSD stablecoin is live on Robinhood Chain and Bitstamp, and heads to the Robinhood app later this year as the companies deepen ties in treasury and institutional trading.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets",
+      "url": "https://cointelegraph.com/news/ripple-robinhood-expand-partnership-rlusd-retail-institutional-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-27T19:54:05+00:00",
+      "summary": "Ripple also expanded its collaboration with BNY on digital asset custody and partnered with C2FO to bring trade finance settlement onto the XRP Ledger.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional",
+          "partnership"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple",
+        "XRP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Price Rests Near $80,500 as Midterms, Fed Decision Loom",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-rests-near-80500-midterms",
+      "published_at": "2026-10-27T19:48:48+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Price Rests Near $80,500 as Midterms, Fed Decision Loom\nBitcoin price recovered from an early-morning low near $79,400 to trade around $80,500 on Tuesday, holding above $80,000 ahead of this week’s Fed decision and the November midterms.\nThis post Bitcoin Price Rests Near $80,500 as Midterms, Fed Decision Loom first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "recovered"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "fed",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anchorage Positions Itself as Custody Backbone of US-Mexico Stablecoin Corridor",
+      "url": "https://decrypt.co/381988/anchorage-custody-backbone-us-mexico-stablecoin-corridor",
+      "published_at": "2026-10-27T19:46:02+00:00",
+      "summary": "An expanded deal with Bitso puts Anchorage Digital Bank’s custody beneath both sides of the US-Mexico remittance route.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-27T19:36:13+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC sues Utah to block action against prediction markets",
+      "url": "https://cointelegraph.com/news/cftc-lawsuit-utah-action-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-27T19:21:59+00:00",
+      "summary": "The US state filed a lawsuit against Kalshi last week, seeking to recover up to $60 million in profits related to event contracts on prediction markets.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "profits",
+          "recover"
+        ],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "FIL",
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "VanEck Launches All-in-One Wealth Builder ETF With Bitcoin Exposure",
+      "url": "https://bitcoinmagazine.com/news/vaneck-builder-etf-with-bitcoin-exposure",
+      "published_at": "2026-10-27T19:18:06+00:00",
+      "summary": "Bitcoin Magazine\n\nVanEck Launches All-in-One Wealth Builder ETF With Bitcoin Exposure\nVanEck launched its Wealth Builder ETF (WBMO) on the NYSE, bundling stocks, bonds, gold and indirect bitcoin exposure into one fund for 0.26% a year.\nThis post VanEck Launches All-in-One Wealth Builder ETF With Bitcoin Exposure first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "AI Agents Are Creating a New Layer of Cybersecurity Spending",
+      "url": "https://decrypt.co/381987/ai-agents-creating-new-layer-cybersecurity-spending",
+      "published_at": "2026-10-27T19:16:03+00:00",
+      "summary": "Akamai launched a locked box for AI agents on Tuesday. It joins Palo Alto, Cisco, CrowdStrike, Okta and Zscaler in selling protection for software that now acts on its own.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "launched"
+        ],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there",
+      "url": "https://www.coindesk.com/policy/2026/10/27/u-s-agency-hits-utah-with-lawsuit-to-shield-kalshi-s-ability-to-offer-betting-there",
+      "published_at": "2026-10-27T19:07:59+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "27-Year-Old Missouri Man Admits Role in Failed Bitcoin Kidnapping Plot",
+      "url": "https://bitcoinmagazine.com/news/man-admits-role-in-failed-bitcoin-plot",
+      "published_at": "2026-10-27T18:53:09+00:00",
+      "summary": "Bitcoin Magazine\n\n27-Year-Old Missouri Man Admits Role in Failed Bitcoin Kidnapping Plot\nA St. Louis man pleaded guilty in Hartford to conspiracy to commit Hobbs Act robbery over a failed August 2024 plot to steal bitcoin from a Connecticut family.\nThis post 27-Year-Old Missouri Man Admits Role in Failed Bitcoin Kidnapping Plot first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "failed"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CFTC sues Utah as battle over prediction market regulation intensifies",
+      "url": "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
+      "published_at": "2026-10-27T18:51:46+00:00",
+      "summary": "The CFTC is escalating its legal fight with states, suing Utah after the state filed a lawsuit against prediction market platform Kalshi.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "FIL",
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Intel, Oracle, IBM Join Objections to OKX-ICE Tokenized Stock Venue, Bringing Total to 26",
+      "url": "https://decrypt.co/381998/intel-oracle-ibm-join-objections-okx-ice-tokenized-stock-total-26",
+      "published_at": "2026-10-27T18:46:02+00:00",
+      "summary": "Intel, Oracle, IBM, and IonQ became the latest companies to object to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total to 26.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "CFTC Again Probes Polymarket Over Whether It Let Americans Trade",
+      "url": "https://bitcoinmagazine.com/news/cftc-reopens-questions-about-polymarkets",
+      "published_at": "2026-10-27T18:29:16+00:00",
+      "summary": "Bitcoin Magazine\n\nCFTC Again Probes Polymarket Over Whether It Let Americans Trade\nThe CFTC is reportedly probing whether Polymarket broke its 2022 settlement by letting US users onto its offshore platform.\nThis post CFTC Again Probes Polymarket Over Whether It Let Americans Trade first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "cftc",
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Wallet Maker Keystone Pulls Devices as Stolen Key Opens Door to Fakes",
+      "url": "https://decrypt.co/381983/bitcoin-wallet-keystone-devices-destroyed-stolen-key",
+      "published_at": "2026-10-27T18:16:02+00:00",
+      "summary": "Attackers obtained the factory key that proves Keystone's hardware wallets are genuine, and 25,964 buyer records were affected. The company says recovery phrases and private keys were not involved.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Intel, Oracle, IBM join growing list of firms objecting to OKX–ICE tokenized stock plans",
+      "url": "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
+      "published_at": "2026-10-27T18:13:02+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growing"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Majority of Americans want candidates who support US-based financial technology: Poll",
+      "url": "https://cointelegraph.com/news/us-voters-candidates-support-financial-technology-poll?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-27T18:08:00+00:00",
+      "summary": "The September survey offered a possible window into US voters who could consider fintech and digital asset policies on Election Day.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Next Week’s Midterms Could Stall the CLARITY Act and Test Crypto’s Political Clout: TD Cowen",
+      "url": "https://bitcoinmagazine.com/politics/next-weeks-midterm-elections-crypto",
+      "published_at": "2026-10-27T17:48:18+00:00",
+      "summary": "Bitcoin Magazine\n\nNext Week&#8217;s Midterms Could Stall the CLARITY Act and Test Crypto’s Political Clout: TD Cowen \nTD Cowen says a Democratic sweep would stall the CLARITY Act, while regulators keep advancing rules that favor the crypto sector.\nThis post Next Week&#8217;s Midterms Could Stall the CLARITY Act and Test Crypto’s Political Clout: TD Cowen  first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Circle Pushes Deeper Into Latin America With USDC Settlement in Colombia",
+      "url": "https://decrypt.co/381982/circle-pushes-deeper-latin-america-usdc-settlement-colombia",
+      "published_at": "2026-10-27T17:45:18+00:00",
+      "summary": "A collaboration with payments-tech firm ACI Worldwide will pilot folding USDC settlement into Colombia’s instant-payments network.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "usdc"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Crypto.com and OG.com launch US crypto perps with up to 5x leverage",
+      "url": "https://www.theblock.co/news/markets/2026-10-27-crypto-com-og-com-launch-us-crypto-perps-up-to-5x-leverage-431902",
+      "published_at": "2026-10-27T17:07:10+00:00",
+      "summary": "The contracts have no expiration date and allow traders to bet on crypto prices rising or falling.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Canton-based trading platform Cancore raises $7.2 million at $60 million token valuation",
+      "url": "https://www.theblock.co/news/deals/2026-10-27-canton-based-trading-platform-cancore-raises-7-2-million-60-million-token-valuation-431906",
+      "published_at": "2026-10-27T16:59:10+00:00",
+      "summary": "Cancore, a Canton-based trading platform connecting assets on the network with liquidity on public blockchains, has raised $7.2 million in seed funding. Paper Ventures, dao5, ArkStream Capital, X Ventures, MH Ventures and Proof of Talk backed the round. There was no formal lead investor, though Paper Ventures and dao5 took the largest allocations, Cancore co-founder […]",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "dao",
+        "liquidity"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "url": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
+      "published_at": "2026-10-27T16:59:07+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "A $3M Hedge, a Midterm Test and Retail's Rise: Prediction Markets at NEXTPredict",
+      "url": "https://decrypt.co/381955/a-3m-hedge-a-midterm-test-and-retails-rise-prediction-markets-at-nextpredict",
+      "published_at": "2026-10-27T16:53:44+00:00",
+      "summary": "Chuck Todd called markets a \"fact checker\" for journalism, as Kalshi, Polymarket and Robinhood pitched contracts well beyond elections.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Proves ETH Is False, and Crypto Twitter Has Questions",
+      "url": "https://decrypt.co/381956/opena-eth-false-crypto-twitter-has-questions",
+      "published_at": "2026-10-27T16:53:13+00:00",
+      "summary": "A new OpenAI paper declares ETH false, a claim that hundreds of research papers lean on. Crypto Twitter degens and serious mathematicians are abuzz.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "MATIC",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Ten Decrees: Old Masters, New Money",
+      "url": "https://bitcoinmagazine.com/culture/ten-decrees-old-masters-new-money",
+      "published_at": "2026-10-27T16:42:23+00:00",
+      "summary": "Bitcoin Magazine\n\nTen Decrees: Old Masters, New Money\nLucho Poletti on redrawing Hieronymus Bosch and Pieter Bruegel the Elder around money, Nixon’s 1971 decree, and why bitcoin art keeps returning to the old masters.\nThis post Ten Decrees: Old Masters, New Money first appeared on Bitcoin Magazine and is written by Dennis Koch.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar",
+      "url": "https://cointelegraph.com/news/janus-henderson-centrifuge-launch-tokenized-nasdaq-100-fund-on-stellar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-27T16:37:15+00:00",
+      "summary": "The blockchain-based fund offers eligible non-US investors exposure to the Nasdaq-100 as Janus Henderson expands its institutional tokenization business.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "institutional",
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Stellar"
+      ],
+      "topics": [
+        "ai",
+        "pos",
+        "tokenization"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+      "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
+      "published_at": "2026-10-27T16:35:29+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko",
+      "url": "https://cointelegraph.com/news/usdc-overtakes-usdt-euro-stablecoin-trading-mica-kaiko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-27T15:59:58+00:00",
+      "summary": "USDC’s share of euro stablecoin trading has climbed to 56% since January 2024, with deeper liquidity as exchanges restrict USDT under MiCA.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "exchanges",
+        "liquidity",
+        "stablecoin",
+        "usdc",
+        "usdt"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "SoFi Stock (SOFI) Soars 15% on Record Quarter, Crypto Reaches 503,000 Products",
+      "url": "https://bitcoinmagazine.com/news/sofi-stock-sofi-soars-15-on-record-quarter",
+      "published_at": "2026-10-27T15:56:57+00:00",
+      "summary": "Bitcoin Magazine\n\nSoFi Stock (SOFI) Soars 15% on Record Quarter, Crypto Reaches 503,000 Products\nSoFi shares jumped 14.6% to $16.56 after a record third quarter, with crypto reaching 503,070 products and adjusted EPS of $0.18 beating estimates.\nThis post SoFi Stock (SOFI) Soars 15% on Record Quarter, Crypto Reaches 503,000 Products first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "soars"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "SoFi discloses 503,000 crypto products as gross crypto revenue hits $162 million",
+      "url": "https://www.theblock.co/news/markets/2026-10-27-sofi-discloses-503000-crypto-products-as-gross-crypto-revenue-hits-162-million-431897",
+      "published_at": "2026-10-27T15:35:32+00:00",
+      "summary": "SoFi broke out crypto products for the first time. Gross crypto revenue rose 20%, while total net revenue hit a record $1.39 billion.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Ripple, BNY explore using the XRP Ledger to finance approved invoices",
+      "url": "https://www.theblock.co/news/business/2026-10-27-ripple-bny-explore-using-xrp-ledger-finance-approved-invoices-431891",
+      "published_at": "2026-10-27T15:01:12+00:00",
+      "summary": "BNY adds XRP and RLUSD to its custody platform, as Ripple and C2FO test settling invoice payments on the XRP Ledger.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "approved"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ripple",
+        "XRP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Galaxy Digital swings to $323 million quarterly profit, announces new $200 million share buyback",
+      "url": "https://www.theblock.co/news/business/2026-10-27-galaxy-digital-323-million-quarterly-profit-new-200-million-share-buyback-431860",
+      "published_at": "2026-10-27T14:39:22+00:00",
+      "summary": "Galaxy returned to profitability in the third quarter as trading volumes and lending increased, with a new $200 million buyback authorized.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "lending"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Crypto Midterm Election Spending Reaches $176 Million as Industry Builds for the Next Congress",
+      "url": "https://bitcoinmagazine.com/news/crypto-midterm-spending-176-million",
+      "published_at": "2026-10-27T14:34:47+00:00",
+      "summary": "Bitcoin Magazine\n\nCrypto Midterm Election Spending Reaches $176 Million as Industry Builds for the Next Congress\nThe crypto industry has spent about $176 million on more than 100 midterm races to build a bipartisan bloc in Congress that can protect its interests after Trump leaves office.\nThis post Crypto Midterm Election Spending Reaches $176 Million as Industry Builds for the Next Congress first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin mining infrastructure firm Luxor raises $16 million to expand AI business",
+      "url": "https://www.theblock.co/news/deals/2026-10-27-bitcoin-mining-ai-luxor-technology-funding-431858",
+      "published_at": "2026-10-27T14:32:08+00:00",
+      "summary": "The company plans to expand its AI business and hire about 12 people by year-end, COO Ethan Vera told The Block.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "mining"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "McDonald's McRib Doesn't Actually Boost Bitcoin's Price, Sorry Everyone",
+      "url": "https://decrypt.co/381909/mcdonalds-mcrib-doesnt-actually-boost-bitcoins-price-sorry-everyone",
+      "published_at": "2026-10-27T14:31:02+00:00",
+      "summary": "Crypto traders think the McRib’s return to McDonald's means a Bitcoin pump is coming. Experts say there is \"no correlation at all.\"",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "boost"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
+      "url": "https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund",
+      "published_at": "2026-10-27T14:21:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launch"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Crypto Market Structure Explained",
+      "url": "https://www.theblock.co/learn/campus/crypto-market-structure-explained-426489",
+      "published_at": "2026-10-27T14:14:08+00:00",
+      "summary": "Crypto market structure is the architecture behind digital asset markets. It explains who participates, where trades happen, how liquidity forms, how prices are discovered, how derivatives and funding rates work, and how market design affects execution, fairness, risk, and resilience.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "liquidity"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock",
@@ -208,54 +976,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-27T13:17:24+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Security Expert Jameson Lopp: Cyberattacks on “Exponential” Path",
-      "url": "https://bitcoinmagazine.com/videos/bitcoin-security-expert-jameson-lopp-cyberattacks-on-exponential-path",
-      "published_at": "2026-10-27T13:16:56+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nBitcoin Security Expert Jameson Lopp: Cyberattacks on “Exponential” Path\nBitcoin Core updates security as AI automates bug hunting. Jameson Lopp explains the shift to real-time defense, uncensored exploit models, and the PHP flaw.\nThis post Bitcoin Security Expert Jameson Lopp: Cyberattacks on “Exponential” Path first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Bitcoin miners' move into AI is creating a new market for trading computing power",
       "url": "https://www.coindesk.com/business/2026/10/27/bitcoin-miners-move-into-ai-is-creating-a-new-market-for-trading-computing-power",
@@ -276,31 +996,6 @@
         "miner",
         "miners",
         "pow"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "UTXO’s Duke Waldrop: Bank of Japan “Liquidity Shock” Could Impact Bitcoin",
-      "url": "https://bitcoinmagazine.com/videos/utxos-duke-waldrop-bank-of-japan-liquidity-shock-could-impact-bitcoin",
-      "published_at": "2026-10-27T13:12:45+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nUTXO&#8217;s Duke Waldrop: Bank of Japan “Liquidity Shock” Could Impact Bitcoin\nAhead of Fed and BOJ rate calls, Duke Waldrop explains how yen carry unwinds hit 24/7 Bitcoin liquidity and why Metaplanet trading below NAV is an opportunity.\nThis post UTXO&#8217;s Duke Waldrop: Bank of Japan “Liquidity Shock” Could Impact Bitcoin first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "liquidity",
-        "pos"
       ]
     },
     {
@@ -485,23 +1180,23 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital",
+      "title": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
       "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
       "published_at": "2026-10-27T11:40:50+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "surges"
+        ],
         "negative_hits": []
       },
       "coins": [
         "Bitcoin"
       ],
-      "topics": [
-        "ai"
-      ]
+      "topics": []
     },
     {
       "source": "CoinDesk",
@@ -613,29 +1308,6 @@
       ],
       "topics": [
         "etf"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Now Accepting Bitcoin: 425 Los Angeles Bitcoin Merchants featuring Café de Leche",
-      "url": "https://bitcoinmagazine.com/news/los-angeles-bitcoin-425",
-      "published_at": "2026-10-27T10:44:00+00:00",
-      "summary": "Bitcoin Magazine\n\nNow Accepting Bitcoin: 425 Los Angeles Bitcoin Merchants featuring Café de Leche\nLos Angeles Bitcoin: where to spend bitcoin at 425 cafés, restaurants, and shops across Los Angeles and nearby cities, with a categorized directory.\nThis post Now Accepting Bitcoin: 425 Los Angeles Bitcoin Merchants featuring Café de Leche first appeared on Bitcoin Magazine and is written by Vagabond.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "ARB",
-        "OP"
-      ],
-      "topics": [
-        "pos"
       ]
     },
     {
@@ -767,28 +1439,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
-      "url": "https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam",
-      "published_at": "2026-10-27T07:44:04+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Solana",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Bitcoin ETFs claw back $110M after $774M exit",
       "url": "https://cointelegraph.com/markets/bitcoin-etf-rebound-110-million-btc-dip-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -807,28 +1457,6 @@
       "topics": [
         "ai",
         "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders",
-      "url": "https://www.coindesk.com/tech/2026/10/27/ethereum-fixes-glamsterdam-bug-that-could-have-sent-staking-deposits-to-builders",
-      "published_at": "2026-10-27T07:09:56+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "pos",
-        "staking"
       ]
     },
     {
@@ -853,47 +1481,6 @@
         "usdc",
         "yield"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
-      "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
-      "published_at": "2026-10-27T06:14:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
-      "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
-      "published_at": "2026-10-27T04:28:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -965,24 +1552,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
-      "url": "https://cointelegraph.com/news/keystone-breach-deepens-hackers-stole-key-used-to-verify-wallets-as-genuine?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-27T01:55:03+00:00",
-      "summary": "Keystone initially disclosed a leak of customer information but has since disclosed that hackers also stole a key that could allow counterfeit wallets to pass authenticity checks.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "BlackRock joins SBI and Startale to link tokenized MMFs with Japanese yen stablecoins",
       "url": "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642",
@@ -1000,50 +1569,6 @@
       ],
       "topics": [
         "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Ripple wins final US approval for national trust bank",
-      "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-27T00:06:41+00:00",
-      "summary": "The approval clears the way for Ripple to manage reserves backing its RLUSD stablecoin and provide digital asset custody.",
-      "sentiment": {
-        "score": 5,
-        "normalized": 0.625,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "trust",
-          "wins"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ripple"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Cold Storage Goes South: bitcoin++ Announces Antarctica Edition",
-      "url": "https://bitcoinmagazine.com/news/cold-storage-bitcoin-antarctica",
-      "published_at": "2026-10-27T00:00:04+00:00",
-      "summary": "Bitcoin Magazine\n\nCold Storage Goes South: bitcoin++ Announces Antarctica Edition\nbitcoin++ is planning its first cold-storage edition on a 13-day expedition to the Antarctic Peninsula.\nThis post Cold Storage Goes South: bitcoin++ Announces Antarctica Edition first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     },
     {
@@ -1071,175 +1596,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "OpenAI Launches GPT-6.1 Terra, Its Half-Good AI Model at Half the Price",
-      "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price",
-      "published_at": "2026-10-26T21:46:02+00:00",
-      "summary": "OpenAI's mid-tier model now operates apps and screens more like a person would, with API prices 50% below GPT-5.6 Terra and an error rate that OpenAI says fell sharply.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "US OCC calls on community banks to become payment stablecoin issuers",
-      "url": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-26T21:38:30+00:00",
-      "summary": "The announcement followed the banking regulator finalizing its rules for the GENIUS Act, a stablecoin law to be implemented in January",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Injective launches onchain futures market tracking Nvidia GPU rental costs",
-      "url": "https://cointelegraph.com/news/injective-launches-onchain-futures-market-tracking-nvidia-gpu-rental-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-26T21:23:32+00:00",
-      "summary": "The new index tracks rental prices for five Nvidia GPUs, offering leveraged trading and potential hedging against fluctuations in AI computing costs.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "dex",
-        "futures",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Unitree Stock Jumps as Investors Bet Chatbot AI Will Finally Give Robots a Brain",
-      "url": "https://decrypt.co/381871/unitree-stock-jumps-investors-bet-chatbot-ai-robots-brain",
-      "published_at": "2026-10-26T21:16:03+00:00",
-      "summary": "Unitree's shares have jumped about 60% in under two weeks as investors bet OpenAI's GPT-6 Astra will give robots the brains they lack, turning the stock into an AI proxy.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Blink Wallet Adds Inactivity Fee to Custodial Accounts, Accelerating Migration to Self Custody",
-      "url": "https://bitcoinmagazine.com/business/blink-wallet-adds-inactivity-fee-to-custodial-accounts-accelerating-migration-to-self-custody",
-      "published_at": "2026-10-26T21:14:23+00:00",
-      "summary": "Bitcoin Magazine\n\nBlink Wallet Adds Inactivity Fee to Custodial Accounts, Accelerating Migration to Self Custody\nBlink Wallet began charging a $1 monthly fee on custodial accounts inactive for 12 months, with the first charges processed by mid-October 2026 and full refunds on login.\nThis post Blink Wallet Adds Inactivity Fee to Custodial Accounts, Accelerating Migration to Self Custody first appeared on Bitcoin Magazine and is written by Juan Galt.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "LINK"
-      ],
-      "topics": [
-        "pos",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "NBA Embraces the CFTC on Prediction Markets as the NFL Fights It in Court",
-      "url": "https://decrypt.co/381864/nba-cftc-prediction-markets-nfl-fights-court",
-      "published_at": "2026-10-26T20:36:03+00:00",
-      "summary": "The agreement, which follows similar deals with MLB and NHL, establishes information-sharing to guard against insider trading as sports betting migrates to CFTC-regulated venues.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cftc"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "South Korea Arrests Seven in First Big AI-Assisted Hacking Case",
-      "url": "https://decrypt.co/381862/south-korea-arrests-seven-first-big-ai-hacking-case",
-      "published_at": "2026-10-26T20:06:02+00:00",
-      "summary": "Police in Seoul say a 32-year-old with no IT background used AI tools to break into about 90 hospitals, schools and companies, then pressed victims for roughly $270,000 combined.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
-      "url": "https://cointelegraph.com/news/canada-consultation-stablecoins-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-26T19:47:40+00:00",
-      "summary": "As part of the potential implementation of its Stablecoin Act, the Canadian government will hear from the public on a proposed framework for tokens from non-financial institutions.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ADA",
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "stablecoin"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "CZ pitches BNB Chain’s role in AI as BNB Standard rings Nasdaq bell",
       "url": "https://www.theblock.co/news/ecosystems/2026-10-26-cz-pitches-bnb-chains-role-ai-bnb-standard-rings-nasdaq-bell-431790",
@@ -1254,378 +1610,6 @@
       },
       "coins": [
         "BNB"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "AI Agents Found a Way Into Anthropic's Business Systems in Under 12 Hours",
-      "url": "https://decrypt.co/381860/ai-agents-hack-anthropic-business-systems-12-hours",
-      "published_at": "2026-10-26T19:31:02+00:00",
-      "summary": "Cathedral, a startup founded by ex-DOGE staffers, says its AI agents found paths into Anthropic's sales, HR, and IT systems through third-party software.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "DOGE",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Coinbase Institutional Co-CEO: Bitcoin’s “Second Wave” of Institutional Capital has Arrived",
-      "url": "https://bitcoinmagazine.com/videos/coinbase-institutional-co-ceo-bitcoins-second-wave-of-institutional-capital-has-arrived",
-      "published_at": "2026-10-26T19:24:08+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nCoinbase Institutional Co-CEO: Bitcoin&#8217;s &#8220;Second Wave&#8221; of Institutional Capital has Arrived\nSeven mega banks tap Coinbase infrastructure. Brett Tejpaul explains why stablecoin rails are driving adoption, while institutions still view BTC as tech.\nThis post Coinbase Institutional Co-CEO: Bitcoin&#8217;s &#8220;Second Wave&#8221; of Institutional Capital has Arrived first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "adoption",
-          "institutional"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos",
-        "sec",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Why Prediction Markets Got the Brazilian Election So Wrong",
-      "url": "https://decrypt.co/381858/why-prediction-markets-got-brazilian-election-wrong",
-      "published_at": "2026-10-26T18:46:03+00:00",
-      "summary": "Experts say Brazil's prediction market ban left the odds in the hands of traders with little knowledge about the election.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Hyperliquid says Kraken parent Payward to be first CFTC-regulated HIP-3 deployer",
-      "url": "https://www.theblock.co/news/markets/2026-10-26-hyperliquid-payward-kraken-cftc-regulated-hip-3-deployer-431787",
-      "published_at": "2026-10-26T18:21:17+00:00",
-      "summary": "Hyperliquid plans to make Kraken parent Payward the first CFTC-regulated HIP-3 deployer, a step toward regulated U.S. perpetual futures.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cftc",
-        "futures"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "SpaceX Locks Up $40 Billion for AI Chips as Musk Warns Most Neoclouds Will Die",
-      "url": "https://decrypt.co/381848/spacex-40-billion-ai-chips-elon-musk-warns-most-neoclouds-will-die",
-      "published_at": "2026-10-26T18:16:02+00:00",
-      "summary": "Elon Musk says SpaceX closed a $40 billion chip deal with Apollo while lenders shut the door on smaller AI cloud firms, a split that could decide who controls computing.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "cex"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Y Combinator-backed Mochatrade raises $5.5 million to offer US stock perpetuals to Indian traders",
-      "url": "https://www.theblock.co/news/deals/2026-10-26-y-combinator-mochatrade-funding-crypto-431775",
-      "published_at": "2026-10-26T17:55:02+00:00",
-      "summary": "The platform is in beta and plans to open to the public in the coming weeks, co-founder Chetan Manda told The Block.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Hovers Near $80,000 as Traders Await Fed Decision",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-hovers-around-80000",
-      "published_at": "2026-10-26T17:43:18+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Hovers Near $80,000 as Traders Await Fed Decision\nBitcoin price hovers near $80,000 as traders wait on this week’s Fed decision, with geopolitical tensions and Anthropic’s possible IPO adding to the uncertainty.\nThis post Bitcoin Price Hovers Near $80,000 as Traders Await Fed Decision first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Wallet Fixes Critical Flaw That Redirected Funds to Attackers",
-      "url": "https://decrypt.co/381844/bitcoin-wallet-flaw-trick-users-paying-attackers",
-      "published_at": "2026-10-26T17:41:21+00:00",
-      "summary": "A confirmed exploit let rogue servers replace Electrum’s pending transactions, tricking users into redirecting Bitcoin to attacker addresses.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Prediction markets and derivatives drive Bernstein’s crypto stock outlook for Coinbase, Robinhood and Circle",
-      "url": "https://www.theblock.co/news/markets/2026-10-26-prediction-markets-derivatives-drive-bernstein-crypto-stock-outlook-coinbase-robinhood-circle-431750",
-      "published_at": "2026-10-26T16:36:43+00:00",
-      "summary": "Bernstein cuts Coinbase’s target while raising Circle’s as new products shift their earnings outlook.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "India’s CoinDCX Confirms $16 Million Loss Days After CEO Called It a ‘False Alarm’",
-      "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm",
-      "published_at": "2026-10-26T16:36:03+00:00",
-      "summary": "The Mumbai-based exchange says 15.99 million USDT was drained from wallets it retired after last year’s $44 million hack, bringing its combined losses to nearly $60 million—and it’s absorbing the hit.",
-      "sentiment": {
-        "score": -7,
-        "normalized": -0.875,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "loss",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "exchange",
-        "usdt",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "NBA becomes third league to sign CFTC prediction market pact, taps Kalshi and Polymarket",
-      "url": "https://www.theblock.co/news/regulation/2026-10-26-nba-cftc-memorandum-of-understanding-prediction-markets-kalshi-polymarket-431764",
-      "published_at": "2026-10-26T16:27:37+00:00",
-      "summary": "The CFTC and NBA have agreed to put in place standards to protect the integrity of the game when it comes to prediction markets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cftc"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
-      "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
-      "published_at": "2026-10-26T16:05:12+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "declines"
-        ]
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Strategy (MSTR) Pauses Bitcoin Buying and Spends $205 Million on Preferred Stock",
-      "url": "https://bitcoinmagazine.com/news/strategy-mstr-pauses-bitcoin-buying-205",
-      "published_at": "2026-10-26T15:39:53+00:00",
-      "summary": "Bitcoin Magazine\n\nStrategy (MSTR) Pauses Bitcoin Buying and Spends $205 Million on Preferred Stock\nStrategy skipped bitcoin buys for the week of October 19–25 and spent $204.9 million buying back its STRC preferred stock.\nThis post Strategy (MSTR) Pauses Bitcoin Buying and Spends $205 Million on Preferred Stock first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "buying",
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tom Lee insists ‘crypto bull market is underway’ as Bitmine adds 10,452 ETH",
-      "url": "https://www.theblock.co/news/business/2026-10-26-tom-lee-insists-crypto-bull-market-is-underway-as-bitmine-adds-10452-eth-431743",
-      "published_at": "2026-10-26T14:12:59+00:00",
-      "summary": "The company's combined crypto, cash, marketable securities, and other investments totaled $15 billion as of Oct. 25.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH"
-      ],
-      "topics": [
-        "rwa",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Strategy pauses bitcoin buys, repurchases $205 million of STRC preferred shares",
-      "url": "https://www.theblock.co/news/business/2026-10-26-strategy-pauses-bitcoin-buys-repurchases-205-million-of-strc-preferred-shares-431699",
-      "published_at": "2026-10-26T13:23:14+00:00",
-      "summary": "Strategy's bitcoin holdings account for roughly 4% of the total supply cap, with $3.9 billion in paper gains.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "buys",
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Strive closes in on second-largest corporate bitcoin treasury with $511 million purchase",
-      "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-511-million-purchase-431729",
-      "published_at": "2026-10-26T13:19:08+00:00",
-      "summary": "Strive's latest bitcoin purchase puts it within 1,000 BTC of second-place Metaplanet as it unveils a new $1 billion preferred stock offering program.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Galaxy says bitcoin bear market is over; now is the time to buy and hold",
-      "url": "https://www.theblock.co/news/markets/2026-10-26-galaxy-says-bitcoin-bear-market-is-over-now-is-the-time-to-buy-and-hold-431720",
-      "published_at": "2026-10-26T13:00:00+00:00",
-      "summary": "Galaxy said bitcoin’s bear market ended in June as fading long-term holder selling signals an attractive buying opportunity.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "buy",
-          "buying"
-        ],
-        "negative_hits": [
-          "bear",
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "UNI",
-        "OP"
       ],
       "topics": [
         "ai"
