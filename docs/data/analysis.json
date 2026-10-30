@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-30T14:55:56.938983+00:00",
+  "generated_at": "2026-10-30T20:35:11.345334+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "bearish",
-    "market_sentiment_score": -0.216,
+    "market_sentiment_score": -0.277,
     "label_distribution": {
-      "bearish": 41,
-      "bullish": 13,
-      "neutral": 16
+      "bearish": 46,
+      "bullish": 10,
+      "neutral": 14
     },
     "top_coins": [
       {
         "coin": "Binance",
-        "mentions": 34
+        "mentions": 39
       },
       {
         "coin": "Bitcoin",
-        "mentions": 27
-      },
-      {
-        "coin": "OP",
-        "mentions": 13
+        "mentions": 28
       },
       {
         "coin": "ETH",
-        "mentions": 11
+        "mentions": 12
+      },
+      {
+        "coin": "OP",
+        "mentions": 12
       },
       {
         "coin": "Ethereum",
@@ -32,69 +32,477 @@
       },
       {
         "coin": "BTC",
-        "mentions": 5
+        "mentions": 4
       },
       {
         "coin": "LINK",
         "mentions": 3
       },
       {
+        "coin": "Near",
+        "mentions": 2
+      },
+      {
+        "coin": "Tron",
+        "mentions": 2
+      },
+      {
         "coin": "UNI",
-        "mentions": 3
-      },
-      {
-        "coin": "SOL",
-        "mentions": 3
-      },
-      {
-        "coin": "XRP",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 28
       },
       {
         "topic": "pos",
         "mentions": 13
       },
       {
-        "topic": "wallet",
-        "mentions": 7
+        "topic": "sec",
+        "mentions": 9
       },
       {
         "topic": "exchange",
+        "mentions": 9
+      },
+      {
+        "topic": "wallet",
         "mentions": 6
       },
       {
-        "topic": "sec",
+        "topic": "stablecoin",
         "mentions": 4
       },
       {
-        "topic": "defi",
-        "mentions": 3
-      },
-      {
-        "topic": "fed",
-        "mentions": 3
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 3
-      },
-      {
-        "topic": "dai",
+        "topic": "etf",
         "mentions": 2
       },
       {
-        "topic": "etf",
+        "topic": "usdc",
+        "mentions": 2
+      },
+      {
+        "topic": "onchain",
+        "mentions": 2
+      },
+      {
+        "topic": "dai",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Decrypt",
+      "title": "Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms",
+      "url": "https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street",
+      "published_at": "2026-10-30T20:06:03+00:00",
+      "summary": "Analysts at Cantor Fitzgerald, TD Cowen and Compass Point say the record $6.4 billion theft is a Binance security failure, not a crypto-wide threat, pointing clients toward proxies like Coinbase, Robinhood, and Strategy.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": [
+          "failure",
+          "theft"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+      "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+      "published_at": "2026-10-30T19:55:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Reddit Stock Plunges 30% as Google's AI Search Hits Traffic and User Growth",
+      "url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search",
+      "published_at": "2026-10-30T19:31:02+00:00",
+      "summary": "Reddit shares are down 44% this week after CEO Steve Huffman warned that Google's AI-powered search features are cutting referrals, while weaker user growth and disappointing fourth-quarter guidance added to investor concerns.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": [
+          "concerns",
+          "down",
+          "plunges",
+          "warned"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-30T19:01:58+00:00",
+      "summary": "The stablecoin issuer’s US Treasury holdings are comparable to those of major foreign holders, while its Bitcoin reserves were valued at $8.37 billion at the end of September.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profit"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Near"
+      ],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales",
+      "url": "https://bitcoinmagazine.com/news/coinbase-falls-armstrong-sets-up-new-share",
+      "published_at": "2026-10-30T18:54:24+00:00",
+      "summary": "Bitcoin Magazine\n\nCoinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales\nCoinbase missed revenue expectations as users declined, despite growth in recurring revenue, while executive share-sale plans and a massive Binance security breach added pressure to crypto markets.\nThis post Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": [
+          "declined",
+          "fall"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance",
+        "Tron"
+      ],
+      "topics": [
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+      "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+      "published_at": "2026-10-30T18:45:03+00:00",
+      "summary": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked.",
+      "sentiment": {
+        "score": -9,
+        "normalized": -1.0,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash",
+          "fell",
+          "hack",
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "$8 Million Crypto Kidnapping Lands Texas Brothers 15-Year Prison Terms",
+      "url": "https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison",
+      "published_at": "2026-10-30T18:16:02+00:00",
+      "summary": "Raymond and Isiah Garcia held a Minnesota family at gunpoint for more than nine hours, forcing the father to transfer over $8 million in crypto, in one of the clearest “wrench attack” prosecutions yet.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
+      "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+      "published_at": "2026-10-30T17:50:26+00:00",
+      "summary": "Binance says it has set aside $6.34 billion to cover losses from the breach and the FBI and Secret Service are now working with the exchange as investigators trace the stolen funds.",
+      "sentiment": {
+        "score": -8,
+        "normalized": -1.0,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "losses",
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "exchange",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+      "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-30T17:48:27+00:00",
+      "summary": "Circle, Strategy and other crypto-linked stocks fell sharply Friday, a day after Binance disclosed a $6.3 billion security breach.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [
+          "leads"
+        ],
+        "negative_hits": [
+          "fell",
+          "hack",
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Binance",
+        "LINK"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
+      "url": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-30T17:09:31+00:00",
+      "summary": "Bitcoin faces mounting quantum security concerns as Ripple secures a US banking charter, USDC gains ground in Europe and VanEck adds BTC to a new ETF.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "gains"
+        ],
+        "negative_hits": [
+          "concerns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "Ripple",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "etf",
+        "sec",
+        "usdc"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Recap: How Binance’s record $6.3B hack unfolded",
+      "url": "https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-30T16:53:46+00:00",
+      "summary": "A recap of Cointelegraph’s live coverage of the Binance hack, including early breach reports and the exchange’s full reimbursement pledge.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "As it happened: Binance’s record $6.3B crypto hack",
+      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-30T16:49:50+00:00",
+      "summary": "How Binance’s $6.3 billion hack unfolded, from the first onchain alerts to $3 billion in frozen funds and a widening security investigation.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "investigation"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "onchain",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Binance Sets Aside $6.34B to Cover Hack Losses, CEO Says 'Your Assets Are Safe'",
+      "url": "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
+      "published_at": "2026-10-30T16:34:21+00:00",
+      "summary": "Richard Teng said the attacker used a self-destruct mechanism and an EIP-7702 delegation that bypassed Binance's normal approval controls.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [
+          "approval"
+        ],
+        "negative_hits": [
+          "hack",
+          "losses"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+      "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+      "published_at": "2026-10-30T16:31:17+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
+      "url": "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221",
+      "published_at": "2026-10-30T16:26:07+00:00",
+      "summary": "Two brothers who held a family for nine hours at gunpoint in Minnesota for $8 million worth of cryptocurrency were sentenced on Friday.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Elon Musk, CZ Trade Blows Over SpaceX Shares After $6.4B Binance Hack",
+      "url": "https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
+      "published_at": "2026-10-30T16:25:06+00:00",
+      "summary": "After Musk appeared to mock Binance’s $6.3 billion hack, CZ reminded him that the exchange’s $500 million bet on his Twitter takeover is now worth over $1 billion in SpaceX shares.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "cex",
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
+      "url": "https://cointelegraph.com/markets/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-30T16:06:28+00:00",
+      "summary": "Bitcoin circled $77,000 as crypto markets navigated US stock-market downside, while the gold price fell to its lowest in a year.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell",
+          "risks",
+          "sell-off"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "SEC Charges Two Companies in $130 Million Crypto Trading Scheme",
@@ -214,28 +622,6 @@
         "ai",
         "pos"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Live updates: Binance says $6.34B set aside to cover hack losses",
-      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T14:12:26+00:00",
-      "summary": "Follow live updates as Binance says $6.3 billion in assets have been stolen in a major hack. Around $3 billion in stolen funds have been frozen.",
-      "sentiment": {
-        "score": -8,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -790,24 +1176,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Trezor warns CryptoBilis buyers to move funds over suspected implant",
-      "url": "https://cointelegraph.com/news/trezor-cryptobilis-wallet-implant-funds-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T09:26:45+00:00",
-      "summary": "Trezor urged customers who bought devices from CryptoBilis since March to move their funds after a report of a suspected hardware implant.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Coinbase Q3 net income jumps 66% as prediction markets gain traction",
       "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189",
@@ -847,7 +1215,7 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
+      "title": "Live updates: Bitcoin falls below $77,000 as Binance exploit combines with tech woes",
       "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
       "published_at": "2026-10-30T08:36:52+00:00",
       "summary": "",
@@ -887,365 +1255,6 @@
         "Binance"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
-      "url": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
-      "published_at": "2026-10-30T06:22:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "XRP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
-      "url": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T05:53:07+00:00",
-      "summary": "Michael Saylor says Strategy could create up to $30 billion in digital credit without new common-stock fundraising or further Bitcoin price gains, as the company plans more BTC purchases.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "buys",
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "North Korea’s TraderTraitor linked to $6.3B Binance hack",
-      "url": "https://cointelegraph.com/news/north-korea-linked-to-63b-binance-hack-by-crypto-investigators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T05:51:41+00:00",
-      "summary": "TRM Labs said it has high confidence in the attribution, while ZachXBT identified stolen funds from the Binance and Bitget hacks converging at the same address.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "LINK"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens",
-      "url": "https://www.coindesk.com/tech/2026/10/30/xrp-ledger-developers-tighten-the-rules-for-who-can-hold-restricted-tokens",
-      "published_at": "2026-10-30T05:45:27+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "XRP",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance hack bites India's largest crypto exchange as it curbs futures trading",
-      "url": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
-      "published_at": "2026-10-30T05:43:07+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "exchange",
-        "futures"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-      "url": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
-      "published_at": "2026-10-30T04:50:42+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Briefly Slides to $76,300 as Binance Confirms Hack Estimated at $6.3 Billion",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-near-76000-binance",
-      "published_at": "2026-10-30T04:05:40+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Briefly Slides to $76,300 as Binance Confirms Hack Estimated at $6.3 Billion\nBinance says the attacker reportedly gained access through a compromised employee laptop, and about $3 billion has been frozen onchain.\nThis post Bitcoin Price Briefly Slides to $76,300 as Binance Confirms Hack Estimated at $6.3 Billion first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance",
-        "APT",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "onchain",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Standard Chartered sees more pain after $6 billion Binance hack sends bitcoin lower",
-      "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
-      "published_at": "2026-10-30T04:00:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Institutional crypto investors rush to pull funds from exchanges after Binance hack",
-      "url": "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
-      "published_at": "2026-10-30T03:56:40+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "institutional"
-        ],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
-      "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T03:47:01+00:00",
-      "summary": "Standard Chartered’s Geoffrey Kendrick said the breach could accelerate a shift toward decentralized trading and strengthen his case for Uniswap’s UNI token reaching $100 by 2030.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "Uniswap",
-        "UNI"
-      ],
-      "topics": [
-        "ai",
-        "dex"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
-      "url": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
-      "published_at": "2026-10-30T03:36:11+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitcoin slides below $77,000, BNB drops amid Binance hack",
-      "url": "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
-      "published_at": "2026-10-30T02:22:31+00:00",
-      "summary": "BNB lost 7.1%, while Binance Co-CEO Yi He pledged that the exchange will cover all user losses resulting from the hack.",
-      "sentiment": {
-        "score": -8,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops",
-          "hack",
-          "losses",
-          "lost"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance",
-        "BNB",
-        "OP"
-      ],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance points to engineer’s hacked laptop in $6.3B breach",
-      "url": "https://cointelegraph.com/news/binance-hack-may-involve-private-key-misuse-not-theft-blockaid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T00:11:26+00:00",
-      "summary": "Binance said attackers may have used a compromised DevOps laptop to access internal infrastructure.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hacked"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "APT",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Strategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026",
-      "url": "https://bitcoinmagazine.com/news/strategy-posts-record-operating-income",
-      "published_at": "2026-10-29T23:18:27+00:00",
-      "summary": "Bitcoin Magazine\n\nStrategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026\nStrategy reported record $20.91 billion in Q3 2026 operating income, driven by Bitcoin’s rebound, despite declining revenue, negative year-to-date BTC yield, and continued pressure to fund preferred dividends.\nThis post Strategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026 first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": [
-        "pos",
-        "yield"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-binance",
-      "published_at": "2026-10-29T23:06:37+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack\nBitcoin price fell below $79,000 as reports of a suspected Binance hack, with outflows of up to $5.8 billion, prompted Tether and Circle to freeze roughly $1.8 to $2.4 billion in stablecoins.\nThis post Bitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell",
-          "hack",
-          "loses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Binance"
-      ],
-      "topics": [
-        "pos",
-        "stablecoin"
-      ]
     }
   ]
 }
