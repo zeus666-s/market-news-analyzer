@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-31T14:24:52.183686+00:00",
+  "generated_at": "2026-10-31T19:47:52.965155+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "bearish",
-    "market_sentiment_score": -0.275,
+    "market_sentiment_score": -0.261,
     "label_distribution": {
-      "bullish": 10,
-      "neutral": 15,
-      "bearish": 45
+      "neutral": 20,
+      "bearish": 42,
+      "bullish": 8
     },
     "top_coins": [
       {
         "coin": "Binance",
-        "mentions": 36
+        "mentions": 33
       },
       {
         "coin": "Bitcoin",
@@ -20,11 +20,11 @@
       },
       {
         "coin": "OP",
-        "mentions": 11
+        "mentions": 10
       },
       {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 4
       },
       {
         "coin": "Tron",
@@ -35,30 +35,30 @@
         "mentions": 3
       },
       {
-        "coin": "LINK",
-        "mentions": 3
-      },
-      {
         "coin": "Near",
         "mentions": 2
       },
       {
-        "coin": "Ethereum",
+        "coin": "LINK",
         "mentions": 2
       },
       {
-        "coin": "UNI",
-        "mentions": 2
+        "coin": "Ripple",
+        "mentions": 1
+      },
+      {
+        "coin": "Ethereum",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "topic": "pos",
-        "mentions": 13
+        "mentions": 12
       },
       {
         "topic": "sec",
@@ -66,35 +66,285 @@
       },
       {
         "topic": "exchange",
-        "mentions": 9
-      },
-      {
-        "topic": "stablecoin",
-        "mentions": 4
+        "mentions": 10
       },
       {
         "topic": "dai",
         "mentions": 4
       },
       {
+        "topic": "stablecoin",
+        "mentions": 3
+      },
+      {
         "topic": "wallet",
-        "mentions": 4
+        "mentions": 3
+      },
+      {
+        "topic": "defi",
+        "mentions": 2
+      },
+      {
+        "topic": "yield",
+        "mentions": 2
       },
       {
         "topic": "etf",
         "mentions": 2
-      },
-      {
-        "topic": "usdc",
-        "mentions": 2
-      },
-      {
-        "topic": "miner",
-        "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+      "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+      "published_at": "2026-10-31T18:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
+      "url": "https://www.coindesk.com/business/2026/11/01/a-stolen-iphone-usd14-000-in-losses-and-london-s-crypto-theft-problem",
+      "published_at": "2026-10-31T16:09:30+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -8,
+        "normalized": -1.0,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses",
+          "stolen",
+          "theft"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
+      "url": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
+      "published_at": "2026-10-31T16:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
+      "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-31T15:36:01+00:00",
+      "summary": "Less-liquid tokens make up the remaining shortfall as Binance continues buying replacement assets through market and over-the-counter trades.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "buying"
+        ],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+      "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-31T15:26:46+00:00",
+      "summary": "Strive CEO Matt Cole says the Binance hack has not changed his long-term case for Bitcoin, but cautions it is too early to call a market bottom.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
+      "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
+      "published_at": "2026-10-31T15:26:27+00:00",
+      "summary": "All 12 hijacked domains are registered through Name.com, according to registry records accessed by The Block, suggesting a compromise.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "defi"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+      "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
+      "published_at": "2026-10-31T15:24:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-31T15:09:55+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
+      "url": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
+      "published_at": "2026-10-31T15:01:02+00:00",
+      "summary": "Attackers tied to North Korea drained roughly $6.4 billion from the world’s largest crypto exchange. Here’s what we know about how it happened, who’s behind it, and what comes next.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Institutions embrace crypto staking despite shrinking yields",
+      "url": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
+      "published_at": "2026-10-31T15:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "staking",
+        "yield"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
+      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+      "published_at": "2026-10-31T14:40:29+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "tokenization"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin turns 18: Has the original rebel grown up?",
+      "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-31T14:27:52+00:00",
+      "summary": "In typical Bitcoin style, the number one cryptocurrency turns 18 today, amid AI-driven security threats, quantum fears and the biggest exchange hack in crypto history.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fears",
+          "hack"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "exchange",
+        "sec"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
@@ -247,19 +497,18 @@
       "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
       "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-10-31T11:22:49+00:00",
-      "summary": "Chainalysis has engaged world-class third-party experts to support a review of its security and strengthen its defenses.",
+      "summary": "The company said some non-sensitive customer data was exposed, including user IDs, names and email addresses.",
       "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "support"
-        ],
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
         "negative_hits": []
       },
       "coins": [],
       "topics": [
         "ai",
+        "pos",
         "sec"
       ]
     },
@@ -970,285 +1219,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
-      "url": "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
-      "published_at": "2026-10-30T14:17:34+00:00",
-      "summary": "EIP-7702 lets ordinary Ethereum wallets run smart contract code, enabling batched and sponsored transactions. Here's how it works.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Binance"
-      ],
-      "topics": [
-        "smart contract",
-        "wallet"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
-      "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
-      "published_at": "2026-10-30T14:13:34+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Blockchain Firms Link North Korea to $6.3 Billion Binance Hack",
-      "url": "https://bitcoinmagazine.com/news/north-korea-6-3-billion-binance-hack",
-      "published_at": "2026-10-30T14:13:15+00:00",
-      "summary": "Bitcoin Magazine\n\nBlockchain Firms Link North Korea to $6.3 Billion Binance Hack \nChainalysis and TRM Labs have linked yesterday’s $6.3 billion Binance hack to North Korea’s TraderTraitor group.\nThis post Blockchain Firms Link North Korea to $6.3 Billion Binance Hack  first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance",
-        "LINK"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T14:07:42+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Tyler Evans: Bitcoin ETF Flows Flipped From “Highly Negative” to “Strong Accumulation”",
-      "url": "https://bitcoinmagazine.com/videos/tyler-evans-bitcoin-etf-flows-flipped-from-highly-negative-to-strong-accumulation",
-      "published_at": "2026-10-30T13:31:15+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nTyler Evans: Bitcoin ETF Flows Flipped From “Highly Negative” to “Strong Accumulation”\nTyler Evans breaks down Bitcoin's post-bear setup: Fed policy, bond yields, surging ETF accumulation, and why U.S. midterms are pivotal heading into 2027.\nThis post Tyler Evans: Bitcoin ETF Flows Flipped From “Highly Negative” to “Strong Accumulation” first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "accumulation",
-          "strong"
-        ],
-        "negative_hits": [
-          "down",
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Tron"
-      ],
-      "topics": [
-        "etf",
-        "fed",
-        "pos",
-        "yield"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Will gold’s ‘infinite mint bug’ make Bitcoin more valuable?",
-      "url": "https://cointelegraph.com/magazine/will-golds-infinite-mint-bug-make-bitcoin-more-valuable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T13:30:00+00:00",
-      "summary": "A US fusion startup says it has turned mercury into gold. Could a potential increase in the gold supply strengthen Bitcoin’s claim to be a better form of digital gold?",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Doomberg: US Treasury Sanctions are “Wildly Bullish” for Bitcoin & Gold",
-      "url": "https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold",
-      "published_at": "2026-10-30T13:26:43+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nDoomberg: US Treasury Sanctions are &#8220;Wildly Bullish&#8221; for Bitcoin &amp; Gold\nU.S. pressure to hold Treasuries forces central banks to sell what they can, says Doomberg, setting up a wildly bullish long-term case for gold and Bitcoin.\nThis post Doomberg: US Treasury Sanctions are &#8220;Wildly Bullish&#8221; for Bitcoin &amp; Gold first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish"
-        ],
-        "negative_hits": [
-          "sell"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Alex Thorn: 50-Week Signal Says Bitcoin’s Bottom is In",
-      "url": "https://bitcoinmagazine.com/videos/alex-thorn-50-week-signal-says-bitcoins-bottom-is-in",
-      "published_at": "2026-10-30T13:22:21+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nAlex Thorn: 50-Week Signal Says Bitcoin&#8217;s Bottom is In\nGalaxy's Alex Thorn calls the Bitcoin bottom, pointing to the 50-week moving average reclaim, resilience at $80K, and why being long is now contrarian.\nThis post Alex Thorn: 50-Week Signal Says Bitcoin&#8217;s Bottom is In first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Alexandre Laizet on The French Debt Crisis: “Europe is in Need of Bitcoin”",
-      "url": "https://bitcoinmagazine.com/videos/alexandre-laizet-on-the-french-debt-crisis-europe-is-in-need-of-bitcoin",
-      "published_at": "2026-10-30T13:17:11+00:00",
-      "summary": "&#9654;Bitcoin Magazine\n\nAlexandre Laizet on The French Debt Crisis: &#8220;Europe is in Need of Bitcoin&#8221;\nFrance hits 120% debt-to-GDP. Capital B's Alexandre Laizet explains why misspent debt and currency debasement make the case for a Bitcoin treasury strategy.\nThis post Alexandre Laizet on The French Debt Crisis: &#8220;Europe is in Need of Bitcoin&#8221; first appeared on Bitcoin Magazine and is written by Patrick Green.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Binance says it has $6.34 billion ready to cover hack losses",
-      "url": "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
-      "published_at": "2026-10-30T13:14:56+00:00",
-      "summary": "Binance has allocated $6.34 billion to cover hack losses, while industry partners have frozen another $3 billion in affected assets.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "FBI and Secret Service join response to Binance’s $6.3B hack",
-      "url": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T13:11:10+00:00",
-      "summary": "US agencies are investigating the theft and helping trace stolen assets, while Binance says about $3 billion has been frozen.",
-      "sentiment": {
-        "score": -9,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "stolen",
-          "theft"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Israel Extradites Alleged Nomad Bridge Exploiter to US Over $2.8M Theft: Report",
-      "url": "https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report",
-      "published_at": "2026-10-30T13:00:09+00:00",
-      "summary": "Israel's Supreme Court ruled that exploiting a coding flaw can count as computer intrusion, even when the software allowed the transaction.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "theft"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "bridge"
-      ]
     }
   ]
 }
