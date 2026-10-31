@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-31T04:52:23.883834+00:00",
+  "generated_at": "2026-10-31T14:24:52.183686+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "bearish",
-    "market_sentiment_score": -0.287,
+    "market_sentiment_score": -0.275,
     "label_distribution": {
+      "bullish": 10,
       "neutral": 15,
-      "bearish": 46,
-      "bullish": 9
+      "bearish": 45
     },
     "top_coins": [
       {
         "coin": "Binance",
-        "mentions": 38
+        "mentions": 36
       },
       {
         "coin": "Bitcoin",
@@ -24,15 +24,15 @@
       },
       {
         "coin": "ETH",
-        "mentions": 10
+        "mentions": 6
+      },
+      {
+        "coin": "Tron",
+        "mentions": 3
       },
       {
         "coin": "BTC",
-        "mentions": 4
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 4
+        "mentions": 3
       },
       {
         "coin": "LINK",
@@ -43,7 +43,7 @@
         "mentions": 2
       },
       {
-        "coin": "Tron",
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
@@ -54,7 +54,7 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "topic": "pos",
@@ -66,19 +66,19 @@
       },
       {
         "topic": "exchange",
-        "mentions": 10
+        "mentions": 9
       },
       {
-        "topic": "wallet",
-        "mentions": 6
+        "topic": "stablecoin",
+        "mentions": 4
       },
       {
         "topic": "dai",
         "mentions": 4
       },
       {
-        "topic": "stablecoin",
-        "mentions": 3
+        "topic": "wallet",
+        "mentions": 4
       },
       {
         "topic": "etf",
@@ -89,12 +89,222 @@
         "mentions": 2
       },
       {
-        "topic": "futures",
-        "mentions": 2
+        "topic": "miner",
+        "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+      "url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+      "published_at": "2026-10-31T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "profits"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "miners"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Texas brothers sentenced to 15 years in prison for armed crypto robbery, kidnapping",
+      "url": "https://cointelegraph.com/news/texas-brothers-sentenced-to-15-years-in-prison-for-armed-crypto-robbery-kidnapping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-31T13:37:49+00:00",
+      "summary": "Home invasions became the most common form of crypto wrench attacks worldwide during the first half of 2026, rising to 20 incidents from one.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Chainalysis says hacker using ‘offensive agentic techniques’ accessed its customers’ names and emails",
+      "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244",
+      "published_at": "2026-10-31T13:27:17+00:00",
+      "summary": "The firm has also been tracking Binance’s separate multibillion-dollar hack, and said the attackers are using a Tron protocol to dodge stablecoin freezes.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance",
+        "Tron"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Why AI Models Cheat: Reward Hacking, Explained",
+      "url": "https://decrypt.co/382274/why-ai-models-cheat-reward-hacking-explained",
+      "published_at": "2026-10-31T13:01:03+00:00",
+      "summary": "From boat-racing bots to OpenAI models inside Hugging Face, here's how AI reward hacking works and why it matters.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "18 years in, what has Bitcoin truly done?",
+      "url": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
+      "published_at": "2026-10-31T13:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "published_at": "2026-10-31T12:49:47+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fears",
+          "hack",
+          "sell"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
+      "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
+      "published_at": "2026-10-31T12:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+      "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-31T11:22:49+00:00",
+      "summary": "Chainalysis has engaged world-class third-party experts to support a review of its security and strengthen its defenses.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance $6.3B record hack sparks pre-election political clashes",
+      "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-10-31T09:58:50+00:00",
+      "summary": "Some political and administration figures tried to make hay of the biggest-ever crypto heist.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+      "url": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
+      "published_at": "2026-10-31T05:01:32+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance",
+        "OP"
+      ],
+      "topics": []
+    },
     {
       "source": "Bitcoin Magazine",
       "title": "MSTR Q3 2026 Earnings Call: Analyst Q&A",
@@ -1038,246 +1248,6 @@
       "coins": [],
       "topics": [
         "bridge"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Binance says it holds $5B in matching tokens to cover hack losses",
-      "url": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T12:41:43+00:00",
-      "summary": "The exchange said it set aside more than $6.34 billion to cover losses and would include the assets in its next proof-of-reserves report.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Binance’s $6.4B Hack Overshadows Hyperliquid’s Biggest Day",
-      "url": "https://decrypt.co/382225/morning-minute-binances-6-4b-hack-overshadows-hyperliquids-biggest-day",
-      "published_at": "2026-10-30T12:31:30+00:00",
-      "summary": "Just as Hyperliquid opened the door to a fully regulated perps offering inside the U.S., Binance suffered the biggest hack in crypto history.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "TRM and Chainalysis Tie $6.4B Binance Hack to North Korea's TraderTraitor",
-      "url": "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor",
-      "published_at": "2026-10-30T12:22:04+00:00",
-      "summary": "Both firms blame the group behind the Bybit hack, as Binance says it has set aside $6.34 billion of its own funds to cover user losses.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
-      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
-      "published_at": "2026-10-30T12:13:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Here's how big bitcoin traders responded after the Binance hack hit",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
-      "published_at": "2026-10-30T11:51:26+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Zcash grants group offers $124M compromise as governance backlash grows",
-      "url": "https://cointelegraph.com/news/zcash-grants-46m-proposal-governance-backlash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T11:36:23+00:00",
-      "summary": "Zcash Community Grants proposed redirecting about $124 million in existing and future funding toward mining rewards, but critics say the plan fails to address governance and accountability concerns.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "concerns",
-          "fails"
-        ]
-      },
-      "coins": [
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "governance",
-        "mining",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
-      "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
-      "published_at": "2026-10-30T11:35:16+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Binance"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T11:29:23+00:00",
-      "summary": "Bitcoin held above $76,000 after a $6.3 billion Binance hack and a tech-stock sell-off, as momentum indicators pointed to a possible rebound.",
-      "sentiment": {
-        "score": -7,
-        "normalized": -0.875,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "liquidations",
-          "sell-off"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
-      "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
-      "published_at": "2026-10-30T11:09:24+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "EIP-7702 didn’t cause Binance hack, but may have amplified losses",
-      "url": "https://cointelegraph.com/news/binance-hack-security-ethereum-eip-7702-role?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T11:00:10+00:00",
-      "summary": "Security experts said attackers could have drained Binance’s wallets without EIP-7702, but the Ethereum upgrade may have helped bypass withdrawal safeguards.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [
-          "upgrade"
-        ],
-        "negative_hits": [
-          "hack",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Binance"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "wallet"
       ]
     }
   ]
