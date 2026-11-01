@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T23:13:43.277058+00:00",
+  "generated_at": "2026-11-01T05:17:46.117822+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "bearish",
-    "market_sentiment_score": -0.261,
+    "market_sentiment_score": -0.263,
     "label_distribution": {
-      "neutral": 20,
       "bearish": 42,
+      "neutral": 20,
       "bullish": 8
     },
     "top_coins": [
@@ -24,6 +24,10 @@
       },
       {
         "coin": "ETH",
+        "mentions": 5
+      },
+      {
+        "coin": "BTC",
         "mentions": 4
       },
       {
@@ -31,8 +35,12 @@
         "mentions": 3
       },
       {
-        "coin": "BTC",
-        "mentions": 3
+        "coin": "SOL",
+        "mentions": 2
+      },
+      {
+        "coin": "UNI",
+        "mentions": 2
       },
       {
         "coin": "Near",
@@ -41,14 +49,6 @@
       {
         "coin": "LINK",
         "mentions": 2
-      },
-      {
-        "coin": "Ripple",
-        "mentions": 1
-      },
-      {
-        "coin": "Ethereum",
-        "mentions": 1
       }
     ],
     "top_topics": [
@@ -73,16 +73,16 @@
         "mentions": 4
       },
       {
+        "topic": "defi",
+        "mentions": 3
+      },
+      {
         "topic": "stablecoin",
         "mentions": 3
       },
       {
         "topic": "wallet",
         "mentions": 3
-      },
-      {
-        "topic": "defi",
-        "mentions": 2
       },
       {
         "topic": "yield",
@@ -95,6 +95,32 @@
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "published_at": "2026-11-01T01:10:05+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "Binance",
+        "UNI"
+      ],
+      "topics": [
+        "defi"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
@@ -1196,29 +1222,6 @@
         "pos",
         "sec"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Strategy’s preferred-stock fix sets up renewed bitcoin buying, analysts say",
-      "url": "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214",
-      "published_at": "2026-10-30T14:30:49+00:00",
-      "summary": "Strategy fell after Q3 earnings, but StoneX &amp; TD Cowen kept buy ratings, citing $4.83B cash reserve and more stable STRC preferred structure.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy",
-          "buying"
-        ],
-        "negative_hits": [
-          "fell"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
