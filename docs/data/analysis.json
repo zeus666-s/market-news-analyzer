@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-01T20:21:01.393099+00:00",
+  "generated_at": "2026-11-02T05:17:40.895316+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "bearish",
-    "market_sentiment_score": -0.248,
+    "market_sentiment_score": -0.257,
     "label_distribution": {
-      "neutral": 22,
-      "bearish": 40,
-      "bullish": 8
+      "bearish": 41,
+      "neutral": 23,
+      "bullish": 6
     },
     "top_coins": [
       {
         "coin": "Binance",
-        "mentions": 31
+        "mentions": 33
       },
       {
         "coin": "Bitcoin",
-        "mentions": 24
+        "mentions": 25
       },
       {
         "coin": "OP",
-        "mentions": 11
+        "mentions": 13
       },
       {
         "coin": "ETH",
@@ -28,7 +28,7 @@
       },
       {
         "coin": "Tron",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "coin": "BTC",
@@ -36,15 +36,15 @@
       },
       {
         "coin": "SOL",
+        "mentions": 3
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
-        "coin": "Near",
-        "mentions": 2
-      },
-      {
-        "coin": "LINK",
-        "mentions": 2
+        "coin": "Solana",
+        "mentions": 1
       },
       {
         "coin": "APT",
@@ -54,22 +54,26 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 30
+        "mentions": 31
+      },
+      {
+        "topic": "pos",
+        "mentions": 13
       },
       {
         "topic": "exchange",
         "mentions": 12
       },
       {
-        "topic": "pos",
-        "mentions": 12
-      },
-      {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 10
       },
       {
         "topic": "dai",
+        "mentions": 5
+      },
+      {
+        "topic": "wallet",
         "mentions": 4
       },
       {
@@ -81,20 +85,183 @@
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
-        "mentions": 3
-      },
-      {
-        "topic": "wallet",
-        "mentions": 3
-      },
-      {
         "topic": "bridge",
+        "mentions": 2
+      },
+      {
+        "topic": "yield",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
+      "published_at": "2026-11-02T04:42:22+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+      "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+      "published_at": "2026-11-02T04:41:16+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
+      "url": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270",
+      "published_at": "2026-11-02T04:11:05+00:00",
+      "summary": "US spot bitcoin ETFs shed $643 million on Friday, marking their largest single-day outflow since June 25, following Thursday's Binance's hack.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
+      "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-02T03:55:50+00:00",
+      "summary": "The central bank is surveying 31 financial institutions on how a major exchange shutdown, prolonged crypto downturn or losses at another firm could affect their operations.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses",
+          "risks"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "exchange",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+      "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-02T01:51:48+00:00",
+      "summary": "THORChain node operators paused swaps involving assets on 10 networks, including Bitcoin, Ethereum, Solana and Tron.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL",
+        "Binance",
+        "Tron",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance net outflows surge to $5.8B as withdrawals resume after record hack",
+      "url": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-01T23:59:27+00:00",
+      "summary": "The exchange says withdrawals surged after some services resumed but have since slowed, with the outflows representing a fraction of its roughly $171 billion in customer assets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "surge"
+        ],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "exchange"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-01T23:09:13+00:00",
+      "summary": "Binance has reopened withdrawals following the world’s biggest ever hack, and THORChain co-founder argues it should not halt the protocol to comply with FBI demands.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "halt"
+        ]
+      },
+      "coins": [
+        "Binance",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
@@ -616,24 +783,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
-      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
-      "published_at": "2026-10-31T14:40:29+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "tokenization"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Bitcoin turns 18: Has the original rebel grown up?",
       "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -656,30 +805,6 @@
         "ai",
         "exchange",
         "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
-      "url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
-      "published_at": "2026-10-31T14:00:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "profits"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "miners"
       ]
     },
     {
@@ -1028,30 +1153,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
-      "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T19:01:58+00:00",
-      "summary": "The stablecoin issuer’s US Treasury holdings are comparable to those of major foreign holders, while its Bitcoin reserves were valued at $8.37 billion at the end of September.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "Near"
-      ],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales",
       "url": "https://bitcoinmagazine.com/news/coinbase-falls-armstrong-sets-up-new-share",
@@ -1105,106 +1206,6 @@
       "topics": [
         "ai",
         "exchange"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "$8 Million Crypto Kidnapping Lands Texas Brothers 15-Year Prison Terms",
-      "url": "https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison",
-      "published_at": "2026-10-30T18:16:02+00:00",
-      "summary": "Raymond and Isiah Garcia held a Minnesota family at gunpoint for more than nine hours, forcing the father to transfer over $8 million in crypto, in one of the clearest “wrench attack” prosecutions yet.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
-      "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
-      "published_at": "2026-10-30T17:50:26+00:00",
-      "summary": "Binance says it has set aside $6.34 billion to cover losses from the breach and the FBI and Secret Service are now working with the exchange as investigators trace the stolen funds.",
-      "sentiment": {
-        "score": -8,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "losses",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "exchange",
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
-      "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T17:48:27+00:00",
-      "summary": "Circle, Strategy and other crypto-linked stocks fell sharply Friday, a day after Binance disclosed a $6.3 billion security breach.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [
-          "leads"
-        ],
-        "negative_hits": [
-          "fell",
-          "hack",
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "LINK"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
-      "url": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-10-30T17:09:31+00:00",
-      "summary": "Bitcoin faces mounting quantum security concerns as Ripple secures a US banking charter, USDC gains ground in Europe and VanEck adds BTC to a new ETF.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "concerns"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "Ripple",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "sec",
-        "usdc"
       ]
     }
   ]
