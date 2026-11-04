@@ -1,100 +1,462 @@
 {
-  "generated_at": "2026-11-03T19:17:28.781772+00:00",
+  "generated_at": "2026-11-04T00:29:39.806486+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.12,
+    "market_sentiment_score": -0.073,
     "label_distribution": {
-      "neutral": 26,
-      "bearish": 31,
-      "bullish": 13
+      "neutral": 32,
+      "bullish": 13,
+      "bearish": 25
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 26
+        "mentions": 21
       },
       {
         "coin": "Binance",
-        "mentions": 18
+        "mentions": 16
       },
       {
         "coin": "OP",
-        "mentions": 14
+        "mentions": 13
       },
       {
         "coin": "ETH",
-        "mentions": 11
-      },
-      {
-        "coin": "Near",
-        "mentions": 6
+        "mentions": 10
       },
       {
         "coin": "Ethereum",
         "mentions": 5
       },
       {
-        "coin": "BTC",
-        "mentions": 4
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "LINK",
         "mentions": 3
       },
       {
+        "coin": "Sui",
+        "mentions": 2
+      },
+      {
         "coin": "SOL",
         "mentions": 2
       },
       {
-        "coin": "FIL",
-        "mentions": 1
+        "coin": "BTC",
+        "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
-      },
-      {
-        "topic": "pos",
-        "mentions": 16
+        "mentions": 32
       },
       {
         "topic": "sec",
-        "mentions": 13
+        "mentions": 16
+      },
+      {
+        "topic": "pos",
+        "mentions": 15
       },
       {
         "topic": "exchange",
         "mentions": 11
       },
       {
-        "topic": "etf",
-        "mentions": 6
-      },
-      {
         "topic": "cftc",
-        "mentions": 5
+        "mentions": 7
       },
       {
         "topic": "exchanges",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "topic": "futures",
+        "mentions": 5
+      },
+      {
+        "topic": "etf",
         "mentions": 4
       },
       {
-        "topic": "cex",
-        "mentions": 2
+        "topic": "pow",
+        "mentions": 3
       },
       {
-        "topic": "governance",
-        "mentions": 2
+        "topic": "cex",
+        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: 2026 U.S. midterm elections",
+      "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "RUNE rallies 15% as THORChain restarts most swaps after halt",
+      "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-03T23:56:09+00:00",
+      "summary": "THORChain has restored trading on Bitcoin, Ethereum and several other networks following a refund bug, while three chains remain paused.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "rallies"
+        ],
+        "negative_hits": [
+          "halt"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Wants to Rebrand AI Data Centers, Use Them to 'Protect the Grid'",
+      "url": "https://decrypt.co/382476/openai-ai-data-centers-rebrand-protect-power-grid",
+      "published_at": "2026-11-03T23:48:32+00:00",
+      "summary": "The ChatGPT maker says future facilities could ease pressure on power grids by cutting demand during emergencies.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pow"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "What voters said about their views on crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/03/what-voters-said-about-their-views-on-crypto",
+      "published_at": "2026-11-03T23:19:44+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US midterms election 2026 live: Mark Warner retains Virginia Senate seat",
+      "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-03T23:01:32+00:00",
+      "summary": "Follow live coverage of the 2026 US midterm elections, including key congressional races, crypto-backed candidates and what the results could mean for digital asset regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "What happens if North Korea steals Wall Street's tokenized assets next",
+      "url": "https://www.coindesk.com/business/2026/11/03/what-happens-if-north-korea-steals-wall-street-s-tokenized-assets-next",
+      "published_at": "2026-11-03T23:00:07+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Tether Holds 150,000 Bitcoin, CEO Says—About 50,000 More Than Its Reserve Report Shows",
+      "url": "https://decrypt.co/382474/tether-holds-150000-bitcoin-ceo-says",
+      "published_at": "2026-11-03T22:46:02+00:00",
+      "summary": "Paolo Ardoino told the Plan ₿ Forum in Lugano the company owns “give or take 150,000 Bitcoin,” but its Q3 reserve report implies just 100,060.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-03T22:39:18+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+      "url": "https://www.coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+      "published_at": "2026-11-03T22:14:44+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "SEC division views Canton Coin as digital commodity in no-action letter",
+      "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492",
+      "published_at": "2026-11-03T22:11:51+00:00",
+      "summary": "SEC's Division of Corporation Finance won't recommend enforcement over Canton Coin's programmatic issuance, calling CC a digital commodity.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "MATIC"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Anthropic's AI Is Getting Cheaper to Use. That's Becoming a Problem for Its Business",
+      "url": "https://decrypt.co/382471/anthropic-ai-cheaper-use-problem-for-business",
+      "published_at": "2026-11-03T21:50:17+00:00",
+      "summary": "Claude's prices are falling, but Anthropic's computing expenses grew faster than sales in the latest quarter—a tricky equation ahead of its IPO.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
+      "url": "https://cointelegraph.com/news/spacex-tokenization-okxice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-03T21:47:20+00:00",
+      "summary": "SpaceX joined several other issuers objecting to OKXICE tokenized trading, months after crypto platforms offered tokens tied to its shares.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "cex"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "CrowdStrike Launches AI Agent 'Kill Switch,' Plans to Acquire Fiddler AI",
+      "url": "https://decrypt.co/382467/crowdstrike-ai-agent-kill-switch-acquire-fiddler-ai",
+      "published_at": "2026-11-03T21:16:03+00:00",
+      "summary": "CrowdStrike's new kill switch lets security teams cut off unauthorized AI agents through a gateway, while its planned Fiddler acquisition aims to make autonomous software easier to monitor and audit.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CZ calls for crypto security alliance as AI-driven attacks accelerate after Binance hack",
+      "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458",
+      "published_at": "2026-11-03T20:43:38+00:00",
+      "summary": "In his first interview since the Binance hack, Changpeng Zhao says AI is accelerating cyberattacks and calls for industry security alliance.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Justin Sun Accuses Trump-Backed World Liberty of Using UAE Ties to Escape Federal Court",
+      "url": "https://decrypt.co/382469/justin-sun-sanctions-trump-backed-world-liberty-uae-ties",
+      "published_at": "2026-11-03T20:36:02+00:00",
+      "summary": "Tron founder Justin Sun said he has asked a federal court to sanction World Liberty Financial, alleging the Trump family-backed venture delayed disclosing UAE ties that could defeat federal jurisdiction over his lawsuit.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "Tron",
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "fed"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC clears stock perpetual futures for trading on US exchanges",
+      "url": "https://cointelegraph.com/news/cftc-equity-perpetual-futures-trading-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-03T20:24:55+00:00",
+      "summary": "US regulators are opening the door to stock-based perpetual futures, extending a popular crypto trading product into traditional markets amid ongoing legal disputes.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cftc",
+        "exchange",
+        "exchanges",
+        "futures"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Crypto Docs Host GitBook Hit by AI Agent Security Breach, Urges Users to Rotate Keys",
+      "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
+      "published_at": "2026-11-03T19:46:03+00:00",
+      "summary": "GitBook says attackers accessed infrastructure credentials in an AI-assisted breach, prompting a shutdown and emergency token resets.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US midterms: Prediction markets favor Democrats in key crypto races",
+      "url": "https://cointelegraph.com/news/us-midterm-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-03T19:38:19+00:00",
+      "summary": "Kalshi and Polymarket price a 75% chance of a Democratic sweep, days after markets misjudged Brazil’s runoff.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "Decrypt",
       "title": "CFTC Lets Traders Bet on Stocks With Crypto-Style Perpetual Futures",
@@ -774,29 +1136,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-03T13:50:51+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Bitcoin Price Trades Near $77,500 as Midterm Voting Begins",
       "url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-77500-midterm",
@@ -961,27 +1300,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
-      "url": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
-      "published_at": "2026-11-03T12:01:05+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Liquid Network restores full bitcoin backing following $320 million exploit",
       "url": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
@@ -1030,75 +1348,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-      "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
-      "published_at": "2026-11-03T11:28:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Liquid Network Restores Full Bitcoin Backing Two Months After $320M Exploit",
-      "url": "https://decrypt.co/382397/liquid-network-restores-full-bitcoin-backing-two-months-after-320m-exploit",
-      "published_at": "2026-11-03T11:22:10+00:00",
-      "summary": "Blockstream CEO Adam Back said the sidechain's defenses have been hardened, and warned developers not to trust AI-suggested fixes blindly.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [
-          "trust"
-        ],
-        "negative_hits": [
-          "exploit",
-          "warned"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ADA",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-      "url": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
-      "published_at": "2026-11-03T11:12:12+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped",
       "url": "https://cointelegraph.com/news/france-postpones-2027-budget-vote-reject-crypto-exit-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1119,49 +1368,6 @@
         "pos",
         "sec"
       ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "North Korea Denies $6.3B Binance Hack, Calls FBI Finding a 'Political Provocation'",
-      "url": "https://decrypt.co/382394/north-korea-denies-6-3b-binance-hack-calls-fbi-finding-a-political-provocation",
-      "published_at": "2026-11-03T10:18:48+00:00",
-      "summary": "Kim Yo Jong suggested the U.S. itself could be behind the theft, as Binance said hourly deposits had begun to exceed withdrawals.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "theft"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-      "url": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
-      "published_at": "2026-11-03T10:15:53+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH"
-      ],
-      "topics": []
     },
     {
       "source": "Cointelegraph",
@@ -1231,107 +1437,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
-      "url": "https://cointelegraph.com/news/ark-buys-coinbase-circle-trims-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-03T08:35:13+00:00",
-      "summary": "ARK Invest added Coinbase and Circle shares across two trading sessions while selling about $8 million in Bullish as crypto stocks declined.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "buys"
-        ],
-        "negative_hits": [
-          "declined",
-          "selling"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Kraken restricts accounts amid suspected $133M EU crypto theft",
-      "url": "https://cointelegraph.com/news/zachxbt-eu-crypto-theft-133m-alleged-cover-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-03T08:18:22+00:00",
-      "summary": "Crypto.com also took steps to block funds tied to the suspected theft, while Kraken said its systems and customer accounts were not compromised.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "theft"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BlackRock’s IBIT sees biggest Bitcoin ETF outflows since June",
-      "url": "https://cointelegraph.com/markets/blackrocks-ibit-biggest-bitcoin-etf-outflow-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-03T07:49:51+00:00",
-      "summary": "BlackRock’s Bitcoin ETF shed $405.3 million on Monday as US spot Bitcoin funds opened November with nearly $399 million in net outflows.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
-      "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-03T05:10:19+00:00",
-      "summary": "Crypto.com will discontinue its consumer app services in Hong Kong in February next year.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
-      "url": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-03T04:14:32+00:00",
-      "summary": "The Reserve Bank of Australia raised its benchmark rate to 4.85% on rising technology costs from AI investment and higher energy prices.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "inflation"
-      ]
-    },
-    {
       "source": "The Block",
       "title": "Ark Invest buys $3.4 million in Coinbase, adds Circle and Robinhood as stocks trade lower",
       "url": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
@@ -1348,27 +1453,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
-      "url": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks",
-      "published_at": "2026-11-02T23:10:25+00:00",
-      "summary": "Users say Claude is routing some requests to a stronger unreleased model, a Mythos 5.5 label appeared in Anthropic’s site code, and OpenAI appears to be testing GPT-6.2 Astra.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
     },
     {
       "source": "The Block",
@@ -1392,76 +1476,6 @@
       "topics": [
         "ai"
       ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Firm Strive Climbs Up the Treasury Ranks With Another Big Buy",
-      "url": "https://decrypt.co/382385/bitcoin-firm-strive-treasury-ranks-another-big-buy",
-      "published_at": "2026-11-02T22:16:02+00:00",
-      "summary": "Strive added 124 Bitcoin for about $10 million and now trails Twenty One Capital by 390 BTC for third place among Treasury companies.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Mystery $106 Million Crypto Theft Hits EU Entity Days After Binance Hack",
-      "url": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
-      "published_at": "2026-11-02T21:16:03+00:00",
-      "summary": "Onchain investigator ZachXBT says an unidentified EU entity lost more than $106 million from centralized exchange accounts on Sunday,.",
-      "sentiment": {
-        "score": -8,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "lost",
-          "theft"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "UNI"
-      ],
-      "topics": [
-        "ai",
-        "exchange",
-        "onchain"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Claude-Built Linux Exploit Targets Bug That Ubuntu Still Hasn't Patched",
-      "url": "https://decrypt.co/382375/claude-built-linux-exploit-bug-ubuntu",
-      "published_at": "2026-11-02T20:36:03+00:00",
-      "summary": "Anthropic says Claude wrote an attack that can take over a Linux server with no password. Red Hat patched on Sunday, but Ubuntu still has no fix.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
     },
     {
       "source": "The Block",
@@ -1587,29 +1601,6 @@
       ]
     },
     {
-      "source": "The Block",
-      "title": "Strive inches closer to becoming second-largest public bitcoin holder after latest $10 million buy",
-      "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
-      "published_at": "2026-11-02T15:01:36+00:00",
-      "summary": "Strive bought another 124 BTC, bringing it closer to becoming the second-largest public company holder of bitcoin after Strategy.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buy"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Binance Reopens Withdrawals as Hack Recovery Enters Second Week",
       "url": "https://bitcoinmagazine.com/news/binance-reopens-withdrawals-hack",
@@ -1637,27 +1628,6 @@
         "pos",
         "sec"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bitmine adds 8,573 ETH as Tom Lee flags muted Binance hack reaction",
-      "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
-      "published_at": "2026-11-02T14:40:53+00:00",
-      "summary": "Bitmine added 8,573 ETH last week, lifting holdings to 6.06 million ETH, as Tom Lee flagged muted market response to Binance's hack.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "Binance"
-      ],
-      "topics": []
     }
   ]
 }
