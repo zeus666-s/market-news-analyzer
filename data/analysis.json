@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T14:53:43.116459+00:00",
+  "generated_at": "2026-11-08T20:17:41.099680+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
     "market_sentiment_score": -0.039,
     "label_distribution": {
       "neutral": 40,
-      "bearish": 16,
-      "bullish": 14
+      "bullish": 14,
+      "bearish": 16
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 19
+        "mentions": 20
       },
       {
         "coin": "Binance",
@@ -27,16 +27,20 @@
         "mentions": 5
       },
       {
-        "coin": "LINK",
-        "mentions": 3
+        "coin": "ETH",
+        "mentions": 4
       },
       {
-        "coin": "ETH",
+        "coin": "LINK",
         "mentions": 3
       },
       {
         "coin": "Near",
         "mentions": 2
+      },
+      {
+        "coin": "UNI",
+        "mentions": 1
       },
       {
         "coin": "SOL",
@@ -45,28 +49,24 @@
       {
         "coin": "LTC",
         "mentions": 1
-      },
-      {
-        "coin": "FIL",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 32
+        "mentions": 30
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 21
+      },
+      {
+        "topic": "wallet",
+        "mentions": 8
       },
       {
         "topic": "exchange",
         "mentions": 8
-      },
-      {
-        "topic": "wallet",
-        "mentions": 7
       },
       {
         "topic": "etf",
@@ -74,14 +74,10 @@
       },
       {
         "topic": "defi",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "topic": "fed",
-        "mentions": 3
-      },
-      {
-        "topic": "regulation",
         "mentions": 2
       },
       {
@@ -89,12 +85,97 @@
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "stablecoin",
+        "mentions": 1
+      },
+      {
+        "topic": "validator",
         "mentions": 1
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "What the election results mean for crypto: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto",
+      "published_at": "2026-11-08T19:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Stablecoin growth has stalled. The payments boom hasn't",
+      "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
+      "published_at": "2026-11-08T19:16:42+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "growth"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Web3Auth says it frontran hackers by moving $5.6 million out of exposed Keplr wallets",
+      "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029",
+      "published_at": "2026-11-08T18:32:11+00:00",
+      "summary": "Web3Auth's communications also referred to an \"original attacker,\" suggesting some funds were stolen, but did not elaborate.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "UNI"
+      ],
+      "topics": [
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Vitalik Buterin says ETH should be valued as a store of value, not a fee-burning token",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022",
+      "published_at": "2026-11-08T15:52:17+00:00",
+      "summary": "A recent controversial proposal to burn a rising share of validator rewards as more ETH is staked was withdrawn last month after facing pushback.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "pos",
+        "validator"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "This Bitcoin Developer’s Idea Would Make Quantum Attacks a Losing Bet",
@@ -1459,30 +1540,6 @@
       ]
     },
     {
-      "source": "The Block",
-      "title": "Nigeria’s central bank introduces stablecoin licensing rules, bans algorithmic versions",
-      "url": "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867",
-      "published_at": "2026-11-06T11:43:44+00:00",
-      "summary": "Nigeria's central bank issued new virtual asset regulations requiring stablecoin issuers and other service providers to obtain local licenses.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bans"
-        ]
-      },
-      "coins": [
-        "ALGO"
-      ],
-      "topics": [
-        "ai",
-        "regulation",
-        "stablecoin"
-      ]
-    },
-    {
       "source": "CoinDesk",
       "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
       "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
@@ -1501,61 +1558,6 @@
       "topics": [
         "etf"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
-      "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
-      "published_at": "2026-11-06T08:47:42+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "defi"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Kalshi hit with injunction over sports contracts on California tribal lands",
-      "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
-      "published_at": "2026-11-06T08:34:02+00:00",
-      "summary": "A federal judge has granted the preliminary injunction to bar Kalshi from offering sports contracts on the lands of two California tribes.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
-      "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
-      "published_at": "2026-11-06T08:04:52+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
