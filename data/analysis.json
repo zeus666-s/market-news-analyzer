@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T00:47:11.492834+00:00",
+  "generated_at": "2026-11-14T11:17:07.772951+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.091,
+    "market_sentiment_score": -0.089,
     "label_distribution": {
-      "neutral": 32,
       "bullish": 11,
-      "bearish": 27
+      "neutral": 31,
+      "bearish": 28
     },
     "top_coins": [
       {
@@ -19,20 +19,24 @@
         "mentions": 15
       },
       {
-        "coin": "Near",
-        "mentions": 6
-      },
-      {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "BTC",
-        "mentions": 3
+        "mentions": 5
+      },
+      {
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "Binance",
         "mentions": 3
+      },
+      {
+        "coin": "SOL",
+        "mentions": 2
       },
       {
         "coin": "ADA",
@@ -45,31 +49,27 @@
       {
         "coin": "Ethereum",
         "mentions": 2
-      },
-      {
-        "coin": "FIL",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "topic": "pos",
         "mentions": 17
       },
       {
-        "topic": "sec",
-        "mentions": 6
+        "topic": "wallet",
+        "mentions": 5
       },
       {
         "topic": "etf",
         "mentions": 5
       },
       {
-        "topic": "cftc",
+        "topic": "sec",
         "mentions": 5
       },
       {
@@ -77,11 +77,11 @@
         "mentions": 4
       },
       {
-        "topic": "miner",
-        "mentions": 3
+        "topic": "cftc",
+        "mentions": 4
       },
       {
-        "topic": "wallet",
+        "topic": "miner",
         "mentions": 3
       },
       {
@@ -95,6 +95,115 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-14T10:34:06+00:00",
+      "summary": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-14T08:12:30+00:00",
+      "summary": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-14T06:33:13+00:00",
+      "summary": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losing"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
+      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+      "published_at": "2026-11-14T05:40:00+00:00",
+      "summary": "In today's newsletter, Meta tests prediction-market app using points instead of cash; DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme; and more.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "url": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "published_at": "2026-11-14T04:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "Sui"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
@@ -1282,27 +1391,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "DOJ moves to seize $1.2B from Binance hack, disrupts FaceStealer scam",
-      "url": "https://cointelegraph.com/news/doj-12b-north-korean-crypto-seizure-400m-facestealer-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T09:27:14+00:00",
-      "summary": "Authorities froze over $2.7 billion in Binance hack proceeds, while the separate FaceStealer scam stole over $400 million in 18 months.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "scam"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": []
-    },
-    {
       "source": "CoinDesk",
       "title": "Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out",
       "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
@@ -1323,47 +1411,6 @@
         "Bitcoin"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
-      "url": "https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T09:05:10+00:00",
-      "summary": "Jane Street ended Q3 with 19% fewer shares in BlackRock’s Bitcoin ETF, and a higher share price lifted the stake’s value to $957 million.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "boosts"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Microsoft 365 outage hits Outlook email and Teams calendars worldwide",
-      "url": "https://cointelegraph.com/news/microsoft-365-global-outage-outlook-teams-ai-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T08:26:01+00:00",
-      "summary": "Microsoft began a wider patch rollout Friday as the outage disrupted government email and Microsoft 365 connectors in ChatGPT and Claude.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
     },
     {
       "source": "CoinDesk",
@@ -1470,26 +1517,6 @@
       ]
     },
     {
-      "source": "The Block",
-      "title": "TRM Labs launches new service to help police seize stolen crypto in minutes",
-      "url": "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609",
-      "published_at": "2026-11-13T05:08:25+00:00",
-      "summary": "The new service is built on the Beacon Network, which has more than 200 members covering 80% of crypto trading volume.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": [
-          "stolen"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "CoinDesk",
       "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
       "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
@@ -1557,25 +1584,6 @@
         "Binance"
       ],
       "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
-      "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
-      "published_at": "2026-11-12T22:47:41+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "cftc",
-        "sec"
-      ]
     },
     {
       "source": "Decrypt",

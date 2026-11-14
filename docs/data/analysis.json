@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T00:47:11.492834+00:00",
+  "generated_at": "2026-11-14T11:17:07.772951+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.091,
+    "market_sentiment_score": -0.089,
     "label_distribution": {
-      "neutral": 32,
       "bullish": 11,
-      "bearish": 27
+      "neutral": 31,
+      "bearish": 28
     },
     "top_coins": [
       {
@@ -19,20 +19,24 @@
         "mentions": 15
       },
       {
-        "coin": "Near",
-        "mentions": 6
-      },
-      {
         "coin": "ETH",
-        "mentions": 6
+        "mentions": 7
       },
       {
         "coin": "BTC",
-        "mentions": 3
+        "mentions": 5
+      },
+      {
+        "coin": "Near",
+        "mentions": 5
       },
       {
         "coin": "Binance",
         "mentions": 3
+      },
+      {
+        "coin": "SOL",
+        "mentions": 2
       },
       {
         "coin": "ADA",
@@ -45,31 +49,27 @@
       {
         "coin": "Ethereum",
         "mentions": 2
-      },
-      {
-        "coin": "FIL",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "topic": "pos",
         "mentions": 17
       },
       {
-        "topic": "sec",
-        "mentions": 6
+        "topic": "wallet",
+        "mentions": 5
       },
       {
         "topic": "etf",
         "mentions": 5
       },
       {
-        "topic": "cftc",
+        "topic": "sec",
         "mentions": 5
       },
       {
@@ -77,11 +77,11 @@
         "mentions": 4
       },
       {
-        "topic": "miner",
-        "mentions": 3
+        "topic": "cftc",
+        "mentions": 4
       },
       {
-        "topic": "wallet",
+        "topic": "miner",
         "mentions": 3
       },
       {
@@ -95,6 +95,115 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-14T10:34:06+00:00",
+      "summary": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "SOL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-14T08:12:30+00:00",
+      "summary": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-14T06:33:13+00:00",
+      "summary": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losing"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
+      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+      "published_at": "2026-11-14T05:40:00+00:00",
+      "summary": "In today's newsletter, Meta tests prediction-market app using points instead of cash; DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme; and more.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "url": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "published_at": "2026-11-14T04:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "Sui"
+      ],
+      "topics": [
+        "wallet"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
@@ -1067,111 +1176,6 @@
       },
       "coins": [
         "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Digital Credit: Comparing The Six Bitcoin Preferred Stocks",
-      "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/digital-credit-comparing-the-six-bitcoin-preferred-stocks",
-      "published_at": "2026-11-13T12:03:47+00:00",
-      "summary": "Bitcoin Magazine\n\nDigital Credit: Comparing The Six Bitcoin Preferred Stocks\nA simple four-part investor framework for evaluating Digital Credit. \nThis post Digital Credit: Comparing The Six Bitcoin Preferred Stocks first appeared on Bitcoin Magazine and is written by Allard Peng.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Nvidia Employees Push Board to Bring Back Jensen Huang: Report",
-      "url": "https://decrypt.co/383217/nvidia-employees-push-board-to-bring-back-jensen-huang-report",
-      "published_at": "2026-11-13T11:58:47+00:00",
-      "summary": "An internal post urging Nvidia's board to weigh staff sentiment has drawn more than 1,600 comments, including calls to reinstate Huang.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
-      "published_at": "2026-11-13T11:52:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "rallies"
-        ],
-        "negative_hits": [
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Drops to $69K On 'Concentrated Liquidation' and 'Weakening' Demand",
-      "url": "https://decrypt.co/383214/bitcoin-drops-to-69k-on-concentrated-liquidation-and-weakening-demand",
-      "published_at": "2026-11-13T11:20:44+00:00",
-      "summary": "BTC dropped 5% on Friday, falling below $69,000. Experts say it was triggered by a \"concentrated liquidation\" and \"weakening\" demand.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": [
-          "dropped",
-          "drops",
-          "liquidation"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Congress Summons Ex-Nvidia CEO Jensen Huang, Lutnick Over Chip Exports to China",
-      "url": "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china",
-      "published_at": "2026-11-13T10:55:54+00:00",
-      "summary": "House panels requested December interviews with Huang and Nvidia's top lawyer as scrutiny shifts to Commerce's oversight of chip exports.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
       ],
       "topics": []
     }
