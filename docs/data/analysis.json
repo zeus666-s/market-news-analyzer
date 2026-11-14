@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-14T17:48:42.670198+00:00",
+  "generated_at": "2026-11-14T23:45:18.096221+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.068,
+    "market_sentiment_score": -0.093,
     "label_distribution": {
-      "bearish": 25,
-      "neutral": 32,
+      "bearish": 29,
+      "neutral": 28,
       "bullish": 13
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 35
+        "mentions": 34
       },
       {
         "coin": "OP",
@@ -24,14 +24,18 @@
       },
       {
         "coin": "Near",
-        "mentions": 6
+        "mentions": 7
+      },
+      {
+        "coin": "Sui",
+        "mentions": 3
       },
       {
         "coin": "BTC",
         "mentions": 3
       },
       {
-        "coin": "Sui",
+        "coin": "SOL",
         "mentions": 2
       },
       {
@@ -45,43 +49,39 @@
       {
         "coin": "LINK",
         "mentions": 2
-      },
-      {
-        "coin": "Tron",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 29
+        "mentions": 31
       },
       {
         "topic": "pos",
-        "mentions": 17
+        "mentions": 15
+      },
+      {
+        "topic": "sec",
+        "mentions": 6
       },
       {
         "topic": "wallet",
         "mentions": 6
       },
       {
-        "topic": "sec",
-        "mentions": 5
+        "topic": "cftc",
+        "mentions": 4
       },
       {
         "topic": "etf",
         "mentions": 4
       },
       {
-        "topic": "fed",
-        "mentions": 4
-      },
-      {
-        "topic": "cftc",
-        "mentions": 4
-      },
-      {
         "topic": "miner",
+        "mentions": 3
+      },
+      {
+        "topic": "fed",
         "mentions": 3
       },
       {
@@ -95,6 +95,105 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
+      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+      "published_at": "2026-11-14T23:07:35+00:00",
+      "summary": "About 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold for roughly $2.1 million in BNB and USDT.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "hack",
+          "loses"
+        ]
+      },
+      "coins": [
+        "SOL",
+        "BNB",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "bridge",
+        "usdt"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
+      "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+      "published_at": "2026-11-14T19:06:59+00:00",
+      "summary": "The CFTC sued Louisiana Friday to block a state judge's order banning 31 prediction markets, including Kalshi and Polymarket, in the state.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lawsuit",
+          "sued"
+        ]
+      },
+      "coins": [
+        "Sui"
+      ],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
+      "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
+      "published_at": "2026-11-14T18:01:02+00:00",
+      "summary": "In a matter of days, the executive synonymous with the AI boom resigned after 33 years amid reports of affairs and suspected Chinese intelligence ties—sending Nvidia’s stock reeling and leaving the chipmaker leaderless.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+      "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+      "published_at": "2026-11-14T17:50:41+00:00",
+      "summary": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "lose",
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Avalanche"
+      ],
+      "topics": [
+        "etf",
+        "sec"
+      ]
+    },
     {
       "source": "Decrypt",
       "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
@@ -121,16 +220,18 @@
     },
     {
       "source": "CoinDesk",
-      "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+      "title": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
       "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
       "published_at": "2026-11-14T16:33:29+00:00",
       "summary": "",
       "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
         "positive_hits": [],
-        "negative_hits": []
+        "negative_hits": [
+          "crashes"
+        ]
       },
       "coins": [
         "Bitcoin"
@@ -1080,106 +1181,6 @@
       },
       "coins": [
         "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Tether-backed Twenty One Capital reports $1.09 billion Q3 net income on bitcoin gains",
-      "url": "https://www.theblock.co/news/business/2026-11-13-tether-backed-twenty-one-capital-reports-1-09-billion-q3-net-income-on-bitcoin-gains-439711",
-      "published_at": "2026-11-13T14:50:49+00:00",
-      "summary": "Twenty One Capital reported $1.09 billion in Q3 net income, driven by Bitcoin gains, while posting a $4.8 million operating loss.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "President Trump Taps Two Democrats in Bipartisan Slate of SEC and CFTC Nominees as Both Agencies Run Short-Handed",
-      "url": "https://bitcoinmagazine.com/news/trump-sec-cftc-nominees-bipartisan",
-      "published_at": "2026-11-13T14:45:00+00:00",
-      "summary": "Bitcoin Magazine\n\nPresident Trump Taps Two Democrats in Bipartisan Slate of SEC and CFTC Nominees as Both Agencies Run Short-Handed\nThe White House sent four SEC and CFTC nominees to the Senate on Thursday, including former CFTC Commissioner Kristin Johnson and two staffers who worked on the Clarity Act.\nThis post President Trump Taps Two Democrats in Bipartisan Slate of SEC and CFTC Nominees as Both Agencies Run Short-Handed first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "cftc",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ethereum and Layer 1s Explained",
-      "url": "https://www.theblock.co/learn/campus/ethereum-and-layer-1s-explained-435883",
-      "published_at": "2026-11-13T14:12:23+00:00",
-      "summary": "Ethereum 101 explains how Ethereum made blockchains programmable. It covers smart contracts, accounts and the EVM, ETH and gas fees, Proof of Stake, network upgrades, and how alternative Layer 1s trade off security, decentralization and scalability.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "upgrades"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "sec",
-        "smart contract"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Briefly Crashes to $67,500, Lowest Since August, as Dollar Holds 19-Month High",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-69100-dollar",
-      "published_at": "2026-11-13T14:11:44+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Briefly Crashes to $67,500, Lowest Since August, as Dollar Holds 19-Month High\nBitcoin price briefly crashed to about $67,555 around midnight Eastern, its lowest level since August, then recovered near $69,800 on Friday after October producer prices rose less than expected.\nThis post Bitcoin Price Briefly Crashes to $67,500, Lowest Since August, as Dollar Holds 19-Month High first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [
-          "recovered"
-        ],
-        "negative_hits": [
-          "crashed",
-          "crashes"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
       ],
       "topics": [
         "pos"
