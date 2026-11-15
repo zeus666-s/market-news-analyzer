@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-15T15:29:33.003970+00:00",
+  "generated_at": "2026-11-15T20:54:20.379931+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.109,
+    "market_sentiment_score": -0.107,
     "label_distribution": {
+      "bullish": 11,
       "neutral": 29,
-      "bearish": 30,
-      "bullish": 11
+      "bearish": 30
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 31
+        "mentions": 30
       },
       {
         "coin": "OP",
@@ -20,7 +20,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 10
       },
       {
         "coin": "Near",
@@ -43,18 +43,18 @@
         "mentions": 2
       },
       {
-        "coin": "ADA",
+        "coin": "LINK",
         "mentions": 2
       },
       {
-        "coin": "LINK",
-        "mentions": 2
+        "coin": "Solana",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 35
       },
       {
         "topic": "pos",
@@ -62,7 +62,7 @@
       },
       {
         "topic": "wallet",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "sec",
@@ -85,7 +85,7 @@
         "mentions": 3
       },
       {
-        "topic": "dai",
+        "topic": "onchain",
         "mentions": 2
       },
       {
@@ -95,6 +95,65 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Traders claim $6 million profit by spotting BitGo’s public pull request and frontrunning memecoin listing",
+      "url": "https://www.theblock.co/news/defi/2026-11-15-traders-claim-6-million-profit-by-spotting-bitgos-public-pull-request-and-frontrunning-memecoin-listing-440363",
+      "published_at": "2026-11-15T20:33:17+00:00",
+      "summary": "A public BitGo code change on July 27 added support for Cash Cat on Robinhood Chain ten days before Robinhood announced the listing.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "profit",
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "memecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "published_at": "2026-11-15T19:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "How Wall Street Is Racing to Claim the Onchain Dollar",
+      "url": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins",
+      "published_at": "2026-11-15T16:01:02+00:00",
+      "summary": "From Goldman and Citi’s $270 million “Project Faro” to SoFi, Anchorage, Mastercard, Visa and Circle, traditional finance is racing to claim the onchain dollar once dominated by Tether and Circle.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Enterprise blockchain is going to come back from the dead",
@@ -1503,29 +1562,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "‘Roadmap is Complete,' Cardano Founder Charles Hoskinson Says",
-      "url": "https://decrypt.co/383221/roadmap-is-complete-cardano-founder-charles-hoskinson-says",
-      "published_at": "2026-11-13T13:36:29+00:00",
-      "summary": "Cardano's ADA token is down almost 95% from its all-time high, and investors don't seem to be happy that the roadmap is complete.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "all-time high"
-        ],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Cardano",
-        "ADA"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "From $6 to $6.9 million: Two dormant Bitcoin addresses wake up to move 100 BTC after more than 16 years",
       "url": "https://www.theblock.co/news/markets/2026-11-13-from-6-to-6-9-million-two-dormant-bitcoin-addresses-wake-up-to-move-100-btc-after-more-than-16-years-439698",
@@ -1566,24 +1602,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
-      "published_at": "2026-11-13T12:14:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Digital Credit: Comparing The Six Bitcoin Preferred Stocks",
       "url": "https://bitcoinmagazine.com/bitcoin-for-corporations/digital-credit-comparing-the-six-bitcoin-preferred-stocks",
@@ -1601,27 +1619,6 @@
       ],
       "topics": [
         "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
-      "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
-      "published_at": "2026-11-13T10:16:04+00:00",
-      "summary": "The draft rules also require that stablecoins be transferred only between accounts or wallets belonging to the same person.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "dai",
-        "stablecoin",
-        "wallet"
       ]
     }
   ]

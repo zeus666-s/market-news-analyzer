@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-15T15:29:33.003970+00:00",
+  "generated_at": "2026-11-15T20:54:20.379931+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.109,
+    "market_sentiment_score": -0.107,
     "label_distribution": {
+      "bullish": 11,
       "neutral": 29,
-      "bearish": 30,
-      "bullish": 11
+      "bearish": 30
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 31
+        "mentions": 30
       },
       {
         "coin": "OP",
@@ -20,7 +20,7 @@
       },
       {
         "coin": "ETH",
-        "mentions": 9
+        "mentions": 10
       },
       {
         "coin": "Near",
@@ -43,18 +43,18 @@
         "mentions": 2
       },
       {
-        "coin": "ADA",
+        "coin": "LINK",
         "mentions": 2
       },
       {
-        "coin": "LINK",
-        "mentions": 2
+        "coin": "Solana",
+        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 34
+        "mentions": 35
       },
       {
         "topic": "pos",
@@ -62,7 +62,7 @@
       },
       {
         "topic": "wallet",
-        "mentions": 7
+        "mentions": 6
       },
       {
         "topic": "sec",
@@ -85,7 +85,7 @@
         "mentions": 3
       },
       {
-        "topic": "dai",
+        "topic": "onchain",
         "mentions": 2
       },
       {
@@ -95,6 +95,65 @@
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Traders claim $6 million profit by spotting BitGo’s public pull request and frontrunning memecoin listing",
+      "url": "https://www.theblock.co/news/defi/2026-11-15-traders-claim-6-million-profit-by-spotting-bitgos-public-pull-request-and-frontrunning-memecoin-listing-440363",
+      "published_at": "2026-11-15T20:33:17+00:00",
+      "summary": "A public BitGo code change on July 27 added support for Cash Cat on Robinhood Chain ten days before Robinhood announced the listing.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "profit",
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "memecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "published_at": "2026-11-15T19:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "How Wall Street Is Racing to Claim the Onchain Dollar",
+      "url": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins",
+      "published_at": "2026-11-15T16:01:02+00:00",
+      "summary": "From Goldman and Citi’s $270 million “Project Faro” to SoFi, Anchorage, Mastercard, Visa and Circle, traditional finance is racing to claim the onchain dollar once dominated by Tether and Circle.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "onchain"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Enterprise blockchain is going to come back from the dead",
@@ -1120,75 +1179,6 @@
       "topics": [
         "ai",
         "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
-      "url": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto",
-      "published_at": "2026-11-13T17:56:03+00:00",
-      "summary": "The bipartisan slate—two Republicans and two Democrats, Trump’s first Democratic picks for either agency—would refill commissions that have driven crypto policy since the Clarity Act’s collapse.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "collapse"
-        ]
-      },
-      "coins": [
-        "FIL"
-      ],
-      "topics": [
-        "cftc",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally",
-      "url": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally",
-      "published_at": "2026-11-13T17:22:54+00:00",
-      "summary": "Bitcoin is back near August levels as persistent inflation, growing expectations of another interest-rate hike and ETF withdrawals pressure prices.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "growing",
-          "rally"
-        ],
-        "negative_hits": [
-          "fears"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "etf",
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
-      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
-      "published_at": "2026-11-13T17:05:43+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
       ]
     }
   ]
