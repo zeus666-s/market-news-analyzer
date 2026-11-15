@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-11-15T05:42:25.581456+00:00",
+  "generated_at": "2026-11-15T15:29:33.003970+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.102,
+    "market_sentiment_score": -0.109,
     "label_distribution": {
+      "neutral": 29,
       "bearish": 30,
-      "neutral": 28,
-      "bullish": 12
+      "bullish": 11
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 33
+        "mentions": 31
       },
       {
         "coin": "OP",
-        "mentions": 14
+        "mentions": 11
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "Near",
-        "mentions": 7
+        "mentions": 8
+      },
+      {
+        "coin": "SOL",
+        "mentions": 3
       },
       {
         "coin": "Sui",
@@ -33,10 +37,6 @@
       {
         "coin": "BTC",
         "mentions": 3
-      },
-      {
-        "coin": "SOL",
-        "mentions": 2
       },
       {
         "coin": "Ethereum",
@@ -54,26 +54,26 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
+      },
+      {
+        "topic": "wallet",
+        "mentions": 7
       },
       {
         "topic": "sec",
         "mentions": 6
       },
       {
-        "topic": "wallet",
-        "mentions": 6
+        "topic": "etf",
+        "mentions": 5
       },
       {
         "topic": "cftc",
-        "mentions": 4
-      },
-      {
-        "topic": "etf",
         "mentions": 4
       },
       {
@@ -85,16 +85,176 @@
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
+        "topic": "dai",
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "exchange",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Enterprise blockchain is going to come back from the dead",
+      "url": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T14:30:00+00:00",
+      "summary": "With scalability, privacy tools and onchain liquidity improving, businesses may finally have the infrastructure to make enterprise blockchain work.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "liquidity",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+      "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
+      "published_at": "2026-11-15T14:01:02+00:00",
+      "summary": "Spot Bitcoin ETFs shed $185.4 million on Friday, their seventh straight day of outflows, pushing November losses to about $2.1 billion as Bitcoin fell toward $64,000.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell",
+          "lose",
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T11:18:48+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T10:23:17+00:00",
+      "summary": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "falls",
+          "fell",
+          "losses",
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL",
+        "Near"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinone warns of phishing, identity theft after customer data breach",
+      "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T08:07:58+00:00",
+      "summary": "The South Korean crypto exchange said potentially exposed information includes passwords, bank account numbers, national identification numbers and crypto wallet addresses.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "theft",
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
+      "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T06:27:26+00:00",
+      "summary": "The stUSDT team did not disclose a reason for winding down the RWA protocol but assured holders that all underlying assets remain fully backed.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "rwa",
+        "tvl",
+        "usdt"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
@@ -422,29 +582,6 @@
         "ETH"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-14T11:28:12+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
     },
     {
       "source": "Cointelegraph",
@@ -1052,138 +1189,6 @@
       "coins": [],
       "topics": [
         "sec"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "FutureBit’s Apollo III Bitcoin Miner Hits Micro Center Shelves in Its First Brick-and-Mortar Launch",
-      "url": "https://bitcoinmagazine.com/news/futurebit-apollo-iii-hits-micro-center-shelves",
-      "published_at": "2026-11-13T16:39:33+00:00",
-      "summary": "Bitcoin Magazine\n\nFutureBit&#8217;s Apollo III Bitcoin Miner Hits Micro Center Shelves in Its First Brick-and-Mortar Launch\nThe Brooklyn company's compact home miner, rated at up to 18 TH/s and starting at $1,099.99, goes on sale Friday at four Micro Center stores, including the chain's new Austin location.\nThis post FutureBit&#8217;s Apollo III Bitcoin Miner Hits Micro Center Shelves in Its First Brick-and-Mortar Launch first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print",
-      "url": "https://cointelegraph.com/markets/bitcoin-below-70k-stocks-slip-cooler-us-ppi-print?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T16:39:11+00:00",
-      "summary": "Bitcoin was down about 4% on the day amid a tepid market reaction to October’s US PPI reading, which came in below expected levels.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Hyperliquid leapfrogs Bybit, Kraken and OKX in open interest as Q3 positions grow 80%",
-      "url": "https://www.theblock.co/news/markets/2026-11-13-hyperliquid-leapfrogs-bybit-kraken-okx-open-interest-q3-positions-grow-440053",
-      "published_at": "2026-11-13T16:37:26+00:00",
-      "summary": "Hyperliquid’s share of open interest reached 11.7% across the platform and eight major centralized rivals.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
-      "published_at": "2026-11-13T16:01:27+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Kraken parent Payward posts 66% drop in Q3 adjusted EBITDA, plans US prediction markets and personal finance AI agent",
-      "url": "https://www.theblock.co/news/business/2026-11-13-kraken-parent-payward-posts-66-drop-in-q3-adjusted-ebitda-plans-us-prediction-markets-and-personal-finance-ai-agent-439721",
-      "published_at": "2026-11-13T15:31:22+00:00",
-      "summary": "Kraken parent Payward’s third-quarter adjusted EBITDA fell about two-thirds year over year to $60 million, while funded accounts grew 37%.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop",
-          "fell"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Robinhood’s Crypto Trading Volume Falls 48% in October as Event Contracts More Than Double",
-      "url": "https://bitcoinmagazine.com/news/robinhood-crypto-volume-falls-48-percent",
-      "published_at": "2026-11-13T15:30:00+00:00",
-      "summary": "Bitcoin Magazine\n\nRobinhood&#8217;s Crypto Trading Volume Falls 48% in October as Event Contracts More Than Double\nRobinhood customers traded $17 billion of crypto in October, down 48% from a year earlier, while event contracts traded jumped 136% to 5.9 billion.\nThis post Robinhood&#8217;s Crypto Trading Volume Falls 48% in October as Event Contracts More Than Double first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "falls"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
       ]
     }
   ]

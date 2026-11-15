@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-11-15T05:42:25.581456+00:00",
+  "generated_at": "2026-11-15T15:29:33.003970+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.102,
+    "market_sentiment_score": -0.109,
     "label_distribution": {
+      "neutral": 29,
       "bearish": 30,
-      "neutral": 28,
-      "bullish": 12
+      "bullish": 11
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 33
+        "mentions": 31
       },
       {
         "coin": "OP",
-        "mentions": 14
+        "mentions": 11
       },
       {
         "coin": "ETH",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "Near",
-        "mentions": 7
+        "mentions": 8
+      },
+      {
+        "coin": "SOL",
+        "mentions": 3
       },
       {
         "coin": "Sui",
@@ -33,10 +37,6 @@
       {
         "coin": "BTC",
         "mentions": 3
-      },
-      {
-        "coin": "SOL",
-        "mentions": 2
       },
       {
         "coin": "Ethereum",
@@ -54,26 +54,26 @@
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 31
+        "mentions": 34
       },
       {
         "topic": "pos",
-        "mentions": 15
+        "mentions": 16
+      },
+      {
+        "topic": "wallet",
+        "mentions": 7
       },
       {
         "topic": "sec",
         "mentions": 6
       },
       {
-        "topic": "wallet",
-        "mentions": 6
+        "topic": "etf",
+        "mentions": 5
       },
       {
         "topic": "cftc",
-        "mentions": 4
-      },
-      {
-        "topic": "etf",
         "mentions": 4
       },
       {
@@ -85,16 +85,176 @@
         "mentions": 3
       },
       {
-        "topic": "stablecoin",
+        "topic": "dai",
         "mentions": 2
       },
       {
-        "topic": "dai",
+        "topic": "exchange",
         "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Enterprise blockchain is going to come back from the dead",
+      "url": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T14:30:00+00:00",
+      "summary": "With scalability, privacy tools and onchain liquidity improving, businesses may finally have the infrastructure to make enterprise blockchain work.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "liquidity",
+        "onchain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+      "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
+      "published_at": "2026-11-15T14:01:02+00:00",
+      "summary": "Spot Bitcoin ETFs shed $185.4 million on Friday, their seventh straight day of outflows, pushing November losses to about $2.1 billion as Bitcoin fell toward $64,000.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fell",
+          "lose",
+          "losses"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T11:18:48+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T10:23:17+00:00",
+      "summary": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
+      "sentiment": {
+        "score": -6,
+        "normalized": -0.75,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "falls",
+          "fell",
+          "losses",
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "Solana",
+        "SOL",
+        "Near"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Coinone warns of phishing, identity theft after customer data breach",
+      "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T08:07:58+00:00",
+      "summary": "The South Korean crypto exchange said potentially exposed information includes passwords, bank account numbers, national identification numbers and crypto wallet addresses.",
+      "sentiment": {
+        "score": -4,
+        "normalized": -0.5,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "theft",
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange",
+        "pos",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
+      "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T06:27:26+00:00",
+      "summary": "The stUSDT team did not disclose a reason for winding down the RWA protocol but assured holders that all underlying assets remain fully backed.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "rwa",
+        "tvl",
+        "usdt"
+      ]
+    },
     {
       "source": "CoinDesk",
       "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
@@ -422,29 +582,6 @@
         "ETH"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-14T11:28:12+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
     },
     {
       "source": "Cointelegraph",
@@ -1408,51 +1545,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "Nakamoto shares fall 6% premarket after Q3 revenue turns negative",
-      "url": "https://cointelegraph.com/markets/nakamoto-shares-fall-after-negative-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T13:04:19+00:00",
-      "summary": "A $5.8 million Bitcoin options loss pushed Nakamoto’s quarterly operating revenue below zero, while the company extended repayment of $60 million in Kraken debt to 2027.",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fall",
-          "loss",
-          "negative"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Crypto Plummets as Jensen Huang Exits Nvidia",
-      "url": "https://decrypt.co/383222/morning-minute-crypto-plummets-as-jensen-huang-exits-nvidia",
-      "published_at": "2026-11-13T13:03:40+00:00",
-      "summary": "Bitcoin fell all the way to $68,000 overnight and hit a new three-month low. But are there reasons for hope?",
-      "sentiment": {
-        "score": -4,
-        "normalized": -0.5,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell",
-          "plummets"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "UK, Singapore, and Thailand central banks complete foreign exchange settlement trial linking traditional and tokenized systems",
       "url": "https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692",
@@ -1472,22 +1564,6 @@
         "ai",
         "exchange"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Israeli police arrest five in $5M WhatsApp crypto trading probe",
-      "url": "https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T12:19:01+00:00",
-      "summary": "Police suspect the group drew up fictitious loan agreements to disguise crypto trading proceeds it transferred directly into bank accounts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     },
     {
       "source": "CoinDesk",
@@ -1528,29 +1604,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
-      "published_at": "2026-11-13T11:52:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "rallies"
-        ],
-        "negative_hits": [
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
       "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
@@ -1570,48 +1623,6 @@
         "stablecoin",
         "wallet"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
-      "url": "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T09:58:21+00:00",
-      "summary": "Unocoin said the transfers were signed and broadcast outside BitGo’s platform, and BitGo said the account freeze worked as intended.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "halted"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next",
-      "url": "https://cointelegraph.com/markets/bitcoin-returns-200-week-trend-line-analyst-sees-risk-57k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T09:39:05+00:00",
-      "summary": "Bitcoin price action interacted with its 200-week simple moving average for the first time since mid-August as it fell below $68,000.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "fell",
-          "risk"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     }
   ]
 }
