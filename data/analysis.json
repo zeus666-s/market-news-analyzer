@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-15T20:54:20.379931+00:00",
+  "generated_at": "2026-11-16T05:42:04.675020+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.107,
+    "market_sentiment_score": -0.129,
     "label_distribution": {
+      "bearish": 32,
       "bullish": 11,
-      "neutral": 29,
-      "bearish": 30
+      "neutral": 27
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 11
+        "mentions": 12
       },
       {
         "coin": "ETH",
@@ -24,37 +24,37 @@
       },
       {
         "coin": "Near",
-        "mentions": 8
+        "mentions": 9
       },
       {
         "coin": "SOL",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "Sui",
         "mentions": 3
       },
       {
-        "coin": "BTC",
-        "mentions": 3
+        "coin": "FIL",
+        "mentions": 2
+      },
+      {
+        "coin": "Binance",
+        "mentions": 2
       },
       {
         "coin": "Ethereum",
         "mentions": 2
       },
       {
-        "coin": "LINK",
+        "coin": "BTC",
         "mentions": 2
-      },
-      {
-        "coin": "Solana",
-        "mentions": 1
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 35
+        "mentions": 36
       },
       {
         "topic": "pos",
@@ -73,20 +73,20 @@
         "mentions": 5
       },
       {
+        "topic": "miner",
+        "mentions": 4
+      },
+      {
         "topic": "cftc",
         "mentions": 4
       },
       {
-        "topic": "miner",
+        "topic": "mining",
         "mentions": 3
       },
       {
         "topic": "fed",
         "mentions": 3
-      },
-      {
-        "topic": "onchain",
-        "mentions": 2
       },
       {
         "topic": "exchange",
@@ -95,6 +95,185 @@
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Aster CEO suspects foul play after token plunges 32% in minutes",
+      "url": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-16T05:28:40+00:00",
+      "summary": "Aster’s CEO attributed the extreme volatility to highly leveraged liquidations but said the exchange remained operational.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "liquidations",
+          "plunges"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
+      "published_at": "2026-11-16T05:01:17+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "drop"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
+      "url": "https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-16T04:42:07+00:00",
+      "summary": "The weakness came amid a wider sell-off in regional equity markets, with Japan’s Nikkei 225 down 2% and South Korea’s Kospi losing 2.6%.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "losing",
+          "sell-off",
+          "weakness"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Luxor hit by AI-enabled attack that redirected client hashrate, says vulnerability patched",
+      "url": "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810",
+      "published_at": "2026-11-16T04:35:34+00:00",
+      "summary": "The company said it patched the vulnerability within two hours and that no data was leaked or exfiltrated.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Luxor CEO warns of AI ‘dark forest’ after Bitcoin miner hijack",
+      "url": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-16T02:33:07+00:00",
+      "summary": "Attackers redirected customers’ Bitcoin mining power through Luxor’s Commander platform over the weekend, prompting its CEO to issue a warning to crypto businesses.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warning",
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "mining",
+        "pow"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+      "url": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T23:47:45+00:00",
+      "summary": "Silicon Valley executives are reportedly organizing a campaign to bring Huang back and are looking to gain White House support.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "gain",
+          "support"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-15T22:50:59+00:00",
+      "summary": "Anchorage Digital data suggests the Bitcoin selloff is being driven by US investors. A “war room” has been set up by supporters to reinstate Nvidia boss Jensen Huang.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crash",
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
+      "url": "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807",
+      "published_at": "2026-11-15T21:57:53+00:00",
+      "summary": "The price moves across the market led to $2 billion in crypto liquidations in a single 24-hour period over the weekend.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "liquidations"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL",
+        "Binance",
+        "Near"
+      ],
+      "topics": []
+    },
     {
       "source": "The Block",
       "title": "Traders claim $6 million profit by spotting BitGo’s public pull request and frontrunning memecoin listing",
@@ -217,30 +396,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-15T11:18:48+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "title": "Bitcoin falls to 4-month low near $62K as crypto selloff deepens",
       "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-11-15T10:23:17+00:00",
       "summary": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
@@ -293,7 +449,7 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
+      "title": "RWA protocol stUSDT winds down 3 years after $2.3B TVL peak",
       "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-11-15T06:27:26+00:00",
       "summary": "The stUSDT team did not disclose a reason for winding down the RWA protocol but assured holders that all underlying assets remain fully backed.",
@@ -921,24 +1077,6 @@
       "topics": []
     },
     {
-      "source": "Cointelegraph",
-      "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
-      "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T20:53:20+00:00",
-      "summary": "Coinbase’s trust company received final clearance as lawmakers seek records on crypto firms’ compliance and potential conflicts of interest.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "China’s $3.2 Billion AI Pipeline Still Calls for Nvidia Chips Washington Restricts",
       "url": "https://decrypt.co/383266/china-ai-pipeline-nvidia-chips-washington-restricts",
@@ -1137,30 +1275,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
-      "url": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T18:28:29+00:00",
-      "summary": "Bitcoin sales, valuation losses and rising borrowing costs weighed on the Japanese company’s earnings despite higher revenue and operating profit.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": [
-          "loss",
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
       "source": "Bitcoin Magazine",
       "title": "Why Private AI is More Important Than Ever",
       "url": "https://bitcoinmagazine.com/videos/why-private-ai-is-more-important-than-ever",
@@ -1273,26 +1387,6 @@
         "miner",
         "pos"
       ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print",
-      "url": "https://cointelegraph.com/markets/bitcoin-below-70k-stocks-slip-cooler-us-ppi-print?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T16:39:11+00:00",
-      "summary": "Bitcoin was down about 4% on the day amid a tepid market reaction to October’s US PPI reading, which came in below expected levels.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
     },
     {
       "source": "The Block",
@@ -1503,24 +1597,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
-      "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
-      "published_at": "2026-11-13T14:02:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "decline"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
       "source": "Decrypt",
       "title": "Crypto Laundering a 'Material Risk' for UK Ahead of FATF Review: RUSI",
       "url": "https://decrypt.co/383227/crypto-laundering-a-material-risk-for-uk-ahead-of-fatf-review-rusi",
@@ -1538,67 +1614,6 @@
       "coins": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Arthur Hayes ‘flattered’ as Coinbase backs US stock perps",
-      "url": "https://cointelegraph.com/news/arthur-hayes-coinbase-us-stock-perps-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-13T13:41:26+00:00",
-      "summary": "Arthur Hayes said he was “flattered” by Coinbase’s defense of US stock perpetual futures, a decade after BitMEX launched perpetual swaps.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launched"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "futures"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "From $6 to $6.9 million: Two dormant Bitcoin addresses wake up to move 100 BTC after more than 16 years",
-      "url": "https://www.theblock.co/news/markets/2026-11-13-from-6-to-6-9-million-two-dormant-bitcoin-addresses-wake-up-to-move-100-btc-after-more-than-16-years-439698",
-      "published_at": "2026-11-13T13:34:46+00:00",
-      "summary": "Two Bitcoin whale addresses moved 100 BTC worth $6.89 million after more than 16 years of dormancy on Friday.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "UK, Singapore, and Thailand central banks complete foreign exchange settlement trial linking traditional and tokenized systems",
-      "url": "https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692",
-      "published_at": "2026-11-13T12:27:41+00:00",
-      "summary": "Three central banks published findings from a cross-border FX settlement trial using Partior's synchronization prototype.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "ai",
-        "exchange"
       ]
     },
     {
