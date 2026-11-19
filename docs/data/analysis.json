@@ -1,26 +1,22 @@
 {
-  "generated_at": "2026-11-19T01:47:00.068838+00:00",
+  "generated_at": "2026-11-19T12:39:14.076974+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.05,
+    "market_sentiment_score": -0.089,
     "label_distribution": {
-      "neutral": 31,
-      "bearish": 27,
-      "bullish": 12
+      "neutral": 30,
+      "bullish": 10,
+      "bearish": 30
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 25
+        "mentions": 27
       },
       {
         "coin": "OP",
-        "mentions": 19
-      },
-      {
-        "coin": "ETH",
-        "mentions": 7
+        "mentions": 21
       },
       {
         "coin": "SOL",
@@ -28,33 +24,37 @@
       },
       {
         "coin": "BTC",
-        "mentions": 3
+        "mentions": 5
+      },
+      {
+        "coin": "ETH",
+        "mentions": 5
       },
       {
         "coin": "Binance",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "coin": "Near",
         "mentions": 3
       },
       {
-        "coin": "FIL",
+        "coin": "Solana",
+        "mentions": 3
+      },
+      {
+        "coin": "Ethereum",
         "mentions": 2
       },
       {
-        "coin": "UNI",
-        "mentions": 2
-      },
-      {
-        "coin": "LINK",
+        "coin": "ARB",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 37
+        "mentions": 29
       },
       {
         "topic": "pos",
@@ -62,39 +62,783 @@
       },
       {
         "topic": "fed",
-        "mentions": 6
+        "mentions": 8
       },
       {
         "topic": "etf",
-        "mentions": 4
-      },
-      {
-        "topic": "exchange",
-        "mentions": 4
+        "mentions": 7
       },
       {
         "topic": "stablecoin",
-        "mentions": 4
+        "mentions": 6
       },
       {
         "topic": "wallet",
-        "mentions": 3
+        "mentions": 5
       },
       {
         "topic": "sec",
-        "mentions": 3
+        "mentions": 5
+      },
+      {
+        "topic": "futures",
+        "mentions": 2
+      },
+      {
+        "topic": "regulatory",
+        "mentions": 2
       },
       {
         "topic": "miner",
-        "mentions": 3
-      },
-      {
-        "topic": "onchain",
-        "mentions": 3
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+      "published_at": "2026-11-19T12:20:39+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+      "url": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+      "published_at": "2026-11-19T12:08:06+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "US launches cybercrime center with TRM Labs to help trace crypto tied to scams",
+      "url": "https://www.theblock.co/news/regulation/2026-11-19-us-launches-cybercrime-center-with-trm-labs-to-help-trace-crypto-tied-to-scams-443599",
+      "published_at": "2026-11-19T11:55:06+00:00",
+      "summary": "The Threat Disruption Center will help investigators trace victims’ funds and identify crypto wallets used by scammers.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
+      "url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+      "published_at": "2026-11-19T11:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
+      "url": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T11:19:58+00:00",
+      "summary": "Shareholders will vote Dec. 7 on whether H100 can buy back up to 10% of its shares, potentially using a Bitcoin pool that lost about 30 BTC in Q3.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": [
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "GameStop CEO Says Digital-Only Games Have ‘Hurt Consumers’ as GTA 6 Skips Discs",
+      "url": "https://decrypt.co/383600/gamestop-ceo-says-digital-only-games-have-hurt-consumers-as-gta-6-skips-discs",
+      "published_at": "2026-11-19T11:15:08+00:00",
+      "summary": "Ryan Cohen said publishers are cutting out trade-ins, as he backs a U.S. bill that would guarantee gamers keep access to games they buy.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buy"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Anthropic’s $107 billion sale set to top SpaceX’s IPO as tokenized stocks gain traction",
+      "url": "https://www.coindesk.com/markets/2026/11/19/anthropic-s-usd107-billion-raise-set-to-surpass-spacex-s-ipo-haul",
+      "published_at": "2026-11-19T11:06:13+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "gain"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cex"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "1inch integrates Hyperliquid’s perpetual futures contracts into its dApp and wallet platform",
+      "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574",
+      "published_at": "2026-11-19T11:00:00+00:00",
+      "summary": "Users can fund a position with a token they already hold on 1inch, which will be routed to USDC and deposited to a balance on Hyperliquid.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "dapp",
+        "futures",
+        "pos",
+        "usdc",
+        "wallet"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Financial firms must act now as quantum computers grow ‘highly advanced,’ IOSCO warns",
+      "url": "https://www.coindesk.com/tech/2026/11/19/banks-and-blockchains-lag-on-quantum-defense-as-encryption-risks-loom-watchdog-warns",
+      "published_at": "2026-11-19T10:55:29+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Live updates: Bitcoin nears $64,000 as Anthropic’s record IPO lifts tech",
+      "url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+      "published_at": "2026-11-19T10:48:26+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Singapore settles $77.5 million tokenized bill sale in local CBDC",
+      "url": "https://www.coindesk.com/business/2026/11/19/singapore-settles-usd77-5-million-tokenized-bill-sale-in-local-cbdc",
+      "published_at": "2026-11-19T10:39:36+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Ant International launches protocol for real-time settlement between tokenized deposits and money market funds",
+      "url": "https://www.theblock.co/news/business/2026-11-19-ant-international-protocol-tokenized-assets-443586",
+      "published_at": "2026-11-19T10:39:29+00:00",
+      "summary": "Ant launched the Whale Orchestration Protocol to enable settlement between tokenized deposits and tokenized money market funds.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
+      "url": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T10:32:05+00:00",
+      "summary": "A Solana test network ran about 90% slower with quantum-resistant signatures, and wallets that keep using older keys could remain vulnerable.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "upgrades"
+        ],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Solana",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
+      "url": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+      "published_at": "2026-11-19T10:25:05+00:00",
+      "summary": "Bitcoin is down 13% in a week as investors pull money from spot ETFs and brace for another Federal Reserve rate hike.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "struggles"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "etf",
+        "fed",
+        "spot etf"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
+      "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
+      "published_at": "2026-11-19T10:22:12+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "demand"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Solana",
+        "SOL",
+        "XRP"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Singapore settles $77.5M tokenized bill sale with wholesale CBDC",
+      "url": "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T08:54:58+00:00",
+      "summary": "MAS issued the bills directly on its test network, which it plans to rename SG Digital Ledger and use for settlement beyond the trials.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T08:26:19+00:00",
+      "summary": "US spot Bitcoin ETFs lost $306.4 million Wednesday, pushing their combined assets to $77.7 billion as Bitcoin briefly traded below $63,000.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fall",
+          "lost"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Singapore’s MAS issues $77 million in tokenized bills settled via CBDC",
+      "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+      "published_at": "2026-11-19T08:25:35+00:00",
+      "summary": "The central bank said the bills were issued natively on its Singapore Dollar Test Network and settled in wholesale CBDC.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BTCPay Server issues emergency update for 5 security flaws",
+      "url": "https://cointelegraph.com/news/btcpay-server-emergency-update-nginx-security-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T08:04:37+00:00",
+      "summary": "The EU’s cybersecurity service said the flaws could let attackers to run malicious code remotely on vulnerable servers without logging in.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "BTC"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut",
+      "url": "https://cointelegraph.com/markets/bitcoin-retests-62k-nasdaq-futures-anthropic-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T07:55:56+00:00",
+      "summary": "Bitcoin climbed back above $63,500 after its second dip to $62,000 this week, while Anthropic priced its record $81.3 billion IPO at $83 a share.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": [
+        "futures",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Fed's rate hike push may be a mistake. Here's why",
+      "url": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue",
+      "published_at": "2026-11-19T06:23:19+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
+      "url": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T06:00:00+00:00",
+      "summary": "Sygnum predicts that Bitcoin carry trades may offer higher returns than Treasury bills in 2027, following a sharp drop in funding rates that made the strategy less compelling in 2026.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "drop"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T06:00:00+00:00",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "ai",
+        "dai",
+        "defi",
+        "regulation"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Sygnum sees bitcoin carry trades beating Treasury bills in 2027 as funding recovers",
+      "url": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
+      "published_at": "2026-11-19T06:00:00+00:00",
+      "summary": "Bitcoin funding stayed negative for 67 consecutive days into May before recovering to about 8% annualized by the end of October.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "negative"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Binance gets $6.5 billion freezing order, CryptoQuant says bitcoin is in a ‘value zone’, and more",
+      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-19-binance-gets-6-5-billion-freezing-order-cryptoquant-says-bitcoin-is-in-a-value-zone-and-more-443511",
+      "published_at": "2026-11-19T06:00:00+00:00",
+      "summary": "In today's newsletter, Binance obtains $6.5 billion freezing order from Abu Dhabi court; CryptoQuant says bitcoin is back in a bearish phase but has entered a 'value zone'; and more.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bearish"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
+      "url": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
+      "published_at": "2026-11-19T05:39:06+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Ethereum",
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight",
+      "url": "https://cointelegraph.com/news/us-senators-genius-act-rules-favor-federal-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T05:27:45+00:00",
+      "summary": "The lawmakers urged Treasury to extend safe harbor protections to stablecoin issuers in states expected to establish qualifying regulatory frameworks before January 2028.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ARB"
+      ],
+      "topics": [
+        "fed",
+        "regulatory",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
+      "url": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T05:09:45+00:00",
+      "summary": "Stablecoins accounted for at least $3.46 billion of the $6.3 billion stolen, while the hackers also took memecoins, tokenized gold and gaming tokens.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Binance"
+      ],
+      "topics": [
+        "memecoin",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+      "url": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
+      "published_at": "2026-11-19T04:46:10+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "miner"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Ledger expands hardware hack investigation to Germany, UAE as new cases emerge",
+      "url": "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+      "published_at": "2026-11-19T04:13:18+00:00",
+      "summary": "The company confirmed that the new cases share the same kind of physical modification as tampered devices found across Southeast Asia.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack",
+          "investigation"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
+      "url": "https://www.coindesk.com/markets/2026/11/19/cz-says-tokenized-anthropic-is-coming-to-bnb-chain-on-ipo-day",
+      "published_at": "2026-11-19T03:40:48+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "BNB",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Kraken parent Payward to acquire Tribe Capital to expand private-market offerings",
+      "url": "https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522",
+      "published_at": "2026-11-19T03:18:53+00:00",
+      "summary": "The deal will add private-market sourcing, underwriting, and fund management capabilities to Payward's platform.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Why The $1T AI Credit Complex Could be Bitcoin’s Next Catalyst | Jeff Walton",
+      "url": "https://bitcoinmagazine.com/videos/why-the-1t-ai-credit-complex-could-be-bitcoins-next-catalyst-jeff-walton",
+      "published_at": "2026-11-19T02:46:08+00:00",
+      "summary": "&#9654;Bitcoin Magazine\n\nWhy The $1T AI Credit Complex Could be Bitcoin’s Next Catalyst | Jeff Walton\nJeff Walton, Chief Risk Officer at Strive, joins BMTV as Anthropic's IPO nears its first day of trading.\nThis post Why The $1T AI Credit Complex Could be Bitcoin’s Next Catalyst | Jeff Walton first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risk"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Standard Chartered, StraitsX, OCBC complete trial of tokenized deposit interoperability",
+      "url": "https://www.theblock.co/news/web3/2026-11-18-standard-chartered-straitsx-ocbc-tokenized-deposit-poc-442964",
+      "published_at": "2026-11-19T02:30:00+00:00",
+      "summary": "The companies said that unlocking the full potential of 'always-on' tokenized deposits requires interoperability across platforms.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Trump administration unveils new center to choke off scam payments",
+      "url": "https://cointelegraph.com/news/trump-administration-unveils-new-center-choke-off-scam-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-19T01:45:33+00:00",
+      "summary": "Americans reported more than $17.7 billion in online fraud losses in 2025.",
+      "sentiment": {
+        "score": -8,
+        "normalized": -1.0,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "fraud",
+          "losses",
+          "scam"
+        ]
+      },
+      "coins": [],
+      "topics": []
+    },
     {
       "source": "Cointelegraph",
       "title": "Fed officials saw October rate hold as a ‘close call,’ minutes show",
@@ -248,29 +992,6 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T22:09:15+00:00",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "defi",
-        "regulation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
       "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
       "url": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-11-18T21:57:35+00:00",
@@ -398,31 +1119,6 @@
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Binance says it obtained $6.5B worldwide freezing order after hack",
-      "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T20:20:37+00:00",
-      "summary": "The court orders allow legal notices to be served via blockchain and provide for a continuously updated list of 26,000 wallet addresses linked to stolen assets, Binance’s lawyers said.",
-      "sentiment": {
-        "score": -6,
-        "normalized": -0.75,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Binance",
-        "LINK"
-      ],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Google's Genie 4 Is Here, Letting Ultra Subscribers Build AI Worlds in Real Time",
       "url": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time",
@@ -462,733 +1158,6 @@
         "SOL"
       ],
       "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Binance obtains $6.5 billion freezing order from Abu Dhabi court in bid to recover stolen crypto",
-      "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
-      "published_at": "2026-11-18T19:40:25+00:00",
-      "summary": "Binance has obtained a $6.5 billion worldwide freezing order from the Abu Dhabi Global Market Courts as it seeks to recover crypto stolen in October hack.",
-      "sentiment": {
-        "score": -5,
-        "normalized": -0.625,
-        "label": "bearish",
-        "positive_hits": [
-          "recover"
-        ],
-        "negative_hits": [
-          "hack",
-          "stolen"
-        ]
-      },
-      "coins": [
-        "Binance"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Scattered Spider Hacker Gets Six Years for $11.6 Million Crypto Theft",
-      "url": "https://bitcoinmagazine.com/news/scattered-spider-hacker-six-years-crypto-theft",
-      "published_at": "2026-11-18T19:30:00+00:00",
-      "summary": "Bitcoin Magazine\n\nScattered Spider Hacker Gets Six Years for $11.6 Million Crypto Theft\nA Scottish hacker tied to Scattered Spider was sentenced to six years in U.S. prison for a SIM-swap and phishing scheme that stole at least $11.6 million in crypto.\nThis post Scattered Spider Hacker Gets Six Years for $11.6 Million Crypto Theft first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "theft"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
-      "url": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai",
-      "published_at": "2026-11-18T19:16:02+00:00",
-      "summary": "Bitcoin slid toward $63,000 as Anthropic prepared its blockbuster debut. Analysts dispute whether the IPO is draining crypto liquidity, pointing instead to ETF outflows, forced selling and rising interest rates.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling",
-          "tanks"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "ETH",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "interest rate",
-        "liquidity"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Ondo to launch tokenized Anthropic stock on IPO day",
-      "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
-      "published_at": "2026-11-18T18:51:30+00:00",
-      "summary": "Ondo’s ANTon token will track Anthropic shares from the day the Claude maker starts trading on Nasdaq.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Binance Says It Won Court Order to Recover Frozen Hack Funds",
-      "url": "https://bitcoinmagazine.com/news/binance-abu-dhabi-order-recover-frozen",
-      "published_at": "2026-11-18T18:47:30+00:00",
-      "summary": "Bitcoin Magazine\n\nBinance Says It Won Court Order to Recover Frozen Hack Funds\nBinance says it has a court order from Abu Dhabi Global Market to recover crypto frozen after the $6.3 billion hack.\nThis post Binance Says It Won Court Order to Recover Frozen Hack Funds first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "recover"
-        ],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Binance"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Miners Are Selling Their Stacks to Fund the AI Boom",
-      "url": "https://decrypt.co/383568/bitcoin-miners-selling-fund-ai-boom",
-      "published_at": "2026-11-18T18:46:03+00:00",
-      "summary": "MARA sold 13,597 BTC after September and Riot sold 20,264 BTC through September to fund debt repayment and AI data center buildouts, as Glassnode flagged the pair as the main sellers among Bitcoin treasury firms.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "SOL"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "miners"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
-      "url": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T18:27:52+00:00",
-      "summary": "The Bitcoin miner is taking on new debt to finance its AI infrastructure expansion, with the Long Ridge acquisition adding nearly $69 million in annual interest costs.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "ai",
-        "miner"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Fed's Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
-      "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
-      "published_at": "2026-11-18T18:16:02+00:00",
-      "summary": "Christopher Waller says stubborn inflation may warrant a bigger December rate hike, while a separate speech outlined why blockchain-based payments still need traditional settlement systems and stronger safeguards to scale.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Tron",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "fed",
-        "inflation"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Lucky Trader Banks 66,000% Profit on GTA 6 Meme Coin Ticker Confusion",
-      "url": "https://decrypt.co/383536/lucky-trader-banks-66000-profit-on-gta-6-meme-coin-ticker-confusion",
-      "published_at": "2026-11-18T17:32:13+00:00",
-      "summary": "The trader turned $300 into over $200,000 as early footage of GTA 6 sent degens flocking between different token tickers.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "profit"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Analyst: Bitcoin Below $70,000 is a ‘Gift From the Market’",
-      "url": "https://bitcoinmagazine.com/markets/k33-bitcoin-below-70000-gift",
-      "published_at": "2026-11-18T17:30:00+00:00",
-      "summary": "Bitcoin Magazine\n\nAnalyst: Bitcoin Below $70,000 is a &#8216;Gift From the Market&#8217;\nK33 Research said bitcoin is in \"deep value territory\" after a 14% weekly drop, as ETF outflows, liquidations and hedging demand reach levels seen near past bottoms.\nThis post Analyst: Bitcoin Below $70,000 is a &#8216;Gift From the Market&#8217; first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": [
-          "drop",
-          "liquidations"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "etf",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
-      "url": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
-      "published_at": "2026-11-18T17:22:03+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "CryptoQuant says bitcoin is back in a bearish phase but has reached a ‘value zone’",
-      "url": "https://www.theblock.co/news/markets/2026-11-18-cryptoquant-bitcoin-bearish-value-zone-443471",
-      "published_at": "2026-11-18T17:13:37+00:00",
-      "summary": "Bitcoin has dipped below its 200-day and 365-day moving averages of $72,900 and $75,900, respectively, CryptoQuant said.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "bearish"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "$25M Ethereum MEV acquittal tests criminal enforcement limits",
-      "url": "https://cointelegraph.com/news/25m-ethereum-mev-acquittal-tests-criminal-enforcement-limits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T17:05:04+00:00",
-      "summary": "BlackRock’s staked Ether ETF earns a cut of what traders pay for priority on Ethereum, the acquittal left the legal risk to that income unresolved.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "SOL"
-      ],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Bullish’s Q3 adjusted profit rises 35%, digital asset sales fall 23%",
-      "url": "https://www.theblock.co/news/business/2026-11-18-bullishs-q3-adjusted-profit-rises-35-digital-asset-sales-fall-23-443456",
-      "published_at": "2026-11-18T17:02:41+00:00",
-      "summary": "Bullish shares rose about 10% after the crypto exchange reported earnings and authorized a buyback.",
-      "sentiment": {
-        "score": 4,
-        "normalized": 0.5,
-        "label": "bullish",
-        "positive_hits": [
-          "bullish",
-          "profit"
-        ],
-        "negative_hits": [
-          "fall"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Polymarket US takes rapid-fire crypto trading format to oil, natural gas",
-      "url": "https://cointelegraph.com/news/polymarket-us-takes-rapid-fire-crypto-trading-format-oil-natural-gas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T17:00:00+00:00",
-      "summary": "Polymarket US said it attracted more than 300,000 traders to its short-duration crypto markets in six weeks and is now expanding the format to energy commodities.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "'It Speaks in Tongues That Only 6.2 Astra Understands': Why Early Testers Hate OpenAI’s New Model",
-      "url": "https://decrypt.co/383539/speaks-tongues-only-6-2-astra-understands-why-early-testers-hate-openai-new-model",
-      "published_at": "2026-11-18T16:57:53+00:00",
-      "summary": "OpenAI's flagship AI model is dazzling developers with 3D creations, but early testers say it stalls during long projects, gives baffling explanations, and hides failures.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Ionic Digital (IOND) Sells 737 Bitcoin to Fund Data Center Buildout",
-      "url": "https://bitcoinmagazine.com/news/ionic-digital-sells-737-bitcoin",
-      "published_at": "2026-11-18T16:39:19+00:00",
-      "summary": "Bitcoin Magazine\n\nIonic Digital (IOND) Sells 737 Bitcoin to Fund Data Center Buildout\nIonic Digital sold about 737 bitcoin for roughly $61.6 million after Sept. 30 and plans to use the cash to develop its data center sites, its latest quarterly report shows.\nThis post Ionic Digital (IOND) Sells 737 Bitcoin to Fund Data Center Buildout first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "SOL",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
-      "url": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T16:34:20+00:00",
-      "summary": "Bitcoin price action dropped below $63,000 after fresh hawkish comments from the Fed as Nvidia earnings optimism faded.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "optimism"
-        ],
-        "negative_hits": [
-          "dropped"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Optimism",
-        "OP"
-      ],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Visa Direct to extend stablecoin prefunding for cross-border payouts to Asia-Pacific",
-      "url": "https://www.theblock.co/news/business/2026-11-18-visa-direct-extend-stablecoin-prefunding-cross-border-payouts-asia-pacific-443457",
-      "published_at": "2026-11-18T16:30:41+00:00",
-      "summary": "Visa plans to let eligible Visa Direct clients in Asia-Pacific fund cross-border payouts with stablecoins.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "German Court Offers to Drop Movie2k Case for 40,000 Bitcoin",
-      "url": "https://bitcoinmagazine.com/news/german-court-offers-drop-movie2k-case-40000-bitcoin",
-      "published_at": "2026-11-18T16:03:20+00:00",
-      "summary": "Bitcoin Magazine\n\nGerman Court Offers to Drop Movie2k Case for 40,000 Bitcoin\nA Leipzig judge has offered to dismiss the Movie2k criminal case if the defendant hands over 40,000 bitcoin, which would leave him about 16,000 coins worth roughly $1.02 billion.\nThis post German Court Offers to Drop Movie2k Case for 40,000 Bitcoin first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/18/crypto-long-and-short-crypto-exchanges-shouldn-t-double-as-the-vault",
-      "published_at": "2026-11-18T16:02:54+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange",
-        "exchanges"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Variational raises $110 million at $1.5 billion valuation to expand onchain derivatives trading",
-      "url": "https://www.theblock.co/news/deals/2026-11-18-variational-raises-110-million-at-1-5-billion-valuation-to-expand-onchain-derivatives-trading-443445",
-      "published_at": "2026-11-18T15:51:42+00:00",
-      "summary": "The derivatives protocol’s Omni platform has processed over $475 billion in volume as it expands into traditional markets.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "onchain"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
-      "url": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
-      "published_at": "2026-11-18T15:38:38+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Coinbase Says Its AI Blocked $4.7 Million in Deepfake Elon Musk Scam",
-      "url": "https://bitcoinmagazine.com/news/coinbase-ai-blocks-deepfake-musk-scam",
-      "published_at": "2026-11-18T15:30:00+00:00",
-      "summary": "Bitcoin Magazine\n\nCoinbase Says Its AI Blocked $4.7 Million in Deepfake Elon Musk Scam\nCoinbase said its AI scam-prevention agent stopped about $4.7 million, roughly 91% of what customers tried to send, from reaching scammers running a deepfake Elon Musk crypto giveaway.\nThis post Coinbase Says Its AI Blocked $4.7 Million in Deepfake Elon Musk Scam first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "scam"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
-      "url": "https://www.coindesk.com/business/2026/11/18/hong-kong-wants-banks-to-use-ai-to-catch-crypto-crime-before-money-disappears",
-      "published_at": "2026-11-18T15:23:18+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "StoneX cuts Bitdeer price target to $15 amid new US chip export controls",
-      "url": "https://www.theblock.co/news/markets/2026-11-18-stonex-cuts-bitdeer-price-target-to-15-amid-new-us-chip-export-controls-443440",
-      "published_at": "2026-11-18T15:16:54+00:00",
-      "summary": "StoneX trimmed its 2027 revenue and EBITDA estimates for Bitdeer to account for Malaysian licensing scenarios, among other factors.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "New York State Pension Fund Boosts Strategy (MSTR) Stake by More Than 10%",
-      "url": "https://bitcoinmagazine.com/news/ny-pension-fund-boosts-strategy-stake",
-      "published_at": "2026-11-18T14:50:00+00:00",
-      "summary": "Bitcoin Magazine\n\nNew York State Pension Fund Boosts Strategy (MSTR) Stake by More Than 10%\nNew York's state pension fund raised its Strategy (MSTR) stake to 352,850 shares worth $54.0 million at Sept. 30, a gain of more than 10% from June 30, its latest 13F shows.\nThis post New York State Pension Fund Boosts Strategy (MSTR) Stake by More Than 10% first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "boosts",
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Backpack secures NFA approval, completing licensing stack for US derivatives launch",
-      "url": "https://www.theblock.co/news/business/2026-11-18-backpack-completes-regulatory-framework-us-entry-442980",
-      "published_at": "2026-11-18T14:49:00+00:00",
-      "summary": "The company has also received approval from the CFTC to operate as a designated contract market and derivatives clearing organization.",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "approval",
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "cftc",
-        "sec"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Movie2K Defendant Could Hand Over 40,000 Bitcoin to End Trial—and Stay a Billionaire",
-      "url": "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire",
-      "published_at": "2026-11-18T14:20:52+00:00",
-      "summary": "A German judge has offered to drop the charges if the alleged operator of the piracy site gives up most of his remaining Bitcoin.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drop"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys",
-      "url": "https://cointelegraph.com/research/bitcoin-covenants-part-6-fe-covenants-enforcing-covenants-through-cryptographically-restricted-signing-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T14:04:50+00:00",
-      "summary": "FE covenants encode spending constraints into the signing key, so only transactions that satisfy a predefined condition can be signed.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "defi"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "‘Gift from the market’: Bitcoin shows signs of a local bottom after six weeks of losses, analyst says",
-      "url": "https://www.theblock.co/news/markets/2026-11-18-gift-from-the-market-bitcoin-shows-signs-of-a-local-bottom-after-six-weeks-of-losses-analyst-says-443017",
-      "published_at": "2026-11-18T14:01:54+00:00",
-      "summary": "K33 said bitcoin may have found a local bottom after six weekly losses, with options traders still seeking downside protection.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
-      "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-18T13:42:37+00:00",
-      "summary": "The October sales raised $19.3 million, nearly half the $40 million CoinShares can spend on buybacks before its next annual meeting.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "sells"
-        ]
-      },
-      "coins": [
-        "ETH",
-        "SOL",
-        "Near"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Nvidia Beats, Board Says ‘No’ on Jensen",
-      "url": "https://decrypt.co/383530/morning-minute-nvidia-beats-board-says-no-on-jensen",
-      "published_at": "2026-11-18T13:37:20+00:00",
-      "summary": "Nvidia delivered its best earnings ever and raised forward guidance. And yet, the market mostly shrugged. What does it mean?",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "rwa"
-      ]
     }
   ]
 }
