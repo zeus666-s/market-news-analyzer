@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-21T12:19:15.105219+00:00",
+  "generated_at": "2026-11-21T21:30:31.924487+00:00",
   "article_count": 70,
   "summary": {
-    "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.145,
+    "market_sentiment_label": "bearish",
+    "market_sentiment_score": -0.166,
     "label_distribution": {
-      "neutral": 28,
-      "bearish": 35,
-      "bullish": 7
+      "bearish": 39,
+      "neutral": 26,
+      "bullish": 5
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 26
+        "mentions": 24
       },
       {
         "coin": "Near",
@@ -24,11 +24,19 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "SOL",
         "mentions": 5
+      },
+      {
+        "coin": "FIL",
+        "mentions": 3
+      },
+      {
+        "coin": "BTC",
+        "mentions": 3
       },
       {
         "coin": "Ethereum",
@@ -39,22 +47,14 @@
         "mentions": 3
       },
       {
-        "coin": "FIL",
-        "mentions": 2
-      },
-      {
         "coin": "Solana",
-        "mentions": 2
-      },
-      {
-        "coin": "LINK",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "topic": "pos",
@@ -62,11 +62,15 @@
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 15
       },
       {
         "topic": "etf",
         "mentions": 8
+      },
+      {
+        "topic": "exchange",
+        "mentions": 5
       },
       {
         "topic": "fed",
@@ -77,24 +81,235 @@
         "mentions": 4
       },
       {
+        "topic": "exchanges",
+        "mentions": 3
+      },
+      {
         "topic": "dai",
         "mentions": 3
       },
       {
         "topic": "miner",
         "mentions": 3
-      },
-      {
-        "topic": "exchange",
-        "mentions": 3
-      },
-      {
-        "topic": "cftc",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
+      "url": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
+      "published_at": "2026-11-21T21:17:36+00:00",
+      "summary": "Kalshi, which is headquartered in New York, has said the order would shut it down nationwide, though NY's AG said that's not her goal.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
+      "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+      "published_at": "2026-11-21T18:51:14+00:00",
+      "summary": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "bridge",
+        "exchange",
+        "exchanges",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
+      "url": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump",
+      "published_at": "2026-11-21T18:01:02+00:00",
+      "summary": "The anonymous leaker, Cyberleek, released a 209 GB Xbox build but is withholding the executable that could enable a PC port until its CYBERLEEK token hits $15 million.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+      "published_at": "2026-11-21T17:50:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "liquidation"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+      "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+      "published_at": "2026-11-21T17:01:02+00:00",
+      "summary": "The agency says eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of more than $37 million.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+      "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+      "published_at": "2026-11-21T16:41:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "tanks"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cross-chain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Signal Calls OS-Level AI an 'Existential Threat' and Blocks Screenshots to Fight It",
+      "url": "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots",
+      "published_at": "2026-11-21T16:01:02+00:00",
+      "summary": "The encrypted-messaging app will restrict screenshots on iOS 27 and auto-enable screen security on Android when it detects an AI assistant reading a chat.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Chainflip’s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+      "published_at": "2026-11-21T15:24:14+00:00",
+      "summary": "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "dropped",
+          "drops"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+      "url": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
+      "published_at": "2026-11-21T14:01:06+00:00",
+      "summary": "Tech stocks are buckling after Anthropic’s historic IPO and Nvidia’s leadership crisis, while Bitcoin has slipped below $60,000. Experts disagree on whether AI faces a correction or a dot-com-style bust.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crashes"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "DOT",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+      "published_at": "2026-11-21T12:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
@@ -987,213 +1202,6 @@
       "topics": [
         "pos"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
-      "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians",
-      "published_at": "2026-11-20T14:38:30+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Wintermute policy chief calls for crypto lobby to ‘clean house’ in D.C.",
-      "url": "https://www.theblock.co/news/regulation/2026-11-20-wintermute-policy-chief-calls-for-crypto-lobby-clean-house-d-c-444721",
-      "published_at": "2026-11-20T14:36:10+00:00",
-      "summary": "Wintermute's Ron Hammond says crypto needs a new strategy after repeated lobbying setbacks against established financial interests.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
-      "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
-      "published_at": "2026-11-20T14:25:57+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Hovers Just Above Average Holder’s Cost Basis as Price Keeps Dipping",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-hovers-above-realized-price",
-      "published_at": "2026-11-20T14:25:00+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Hovers Just Above Average Holder’s Cost Basis as Price Keeps Dipping\nBitcoin is trading barely above its realized price, the average cost of every coin, and a break below would put the average holder at a loss for the first time since early 2023.\nThis post Bitcoin Hovers Just Above Average Holder’s Cost Basis as Price Keeps Dipping first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "Bitcoin Price Slips Near $61,500 as Tech Selloff Spreads to Asia",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-61500-asia",
-      "published_at": "2026-11-20T14:00:15+00:00",
-      "summary": "Bitcoin Magazine\n\nBitcoin Price Slips Near $61,500 as Tech Selloff Spreads to Asia\nThe bitcoin price slipped to near $61,500 on Friday morning, its lowest level since July, as the tech selloff spread to Asia and IBIT posted a record outflow.\nThis post Bitcoin Price Slips Near $61,500 as Tech Selloff Spreads to Asia first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "selloff"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
-      "topics": [
-        "pos"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
-      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
-      "published_at": "2026-11-20T13:35:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
-      "url": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
-      "published_at": "2026-11-20T13:30:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Morning Minute: Anthropic IPO Pops, Sinks Markets",
-      "url": "https://decrypt.co/383691/morning-minute-anthropic-ipo-pops-sinks-markets",
-      "published_at": "2026-11-20T13:23:01+00:00",
-      "summary": "A (brief) win for Anthropic's ANT stock on IPO day meant a loss for just about every other major asset class.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "win"
-        ],
-        "negative_hits": [
-          "loss"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
-      "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-20T13:21:39+00:00",
-      "summary": "The ECB president said Europe’s market for tokenized securities could split into platforms that cannot settle trades with one another.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "ECB’s Lagarde warns Europe could lose control of growing tokenized asset market",
-      "url": "https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market",
-      "published_at": "2026-11-20T13:11:49+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "growing"
-        ],
-        "negative_hits": [
-          "lose",
-          "warns"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": []
     }
   ]
 }

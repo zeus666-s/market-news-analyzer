@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-21T12:19:15.105219+00:00",
+  "generated_at": "2026-11-21T21:30:31.924487+00:00",
   "article_count": 70,
   "summary": {
-    "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.145,
+    "market_sentiment_label": "bearish",
+    "market_sentiment_score": -0.166,
     "label_distribution": {
-      "neutral": 28,
-      "bearish": 35,
-      "bullish": 7
+      "bearish": 39,
+      "neutral": 26,
+      "bullish": 5
     },
     "top_coins": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "coin": "OP",
-        "mentions": 26
+        "mentions": 24
       },
       {
         "coin": "Near",
@@ -24,11 +24,19 @@
       },
       {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 6
       },
       {
         "coin": "SOL",
         "mentions": 5
+      },
+      {
+        "coin": "FIL",
+        "mentions": 3
+      },
+      {
+        "coin": "BTC",
+        "mentions": 3
       },
       {
         "coin": "Ethereum",
@@ -39,22 +47,14 @@
         "mentions": 3
       },
       {
-        "coin": "FIL",
-        "mentions": 2
-      },
-      {
         "coin": "Solana",
-        "mentions": 2
-      },
-      {
-        "coin": "LINK",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "topic": "pos",
@@ -62,11 +62,15 @@
       },
       {
         "topic": "sec",
-        "mentions": 11
+        "mentions": 15
       },
       {
         "topic": "etf",
         "mentions": 8
+      },
+      {
+        "topic": "exchange",
+        "mentions": 5
       },
       {
         "topic": "fed",
@@ -77,24 +81,235 @@
         "mentions": 4
       },
       {
+        "topic": "exchanges",
+        "mentions": 3
+      },
+      {
         "topic": "dai",
         "mentions": 3
       },
       {
         "topic": "miner",
         "mentions": 3
-      },
-      {
-        "topic": "exchange",
-        "mentions": 3
-      },
-      {
-        "topic": "cftc",
-        "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
+      "url": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
+      "published_at": "2026-11-21T21:17:36+00:00",
+      "summary": "Kalshi, which is headquartered in New York, has said the order would shut it down nationwide, though NY's AG said that's not her goal.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "exchange"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
+      "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+      "published_at": "2026-11-21T18:51:14+00:00",
+      "summary": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "bridge",
+        "exchange",
+        "exchanges",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
+      "url": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump",
+      "published_at": "2026-11-21T18:01:02+00:00",
+      "summary": "The anonymous leaker, Cyberleek, released a 209 GB Xbox build but is withholding the executable that could enable a PC port until its CYBERLEEK token hits $15 million.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+      "published_at": "2026-11-21T17:50:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "liquidation"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Decrypt",
+      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+      "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+      "published_at": "2026-11-21T17:01:02+00:00",
+      "summary": "The agency says eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of more than $37 million.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "FIL"
+      ],
+      "topics": [
+        "exchange",
+        "exchanges",
+        "pos",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+      "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+      "published_at": "2026-11-21T16:41:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "tanks"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "cross-chain"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Signal Calls OS-Level AI an 'Existential Threat' and Blocks Screenshots to Fight It",
+      "url": "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots",
+      "published_at": "2026-11-21T16:01:02+00:00",
+      "summary": "The encrypted-messaging app will restrict screenshots on iOS 27 and auto-enable screen security on Android when it detects an AI assistant reading a chat.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Chainflip’s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+      "published_at": "2026-11-21T15:24:14+00:00",
+      "summary": "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "dropped",
+          "drops"
+        ]
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+      "url": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
+      "published_at": "2026-11-21T14:01:06+00:00",
+      "summary": "Tech stocks are buckling after Anthropic’s historic IPO and Nvidia’s leadership crisis, while Bitcoin has slipped below $60,000. Experts disagree on whether AI faces a correction or a dot-com-style bust.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "crashes"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "DOT",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+      "published_at": "2026-11-21T12:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "warns"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "topics": [
+        "sec"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
@@ -1219,24 +1434,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging",
-      "published_at": "2026-11-20T12:15:08+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
       "source": "The Block",
       "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
       "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
@@ -1313,29 +1510,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Bitcoin drops for third straight day as Asian tech shares slide",
-      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
-      "published_at": "2026-11-20T11:42:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "drops"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
       "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1363,24 +1537,6 @@
       ]
     },
     {
-      "source": "Decrypt",
-      "title": "Coinbase Targets In-House Prediction Markets by First Half of 2027: Report",
-      "url": "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report",
-      "published_at": "2026-11-20T11:23:00+00:00",
-      "summary": "The exchange offers event contracts through Kalshi, but running its own would give it more control and a bigger share of trading revenue.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "exchange"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
       "url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1397,22 +1553,6 @@
       "topics": [
         "etf"
       ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Coinbase targets first-half 2027 for its own prediction market contracts",
-      "url": "https://www.coindesk.com/business/2026/11/20/coinbase-targets-first-half-2027-for-its-own-prediction-market-contracts",
-      "published_at": "2026-11-20T10:48:04+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
     },
     {
       "source": "The Block",
@@ -1478,29 +1618,6 @@
       "topics": []
     },
     {
-      "source": "Decrypt",
-      "title": "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default",
-      "url": "https://decrypt.co/383679/cryptouk-urges-fca-not-to-treat-defi-devs-as-regulated-by-default",
-      "published_at": "2026-11-20T10:07:46+00:00",
-      "summary": "The UK crypto trade group broadly backed the regulator's proposed perimeter guidance, but warned that parts of it go further than the law.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warned"
-        ]
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "defi",
-        "pos"
-      ]
-    },
-    {
       "source": "Cointelegraph",
       "title": "BlackRock’s IBIT loses record $541M amid Anthropic market debut",
       "url": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1525,114 +1642,6 @@
         "ai",
         "dai",
         "pos"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Michael Saylor sees up to $7.5 billion in ‘natural demand’ for Strategy’s STRC preferred stock",
-      "url": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
-      "published_at": "2026-11-20T08:02:36+00:00",
-      "summary": "Saylor said the company is currently responding to the credit-market contraction by reducing the amount of STRC outstanding.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "demand"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "CFTC Chair on Hyperliquid and onchain venues, Ripple CLO doubts Elizabeth Warren will set crypto policy, and more",
-      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-20-cftc-chair-hyperliquid-ripple-clo-elizabeth-warren-crypto-policy-more-news-444143",
-      "published_at": "2026-11-20T05:40:00+00:00",
-      "summary": "In today's newsletter, CFTC Chair Selig outlines how Hyperliquid and other onchain venues could enter the US; Ripple's Alderoty doubts Elizabeth Warren will set US crypto policy; and more.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "ETH",
-        "Ripple"
-      ],
-      "topics": [
-        "ai",
-        "cftc",
-        "onchain"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
-      "url": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
-      "published_at": "2026-11-20T04:24:05+00:00",
-      "summary": "Coinbase said event contracts already qualify as swaps under the CEA and that explicit inclusion would provide greater regulatory certainty.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "cftc",
-        "pos",
-        "regulatory"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue—Even After a Hack",
-      "url": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack",
-      "published_at": "2026-11-19T22:36:02+00:00",
-      "summary": "Citibank’s updated terms put customers on the hook for outside AI agents, including leaked logins.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "hack"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
-      "url": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price",
-      "published_at": "2026-11-19T21:12:06+00:00",
-      "summary": "Anthropic shares opened 34% above their $83 IPO price before giving up much of the gain, while Nvidia, AMD and other AI stocks slid across Wall Street.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gain"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "OP"
-      ],
-      "topics": [
-        "ai"
       ]
     }
   ]
