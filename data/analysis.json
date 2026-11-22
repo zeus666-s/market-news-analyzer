@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-21T21:30:31.924487+00:00",
+  "generated_at": "2026-11-22T05:55:32.870165+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "bearish",
-    "market_sentiment_score": -0.166,
+    "market_sentiment_score": -0.17,
     "label_distribution": {
       "bearish": 39,
       "neutral": 26,
@@ -16,11 +16,11 @@
       },
       {
         "coin": "OP",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "coin": "Near",
-        "mentions": 8
+        "mentions": 7
       },
       {
         "coin": "ETH",
@@ -35,16 +35,16 @@
         "mentions": 3
       },
       {
-        "coin": "BTC",
-        "mentions": 3
-      },
-      {
         "coin": "Ethereum",
         "mentions": 3
       },
       {
         "coin": "Monero",
         "mentions": 3
+      },
+      {
+        "coin": "BTC",
+        "mentions": 2
       },
       {
         "coin": "Solana",
@@ -58,7 +58,7 @@
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
@@ -85,16 +85,39 @@
         "mentions": 3
       },
       {
-        "topic": "dai",
+        "topic": "miner",
         "mentions": 3
       },
       {
-        "topic": "miner",
-        "mentions": 3
+        "topic": "cross-chain",
+        "mentions": 2
       }
     ]
   },
   "articles": [
+    {
+      "source": "Cointelegraph",
+      "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+      "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-22T05:28:43+00:00",
+      "summary": "Chainflip offered the attacker a 10% bounty to return 90% of the stolen funds by Nov. 23, promising to treat the return as a white-hat recovery and withdraw law enforcement complaints.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [
+          "recovery"
+        ],
+        "negative_hits": [
+          "hack",
+          "stolen"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "ai"
+      ]
+    },
     {
       "source": "The Block",
       "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
@@ -1616,33 +1639,6 @@
       },
       "coins": [],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BlackRock’s IBIT loses record $541M amid Anthropic market debut",
-      "url": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-20T08:18:42+00:00",
-      "summary": "BlackRock’s IBIT posted its largest daily outflow on record, taking three-session outflows near $900 million as BTC dipped amid a broader market selloff.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "loses",
-          "selloff"
-        ]
-      },
-      "coins": [
-        "BTC",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "pos"
-      ]
     }
   ]
 }
