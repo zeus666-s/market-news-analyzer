@@ -1,29 +1,25 @@
 {
-  "generated_at": "2026-11-22T16:04:10.240614+00:00",
+  "generated_at": "2026-11-23T00:38:38.173409+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "bearish",
-    "market_sentiment_score": -0.163,
+    "market_sentiment_score": -0.184,
     "label_distribution": {
-      "bullish": 6,
-      "neutral": 26,
-      "bearish": 38
+      "bearish": 39,
+      "neutral": 27,
+      "bullish": 4
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 27
+        "mentions": 26
       },
       {
         "coin": "OP",
-        "mentions": 22
+        "mentions": 20
       },
       {
         "coin": "ETH",
-        "mentions": 6
-      },
-      {
-        "coin": "SOL",
         "mentions": 6
       },
       {
@@ -31,11 +27,11 @@
         "mentions": 5
       },
       {
-        "coin": "Ethereum",
-        "mentions": 4
+        "coin": "SOL",
+        "mentions": 5
       },
       {
-        "coin": "Solana",
+        "coin": "Ethereum",
         "mentions": 3
       },
       {
@@ -47,22 +43,26 @@
         "mentions": 3
       },
       {
-        "coin": "LINK",
+        "coin": "BTC",
+        "mentions": 2
+      },
+      {
+        "coin": "Solana",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 24
+        "mentions": 25
       },
       {
         "topic": "pos",
-        "mentions": 19
+        "mentions": 18
       },
       {
         "topic": "sec",
-        "mentions": 16
+        "mentions": 15
       },
       {
         "topic": "exchange",
@@ -70,14 +70,10 @@
       },
       {
         "topic": "etf",
-        "mentions": 6
+        "mentions": 5
       },
       {
-        "topic": "exchanges",
-        "mentions": 4
-      },
-      {
-        "topic": "fed",
+        "topic": "bridge",
         "mentions": 4
       },
       {
@@ -85,16 +81,126 @@
         "mentions": 4
       },
       {
-        "topic": "bridge",
-        "mentions": 3
+        "topic": "exchanges",
+        "mentions": 4
       },
       {
         "topic": "miner",
+        "mentions": 3
+      },
+      {
+        "topic": "fed",
         "mentions": 3
       }
     ]
   },
   "articles": [
+    {
+      "source": "The Block",
+      "title": "A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge",
+      "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838",
+      "published_at": "2026-11-22T23:17:08+00:00",
+      "summary": "One trader managed to turn about $50 into nearly $17,700 in the wake of the exploit, according to The Block's analysis.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [
+          "leads"
+        ],
+        "negative_hits": [
+          "exploit"
+        ]
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "bridge"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-22T22:47:09+00:00",
+      "summary": "Bitcoin rebounds sharply from its new cycle low, but is $55,111 really the bottom? Ledger investigates new reports of tampered devices in Berlin and the UAE.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Trump to host second memecoin dinner tonight with TRUMP down 99% from peak",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
+      "published_at": "2026-11-22T20:58:33+00:00",
+      "summary": "Boxer Floyd Mayweather, \"Shark Tank\" investor Kevin O'Leary and NBA champion Tristan Thompson are scheduled to appear at the dinner.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "down",
+          "tank"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "memecoin",
+        "sec"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "More on the pending oversight hearings: State of Crypto",
+      "url": "https://www.coindesk.com/",
+      "published_at": "2026-11-22T19:30:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "The Block",
+      "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+      "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+      "published_at": "2026-11-22T18:58:57+00:00",
+      "summary": "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday.",
+      "sentiment": {
+        "score": -8,
+        "normalized": -1.0,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "losses",
+          "stolen",
+          "theft"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "topics": [
+        "ai",
+        "stablecoin"
+      ]
+    },
     {
       "source": "Cointelegraph",
       "title": "The future of onchain FX could start with users, not institutional liquidity",
@@ -403,7 +509,7 @@
     },
     {
       "source": "The Block",
-      "title": "Chainflip’s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+      "title": "Chainflip’s FLIP drops 34% after attacker drains $12 million from vaults with suspected key compromise",
       "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
       "published_at": "2026-11-21T15:24:14+00:00",
       "summary": "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data.",
@@ -443,6 +549,26 @@
         "Bitcoin",
         "ETH",
         "DOT",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
+      "url": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
+      "published_at": "2026-11-21T14:00:00+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
         "OP"
       ],
       "topics": [
@@ -1440,47 +1566,6 @@
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
-      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
-      "published_at": "2026-11-20T13:35:33+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "OP"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
-      "url": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
-      "published_at": "2026-11-20T13:30:22+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "pos",
-        "sec",
-        "wallet"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "Morning Minute: Anthropic IPO Pops, Sinks Markets",
       "url": "https://decrypt.co/383691/morning-minute-anthropic-ipo-pops-sinks-markets",
@@ -1501,30 +1586,6 @@
         "OP"
       ],
       "topics": []
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
-      "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-20T13:21:39+00:00",
-      "summary": "The ECB president said Europe’s market for tokenized securities could split into platforms that cannot settle trades with one another.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [
-        "UNI",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "sec"
-      ]
     },
     {
       "source": "The Block",
@@ -1550,34 +1611,6 @@
       ]
     },
     {
-      "source": "The Block",
-      "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
-      "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
-      "published_at": "2026-11-20T12:12:29+00:00",
-      "summary": "Ark Invest bought nearly 1 million Anthropic shares and trimmed its Ethereum and Solana staking ETF holdings.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH",
-        "Solana",
-        "SOL",
-        "Near",
-        "OP"
-      ],
-      "topics": [
-        "etf",
-        "staking"
-      ]
-    },
-    {
       "source": "Decrypt",
       "title": "MoonPay Applies for National Trust Bank Charter to Grow Custody and Stablecoin Business",
       "url": "https://decrypt.co/383688/moonpay-applies-for-national-trust-bank-charter-to-grow-custody-and-stablecoin-business",
@@ -1598,45 +1631,6 @@
         "fed",
         "stablecoin"
       ]
-    },
-    {
-      "source": "The Block",
-      "title": "MoonPay applies for national trust bank charter to expand stablecoin services",
-      "url": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
-      "published_at": "2026-11-20T10:39:09+00:00",
-      "summary": "MoonPay has applied for a national trust bank charter to expand its custody and stablecoin services under federal oversight.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "trust"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Senate passes ‘Death Bets Act’ to ban prediction market contracts tied to death and war",
-      "url": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200",
-      "published_at": "2026-11-20T10:09:25+00:00",
-      "summary": "The Death Bets Act, which now heads to the House, would ban prediction market contracts tied to death, terrorism, assassination, and war.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "ban"
-        ]
-      },
-      "coins": [],
-      "topics": []
     }
   ]
 }
