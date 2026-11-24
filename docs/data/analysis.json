@@ -1,127 +1,285 @@
 {
-  "generated_at": "2026-11-23T14:13:44.977823+00:00",
+  "generated_at": "2026-11-24T02:48:24.065727+00:00",
   "article_count": 70,
   "summary": {
     "market_sentiment_label": "neutral",
-    "market_sentiment_score": -0.046,
+    "market_sentiment_score": 0.023,
     "label_distribution": {
-      "bearish": 20,
-      "neutral": 35,
-      "bullish": 15
+      "bullish": 22,
+      "neutral": 33,
+      "bearish": 15
     },
     "top_coins": [
       {
         "coin": "Bitcoin",
-        "mentions": 30
+        "mentions": 36
       },
       {
         "coin": "OP",
-        "mentions": 11
+        "mentions": 21
+      },
+      {
+        "coin": "SOL",
+        "mentions": 9
       },
       {
         "coin": "BTC",
         "mentions": 8
       },
       {
-        "coin": "SOL",
-        "mentions": 6
-      },
-      {
         "coin": "ETH",
-        "mentions": 5
+        "mentions": 7
       },
       {
-        "coin": "FIL",
-        "mentions": 3
+        "coin": "Near",
+        "mentions": 7
       },
       {
-        "coin": "Solana",
-        "mentions": 3
+        "coin": "Binance",
+        "mentions": 4
       },
       {
         "coin": "Ethereum",
         "mentions": 3
       },
       {
-        "coin": "Near",
+        "coin": "LINK",
         "mentions": 3
       },
       {
-        "coin": "LINK",
+        "coin": "UNI",
         "mentions": 2
       }
     ],
     "top_topics": [
       {
         "topic": "ai",
-        "mentions": 29
+        "mentions": 22
       },
       {
         "topic": "pos",
-        "mentions": 16
+        "mentions": 14
       },
       {
         "topic": "sec",
-        "mentions": 16
-      },
-      {
-        "topic": "etf",
-        "mentions": 9
-      },
-      {
-        "topic": "wallet",
-        "mentions": 5
+        "mentions": 11
       },
       {
         "topic": "miner",
+        "mentions": 6
+      },
+      {
+        "topic": "cftc",
         "mentions": 4
       },
       {
-        "topic": "fed",
+        "topic": "wallet",
+        "mentions": 4
+      },
+      {
+        "topic": "lending",
         "mentions": 4
       },
       {
         "topic": "exchange",
-        "mentions": 4
-      },
-      {
-        "topic": "stablecoin",
         "mentions": 3
       },
       {
-        "topic": "exchanges",
+        "topic": "pow",
+        "mentions": 3
+      },
+      {
+        "topic": "etf",
         "mentions": 3
       }
     ]
   },
   "articles": [
     {
-      "source": "Decrypt",
-      "title": "Nvidia Reinstates Jensen Huang as CEO Days After Board Ruled Out His Return",
-      "url": "https://decrypt.co/383797/nvidia-reinstates-jensen-huang-as-ceo-days-after-board-ruled-out-his-return",
-      "published_at": "2026-11-23T14:07:21+00:00",
-      "summary": "The board said senior U.S. officials' input left it confident Huang's return poses no national security risk. Shares jumped 26% premarket.",
+      "source": "Cointelegraph",
+      "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
+      "url": "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-24T00:36:26+00:00",
+      "summary": "The foundation said its next upgrade will be harder than the Merge, and the required pace of development will make it easier to ship bugs.",
       "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Ethereum",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "sec"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "CFTC staff say bitcoin, ether can count toward derivatives firms’ operating expenses",
+      "url": "https://www.theblock.co/news/regulation/2026-11-23-cftc-staff-bitcoin-ether-count-toward-derivatives-firms-operating-expenses-445435",
+      "published_at": "2026-11-24T00:33:22+00:00",
+      "summary": "Staff at the CFTC issued an advisory saying certain regulated firms may count crypto such as bitcoin and ether toward operating costs.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
         "positive_hits": [],
-        "negative_hits": [
-          "risk"
-        ]
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "ai",
+        "cftc"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+      "url": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+      "published_at": "2026-11-24T00:25:04+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
       },
       "coins": [],
       "topics": [
+        "cftc"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
+      "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T23:43:34+00:00",
+      "summary": "The staff guidance allows Bitcoin, Ether and payment stablecoins to count towards operating reserves.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "ETH",
+        "OP"
+      ],
+      "topics": [
+        "cftc",
+        "exchange",
+        "exchanges",
+        "stablecoin"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "China's Z.ai Says Its New AI Model Can Think Like One Four Times Its Size",
+      "url": "https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size",
+      "published_at": "2026-11-23T23:06:02+00:00",
+      "summary": "GLM-5.4 uses a looping architecture to squeeze more reasoning power from fewer parameters, challenging the expensive approach favored by American AI giants.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
         "ai",
-        "pos",
-        "sec"
+        "pow"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Grayscale says bitcoin and major altcoins look ‘oversold’ as AI risks cloud near-term outlook",
+      "url": "https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418",
+      "published_at": "2026-11-23T22:18:02+00:00",
+      "summary": "Grayscale said bitcoin's drop to about $55,000 on Saturday made the current bear market its longest on record, at least 411 days.",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "bear",
+          "drop",
+          "risks"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "SOL",
+        "LTC",
+        "Near",
+        "OP"
+      ],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "Grayscale’s new 2x leveraged Zcash ETF takes 13% opening day tumble",
+      "url": "https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407",
+      "published_at": "2026-11-23T22:15:12+00:00",
+      "summary": "Grayscale’s ZECX debuted less than three months after its spot Zcash ETF began trading on NYSE Arca.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "etf"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "OpenAI Will Pay You Up to $8K to Preach the AI Gospel to Small Businesses",
+      "url": "https://decrypt.co/383848/openai-will-pay-8k-preach-ai-gospel-small-businesses",
+      "published_at": "2026-11-23T21:46:03+00:00",
+      "summary": "OpenAI wants local AI evangelists to bring ChatGPT to Main Street. Its new OpenWorks program pays up to $8,000 monthly, provided you can actually help businesses get things done locally.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "ai"
       ]
     },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T14:06:36+00:00",
+      "published_at": "2026-11-23T21:40:44+00:00",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "sentiment": {
         "score": 0,
@@ -142,10 +300,10 @@
     },
     {
       "source": "Bitcoin Magazine",
-      "title": "Strategy (MSTR) Adds 457 Bitcoin for $29.6 million",
-      "url": "https://bitcoinmagazine.com/news/strategy-mstr-adds-457-bitcoin",
-      "published_at": "2026-11-23T14:03:21+00:00",
-      "summary": "Bitcoin Magazine\n\nStrategy (MSTR) Adds 457 Bitcoin for $29.6 million\nStrategy bought 457 bitcoin for $29.6 million last week, lifting holdings to 851,305 BTC at an average cost of $75,446, an 8-K filing shows.\nThis post Strategy (MSTR) Adds 457 Bitcoin for $29.6 million first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "title": "“This Is An Excellent Entry Point” – UTXO’s Loren Asmus Gives Bitcoin Outlook",
+      "url": "https://bitcoinmagazine.com/videos/this-is-an-excellent-entry-point-utxos-loren-asmus-gives-bitcoin-outlook",
+      "published_at": "2026-11-23T21:30:11+00:00",
+      "summary": "&#9654;Bitcoin Magazine\n\n“This Is An Excellent Entry Point” &#8211; UTXO’s Loren Asmus Gives Bitcoin Outlook\nLoren Asmus of UTXO Management says Bitcoin's long-term case is intact after a brutal year for price.\nThis post “This Is An Excellent Entry Point” &#8211; UTXO’s Loren Asmus Gives Bitcoin Outlook first appeared on Bitcoin Magazine and is written by Patrick Green.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -154,151 +312,120 @@
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin",
-        "BTC",
-        "FIL"
+        "Bitcoin"
       ],
       "topics": [
         "pos"
       ]
     },
     {
-      "source": "The Block",
-      "title": "OKXICE launches tokenized securities venue with 113 assets confirmed for 24/7 trading",
-      "url": "https://www.theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898",
-      "published_at": "2026-11-23T14:01:02+00:00",
-      "summary": "The current lineup of issuers and asset managers includes eToro, Fidelity, Strive, BitGo, Circle, Coinbase, Robinhood, and Strategy.",
+      "source": "Decrypt",
+      "title": "Why One Math Proof Has AI Experts Warning Humans Might Soon Lose Control",
+      "url": "https://decrypt.co/383846/why-one-math-proof-ai-experts-warning-humans-lose-control",
+      "published_at": "2026-11-23T21:16:03+00:00",
+      "summary": "Alexandr Wang says Claude’s role in a verified Riemann Hypothesis proof signals a turning point, warning that powerful self-improving AI systems could advance faster than people can supervise them.",
       "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "OKX, ICE launch 113 tokenized assets despite issuer objections",
-      "url": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T14:00:00+00:00",
-      "summary": "The venture named Coinbase and Fidelity among the issuers and asset managers in the rollout after 67 companies objected to having their shares traded on the venue.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Pump.fun draws criticism over private key imports as it retires external wallet sign-in on web",
-      "url": "https://www.theblock.co/news/ecosystems/2026-11-23-pump-fun-draws-criticism-over-private-key-imports-as-it-retires-external-wallet-sign-in-on-web-444926",
-      "published_at": "2026-11-23T13:54:54+00:00",
-      "summary": "Pump.fun is retiring external web wallet logins and asking users to import private keys to keep existing wallet-linked accounts.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "LINK"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "title": "American Bitcoin (ABTC) Lands $150 Million Bitcoin-Backed Credit Line From FalconX",
-      "url": "https://bitcoinmagazine.com/news/american-bitcoin-150-million-credit",
-      "published_at": "2026-11-23T13:53:25+00:00",
-      "summary": "Bitcoin Magazine\n\nAmerican Bitcoin (ABTC) Lands $150 Million Bitcoin-Backed Credit Line From FalconX\nAmerican Bitcoin signed a two-year, $150 million revolving credit line with FalconX secured by its bitcoin, letting the Hut 8-backed miner raise cash without selling its reserve.\nThis post American Bitcoin (ABTC) Lands $150 Million Bitcoin-Backed Credit Line From FalconX first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [
-          "secured"
-        ],
-        "negative_hits": [
-          "selling"
-        ]
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "ai",
-        "miner",
-        "pos",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
-      "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
-      "published_at": "2026-11-23T13:49:44+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "sec"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trump-linked American Bitcoin secures $150M credit line from FalconX",
-      "url": "https://cointelegraph.com/news/trumps-american-bitcoin-rises-150m-credit-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T13:44:16+00:00",
-      "summary": "The miner can borrow against its Bitcoin to fund operations and expansion after selling about 465 BTC to cover expenses in the third quarter.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
+        "score": -2,
+        "normalized": -0.25,
         "label": "bearish",
         "positive_hits": [],
         "negative_hits": [
-          "selling"
+          "lose",
+          "warning"
         ]
       },
       "coins": [
-        "Bitcoin",
-        "BTC",
-        "LINK",
         "OP"
       ],
       "topics": [
         "ai",
-        "miner",
-        "sec"
+        "pow"
       ]
     },
     {
-      "source": "The Block",
-      "title": "Solo bitcoin miner beats the odds to win $191,000 block reward",
-      "url": "https://www.theblock.co/news/ecosystems/2026-11-23-solo-bitcoin-miner-beats-odds-wins-191000-block-reward-444919",
-      "published_at": "2026-11-23T13:37:02+00:00",
-      "summary": "A small-scale miner won a Bitcoin block reward despite operating a tiny fraction of the network's hashpower.",
+      "source": "Bitcoin Magazine",
+      "title": "Strive (ASST) Buys No Bitcoin Last Week, Holdings Stay at 43,404 BTC",
+      "url": "https://bitcoinmagazine.com/news/strive-asst-no-bitcoin-purchases-holdings",
+      "published_at": "2026-11-23T21:09:15+00:00",
+      "summary": "Bitcoin Magazine\n\nStrive (ASST) Buys No Bitcoin Last Week, Holdings Stay at 43,404 BTC\nStrive bought no bitcoin and sold no stock last week, leaving holdings at 43,404 BTC, its Monday 8-K shows. ASST shares traded near $15.55.\nThis post Strive (ASST) Buys No Bitcoin Last Week, Holdings Stay at 43,404 BTC first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 1,
+        "normalized": 0.125,
+        "label": "bullish",
+        "positive_hits": [
+          "buys"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
+        "SOL",
+        "Near"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
+      "url": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T21:04:03+00:00",
+      "summary": "US prosecutors are seeking control of stolen USDC, while Elliptic says hackers have moved $247 million through Bitcoin mixers.",
+      "sentiment": {
+        "score": -5,
+        "normalized": -0.625,
+        "label": "bearish",
+        "positive_hits": [
+          "recover"
+        ],
+        "negative_hits": [
+          "hack",
+          "stolen"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance",
+        "LINK"
+      ],
+      "topics": [
+        "sec",
+        "usdc"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin Price Fades Near $61,000 as Stocks Soar on Huang’s Return",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-fades-61000-huang",
+      "published_at": "2026-11-23T20:58:21+00:00",
+      "summary": "Bitcoin Magazine\n\nBitcoin Price Fades Near $61,000 as Stocks Soar on Huang&#8217;s Return\nThe bitcoin price gave back its Nvidia-fueled spike above $64,000 on Monday afternoon, slipping near $61,000 while stocks and crypto shares held big gains.\nThis post Bitcoin Price Fades Near $61,000 as Stocks Soar on Huang&#8217;s Return first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "gains",
+          "soar"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Kalshi secures temporary win in New York gambling law dispute",
+      "url": "https://cointelegraph.com/news/kalshi-temporary-win-new-york-gambling-law-dispute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T20:38:43+00:00",
+      "summary": "The ruling allows Kalshi to continue operating as its legal battle with New York over sports-related event contracts moves toward a January hearing.",
       "sentiment": {
         "score": 2,
         "normalized": 0.25,
@@ -309,110 +436,174 @@
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin",
-        "SOL",
         "OP"
       ],
       "topics": [
-        "miner",
-        "pow"
+        "sec"
       ]
     },
     {
       "source": "Decrypt",
-      "title": "Morning Minute: Crypto Rebounds after NVDA Drives Friday Selloff",
-      "url": "https://decrypt.co/383778/morning-minute-crypto-rebounds-after-nvda-drives-friday-selloff",
-      "published_at": "2026-11-23T13:34:13+00:00",
-      "summary": "The Nasdaq dropped 10% last week. Bitcoin lost 10% in a single day on Friday amidst cascading selloffs, though a relief rally is underway.",
+      "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
+      "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+      "published_at": "2026-11-23T20:36:02+00:00",
+      "summary": "Roughly a month after the $6.4 billion hack, Elliptic says nearly all of the coinjoin mixing was coordinated by one person who “refuses to block funds such as these.\"",
+      "sentiment": {
+        "score": -3,
+        "normalized": -0.375,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "hack"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "Binance",
+        "Near"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitcoin-Gold Ratio Signals Potential Bottom: What to Watch",
+      "url": "https://bitcoinmagazine.com/videos/bitcoin-gold-ratio-signals-potential-bottom-what-to-watch",
+      "published_at": "2026-11-23T20:30:12+00:00",
+      "summary": "&#9654;Bitcoin Magazine\n\nBitcoin-Gold Ratio Signals Potential Bottom: What to Watch\nSean Hagan revisits the Bitcoin-in-gold chart BMTV first ran in late September, when one Bitcoin bought about 19.\nThis post Bitcoin-Gold Ratio Signals Potential Bottom: What to Watch first appeared on Bitcoin Magazine and is written by Patrick Green.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "The Block",
+      "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
+      "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+      "published_at": "2026-11-23T20:00:34+00:00",
+      "summary": "The U.S. Justice Department is seeking to recover about $1.17 billion in USDC tied to the Oct. 29 Binance hack.",
       "sentiment": {
         "score": -2,
         "normalized": -0.25,
         "label": "bearish",
         "positive_hits": [
-          "rally"
+          "recover"
         ],
         "negative_hits": [
-          "dropped",
-          "lost",
-          "selloff"
+          "hack"
         ]
       },
       "coins": [
-        "Bitcoin",
-        "OP"
+        "Binance"
       ],
       "topics": [
-        "rwa"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Strategy buys 457 Bitcoin, spends $212M on preferred share buybacks",
-      "url": "https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T13:31:01+00:00",
-      "summary": "Strategy raised its preferred stock buyback limit to $4 billion and authorized the transfer of up to $1 billion from its dollar reserve.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "buys"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "AI agents are using credit cards. Where does that leave crypto?",
-      "url": "https://cointelegraph.com/magazine/ai-agents-are-using-credit-cards-where-does-that-leave-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T13:30:00+00:00",
-      "summary": "AI agents are already using credit cards to transact, raising questions about where crypto fits in the emerging agent economy.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai"
+        "usdc"
       ]
     },
     {
       "source": "Decrypt",
-      "title": "Strategy Buys $30M in Bitcoin, Moves $1B From USD Reserve to Cash Pot",
-      "url": "https://decrypt.co/383779/strategy-buys-30m-in-bitcoin-moves-1b-from-usd-reserve-to-cash-pot",
-      "published_at": "2026-11-23T13:25:35+00:00",
-      "summary": "Michael Saylor's firm raised its preferred stock buyback program to $4 billion after repurchasing another $212 million of STRC last week.",
+      "title": "Why Nvidia Needed Jensen Huang Back—And What His Return Really Changes",
+      "url": "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes",
+      "published_at": "2026-11-23T19:57:21+00:00",
+      "summary": "Huang's 11-day absence exposed the importance of his customer ties, influence in Washington and hold on Silicon Valley. The stock is soaring, but the comeback brings risks of its own.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
+      "url": "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T19:35:06+00:00",
+      "summary": "BTCS sold more than half its Ether holdings to reduce leverage following the market sell-off, while BitMine added another 7,819 ETH to its treasury.",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "sell-off"
+        ]
+      },
+      "coins": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "topics": [
+        "defi"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Base makes quantum security a 2027 priority as regulators warn of risks",
+      "url": "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T19:16:46+00:00",
+      "summary": "Base creator Jesse Pollak says the upcoming Everest upgrade will help prepare wallets for future quantum threats, although further changes will be needed.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [
+          "upgrade"
+        ],
+        "negative_hits": [
+          "risks"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "sec",
+        "wallet"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Grant Cardone: Bitcoin to 5x – MSTR So Cheap “You Have to Buy it”",
+      "url": "https://bitcoinmagazine.com/videos/grant-cardone-bitcoin-to-5x-mstr-so-cheap-you-have-to-buy-it",
+      "published_at": "2026-11-23T19:15:17+00:00",
+      "summary": "&#9654;Bitcoin Magazine\n\nGrant Cardone: Bitcoin to 5x &#8211; MSTR So Cheap “You Have to Buy it”\nGrant Cardone says Michael Saylor \"is hated, frankly, by the Bitcoin community that needs him,\" and predicts Saylor will be proven one of the smartest individual thinkers.\nThis post Grant Cardone: Bitcoin to 5x &#8211; MSTR So Cheap “You Have to Buy it” first appeared on Bitcoin Magazine and is written by Patrick Green.",
       "sentiment": {
         "score": 1,
         "normalized": 0.125,
         "label": "bullish",
         "positive_hits": [
-          "buys"
+          "buy"
         ],
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin"
+        "Bitcoin",
+        "UNI"
       ],
       "topics": [
-        "ai"
+        "pos"
       ]
     },
     {
-      "source": "Cointelegraph",
-      "title": "Critics of Netflix’s FTX drama point to Obama’s producer credit",
-      "url": "https://cointelegraph.com/news/netflix-ftx-scrutiny-obama-production-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T13:15:03+00:00",
-      "summary": "Series creator Graham Moore said he invented a scene in which Changpeng Zhao urges Alameda Research to trade ahead of FTX customers’ orders.",
+      "source": "Decrypt",
+      "title": "GPU Jesus Has Risen: Jensen Huang’s Nvidia Comeback Gets a Meme Parade",
+      "url": "https://decrypt.co/383820/jensen-huang-returns-nvidia-memes-gpu-jesus",
+      "published_at": "2026-11-23T18:45:21+00:00",
+      "summary": "Hollywood, WWE and GPU Jesus joined the celebration after Nvidia reinstated Jensen Huang on Monday, while viral AI memes cast Anthropic's Dario Amodei as the unlikely villain of the comeback.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -420,79 +611,87 @@
         "positive_hits": [],
         "negative_hits": []
       },
-      "coins": [],
+      "coins": [
+        "OP"
+      ],
       "topics": [
-        "ai",
-        "etf"
+        "ai"
       ]
     },
     {
       "source": "The Block",
-      "title": "‘The dots aren’t done,’ Michael Saylor says as Strategy buys another 457 BTC for $30 million",
-      "url": "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907",
-      "published_at": "2026-11-23T13:10:25+00:00",
-      "summary": "Strategy's latest acquisitions came during a week that saw bitcoin drop to its lowest level in over two years.",
+      "title": "CFTC prediction market rules advance to White House review amid state-federal jurisdiction fight",
+      "url": "https://www.theblock.co/news/regulation/2026-11-23-cftc-prediction-market-rules-advance-white-house-review-amid-state-federal-jurisdiction-fight-445384",
+      "published_at": "2026-11-23T18:30:09+00:00",
+      "summary": "A proposed set of rules by the CFTC to further assert its oversight of prediction markets is now with the White House for review.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
         "label": "neutral",
-        "positive_hits": [
-          "buys"
-        ],
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
+      ],
+      "topics": [
+        "cftc",
+        "fed",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Bitdeer Sells All 281 Bitcoin It Mined Last Week, Holds None",
+      "url": "https://bitcoinmagazine.com/news/bitdeer-sells-281-bitcoin-holds-none",
+      "published_at": "2026-11-23T18:30:00+00:00",
+      "summary": "Bitcoin Magazine\n\nBitdeer Sells All 281 Bitcoin It Mined Last Week, Holds None\nBitdeer mined 281.1 BTC last week and sold all of it, leaving the miner with no bitcoin of its own as of Nov. 20 while American Bitcoin borrows against its reserve instead.\nThis post Bitdeer Sells All 281 Bitcoin It Mined Last Week, Holds None first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
         "negative_hits": [
-          "drop"
+          "sells"
         ]
       },
       "coins": [
         "Bitcoin",
         "BTC",
-        "DOT",
+        "SOL"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "pos"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "New York judge declines to block Kalshi from operating in the state for now",
+      "url": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
+      "published_at": "2026-11-23T18:22:03+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": -2,
+        "normalized": -0.25,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "declines"
+        ]
+      },
+      "coins": [
         "OP"
       ],
       "topics": []
     },
     {
-      "source": "Decrypt",
-      "title": "Czech Authorities Charge 15 Over $12M Unlicensed Crypto Casino",
-      "url": "https://decrypt.co/383775/czech-authorities-charge-15-over-12m-unlicensed-crypto-casino",
-      "published_at": "2026-11-23T13:08:23+00:00",
-      "summary": "Investigators say \"decentralized\" casino BETFIN was run centrally, inflated its player numbers with bots and made $12 million illegally.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "etf"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Live updates: Nvidia shares surge 27% as Jensen Huang returns as CEO",
-      "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025",
-      "published_at": "2026-11-23T13:01:20+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 3,
-        "normalized": 0.375,
-        "label": "bullish",
-        "positive_hits": [
-          "surge"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": []
-    },
-    {
-      "source": "Decrypt",
-      "title": "Solana Meme Coin for Fiona the Hippo Raises $100K for Cincinnati Zoo Charity",
-      "url": "https://decrypt.co/383762/solana-meme-coin-for-fiona-the-hippo-sends-100k-to-cincinnati-zoo-charity",
-      "published_at": "2026-11-23T12:43:30+00:00",
-      "summary": "A meme coin honoring the Cincinnati Zoo's late pygmy hippo has sent its creator rewards to the zoo's nonprofit.",
+      "source": "Bitcoin Magazine",
+      "title": "Bitwise Head of Research: Did NVIDIA Just Ignite the Bitcoin Bull Market?",
+      "url": "https://bitcoinmagazine.com/videos/bitwise-head-of-research-did-nvidia-just-ignite-the-bitcoin-bull-market",
+      "published_at": "2026-11-23T18:21:13+00:00",
+      "summary": "&#9654;Bitcoin Magazine\n\nBitwise Head of Research: Did NVIDIA Just Ignite the Bitcoin Bull Market?\nRyan Rasmussen, Head of Research at Bitwise, joins Bitcoin Magazine TV as stocks and Bitcoin bounce on Jensen Huang's return to Nvidia.\nThis post Bitwise Head of Research: Did NVIDIA Just Ignite the Bitcoin Bull Market? first appeared on Bitcoin Magazine and is written by Patrick Green.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -501,18 +700,117 @@
         "negative_hits": []
       },
       "coins": [
-        "Solana",
+        "Bitcoin"
+      ],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds",
+      "url": "https://decrypt.co/383818/solo-bitcoin-miner-scores-again-191000-jackpot",
+      "published_at": "2026-11-23T18:16:25+00:00",
+      "summary": "The lone miner solved block 977057 through Solo CKPool, pocketing 3.13 BTC (worth about $191,000) in a lottery-like feat that normally only industrial-scale mining farms pull off.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin",
+        "BTC",
         "SOL"
+      ],
+      "topics": [
+        "ai",
+        "miner",
+        "mining"
+      ]
+    },
+    {
+      "source": "Decrypt",
+      "title": "Perps and Swaps: How to Trade the News on Decrypt",
+      "url": "https://decrypt.co/resources/perps-and-swaps-how-to-trade-the-news-on-decrypt",
+      "published_at": "2026-11-23T18:15:45+00:00",
+      "summary": "Decrypt readers can now swap tokens and trade perpetual futures from a single Money Account. Here's how The Information Exchange works.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": [
+        "exchange",
+        "futures"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+      "url": "https://www.coindesk.com/business/2026/11/23/nvidia-s-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
+      "published_at": "2026-11-23T18:12:05+00:00",
+      "summary": "",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
+      "url": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T17:42:18+00:00",
+      "summary": "Former New York Gov. Andrew Cuomo said competitors encouraged companies to opt out of OKXICE’s rollout, while some issuers simply wanted more time.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "OP"
       ],
       "topics": [
         "ai"
       ]
     },
     {
+      "source": "The Block",
+      "title": "Sky cofounder weighs SKY sale to repay $77 million as stUSDS pool runs dry",
+      "url": "https://www.theblock.co/news/defi/2026-11-23-sky-cofounder-weighs-sky-sale-repay-77-million-stusds-pool-runs-dry-445373",
+      "published_at": "2026-11-23T17:31:50+00:00",
+      "summary": "USDS held near $1 on Monday even as the separate stUSDS lending pool had no funds available for withdrawals.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": [
+        "ai",
+        "lending"
+      ]
+    },
+    {
       "source": "CoinDesk",
-      "title": "Bitcoin's losing streak is second-longest ever, and some observers see more downside",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/23/bitcoin-s-losing-streak-is-second-longest-ever-and-some-observers-see-more-downside",
-      "published_at": "2026-11-23T12:30:25+00:00",
+      "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
+      "published_at": "2026-11-23T17:31:27+00:00",
       "summary": "",
       "sentiment": {
         "score": -1,
@@ -527,118 +825,87 @@
         "Bitcoin"
       ],
       "topics": [
-        "sec"
+        "ai"
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
-      "url": "https://www.coindesk.com/markets/2026/11/23/ethereum-wallets-holding-usd72-billion-eth-are-under-threat-of-a-future-quantum-attack",
-      "published_at": "2026-11-23T12:13:35+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Ethereum",
-        "ETH"
-      ],
-      "topics": [
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Cross River Bank launches first bitcoin-backed loans with LendingUSA, offering up to $250,000",
-      "url": "https://www.theblock.co/news/deals/2026-11-23-lendingusa-cross-river-bitcoin-backed-loans-444842",
-      "published_at": "2026-11-23T12:05:02+00:00",
-      "summary": "LendingUSA and Cross River launch bitcoin-secured loans of $10,000 to $250,000 with 30%, 50% or 70% LTV, so borrowers can keep their BTC.",
-      "sentiment": {
-        "score": 2,
-        "normalized": 0.25,
-        "label": "bullish",
-        "positive_hits": [
-          "launch",
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC"
-      ],
-      "topics": [
-        "lending",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin rebounds from 2-year low as Wall Street futures recover",
-      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover",
-      "published_at": "2026-11-23T11:51:09+00:00",
-      "summary": "",
+      "source": "Decrypt",
+      "title": "Jensen Huang’s Wealth Rises $36 Billion as Nvidia Surge Burns Short Sellers for $12 Billion",
+      "url": "https://decrypt.co/383815/jensen-huang-fortune-37-billion-nvidia-soars-short-sellers-rekt",
+      "published_at": "2026-11-23T17:28:08+00:00",
+      "summary": "Nvidia shares jumped more than 33% after the board reinstated Huang 11 days post-resignation, adding over $36 billion to his fortune while dealing short sellers their worst single-day loss since at least 2019.",
       "sentiment": {
         "score": 1,
         "normalized": 0.125,
         "label": "bullish",
         "positive_hits": [
-          "recover"
+          "surge"
+        ],
+        "negative_hits": [
+          "loss"
+        ]
+      },
+      "coins": [],
+      "topics": [
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Solo Bitcoin Miner Wins $191,000 Block Reward With Just 11 TH/s",
+      "url": "https://bitcoinmagazine.com/news/solo-bitcoin-miner-191000-block-reward",
+      "published_at": "2026-11-23T17:25:00+00:00",
+      "summary": "Bitcoin Magazine\n\nSolo Bitcoin Miner Wins $191,000 Block Reward With Just 11 TH/s\nA solo miner with about 11.1 TH/s found Bitcoin block 977,057 through CKpool, collecting 3.1287 BTC. The CKpool developer put the odds at about 1 in 1,650 a year.\nThis post Solo Bitcoin Miner Wins $191,000 Block Reward With Just 11 TH/s first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "wins"
         ],
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin"
+        "Bitcoin",
+        "BTC",
+        "SOL",
+        "OP"
       ],
       "topics": [
-        "futures"
+        "miner",
+        "pos"
       ]
     },
     {
       "source": "Cointelegraph",
-      "title": "ECB to let banks pledge more tokenized securities as collateral",
-      "url": "https://cointelegraph.com/news/ecb-expands-eurosystem-collateral-tokenized-securities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T11:49:38+00:00",
-      "summary": "The ECB aims to start accepting securities issued on platforms licensed under the EU’s distributed ledger pilot program in June 2027.",
+      "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+      "url": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T16:51:17+00:00",
+      "summary": "Bitcoin price upside hit $64,500 as risk assets surged on Nvidia CEO Jensen Huang’s reinstatement, while crypto liquidations topped $500 million four hours.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
         "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": [
+          "liquidations",
+          "risk"
+        ]
       },
-      "coins": [],
-      "topics": [
-        "ai",
-        "sec"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Japan to ramp up crypto tax audits after uncovering $24.5 million in hidden income",
-      "url": "https://www.coindesk.com/business/2026/11/23/japan-to-ramp-up-crypto-tax-audits-after-uncovering-usd24-5-million-in-hidden-income",
-      "published_at": "2026-11-23T11:33:00+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
+      "coins": [
+        "Bitcoin",
+        "OP"
+      ],
       "topics": []
     },
     {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout",
-      "url": "https://www.coindesk.com/markets/2026/11/23/live-updates-bitcoin-climbs-back-above-usd61-000-as-stocks-rebound-from-ai-rout",
-      "published_at": "2026-11-23T11:29:09+00:00",
-      "summary": "",
+      "source": "Decrypt",
+      "title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
+      "url": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more",
+      "published_at": "2026-11-23T16:46:03+00:00",
+      "summary": "Chairman Tom Lee argued ETH’s supply has grown just 0.90% annually since mid-2025—roughly matching Bitcoin’s 0.82% and far below Solana, XRP and Cardano.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -647,89 +914,23 @@
         "negative_hits": []
       },
       "coins": [
-        "Bitcoin"
+        "Bitcoin",
+        "Ethereum",
+        "ETH",
+        "Solana",
+        "SOL",
+        "XRP",
+        "Cardano"
       ],
       "topics": [
         "ai"
       ]
     },
     {
-      "source": "The Block",
-      "title": "Visa launches experimental AI agent wallet for eligible US users to earn OUSD from paid tasks",
-      "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
-      "published_at": "2026-11-23T11:22:51+00:00",
-      "summary": "Visa is extending its agent verification infrastructure into paid work, allowing AI agents to earn OUSD via participating task marketplaces.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launches"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "BTC price gains 12% from $55K: Three things to know in Bitcoin this week",
-      "url": "https://cointelegraph.com/markets/btc-price-stock-futures-rebound-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T11:20:57+00:00",
-      "summary": "Nasdaq-100 futures rose 3.1% before Monday’s open, while Wednesday’s US inflation report could shape expectations for a December rate hike.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "gains"
-        ],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "BTC",
-        "OP"
-      ],
-      "topics": [
-        "ai",
-        "futures",
-        "inflation"
-      ]
-    },
-    {
-      "source": "Decrypt",
-      "title": "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low",
-      "url": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low",
-      "published_at": "2026-11-23T11:14:22+00:00",
-      "summary": "Bitcoin swung by more than $6,000 over the weekend as tech stocks slid and spot ETFs logged their biggest daily outflow since June.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "plunge"
-        ]
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": [
-        "ai",
-        "dai",
-        "etf",
-        "spot etf"
-      ]
-    },
-    {
       "source": "CoinDesk",
-      "title": "South Korea to expand cryptocurrency account freezes and curb illicit transfers abroad",
-      "url": "https://www.coindesk.com/policy/2026/11/23/south-korea-to-expand-cryptocurrency-account-freezes-and-curb-illicit-transfers-abroad",
-      "published_at": "2026-11-23T10:53:19+00:00",
+      "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+      "url": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
+      "published_at": "2026-11-23T16:39:03+00:00",
       "summary": "",
       "sentiment": {
         "score": 0,
@@ -739,133 +940,63 @@
         "negative_hits": []
       },
       "coins": [],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Bitcoin breaks a record streak of 'lower highs.' Here's what it means",
-      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-breaks-a-record-streak-of-lower-highs-here-s-what-it-means",
-      "published_at": "2026-11-23T10:31:02+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "South Korea to publish draft of comprehensive crypto legal framework this week",
-      "url": "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
-      "published_at": "2026-11-23T10:11:58+00:00",
-      "summary": "The draft is expected to include a licensing regime for crypto businesses and a bank-centered issuance system for local stablecoins.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Singapore’s OCBC, StraitsX launch pilot for cross-border business stablecoin payments",
-      "url": "https://www.theblock.co/news/business/2026-11-23-ocbc-straitsx-pilot-stablecoin-payments-444880",
-      "published_at": "2026-11-23T10:04:03+00:00",
-      "summary": "The setup uses StraitsX's infrastructure for onchain collection and compliance, while OCBC handles the fiat off-ramp.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "launch"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fiat",
-        "onchain",
-        "stablecoin"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/11/23/u-s-inflation-thanksgiving-trading-crypto-week-ahead",
-      "published_at": "2026-11-23T09:40:25+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "inflation"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "‘MoldyRoost’ ads can steal crypto wallet recovery phrases from iPhones",
-      "url": "https://cointelegraph.com/news/moldyroost-malware-drain-iphone-wallets-one-tap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T09:05:44+00:00",
-      "summary": "The campaign used at least 480 ad domains to target users in more than 47 countries and could infect a vulnerable iPhone with a single tap.",
-      "sentiment": {
-        "score": 1,
-        "normalized": 0.125,
-        "label": "bullish",
-        "positive_hits": [
-          "recovery"
-        ],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "wallet"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
-      "url": "https://cointelegraph.com/markets/bitcoin-etfs-third-largest-weekly-outflows-1-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T08:08:52+00:00",
-      "summary": "Bitcoin ETF outflows reached $4.14 billion in November through Friday, nearing June’s $4.51 billion total.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin",
-        "Near"
-      ],
       "topics": [
         "etf"
       ]
     },
     {
-      "source": "CoinDesk",
-      "title": "Crypto thieves are using online ads to infect iPhones with a single tap, research finds",
-      "url": "https://www.coindesk.com/tech/2026/11/23/moldyroost-malvertizing-campaign-uses-one-tap-iphone-hacks-to-hunt-crypto-wallet-keys-research-shows",
-      "published_at": "2026-11-23T07:45:30+00:00",
-      "summary": "",
+      "source": "Decrypt",
+      "title": "Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return",
+      "url": "https://decrypt.co/383801/bitcoin-rallies-anthropic-sinks-as-nvidia-surges-35-on-jensen-huangs-return",
+      "published_at": "2026-11-23T16:32:04+00:00",
+      "summary": "Nvidia’s comeback sent chip shares soaring and gave Bitcoin a lift after a punishing selloff. Anthropic, fresh from its record IPO, missed the party.",
+      "sentiment": {
+        "score": 4,
+        "normalized": 0.5,
+        "label": "bullish",
+        "positive_hits": [
+          "rallies",
+          "surges"
+        ],
+        "negative_hits": [
+          "selloff"
+        ]
+      },
+      "coins": [
+        "Bitcoin",
+        "UNI",
+        "OP"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
+      "url": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T16:23:37+00:00",
+      "summary": "The US bank is offering Bitcoin-backed loans ranging from $10,000 to $250,000 through LendingUSA, allowing borrowers to access cash without selling their holdings.",
+      "sentiment": {
+        "score": -1,
+        "normalized": -0.125,
+        "label": "bearish",
+        "positive_hits": [],
+        "negative_hits": [
+          "selling"
+        ]
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "lending"
+      ]
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "How market depth shapes the price of a weekend Bitcoin sale",
+      "url": "https://cointelegraph.com/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T15:57:55+00:00",
+      "summary": "Over 14 hours, Bitcoin traded on Kraken’s Canadian dollar market at an average 37.3% discount to a benchmark based on the exchange’s US dollar trades.",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -873,83 +1004,128 @@
         "positive_hits": [],
         "negative_hits": []
       },
-      "coins": [],
-      "topics": []
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "exchange"
+      ]
     },
     {
-      "source": "CoinDesk",
-      "title": "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack",
-      "url": "https://www.coindesk.com/markets/2026/11/23/this-swedish-bitcoin-treasury-firm-lost-30-btc-trading-part-of-its-own-stack",
-      "published_at": "2026-11-23T07:18:45+00:00",
-      "summary": "",
+      "source": "Bitcoin Magazine",
+      "title": "Nvidia Soars as Huang Returns, Lifting Stocks and Crypto Shares",
+      "url": "https://bitcoinmagazine.com/markets/nvidia-soars-huang-returns-crypto",
+      "published_at": "2026-11-23T15:50:22+00:00",
+      "summary": "Bitcoin Magazine\n\nNvidia Soars as Huang Returns, Lifting Stocks and Crypto Shares\nNvidia shares jumped about 35% on Monday after the board reinstated Jensen Huang as CEO, lifting the Nasdaq, chip stocks, bitcoin, Coinbase, Strategy and miners.\nThis post Nvidia Soars as Huang Returns, Lifting Stocks and Crypto Shares first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
       "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "lost"
-        ]
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "soars"
+        ],
+        "negative_hits": []
       },
       "coins": [
-        "Bitcoin",
-        "BTC"
+        "Bitcoin"
       ],
-      "topics": []
+      "topics": [
+        "miner",
+        "miners",
+        "pos"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "title": "Cross River Bank Launches Its First Bitcoin-Backed Loans With LendingUSA",
+      "url": "https://bitcoinmagazine.com/news/cross-river-bank-bitcoin-backed-loans",
+      "published_at": "2026-11-23T15:45:00+00:00",
+      "summary": "Bitcoin Magazine\n\nCross River Bank Launches Its First Bitcoin-Backed Loans With LendingUSA\nCross River Bank has launched its first bitcoin-backed loans with LendingUSA, offering $10,000 to $250,000 at 30%, 50% or 70% loan-to-value.\nThis post Cross River Bank Launches Its First Bitcoin-Backed Loans With LendingUSA first appeared on Bitcoin Magazine and is written by Micah Zimmerman.",
+      "sentiment": {
+        "score": 2,
+        "normalized": 0.25,
+        "label": "bullish",
+        "positive_hits": [
+          "launched",
+          "launches"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": [
+        "lending",
+        "pos"
+      ]
     },
     {
       "source": "The Block",
-      "title": "Ark buys $146 million in Anthropic shares last week, trims Ethereum and Solana Staking ETF holdings",
-      "url": "https://www.theblock.co/news/business/2026-11-23-ark-buys-146-million-worth-anthropic-since-debut-444866",
-      "published_at": "2026-11-23T07:12:52+00:00",
-      "summary": "Cathie Wood's Ark Invest has bought 1.64 million shares in Anthropic, worth $145.9 million, since its Thursday IPO.",
+      "title": "DeFi Development extends Solana buying streak to 11 straight weeks, SOL treasury hits 2.62 million",
+      "url": "https://www.theblock.co/news/markets/2026-11-23-defi-development-dfdv-solana-treasury-11-consecutive-weeks-444950",
+      "published_at": "2026-11-23T15:34:51+00:00",
+      "summary": "DeFi Development added about 5,180 SOL, lifting its Solana treasury to 2.62 million SOL in its 11th straight week of buying since Sept. 14.",
       "sentiment": {
         "score": 1,
         "normalized": 0.125,
         "label": "bullish",
         "positive_hits": [
-          "buys"
+          "buying"
         ],
         "negative_hits": []
       },
       "coins": [
-        "Ethereum",
-        "ETH",
         "Solana",
         "SOL",
         "OP"
       ],
       "topics": [
-        "etf",
-        "staking"
+        "ai",
+        "defi"
       ]
     },
     {
       "source": "CoinDesk",
-      "title": "Cardano holders are turning down a $4 million request for running its flagship event",
-      "url": "https://www.coindesk.com/markets/2026/11/23/cardano-holders-are-turning-down-a-usd4-million-request-for-running-its-flagship-event",
-      "published_at": "2026-11-23T06:15:45+00:00",
+      "title": "Binance hackers push $247 million through transactions designed to cloud the source",
+      "url": "https://www.coindesk.com/business/2026/11/23/binance-hackers-push-usd247-million-through-transactions-designed-to-cloud-the-source",
+      "published_at": "2026-11-23T15:29:01+00:00",
       "summary": "",
       "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
         "positive_hits": [],
-        "negative_hits": [
-          "down"
-        ]
+        "negative_hits": []
       },
       "coins": [
-        "Cardano"
+        "Binance"
       ],
       "topics": []
     },
     {
       "source": "The Block",
-      "title": "Spot bitcoin ETFs shed $1.8 billion in past week as outflows become ‘structural’: analysts",
-      "url": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
-      "published_at": "2026-11-23T05:47:21+00:00",
-      "summary": "Risk-averse investors are moving further away from crypto products as they expect the another interest rate hike in December, analysts said.",
+      "title": "Bitmine adds 7,819 ETH as Tom Lee makes the ‘hard money’ case",
+      "url": "https://www.theblock.co/news/business/2026-11-23-bitmine-adds-7819-eth-tom-lee-makes-hard-money-case-444948",
+      "published_at": "2026-11-23T15:02:41+00:00",
+      "summary": "Bitmine added 7,819 ETH over the past week, lifting its total holdings to 6,085,564 ETH, or 4.98% of the circulating supply.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "ETH"
+      ],
+      "topics": []
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
+      "url": "https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-bitcoin",
+      "published_at": "2026-11-23T15:02:32+00:00",
+      "summary": "",
       "sentiment": {
         "score": 0,
         "normalized": 0.0,
@@ -962,15 +1138,52 @@
       ],
       "topics": [
         "ai",
-        "etf",
-        "interest rate"
+        "sec"
       ]
     },
     {
+      "source": "The Block",
+      "title": "Bitcoin, crypto and tech stocks rally as Nvidia reinstates Jensen Huang as CEO; NVDA jumps 30%",
+      "url": "https://www.theblock.co/news/markets/2026-11-23-bitcoin-crypto-tech-stocks-rally-nvidia-reinstates-jensen-huang-ceo-nvda-jumps-444952",
+      "published_at": "2026-11-23T15:02:21+00:00",
+      "summary": "Ahead of the announcement, Polymarket put the odds of Huang rejoining Nvidia by the end of the year at just 10.5%.",
+      "sentiment": {
+        "score": 3,
+        "normalized": 0.375,
+        "label": "bullish",
+        "positive_hits": [
+          "rally"
+        ],
+        "negative_hits": []
+      },
+      "coins": [
+        "Bitcoin"
+      ],
+      "topics": []
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
+      "url": "https://cointelegraph.com/news/nvidia-reinstates-jensen-huang-ceo-intelligence-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-11-23T14:47:00+00:00",
+      "summary": "Nvidia shares surged nearly 29% after the company’s board reinstated Jensen Huang as CEO following consultations with the US government.",
+      "sentiment": {
+        "score": 0,
+        "normalized": 0.0,
+        "label": "neutral",
+        "positive_hits": [],
+        "negative_hits": []
+      },
+      "coins": [
+        "Near"
+      ],
+      "topics": []
+    },
+    {
       "source": "CoinDesk",
-      "title": "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
-      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-sold-for-usd17-000-on-kraken-s-canadian-dollar-market-and-the-trades-stand",
-      "published_at": "2026-11-23T05:42:22+00:00",
+      "title": "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed",
+      "url": "https://www.coindesk.com/opinion/2026/11/23/bitcoin-s-5-year-return-is-nearly-zero-great-narratives-are-fading-and-what-s-left-is-the-fed",
+      "published_at": "2026-11-23T14:43:18+00:00",
       "summary": "",
       "sentiment": {
         "score": 0,
@@ -981,179 +1194,10 @@
       },
       "coins": [
         "Bitcoin",
-        "SOL"
-      ],
-      "topics": []
-    },
-    {
-      "source": "CoinDesk",
-      "title": "Market rout kills 50 basis points December Fed rate hike bets",
-      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
-      "published_at": "2026-11-23T04:45:47+00:00",
-      "summary": "",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "fed"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
-      "url": "https://cointelegraph.com/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T03:37:20+00:00",
-      "summary": "In a Truth Social post on Monday, Trump said rehiring Jensen Huang would benefit both Nvidia and the US.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "pos"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
-      "url": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T02:47:39+00:00",
-      "summary": "Markets and economists widely expect the US Federal Reserve to raise interest rates by 25 basis points in its December meeting.",
-      "sentiment": {
-        "score": -1,
-        "normalized": -0.125,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "warns"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "fed",
-        "interest rate"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Half of wallets on Trump’s dinner list got tokens from non-US exchanges",
-      "url": "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-23T00:53:49+00:00",
-      "summary": "Public Citizen traced 66 of 130 qualifying wallets to exchanges that restrict US users, raising questions over who is attending Trump’s memecoin dinner on Sunday.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [],
-      "topics": [
-        "ai",
-        "exchange",
-        "exchanges",
-        "memecoin",
-        "wallet"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge",
-      "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838",
-      "published_at": "2026-11-22T23:17:08+00:00",
-      "summary": "One trader managed to turn about $50 into nearly $17,700 in the wake of the exploit, according to The Block's analysis.",
-      "sentiment": {
-        "score": -2,
-        "normalized": -0.25,
-        "label": "bearish",
-        "positive_hits": [
-          "leads"
-        ],
-        "negative_hits": [
-          "exploit"
-        ]
-      },
-      "coins": [
         "Near"
       ],
       "topics": [
-        "bridge"
-      ]
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
-      "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-11-22T22:47:09+00:00",
-      "summary": "Bitcoin rebounds sharply from its new cycle low, but is $55,111 really the bottom? Ledger investigates new reports of tampered devices in Berlin and the UAE.",
-      "sentiment": {
-        "score": 0,
-        "normalized": 0.0,
-        "label": "neutral",
-        "positive_hits": [],
-        "negative_hits": []
-      },
-      "coins": [
-        "Bitcoin"
-      ],
-      "topics": []
-    },
-    {
-      "source": "The Block",
-      "title": "Trump to host second memecoin dinner tonight with TRUMP down 99% from peak",
-      "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
-      "published_at": "2026-11-22T20:58:33+00:00",
-      "summary": "Boxer Floyd Mayweather, \"Shark Tank\" investor Kevin O'Leary and NBA champion Tristan Thompson are scheduled to appear at the dinner.",
-      "sentiment": {
-        "score": -3,
-        "normalized": -0.375,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "down",
-          "tank"
-        ]
-      },
-      "coins": [],
-      "topics": [
-        "memecoin",
-        "sec"
-      ]
-    },
-    {
-      "source": "The Block",
-      "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
-      "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
-      "published_at": "2026-11-22T18:58:57+00:00",
-      "summary": "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday.",
-      "sentiment": {
-        "score": -8,
-        "normalized": -1.0,
-        "label": "bearish",
-        "positive_hits": [],
-        "negative_hits": [
-          "losses",
-          "stolen",
-          "theft"
-        ]
-      },
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "topics": [
-        "ai",
-        "stablecoin"
+        "fed"
       ]
     }
   ]
